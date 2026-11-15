@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one self-contained, offline wiki HTML for Qaroshi Unified Standard 5.3.
+"""Build one self-contained, offline wiki HTML for Qaroshi Unified Release 14.
 
 The page is self-contained: assets, dictionary, corpus, metadata and reference
 chapters are embedded. No requests, CDN or service worker are needed.
@@ -26,7 +26,7 @@ for file,edition in chapter_docs:
   chapters.append({'id':str(n).zfill(2),'number':n,'title':title,'source':file,
                    'html':markdown(block),'plain':re.sub(r'[#*`|<>]+',' ',block)[:2100]})
 chapters.sort(key=lambda r:r['number'])
-assert [c['number'] for c in chapters]==list(range(1,71)),[c['number'] for c in chapters]
+assert [c['number'] for c in chapters]==list(range(1,91)),[c['number'] for c in chapters]
 guides={}
 study_index=json.loads((ROOT/'docs/deep_guides/guide_index.json').read_text(encoding='utf-8'))
 for item in study_index:
@@ -60,7 +60,7 @@ page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, deep learning guides, exercises, and native handwritten alphabet entirely offline.">
-<title>Qaroshi Wiki · Unified Standard 5.3</title>
+<title>Qaroshi Wiki · Unified Release 14</title>
 <script>{theme_js}</script><style>{css}</style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>

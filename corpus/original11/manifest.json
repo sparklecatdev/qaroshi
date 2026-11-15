@@ -1,0 +1,10 @@
+{
+  "authored_scenes": 49,
+  "turns": 294,
+  "qaroshi_tokens": 1263,
+  "unique_qaroshi_utterances": 198,
+  "unique_situation_ids": 49,
+  "attested_spontaneous_conversations": 0,
+  "english_field": "contextual editorial paraphrase; literal_translation is derived separately by the rule/reference engine",
+  "status": "editorial source texts, independently scripted scene outlines (not one rotated dialogue template); require human linguistic review"
+}

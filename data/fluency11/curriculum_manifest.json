@@ -1,0 +1,15 @@
+{
+  "dialogues": 49,
+  "dialogue_turns": 294,
+  "translation_pairs": 1572,
+  "questions": 472,
+  "by_level": {
+    "q1": 57,
+    "q2": 108,
+    "q3": 169,
+    "q4": 40,
+    "q5": 98
+  },
+  "original_utterance_provenance": "editorial distinct scene scripts; not spontaneous/attested",
+  "proficiency_status": "unofficial self-study only, no CEFR or formal accreditation"
+}

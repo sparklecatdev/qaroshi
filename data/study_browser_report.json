@@ -1,0 +1,27 @@
+{
+  "passed": 20,
+  "total": 20,
+  "checks": {
+    "Study link in sidebar": true,
+    "Study route loads": true,
+    "All 19 guides linked": true,
+    "16-lesson course prominently listed": true,
+    "Starter guide page has detailed sections": true,
+    "Starter guide uses IPA": true,
+    "Answer is an interactive disclosure": true,
+    "Answers hidden initially": true,
+    "Answers revealed": true,
+    "All 16 course lessons rendered": true,
+    "Course has 16 answer disclosures": true,
+    "Sentence atlas has 21 parses": true,
+    "Workbook opens and has answer key": true,
+    "Grammar links to deep guide": true,
+    "Original grammar chapter body remains": true,
+    "Learning grid stacks on mobile": true,
+    "Learning library does not overflow viewport": true,
+    "Course mobile remains navigable": true,
+    "Course page-level horizontal overflow absent": true,
+    "No uncaught browser errors": true
+  },
+  "errors": []
+}

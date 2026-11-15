@@ -1,0 +1,758 @@
+[
+  {
+    "id": "a-roost-after-rain",
+    "title": "A warm roost after rain",
+    "context": "An exhausted flier asks a friend for a safe place to rest.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi shërohi.",
+        "english": "I am tired.",
+        "ipa": "/suɾ mi ʃə.ˈɾo.hi/",
+        "sound_out": "soor mee shuh-ROH-hee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti naro-gu nëra-ki he?",
+        "english": "Can you stay at the home?",
+        "ipa": "/hə ti na.ˈɾo.ɡu nə.ˈɾa.ki he/",
+        "sound_out": "huh tee nah-ROH-goo nuh-RAH-kee heh?"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi naro-m nu hari.",
+        "english": "I do not have a home.",
+        "ipa": "/ʒeɾ mi ˈna.ɾom nu ˈha.ɾi/",
+        "sound_out": "zhehr mee NAH-rohm noo HAH-ree."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi naro-m hari.",
+        "english": "I have a home.",
+        "ipa": "/mə mi ˈna.ɾom ˈha.ɾi/",
+        "sound_out": "muh mee NAH-rohm HAH-ree."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m dëmi-ki he?",
+        "english": "Can you help me?",
+        "ipa": "/hə ti mim də.ˈmi.ki he/",
+        "sound_out": "huh tee meem duh-MEE-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi ti-m dëmi-yu.",
+        "english": "I will help you.",
+        "ipa": "/dal mi tim də.ˈmi.ju/",
+        "sound_out": "dahl mee teem duh-MEE-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I cherish your kindness.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest together.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo."
+      }
+    ]
+  },
+  {
+    "id": "the-unread-note",
+    "title": "An unread note",
+    "context": "A message was sent, but its intended recipient did not read it.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-na shiwaro-m shëliro-te he?",
+        "english": "Did you read my message?",
+        "ipa": "/hə ti ˈmi.na ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te he/",
+        "sound_out": "huh tee MEE-nah shee-WAH-rohm shuh-lee-ROH-teh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "lën mi nu shëliro-te.",
+        "english": "I did not read it.",
+        "ipa": "/lən mi nu ʃə.li.ˈɾo.te/",
+        "sound_out": "luhn mee noo shuh-lee-ROH-teh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi ti-m shiwaro-m shiwari-te.",
+        "english": "I sent you a message.",
+        "ipa": "/ʒeɾ mi tim ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "zhehr mee teem shee-WAH-rohm shee-wah-REE-teh."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shiwaro-m nu tika-te.",
+        "english": "I did not see the message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom nu ti.ˈka.te/",
+        "sound_out": "sehn mee shee-WAH-rohm noo tee-KAH-teh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shiwari-yu.",
+        "english": "I will send it.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I appreciate you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shiwaro-m shëliro-yu.",
+        "english": "I will read it.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-yoo."
+      }
+    ]
+  },
+  {
+    "id": "before-the-flight",
+    "title": "Before the flight",
+    "context": "A weather report changes a planned flight.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti lugoqa-m tika-te he?",
+        "english": "Did you see the weather?",
+        "ipa": "/hə ti lu.ˈɡo.qam ti.ˈka.te he/",
+        "sound_out": "huh tee loo-GOH-qahm tee-KAH-teh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi lushënga-m tika-te si.",
+        "english": "I saw the storm myself.",
+        "ipa": "/sen mi lu.ˈʃə.ŋam ti.ˈka.te si/",
+        "sound_out": "sehn mee loo-SHUH-ngahm tee-KAH-teh see."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "yë mi lushënga-m nu tika-te.",
+        "english": "I did not see the storm!",
+        "ipa": "/jə mi lu.ˈʃə.ŋam nu ti.ˈka.te/",
+        "sound_out": "yuh mee loo-SHUH-ngahm noo tee-KAH-teh."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor ti nu goro ya.",
+        "english": "Do not fly.",
+        "ipa": "/qoɾ ti nu ˈɡo.ɾo ja/",
+        "sound_out": "qohr tee noo GOH-roh yah."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m daru-ki he?",
+        "english": "Can you protect me?",
+        "ipa": "/hə ti mim da.ˈɾu.ki he/",
+        "sound_out": "huh tee meem dah-ROO-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi ti-m daru-yu.",
+        "english": "I will protect you.",
+        "ipa": "/dal mi tim da.ˈɾu.ju/",
+        "sound_out": "dahl mee teem dah-ROO-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi naro-lo nëru-yu.",
+        "english": "I will rest at home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më naru goro-yu, ro lugozu nu hari.",
+        "english": "We will fly when the storm is gone (literal: because there is no storm).",
+        "ipa": "/mə ˈna.ɾu ɡo.ˈɾo.ju, ɾo lu.ˈɡo.zu nu ˈha.ɾi/",
+        "sound_out": "muh NAH-roo goh-ROH-yoo, roh loo-GOH-zoo noo HAH-ree."
+      }
+    ]
+  },
+  {
+    "id": "permission-and-choice",
+    "title": "Permission and choice",
+    "context": "Two friends distinguish ability from permission.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ki he?",
+        "english": "Am I able to fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ki he/",
+        "sound_out": "huh mee goh-ROH-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ki.",
+        "english": "You are able to fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ki/",
+        "sound_out": "sehn tee goh-ROH-kee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ho he?",
+        "english": "Am I permitted to fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ho he/",
+        "sound_out": "huh mee goh-ROH-hoh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor ti nu goro-ho.",
+        "english": "You are not permitted to fly.",
+        "ipa": "/qoɾ ti nu ɡo.ˈɾo.ho/",
+        "sound_out": "qohr tee noo goh-ROH-hoh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shënoa-m nu hari.",
+        "english": "I have no choice.",
+        "ipa": "/ʒeɾ mi ʃə.ˈno.am nu ˈha.ɾi/",
+        "sound_out": "zhehr mee shuh-NOH-ahm noo HAH-ree."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më ti shënoa-m hari.",
+        "english": "You do have a choice.",
+        "ipa": "/mə ti ʃə.ˈno.am ˈha.ɾi/",
+        "sound_out": "muh tee shuh-NOH-ahm HAH-ree."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi naro-lo nëra-yu.",
+        "english": "I will stay at home.",
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.ju/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "Thank you; I care for you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      }
+    ]
+  },
+  {
+    "id": "a-faulty-device",
+    "title": "The broken device",
+    "context": "A repair request and the limits of a promise.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "rak shenaro shëmoa.",
+        "english": "The device is broken!",
+        "ipa": "/ɾak ʃe.ˈna.ɾo ʃə.ˈmo.a/",
+        "sound_out": "rahk sheh-NAH-roh shuh-MOH-ah."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shenaro-m rëgë-ki he?",
+        "english": "Can you repair the device?",
+        "ipa": "/hə ti ʃe.ˈna.ɾom ɾə.ˈɡə.ki he/",
+        "sound_out": "huh tee sheh-NAH-rohm ruh-GUH-kee heh?"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shenaro-m nu rëgë-ki.",
+        "english": "I cannot repair the device.",
+        "ipa": "/ʒeɾ mi ʃe.ˈna.ɾom nu ɾə.ˈɡə.ki/",
+        "sound_out": "zhehr mee sheh-NAH-rohm noo ruh-GUH-kee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m dëmi-ki he?",
+        "english": "Can you help me?",
+        "ipa": "/hə ti mim də.ˈmi.ki he/",
+        "sound_out": "huh tee meem duh-MEE-kee heh?"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "dal mi ti-m dëmi-yu.",
+        "english": "I will help you.",
+        "ipa": "/dal mi tim də.ˈmi.ju/",
+        "sound_out": "dahl mee teem duh-MEE-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I appreciate you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "qor mi namu-m hari.",
+        "english": "I have a promise.",
+        "ipa": "/qoɾ mi ˈna.mum ˈha.ɾi/",
+        "sound_out": "qohr mee NAH-moom HAH-ree."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen naru rawa wëmi-yu.",
+        "english": "We will work together.",
+        "ipa": "/sen ˈna.ɾu ˈɾa.wa wə.ˈmi.ju/",
+        "sound_out": "sehn NAH-roo RAH-wah wuh-MEE-yoo."
+      }
+    ]
+  },
+  {
+    "id": "a-careful-promise",
+    "title": "A careful promise",
+    "context": "A speaker refuses to make a guarantee beyond their knowledge.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m daru-yu he?",
+        "english": "Will you protect me?",
+        "ipa": "/hə ti mim da.ˈɾu.ju he/",
+        "sound_out": "huh tee meem dah-ROO-yoo heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care deeply about you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti namu-m hari he?",
+        "english": "Do you have a promise?",
+        "ipa": "/hə ti ˈna.mum ˈha.ɾi he/",
+        "sound_out": "huh tee NAH-moom HAH-ree heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi goro-yu ye.",
+        "english": "I may fly later; that is an inference.",
+        "ipa": "/ʒeɾ mi ɡo.ˈɾo.ju je/",
+        "sound_out": "zhehr mee goh-ROH-yoo yeh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you.",
+        "ipa": "/qoɾ mi tim da.ˈɾu.ju/",
+        "sound_out": "qohr mee teem dah-ROO-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "Thank you, I cherish you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo."
+      }
+    ]
+  },
+  {
+    "id": "reported-and-seen",
+    "title": "Reported or witnessed?",
+    "context": "A misunderstanding about the source of information.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m tika-te he?",
+        "english": "Did you see them?",
+        "ipa": "/hə ti sam ti.ˈka.te he/",
+        "sound_out": "huh tee sahm tee-KAH-teh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "I heard that they flew.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher ti sa-m nu tika-te.",
+        "english": "You did not see them.",
+        "ipa": "/ʒeɾ ti sam nu ti.ˈka.te/",
+        "sound_out": "zhehr tee sahm noo tee-KAH-teh."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m sharoa-te he?",
+        "english": "Did you ask them?",
+        "ipa": "/hə ti sam ʃa.ɾo.ˈa.te he/",
+        "sound_out": "huh tee sahm shah-roh-AH-teh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m sharoa-te si.",
+        "english": "I asked them myself.",
+        "ipa": "/sen mi sam ʃa.ɾo.ˈa.te si/",
+        "sound_out": "sehn mee sahm shah-roh-AH-teh see."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shiwaro-m shiwari-yu.",
+        "english": "I will send a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-yoo."
+      }
+    ]
+  },
+  {
+    "id": "a-small-apology",
+    "title": "A small apology",
+    "context": "One person acknowledges a misunderstanding and repairs the interaction.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "rak ti mi-na shiwaro-m nu shëliro-te.",
+        "english": "You did not read my message!",
+        "ipa": "/ɾak ti ˈmi.na ʃi.ˈwa.ɾom nu ʃə.li.ˈɾo.te/",
+        "sound_out": "rahk tee MEE-nah shee-WAH-rohm noo shuh-lee-ROH-teh."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "lën mi përë.",
+        "english": "I am sorry.",
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shëna-m nu hari.",
+        "english": "I do not have confidence.",
+        "ipa": "/ʒeɾ mi ˈʃə.nam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nahm noo HAH-ree."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi nëru-yu.",
+        "english": "I will take a break.",
+        "ipa": "/nəm mi nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nuh-ROO-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I appreciate you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      }
+    ]
+  },
+  {
+    "id": "a-shared-memory",
+    "title": "A shared memory",
+    "context": "Two friends decide which memories to write down.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti moru-m hari he?",
+        "english": "Do you have a memory?",
+        "ipa": "/hə ti ˈmo.ɾum ˈha.ɾi he/",
+        "sound_out": "huh tee MOH-room HAH-ree heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi moru-m hari.",
+        "english": "I have a memory.",
+        "ipa": "/mə mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "muh mee MOH-room HAH-ree."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti moru-m shiroli-ki he?",
+        "english": "Can you write down the memory?",
+        "ipa": "/hə ti ˈmo.ɾum ʃi.ɾo.ˈli.ki he/",
+        "sound_out": "huh tee MOH-room shee-roh-LEE-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi moru-m shiroli-yu.",
+        "english": "I will write the memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zha naru moru-m shëliro-yu.",
+        "english": "We will read the memory together!",
+        "ipa": "/ʒa ˈna.ɾu ˈmo.ɾum ʃə.li.ˈɾo.ju/",
+        "sound_out": "zhah NAH-roo MOH-room shuh-lee-ROH-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi shëliro-yu.",
+        "english": "I will read.",
+        "ipa": "/nəm mi ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm mee shuh-lee-ROH-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I appreciate you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      }
+    ]
+  },
+  {
+    "id": "an-unexpected-guest",
+    "title": "An unexpected guest",
+    "context": "A door opens to a visitor in need.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti naro-lo nëra he?",
+        "english": "Are you staying at the home?",
+        "ipa": "/hə ti na.ˈɾo.lo ˈnə.ɾa he/",
+        "sound_out": "huh tee nah-ROH-loh NUH-rah heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi naro-lo nëra.",
+        "english": "I am staying at home.",
+        "ipa": "/sen mi na.ˈɾo.lo ˈnə.ɾa/",
+        "sound_out": "sehn mee nah-ROH-loh NUH-rah."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi naro-gu nëra-ho he?",
+        "english": "May I stay at the home?",
+        "ipa": "/hə mi na.ˈɾo.ɡu nə.ˈɾa.ho he/",
+        "sound_out": "huh mee nah-ROH-goo nuh-RAH-hoh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më ti naro-gu nëra-ho.",
+        "english": "You may stay at the home.",
+        "ipa": "/mə ti na.ˈɾo.ɡu nə.ˈɾa.ho/",
+        "sound_out": "muh tee nah-ROH-goo nuh-RAH-hoh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti kima-m këmë-yu he?",
+        "english": "Will you drink water?",
+        "ipa": "/hə ti ˈki.mam kə.ˈmə.ju he/",
+        "sound_out": "huh tee KEE-mahm kuh-MUH-yoo heh?"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zha mi kima-m këmë-yu.",
+        "english": "Yes, I will drink water.",
+        "ipa": "/ʒa mi ˈki.mam kə.ˈmə.ju/",
+        "sound_out": "zhah mee KEE-mahm kuh-MUH-yoo."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo."
+      }
+    ]
+  },
+  {
+    "id": "the-student-asks",
+    "title": "The student asks",
+    "context": "A learner requests explanation before attempting an exercise.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m yarëmi-ki he?",
+        "english": "Can you teach me?",
+        "ipa": "/hə ti mim ja.ɾə.ˈmi.ki he/",
+        "sound_out": "huh tee meem yah-ruh-MEE-kee heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-m yarëmi-ki.",
+        "english": "I can teach you.",
+        "ipa": "/sen mi tim ja.ɾə.ˈmi.ki/",
+        "sound_out": "sehn mee teem yah-ruh-MEE-kee."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi shëno-m sharoa-ho he?",
+        "english": "May I ask a question?",
+        "ipa": "/hə mi ˈʃə.nom ʃa.ɾo.ˈa.ho he/",
+        "sound_out": "huh mee SHUH-nohm shah-roh-AH-hoh heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më ti shëno-m sharoa-ho.",
+        "english": "You may ask a question.",
+        "ipa": "/mə ti ˈʃə.nom ʃa.ɾo.ˈa.ho/",
+        "sound_out": "muh tee SHUH-nohm shah-roh-AH-hoh."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi nu rëmi.",
+        "english": "I am not learning.",
+        "ipa": "/ʒeɾ mi nu ˈɾə.mi/",
+        "sound_out": "zhehr mee noo RUH-mee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal ti rëmi-yu.",
+        "english": "You will learn.",
+        "ipa": "/dal ti ɾə.ˈmi.ju/",
+        "sound_out": "dahl tee ruh-MEE-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen naru rawa shëliro-yu.",
+        "english": "We will read together.",
+        "ipa": "/sen ˈna.ɾu ˈɾa.wa ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn NAH-roo RAH-wah shuh-lee-ROH-yoo."
+      }
+    ]
+  },
+  {
+    "id": "a-moment-of-grief",
+    "title": "A moment of grief",
+    "context": "A companion offers presence rather than an empty promise.",
+    "lines": [
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi moru-m hari.",
+        "english": "I have a memory.",
+        "ipa": "/suɾ mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "soor mee MOH-room HAH-ree."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shiri-ki he?",
+        "english": "Can you speak?",
+        "ipa": "/hə ti ʃi.ˈɾi.ki he/",
+        "sound_out": "huh tee shee-REE-kee heh?"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi nu shiri-ki.",
+        "english": "I cannot speak.",
+        "ipa": "/suɾ mi nu ʃi.ˈɾi.ki/",
+        "sound_out": "soor mee noo shee-REE-kee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "ipa": "/mə mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "muh mee TEE-wah nuh-RAH-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sëna nëra-yu he?",
+        "english": "Will you always stay?",
+        "ipa": "/hə ti ˈsə.na nə.ˈɾa.ju he/",
+        "sound_out": "huh tee SUH-nah nuh-RAH-yoo heh?"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor mi nënayaro ti-wa nëra-yu.",
+        "english": "I will stay with you today.",
+        "ipa": "/qoɾ mi nə.na.ˈja.ɾo ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "qohr mee nuh-nah-YAH-roh TEE-wah nuh-RAH-yoo."
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I care about you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee."
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo."
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "texts": 18,
+  "genres": {
+    "fictional narrative": 2,
+    "essay": 1,
+    "reflective essay": 2,
+    "philosophical essay": 1,
+    "literary fiction": 1,
+    "fictional report": 1,
+    "fictional arts dialogue retold as prose": 1,
+    "language-learning essay": 1,
+    "epistolary fiction": 1,
+    "analytical essay": 1,
+    "travel diary": 1,
+    "instructional essay": 1,
+    "discussion essay": 1,
+    "art essay": 1,
+    "short ethical essay": 1,
+    "fictional philosophical ending": 1
+  },
+  "sentences": 255,
+  "qaroshi_tokens": 1069,
+  "lexical_or_structure_errors": 0,
+  "unique_lines": 171,
+  "status": "original constructed editorial writing, not spontaneous speaker text"
+}

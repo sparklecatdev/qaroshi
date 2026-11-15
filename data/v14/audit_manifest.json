@@ -1,0 +1,35 @@
+{
+  "release": "14.0 language consistency - computational editorial review",
+  "source_corpus_rows": 689,
+  "legacy_flagged_rows": 103,
+  "translation_standalone_proposals": 42,
+  "manual_editorial_proposals": 28,
+  "scope_flagged_after_v14_rules": 13,
+  "translation_variant_clusters": 115,
+  "possible_discourse_repair_pairs": 0,
+  "idiom_candidates_reviewed_for_risk": 1000,
+  "idiom_priorities": {
+    "low": 546,
+    "medium": 14,
+    "high": 440
+  },
+  "idiom_culturally_approved": 0,
+  "sense_cards_reviewed_for_risk": 5000,
+  "sense_priorities": {
+    "medium": 712,
+    "high": 4079,
+    "low": 209
+  },
+  "sense_cards_independently_approved": 0,
+  "validation_rule_count": 20,
+  "new_findings_on_689": {
+    "R14-011": 4,
+    "R14-016": 1,
+    "R14-012": 4,
+    "R14-013": 5,
+    "R14-017": 5,
+    "R14-015": 6,
+    "R14-018": 1
+  },
+  "IMPORTANT": "Automatic review is structural and triage only: 0 independent speaker or semantic acceptances; no original language source was rewritten."
+}

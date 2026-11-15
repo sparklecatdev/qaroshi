@@ -1,0 +1,16 @@
+{
+  "sentences_audited": 689,
+  "dialogue_sentences": 434,
+  "anthology_sentences": 255,
+  "unique_qaroshi_sentences": 437,
+  "repeated_sentences": 252,
+  "rows_with_any_qa_flag": 103,
+  "flag_types": {
+    "grammar engine declined literal translation: contextual English not independently checked": 84,
+    "ability -ki may be omitted from English paraphrase": 14,
+    "permission -ho may be omitted from English paraphrase": 3,
+    "direct-observation evidential si not explicit in paraphrase": 4,
+    "negation not transparently reflected in contextual English": 5
+  },
+  "qa_status": "rule-based quality-risk hints only; no speaker/literary validation completed"
+}

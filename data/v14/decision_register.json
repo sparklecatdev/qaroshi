@@ -1,0 +1,182 @@
+[
+  {
+    "decision_id": "D14-01",
+    "interpretation": "A complete written independent sentence starts with one of the original 16 resonance markers",
+    "contrastive_example": "`sen mi goro.` vs `mi goro.`",
+    "source": "Original resonance chapter and 8.0 addendum",
+    "status": "Preserved written norm",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-02",
+    "interpretation": "A resonance expresses pragmatic stance, not the truth or evidential confidence of its proposition",
+    "contrastive_example": "`më mi goro.` vs `sen mi goro.`",
+    "source": "8.0 conversation guide",
+    "status": "Preserved editorial interpretation",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-03",
+    "interpretation": "In nominal morphology, plural `-ri` precedes case `-m`; case slots compete",
+    "contrastive_example": "`mara-ri-m` vs `mara-m-ri`",
+    "source": "8.0 grammar",
+    "status": "Preserved morphology",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-04",
+    "interpretation": "Verb voice, tense, aspect, modality, and optional manner are ordered slots",
+    "contrastive_example": "`goro-te-se` vs `goro-se-te`",
+    "source": "8.0 grammar",
+    "status": "Preserved morphology",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-05",
+    "interpretation": "Past `-te` and future `-yu` cannot be simultaneously stacked in one tense slot",
+    "contrastive_example": "`goro-te` vs `goro-te-yu`",
+    "source": "8.0 grammar",
+    "status": "Preserved morphology",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-06",
+    "interpretation": "Progressive `-se`, completive `-mo`, habitual `-në` compete within the aspect slot",
+    "contrastive_example": "`goro-te-se` vs `goro-se-mo`",
+    "source": "8.0 grammar",
+    "status": "Preserved morphology",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-07",
+    "interpretation": "Ability `-ki`, permission `-ho`, and obligation `-du` are *different meanings* and occupy one slot",
+    "contrastive_example": "`goro-ki` vs `goro-ho` vs `goro-du`",
+    "source": "8.0 grammar / 13.0 lexical profiles",
+    "status": "Preserved morphology and semantic distinction",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-08",
+    "interpretation": "A negator `nu` immediately preceding a predicate negates that predicate's proposition",
+    "contrastive_example": "`mi nu shiri` vs `mi shiri`",
+    "source": "8.0 grammar",
+    "status": "Preserved semantic rule",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-09",
+    "interpretation": "A polar question ends in `he`; a request/command uses `ya`, never both in one independent finite clause",
+    "contrastive_example": "`hë ti haro he?` vs `hë ti haro ya?`",
+    "source": "8.0 question guide",
+    "status": "Preserved written rule; context may distinguish requests",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-10",
+    "interpretation": "Direct observation `si`, reported `hu`, inferred `ye` indicate **information source**, not truth",
+    "contrastive_example": "`sa goro-te si` vs `sa goro-te hu`",
+    "source": "8.0 grammar / 13.0 pragmatics",
+    "status": "Preserved semantic distinction",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-11",
+    "interpretation": "An evidential is placed after the finite predicate, before a final question/request particle in a simple clause",
+    "contrastive_example": "`tika-te si he?` vs `tika-te he si?`",
+    "source": "8.0 grammar",
+    "status": "Editorial syntax specification; needs full quote-scope testing",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-12",
+    "interpretation": "Direct objects use `-m`, recipients `-tu`, companions `-wa`; one suffix cannot represent all these roles",
+    "contrastive_example": "`ti-tu kima-m pëli-yu` vs `ti-m kima-m pëli-yu`",
+    "source": "8.0 case chapter / 11.0 translation engine",
+    "status": "Preserved semantic roles; some ditransitive structures remain unreviewed",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-13",
+    "interpretation": "English *you* and *them* are not interchangeable when source explicitly marks `ti-wa`",
+    "contrastive_example": "`mi ti-wa nëra-yu` vs `mi sa-wa nëra-yu`",
+    "source": "Canonical pronoun reference",
+    "status": "Strong editorial correction candidate; review in discourse",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-14",
+    "interpretation": "A single sentence can be literally accurate but omit evidence, aspect, or interpersonal tone in a natural contextual translation",
+    "contrastive_example": "`sen mi goro-ki.` → “I can fly.” / “I can.” with prior context",
+    "source": "11.0 translator and 12.0 corpus",
+    "status": "Translation-policy interpretation",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-15",
+    "interpretation": "If an engine cannot parse a sentence, that does **not** establish the sentence is ungrammatical",
+    "contrastive_example": "`zher mi nu këmiro.` is a simple negative even when its English gloss is elliptical",
+    "source": "11.0 engine coverage audit",
+    "status": "Corrected audit policy",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-16",
+    "interpretation": "Contextually supplied quantifiers, extra motives, and added agents should be annotated separately from literal translation",
+    "contrastive_example": "“I will buy the book” vs “Possibly, but I want to ask something first”",
+    "source": "12.0 editorial corpus QA",
+    "status": "Review rule, not automatic source rewriting",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-17",
+    "interpretation": "Quoted independent sentences may have their own resonance; a random mid-clause marker does not start a new argument",
+    "contrastive_example": "Independent quote `“më mi ti-m nashi.”`",
+    "source": "8.0 quotation guide",
+    "status": "Editorial recommendation; full implementation pending",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-18",
+    "interpretation": "Conditionals `wë`, purpose `ko`, reasons `ro` and reports `do` delimit propositions whose scope can change truth conditions",
+    "contrastive_example": "“If X, Y” does not assert X",
+    "source": "8.0 scope/logic",
+    "status": "Preserved semantics; full formal parser pending",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-19",
+    "interpretation": "A negative followed by a positive claim in the same conversation might be a correction or update, not automatically a contradiction",
+    "contrastive_example": "“I didn't see it.” / “I did see it after looking again.”",
+    "source": "8.0 discourse guide",
+    "status": "Review-only discourse detection",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  },
+  {
+    "decision_id": "D14-20",
+    "interpretation": "Contextual paraphrases, and unapproved candidate idioms/sense notes, never silently overwrite canonical entries",
+    "contrastive_example": "All 30,000 dictionary entries retained",
+    "source": "Original source-preservation policy",
+    "status": "Explicit release quality requirement",
+    "speaker_ratified": false,
+    "human_reviewer": ""
+  }
+]

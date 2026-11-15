@@ -1,0 +1,24 @@
+{
+  "total_utterances": 301,
+  "dialogue_utterances": 186,
+  "passage_sentences": 115,
+  "dialogues": 22,
+  "passages": 13,
+  "unique_utterance_forms": 179,
+  "resonance_distribution": {
+    "hë": 67,
+    "sen": 123,
+    "më": 30,
+    "hol": 19,
+    "nëm": 25,
+    "qor": 8,
+    "zher": 11,
+    "zha": 8,
+    "dal": 3,
+    "lën": 1,
+    "sur": 3,
+    "rak": 2,
+    "wen": 1
+  },
+  "editorial_not_attested": true
+}

@@ -9,10 +9,10 @@ class LivingSpeechRelease(unittest.TestCase):
   with (ROOT/'data/lexicon.csv').open(encoding='utf8',newline='') as f: cls.words=list(csv.DictReader(f))
   with (ROOT/'corpus/parallel_sentences.csv').open(encoding='utf8',newline='') as f:cls.sentences=list(csv.DictReader(f))
   cls.new=[w for w in cls.words if w['id'].startswith('Q530')]
-  cls.old=[w for w in cls.words if not w['id'].startswith('Q530')]
+  cls.old=[w for w in cls.words if not w['id'].startswith(('Q530','Q60'))]
   cls.mature_domains={'Profanity, swearing and expletives','Explicit anatomy and reproductive health','Anatomy colloquialisms and sexual slang nouns','Vulgar verb senses and explicit slang'}
- def test_counts(self):self.assertEqual((len(self.words),len(self.new),len(self.sentences)),(18663,1931,3183))
- def test_stable_headwords(self):self.assertEqual(len({w['qaroshi'] for w in self.words}),18663)
+ def test_counts(self):self.assertEqual((len(self.words),len(self.new),len(self.sentences)),(30000,1931,4383))
+ def test_stable_headwords(self):self.assertEqual(len({w['qaroshi'] for w in self.words}),30000)
  def test_full_phonetics(self):
   for w in self.new:
    self.assertEqual(w['ipa'],ipa_word(w['qaroshi']))
@@ -42,8 +42,8 @@ class LivingSpeechRelease(unittest.TestCase):
  def test_academy_words_and_mature_flag(self):
   html=(ROOT/'Qaroshi_Academy.html').read_text(encoding='utf8')
   obj=json.loads(html.split('id="academy-data">',1)[1].split('</script>',1)[0])
-  self.assertEqual(len(obj['words']),18663)
-  self.assertEqual(len(obj['sentences']),3183)
+  self.assertEqual(len(obj['words']),30000)
+  self.assertEqual(len(obj['sentences']),4383)
   for w in obj['words']:
    if w[4] in self.mature_domains:self.assertEqual(w[8],True)
   js=(ROOT/'web/academy/academy.js').read_text()
@@ -55,7 +55,7 @@ class LivingSpeechRelease(unittest.TestCase):
   # tests still verify the preserved lexical IDs are all present in expanded tables.
   orig_ids={w['id'] for w in self.old}
   self.assertEqual(len(orig_ids),16732)
-  self.assertEqual(len([x for x in self.sentences if not x['id'].startswith('S530')]),3077)
+  self.assertEqual(len([x for x in self.sentences[:3183] if not x['id'].startswith('S530')]),3077)
   self.assertEqual(len(saved['sha256']),5)
  def test_json_csv_consistency(self):
   self.assertEqual(json.loads((ROOT/'data/lexicon.json').read_text()),self.words)

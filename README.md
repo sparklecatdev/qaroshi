@@ -1,3 +1,13 @@
+# Qaroshi Wiki · Release 14
+
+The wiki and Academy include 30,000 dictionary entries, 4,383 examples, and 90 grammar chapters. The [semantic workbench](Qaroshi_14_Semantic_Workbench.html) provides offline editorial review tools; its proposals are not community-ratified. See [release notes](RELEASE_14_NOTES.md).
+
+To rebuild the site, install Pillow and Mistune, then run `python3 tools/build_wiki.py` and `python3 tools/build_academy.py`.
+
+## Historical release notes
+
+The following describes the earlier 5.3 release; counts and version labels below are historical.
+
 # Qaroshi · Unified Standard Reference 5.3
 
 The Nardoragon language in one consolidated, offline-first reference, now with a significantly deeper learning library: **18,663 distinct dictionary entries**, **3,183 bilingual teaching sentences**, **70 numbered grammar chapters**, **16 mandatory written resonance markers**, and **the 26 original handwritten glyphs**.

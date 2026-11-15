@@ -1,0 +1,18 @@
+{
+  "editorial_figurative_candidates": 1000,
+  "figurative_families": 25,
+  "documented_source_sense_cards": 5000,
+  "controlled_dialogues": 1000,
+  "dialogue_turns": 26000,
+  "source_qaroshi_tokens": 123000,
+  "source": "previous canonical 30,000-entry dictionary and existing grammar",
+  "speaker_attested_figurative_phrases": 0,
+  "speaker_attested_dialogues": 0,
+  "human_review_status": "NOT REVIEWED: data created for structured learner exercises, not empirical evidence",
+  "known_limitations": [
+    "1,000 figurative entries vary 25 expression families with 40 anchors; count is not 1,000 independently conventionalized idioms",
+    "5,000 sense cards are automatically drafted from attested-in-reference headword glosses; may not be distinct senses",
+    "1,000 dialogue situations vary a twenty-six-turn teaching arc; not independent spontaneous conversations",
+    "100,000+ Qaroshi tokens are controlled dialogue, not the requested independently authored general corpus"
+  ]
+}

@@ -1,0 +1,3040 @@
+[
+  {
+    "id": "a-window-at-night",
+    "title": "A window at night",
+    "premise": "A watcher tries to decide if a distant light is a star or a warning",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi yami-lo sëra-m tika.",
+        "english": "I see a star at night.",
+        "literal_translation": "I see a star at a night.",
+        "ipa": "/nəm mi ja.ˈmi.lo ˈsə.ɾam ˈti.ka/",
+        "sound_out": "nuhm mee yah-MEE-loh SUH-rahm TEE-kah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti sëra-m tika-te si he?",
+        "english": "Did you see the star yourself?",
+        "literal_translation": "Did you see a star?",
+        "ipa": "/hə ti ˈsə.ɾam ti.ˈka.te si he/",
+        "sound_out": "huh tee SUH-rahm tee-KAH-teh see heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sëra-m tika-te si.",
+        "english": "Yes, I personally saw the star.",
+        "literal_translation": "I saw a star.",
+        "ipa": "/sen mi ˈsə.ɾam ti.ˈka.te si/",
+        "sound_out": "sehn mee SUH-rahm tee-KAH-teh see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi sëra-m nu tika-te.",
+        "english": "I did not see it.",
+        "literal_translation": "I did not see a star.",
+        "ipa": "/ʒeɾ mi ˈsə.ɾam nu ti.ˈka.te/",
+        "sound_out": "zhehr mee SUH-rahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/mə mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "muh mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen naru sëra-m tika-yu.",
+        "english": "We will look for the star together.",
+        "literal_translation": "We will see a star.",
+        "ipa": "/sen ˈna.ɾu ˈsə.ɾam ti.ˈka.ju/",
+        "sound_out": "sehn NAH-roo SUH-rahm tee-KAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-missing-message",
+    "title": "The missing message",
+    "premise": "One friend confuses sending a message with receiving it",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english": "I sent a message.",
+        "literal_translation": "I sent a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-tu shiwaro-m shiwari-te he?",
+        "english": "Did you send the message to me?",
+        "literal_translation": "Did you send a message to me?",
+        "ipa": "/hə ti ˈmi.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te he/",
+        "sound_out": "huh tee MEE-too shee-WAH-rohm shee-wah-REE-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-te.",
+        "english": "I sent it to you.",
+        "literal_translation": "I sent a message to you.",
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "lën mi shiwaro-m nu tika-te.",
+        "english": "I did not see the message.",
+        "literal_translation": "I did not see a message.",
+        "ipa": "/lən mi ʃi.ˈwa.ɾom nu ti.ˈka.te/",
+        "sound_out": "luhn mee shee-WAH-rohm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shiwari-yu.",
+        "english": "I will send it again.",
+        "literal_translation": "I will send a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thanks, I appreciate you.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "permission-to-leave",
+    "title": "Permission to leave",
+    "premise": "A young flier asks before departing a shared roost",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ho he?",
+        "english": "Am I permitted to fly?",
+        "literal_translation": "May i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ho he/",
+        "sound_out": "huh mee goh-ROH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ki.",
+        "english": "You are physically able to fly.",
+        "literal_translation": "You can fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ki/",
+        "sound_out": "sehn tee goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi goro-ho he?",
+        "english": "But am I permitted to fly?",
+        "literal_translation": "May i fly?",
+        "ipa": "/ʒeɾ mi ɡo.ˈɾo.ho he/",
+        "sound_out": "zhehr mee goh-ROH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor ti goro-ho.",
+        "english": "You have permission.",
+        "literal_translation": "You may fly.",
+        "ipa": "/qoɾ ti ɡo.ˈɾo.ho/",
+        "sound_out": "qohr tee goh-ROH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zha mi goro-yu.",
+        "english": "Then I will fly!",
+        "literal_translation": "I will fly.",
+        "ipa": "/ʒa mi ɡo.ˈɾo.ju/",
+        "sound_out": "zhah mee goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m daru-yu.",
+        "english": "I will keep you safe.",
+        "literal_translation": "I will protect you.",
+        "ipa": "/mə mi tim da.ˈɾu.ju/",
+        "sound_out": "muh mee teem dah-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-day-of-rest",
+    "title": "A day of rest",
+    "premise": "Two people choose rest rather than another journey",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti goro-yu he?",
+        "english": "Will you fly?",
+        "literal_translation": "Will you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ju he/",
+        "sound_out": "huh tee goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sur mi shërohi.",
+        "english": "I am tired.",
+        "literal_translation": "I am tired.",
+        "ipa": "/suɾ mi ʃə.ˈɾo.hi/",
+        "sound_out": "soor mee shuh-ROH-hee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti naro-lo nëru-yu he?",
+        "english": "Will you rest at home?",
+        "literal_translation": "Will you rest at a home?",
+        "ipa": "/hə ti na.ˈɾo.lo nə.ˈɾu.ju he/",
+        "sound_out": "huh tee nah-ROH-loh nuh-ROO-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi naro-lo nëru-yu.",
+        "english": "I will rest at home.",
+        "literal_translation": "I will rest at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/mə mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "muh mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for caring.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-borrowed-book",
+    "title": "A borrowed book",
+    "premise": "A friend wants to return a borrowed book after reading",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti shima-m shëliro-te he?",
+        "english": "Did you read the book?",
+        "literal_translation": "Did you read a book?",
+        "ipa": "/hə ti ˈʃi.mam ʃə.li.ˈɾo.te he/",
+        "sound_out": "huh tee SHEE-mahm shuh-lee-ROH-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english": "I read the book.",
+        "literal_translation": "I read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti shima-m hari he?",
+        "english": "Do you still have it?",
+        "literal_translation": "Do you have a book?",
+        "ipa": "/hə ti ˈʃi.mam ˈha.ɾi he/",
+        "sound_out": "huh tee SHEE-mahm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shima-m hari.",
+        "english": "I have the book.",
+        "literal_translation": "I have a book.",
+        "ipa": "/sen mi ˈʃi.mam ˈha.ɾi/",
+        "sound_out": "sehn mee SHEE-mahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi shima-m shëliro-yu.",
+        "english": "I would like to read the book.",
+        "literal_translation": "I will read a book.",
+        "ipa": "/mə mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "muh mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-tu shima-m pëli-yu.",
+        "english": "I will give it to you.",
+        "literal_translation": "I will give a book to you.",
+        "ipa": "/sen mi ˈti.tu ˈʃi.mam pə.ˈli.ju/",
+        "sound_out": "sehn mee TEE-too SHEE-mahm puh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "an-unwanted-journey",
+    "title": "An unwanted journey",
+    "premise": "A companion declines an invitation without giving an excuse",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa goro-yu he?",
+        "english": "Will you fly with me?",
+        "literal_translation": "Will you fly with me?",
+        "ipa": "/hə ti ˈmi.wa ɡo.ˈɾo.ju he/",
+        "sound_out": "huh tee MEE-wah goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi nu goro-yu.",
+        "english": "I am not going to fly.",
+        "literal_translation": "I will not fly.",
+        "ipa": "/sen mi nu ɡo.ˈɾo.ju/",
+        "sound_out": "sehn mee noo goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti shërohi he?",
+        "english": "Are you tired?",
+        "literal_translation": "Are you tired?",
+        "ipa": "/hə ti ʃə.ˈɾo.hi he/",
+        "sound_out": "huh tee shuh-ROH-hee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi nu shërohi.",
+        "english": "I am not tired.",
+        "literal_translation": "I am not tired.",
+        "ipa": "/sen mi nu ʃə.ˈɾo.hi/",
+        "sound_out": "sehn mee noo shuh-ROH-hee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi naro-lo nëra-yu.",
+        "english": "I will stay at home.",
+        "literal_translation": "I will stay at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾa.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "reported-flight",
+    "title": "A reported flight",
+    "premise": "A reporter distinguishes a witnessed event from a rumor",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti qaro-m tika-te he?",
+        "english": "Did you see the Nardoragon?",
+        "literal_translation": "Did you see a Nardoragon?",
+        "ipa": "/hə ti ˈqa.ɾom ti.ˈka.te he/",
+        "sound_out": "huh tee QAH-rohm tee-KAH-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "I heard they flew.",
+        "literal_translation": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher ti sa-m nu tika-te.",
+        "english": "You did not see them yourself.",
+        "literal_translation": "You did not see them.",
+        "ipa": "/ʒeɾ ti sam nu ti.ˈka.te/",
+        "sound_out": "zhehr tee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "I did not see them.",
+        "literal_translation": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m sharoa-yu he?",
+        "english": "Will you ask them?",
+        "literal_translation": "Will you ask them?",
+        "ipa": "/hə ti sam ʃa.ɾo.ˈa.ju he/",
+        "sound_out": "huh tee sahm shah-roh-AH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi sa-m sharoa-yu.",
+        "english": "I will ask them.",
+        "literal_translation": "I will ask them.",
+        "ipa": "/dal mi sam ʃa.ɾo.ˈa.ju/",
+        "sound_out": "dahl mee sahm shah-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-frightening-storm",
+    "title": "A frightening storm",
+    "premise": "A storm forces an immediate change in plans",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "khar mi lushënga-m tika.",
+        "english": "I see a storm!",
+        "literal_translation": "I see a storm.",
+        "ipa": "/xaɾ mi lu.ˈʃə.ŋam ˈti.ka/",
+        "sound_out": "khahr mee loo-SHUH-ngahm TEE-kah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti lushënga-m tika-te si he?",
+        "english": "Did you see it directly?",
+        "literal_translation": "Did you see a storm?",
+        "ipa": "/hə ti lu.ˈʃə.ŋam ti.ˈka.te si he/",
+        "sound_out": "huh tee loo-SHUH-ngahm tee-KAH-teh see heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi lushënga-m tika-te si.",
+        "english": "Yes, I witnessed it.",
+        "literal_translation": "I saw a storm.",
+        "ipa": "/sen mi lu.ˈʃə.ŋam ti.ˈka.te si/",
+        "sound_out": "sehn mee loo-SHUH-ngahm tee-KAH-teh see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor ti nu goro ya.",
+        "english": "Do not fly.",
+        "literal_translation": "Do not fly!",
+        "ipa": "/qoɾ ti nu ˈɡo.ɾo ja/",
+        "sound_out": "qohr tee noo GOH-roh yah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi naro-lo nëra-yu.",
+        "english": "I will stay home.",
+        "literal_translation": "I will stay at a home.",
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.ju/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We can rest together.",
+        "literal_translation": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-repair-promise",
+    "title": "The repair promise",
+    "premise": "Someone refuses to promise a repair they cannot perform",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "rak shenaro shëmoa.",
+        "english": "The device is broken!",
+        "literal_translation": "A device is broken.",
+        "ipa": "/ɾak ʃe.ˈna.ɾo ʃə.ˈmo.a/",
+        "sound_out": "rahk sheh-NAH-roh shuh-MOH-ah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shenaro-m rëgë-ki he?",
+        "english": "Can you repair it?",
+        "literal_translation": "Can you repair a device?",
+        "ipa": "/hə ti ʃe.ˈna.ɾom ɾə.ˈɡə.ki he/",
+        "sound_out": "huh tee sheh-NAH-rohm ruh-GUH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shenaro-m nu rëgë-ki.",
+        "english": "I cannot repair it.",
+        "literal_translation": "I cannot repair a device.",
+        "ipa": "/ʒeɾ mi ʃe.ˈna.ɾom nu ɾə.ˈɡə.ki/",
+        "sound_out": "zhehr mee sheh-NAH-rohm noo ruh-GUH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m dëmi-ki he?",
+        "english": "Can you help me otherwise?",
+        "literal_translation": "Can you help me?",
+        "ipa": "/hə ti mim də.ˈmi.ki he/",
+        "sound_out": "huh tee meem duh-MEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m dëmi-yu.",
+        "english": "I will help you.",
+        "literal_translation": "I will help you.",
+        "ipa": "/mə mi tim də.ˈmi.ju/",
+        "sound_out": "muh mee teem duh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for helping.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-small-lesson",
+    "title": "A small lesson",
+    "premise": "A teacher allows a learner to ask more questions",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi shëno-m sharoa-ho he?",
+        "english": "May I ask a question?",
+        "literal_translation": "May i ask a question?",
+        "ipa": "/hə mi ˈʃə.nom ʃa.ɾo.ˈa.ho he/",
+        "sound_out": "huh mee SHUH-nohm shah-roh-AH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më ti shëno-m sharoa-ho.",
+        "english": "You may ask.",
+        "literal_translation": "You may ask a question.",
+        "ipa": "/mə ti ˈʃə.nom ʃa.ɾo.ˈa.ho/",
+        "sound_out": "muh tee SHUH-nohm shah-roh-AH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m yarëmi-ki he?",
+        "english": "Can you teach me?",
+        "literal_translation": "Can you teach me?",
+        "ipa": "/hə ti mim ja.ɾə.ˈmi.ki he/",
+        "sound_out": "huh tee meem yah-ruh-MEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-m yarëmi-ki.",
+        "english": "I can teach you.",
+        "literal_translation": "I can teach you.",
+        "ipa": "/sen mi tim ja.ɾə.ˈmi.ki/",
+        "sound_out": "sehn mee teem yah-ruh-MEE-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi rëmi-yu.",
+        "english": "I will learn.",
+        "literal_translation": "I will learn.",
+        "ipa": "/sen mi ɾə.ˈmi.ju/",
+        "sound_out": "sehn mee ruh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "rëm mi ti-m daru-yu.",
+        "english": "I will support your learning.",
+        "literal_translation": "I will protect you.",
+        "ipa": "/ɾəm mi tim da.ˈɾu.ju/",
+        "sound_out": "ruhm mee teem dah-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-late-apology",
+    "title": "The late apology",
+    "premise": "A reply comes after the hurt has already happened",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shiwaro-m nu tika-te.",
+        "english": "I did not see the message.",
+        "literal_translation": "I did not see a message.",
+        "ipa": "/ʒeɾ mi ʃi.ˈwa.ɾom nu ti.ˈka.te/",
+        "sound_out": "zhehr mee shee-WAH-rohm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "rak ti mi-m nu shiroawe.",
+        "english": "You did not listen to me!",
+        "literal_translation": "You do not listen to me.",
+        "ipa": "/ɾak ti mim nu ʃi.ɾo.ˈa.we/",
+        "sound_out": "rahk tee meem noo shee-roh-AH-weh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "lën mi përë.",
+        "english": "I am sorry.",
+        "literal_translation": "I apologize.",
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sur mi nu haro.",
+        "english": "I am not well.",
+        "literal_translation": "I am not well.",
+        "ipa": "/suɾ mi nu ˈha.ɾo/",
+        "sound_out": "soor mee noo HAH-roh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "literal_translation": "I will listen to you.",
+        "ipa": "/mə mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "muh mee teem shee-roh-ah-WEH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi nëru-yu.",
+        "english": "I need to rest now.",
+        "literal_translation": "I will rest.",
+        "ipa": "/nəm mi nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "two-kinds-of-we",
+    "title": "Two kinds of we",
+    "premise": "A speaker clarifies whether the listener is included",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "zha naru goro-yu.",
+        "english": "We, including you, will fly!",
+        "literal_translation": "We will fly.",
+        "ipa": "/ʒa ˈna.ɾu ɡo.ˈɾo.ju/",
+        "sound_out": "zhah NAH-roo goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë mi goro-yu he?",
+        "english": "Will I fly?",
+        "literal_translation": "Will i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ju he/",
+        "sound_out": "huh mee goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen naru goro-yu.",
+        "english": "Yes, we will fly together.",
+        "literal_translation": "We will fly.",
+        "ipa": "/sen ˈna.ɾu ɡo.ˈɾo.ju/",
+        "sound_out": "sehn NAH-roo goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher muru goro-yu.",
+        "english": "We will fly without including you, although I sound uncertain.",
+        "literal_translation": "We will fly.",
+        "ipa": "/ʒeɾ ˈmu.ɾu ɡo.ˈɾo.ju/",
+        "sound_out": "zhehr MOO-roo goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-wa goro-yu.",
+        "english": "I will fly with you.",
+        "literal_translation": "I will fly with you.",
+        "ipa": "/mə mi ˈti.wa ɡo.ˈɾo.ju/",
+        "sound_out": "muh mee TEE-wah goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-thirsty-flyer",
+    "title": "A thirsty flyer",
+    "premise": "A flier asks for water before discussing anything else",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi-na gëro dërawa.",
+        "english": "My throat is dry.",
+        "literal_translation": "My throat is dry.",
+        "ipa": "/sen ˈmi.na ˈɡə.ɾo də.ˈɾa.wa/",
+        "sound_out": "sehn MEE-nah GUH-roh duh-RAH-wah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti kima-m këmë-yu he?",
+        "english": "Will you drink some water?",
+        "literal_translation": "Will you drink water?",
+        "ipa": "/hə ti ˈki.mam kə.ˈmə.ju he/",
+        "sound_out": "huh tee KEE-mahm kuh-MUH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi kima-m këmë-yu.",
+        "english": "I will drink water.",
+        "literal_translation": "I will drink water.",
+        "ipa": "/sen mi ˈki.mam kə.ˈmə.ju/",
+        "sound_out": "sehn mee KEE-mahm kuh-MUH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-tu kima-m pëli-yu.",
+        "english": "I will give you water.",
+        "literal_translation": "I will give water to you.",
+        "ipa": "/mə mi ˈti.tu ˈki.mam pə.ˈli.ju/",
+        "sound_out": "muh mee TEE-too KEE-mahm puh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for the kindness.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you feeling better?",
+        "literal_translation": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "choosing-a-boundary",
+    "title": "Choosing a boundary",
+    "premise": "A visitor accepts someone else’s limits",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi naro-gu nëra-ho he?",
+        "english": "May I stay here?",
+        "literal_translation": "May i stay toward a home?",
+        "ipa": "/hə mi na.ˈɾo.ɡu nə.ˈɾa.ho he/",
+        "sound_out": "huh mee nah-ROH-goo nuh-RAH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti naro-gu nëra-ho.",
+        "english": "You may stay here.",
+        "literal_translation": "You may stay toward a home.",
+        "ipa": "/sen ti na.ˈɾo.ɡu nə.ˈɾa.ho/",
+        "sound_out": "sehn tee nah-ROH-goo nuh-RAH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi ti-m sharoa-ho he?",
+        "english": "May I ask you a question?",
+        "literal_translation": "May i ask you?",
+        "ipa": "/hə mi tim ʃa.ɾo.ˈa.ho he/",
+        "sound_out": "huh mee teem shah-roh-AH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi nu shiri-yu.",
+        "english": "I will not talk right now.",
+        "literal_translation": "I will not speak.",
+        "ipa": "/sen mi nu ʃi.ˈɾi.ju/",
+        "sound_out": "sehn mee noo shee-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi nëru-yu.",
+        "english": "I will rest instead.",
+        "literal_translation": "I will rest.",
+        "ipa": "/nəm mi nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "Thank you for respecting my boundary.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-star-and-the-sky",
+    "title": "The star and the sky",
+    "premise": "A learner mistakes two different words while reading",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sëra-m shiroli-te.",
+        "english": "I wrote the word star.",
+        "literal_translation": "I wrote a star.",
+        "ipa": "/sen mi ˈsə.ɾam ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee SUH-rahm shee-roh-LEE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti wena-m shiroli-te he?",
+        "english": "Did you write sky?",
+        "literal_translation": "Did you write the sky?",
+        "ipa": "/hə ti ˈwe.nam ʃi.ɾo.ˈli.te he/",
+        "sound_out": "huh tee WEH-nahm shee-roh-LEE-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi wena-m nu shiroli-te.",
+        "english": "I did not write sky.",
+        "literal_translation": "I did not write the sky.",
+        "ipa": "/sen mi ˈwe.nam nu ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee WEH-nahm noo shee-roh-LEE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi shëno-m hari.",
+        "english": "I have a question.",
+        "literal_translation": "I have a question.",
+        "ipa": "/ʒeɾ mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sëra-m tika-te.",
+        "english": "I saw a star.",
+        "literal_translation": "I saw a star.",
+        "ipa": "/sen mi ˈsə.ɾam ti.ˈka.te/",
+        "sound_out": "sehn mee SUH-rahm tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi wena-m tika-te.",
+        "english": "I saw the sky.",
+        "literal_translation": "I saw the sky.",
+        "ipa": "/sen mi ˈwe.nam ti.ˈka.te/",
+        "sound_out": "sehn mee WEH-nahm tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-warm-message",
+    "title": "A warm message",
+    "premise": "Someone writes affection without making a demand",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "lën mi shëna-m hari.",
+        "english": "I trust you.",
+        "literal_translation": "I have trust.",
+        "ipa": "/lən mi ˈʃə.nam ˈha.ɾi/",
+        "sound_out": "luhn mee SHUH-nahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-tu shiwaro-m shiwari-yu.",
+        "english": "I will send you a message.",
+        "literal_translation": "I will send a message to you.",
+        "ipa": "/mə mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "muh mee TEE-too shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m shëliro-yu he?",
+        "english": "Will you read with me?",
+        "literal_translation": "Will you read me?",
+        "ipa": "/hə ti mim ʃə.li.ˈɾo.ju he/",
+        "sound_out": "huh tee meem shuh-lee-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zha naru shima-m shëliro-yu.",
+        "english": "We will read a book together!",
+        "literal_translation": "We will read a book.",
+        "ipa": "/ʒa ˈna.ɾu ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "zhah NAH-roo SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "Then we will rest.",
+        "literal_translation": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-unfinished-answer",
+    "title": "The unfinished answer",
+    "premise": "A speaker corrects a too-confident prediction",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë sa goro-yu he?",
+        "english": "Will they fly?",
+        "literal_translation": "Will they fly?",
+        "ipa": "/hə sa ɡo.ˈɾo.ju he/",
+        "sound_out": "huh sah goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen sa goro-yu hu.",
+        "english": "I heard that they will fly.",
+        "literal_translation": "They will fly.",
+        "ipa": "/sen sa ɡo.ˈɾo.ju hu/",
+        "sound_out": "sehn sah goh-ROH-yoo hoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher sa goro-yu ye.",
+        "english": "I infer that they will fly, without first-hand evidence.",
+        "literal_translation": "They will fly.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.ju je/",
+        "sound_out": "zhehr sah goh-ROH-yoo yeh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "I did not see them.",
+        "literal_translation": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m sharoa-yu he?",
+        "english": "Will you ask them?",
+        "literal_translation": "Will you ask them?",
+        "ipa": "/hə ti sam ʃa.ɾo.ˈa.ju he/",
+        "sound_out": "huh tee sahm shah-roh-AH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi sa-m sharoa-yu.",
+        "english": "I will ask them.",
+        "literal_translation": "I will ask them.",
+        "ipa": "/dal mi sam ʃa.ɾo.ˈa.ju/",
+        "sound_out": "dahl mee sahm shah-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "an-empty-roost",
+    "title": "An empty roost",
+    "premise": "A traveler learns that a building can be different from belonging",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi naro-m tika-te.",
+        "english": "I saw a home.",
+        "literal_translation": "I saw a home.",
+        "ipa": "/sen mi ˈna.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee NAH-rohm tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti naro-m hari he?",
+        "english": "Do you have a home?",
+        "literal_translation": "Do you have a home?",
+        "ipa": "/hə ti ˈna.ɾom ˈha.ɾi he/",
+        "sound_out": "huh tee NAH-rohm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi naro-m nu hari.",
+        "english": "I do not have a home.",
+        "literal_translation": "I do not have a home.",
+        "ipa": "/suɾ mi ˈna.ɾom nu ˈha.ɾi/",
+        "sound_out": "soor mee NAH-rohm noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi runa-m hari.",
+        "english": "I have a chosen family.",
+        "literal_translation": "I have chosen family.",
+        "ipa": "/mə mi ˈɾu.nam ˈha.ɾi/",
+        "sound_out": "muh mee ROO-nahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m dëmi-ki he?",
+        "english": "Can you help me?",
+        "literal_translation": "Can you help me?",
+        "ipa": "/hə ti mim də.ˈmi.ki he/",
+        "sound_out": "huh tee meem duh-MEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi ti-m dëmi-yu.",
+        "english": "I will help you.",
+        "literal_translation": "I will help you.",
+        "ipa": "/dal mi tim də.ˈmi.ju/",
+        "sound_out": "dahl mee teem duh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "memory-on-paper",
+    "title": "Memory on paper",
+    "premise": "A story is recorded so a friend can read it later",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m hari.",
+        "english": "I have a memory.",
+        "literal_translation": "I have a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti moru-m shiroli-ki he?",
+        "english": "Can you write it down?",
+        "literal_translation": "Can you write a memory?",
+        "ipa": "/hə ti ˈmo.ɾum ʃi.ɾo.ˈli.ki he/",
+        "sound_out": "huh tee MOH-room shee-roh-LEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m shiroli-yu.",
+        "english": "I will write the memory.",
+        "literal_translation": "I will write a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shima-m shëliro-yu.",
+        "english": "I will read the book.",
+        "literal_translation": "I will read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for trusting me.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-wrong-inference",
+    "title": "The wrong inference",
+    "premise": "A listener confuses a report with an observation",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "I was told they flew.",
+        "literal_translation": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti sa-m tika-te si he?",
+        "english": "Did you see them personally?",
+        "literal_translation": "Did you see them?",
+        "ipa": "/hə ti sam ti.ˈka.te si he/",
+        "sound_out": "huh tee sahm tee-KAH-teh see heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "I did not see them.",
+        "literal_translation": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi shëna-m nu hari.",
+        "english": "I am not confident.",
+        "literal_translation": "I do not have trust.",
+        "ipa": "/ʒeɾ mi ˈʃə.nam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nahm noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sa-m sharoa-yu.",
+        "english": "I will ask them.",
+        "literal_translation": "I will ask them.",
+        "ipa": "/sen mi sam ʃa.ɾo.ˈa.ju/",
+        "sound_out": "sehn mee sahm shah-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi shiwaro-m shëliro-yu.",
+        "english": "I will read the answer.",
+        "literal_translation": "I will read a message.",
+        "ipa": "/nəm mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm mee shee-WAH-rohm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-friendly-question",
+    "title": "A friendly question",
+    "premise": "An invitation becomes an opportunity to choose freely",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa nëru-yu he?",
+        "english": "Will you rest with me?",
+        "literal_translation": "Will you rest with me?",
+        "ipa": "/hə ti ˈmi.wa nə.ˈɾu.ju he/",
+        "sound_out": "huh tee MEE-wah nuh-ROO-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-wa nëru-ki.",
+        "english": "I can rest with you.",
+        "literal_translation": "I can rest with you.",
+        "ipa": "/sen mi ˈti.wa nə.ˈɾu.ki/",
+        "sound_out": "sehn mee TEE-wah nuh-ROO-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa nëru-ho he?",
+        "english": "Are you allowed to rest with me?",
+        "literal_translation": "May you rest with me?",
+        "ipa": "/hə ti ˈmi.wa nə.ˈɾu.ho he/",
+        "sound_out": "huh tee MEE-wah nuh-ROO-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-wa nëru-ho.",
+        "english": "I have permission to rest with you.",
+        "literal_translation": "I may rest with you.",
+        "ipa": "/sen mi ˈti.wa nə.ˈɾu.ho/",
+        "sound_out": "sehn mee TEE-wah nuh-ROO-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zha naru nëru-yu.",
+        "english": "Then we will rest together!",
+        "literal_translation": "We will rest.",
+        "ipa": "/ʒa ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "zhah NAH-roo nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-quiet-night",
+    "title": "A quiet night",
+    "premise": "The night becomes a place to talk rather than a danger",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi yami-lo nëra.",
+        "english": "I remain here at night, feeling sad.",
+        "literal_translation": "I stay at a night.",
+        "ipa": "/suɾ mi ja.ˈmi.lo ˈnə.ɾa/",
+        "sound_out": "soor mee yah-MEE-loh NUH-rah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you hear me?",
+        "literal_translation": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-m shiroawe-ki.",
+        "english": "I can hear you.",
+        "literal_translation": "I can listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ki/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-tu shiwaro-m shiwari-yu.",
+        "english": "I will send you a message.",
+        "literal_translation": "I will send a message to you.",
+        "ipa": "/mə mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "muh mee TEE-too shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi shiwaro-m shëliro-yu.",
+        "english": "I will read it calmly.",
+        "literal_translation": "I will read a message.",
+        "ipa": "/nəm mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm mee shee-WAH-rohm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "I appreciate you.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "sharing-a-book",
+    "title": "Sharing a book",
+    "premise": "Two learners make space for one another while studying",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti shima-m hari he?",
+        "english": "Do you have the book?",
+        "literal_translation": "Do you have a book?",
+        "ipa": "/hə ti ˈʃi.mam ˈha.ɾi he/",
+        "sound_out": "huh tee SHEE-mahm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shima-m hari.",
+        "english": "I have a book.",
+        "literal_translation": "I have a book.",
+        "ipa": "/sen mi ˈʃi.mam ˈha.ɾi/",
+        "sound_out": "sehn mee SHEE-mahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-tu shima-m pëli-ki he?",
+        "english": "Can you give me the book?",
+        "literal_translation": "Can you give a book to me?",
+        "ipa": "/hə ti ˈmi.tu ˈʃi.mam pə.ˈli.ki he/",
+        "sound_out": "huh tee MEE-too SHEE-mahm puh-LEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-tu shima-m pëli-yu.",
+        "english": "I will give it to you.",
+        "literal_translation": "I will give a book to you.",
+        "ipa": "/mə mi ˈti.tu ˈʃi.mam pə.ˈli.ju/",
+        "sound_out": "muh mee TEE-too SHEE-mahm puh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shima-m shëliro-yu.",
+        "english": "I will read the book.",
+        "literal_translation": "I will read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zha naru rëmi-yu.",
+        "english": "We will learn together!",
+        "literal_translation": "We will learn.",
+        "ipa": "/ʒa ˈna.ɾu ɾə.ˈmi.ju/",
+        "sound_out": "zhah NAH-roo ruh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "care-without-a-promise",
+    "title": "Care without a promise",
+    "premise": "A commitment is limited to what a speaker can actually do",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa sëna nëra-ki he?",
+        "english": "Could you stay with me forever?",
+        "literal_translation": "Can you stay with me always?",
+        "ipa": "/hə ti ˈmi.wa ˈsə.na nə.ˈɾa.ki he/",
+        "sound_out": "huh tee MEE-wah SUH-nah nuh-RAH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi sëna nëra-ki ye.",
+        "english": "I infer that I might be able to stay forever, but I am unsure.",
+        "literal_translation": "I can stay always.",
+        "ipa": "/ʒeɾ mi ˈsə.na nə.ˈɾa.ki je/",
+        "sound_out": "zhehr mee SUH-nah nuh-RAH-kee yeh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi kharo-m hari.",
+        "english": "I am afraid.",
+        "literal_translation": "I have a fear.",
+        "ipa": "/suɾ mi ˈxa.ɾom ˈha.ɾi/",
+        "sound_out": "soor mee KHAH-rohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "qor mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/qoɾ mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "qohr mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m shiroawe-yu he?",
+        "english": "Will you listen to me?",
+        "literal_translation": "Will you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ju he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m shiroawe-yu.",
+        "english": "I will listen.",
+        "literal_translation": "I will listen to you.",
+        "ipa": "/mə mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "muh mee teem shee-roh-ah-WEH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-lesson-of-no",
+    "title": "The lesson of no",
+    "premise": "Someone respects a refusal instead of trying to negotiate it",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa goro-yu he?",
+        "english": "Would you fly with me?",
+        "literal_translation": "Will you fly with me?",
+        "ipa": "/hə ti ˈmi.wa ɡo.ˈɾo.ju he/",
+        "sound_out": "huh tee MEE-wah goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi nu goro-yu.",
+        "english": "No, I will not fly.",
+        "literal_translation": "I will not fly.",
+        "ipa": "/sen mi nu ɡo.ˈɾo.ju/",
+        "sound_out": "sehn mee noo goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa nëru-yu he?",
+        "english": "Would you rather rest with me?",
+        "literal_translation": "Will you rest with me?",
+        "ipa": "/hə ti ˈmi.wa nə.ˈɾu.ju he/",
+        "sound_out": "huh tee MEE-wah nuh-ROO-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi naro-lo nëru-yu.",
+        "english": "I will rest at home.",
+        "literal_translation": "I will rest at a home.",
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi naro-lo nëra-yu.",
+        "english": "I will stay home.",
+        "literal_translation": "I will stay at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾa.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-first-word",
+    "title": "The first word",
+    "premise": "A beginner learns why resonance belongs in writing",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?",
+        "literal_translation": "Do you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/",
+        "sound_out": "huh tee qah-ROH-sheem SHEE-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi qaroshi-m shiri.",
+        "english": "I speak Qaroshi.",
+        "literal_translation": "I speak Qaroshi.",
+        "ipa": "/sen mi qa.ˈɾo.ʃim ˈʃi.ɾi/",
+        "sound_out": "sehn mee qah-ROH-sheem SHEE-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m yarëmi-ki he?",
+        "english": "Can you teach me?",
+        "literal_translation": "Can you teach me?",
+        "ipa": "/hə ti mim ja.ɾə.ˈmi.ki he/",
+        "sound_out": "huh tee meem yah-ruh-MEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-m yarëmi-ki.",
+        "english": "I can teach you.",
+        "literal_translation": "I can teach you.",
+        "ipa": "/sen mi tim ja.ɾə.ˈmi.ki/",
+        "sound_out": "sehn mee teem yah-ruh-MEE-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zha mi rëmi-yu.",
+        "english": "I will learn!",
+        "literal_translation": "I will learn.",
+        "ipa": "/ʒa mi ɾə.ˈmi.ju/",
+        "sound_out": "zhah mee ruh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "I appreciate your effort.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "an-injured-wing",
+    "title": "An injured wing",
+    "premise": "A traveler needs protection, not another challenge",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sur mi-na banu nu haro.",
+        "english": "My wing is not well.",
+        "literal_translation": "My wing is not well.",
+        "ipa": "/suɾ ˈmi.na ˈba.nu nu ˈha.ɾo/",
+        "sound_out": "soor MEE-nah BAH-noo noo HAH-roh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti goro-ki he?",
+        "english": "Can you fly?",
+        "literal_translation": "Can you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee goh-ROH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi nu goro-ki.",
+        "english": "I cannot fly.",
+        "literal_translation": "I cannot fly.",
+        "ipa": "/sen mi nu ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee noo goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m daru-yu.",
+        "english": "I will protect you.",
+        "literal_translation": "I will protect you.",
+        "ipa": "/mə mi tim da.ˈɾu.ju/",
+        "sound_out": "muh mee teem dah-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi naro-lo nëru-yu.",
+        "english": "I will rest at home.",
+        "literal_translation": "I will rest at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/sen mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "sehn mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "checking-the-source",
+    "title": "Checking the source",
+    "premise": "Two witnesses disagree and decide what evidence they actually have",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi qaro-m tika-te si.",
+        "english": "I directly saw a Nardoragon.",
+        "literal_translation": "I saw a Nardoragon myself.",
+        "ipa": "/sen mi ˈqa.ɾom ti.ˈka.te si/",
+        "sound_out": "sehn mee QAH-rohm tee-KAH-teh see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi qaro-m nu tika-te.",
+        "english": "I did not see the Nardoragon.",
+        "literal_translation": "I did not see a Nardoragon.",
+        "ipa": "/ʒeɾ mi ˈqa.ɾom nu ti.ˈka.te/",
+        "sound_out": "zhehr mee QAH-rohm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m sharoa-te he?",
+        "english": "Did you ask them?",
+        "literal_translation": "Did you ask them?",
+        "ipa": "/hə ti sam ʃa.ɾo.ˈa.te he/",
+        "sound_out": "huh tee sahm shah-roh-AH-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m sharoa-te si.",
+        "english": "I asked them myself.",
+        "literal_translation": "I asked them.",
+        "ipa": "/sen mi sam ʃa.ɾo.ˈa.te si/",
+        "sound_out": "sehn mee sahm shah-roh-AH-teh see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-tu shiwaro-m shiwari-yu he?",
+        "english": "Will you send me a message?",
+        "literal_translation": "Will you send a message to me?",
+        "ipa": "/hə ti ˈmi.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju he/",
+        "sound_out": "huh tee MEE-too shee-WAH-rohm shee-wah-REE-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-yu.",
+        "english": "I will send you the report.",
+        "literal_translation": "I will send a message to you.",
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "patience-in-learning",
+    "title": "Patience in learning",
+    "premise": "A teacher rejects the idea that one error ends progress",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi nu rëmi.",
+        "english": "I am not learning.",
+        "literal_translation": "I do not learn.",
+        "ipa": "/ʒeɾ mi nu ˈɾə.mi/",
+        "sound_out": "zhehr mee noo RUH-mee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti rëmi-se.",
+        "english": "You are learning now.",
+        "literal_translation": "You are learning.",
+        "ipa": "/sen ti ɾə.ˈmi.se/",
+        "sound_out": "sehn tee ruh-MEE-seh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m yarëmi-yu he?",
+        "english": "Will you teach me?",
+        "literal_translation": "Will you teach me?",
+        "ipa": "/hə ti mim ja.ɾə.ˈmi.ju he/",
+        "sound_out": "huh tee meem yah-ruh-MEE-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi ti-m yarëmi-yu.",
+        "english": "I will teach you.",
+        "literal_translation": "I will teach you.",
+        "ipa": "/dal mi tim ja.ɾə.ˈmi.ju/",
+        "sound_out": "dahl mee teem yah-ruh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shëno-m sharoa-yu.",
+        "english": "I will ask a question.",
+        "literal_translation": "I will ask a question.",
+        "ipa": "/sen mi ˈʃə.nom ʃa.ɾo.ˈa.ju/",
+        "sound_out": "sehn mee SHUH-nohm shah-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m përoa-yu.",
+        "english": "I will answer you.",
+        "literal_translation": "I will reply to you.",
+        "ipa": "/mə mi tim pə.ɾo.ˈa.ju/",
+        "sound_out": "muh mee teem puh-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "alone-but-not-lost",
+    "title": "Alone but not lost",
+    "premise": "A traveler distinguishes being alone from needing help",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi naro-de gura-te.",
+        "english": "I left home.",
+        "literal_translation": "I traveled from a home.",
+        "ipa": "/sen mi na.ˈɾo.de ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-deh goo-RAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti naro-gu gura-yu he?",
+        "english": "Will you return home?",
+        "literal_translation": "Will you travel toward a home?",
+        "ipa": "/hə ti na.ˈɾo.ɡu ɡu.ˈɾa.ju he/",
+        "sound_out": "huh tee nah-ROH-goo goo-RAH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi naro-m nu tika.",
+        "english": "I cannot see home.",
+        "literal_translation": "I do not see a home.",
+        "ipa": "/ʒeɾ mi ˈna.ɾom nu ˈti.ka/",
+        "sound_out": "zhehr mee NAH-rohm noo TEE-kah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë mi ti-m dëmi-ho he?",
+        "english": "Am I permitted to help you?",
+        "literal_translation": "May i help you?",
+        "ipa": "/hə mi tim də.ˈmi.ho he/",
+        "sound_out": "huh mee teem duh-MEE-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më ti mi-m dëmi-ho.",
+        "english": "You may help me.",
+        "literal_translation": "You may help me.",
+        "ipa": "/mə ti mim də.ˈmi.ho/",
+        "sound_out": "muh tee meem duh-MEE-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal mi ti-m dëmi-yu.",
+        "english": "I will help you.",
+        "literal_translation": "I will help you.",
+        "ipa": "/dal mi tim də.ˈmi.ju/",
+        "sound_out": "dahl mee teem duh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-unread-story",
+    "title": "The unread story",
+    "premise": "An author shares a story before anyone has read it",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english": "I wrote a memory.",
+        "literal_translation": "I wrote a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shima-m hari he?",
+        "english": "Do you have a book?",
+        "literal_translation": "Do you have a book?",
+        "ipa": "/hə ti ˈʃi.mam ˈha.ɾi he/",
+        "sound_out": "huh tee SHEE-mahm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shima-m hari.",
+        "english": "I have a book.",
+        "literal_translation": "I have a book.",
+        "ipa": "/sen mi ˈʃi.mam ˈha.ɾi/",
+        "sound_out": "sehn mee SHEE-mahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë mi shima-m shëliro-ho he?",
+        "english": "May I read the book?",
+        "literal_translation": "May i read a book?",
+        "ipa": "/hə mi ˈʃi.mam ʃə.li.ˈɾo.ho he/",
+        "sound_out": "huh mee SHEE-mahm shuh-lee-ROH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më ti shima-m shëliro-ho.",
+        "english": "You may read it.",
+        "literal_translation": "You may read a book.",
+        "ipa": "/mə ti ˈʃi.mam ʃə.li.ˈɾo.ho/",
+        "sound_out": "muh tee SHEE-mahm shuh-lee-ROH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zha mi shima-m shëliro-yu.",
+        "english": "I will read the book!",
+        "literal_translation": "I will read a book.",
+        "ipa": "/ʒa mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "zhah mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-new-friend",
+    "title": "A new friend",
+    "premise": "Two people decide whether to trust one another slowly",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mara-m hari he?",
+        "english": "Do you have a friend?",
+        "literal_translation": "Do you have a friend?",
+        "ipa": "/hə ti ˈma.ɾam ˈha.ɾi he/",
+        "sound_out": "huh tee MAH-rahm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi mara-m nu hari.",
+        "english": "I do not have a friend.",
+        "literal_translation": "I do not have a friend.",
+        "ipa": "/ʒeɾ mi ˈma.ɾam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee MAH-rahm noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you listen to me?",
+        "literal_translation": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-m shiroawe-ki.",
+        "english": "I can listen.",
+        "literal_translation": "I can listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ki/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for caring.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "an-uncertain-answer",
+    "title": "An uncertain answer",
+    "premise": "A hesitant speaker refuses to invent certainty",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë sa goro-yu he?",
+        "english": "Will they fly?",
+        "literal_translation": "Will they fly?",
+        "ipa": "/hə sa ɡo.ˈɾo.ju he/",
+        "sound_out": "huh sah goh-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher sa goro-yu ye.",
+        "english": "I infer that they will fly, but I am uncertain.",
+        "literal_translation": "They will fly.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.ju je/",
+        "sound_out": "zhehr sah goh-ROH-yoo yeh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti sa-m tika-te he?",
+        "english": "Did you see them?",
+        "literal_translation": "Did you see them?",
+        "ipa": "/hə ti sam ti.ˈka.te he/",
+        "sound_out": "huh tee sahm tee-KAH-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "I did not see them.",
+        "literal_translation": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sa-m sharoa-yu.",
+        "english": "I will ask them.",
+        "literal_translation": "I will ask them.",
+        "ipa": "/sen mi sam ʃa.ɾo.ˈa.ju/",
+        "sound_out": "sehn mee sahm shah-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi përoa-yu.",
+        "english": "I will reply calmly.",
+        "literal_translation": "I will reply.",
+        "ipa": "/nəm mi pə.ɾo.ˈa.ju/",
+        "sound_out": "nuhm mee puh-roh-AH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "two-books",
+    "title": "Two books",
+    "premise": "A learner distinguishes possession from lending",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti shima-ri-m hari he?",
+        "english": "Do you have books?",
+        "literal_translation": "Do you have books?",
+        "ipa": "/hə ti ʃi.ˈma.ɾim ˈha.ɾi he/",
+        "sound_out": "huh tee shee-MAH-reem HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shima-ri-m hari.",
+        "english": "I have books.",
+        "literal_translation": "I have books.",
+        "ipa": "/sen mi ʃi.ˈma.ɾim ˈha.ɾi/",
+        "sound_out": "sehn mee shee-MAH-reem HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-tu shima-m pëli-ho he?",
+        "english": "May you give me a book?",
+        "literal_translation": "May you give a book to me?",
+        "ipa": "/hə ti ˈmi.tu ˈʃi.mam pə.ˈli.ho he/",
+        "sound_out": "huh tee MEE-too SHEE-mahm puh-LEE-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-tu shima-m pëli-yu.",
+        "english": "I will give you a book.",
+        "literal_translation": "I will give a book to you.",
+        "ipa": "/mə mi ˈti.tu ˈʃi.mam pə.ˈli.ju/",
+        "sound_out": "muh mee TEE-too SHEE-mahm puh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shima-m shëliro-yu.",
+        "english": "I will read it.",
+        "literal_translation": "I will read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "rëm mi ti-m nashi.",
+        "english": "I am proud of you.",
+        "literal_translation": "I cherish you.",
+        "ipa": "/ɾəm mi tim ˈna.ʃi/",
+        "sound_out": "ruhm mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "near-the-storm",
+    "title": "Near the storm",
+    "premise": "A flyer changes a plan before a storm arrives",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti lugoqa-m tika he?",
+        "english": "Do you see the weather?",
+        "literal_translation": "Do you see a weather?",
+        "ipa": "/hə ti lu.ˈɡo.qam ˈti.ka he/",
+        "sound_out": "huh tee loo-GOH-qahm TEE-kah heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi lushënga-m tika-te si.",
+        "english": "I saw the storm myself.",
+        "literal_translation": "I saw a storm.",
+        "ipa": "/sen mi lu.ˈʃə.ŋam ti.ˈka.te si/",
+        "sound_out": "sehn mee loo-SHUH-ngahm tee-KAH-teh see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi goro-yu.",
+        "english": "I had planned to fly.",
+        "literal_translation": "I will fly.",
+        "ipa": "/ʒeɾ mi ɡo.ˈɾo.ju/",
+        "sound_out": "zhehr mee goh-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "khar ti nu goro ya.",
+        "english": "Please do not fly!",
+        "literal_translation": "Do not fly!",
+        "ipa": "/xaɾ ti nu ˈɡo.ɾo ja/",
+        "sound_out": "khahr tee noo GOH-roh yah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi naro-gu gura-yu.",
+        "english": "I will go home.",
+        "literal_translation": "I will travel toward a home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ɡu.ˈɾa.ju/",
+        "sound_out": "sehn mee nah-ROH-goo goo-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/nəm mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "nuhm mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "an-apology-accepted",
+    "title": "An apology accepted",
+    "premise": "A hesitant apology is followed by a concrete change",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "lën mi përë.",
+        "english": "I am sorry.",
+        "literal_translation": "I apologize.",
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sur mi nu haro.",
+        "english": "I still feel bad.",
+        "literal_translation": "I am not well.",
+        "ipa": "/suɾ mi nu ˈha.ɾo/",
+        "sound_out": "soor mee noo HAH-roh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you listen to me?",
+        "literal_translation": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi ti-m shiroawe-ki.",
+        "english": "I can listen.",
+        "literal_translation": "I can listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ki/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "qor mi shiwaro-m shëliro-yu.",
+        "english": "I will read your message.",
+        "literal_translation": "I will read a message.",
+        "ipa": "/qoɾ mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "qohr mee shee-WAH-rohm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi nëru-yu.",
+        "english": "I will rest now.",
+        "literal_translation": "I will rest.",
+        "ipa": "/nəm mi nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "teaching-permission",
+    "title": "Teaching permission",
+    "premise": "A lesson makes the three modal endings explicit",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ki he?",
+        "english": "Can I fly?",
+        "literal_translation": "Can i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ki he/",
+        "sound_out": "huh mee goh-ROH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ki.",
+        "english": "You are able to fly.",
+        "literal_translation": "You can fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ki/",
+        "sound_out": "sehn tee goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ho he?",
+        "english": "May I fly?",
+        "literal_translation": "May i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ho he/",
+        "sound_out": "huh mee goh-ROH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ho.",
+        "english": "You are allowed to fly.",
+        "literal_translation": "You may fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ho/",
+        "sound_out": "sehn tee goh-ROH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-du he?",
+        "english": "Must I fly?",
+        "literal_translation": "Must i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.du he/",
+        "sound_out": "huh mee goh-ROH-doo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti nu goro-du.",
+        "english": "You are not obligated to fly.",
+        "literal_translation": "You must not fly.",
+        "ipa": "/sen ti nu ɡo.ˈɾo.du/",
+        "sound_out": "sehn tee noo goh-ROH-doo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-silent-roost",
+    "title": "The silent roost",
+    "premise": "A visitor learns when someone needs quiet",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you okay?",
+        "literal_translation": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sur mi nu haro.",
+        "english": "I do not feel okay.",
+        "literal_translation": "I am not well.",
+        "ipa": "/suɾ mi nu ˈha.ɾo/",
+        "sound_out": "soor mee noo HAH-roh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi ti-m dëmi-ki he?",
+        "english": "Can I help you?",
+        "literal_translation": "Can i help you?",
+        "ipa": "/hə mi tim də.ˈmi.ki he/",
+        "sound_out": "huh mee teem duh-MEE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi naro-lo nëru-yu.",
+        "english": "I will rest at home.",
+        "literal_translation": "I will rest at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-wa nëra-yu.",
+        "english": "I will stay near you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/mə mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "muh mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for caring.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-returned-memory",
+    "title": "A returned memory",
+    "premise": "A long conversation ends with one remembered promise",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english": "I wrote down a memory.",
+        "literal_translation": "I wrote a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti moru-m shëliro-yu he?",
+        "english": "Will you read it?",
+        "literal_translation": "Will you read a memory?",
+        "ipa": "/hə ti ˈmo.ɾum ʃə.li.ˈɾo.ju he/",
+        "sound_out": "huh tee MOH-room shuh-lee-ROH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m shëliro-yu.",
+        "english": "I will read the memory.",
+        "literal_translation": "I will read a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee MOH-room shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m nashi he?",
+        "english": "Do you cherish me?",
+        "literal_translation": "Do you cherish me?",
+        "ipa": "/hə ti mim ˈna.ʃi he/",
+        "sound_out": "huh tee meem NAH-shee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest together.",
+        "literal_translation": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-question-of-home",
+    "title": "A question of home",
+    "premise": "A traveler asks whether shelter means belonging",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti naro-m hari he?",
+        "english": "Do you own a home?",
+        "literal_translation": "Do you have a home?",
+        "ipa": "/hə ti ˈna.ɾom ˈha.ɾi he/",
+        "sound_out": "huh tee NAH-rohm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi naro-m hari.",
+        "english": "I have a home.",
+        "literal_translation": "I have a home.",
+        "ipa": "/sen mi ˈna.ɾom ˈha.ɾi/",
+        "sound_out": "sehn mee NAH-rohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti runa-m hari he?",
+        "english": "Do you have chosen family?",
+        "literal_translation": "Do you have chosen family?",
+        "ipa": "/hə ti ˈɾu.nam ˈha.ɾi he/",
+        "sound_out": "huh tee ROO-nahm HAH-ree heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi runa-m hari.",
+        "english": "I have a chosen family.",
+        "literal_translation": "I have chosen family.",
+        "ipa": "/mə mi ˈɾu.nam ˈha.ɾi/",
+        "sound_out": "muh mee ROO-nahm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi runa-m nu hari.",
+        "english": "I do not have chosen family.",
+        "literal_translation": "I do not have chosen family.",
+        "ipa": "/ʒeɾ mi ˈɾu.nam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee ROO-nahm noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "a-letter-for-tomorrow",
+    "title": "A letter for tomorrow",
+    "premise": "A message is planned for a later day",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shiroli-yu.",
+        "english": "I will write a message.",
+        "literal_translation": "I will write a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-tu shiwaro-m shiwari-yu he?",
+        "english": "Will you send it to me?",
+        "literal_translation": "Will you send a message to me?",
+        "ipa": "/hə ti ˈmi.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju he/",
+        "sound_out": "huh tee MEE-too shee-WAH-rohm shee-wah-REE-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-yu.",
+        "english": "I will send it to you.",
+        "literal_translation": "I will send a message to you.",
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shiwaro-m shëliro-te he?",
+        "english": "Did you read the earlier message?",
+        "literal_translation": "Did you read a message?",
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te he/",
+        "sound_out": "huh tee shee-WAH-rohm shuh-lee-ROH-teh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english": "I read it.",
+        "literal_translation": "I read a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "warmth-and-distance",
+    "title": "Warmth and distance",
+    "premise": "Two friends agree that care does not require being in the same place",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "wen mi ti-m nashi.",
+        "english": "I miss you, and I cherish you.",
+        "literal_translation": "I cherish you. (with longing)",
+        "ipa": "/wen mi tim ˈna.ʃi/",
+        "sound_out": "wehn mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you too.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-wa nëra-yu he?",
+        "english": "Will you stay with me?",
+        "literal_translation": "Will you stay with me?",
+        "ipa": "/hə ti ˈmi.wa nə.ˈɾa.ju he/",
+        "sound_out": "huh tee MEE-wah nuh-RAH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi naro-lo nëra-yu.",
+        "english": "I will stay at home.",
+        "literal_translation": "I will stay at a home.",
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.ju/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-yu.",
+        "english": "I will send you a message.",
+        "literal_translation": "I will send a message to you.",
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you for keeping in touch.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "finding-the-question",
+    "title": "Finding the question",
+    "premise": "A teacher asks a learner to clarify what is actually unknown",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shëno-m hari.",
+        "english": "I have a question.",
+        "literal_translation": "I have a question.",
+        "ipa": "/ʒeɾ mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti shëno-m sharoa-yu he?",
+        "english": "Will you ask it?",
+        "literal_translation": "Will you ask a question?",
+        "ipa": "/hə ti ˈʃə.nom ʃa.ɾo.ˈa.ju he/",
+        "sound_out": "huh tee SHUH-nohm shah-roh-AH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi goro-ho he?",
+        "english": "Am I permitted to fly?",
+        "literal_translation": "May i fly?",
+        "ipa": "/sen mi ɡo.ˈɾo.ho he/",
+        "sound_out": "sehn mee goh-ROH-hoh heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ho.",
+        "english": "You are allowed to fly.",
+        "literal_translation": "You may fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ho/",
+        "sound_out": "sehn tee goh-ROH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë mi goro-ki he?",
+        "english": "But can I physically fly?",
+        "literal_translation": "Can i fly?",
+        "ipa": "/hə mi ɡo.ˈɾo.ki he/",
+        "sound_out": "huh mee goh-ROH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen ti goro-ki.",
+        "english": "You can fly.",
+        "literal_translation": "You can fly.",
+        "ipa": "/sen ti ɡo.ˈɾo.ki/",
+        "sound_out": "sehn tee goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "stars-over-the-roost",
+    "title": "Stars over the roost",
+    "premise": "A story ends with observation rather than prediction",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi naro-lo nëra.",
+        "english": "I am staying home calmly.",
+        "literal_translation": "I stay at a home.",
+        "ipa": "/nəm mi na.ˈɾo.lo ˈnə.ɾa/",
+        "sound_out": "nuhm mee nah-ROH-loh NUH-rah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti sëra-m tika he?",
+        "english": "Do you see a star?",
+        "literal_translation": "Do you see a star?",
+        "ipa": "/hə ti ˈsə.ɾam ˈti.ka he/",
+        "sound_out": "huh tee SUH-rahm TEE-kah heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sëra-m tika si.",
+        "english": "I see a star myself.",
+        "literal_translation": "I see a star.",
+        "ipa": "/sen mi ˈsə.ɾam ˈti.ka si/",
+        "sound_out": "sehn mee SUH-rahm TEE-kah see.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi sëra-m nu tika.",
+        "english": "I cannot see the star.",
+        "literal_translation": "I do not see a star.",
+        "ipa": "/ʒeɾ mi ˈsə.ɾam nu ˈti.ka/",
+        "sound_out": "zhehr mee SUH-rahm noo TEE-kah.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m daru-yu.",
+        "english": "I will protect you.",
+        "literal_translation": "I will protect you.",
+        "ipa": "/mə mi tim da.ˈɾu.ju/",
+        "sound_out": "muh mee teem dah-ROO-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm naru sëra-m tika-yu.",
+        "english": "We will look together.",
+        "literal_translation": "We will see a star.",
+        "ipa": "/nəm ˈna.ɾu ˈsə.ɾam ti.ˈka.ju/",
+        "sound_out": "nuhm NAH-roo SUH-rahm tee-KAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-double-negative",
+    "title": "The double negative",
+    "premise": "A learner clarifies a sentence that could mislead",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi goro-ki.",
+        "english": "I can fly.",
+        "literal_translation": "I can fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti nu goro-ki he?",
+        "english": "Can you not fly?",
+        "literal_translation": "Cannot you fly?",
+        "ipa": "/hə ti nu ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee noo goh-ROH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi nu goro-ki.",
+        "english": "I cannot fly.",
+        "literal_translation": "I cannot fly.",
+        "ipa": "/sen mi nu ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee noo goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi shëno-m hari.",
+        "english": "I have a question about that.",
+        "literal_translation": "I have a question.",
+        "ipa": "/ʒeɾ mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi goro-ho.",
+        "english": "I am permitted to fly.",
+        "literal_translation": "I may fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ho/",
+        "sound_out": "sehn mee goh-ROH-hoh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi goro-ki.",
+        "english": "I am physically able to fly.",
+        "literal_translation": "I can fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee goh-ROH-kee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "trust-after-an-error",
+    "title": "Trust after an error",
+    "premise": "A mistake becomes an invitation to repair the facts",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "rak mi shiwaro-m nu shëliro-te.",
+        "english": "I did not read the message!",
+        "literal_translation": "I did not read a message.",
+        "ipa": "/ɾak mi ʃi.ˈwa.ɾom nu ʃə.li.ˈɾo.te/",
+        "sound_out": "rahk mee shee-WAH-rohm noo shuh-lee-ROH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "lën mi përë.",
+        "english": "I am sorry.",
+        "literal_translation": "I apologize.",
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi shëna-m nu hari.",
+        "english": "I do not feel confident.",
+        "literal_translation": "I do not have trust.",
+        "ipa": "/ʒeɾ mi ˈʃə.nam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee SHUH-nahm noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shiwaro-m shëliro-yu.",
+        "english": "I will read the message.",
+        "literal_translation": "I will read a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "nëm mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "literal_translation": "I will listen to you.",
+        "ipa": "/nəm mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "nuhm mee teem shee-roh-ah-WEH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care about you.",
+        "literal_translation": "I cherish you deeply.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "one-more-story",
+    "title": "One more story",
+    "premise": "Someone values listening more than another long explanation",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english": "I read a book.",
+        "literal_translation": "I read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-tu moru-m shiri-yu he?",
+        "english": "Will you tell me the memory?",
+        "literal_translation": "Will you speak a memory to me?",
+        "ipa": "/hə ti ˈmi.tu ˈmo.ɾum ʃi.ˈɾi.ju he/",
+        "sound_out": "huh tee MEE-too MOH-room shee-REE-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi moru-m shiroli-yu.",
+        "english": "I will write it down.",
+        "literal_translation": "I will write a memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you listen to me instead?",
+        "literal_translation": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "më mi ti-m shiroawe-yu.",
+        "english": "I will listen.",
+        "literal_translation": "I will listen to you.",
+        "ipa": "/mə mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "muh mee teem shee-roh-ah-WEH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "literal_translation": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-cautious-reader",
+    "title": "The cautious reader",
+    "premise": "An uncertain sentence prompts a question about source evidence",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "I was told they flew.",
+        "literal_translation": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti sa-m tika-te si he?",
+        "english": "Did you witness that yourself?",
+        "literal_translation": "Did you see them?",
+        "ipa": "/hə ti sam ti.ˈka.te si he/",
+        "sound_out": "huh tee sahm tee-KAH-teh see heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi sa-m nu tika-te.",
+        "english": "No, I did not.",
+        "literal_translation": "I did not see them.",
+        "ipa": "/sen mi sam nu ti.ˈka.te/",
+        "sound_out": "sehn mee sahm noo tee-KAH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "zher mi moru-m nu hari.",
+        "english": "I have no recollection.",
+        "literal_translation": "I do not have a memory.",
+        "ipa": "/ʒeɾ mi ˈmo.ɾum nu ˈha.ɾi/",
+        "sound_out": "zhehr mee MOH-room noo HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shiwaro-m shëliro-yu.",
+        "english": "I will read the message.",
+        "literal_translation": "I will read a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "nëm mi ti-wa nëra-yu.",
+        "english": "I will stay here with you.",
+        "literal_translation": "I will stay with you.",
+        "ipa": "/nəm mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "nuhm mee TEE-wah nuh-RAH-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  },
+  {
+    "id": "the-final-page",
+    "title": "The final page",
+    "premise": "Two students finish a lesson without calling themselves fluent",
+    "turns": [
+      {
+        "speaker": "A",
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english": "I finished reading a book.",
+        "literal_translation": "I read a book.",
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "hë ti qaroshi-m shiri-ki he?",
+        "english": "Can you speak Qaroshi?",
+        "literal_translation": "Can you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ʃi.ˈɾi.ki he/",
+        "sound_out": "huh tee qah-ROH-sheem shee-REE-kee heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "zher mi qaroshi-m shiri-ki ye.",
+        "english": "I think I can speak some Qaroshi.",
+        "literal_translation": "I can speak Qaroshi.",
+        "ipa": "/ʒeɾ mi qa.ˈɾo.ʃim ʃi.ˈɾi.ki je/",
+        "sound_out": "zhehr mee qah-ROH-sheem shee-REE-kee yeh.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "sen mi shëno-m hari.",
+        "english": "I have a question.",
+        "literal_translation": "I have a question.",
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "A",
+        "qaroshi": "hë ti mi-m sharoa-yu he?",
+        "english": "Will you ask it?",
+        "literal_translation": "Will you ask me?",
+        "ipa": "/hə ti mim ʃa.ɾo.ˈa.ju he/",
+        "sound_out": "huh tee meem shah-roh-AH-yoo heh?",
+        "status": "editorial original, not speaker-attested"
+      },
+      {
+        "speaker": "B",
+        "qaroshi": "dal naru rëmi-yu.",
+        "english": "We will keep learning.",
+        "literal_translation": "We will learn.",
+        "ipa": "/dal ˈna.ɾu ɾə.ˈmi.ju/",
+        "sound_out": "dahl NAH-roo ruh-MEE-yoo.",
+        "status": "editorial original, not speaker-attested"
+      }
+    ],
+    "provenance": "separately authored editorial, not spontaneous speaker conversation"
+  }
+]

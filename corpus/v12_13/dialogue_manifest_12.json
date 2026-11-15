@@ -1,0 +1,11 @@
+{
+  "scenes": 54,
+  "turns": 434,
+  "old_scenes": 49,
+  "combined_scenes": 103,
+  "unique_transcripts": 313,
+  "source_tokens": 1866,
+  "lexical_and_structure_errors": 0,
+  "speaker_attested": 0,
+  "caveat": "Independent editorial plotlines, not spontaneous speaker conversations or a naturalistic community corpus"
+}

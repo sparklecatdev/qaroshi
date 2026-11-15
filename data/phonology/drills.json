@@ -1,0 +1,2082 @@
+[
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "ko",
+    "dict_id": "Q001967",
+    "word_ipa": "/ko/",
+    "sound_out": "koh",
+    "english": "so that; in order that",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "rak",
+    "dict_id": "Q003860",
+    "word_ipa": "/ɾak/",
+    "sound_out": "rahk",
+    "english": "rough growl: anger; defiance",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "guki",
+    "dict_id": "Q53001110",
+    "word_ipa": "/ˈɡu.ki/",
+    "sound_out": "GOO-kee",
+    "english": "ain't no way!",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "hike",
+    "dict_id": "Q53001090",
+    "word_ipa": "/ˈhi.ke/",
+    "sound_out": "HEE-keh",
+    "english": "I mean",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "kara",
+    "dict_id": "Q001463",
+    "word_ipa": "/ˈka.ɾa/",
+    "sound_out": "KAH-rah",
+    "english": "wonder; awe",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "karo",
+    "dict_id": "Q001464",
+    "word_ipa": "/ˈka.ɾo/",
+    "sound_out": "KAH-roh",
+    "english": "stranger; unfamiliar person",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "karu",
+    "dict_id": "Q001466",
+    "word_ipa": "/ˈka.ɾu/",
+    "sound_out": "KAH-roo",
+    "english": "month; lunar cycle",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "k",
+    "ipa": "/k/",
+    "word": "kima",
+    "dict_id": "Q001955",
+    "word_ipa": "/ˈki.ma/",
+    "sound_out": "KEE-mah",
+    "english": "water",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "ha",
+    "dict_id": "Q001447",
+    "word_ipa": "/ha/",
+    "sound_out": "hah",
+    "english": "hello; attention-getting greeting",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "sa",
+    "dict_id": "Q004189",
+    "word_ipa": "/sa/",
+    "sound_out": "sah",
+    "english": "they; that person (singular, ungendered)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "ya",
+    "dict_id": "Q005536",
+    "word_ipa": "/ja/",
+    "sound_out": "yah",
+    "english": "command or request ending",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "ana",
+    "dict_id": "Q000001",
+    "word_ipa": "/ˈa.na/",
+    "sound_out": "AH-nah",
+    "english": "after (a clause or event)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "ara",
+    "dict_id": "Q000002",
+    "word_ipa": "/ˈa.ɾa/",
+    "sound_out": "AH-rah",
+    "english": "and; as well as",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "aru",
+    "dict_id": "Q000003",
+    "word_ipa": "/ˈa.ɾu/",
+    "sound_out": "AH-roo",
+    "english": "again; another time",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "dal",
+    "dict_id": "Q000418",
+    "word_ipa": "/dal/",
+    "sound_out": "dahl",
+    "english": "firm pulse: determination; resolve",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "a",
+    "ipa": "/a/",
+    "word": "lan",
+    "dict_id": "Q002000",
+    "word_ipa": "/lan/",
+    "sound_out": "lahn",
+    "english": "softening request or making it optional",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "wo",
+    "dict_id": "Q005343",
+    "word_ipa": "/wo/",
+    "sound_out": "woh",
+    "english": "well then; transition",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "wë",
+    "dict_id": "Q005505",
+    "word_ipa": "/wə/",
+    "sound_out": "wuh",
+    "english": "if; on condition that",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "wen",
+    "dict_id": "Q005251",
+    "word_ipa": "/wen/",
+    "sound_out": "wehn",
+    "english": "distant call: longing; missing someone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "këwe",
+    "dict_id": "Q53001850",
+    "word_ipa": "/ˈkə.we/",
+    "sound_out": "KUH-weh",
+    "english": "unclog the toilet",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "lowi",
+    "dict_id": "Q53000199",
+    "word_ipa": "/ˈlo.wi/",
+    "sound_out": "LOH-wee",
+    "english": "censor a swear",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "mëwo",
+    "dict_id": "Q002328",
+    "word_ipa": "/ˈmə.wo/",
+    "sound_out": "MUH-woh",
+    "english": "muscle",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "nawe",
+    "dict_id": "Q002343",
+    "word_ipa": "/ˈna.we/",
+    "sound_out": "NAH-weh",
+    "english": "jealousy; possessive worry",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "w",
+    "ipa": "/w/",
+    "word": "nawë",
+    "dict_id": "Q002344",
+    "word_ipa": "/ˈna.wə/",
+    "sound_out": "NAH-wuh",
+    "english": "guess; make uncertain estimate",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "ti",
+    "dict_id": "Q004926",
+    "word_ipa": "/ti/",
+    "sound_out": "tee",
+    "english": "you (singular)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "kutu",
+    "dict_id": "Q53001877",
+    "word_ipa": "/ˈku.tu/",
+    "sound_out": "KOO-too",
+    "english": "disinformation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "lëto",
+    "dict_id": "Q53001920",
+    "word_ipa": "/ˈlə.to/",
+    "sound_out": "LUH-toh",
+    "english": "permalink",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "nitë",
+    "dict_id": "Q53000720",
+    "word_ipa": "/ˈni.tə/",
+    "sound_out": "NEE-tuh",
+    "english": "verbal boundary",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "pate",
+    "dict_id": "Q53000508",
+    "word_ipa": "/ˈpa.te/",
+    "sound_out": "PAH-teh",
+    "english": "erogenous zone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "pëte",
+    "dict_id": "Q53000341",
+    "word_ipa": "/ˈpə.te/",
+    "sound_out": "PUH-teh",
+    "english": "semen",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "qatë",
+    "dict_id": "Q53001158",
+    "word_ipa": "/ˈqa.tə/",
+    "sound_out": "QAH-tuh",
+    "english": "longing for touch",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "t",
+    "ipa": "/t/",
+    "word": "satë",
+    "dict_id": "Q53001523",
+    "word_ipa": "/ˈsa.tə/",
+    "sound_out": "SAH-tuh",
+    "english": "error rate",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "ro",
+    "dict_id": "Q004121",
+    "word_ipa": "/ɾo/",
+    "sound_out": "roh",
+    "english": "because; since",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "ara",
+    "dict_id": "Q000002",
+    "word_ipa": "/ˈa.ɾa/",
+    "sound_out": "AH-rah",
+    "english": "and; as well as",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "aru",
+    "dict_id": "Q000003",
+    "word_ipa": "/ˈa.ɾu/",
+    "sound_out": "AH-roo",
+    "english": "again; another time",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "eri",
+    "dict_id": "Q000953",
+    "word_ipa": "/ˈe.ɾi/",
+    "sound_out": "EH-ree",
+    "english": "exist; be; become present",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "oru",
+    "dict_id": "Q003203",
+    "word_ipa": "/ˈo.ɾu/",
+    "sound_out": "OH-roo",
+    "english": "or; alternatively",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "qor",
+    "dict_id": "Q003856",
+    "word_ipa": "/qoɾ/",
+    "sound_out": "qohr",
+    "english": "deep resonance: solemnity; authority; promises",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "rak",
+    "dict_id": "Q003860",
+    "word_ipa": "/ɾak/",
+    "sound_out": "rahk",
+    "english": "rough growl: anger; defiance",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "r",
+    "ipa": "/ɾ/",
+    "word": "rëm",
+    "dict_id": "Q004144",
+    "word_ipa": "/ɾəm/",
+    "sound_out": "ruhm",
+    "english": "high crest: pride; celebration",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "qor",
+    "dict_id": "Q003856",
+    "word_ipa": "/qoɾ/",
+    "sound_out": "qohr",
+    "english": "deep resonance: solemnity; authority; promises",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "bëqe",
+    "dict_id": "Q53000634",
+    "word_ipa": "/ˈbə.qe/",
+    "sound_out": "BUH-qeh",
+    "english": "stop immediately",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "dëqë",
+    "dict_id": "Q53000844",
+    "word_ipa": "/ˈdə.qə/",
+    "sound_out": "DUH-quh",
+    "english": "rebound relationship",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "paqa",
+    "dict_id": "Q53000406",
+    "word_ipa": "/ˈpa.qa/",
+    "sound_out": "PAH-qah",
+    "english": "childbirth",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "qaro",
+    "dict_id": "Q003618",
+    "word_ipa": "/ˈqa.ɾo/",
+    "sound_out": "QAH-roh",
+    "english": "Nardoragon; member of the species",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "qaru",
+    "dict_id": "Q003626",
+    "word_ipa": "/ˈqa.ɾu/",
+    "sound_out": "QAH-roo",
+    "english": "Nardoragon hatchling; young Nardoragon",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "qarë",
+    "dict_id": "Q003629",
+    "word_ipa": "/ˈqa.ɾə/",
+    "sound_out": "QAH-ruh",
+    "english": "cave; underground hollow",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "q",
+    "ipa": "/q/",
+    "word": "qasë",
+    "dict_id": "Q53000203",
+    "word_ipa": "/ˈqa.sə/",
+    "sound_out": "QAH-suh",
+    "english": "challenge an insult",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "do",
+    "dict_id": "Q000749",
+    "word_ipa": "/do/",
+    "sound_out": "doh",
+    "english": "that; complementizer; quoted proposition marker",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "ko",
+    "dict_id": "Q001967",
+    "word_ipa": "/ko/",
+    "sound_out": "koh",
+    "english": "so that; in order that",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "ro",
+    "dict_id": "Q004121",
+    "word_ipa": "/ɾo/",
+    "sound_out": "roh",
+    "english": "because; since",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "wo",
+    "dict_id": "Q005343",
+    "word_ipa": "/wo/",
+    "sound_out": "woh",
+    "english": "well then; transition",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "yo",
+    "dict_id": "Q005564",
+    "word_ipa": "/jo/",
+    "sound_out": "yoh",
+    "english": "hey; familiar greeting",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "hol",
+    "dict_id": "Q001454",
+    "word_ipa": "/hol/",
+    "sound_out": "hohl",
+    "english": "open heart: gratitude; appreciation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "nao",
+    "dict_id": "Q002331",
+    "word_ipa": "/ˈna.o/",
+    "sound_out": "NAH-oh",
+    "english": "but; however",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "o",
+    "ipa": "/o/",
+    "word": "noa",
+    "dict_id": "Q002867",
+    "word_ipa": "/ˈno.a/",
+    "sound_out": "NOH-ah",
+    "english": "short; low",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "do",
+    "dict_id": "Q000749",
+    "word_ipa": "/do/",
+    "sound_out": "doh",
+    "english": "that; complementizer; quoted proposition marker",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "dal",
+    "dict_id": "Q000418",
+    "word_ipa": "/dal/",
+    "sound_out": "dahl",
+    "english": "firm pulse: determination; resolve",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "bode",
+    "dict_id": "Q53000995",
+    "word_ipa": "/ˈbo.de/",
+    "sound_out": "BOH-deh",
+    "english": "dunk on someone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "dala",
+    "dict_id": "Q000419",
+    "word_ipa": "/ˈda.la/",
+    "sound_out": "DAH-lah",
+    "english": "resolve; determination",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "damë",
+    "dict_id": "Q53001307",
+    "word_ipa": "/ˈda.mə/",
+    "sound_out": "DAH-muh",
+    "english": "tail injury",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "daru",
+    "dict_id": "Q000420",
+    "word_ipa": "/ˈda.ɾu/",
+    "sound_out": "DAH-roo",
+    "english": "protect; guard",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "darë",
+    "dict_id": "Q000432",
+    "word_ipa": "/ˈda.ɾə/",
+    "sound_out": "DAH-ruh",
+    "english": "claw",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "d",
+    "ipa": "/d/",
+    "word": "dedo",
+    "dict_id": "Q53000085",
+    "word_ipa": "/ˈde.do/",
+    "sound_out": "DEH-doh",
+    "english": "verbal abuse",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "sha",
+    "dict_id": "Q004405",
+    "word_ipa": "/ʃa/",
+    "sound_out": "shah",
+    "english": "relative-clause closing marker",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "shi",
+    "dict_id": "Q004422",
+    "word_ipa": "/ʃi/",
+    "sound_out": "shee",
+    "english": "voice; speech; language",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "shë",
+    "dict_id": "Q004457",
+    "word_ipa": "/ʃə/",
+    "sound_out": "shuh",
+    "english": "yes; affirmative answer",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "shën",
+    "dict_id": "Q004503",
+    "word_ipa": "/ʃən/",
+    "sound_out": "shuhn",
+    "english": "apart; separately",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "dësha",
+    "dict_id": "Q53000003",
+    "word_ipa": "/ˈdə.ʃa/",
+    "sound_out": "DUH-shah",
+    "english": "damn!",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "kusha",
+    "dict_id": "Q53000546",
+    "word_ipa": "/ˈku.ʃa/",
+    "sound_out": "KOO-shah",
+    "english": "sexual wellbeing",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "lushë",
+    "dict_id": "Q53001774",
+    "word_ipa": "/ˈlu.ʃə/",
+    "sound_out": "LOO-shuh",
+    "english": "brain fart (mental lapse)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "sh",
+    "ipa": "/ʃ/",
+    "word": "lësha",
+    "dict_id": "Q002265",
+    "word_ipa": "/ˈlə.ʃa/",
+    "sound_out": "LUH-shah",
+    "english": "cute; endearing",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "beze",
+    "dict_id": "Q53000861",
+    "word_ipa": "/ˈbe.ze/",
+    "sound_out": "BEH-zeh",
+    "english": "gender presentation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "bozë",
+    "dict_id": "Q53001157",
+    "word_ipa": "/ˈbo.zə/",
+    "sound_out": "BOH-zuh",
+    "english": "heartbreak grief",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "buza",
+    "dict_id": "Q53000899",
+    "word_ipa": "/ˈbu.za/",
+    "sound_out": "BOO-zah",
+    "english": "queer community",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "dizu",
+    "dict_id": "Q53001930",
+    "word_ipa": "/ˈdi.zu/",
+    "sound_out": "DEE-zoo",
+    "english": "troll farm",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "gizo",
+    "dict_id": "Q53000327",
+    "word_ipa": "/ˈɡi.zo/",
+    "sound_out": "GEE-zoh",
+    "english": "a mess (disorganized)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "kuze",
+    "dict_id": "Q53000717",
+    "word_ipa": "/ˈku.ze/",
+    "sound_out": "KOO-zeh",
+    "english": "revocable consent",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "kuzo",
+    "dict_id": "Q53001328",
+    "word_ipa": "/ˈku.zo/",
+    "sound_out": "KOO-zoh",
+    "english": "wind shelter",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "z",
+    "ipa": "/z/",
+    "word": "nozi",
+    "dict_id": "Q53000318",
+    "word_ipa": "/ˈno.zi/",
+    "sound_out": "NOH-zee",
+    "english": "unbothered",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "hu",
+    "dict_id": "Q001457",
+    "word_ipa": "/hu/",
+    "sound_out": "hoo",
+    "english": "reported evidence; heard from others",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "nu",
+    "dict_id": "Q002877",
+    "word_ipa": "/nu/",
+    "sound_out": "noo",
+    "english": "not; no; negator",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "aru",
+    "dict_id": "Q000003",
+    "word_ipa": "/ˈa.ɾu/",
+    "sound_out": "AH-roo",
+    "english": "again; another time",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "oru",
+    "dict_id": "Q003203",
+    "word_ipa": "/ˈo.ɾu/",
+    "sound_out": "OH-roo",
+    "english": "or; alternatively",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "sur",
+    "dict_id": "Q004807",
+    "word_ipa": "/suɾ/",
+    "sound_out": "soor",
+    "english": "falling song: grief; sadness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "uro",
+    "dict_id": "Q005207",
+    "word_ipa": "/ˈu.ɾo/",
+    "sound_out": "OO-roh",
+    "english": "although; despite the fact that",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "banu",
+    "dict_id": "Q000004",
+    "word_ipa": "/ˈba.nu/",
+    "sound_out": "BAH-noo",
+    "english": "wing",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "u",
+    "ipa": "/u/",
+    "word": "bupe",
+    "dict_id": "Q53001762",
+    "word_ipa": "/ˈbu.pe/",
+    "sound_out": "BOO-peh",
+    "english": "crap (feces slang)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "hë",
+    "dict_id": "Q001458",
+    "word_ipa": "/hə/",
+    "sound_out": "huh",
+    "english": "seeking call: curiosity; inquiry",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "më",
+    "dict_id": "Q002296",
+    "word_ipa": "/mə/",
+    "sound_out": "muh",
+    "english": "warm hum: affection; comfort; vulnerability",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "së",
+    "dict_id": "Q004897",
+    "word_ipa": "/sə/",
+    "sound_out": "suh",
+    "english": "topic introduction; as for (in speech)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "wë",
+    "dict_id": "Q005505",
+    "word_ipa": "/wə/",
+    "sound_out": "wuh",
+    "english": "if; on condition that",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "yë",
+    "dict_id": "Q005972",
+    "word_ipa": "/jə/",
+    "sound_out": "yuh",
+    "english": "rising echo: surprise; astonishment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "hën",
+    "dict_id": "Q001461",
+    "word_ipa": "/hən/",
+    "sound_out": "huhn",
+    "english": "question emphasis; really?",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "lën",
+    "dict_id": "Q002259",
+    "word_ipa": "/lən/",
+    "sound_out": "luhn",
+    "english": "hidden hum: shyness; bashfulness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ë",
+    "ipa": "/ə/",
+    "word": "nëm",
+    "dict_id": "Q002975",
+    "word_ipa": "/nəm/",
+    "sound_out": "nuhm",
+    "english": "quiet breath: calm; contentment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "mi",
+    "dict_id": "Q002285",
+    "word_ipa": "/mi/",
+    "sound_out": "mee",
+    "english": "I; me",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "si",
+    "dict_id": "Q004633",
+    "word_ipa": "/si/",
+    "sound_out": "see",
+    "english": "directly witnessed evidence",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "ti",
+    "dict_id": "Q004926",
+    "word_ipa": "/ti/",
+    "sound_out": "tee",
+    "english": "you (singular)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "eri",
+    "dict_id": "Q000953",
+    "word_ipa": "/ˈe.ɾi/",
+    "sound_out": "EH-ree",
+    "english": "exist; be; become present",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "shi",
+    "dict_id": "Q004422",
+    "word_ipa": "/ʃi/",
+    "sound_out": "shee",
+    "english": "voice; speech; language",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "dila",
+    "dict_id": "Q53000921",
+    "word_ipa": "/ˈdi.la/",
+    "sound_out": "DEE-lah",
+    "english": "ratio (social media)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "dizu",
+    "dict_id": "Q53001930",
+    "word_ipa": "/ˈdi.zu/",
+    "sound_out": "DEE-zoo",
+    "english": "troll farm",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "i",
+    "ipa": "/i/",
+    "word": "doli",
+    "dict_id": "Q53001441",
+    "word_ipa": "/ˈdo.li/",
+    "sound_out": "DOH-lee",
+    "english": "phishing email",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "gane",
+    "dict_id": "Q53000610",
+    "word_ipa": "/ˈɡa.ne/",
+    "sound_out": "GAH-neh",
+    "english": "get tested for STIs",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "gara",
+    "dict_id": "Q000954",
+    "word_ipa": "/ˈɡa.ɾa/",
+    "sound_out": "GAH-rah",
+    "english": "exactly; precisely",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "geso",
+    "dict_id": "Q53001823",
+    "word_ipa": "/ˈɡe.so/",
+    "sound_out": "GEH-soh",
+    "english": "flush the toilet",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "gipa",
+    "dict_id": "Q53001468",
+    "word_ipa": "/ˈɡi.pa/",
+    "sound_out": "GEE-pah",
+    "english": "Bluetooth tethering",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "gizo",
+    "dict_id": "Q53000327",
+    "word_ipa": "/ˈɡi.zo/",
+    "sound_out": "GEE-zoh",
+    "english": "a mess (disorganized)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "goma",
+    "dict_id": "Q53001822",
+    "word_ipa": "/ˈɡo.ma/",
+    "sound_out": "GOH-mah",
+    "english": "use the bathroom",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "goro",
+    "dict_id": "Q001170",
+    "word_ipa": "/ˈɡo.ɾo/",
+    "sound_out": "GOH-roh",
+    "english": "fly; move through the air",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "g",
+    "ipa": "/ɡ/",
+    "word": "guki",
+    "dict_id": "Q53001110",
+    "word_ipa": "/ˈɡu.ki/",
+    "sound_out": "GOO-kee",
+    "english": "ain't no way!",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "khe",
+    "dict_id": "Q001629",
+    "word_ipa": "/xe/",
+    "sound_out": "kheh",
+    "english": "what",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "khar",
+    "dict_id": "Q001617",
+    "word_ipa": "/xaɾ/",
+    "sound_out": "khahr",
+    "english": "sharp cry: fear; immediate alarm",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "dëkha",
+    "dict_id": "Q53000438",
+    "word_ipa": "/ˈdə.xa/",
+    "sound_out": "DUH-khah",
+    "english": "pussy (slang)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "hakhe",
+    "dict_id": "Q53000449",
+    "word_ipa": "/ˈha.xe/",
+    "sound_out": "HAH-kheh",
+    "english": "cum (semen slang)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "khali",
+    "dict_id": "Q001613",
+    "word_ipa": "/ˈxa.li/",
+    "sound_out": "KHAH-lee",
+    "english": "breathe",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "khano",
+    "dict_id": "Q001614",
+    "word_ipa": "/ˈxa.no/",
+    "sound_out": "KHAH-noh",
+    "english": "body; physical form",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "khari",
+    "dict_id": "Q001619",
+    "word_ipa": "/ˈxa.ɾi/",
+    "sound_out": "KHAH-ree",
+    "english": "warn; caution",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "kh",
+    "ipa": "/x/",
+    "word": "kharo",
+    "dict_id": "Q001621",
+    "word_ipa": "/ˈxa.ɾo/",
+    "sound_out": "KHAH-roh",
+    "english": "fear; alarm",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "zha",
+    "dict_id": "Q006270",
+    "word_ipa": "/ʒa/",
+    "sound_out": "zhah",
+    "english": "bright trill: playfulness; excitement; delight",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "zher",
+    "dict_id": "Q006290",
+    "word_ipa": "/ʒeɾ/",
+    "sound_out": "zhehr",
+    "english": "broken echo: suspicion; uncertainty",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "dizhe",
+    "dict_id": "Q53001645",
+    "word_ipa": "/ˈdi.ʒe/",
+    "sound_out": "DEE-zheh",
+    "english": "gross pay",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "gezhe",
+    "dict_id": "Q53001604",
+    "word_ipa": "/ˈɡe.ʒe/",
+    "sound_out": "GEH-zheh",
+    "english": "immigration interview",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "gozhe",
+    "dict_id": "Q53000979",
+    "word_ipa": "/ˈɡo.ʒe/",
+    "sound_out": "GOH-zheh",
+    "english": "trigger warning",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "guzhe",
+    "dict_id": "Q53001859",
+    "word_ipa": "/ˈɡu.ʒe/",
+    "sound_out": "GOO-zheh",
+    "english": "gargle",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "kazhë",
+    "dict_id": "Q53000739",
+    "word_ipa": "/ˈka.ʒə/",
+    "sound_out": "KAH-zhuh",
+    "english": "sexual harassment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "zh",
+    "ipa": "/ʒ/",
+    "word": "lëzha",
+    "dict_id": "Q53000555",
+    "word_ipa": "/ˈlə.ʒa/",
+    "sound_out": "LUH-zhah",
+    "english": "pornography",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "he",
+    "dict_id": "Q001453",
+    "word_ipa": "/he/",
+    "sound_out": "heh",
+    "english": "yes/no question ending",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "ye",
+    "dict_id": "Q005558",
+    "word_ipa": "/je/",
+    "sound_out": "yeh",
+    "english": "inferred or probable evidence",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "eri",
+    "dict_id": "Q000953",
+    "word_ipa": "/ˈe.ɾi/",
+    "sound_out": "EH-ree",
+    "english": "exist; be; become present",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "khe",
+    "dict_id": "Q001629",
+    "word_ipa": "/xe/",
+    "sound_out": "kheh",
+    "english": "what",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "sen",
+    "dict_id": "Q004286",
+    "word_ipa": "/sen/",
+    "sound_out": "sehn",
+    "english": "still voice: neutral; informative",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "wen",
+    "dict_id": "Q005251",
+    "word_ipa": "/wen/",
+    "sound_out": "wehn",
+    "english": "distant call: longing; missing someone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "beze",
+    "dict_id": "Q53000861",
+    "word_ipa": "/ˈbe.ze/",
+    "sound_out": "BEH-zeh",
+    "english": "gender presentation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "e",
+    "ipa": "/e/",
+    "word": "bode",
+    "dict_id": "Q53000995",
+    "word_ipa": "/ˈbo.de/",
+    "sound_out": "BOH-deh",
+    "english": "dunk on someone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "bonga",
+    "dict_id": "Q53000766",
+    "word_ipa": "/ˈbo.ŋa/",
+    "sound_out": "BOH-ngah",
+    "english": "trustworthiness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "bonge",
+    "dict_id": "Q53000956",
+    "word_ipa": "/ˈbo.ŋe/",
+    "sound_out": "BOH-ngeh",
+    "english": "soft-block",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "dango",
+    "dict_id": "Q53001924",
+    "word_ipa": "/ˈda.ŋo/",
+    "sound_out": "DAH-ngoh",
+    "english": "spoofed verification badge",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "gëngu",
+    "dict_id": "Q53000742",
+    "word_ipa": "/ˈɡə.ŋu/",
+    "sound_out": "GUH-ngoo",
+    "english": "workplace harassment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "ngala",
+    "dict_id": "Q53001474",
+    "word_ipa": "/ˈŋa.la/",
+    "sound_out": "NGAH-lah",
+    "english": "kernel module",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "ngara",
+    "dict_id": "Q002349",
+    "word_ipa": "/ˈŋa.ɾa/",
+    "sound_out": "NGAH-rah",
+    "english": "approximately; about (quantity)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "ngaro",
+    "dict_id": "Q002350",
+    "word_ipa": "/ˈŋa.ɾo/",
+    "sound_out": "NGAH-roh",
+    "english": "blood",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "ng",
+    "ipa": "/ŋ/",
+    "word": "ngate",
+    "dict_id": "Q53000690",
+    "word_ipa": "/ˈŋa.te/",
+    "sound_out": "NGAH-teh",
+    "english": "send an unsolicited nude",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "ha",
+    "dict_id": "Q001447",
+    "word_ipa": "/ha/",
+    "sound_out": "hah",
+    "english": "hello; attention-getting greeting",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "he",
+    "dict_id": "Q001453",
+    "word_ipa": "/he/",
+    "sound_out": "heh",
+    "english": "yes/no question ending",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hu",
+    "dict_id": "Q001457",
+    "word_ipa": "/hu/",
+    "sound_out": "hoo",
+    "english": "reported evidence; heard from others",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hë",
+    "dict_id": "Q001458",
+    "word_ipa": "/hə/",
+    "sound_out": "huh",
+    "english": "seeking call: curiosity; inquiry",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hol",
+    "dict_id": "Q001454",
+    "word_ipa": "/hol/",
+    "sound_out": "hohl",
+    "english": "open heart: gratitude; appreciation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hën",
+    "dict_id": "Q001461",
+    "word_ipa": "/hən/",
+    "sound_out": "huhn",
+    "english": "question emphasis; really?",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hara",
+    "dict_id": "Q001448",
+    "word_ipa": "/ˈha.ɾa/",
+    "sound_out": "HAH-rah",
+    "english": "how; by what manner",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "h",
+    "ipa": "/h/",
+    "word": "hari",
+    "dict_id": "Q001449",
+    "word_ipa": "/ˈha.ɾi/",
+    "sound_out": "HAH-ree",
+    "english": "have; possess; hold ownership of",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "banu",
+    "dict_id": "Q000004",
+    "word_ipa": "/ˈba.nu/",
+    "sound_out": "BAH-noo",
+    "english": "wing",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "beze",
+    "dict_id": "Q53000861",
+    "word_ipa": "/ˈbe.ze/",
+    "sound_out": "BEH-zeh",
+    "english": "gender presentation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "bode",
+    "dict_id": "Q53000995",
+    "word_ipa": "/ˈbo.de/",
+    "sound_out": "BOH-deh",
+    "english": "dunk on someone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "bozë",
+    "dict_id": "Q53001157",
+    "word_ipa": "/ˈbo.zə/",
+    "sound_out": "BOH-zuh",
+    "english": "heartbreak grief",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "bupe",
+    "dict_id": "Q53001762",
+    "word_ipa": "/ˈbu.pe/",
+    "sound_out": "BOO-peh",
+    "english": "crap (feces slang)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "buza",
+    "dict_id": "Q53000899",
+    "word_ipa": "/ˈbu.za/",
+    "sound_out": "BOO-zah",
+    "english": "queer community",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "bëqe",
+    "dict_id": "Q53000634",
+    "word_ipa": "/ˈbə.qe/",
+    "sound_out": "BUH-qeh",
+    "english": "stop immediately",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "b",
+    "ipa": "/b/",
+    "word": "hobi",
+    "dict_id": "Q53001109",
+    "word_ipa": "/ˈho.bi/",
+    "sound_out": "HOH-bee",
+    "english": "that's crazy!",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "bupe",
+    "dict_id": "Q53001762",
+    "word_ipa": "/ˈbu.pe/",
+    "sound_out": "BOO-peh",
+    "english": "crap (feces slang)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "gipa",
+    "dict_id": "Q53001468",
+    "word_ipa": "/ˈɡi.pa/",
+    "sound_out": "GEE-pah",
+    "english": "Bluetooth tethering",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "gëpe",
+    "dict_id": "Q53000030",
+    "word_ipa": "/ˈɡə.pe/",
+    "sound_out": "GUH-peh",
+    "english": "what the hell?",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "nipa",
+    "dict_id": "Q53000246",
+    "word_ipa": "/ˈni.pa/",
+    "sound_out": "NEE-pah",
+    "english": "spitefully",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "palo",
+    "dict_id": "Q003204",
+    "word_ipa": "/ˈpa.lo/",
+    "sound_out": "PAH-loh",
+    "english": "tool; implement",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "paqa",
+    "dict_id": "Q53000406",
+    "word_ipa": "/ˈpa.qa/",
+    "sound_out": "PAH-qah",
+    "english": "childbirth",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "pate",
+    "dict_id": "Q53000508",
+    "word_ipa": "/ˈpa.te/",
+    "sound_out": "PAH-teh",
+    "english": "erogenous zone",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "p",
+    "ipa": "/p/",
+    "word": "pihi",
+    "dict_id": "Q53001220",
+    "word_ipa": "/ˈpi.hi/",
+    "sound_out": "PEE-hee",
+    "english": "retract",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "mi",
+    "dict_id": "Q002285",
+    "word_ipa": "/mi/",
+    "sound_out": "mee",
+    "english": "I; me",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "më",
+    "dict_id": "Q002296",
+    "word_ipa": "/mə/",
+    "sound_out": "muh",
+    "english": "warm hum: affection; comfort; vulnerability",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "nëm",
+    "dict_id": "Q002975",
+    "word_ipa": "/nəm/",
+    "sound_out": "nuhm",
+    "english": "quiet breath: calm; contentment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "rëm",
+    "dict_id": "Q004144",
+    "word_ipa": "/ɾəm/",
+    "sound_out": "ruhm",
+    "english": "high crest: pride; celebration",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "ëma",
+    "dict_id": "Q006814",
+    "word_ipa": "/ˈə.ma/",
+    "sound_out": "UH-mah",
+    "english": "oh; sudden realization",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "damë",
+    "dict_id": "Q53001307",
+    "word_ipa": "/ˈda.mə/",
+    "sound_out": "DAH-muh",
+    "english": "tail injury",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "doma",
+    "dict_id": "Q000750",
+    "word_ipa": "/ˈdo.ma/",
+    "sound_out": "DOH-mah",
+    "english": "later; afterward",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "m",
+    "ipa": "/m/",
+    "word": "dëma",
+    "dict_id": "Q000929",
+    "word_ipa": "/ˈdə.ma/",
+    "sound_out": "DUH-mah",
+    "english": "problem; obstacle",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "sa",
+    "dict_id": "Q004189",
+    "word_ipa": "/sa/",
+    "sound_out": "sah",
+    "english": "they; that person (singular, ungendered)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "si",
+    "dict_id": "Q004633",
+    "word_ipa": "/si/",
+    "sound_out": "see",
+    "english": "directly witnessed evidence",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "së",
+    "dict_id": "Q004897",
+    "word_ipa": "/sə/",
+    "sound_out": "suh",
+    "english": "topic introduction; as for (in speech)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "sen",
+    "dict_id": "Q004286",
+    "word_ipa": "/sen/",
+    "sound_out": "sehn",
+    "english": "still voice: neutral; informative",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "sur",
+    "dict_id": "Q004807",
+    "word_ipa": "/suɾ/",
+    "sound_out": "soor",
+    "english": "falling song: grief; sadness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "geso",
+    "dict_id": "Q53001823",
+    "word_ipa": "/ˈɡe.so/",
+    "sound_out": "GEH-soh",
+    "english": "flush the toilet",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "nusu",
+    "dict_id": "Q53001601",
+    "word_ipa": "/ˈnu.su/",
+    "sound_out": "NOO-soo",
+    "english": "student permit",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "s",
+    "ipa": "/s/",
+    "word": "qasë",
+    "dict_id": "Q53000203",
+    "word_ipa": "/ˈqa.sə/",
+    "sound_out": "QAH-suh",
+    "english": "challenge an insult",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "nu",
+    "dict_id": "Q002877",
+    "word_ipa": "/nu/",
+    "sound_out": "noo",
+    "english": "not; no; negator",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "ana",
+    "dict_id": "Q000001",
+    "word_ipa": "/ˈa.na/",
+    "sound_out": "AH-nah",
+    "english": "after (a clause or event)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "hën",
+    "dict_id": "Q001461",
+    "word_ipa": "/hən/",
+    "sound_out": "huhn",
+    "english": "question emphasis; really?",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "lan",
+    "dict_id": "Q002000",
+    "word_ipa": "/lan/",
+    "sound_out": "lahn",
+    "english": "softening request or making it optional",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "lën",
+    "dict_id": "Q002259",
+    "word_ipa": "/lən/",
+    "sound_out": "luhn",
+    "english": "hidden hum: shyness; bashfulness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "nao",
+    "dict_id": "Q002331",
+    "word_ipa": "/ˈna.o/",
+    "sound_out": "NAH-oh",
+    "english": "but; however",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "noa",
+    "dict_id": "Q002867",
+    "word_ipa": "/ˈno.a/",
+    "sound_out": "NOH-ah",
+    "english": "short; low",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "n",
+    "ipa": "/n/",
+    "word": "nëm",
+    "dict_id": "Q002975",
+    "word_ipa": "/nəm/",
+    "sound_out": "nuhm",
+    "english": "quiet breath: calm; contentment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "ya",
+    "dict_id": "Q005536",
+    "word_ipa": "/ja/",
+    "sound_out": "yah",
+    "english": "command or request ending",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "ye",
+    "dict_id": "Q005558",
+    "word_ipa": "/je/",
+    "sound_out": "yeh",
+    "english": "inferred or probable evidence",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "yo",
+    "dict_id": "Q005564",
+    "word_ipa": "/jo/",
+    "sound_out": "yoh",
+    "english": "hey; familiar greeting",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "yë",
+    "dict_id": "Q005972",
+    "word_ipa": "/jə/",
+    "sound_out": "yuh",
+    "english": "rising echo: surprise; astonishment",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "liya",
+    "dict_id": "Q53000999",
+    "word_ipa": "/ˈli.ja/",
+    "sound_out": "LEE-yah",
+    "english": "call someone out",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "lëyi",
+    "dict_id": "Q53001825",
+    "word_ipa": "/ˈlə.ji/",
+    "sound_out": "LUH-yee",
+    "english": "sanitize hands",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "meya",
+    "dict_id": "Q002284",
+    "word_ipa": "/ˈme.ja/",
+    "sound_out": "MEH-yah",
+    "english": "who",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "y",
+    "ipa": "/j/",
+    "word": "moye",
+    "dict_id": "Q53000072",
+    "word_ipa": "/ˈmo.je/",
+    "sound_out": "MOH-yeh",
+    "english": "profanity",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "dal",
+    "dict_id": "Q000418",
+    "word_ipa": "/dal/",
+    "sound_out": "dahl",
+    "english": "firm pulse: determination; resolve",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "hol",
+    "dict_id": "Q001454",
+    "word_ipa": "/hol/",
+    "sound_out": "hohl",
+    "english": "open heart: gratitude; appreciation",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "lan",
+    "dict_id": "Q002000",
+    "word_ipa": "/lan/",
+    "sound_out": "lahn",
+    "english": "softening request or making it optional",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "lën",
+    "dict_id": "Q002259",
+    "word_ipa": "/lən/",
+    "sound_out": "luhn",
+    "english": "hidden hum: shyness; bashfulness",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "dala",
+    "dict_id": "Q000419",
+    "word_ipa": "/ˈda.la/",
+    "sound_out": "DAH-lah",
+    "english": "resolve; determination",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "dela",
+    "dict_id": "Q53000578",
+    "word_ipa": "/ˈde.la/",
+    "sound_out": "DEH-lah",
+    "english": "gender identity",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "dila",
+    "dict_id": "Q53000921",
+    "word_ipa": "/ˈdi.la/",
+    "sound_out": "DEE-lah",
+    "english": "ratio (social media)",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  },
+  {
+    "letter": "l",
+    "ipa": "/l/",
+    "word": "doli",
+    "dict_id": "Q53001441",
+    "word_ipa": "/ˈdo.li/",
+    "sound_out": "DOH-lee",
+    "english": "phishing email",
+    "task": "Identify this native letter as one phoneme in the documented word, then pronounce the whole word with penultimate stress if multisyllabic."
+  }
+]

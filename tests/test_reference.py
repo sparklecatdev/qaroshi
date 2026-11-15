@@ -12,7 +12,7 @@ class QaroshiFinalReference(unittest.TestCase):
   cls.sentences=rows('corpus/parallel_sentences.csv')
   cls.grammar=(ROOT/'docs/grammar.md').read_text(encoding='utf-8')
   cls.html=(ROOT/'Qaroshi_Wiki.html').read_text(encoding='utf-8')
- def test_dictionary_size(self):self.assertEqual(len(self.words),18663)
+ def test_dictionary_size(self):self.assertEqual(len(self.words),30000)
  def test_dictionary_headwords_unique(self):self.assertEqual(len(set(x['qaroshi'] for x in self.words)),len(self.words))
  def test_dictionary_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.words)),len(self.words))
  def test_dictionary_schema_unified(self):self.assertEqual(set(self.words[0]),{'id','qaroshi','pos','english','domain','type','components','note','ipa','reading','sound_out'})
@@ -21,11 +21,11 @@ class QaroshiFinalReference(unittest.TestCase):
  def test_dictionary_json_same(self):self.assertEqual(json.loads((ROOT/'data/lexicon.json').read_text()),self.words)
  def test_original_phrase_preserved(self):
   self.assertTrue(any(x['qaroshi']=='më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.' for x in self.sentences))
- def test_phrase_count(self):self.assertEqual(len(self.sentences),3183)
- def test_phrase_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.sentences)),3183)
+ def test_phrase_count(self):self.assertEqual(len(self.sentences),4383)
+ def test_phrase_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.sentences)),4383)
  def test_phrase_json_same(self):self.assertEqual(json.loads((ROOT/'corpus/parallel_sentences.json').read_text()),self.sentences)
  def test_phrase_schema_unified(self):self.assertNotIn('edition',self.sentences[0]);self.assertIn('ipa',self.sentences[0]);self.assertIn('reading',self.sentences[0])
- def test_70_chapters(self):self.assertEqual([int(x) for x in re.findall(r'^## (\d+)\.',self.grammar,re.M)],list(range(1,71)))
+ def test_70_chapters(self):self.assertEqual([int(x) for x in re.findall(r'^## (\d+)\.',self.grammar,re.M)],list(range(1,91)))
  def test_glyph_inventory(self):self.assertEqual(len(list((ROOT/'assets/glyphs').glob('*.png'))),26)
  def test_resonances(self):
   obj=json.loads((ROOT/'data/resonances.json').read_text());self.assertEqual(len(obj),16)
@@ -33,7 +33,7 @@ class QaroshiFinalReference(unittest.TestCase):
   obj=json.loads((ROOT/'data/grammatical_particles.json').read_text())
   self.assertEqual(len(obj),96);self.assertEqual(len({a['form'] for a in obj}),96)
   for x in obj:self.assertIn(x['form'],{a['qaroshi'] for a in self.words})
- def test_english_index(self):self.assertGreaterEqual(len(rows('data/english_index.csv')),18663)
+ def test_english_index(self):self.assertGreaterEqual(len(rows('data/english_index.csv')),30000)
  def test_offline_html_embed(self):
   self.assertIn('id="wiki-data"',self.html);self.assertIn('id="leftSidebar"',self.html)
   self.assertIn('id="mainContent"',self.html);self.assertIn('id="scriptInput"', (ROOT/'web/qaroshi.js').read_text())
@@ -86,7 +86,7 @@ class QaroshiIPAReference(unittest.TestCase):
    self.assertEqual(item['sound_out'],sound_out_text(line),line)
  def test_bilingual_index_pronunciation(self):
   words={row['qaroshi']:row for row in self.words}
-  self.assertEqual(len(self.index),19431)
+  self.assertEqual(len(self.index),30768)
   for row in self.index:
    self.assertEqual(row['ipa'],words[row['qaroshi']]['ipa'])
    self.assertEqual(row['reading'],words[row['qaroshi']]['reading'])
@@ -149,8 +149,8 @@ class LatinAlphabetReference(unittest.TestCase):
   self.assertIn('id="wiki-data"',html)
   self.assertIn('"latin_upper":"Z"',html)
  def test_base_word_counts_unchanged(self):
-  self.assertEqual(len(rows('data/lexicon.csv')),18663)
-  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3183)
+  self.assertEqual(len(rows('data/lexicon.csv')),30000)
+  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),4383)
 
 class DictionaryPronunciationPatch(unittest.TestCase):
  def test_soundout_examples(self):
@@ -172,8 +172,8 @@ class DictionaryPronunciationPatch(unittest.TestCase):
   for r in rows('data/lexicon.csv'):
    self.assertTrue(r['sound_out'].strip())
  def test_unchanged_vocabulary_and_corpus_size(self):
-  self.assertEqual(len(rows('data/lexicon.csv')),18663)
-  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3183)
+  self.assertEqual(len(rows('data/lexicon.csv')),30000)
+  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),4383)
 
 class QaroshiFifthEdition(unittest.TestCase):
  @classmethod
@@ -181,8 +181,8 @@ class QaroshiFifthEdition(unittest.TestCase):
   cls.words=rows('data/lexicon.csv')
   cls.phrases=rows('corpus/parallel_sentences.csv')
   cls.new=[x for x in cls.words if x['id'].startswith('Q5') and not x['id'].startswith('Q530')]
-  cls.old=[x for x in cls.words if not x['id'].startswith('Q5')]
-  cls.old_phrases=[x for x in cls.phrases if not x['id'].startswith('S5')]
+  cls.old=[x for x in cls.words if not x['id'].startswith(('Q5','Q60'))]
+  cls.old_phrases=[x for x in cls.phrases[:3183] if not x['id'].startswith('S5')]
   cls.info=json.loads((ROOT/'data/legacy_standard_4_3_1_digest.json').read_text())
  @staticmethod
  def digest(rows):
@@ -197,7 +197,7 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_new_words_types(self):
   self.assertEqual(collections.Counter(x['type'] for x in self.new),{'headword':2122,'compound':2732})
  def test_total_words_and_phrases(self):
-  self.assertEqual(len(self.words),18663);self.assertEqual(len(self.phrases),3183)
+  self.assertEqual(len(self.words),30000);self.assertEqual(len(self.phrases),4383)
  def test_new_root_phonotactics(self):
   for entry in self.new:
    self.assertTrue(graphemes(entry['qaroshi']), entry['qaroshi'])
@@ -223,7 +223,7 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_version_statistics_consistent(self):
   info=json.loads((ROOT/'RELEASE_INFO.json').read_text())
   stats=json.loads((ROOT/'data/statistics.json').read_text())
-  for a,b,c in [('dictionary_entries',18663,'dictionary_entries'),('sentences',3183,'sentences')]:
+  for a,b,c in [('dictionary_entries',30000,'dictionary_entries'),('sentences',4383,'sentences')]:
    self.assertEqual(info[a],b);self.assertEqual(stats[c],b)
   self.assertEqual(info['native_letters'],26)
  def test_ui_contains_no_external_links(self):
@@ -247,13 +247,13 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_all_entries_have_real_phonetic_ipa(self):
   for row in self.new:self.assertEqual(row['ipa'],ipa_word(row['qaroshi']))
  def test_english_index_tracks_all_new_words(self):
-  idx=rows('data/english_index.csv');self.assertEqual(len(idx),19431)
+  idx=rows('data/english_index.csv');self.assertEqual(len(idx),30768)
   present={x['qaroshi'] for x in idx}
   self.assertTrue(all(x['qaroshi'] in present for x in self.new))
  def test_3k_phrasebook_has_no_missing_english(self):
   self.assertTrue(all(x['english'].strip() for x in self.phrases))
  def test_grammar_and_script_unchanged(self):
-  self.assertEqual(len(re.findall(r'^## \d+\.',(ROOT/'docs/grammar.md').read_text(),flags=re.M)),70)
+  self.assertEqual(len(re.findall(r'^## \d+\.',(ROOT/'docs/grammar.md').read_text(),flags=re.M)),90)
   self.assertEqual(len(json.loads((ROOT/'data/phoneme_inventory.json').read_text())),26)
  def test_documentation_explains_compounds_and_limitations(self):
   t=(ROOT/'docs/lexicography.md').read_text()
@@ -266,8 +266,8 @@ class DeepStudyEdition(unittest.TestCase):
   cls.library=json.loads((ROOT/'data/learning_library.json').read_text(encoding='utf8'))
   cls.js=(ROOT/'web/qaroshi.js').read_text(encoding='utf8')
   cls.html=(ROOT/'Qaroshi_Wiki.html').read_text(encoding='utf8')
- def test_nineteen_study_pages(self):self.assertEqual(len(self.index),19)
- def test_unique_study_ids(self):self.assertEqual(len({x['id'] for x in self.index}),19)
+ def test_nineteen_study_pages(self):self.assertEqual(len(self.index),28)
+ def test_unique_study_ids(self):self.assertEqual(len({x['id'] for x in self.index}),28)
  def test_study_paths_present(self):
   self.assertTrue(all((ROOT/x['path']).is_file() for x in self.index))
  def test_sixteen_learning_lessons(self):
@@ -305,7 +305,7 @@ class DeepStudyEdition(unittest.TestCase):
   self.assertEqual(self.library['corpus_unchanged'],3077)
   self.assertEqual(self.library['new_grammar_rules'],0)
  def test_release_state(self):
-  self.assertEqual(json.loads((ROOT/'RELEASE_INFO.json').read_text())['version'],'5.3')
+  self.assertEqual(json.loads((ROOT/'RELEASE_INFO.json').read_text())['version'],'7.0')
  def test_study_browser_script(self):self.assertTrue((ROOT/'tools/study_smoke.py').is_file())
 
 if __name__=='__main__': unittest.main()

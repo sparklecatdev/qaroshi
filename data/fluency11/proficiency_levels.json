@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "name": "Foundation",
+    "focus": "Resonance, core vocabulary and basic word order",
+    "target": 0.75
+  },
+  {
+    "id": "q2",
+    "name": "Structure",
+    "focus": "Plural, cases, possession and complete clauses",
+    "target": 0.78
+  },
+  {
+    "id": "q3",
+    "name": "Expression",
+    "focus": "Past, future, aspect, negation and modality",
+    "target": 0.8
+  },
+  {
+    "id": "q4",
+    "name": "Reasoning",
+    "focus": "Reported evidence, uncertainty, questions and scope",
+    "target": 0.82
+  },
+  {
+    "id": "q5",
+    "name": "Connected fluency",
+    "focus": "Coherent reading, contextual interpretation and translation",
+    "target": 0.85
+  }
+]

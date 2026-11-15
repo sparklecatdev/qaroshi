@@ -1,4 +1,4 @@
-/* Qaroshi Unified Standard Reference 5.3. */
+/* Qaroshi Unified Reference, release 14. */
 (() => {
   'use strict';
   const D = JSON.parse(document.getElementById('wiki-data').textContent);
@@ -45,7 +45,7 @@
     home:'Overview', assistant:'AI assistant', learn:'Learning library', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
-    introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70]
+    introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
   };
   // Offline phonemic IPA and Romanized stress guide, matching tools/phonetics.py.
   function phoneticGraphemes(text) {
@@ -156,7 +156,7 @@
     }).join('');
     const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
     return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
+      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
       <div class="side-group"><div class="side-heading">Learn Qaroshi</div>
       ${a('learn','Learning library')}
       ${a('guide/getting_started','Start here')}
@@ -170,7 +170,7 @@
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
       <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/living','Living speech, profanity & intimacy')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 5.3</strong><br>Reference available offline.</div>`;
+      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Release 14</strong><br>Reference available offline.</div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -224,7 +224,7 @@
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · STANDARD 5.3</div>
+        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · RELEASE 14</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
         <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
@@ -243,8 +243,8 @@
       <h2 id="original-writing">Written in its native alphabet</h2>
       ${glyphHTML('më ti lësha.',{large:true})}
       <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
-      <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all 70 grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Qaroshi Unified Standard 5.3 · Reference available offline · <a href="#guide/release">Reference notes</a></div></article>`;
+      <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all ${C.length} grammar chapters can be read from the sidebar.</p>
+      <div class="foot">Qaroshi Release 14 · Reference available offline · <a href="#guide/release">Reference notes</a></div></article>`;
     setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
   }
   let assistantIndex;
@@ -414,7 +414,7 @@
       <h2 id="featured">Core study resources</h2><div class="learning-grid">${lead.map(entry).join('')}</div>
       <h2 id="deep">Deep-dive guides</h2><p class="muted">Each guide explains a topic in context and includes reference IPA, worked examples, independent practice, and a revealable answer key.</p>
       <div class="learning-grid">${rest.map(entry).join('')}</div>
-      <div class="foot">The original standard dictionary and 70 grammar chapters remain the normative basis for every guide.</div></article>`;
+      <div class="foot">The original standard dictionary and ${C.length} grammar chapters remain the normative basis for every guide.</div></article>`;
     setToc([{id:'path',name:'Study route'},{id:'featured',name:'Core resources'},{id:'deep',name:'Deep guides'}]);
   }
   function renderDictionary(route){
@@ -481,7 +481,7 @@
       <ul class="section-list">${C.filter(c=>c.number>=range[0]&&c.number<=range[1]).map(c=>`<li><a href="#grammar/${c.id}"><span class="ch-num">${c.number}.</span>${esc(c.title)}</a></li>`).join('')}</ul>`).join('');
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Grammar','Qaroshi grammar',`Browse all ${C.length} grammar chapters in order. Every chapter opens as a separate wiki article.`)}
       <div class="note"><strong>Sentence rule.</strong><p>Exactly one written resonance marker opens every independent sentence; subordinate clauses inherit it. 4.0 adds optional discourse particles, not additional mandatory resonance types.</p></div>
-      ${groups}<div class="foot">All 70 chapters belong to the same unified grammar. <a href="#learn">Study them with guided examples and answer keys.</a></div></article>`;
+      ${groups}<div class="foot">All ${C.length} chapters belong to the same unified grammar. <a href="#learn">Study them with guided examples and answer keys.</a></div></article>`;
     setToc(Object.keys(bookMark).map(name=>({id:name,name:name[0].toUpperCase()+name.slice(1)})));
   }
   function renderChapter(id){
@@ -589,7 +589,7 @@
   function renderAbout(){
     main.innerHTML=`<article class="readable">${mkHeader('Reference / About','About Qaroshi','The unified Qaroshi language reference')}
       <p>Qaroshi has a 26-letter original Nardoragon alphabet, 16 obligatory written resonance registers, predominantly SOV clause order and productive morphology. This site brings its documented vocabulary, grammar and usage examples into a single browsable reference.</p>
-      <h2 id="unity">One standard</h2><p>The dictionary contains ${count(W.length)} distinct entries, the phrasebook ${count(P.length)} examples, and the grammar 70 numbered chapters. The complete dictionary is available from a single index.</p>
+      <h2 id="unity">One standard</h2><p>The dictionary contains ${count(W.length)} distinct entries, the phrasebook ${count(P.length)} examples, and the grammar ${C.length} numbered chapters. The complete dictionary is available from a single index.</p>
       <h2 id="preservation">Original native writing</h2><p>The 26 original glyphs remain available in the script guide and Romanization-to-glyph converter.</p>
       <h2 id="limits">What the tools do</h2><p>Dictionary search uses meanings and spellings; it is not a complete machine translation engine. The glyph converter renders Romanized Qaroshi as native handwritten letters. Example sentences are teaching material rather than a measurement of spontaneous spoken frequency.</p>
       <div class="foot">The reference works offline. The AI assistant requires an internet connection and an OpenRouter API key.</div></article>`;

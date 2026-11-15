@@ -1,0 +1,1001 @@
+id,family,anchor,source_meaning,automatic_structural_flag,editorial_semantic_risks,approval_status,reviewer,speaker_attested
+EDIDIOM0001,wing_shelter,shëna,protect trust discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0002,wing_shelter,namu,protect promise discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0003,wing_shelter,shësaro,protect silence discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0004,wing_shelter,zhera,protect doubt discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0005,wing_shelter,kharo,protect fear discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0006,wing_shelter,mera,protect joy discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0007,wing_shelter,zhizhaqo,protect sadness discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0008,wing_shelter,shënoho,protect secret discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0009,wing_shelter,shama,protect hope discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0010,wing_shelter,moru,protect memory discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0011,wing_shelter,sëma,protect truth discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0012,wing_shelter,kequro,protect honesty discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0013,wing_shelter,zhingena,protect uncertainty discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0014,wing_shelter,zhisora,protect shame discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0015,wing_shelter,rëli,protect courage discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0016,wing_shelter,naro,protect home discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0017,wing_shelter,kerëta,protect friendship discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0018,wing_shelter,zhiluzha,protect love discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0019,wing_shelter,wuqizo,protect time discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0020,wing_shelter,shëno,protect question discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0021,wing_shelter,morushira,protect story discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0022,wing_shelter,wenao,protect freedom discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0023,wing_shelter,qizhukho,protect justice discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0024,wing_shelter,shoroa,protect reason discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0025,wing_shelter,shërama,protect meaning discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0026,wing_shelter,shënoa,protect choice discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0027,wing_shelter,tëmi,protect patience discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0028,wing_shelter,khariwo,protect danger discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0029,wing_shelter,nohowa,protect safety discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0030,wing_shelter,ëro,protect identity discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0031,wing_shelter,pëna,protect regret discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0032,wing_shelter,kebeya,protect respect discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0033,wing_shelter,noha,protect boundary discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0034,wing_shelter,raka,protect anger discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0035,wing_shelter,sura,protect grief discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0036,wing_shelter,wukëro,protect future discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0037,wing_shelter,shi,protect language discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0038,wing_shelter,zhidëno,protect dream discreetly,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0039,wing_shelter,qarë,protect shelter discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0040,wing_shelter,kezhoro,protect care discreetly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0041,release_wind,shëna,release control of trust,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0042,release_wind,namu,release control of promise,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0043,release_wind,shësaro,release control of silence,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0044,release_wind,zhera,release control of doubt,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0045,release_wind,kharo,release control of fear,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0046,release_wind,mera,release control of joy,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0047,release_wind,zhizhaqo,release control of sadness,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0048,release_wind,shënoho,release control of secret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0049,release_wind,shama,release control of hope,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0050,release_wind,moru,release control of memory,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0051,release_wind,sëma,release control of truth,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0052,release_wind,kequro,release control of honesty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0053,release_wind,zhingena,release control of uncertainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0054,release_wind,zhisora,release control of shame,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0055,release_wind,rëli,release control of courage,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0056,release_wind,naro,release control of home,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0057,release_wind,kerëta,release control of friendship,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0058,release_wind,zhiluzha,release control of love,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0059,release_wind,wuqizo,release control of time,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0060,release_wind,shëno,release control of question,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0061,release_wind,morushira,release control of story,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0062,release_wind,wenao,release control of freedom,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0063,release_wind,qizhukho,release control of justice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0064,release_wind,shoroa,release control of reason,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0065,release_wind,shërama,release control of meaning,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0066,release_wind,shënoa,release control of choice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0067,release_wind,tëmi,release control of patience,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0068,release_wind,khariwo,release control of danger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0069,release_wind,nohowa,release control of safety,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0070,release_wind,ëro,release control of identity,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0071,release_wind,pëna,release control of regret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0072,release_wind,kebeya,release control of respect,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0073,release_wind,noha,release control of boundary,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0074,release_wind,raka,release control of anger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0075,release_wind,sura,release control of grief,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0076,release_wind,wukëro,release control of future,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0077,release_wind,shi,release control of language,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0078,release_wind,zhidëno,release control of dream,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0079,release_wind,qarë,release control of shelter,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0080,release_wind,kezhoro,release control of care,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0081,name_to_sky,shëna,make trust public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0082,name_to_sky,namu,make promise public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0083,name_to_sky,shësaro,make silence public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0084,name_to_sky,zhera,make doubt public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0085,name_to_sky,kharo,make fear public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0086,name_to_sky,mera,make joy public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0087,name_to_sky,zhizhaqo,make sadness public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0088,name_to_sky,shënoho,make secret public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0089,name_to_sky,shama,make hope public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0090,name_to_sky,moru,make memory public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0091,name_to_sky,sëma,make truth public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0092,name_to_sky,kequro,make honesty public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0093,name_to_sky,zhingena,make uncertainty public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0094,name_to_sky,zhisora,make shame public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0095,name_to_sky,rëli,make courage public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0096,name_to_sky,naro,make home public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0097,name_to_sky,kerëta,make friendship public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0098,name_to_sky,zhiluzha,make love public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0099,name_to_sky,wuqizo,make time public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0100,name_to_sky,shëno,make question public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0101,name_to_sky,morushira,make story public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0102,name_to_sky,wenao,make freedom public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0103,name_to_sky,qizhukho,make justice public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0104,name_to_sky,shoroa,make reason public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0105,name_to_sky,shërama,make meaning public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0106,name_to_sky,shënoa,make choice public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0107,name_to_sky,tëmi,make patience public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0108,name_to_sky,khariwo,make danger public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0109,name_to_sky,nohowa,make safety public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0110,name_to_sky,ëro,make identity public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0111,name_to_sky,pëna,make regret public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0112,name_to_sky,kebeya,make respect public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0113,name_to_sky,noha,make boundary public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0114,name_to_sky,raka,make anger public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0115,name_to_sky,sura,make grief public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0116,name_to_sky,wukëro,make future public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0117,name_to_sky,shi,make language public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0118,name_to_sky,zhidëno,make dream public,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0119,name_to_sky,qarë,make shelter public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0120,name_to_sky,kezhoro,make care public,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0121,night_speech,shëna,speak privately about trust,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0122,night_speech,namu,speak privately about promise,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0123,night_speech,shësaro,speak privately about silence,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0124,night_speech,zhera,speak privately about doubt,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0125,night_speech,kharo,speak privately about fear,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0126,night_speech,mera,speak privately about joy,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0127,night_speech,zhizhaqo,speak privately about sadness,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0128,night_speech,shënoho,speak privately about secret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0129,night_speech,shama,speak privately about hope,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0130,night_speech,moru,speak privately about memory,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0131,night_speech,sëma,speak privately about truth,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0132,night_speech,kequro,speak privately about honesty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0133,night_speech,zhingena,speak privately about uncertainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0134,night_speech,zhisora,speak privately about shame,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0135,night_speech,rëli,speak privately about courage,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0136,night_speech,naro,speak privately about home,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0137,night_speech,kerëta,speak privately about friendship,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0138,night_speech,zhiluzha,speak privately about love,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0139,night_speech,wuqizo,speak privately about time,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0140,night_speech,shëno,speak privately about question,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0141,night_speech,morushira,speak privately about story,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0142,night_speech,wenao,speak privately about freedom,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0143,night_speech,qizhukho,speak privately about justice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0144,night_speech,shoroa,speak privately about reason,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0145,night_speech,shërama,speak privately about meaning,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0146,night_speech,shënoa,speak privately about choice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0147,night_speech,tëmi,speak privately about patience,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0148,night_speech,khariwo,speak privately about danger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0149,night_speech,nohowa,speak privately about safety,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0150,night_speech,ëro,speak privately about identity,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0151,night_speech,pëna,speak privately about regret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0152,night_speech,kebeya,speak privately about respect,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0153,night_speech,noha,speak privately about boundary,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0154,night_speech,raka,speak privately about anger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0155,night_speech,sura,speak privately about grief,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0156,night_speech,wukëro,speak privately about future,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0157,night_speech,shi,speak privately about language,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0158,night_speech,zhidëno,speak privately about dream,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0159,night_speech,qarë,speak privately about shelter,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0160,night_speech,kezhoro,speak privately about care,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0161,star_writing,shëna,make trust a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0162,star_writing,namu,make promise a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0163,star_writing,shësaro,make silence a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0164,star_writing,zhera,make doubt a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0165,star_writing,kharo,make fear a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0166,star_writing,mera,make joy a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0167,star_writing,zhizhaqo,make sadness a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0168,star_writing,shënoho,make secret a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0169,star_writing,shama,make hope a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0170,star_writing,moru,make memory a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0171,star_writing,sëma,make truth a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0172,star_writing,kequro,make honesty a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0173,star_writing,zhingena,make uncertainty a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0174,star_writing,zhisora,make shame a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0175,star_writing,rëli,make courage a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0176,star_writing,naro,make home a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0177,star_writing,kerëta,make friendship a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0178,star_writing,zhiluzha,make love a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0179,star_writing,wuqizo,make time a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0180,star_writing,shëno,make question a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0181,star_writing,morushira,make story a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0182,star_writing,wenao,make freedom a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0183,star_writing,qizhukho,make justice a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0184,star_writing,shoroa,make reason a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0185,star_writing,shërama,make meaning a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0186,star_writing,shënoa,make choice a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0187,star_writing,tëmi,make patience a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0188,star_writing,khariwo,make danger a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0189,star_writing,nohowa,make safety a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0190,star_writing,ëro,make identity a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0191,star_writing,pëna,make regret a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0192,star_writing,kebeya,make respect a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0193,star_writing,noha,make boundary a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0194,star_writing,raka,make anger a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0195,star_writing,sura,make grief a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0196,star_writing,wukëro,make future a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0197,star_writing,shi,make language a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0198,star_writing,zhidëno,make dream a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0199,star_writing,qarë,make shelter a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0200,star_writing,kezhoro,make care a lasting commitment,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0201,fire_sight,shëna,reconsider trust under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0202,fire_sight,namu,reconsider promise under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0203,fire_sight,shësaro,reconsider silence under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0204,fire_sight,zhera,reconsider doubt under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0205,fire_sight,kharo,reconsider fear under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0206,fire_sight,mera,reconsider joy under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0207,fire_sight,zhizhaqo,reconsider sadness under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0208,fire_sight,shënoho,reconsider secret under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0209,fire_sight,shama,reconsider hope under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0210,fire_sight,moru,reconsider memory under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0211,fire_sight,sëma,reconsider truth under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0212,fire_sight,kequro,reconsider honesty under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0213,fire_sight,zhingena,reconsider uncertainty under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0214,fire_sight,zhisora,reconsider shame under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0215,fire_sight,rëli,reconsider courage under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0216,fire_sight,naro,reconsider home under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0217,fire_sight,kerëta,reconsider friendship under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0218,fire_sight,zhiluzha,reconsider love under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0219,fire_sight,wuqizo,reconsider time under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0220,fire_sight,shëno,reconsider question under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0221,fire_sight,morushira,reconsider story under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0222,fire_sight,wenao,reconsider freedom under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0223,fire_sight,qizhukho,reconsider justice under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0224,fire_sight,shoroa,reconsider reason under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0225,fire_sight,shërama,reconsider meaning under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0226,fire_sight,shënoa,reconsider choice under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0227,fire_sight,tëmi,reconsider patience under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0228,fire_sight,khariwo,reconsider danger under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0229,fire_sight,nohowa,reconsider safety under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0230,fire_sight,ëro,reconsider identity under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0231,fire_sight,pëna,reconsider regret under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0232,fire_sight,kebeya,reconsider respect under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0233,fire_sight,noha,reconsider boundary under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0234,fire_sight,raka,reconsider anger under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0235,fire_sight,sura,reconsider grief under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0236,fire_sight,wukëro,reconsider future under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0237,fire_sight,shi,reconsider language under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0238,fire_sight,zhidëno,reconsider dream under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0239,fire_sight,qarë,reconsider shelter under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0240,fire_sight,kezhoro,reconsider care under pressure,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0241,water_sight,shëna,see trust with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0242,water_sight,namu,see promise with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0243,water_sight,shësaro,see silence with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0244,water_sight,zhera,see doubt with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0245,water_sight,kharo,see fear with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0246,water_sight,mera,see joy with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0247,water_sight,zhizhaqo,see sadness with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0248,water_sight,shënoho,see secret with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0249,water_sight,shama,see hope with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0250,water_sight,moru,see memory with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0251,water_sight,sëma,see truth with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0252,water_sight,kequro,see honesty with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0253,water_sight,zhingena,see uncertainty with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0254,water_sight,zhisora,see shame with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0255,water_sight,rëli,see courage with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0256,water_sight,naro,see home with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0257,water_sight,kerëta,see friendship with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0258,water_sight,zhiluzha,see love with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0259,water_sight,wuqizo,see time with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0260,water_sight,shëno,see question with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0261,water_sight,morushira,see story with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0262,water_sight,wenao,see freedom with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0263,water_sight,qizhukho,see justice with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0264,water_sight,shoroa,see reason with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0265,water_sight,shërama,see meaning with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0266,water_sight,shënoa,see choice with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0267,water_sight,tëmi,see patience with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0268,water_sight,khariwo,see danger with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0269,water_sight,nohowa,see safety with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0270,water_sight,ëro,see identity with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0271,water_sight,pëna,see regret with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0272,water_sight,kebeya,see respect with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0273,water_sight,noha,see boundary with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0274,water_sight,raka,see anger with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0275,water_sight,sura,see grief with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0276,water_sight,wukëro,see future with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0277,water_sight,shi,see language with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0278,water_sight,zhidëno,see dream with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0279,water_sight,qarë,see shelter with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0280,water_sight,kezhoro,see care with greater calm,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0281,wing_flight,shëna,carry trust into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0282,wing_flight,namu,carry promise into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0283,wing_flight,shësaro,carry silence into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0284,wing_flight,zhera,carry doubt into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0285,wing_flight,kharo,carry fear into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0286,wing_flight,mera,carry joy into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0287,wing_flight,zhizhaqo,carry sadness into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0288,wing_flight,shënoho,carry secret into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0289,wing_flight,shama,carry hope into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0290,wing_flight,moru,carry memory into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0291,wing_flight,sëma,carry truth into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0292,wing_flight,kequro,carry honesty into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0293,wing_flight,zhingena,carry uncertainty into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0294,wing_flight,zhisora,carry shame into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0295,wing_flight,rëli,carry courage into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0296,wing_flight,naro,carry home into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0297,wing_flight,kerëta,carry friendship into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0298,wing_flight,zhiluzha,carry love into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0299,wing_flight,wuqizo,carry time into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0300,wing_flight,shëno,carry question into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0301,wing_flight,morushira,carry story into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0302,wing_flight,wenao,carry freedom into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0303,wing_flight,qizhukho,carry justice into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0304,wing_flight,shoroa,carry reason into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0305,wing_flight,shërama,carry meaning into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0306,wing_flight,shënoa,carry choice into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0307,wing_flight,tëmi,carry patience into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0308,wing_flight,khariwo,carry danger into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0309,wing_flight,nohowa,carry safety into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0310,wing_flight,ëro,carry identity into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0311,wing_flight,pëna,carry regret into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0312,wing_flight,kebeya,carry respect into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0313,wing_flight,noha,carry boundary into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0314,wing_flight,raka,carry anger into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0315,wing_flight,sura,carry grief into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0316,wing_flight,wukëro,carry future into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0317,wing_flight,shi,carry language into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0318,wing_flight,zhidëno,carry dream into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0319,wing_flight,qarë,carry shelter into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0320,wing_flight,kezhoro,carry care into a new phase,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0321,home_keeping,shëna,keep trust safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0322,home_keeping,namu,keep promise safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0323,home_keeping,shësaro,keep silence safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0324,home_keeping,zhera,keep doubt safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0325,home_keeping,kharo,keep fear safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0326,home_keeping,mera,keep joy safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0327,home_keeping,zhizhaqo,keep sadness safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0328,home_keeping,shënoho,keep secret safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0329,home_keeping,shama,keep hope safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0330,home_keeping,moru,keep memory safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0331,home_keeping,sëma,keep truth safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0332,home_keeping,kequro,keep honesty safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0333,home_keeping,zhingena,keep uncertainty safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0334,home_keeping,zhisora,keep shame safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0335,home_keeping,rëli,keep courage safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0336,home_keeping,naro,keep home safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0337,home_keeping,kerëta,keep friendship safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0338,home_keeping,zhiluzha,keep love safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0339,home_keeping,wuqizo,keep time safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0340,home_keeping,shëno,keep question safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0341,home_keeping,morushira,keep story safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0342,home_keeping,wenao,keep freedom safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0343,home_keeping,qizhukho,keep justice safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0344,home_keeping,shoroa,keep reason safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0345,home_keeping,shërama,keep meaning safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0346,home_keeping,shënoa,keep choice safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0347,home_keeping,tëmi,keep patience safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0348,home_keeping,khariwo,keep danger safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0349,home_keeping,nohowa,keep safety safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0350,home_keeping,ëro,keep identity safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0351,home_keeping,pëna,keep regret safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0352,home_keeping,kebeya,keep respect safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0353,home_keeping,noha,keep boundary safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0354,home_keeping,raka,keep anger safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0355,home_keeping,sura,keep grief safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0356,home_keeping,wukëro,keep future safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0357,home_keeping,shi,keep language safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0358,home_keeping,zhidëno,keep dream safe within a trusted group,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0359,home_keeping,qarë,keep shelter safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0360,home_keeping,kezhoro,keep care safe within a trusted group,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0361,wind_speech,shëna,speak about trust without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0362,wind_speech,namu,speak about promise without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0363,wind_speech,shësaro,speak about silence without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0364,wind_speech,zhera,speak about doubt without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0365,wind_speech,kharo,speak about fear without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0366,wind_speech,mera,speak about joy without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0367,wind_speech,zhizhaqo,speak about sadness without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0368,wind_speech,shënoho,speak about secret without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0369,wind_speech,shama,speak about hope without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0370,wind_speech,moru,speak about memory without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0371,wind_speech,sëma,speak about truth without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0372,wind_speech,kequro,speak about honesty without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0373,wind_speech,zhingena,speak about uncertainty without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0374,wind_speech,zhisora,speak about shame without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0375,wind_speech,rëli,speak about courage without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0376,wind_speech,naro,speak about home without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0377,wind_speech,kerëta,speak about friendship without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0378,wind_speech,zhiluzha,speak about love without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0379,wind_speech,wuqizo,speak about time without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0380,wind_speech,shëno,speak about question without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0381,wind_speech,morushira,speak about story without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0382,wind_speech,wenao,speak about freedom without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0383,wind_speech,qizhukho,speak about justice without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0384,wind_speech,shoroa,speak about reason without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0385,wind_speech,shërama,speak about meaning without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0386,wind_speech,shënoa,speak about choice without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0387,wind_speech,tëmi,speak about patience without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0388,wind_speech,khariwo,speak about danger without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0389,wind_speech,nohowa,speak about safety without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0390,wind_speech,ëro,speak about identity without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0391,wind_speech,pëna,speak about regret without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0392,wind_speech,kebeya,speak about respect without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0393,wind_speech,noha,speak about boundary without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0394,wind_speech,raka,speak about anger without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0395,wind_speech,sura,speak about grief without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0396,wind_speech,wukëro,speak about future without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0397,wind_speech,shi,speak about language without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0398,wind_speech,zhidëno,speak about dream without expecting an answer,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0399,wind_speech,qarë,speak about shelter without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0400,wind_speech,kezhoro,speak about care without expecting an answer,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0401,moon_sight,shëna,recognize an understated part of trust,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0402,moon_sight,namu,recognize an understated part of promise,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0403,moon_sight,shësaro,recognize an understated part of silence,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0404,moon_sight,zhera,recognize an understated part of doubt,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0405,moon_sight,kharo,recognize an understated part of fear,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0406,moon_sight,mera,recognize an understated part of joy,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0407,moon_sight,zhizhaqo,recognize an understated part of sadness,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0408,moon_sight,shënoho,recognize an understated part of secret,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0409,moon_sight,shama,recognize an understated part of hope,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0410,moon_sight,moru,recognize an understated part of memory,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0411,moon_sight,sëma,recognize an understated part of truth,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0412,moon_sight,kequro,recognize an understated part of honesty,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0413,moon_sight,zhingena,recognize an understated part of uncertainty,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0414,moon_sight,zhisora,recognize an understated part of shame,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0415,moon_sight,rëli,recognize an understated part of courage,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0416,moon_sight,naro,recognize an understated part of home,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0417,moon_sight,kerëta,recognize an understated part of friendship,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0418,moon_sight,zhiluzha,recognize an understated part of love,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0419,moon_sight,wuqizo,recognize an understated part of time,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0420,moon_sight,shëno,recognize an understated part of question,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0421,moon_sight,morushira,recognize an understated part of story,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0422,moon_sight,wenao,recognize an understated part of freedom,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0423,moon_sight,qizhukho,recognize an understated part of justice,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0424,moon_sight,shoroa,recognize an understated part of reason,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0425,moon_sight,shërama,recognize an understated part of meaning,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0426,moon_sight,shënoa,recognize an understated part of choice,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0427,moon_sight,tëmi,recognize an understated part of patience,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0428,moon_sight,khariwo,recognize an understated part of danger,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0429,moon_sight,nohowa,recognize an understated part of safety,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0430,moon_sight,ëro,recognize an understated part of identity,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0431,moon_sight,pëna,recognize an understated part of regret,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0432,moon_sight,kebeya,recognize an understated part of respect,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0433,moon_sight,noha,recognize an understated part of boundary,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0434,moon_sight,raka,recognize an understated part of anger,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0435,moon_sight,sura,recognize an understated part of grief,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0436,moon_sight,wukëro,recognize an understated part of future,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0437,moon_sight,shi,recognize an understated part of language,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0438,moon_sight,zhidëno,recognize an understated part of dream,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0439,moon_sight,qarë,recognize an understated part of shelter,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0440,moon_sight,kezhoro,recognize an understated part of care,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0441,shadow_questions,shëna,question trust without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0442,shadow_questions,namu,question promise without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0443,shadow_questions,shësaro,question silence without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0444,shadow_questions,zhera,question doubt without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0445,shadow_questions,kharo,question fear without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0446,shadow_questions,mera,question joy without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0447,shadow_questions,zhizhaqo,question sadness without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0448,shadow_questions,shënoho,question secret without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0449,shadow_questions,shama,question hope without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0450,shadow_questions,moru,question memory without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0451,shadow_questions,sëma,question truth without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0452,shadow_questions,kequro,question honesty without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0453,shadow_questions,zhingena,question uncertainty without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0454,shadow_questions,zhisora,question shame without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0455,shadow_questions,rëli,question courage without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0456,shadow_questions,naro,question home without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0457,shadow_questions,kerëta,question friendship without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0458,shadow_questions,zhiluzha,question love without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0459,shadow_questions,wuqizo,question time without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0460,shadow_questions,shëno,question question without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0461,shadow_questions,morushira,question story without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0462,shadow_questions,wenao,question freedom without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0463,shadow_questions,qizhukho,question justice without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0464,shadow_questions,shoroa,question reason without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0465,shadow_questions,shërama,question meaning without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0466,shadow_questions,shënoa,question choice without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0467,shadow_questions,tëmi,question patience without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0468,shadow_questions,khariwo,question danger without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0469,shadow_questions,nohowa,question safety without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0470,shadow_questions,ëro,question identity without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0471,shadow_questions,pëna,question regret without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0472,shadow_questions,kebeya,question respect without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0473,shadow_questions,noha,question boundary without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0474,shadow_questions,raka,question anger without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0475,shadow_questions,sura,question grief without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0476,shadow_questions,wukëro,question future without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0477,shadow_questions,shi,question language without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0478,shadow_questions,zhidëno,question dream without certainty,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0479,shadow_questions,qarë,question shelter without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0480,shadow_questions,kezhoro,question care without certainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0481,home_speech,shëna,discuss trust among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0482,home_speech,namu,discuss promise among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0483,home_speech,shësaro,discuss silence among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0484,home_speech,zhera,discuss doubt among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0485,home_speech,kharo,discuss fear among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0486,home_speech,mera,discuss joy among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0487,home_speech,zhizhaqo,discuss sadness among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0488,home_speech,shënoho,discuss secret among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0489,home_speech,shama,discuss hope among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0490,home_speech,moru,discuss memory among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0491,home_speech,sëma,discuss truth among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0492,home_speech,kequro,discuss honesty among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0493,home_speech,zhingena,discuss uncertainty among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0494,home_speech,zhisora,discuss shame among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0495,home_speech,rëli,discuss courage among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0496,home_speech,naro,discuss home among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0497,home_speech,kerëta,discuss friendship among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0498,home_speech,zhiluzha,discuss love among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0499,home_speech,wuqizo,discuss time among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0500,home_speech,shëno,discuss question among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0501,home_speech,morushira,discuss story among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0502,home_speech,wenao,discuss freedom among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0503,home_speech,qizhukho,discuss justice among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0504,home_speech,shoroa,discuss reason among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0505,home_speech,shërama,discuss meaning among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0506,home_speech,shënoa,discuss choice among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0507,home_speech,tëmi,discuss patience among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0508,home_speech,khariwo,discuss danger among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0509,home_speech,nohowa,discuss safety among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0510,home_speech,ëro,discuss identity among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0511,home_speech,pëna,discuss regret among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0512,home_speech,kebeya,discuss respect among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0513,home_speech,noha,discuss boundary among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0514,home_speech,raka,discuss anger among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0515,home_speech,sura,discuss grief among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0516,home_speech,wukëro,discuss future among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0517,home_speech,shi,discuss language among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0518,home_speech,zhidëno,discuss dream among trusted people,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0519,home_speech,qarë,discuss shelter among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0520,home_speech,kezhoro,discuss care among trusted people,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0521,star_flight,shëna,pursue an ambitious future for trust,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0522,star_flight,namu,pursue an ambitious future for promise,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0523,star_flight,shësaro,pursue an ambitious future for silence,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0524,star_flight,zhera,pursue an ambitious future for doubt,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0525,star_flight,kharo,pursue an ambitious future for fear,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0526,star_flight,mera,pursue an ambitious future for joy,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0527,star_flight,zhizhaqo,pursue an ambitious future for sadness,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0528,star_flight,shënoho,pursue an ambitious future for secret,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0529,star_flight,shama,pursue an ambitious future for hope,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0530,star_flight,moru,pursue an ambitious future for memory,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0531,star_flight,sëma,pursue an ambitious future for truth,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0532,star_flight,kequro,pursue an ambitious future for honesty,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0533,star_flight,zhingena,pursue an ambitious future for uncertainty,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0534,star_flight,zhisora,pursue an ambitious future for shame,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0535,star_flight,rëli,pursue an ambitious future for courage,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0536,star_flight,naro,pursue an ambitious future for home,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0537,star_flight,kerëta,pursue an ambitious future for friendship,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0538,star_flight,zhiluzha,pursue an ambitious future for love,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0539,star_flight,wuqizo,pursue an ambitious future for time,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0540,star_flight,shëno,pursue an ambitious future for question,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0541,star_flight,morushira,pursue an ambitious future for story,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0542,star_flight,wenao,pursue an ambitious future for freedom,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0543,star_flight,qizhukho,pursue an ambitious future for justice,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0544,star_flight,shoroa,pursue an ambitious future for reason,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0545,star_flight,shërama,pursue an ambitious future for meaning,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0546,star_flight,shënoa,pursue an ambitious future for choice,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0547,star_flight,tëmi,pursue an ambitious future for patience,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0548,star_flight,khariwo,pursue an ambitious future for danger,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0549,star_flight,nohowa,pursue an ambitious future for safety,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0550,star_flight,ëro,pursue an ambitious future for identity,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0551,star_flight,pëna,pursue an ambitious future for regret,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0552,star_flight,kebeya,pursue an ambitious future for respect,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0553,star_flight,noha,pursue an ambitious future for boundary,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0554,star_flight,raka,pursue an ambitious future for anger,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0555,star_flight,sura,pursue an ambitious future for grief,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0556,star_flight,wukëro,pursue an ambitious future for future,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0557,star_flight,shi,pursue an ambitious future for language,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0558,star_flight,zhidëno,pursue an ambitious future for dream,pass,abstract metaphor cannot be assumed productive for all anchors; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0559,star_flight,qarë,pursue an ambitious future for shelter,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0560,star_flight,kezhoro,pursue an ambitious future for care,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0561,fire_guard,shëna,protect trust at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0562,fire_guard,namu,protect promise at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0563,fire_guard,shësaro,protect silence at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0564,fire_guard,zhera,protect doubt at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0565,fire_guard,kharo,protect fear at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0566,fire_guard,mera,protect joy at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0567,fire_guard,zhizhaqo,protect sadness at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0568,fire_guard,shënoho,protect secret at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0569,fire_guard,shama,protect hope at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0570,fire_guard,moru,protect memory at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0571,fire_guard,sëma,protect truth at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0572,fire_guard,kequro,protect honesty at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0573,fire_guard,zhingena,protect uncertainty at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0574,fire_guard,zhisora,protect shame at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0575,fire_guard,rëli,protect courage at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0576,fire_guard,naro,protect home at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0577,fire_guard,kerëta,protect friendship at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0578,fire_guard,zhiluzha,protect love at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0579,fire_guard,wuqizo,protect time at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0580,fire_guard,shëno,protect question at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0581,fire_guard,morushira,protect story at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0582,fire_guard,wenao,protect freedom at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0583,fire_guard,qizhukho,protect justice at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0584,fire_guard,shoroa,protect reason at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0585,fire_guard,shërama,protect meaning at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0586,fire_guard,shënoa,protect choice at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0587,fire_guard,tëmi,protect patience at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0588,fire_guard,khariwo,protect danger at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0589,fire_guard,nohowa,protect safety at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0590,fire_guard,ëro,protect identity at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0591,fire_guard,pëna,protect regret at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0592,fire_guard,kebeya,protect respect at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0593,fire_guard,noha,protect boundary at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0594,fire_guard,raka,protect anger at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0595,fire_guard,sura,protect grief at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0596,fire_guard,wukëro,protect future at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0597,fire_guard,shi,protect language at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0598,fire_guard,zhidëno,protect dream at personal cost,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0599,fire_guard,qarë,protect shelter at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0600,fire_guard,kezhoro,protect care at personal cost,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0601,water_release,shëna,allow trust to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0602,water_release,namu,allow promise to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0603,water_release,shësaro,allow silence to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0604,water_release,zhera,allow doubt to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0605,water_release,kharo,allow fear to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0606,water_release,mera,allow joy to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0607,water_release,zhizhaqo,allow sadness to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0608,water_release,shënoho,allow secret to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0609,water_release,shama,allow hope to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0610,water_release,moru,allow memory to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0611,water_release,sëma,allow truth to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0612,water_release,kequro,allow honesty to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0613,water_release,zhingena,allow uncertainty to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0614,water_release,zhisora,allow shame to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0615,water_release,rëli,allow courage to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0616,water_release,naro,allow home to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0617,water_release,kerëta,allow friendship to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0618,water_release,zhiluzha,allow love to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0619,water_release,wuqizo,allow time to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0620,water_release,shëno,allow question to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0621,water_release,morushira,allow story to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0622,water_release,wenao,allow freedom to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0623,water_release,qizhukho,allow justice to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0624,water_release,shoroa,allow reason to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0625,water_release,shërama,allow meaning to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0626,water_release,shënoa,allow choice to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0627,water_release,tëmi,allow patience to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0628,water_release,khariwo,allow danger to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0629,water_release,nohowa,allow safety to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0630,water_release,ëro,allow identity to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0631,water_release,pëna,allow regret to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0632,water_release,kebeya,allow respect to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0633,water_release,noha,allow boundary to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0634,water_release,raka,allow anger to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0635,water_release,sura,allow grief to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0636,water_release,wukëro,allow future to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0637,water_release,shi,allow language to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0638,water_release,zhidëno,allow dream to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0639,water_release,qarë,allow shelter to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0640,water_release,kezhoro,allow care to recover or change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0641,quiet_sight,shëna,notice trust without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0642,quiet_sight,namu,notice promise without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0643,quiet_sight,shësaro,notice silence without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0644,quiet_sight,zhera,notice doubt without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0645,quiet_sight,kharo,notice fear without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0646,quiet_sight,mera,notice joy without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0647,quiet_sight,zhizhaqo,notice sadness without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0648,quiet_sight,shënoho,notice secret without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0649,quiet_sight,shama,notice hope without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0650,quiet_sight,moru,notice memory without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0651,quiet_sight,sëma,notice truth without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0652,quiet_sight,kequro,notice honesty without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0653,quiet_sight,zhingena,notice uncertainty without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0654,quiet_sight,zhisora,notice shame without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0655,quiet_sight,rëli,notice courage without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0656,quiet_sight,naro,notice home without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0657,quiet_sight,kerëta,notice friendship without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0658,quiet_sight,zhiluzha,notice love without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0659,quiet_sight,wuqizo,notice time without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0660,quiet_sight,shëno,notice question without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0661,quiet_sight,morushira,notice story without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0662,quiet_sight,wenao,notice freedom without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0663,quiet_sight,qizhukho,notice justice without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0664,quiet_sight,shoroa,notice reason without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0665,quiet_sight,shërama,notice meaning without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0666,quiet_sight,shënoa,notice choice without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0667,quiet_sight,tëmi,notice patience without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0668,quiet_sight,khariwo,notice danger without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0669,quiet_sight,nohowa,notice safety without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0670,quiet_sight,ëro,notice identity without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0671,quiet_sight,pëna,notice regret without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0672,quiet_sight,kebeya,notice respect without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0673,quiet_sight,noha,notice boundary without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0674,quiet_sight,raka,notice anger without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0675,quiet_sight,sura,notice grief without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0676,quiet_sight,wukëro,notice future without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0677,quiet_sight,shi,notice language without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0678,quiet_sight,zhidëno,notice dream without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0679,quiet_sight,qarë,notice shelter without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0680,quiet_sight,kezhoro,notice care without speaking,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0681,voice_flight,shëna,spread an account of trust,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0682,voice_flight,namu,spread an account of promise,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0683,voice_flight,shësaro,spread an account of silence,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0684,voice_flight,zhera,spread an account of doubt,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0685,voice_flight,kharo,spread an account of fear,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0686,voice_flight,mera,spread an account of joy,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0687,voice_flight,zhizhaqo,spread an account of sadness,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0688,voice_flight,shënoho,spread an account of secret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0689,voice_flight,shama,spread an account of hope,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0690,voice_flight,moru,spread an account of memory,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0691,voice_flight,sëma,spread an account of truth,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0692,voice_flight,kequro,spread an account of honesty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0693,voice_flight,zhingena,spread an account of uncertainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0694,voice_flight,zhisora,spread an account of shame,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0695,voice_flight,rëli,spread an account of courage,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0696,voice_flight,naro,spread an account of home,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0697,voice_flight,kerëta,spread an account of friendship,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0698,voice_flight,zhiluzha,spread an account of love,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0699,voice_flight,wuqizo,spread an account of time,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0700,voice_flight,shëno,spread an account of question,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0701,voice_flight,morushira,spread an account of story,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0702,voice_flight,wenao,spread an account of freedom,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0703,voice_flight,qizhukho,spread an account of justice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0704,voice_flight,shoroa,spread an account of reason,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0705,voice_flight,shërama,spread an account of meaning,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0706,voice_flight,shënoa,spread an account of choice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0707,voice_flight,tëmi,spread an account of patience,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0708,voice_flight,khariwo,spread an account of danger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0709,voice_flight,nohowa,spread an account of safety,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0710,voice_flight,ëro,spread an account of identity,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0711,voice_flight,pëna,spread an account of regret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0712,voice_flight,kebeya,spread an account of respect,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0713,voice_flight,noha,spread an account of boundary,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0714,voice_flight,raka,spread an account of anger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0715,voice_flight,sura,spread an account of grief,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0716,voice_flight,wukëro,spread an account of future,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0717,voice_flight,shi,spread an account of language,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0718,voice_flight,zhidëno,spread an account of dream,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0719,voice_flight,qarë,spread an account of shelter,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0720,voice_flight,kezhoro,spread an account of care,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0721,moon_speech,shëna,revisit trust in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0722,moon_speech,namu,revisit promise in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0723,moon_speech,shësaro,revisit silence in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0724,moon_speech,zhera,revisit doubt in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0725,moon_speech,kharo,revisit fear in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0726,moon_speech,mera,revisit joy in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0727,moon_speech,zhizhaqo,revisit sadness in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0728,moon_speech,shënoho,revisit secret in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0729,moon_speech,shama,revisit hope in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0730,moon_speech,moru,revisit memory in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0731,moon_speech,sëma,revisit truth in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0732,moon_speech,kequro,revisit honesty in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0733,moon_speech,zhingena,revisit uncertainty in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0734,moon_speech,zhisora,revisit shame in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0735,moon_speech,rëli,revisit courage in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0736,moon_speech,naro,revisit home in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0737,moon_speech,kerëta,revisit friendship in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0738,moon_speech,zhiluzha,revisit love in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0739,moon_speech,wuqizo,revisit time in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0740,moon_speech,shëno,revisit question in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0741,moon_speech,morushira,revisit story in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0742,moon_speech,wenao,revisit freedom in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0743,moon_speech,qizhukho,revisit justice in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0744,moon_speech,shoroa,revisit reason in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0745,moon_speech,shërama,revisit meaning in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0746,moon_speech,shënoa,revisit choice in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0747,moon_speech,tëmi,revisit patience in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0748,moon_speech,khariwo,revisit danger in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0749,moon_speech,nohowa,revisit safety in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0750,moon_speech,ëro,revisit identity in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0751,moon_speech,pëna,revisit regret in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0752,moon_speech,kebeya,revisit respect in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0753,moon_speech,noha,revisit boundary in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0754,moon_speech,raka,revisit anger in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0755,moon_speech,sura,revisit grief in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0756,moon_speech,wukëro,revisit future in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0757,moon_speech,shi,revisit language in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0758,moon_speech,zhidëno,revisit dream in a reflective moment,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0759,moon_speech,qarë,revisit shelter in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0760,moon_speech,kezhoro,revisit care in a reflective moment,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0761,wind_guard,shëna,defend trust against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0762,wind_guard,namu,defend promise against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0763,wind_guard,shësaro,defend silence against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0764,wind_guard,zhera,defend doubt against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0765,wind_guard,kharo,defend fear against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0766,wind_guard,mera,defend joy against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0767,wind_guard,zhizhaqo,defend sadness against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0768,wind_guard,shënoho,defend secret against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0769,wind_guard,shama,defend hope against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0770,wind_guard,moru,defend memory against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0771,wind_guard,sëma,defend truth against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0772,wind_guard,kequro,defend honesty against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0773,wind_guard,zhingena,defend uncertainty against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0774,wind_guard,zhisora,defend shame against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0775,wind_guard,rëli,defend courage against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0776,wind_guard,naro,defend home against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0777,wind_guard,kerëta,defend friendship against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0778,wind_guard,zhiluzha,defend love against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0779,wind_guard,wuqizo,defend time against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0780,wind_guard,shëno,defend question against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0781,wind_guard,morushira,defend story against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0782,wind_guard,wenao,defend freedom against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0783,wind_guard,qizhukho,defend justice against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0784,wind_guard,shoroa,defend reason against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0785,wind_guard,shërama,defend meaning against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0786,wind_guard,shënoa,defend choice against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0787,wind_guard,tëmi,defend patience against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0788,wind_guard,khariwo,defend danger against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0789,wind_guard,nohowa,defend safety against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0790,wind_guard,ëro,defend identity against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0791,wind_guard,pëna,defend regret against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0792,wind_guard,kebeya,defend respect against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0793,wind_guard,noha,defend boundary against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0794,wind_guard,raka,defend anger against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0795,wind_guard,sura,defend grief against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0796,wind_guard,wukëro,defend future against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0797,wind_guard,shi,defend language against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0798,wind_guard,zhidëno,defend dream against change,pass,abstract metaphor cannot be assumed productive for all anchors; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0799,wind_guard,qarë,defend shelter against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0800,wind_guard,kezhoro,defend care against change,pass,abstract metaphor cannot be assumed productive for all anchors,not approved: needs independent contextual evaluation,,no
+EDIDIOM0801,sky_reading,shëna,interpret trust with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0802,sky_reading,namu,interpret promise with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0803,sky_reading,shësaro,interpret silence with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0804,sky_reading,zhera,interpret doubt with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0805,sky_reading,kharo,interpret fear with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0806,sky_reading,mera,interpret joy with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0807,sky_reading,zhizhaqo,interpret sadness with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0808,sky_reading,shënoho,interpret secret with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0809,sky_reading,shama,interpret hope with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0810,sky_reading,moru,interpret memory with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0811,sky_reading,sëma,interpret truth with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0812,sky_reading,kequro,interpret honesty with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0813,sky_reading,zhingena,interpret uncertainty with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0814,sky_reading,zhisora,interpret shame with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0815,sky_reading,rëli,interpret courage with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0816,sky_reading,naro,interpret home with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0817,sky_reading,kerëta,interpret friendship with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0818,sky_reading,zhiluzha,interpret love with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0819,sky_reading,wuqizo,interpret time with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0820,sky_reading,shëno,interpret question with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0821,sky_reading,morushira,interpret story with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0822,sky_reading,wenao,interpret freedom with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0823,sky_reading,qizhukho,interpret justice with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0824,sky_reading,shoroa,interpret reason with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0825,sky_reading,shërama,interpret meaning with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0826,sky_reading,shënoa,interpret choice with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0827,sky_reading,tëmi,interpret patience with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0828,sky_reading,khariwo,interpret danger with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0829,sky_reading,nohowa,interpret safety with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0830,sky_reading,ëro,interpret identity with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0831,sky_reading,pëna,interpret regret with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0832,sky_reading,kebeya,interpret respect with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0833,sky_reading,noha,interpret boundary with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0834,sky_reading,raka,interpret anger with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0835,sky_reading,sura,interpret grief with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0836,sky_reading,wukëro,interpret future with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0837,sky_reading,shi,interpret language with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0838,sky_reading,zhidëno,interpret dream with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0839,sky_reading,qarë,interpret shelter with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0840,sky_reading,kezhoro,interpret care with a broad perspective,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0841,fire_reading,shëna,interpret trust while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0842,fire_reading,namu,interpret promise while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0843,fire_reading,shësaro,interpret silence while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0844,fire_reading,zhera,interpret doubt while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0845,fire_reading,kharo,interpret fear while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0846,fire_reading,mera,interpret joy while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0847,fire_reading,zhizhaqo,interpret sadness while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0848,fire_reading,shënoho,interpret secret while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0849,fire_reading,shama,interpret hope while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0850,fire_reading,moru,interpret memory while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0851,fire_reading,sëma,interpret truth while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0852,fire_reading,kequro,interpret honesty while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0853,fire_reading,zhingena,interpret uncertainty while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0854,fire_reading,zhisora,interpret shame while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0855,fire_reading,rëli,interpret courage while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0856,fire_reading,naro,interpret home while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0857,fire_reading,kerëta,interpret friendship while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0858,fire_reading,zhiluzha,interpret love while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0859,fire_reading,wuqizo,interpret time while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0860,fire_reading,shëno,interpret question while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0861,fire_reading,morushira,interpret story while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0862,fire_reading,wenao,interpret freedom while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0863,fire_reading,qizhukho,interpret justice while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0864,fire_reading,shoroa,interpret reason while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0865,fire_reading,shërama,interpret meaning while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0866,fire_reading,shënoa,interpret choice while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0867,fire_reading,tëmi,interpret patience while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0868,fire_reading,khariwo,interpret danger while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0869,fire_reading,nohowa,interpret safety while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0870,fire_reading,ëro,interpret identity while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0871,fire_reading,pëna,interpret regret while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0872,fire_reading,kebeya,interpret respect while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0873,fire_reading,noha,interpret boundary while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0874,fire_reading,raka,interpret anger while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0875,fire_reading,sura,interpret grief while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0876,fire_reading,wukëro,interpret future while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0877,fire_reading,shi,interpret language while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0878,fire_reading,zhidëno,interpret dream while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review; multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0879,fire_reading,qarë,interpret shelter while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0880,fire_reading,kezhoro,interpret care while emotionally invested,pass,figurative seeing/reading of abstract noun requires independent semantic review,not approved: needs independent contextual evaluation,,no
+EDIDIOM0881,night_guard,shëna,protect trust without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0882,night_guard,namu,protect promise without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0883,night_guard,shësaro,protect silence without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0884,night_guard,zhera,protect doubt without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0885,night_guard,kharo,protect fear without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0886,night_guard,mera,protect joy without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0887,night_guard,zhizhaqo,protect sadness without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0888,night_guard,shënoho,protect secret without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0889,night_guard,shama,protect hope without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0890,night_guard,moru,protect memory without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0891,night_guard,sëma,protect truth without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0892,night_guard,kequro,protect honesty without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0893,night_guard,zhingena,protect uncertainty without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0894,night_guard,zhisora,protect shame without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0895,night_guard,rëli,protect courage without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0896,night_guard,naro,protect home without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0897,night_guard,kerëta,protect friendship without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0898,night_guard,zhiluzha,protect love without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0899,night_guard,wuqizo,protect time without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0900,night_guard,shëno,protect question without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0901,night_guard,morushira,protect story without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0902,night_guard,wenao,protect freedom without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0903,night_guard,qizhukho,protect justice without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0904,night_guard,shoroa,protect reason without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0905,night_guard,shërama,protect meaning without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0906,night_guard,shënoa,protect choice without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0907,night_guard,tëmi,protect patience without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0908,night_guard,khariwo,protect danger without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0909,night_guard,nohowa,protect safety without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0910,night_guard,ëro,protect identity without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0911,night_guard,pëna,protect regret without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0912,night_guard,kebeya,protect respect without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0913,night_guard,noha,protect boundary without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0914,night_guard,raka,protect anger without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0915,night_guard,sura,protect grief without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0916,night_guard,wukëro,protect future without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0917,night_guard,shi,protect language without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0918,night_guard,zhidëno,protect dream without recognition,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0919,night_guard,qarë,protect shelter without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0920,night_guard,kezhoro,protect care without recognition,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0921,river_speech,shëna,speak gently to clarify trust,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0922,river_speech,namu,speak gently to clarify promise,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0923,river_speech,shësaro,speak gently to clarify silence,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0924,river_speech,zhera,speak gently to clarify doubt,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0925,river_speech,kharo,speak gently to clarify fear,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0926,river_speech,mera,speak gently to clarify joy,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0927,river_speech,zhizhaqo,speak gently to clarify sadness,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0928,river_speech,shënoho,speak gently to clarify secret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0929,river_speech,shama,speak gently to clarify hope,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0930,river_speech,moru,speak gently to clarify memory,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0931,river_speech,sëma,speak gently to clarify truth,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0932,river_speech,kequro,speak gently to clarify honesty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0933,river_speech,zhingena,speak gently to clarify uncertainty,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0934,river_speech,zhisora,speak gently to clarify shame,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0935,river_speech,rëli,speak gently to clarify courage,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0936,river_speech,naro,speak gently to clarify home,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0937,river_speech,kerëta,speak gently to clarify friendship,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0938,river_speech,zhiluzha,speak gently to clarify love,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0939,river_speech,wuqizo,speak gently to clarify time,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0940,river_speech,shëno,speak gently to clarify question,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0941,river_speech,morushira,speak gently to clarify story,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0942,river_speech,wenao,speak gently to clarify freedom,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0943,river_speech,qizhukho,speak gently to clarify justice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0944,river_speech,shoroa,speak gently to clarify reason,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0945,river_speech,shërama,speak gently to clarify meaning,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0946,river_speech,shënoa,speak gently to clarify choice,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0947,river_speech,tëmi,speak gently to clarify patience,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0948,river_speech,khariwo,speak gently to clarify danger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0949,river_speech,nohowa,speak gently to clarify safety,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0950,river_speech,ëro,speak gently to clarify identity,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0951,river_speech,pëna,speak gently to clarify regret,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0952,river_speech,kebeya,speak gently to clarify respect,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0953,river_speech,noha,speak gently to clarify boundary,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0954,river_speech,raka,speak gently to clarify anger,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0955,river_speech,sura,speak gently to clarify grief,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0956,river_speech,wukëro,speak gently to clarify future,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0957,river_speech,shi,speak gently to clarify language,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0958,river_speech,zhidëno,speak gently to clarify dream,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0959,river_speech,qarë,speak gently to clarify shelter,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0960,river_speech,kezhoro,speak gently to clarify care,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0961,sky_guard,shëna,defend trust openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0962,sky_guard,namu,defend promise openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0963,sky_guard,shësaro,defend silence openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0964,sky_guard,zhera,defend doubt openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0965,sky_guard,kharo,defend fear openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0966,sky_guard,mera,defend joy openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0967,sky_guard,zhizhaqo,defend sadness openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0968,sky_guard,shënoho,defend secret openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0969,sky_guard,shama,defend hope openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0970,sky_guard,moru,defend memory openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0971,sky_guard,sëma,defend truth openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0972,sky_guard,kequro,defend honesty openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0973,sky_guard,zhingena,defend uncertainty openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0974,sky_guard,zhisora,defend shame openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0975,sky_guard,rëli,defend courage openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0976,sky_guard,naro,defend home openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0977,sky_guard,kerëta,defend friendship openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0978,sky_guard,zhiluzha,defend love openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0979,sky_guard,wuqizo,defend time openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0980,sky_guard,shëno,defend question openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0981,sky_guard,morushira,defend story openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0982,sky_guard,wenao,defend freedom openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0983,sky_guard,qizhukho,defend justice openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0984,sky_guard,shoroa,defend reason openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0985,sky_guard,shërama,defend meaning openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0986,sky_guard,shënoa,defend choice openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0987,sky_guard,tëmi,defend patience openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0988,sky_guard,khariwo,defend danger openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0989,sky_guard,nohowa,defend safety openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0990,sky_guard,ëro,defend identity openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0991,sky_guard,pëna,defend regret openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0992,sky_guard,kebeya,defend respect openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0993,sky_guard,noha,defend boundary openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0994,sky_guard,raka,defend anger openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0995,sky_guard,sura,defend grief openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0996,sky_guard,wukëro,defend future openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0997,sky_guard,shi,defend language openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM0998,sky_guard,zhidëno,defend dream openly,pass,multiword source gloss may have selection restrictions,not approved: needs independent contextual evaluation,,no
+EDIDIOM0999,sky_guard,qarë,defend shelter openly,pass,,not approved: needs independent contextual evaluation,,no
+EDIDIOM1000,sky_guard,kezhoro,defend care openly,pass,,not approved: needs independent contextual evaluation,,no

@@ -131,5 +131,68 @@
     "chapters": "all",
     "examples": 36,
     "path": "docs/deep_guides/workbook.md"
+  },
+  {
+    "id": "advanced_syntax",
+    "title": "Advanced syntax and phrase structure",
+    "chapters": "71–75",
+    "examples": 0,
+    "path": "docs/advanced/01_syntax.md"
+  },
+  {
+    "id": "advanced_scope",
+    "title": "Logical scope, quantification and modality",
+    "chapters": "76–82",
+    "examples": 0,
+    "path": "docs/advanced/02_scope_logic.md"
+  },
+  {
+    "id": "advanced_discourse",
+    "title": "Discourse, repair and conversation",
+    "chapters": "83–85",
+    "examples": 0,
+    "path": "docs/advanced/03_discourse.md"
+  },
+  {
+    "id": "advanced_phonology",
+    "title": "Connected-speech phonology",
+    "chapters": "86–87",
+    "examples": 0,
+    "path": "docs/advanced/04_phonology.md"
+  },
+  {
+    "id": "lexical_semantics",
+    "title": "Lexical semantics and valency",
+    "chapters": "88–89",
+    "examples": 0,
+    "path": "docs/advanced/05_lexical_semantics.md"
+  },
+  {
+    "id": "genres",
+    "title": "Genre conventions and connected prose",
+    "chapters": "90",
+    "examples": 0,
+    "path": "docs/advanced/06_genres.md"
+  },
+  {
+    "id": "style_dialects",
+    "title": "Style, dialect documentation, and borrowing",
+    "chapters": "90",
+    "examples": 0,
+    "path": "docs/advanced/07_style_dialects.md"
+  },
+  {
+    "id": "translation_protocol",
+    "title": "A rigorous translation workflow",
+    "chapters": "71–90",
+    "examples": 0,
+    "path": "docs/advanced/08_translation_protocol.md"
+  },
+  {
+    "id": "advanced_workbook",
+    "title": "Advanced exercises and solutions",
+    "chapters": "71–90",
+    "examples": 0,
+    "path": "docs/advanced/09_workbook.md"
   }
 ]

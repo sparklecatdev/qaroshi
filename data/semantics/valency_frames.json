@@ -1,0 +1,334 @@
+[
+  {
+    "id": "VF001",
+    "lemma": "goro",
+    "dict_id": "Q001170",
+    "frame": "V0",
+    "definition": "fly or move through air",
+    "english_anchor": "fly",
+    "roles": [],
+    "selection_note": "airborne motion, not permission",
+    "ipa": "/ˈɡo.ɾo/",
+    "sound_out": "GOH-roh"
+  },
+  {
+    "id": "VF002",
+    "lemma": "gura",
+    "dict_id": "Q001350",
+    "frame": "V0",
+    "definition": "go/travel",
+    "english_anchor": "go",
+    "roles": [],
+    "selection_note": "source/goal cases may be expressed",
+    "ipa": "/ˈɡu.ɾa/",
+    "sound_out": "GOO-rah"
+  },
+  {
+    "id": "VF003",
+    "lemma": "nëra",
+    "dict_id": "Q003075",
+    "frame": "V0",
+    "definition": "stay/remain",
+    "english_anchor": "stay",
+    "roles": [],
+    "selection_note": "state continuing at a place",
+    "ipa": "/ˈnə.ɾa/",
+    "sound_out": "NUH-rah"
+  },
+  {
+    "id": "VF004",
+    "lemma": "nëru",
+    "dict_id": "Q003084",
+    "frame": "V0",
+    "definition": "rest",
+    "english_anchor": "rest",
+    "roles": [],
+    "selection_note": "not equivalent to staying in place",
+    "ipa": "/ˈnə.ɾu/",
+    "sound_out": "NUH-roo"
+  },
+  {
+    "id": "VF005",
+    "lemma": "rawo",
+    "dict_id": "Q003879",
+    "frame": "V0",
+    "definition": "play/frolic",
+    "english_anchor": "play",
+    "roles": [],
+    "selection_note": "does not require a particular game",
+    "ipa": "/ˈɾa.wo/",
+    "sound_out": "RAH-woh"
+  },
+  {
+    "id": "VF006",
+    "lemma": "wori",
+    "dict_id": "Q005346",
+    "frame": "V0",
+    "definition": "explore/wander",
+    "english_anchor": "explore",
+    "roles": [],
+    "selection_note": "exploration is not merely directed travel",
+    "ipa": "/ˈwo.ɾi/",
+    "sound_out": "WOH-ree"
+  },
+  {
+    "id": "VF007",
+    "lemma": "gëma",
+    "dict_id": "Q001436",
+    "frame": "V0",
+    "definition": "dream",
+    "english_anchor": "dream",
+    "roles": [],
+    "selection_note": "not necessarily intend an action",
+    "ipa": "/ˈɡə.ma/",
+    "sound_out": "GUH-mah"
+  },
+  {
+    "id": "VF008",
+    "lemma": "shiri",
+    "dict_id": "Q004438",
+    "frame": "V0",
+    "definition": "speak/say words",
+    "english_anchor": "speak",
+    "roles": [
+      "recipient:-tu"
+    ],
+    "selection_note": "content optional; speaking not necessarily informing",
+    "ipa": "/ˈʃi.ɾi/",
+    "sound_out": "SHEE-ree"
+  },
+  {
+    "id": "VF009",
+    "lemma": "tika",
+    "dict_id": "Q004927",
+    "frame": "V1",
+    "definition": "see/notice",
+    "english_anchor": "see",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "not equivalent to knowing or believing",
+    "ipa": "/ˈti.ka/",
+    "sound_out": "TEE-kah"
+  },
+  {
+    "id": "VF010",
+    "lemma": "daru",
+    "dict_id": "Q000420",
+    "frame": "V1",
+    "definition": "protect/guard",
+    "english_anchor": "protect",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "future protection is a commitment, not success",
+    "ipa": "/ˈda.ɾu/",
+    "sound_out": "DAH-roo"
+  },
+  {
+    "id": "VF011",
+    "lemma": "nashi",
+    "dict_id": "Q002339",
+    "frame": "V1",
+    "definition": "love deeply/cherish",
+    "english_anchor": "cherish",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "not inherently romantic or sexual",
+    "ipa": "/ˈna.ʃi/",
+    "sound_out": "NAH-shee"
+  },
+  {
+    "id": "VF012",
+    "lemma": "mali",
+    "dict_id": "Q002271",
+    "frame": "V1",
+    "definition": "feel romantic love for",
+    "english_anchor": "romantically love",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "romance distinct from nurturing kinship",
+    "ipa": "/ˈma.li/",
+    "sound_out": "MAH-lee"
+  },
+  {
+    "id": "VF013",
+    "lemma": "lani",
+    "dict_id": "Q002001",
+    "frame": "V1",
+    "definition": "love as family",
+    "english_anchor": "nurture as family",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "kinship stance distinct from romantic love",
+    "ipa": "/ˈla.ni/",
+    "sound_out": "LAH-nee"
+  },
+  {
+    "id": "VF014",
+    "lemma": "këmë",
+    "dict_id": "Q001977",
+    "frame": "V1",
+    "definition": "drink liquid",
+    "english_anchor": "drink",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "object is normally a liquid",
+    "ipa": "/ˈkə.mə/",
+    "sound_out": "KUH-muh"
+  },
+  {
+    "id": "VF015",
+    "lemma": "shëma",
+    "dict_id": "Q004474",
+    "frame": "V1",
+    "definition": "consume food",
+    "english_anchor": "eat",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "not automatically drink",
+    "ipa": "/ˈʃə.ma/",
+    "sound_out": "SHUH-mah"
+  },
+  {
+    "id": "VF016",
+    "lemma": "shëliro",
+    "dict_id": "Q004466",
+    "frame": "V1",
+    "definition": "read a written text",
+    "english_anchor": "read",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "does not entail comprehension",
+    "ipa": "/ʃə.ˈli.ɾo/",
+    "sound_out": "shuh-LEE-roh"
+  },
+  {
+    "id": "VF017",
+    "lemma": "shiroli",
+    "dict_id": "Q004443",
+    "frame": "V1",
+    "definition": "write language on a surface",
+    "english_anchor": "write",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "not synonymous with speaking",
+    "ipa": "/ʃi.ˈɾo.li/",
+    "sound_out": "shee-ROH-lee"
+  },
+  {
+    "id": "VF018",
+    "lemma": "sëmi",
+    "dict_id": "Q004904",
+    "frame": "V1",
+    "definition": "know/reliably understand",
+    "english_anchor": "know",
+    "roles": [
+      "object:-m",
+      "content:do"
+    ],
+    "selection_note": "knowledge not mere hearsay",
+    "ipa": "/ˈsə.mi/",
+    "sound_out": "SUH-mee"
+  },
+  {
+    "id": "VF019",
+    "lemma": "hari",
+    "dict_id": "Q001449",
+    "frame": "V1",
+    "definition": "have/possess",
+    "english_anchor": "have",
+    "roles": [
+      "object:-m"
+    ],
+    "selection_note": "possession need not imply legal title in every context",
+    "ipa": "/ˈha.ɾi/",
+    "sound_out": "HAH-ree"
+  },
+  {
+    "id": "VF020",
+    "lemma": "pëli",
+    "dict_id": "Q003431",
+    "frame": "V2",
+    "definition": "give/offer",
+    "english_anchor": "give",
+    "roles": [
+      "object:-m",
+      "recipient:-tu"
+    ],
+    "selection_note": "transfer distinguishes recipient and object",
+    "ipa": "/ˈpə.li/",
+    "sound_out": "PUH-lee"
+  },
+  {
+    "id": "VF021",
+    "lemma": "sharoa",
+    "dict_id": "Q004414",
+    "frame": "V1",
+    "definition": "ask/request information",
+    "english_anchor": "ask",
+    "roles": [
+      "question/content"
+    ],
+    "selection_note": "asking does not assert an answer",
+    "ipa": "/ʃa.ˈɾo.a/",
+    "sound_out": "shah-ROH-ah"
+  },
+  {
+    "id": "VF022",
+    "lemma": "përoa",
+    "dict_id": "Q003481",
+    "frame": "V1",
+    "definition": "answer/reply",
+    "english_anchor": "answer",
+    "roles": [
+      "question/content"
+    ],
+    "selection_note": "answer may be a refusal or uncertainty",
+    "ipa": "/pə.ˈɾo.a/",
+    "sound_out": "puh-ROH-ah"
+  },
+  {
+    "id": "VF023",
+    "lemma": "mahori",
+    "dict_id": "Q002269",
+    "frame": "V0",
+    "definition": "consent freely",
+    "english_anchor": "consent",
+    "roles": [],
+    "selection_note": "must remain voluntary; not inferred from tone",
+    "ipa": "/ma.ˈho.ɾi/",
+    "sound_out": "mah-HOH-ree"
+  },
+  {
+    "id": "VF024",
+    "lemma": "zëru",
+    "dict_id": "Q006812",
+    "frame": "V0",
+    "definition": "die/cease living",
+    "english_anchor": "die",
+    "roles": [],
+    "selection_note": "literal cessation of life; metaphoric readings marked",
+    "ipa": "/ˈzə.ɾu/",
+    "sound_out": "ZUH-roo"
+  },
+  {
+    "id": "VF025",
+    "lemma": "përë",
+    "dict_id": "Q003484",
+    "frame": "V0",
+    "definition": "apologize",
+    "english_anchor": "apologize",
+    "roles": [],
+    "selection_note": "apology is not automatic restitution",
+    "ipa": "/ˈpə.ɾə/",
+    "sound_out": "PUH-ruh"
+  }
+]

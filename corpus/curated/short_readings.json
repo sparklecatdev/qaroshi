@@ -1,0 +1,442 @@
+[
+  {
+    "id": "the-home-with-an-open-door",
+    "title": "The Home with an Open Door",
+    "premise": "A visitor finds shelter after a difficult night",
+    "sentences": [
+      {
+        "number": 1,
+        "qaroshi": "sur mi naro-m nu hari.",
+        "english": "I have no home.",
+        "ipa": "/suɾ mi ˈna.ɾom nu ˈha.ɾi/",
+        "sound_out": "soor mee NAH-rohm noo HAH-ree.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 2,
+        "qaroshi": "sen mi yami-lo goro-te.",
+        "english": "I flew in the night.",
+        "ipa": "/sen mi ja.ˈmi.lo ɡo.ˈɾo.te/",
+        "sound_out": "sehn mee yah-MEE-loh goh-ROH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 3,
+        "qaroshi": "sen mi naro-m tika-te.",
+        "english": "I saw a home.",
+        "ipa": "/sen mi ˈna.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee NAH-rohm tee-KAH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 4,
+        "qaroshi": "hë mi naro-gu nëra-ho he?",
+        "english": "May I stay at the home?",
+        "ipa": "/hə mi na.ˈɾo.ɡu nə.ˈɾa.ho he/",
+        "sound_out": "huh mee nah-ROH-goo nuh-RAH-hoh heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 5,
+        "qaroshi": "më ti naro-gu nëra-ho.",
+        "english": "You may stay at the home.",
+        "ipa": "/mə ti na.ˈɾo.ɡu nə.ˈɾa.ho/",
+        "sound_out": "muh tee nah-ROH-goo nuh-RAH-hoh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 6,
+        "qaroshi": "sen mi naro-gu nëra-te.",
+        "english": "I stayed at the home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu nə.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-goo nuh-RAH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 7,
+        "qaroshi": "hol mi mara-m nashi.",
+        "english": "I cherish my friend with gratitude.",
+        "ipa": "/hol mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "hohl mee MAH-rahm NAH-shee.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 8,
+        "qaroshi": "sen mi kima-m këmë-te.",
+        "english": "I drank water.",
+        "ipa": "/sen mi ˈki.mam kə.ˈmə.te/",
+        "sound_out": "sehn mee KEE-mahm kuh-MUH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 9,
+        "qaroshi": "nëm mi nëru-te.",
+        "english": "I rested.",
+        "ipa": "/nəm mi nə.ˈɾu.te/",
+        "sound_out": "nuhm mee nuh-ROO-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 10,
+        "qaroshi": "më mi naro-m hari.",
+        "english": "I have a home.",
+        "ipa": "/mə mi ˈna.ɾom ˈha.ɾi/",
+        "sound_out": "muh mee NAH-rohm HAH-ree.",
+        "status": "structurally_checked_editorial"
+      }
+    ],
+    "source": "editorial original writing, not human-attested Qaroshi literature"
+  },
+  {
+    "id": "the-flight-we-did-not-take",
+    "title": "The Flight We Did Not Take",
+    "premise": "A weather report changes the course of a planned journey",
+    "sentences": [
+      {
+        "number": 1,
+        "qaroshi": "zha naru goro-yu.",
+        "english": "We will fly!",
+        "ipa": "/ʒa ˈna.ɾu ɡo.ˈɾo.ju/",
+        "sound_out": "zhah NAH-roo goh-ROH-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 2,
+        "qaroshi": "sen mi lugoqa-m tika-te.",
+        "english": "I saw the weather.",
+        "ipa": "/sen mi lu.ˈɡo.qam ti.ˈka.te/",
+        "sound_out": "sehn mee loo-GOH-qahm tee-KAH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 3,
+        "qaroshi": "sen mi lushënga-m tika-te si.",
+        "english": "I witnessed the storm.",
+        "ipa": "/sen mi lu.ˈʃə.ŋam ti.ˈka.te si/",
+        "sound_out": "sehn mee loo-SHUH-ngahm tee-KAH-teh see.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 4,
+        "qaroshi": "hë ti lushënga-m tika-te he?",
+        "english": "Did you see the storm?",
+        "ipa": "/hə ti lu.ˈʃə.ŋam ti.ˈka.te he/",
+        "sound_out": "huh tee loo-SHUH-ngahm tee-KAH-teh heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 5,
+        "qaroshi": "sen mi lushënga-m tika-te hu.",
+        "english": "I heard a report about the storm.",
+        "ipa": "/sen mi lu.ˈʃə.ŋam ti.ˈka.te hu/",
+        "sound_out": "sehn mee loo-SHUH-ngahm tee-KAH-teh hoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 6,
+        "qaroshi": "qor ti nu goro ya.",
+        "english": "Do not fly.",
+        "ipa": "/qoɾ ti nu ˈɡo.ɾo ja/",
+        "sound_out": "qohr tee noo GOH-roh yah.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 7,
+        "qaroshi": "zher mi goro-yu ye.",
+        "english": "I infer that I may fly later.",
+        "ipa": "/ʒeɾ mi ɡo.ˈɾo.ju je/",
+        "sound_out": "zhehr mee goh-ROH-yoo yeh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 8,
+        "qaroshi": "nëm mi naro-lo nëra-te.",
+        "english": "I stayed at home.",
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾa.te/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-RAH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 9,
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english": "I wrote down the memory.",
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 10,
+        "qaroshi": "dal naru yurayaro goro-yu.",
+        "english": "We will fly tomorrow.",
+        "ipa": "/dal ˈna.ɾu ju.ɾa.ˈja.ɾo ɡo.ˈɾo.ju/",
+        "sound_out": "dahl NAH-roo yoo-rah-YAH-roh goh-ROH-yoo.",
+        "status": "structurally_checked_editorial"
+      }
+    ],
+    "source": "editorial original writing, not human-attested Qaroshi literature"
+  },
+  {
+    "id": "the-message-that-returned",
+    "title": "The Message That Returned",
+    "premise": "Two friends repair a misunderstanding instead of trading blame",
+    "sentences": [
+      {
+        "number": 1,
+        "qaroshi": "sen mi ti-m shiwaro-m shiwari-te.",
+        "english": "I sent you a message.",
+        "ipa": "/sen mi tim ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee teem shee-WAH-rohm shee-wah-REE-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 2,
+        "qaroshi": "hë ti shiwaro-m shëliro-te he?",
+        "english": "Did you read the message?",
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te he/",
+        "sound_out": "huh tee shee-WAH-rohm shuh-lee-ROH-teh heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 3,
+        "qaroshi": "lën mi shiwaro-m nu shëliro-te.",
+        "english": "I did not read the message.",
+        "ipa": "/lən mi ʃi.ˈwa.ɾom nu ʃə.li.ˈɾo.te/",
+        "sound_out": "luhn mee shee-WAH-rohm noo shuh-lee-ROH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 4,
+        "qaroshi": "rak mi shëna-m nu hari.",
+        "english": "I do not feel confidence.",
+        "ipa": "/ɾak mi ˈʃə.nam nu ˈha.ɾi/",
+        "sound_out": "rahk mee SHUH-nahm noo HAH-ree.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 5,
+        "qaroshi": "lën mi përë.",
+        "english": "I apologize.",
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 6,
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english": "Can you listen to me?",
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 7,
+        "qaroshi": "sen mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 8,
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I care deeply about you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 9,
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english": "I read the message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 10,
+        "qaroshi": "nëm mi nëru-te.",
+        "english": "I rested.",
+        "ipa": "/nəm mi nə.ˈɾu.te/",
+        "sound_out": "nuhm mee nuh-ROO-teh.",
+        "status": "structurally_checked_editorial"
+      }
+    ],
+    "source": "editorial original writing, not human-attested Qaroshi literature"
+  },
+  {
+    "id": "the-smallest-promise",
+    "title": "The Smallest Promise",
+    "premise": "A promise is phrased narrowly to avoid false certainty",
+    "sentences": [
+      {
+        "number": 1,
+        "qaroshi": "hë ti mi-wa nëra-yu he?",
+        "english": "Will you stay with me?",
+        "ipa": "/hə ti ˈmi.wa nə.ˈɾa.ju he/",
+        "sound_out": "huh tee MEE-wah nuh-RAH-yoo heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 2,
+        "qaroshi": "më mi ti-wa nëra-yu.",
+        "english": "I will stay with you.",
+        "ipa": "/mə mi ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "muh mee TEE-wah nuh-RAH-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 3,
+        "qaroshi": "hë ti sëna nëra-yu he?",
+        "english": "Will you stay forever?",
+        "ipa": "/hə ti ˈsə.na nə.ˈɾa.ju he/",
+        "sound_out": "huh tee SUH-nah nuh-RAH-yoo heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 4,
+        "qaroshi": "zher mi sëna nëra-ki ye.",
+        "english": "I infer that I might be able to stay forever.",
+        "ipa": "/ʒeɾ mi ˈsə.na nə.ˈɾa.ki je/",
+        "sound_out": "zhehr mee SUH-nah nuh-RAH-kee yeh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 5,
+        "qaroshi": "qor mi nënayaro ti-wa nëra-yu.",
+        "english": "I will stay with you today.",
+        "ipa": "/qoɾ mi nə.na.ˈja.ɾo ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "qohr mee nuh-nah-YAH-roh TEE-wah nuh-RAH-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 6,
+        "qaroshi": "sen mi namu-m hari.",
+        "english": "I have a promise.",
+        "ipa": "/sen mi ˈna.mum ˈha.ɾi/",
+        "sound_out": "sehn mee NAH-moom HAH-ree.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 7,
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 8,
+        "qaroshi": "sen mi ti-m shiroawe-yu.",
+        "english": "I will listen to you.",
+        "ipa": "/sen mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "sehn mee teem shee-roh-ah-WEH-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 9,
+        "qaroshi": "nëm naru nëru-yu.",
+        "english": "We will rest.",
+        "ipa": "/nəm ˈna.ɾu nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nuh-ROO-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 10,
+        "qaroshi": "hol mi ti-m nashi.",
+        "english": "I am grateful for you.",
+        "ipa": "/hol mi tim ˈna.ʃi/",
+        "sound_out": "hohl mee teem NAH-shee.",
+        "status": "structurally_checked_editorial"
+      }
+    ],
+    "source": "editorial original writing, not human-attested Qaroshi literature"
+  },
+  {
+    "id": "learning-a-new-voice",
+    "title": "Learning a New Voice",
+    "premise": "A learner makes progress through questions rather than perfection",
+    "sentences": [
+      {
+        "number": 1,
+        "qaroshi": "hë ti mi-m yarëmi-ki he?",
+        "english": "Can you teach me?",
+        "ipa": "/hə ti mim ja.ɾə.ˈmi.ki he/",
+        "sound_out": "huh tee meem yah-ruh-MEE-kee heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 2,
+        "qaroshi": "sen mi ti-m yarëmi-ki.",
+        "english": "I can teach you.",
+        "ipa": "/sen mi tim ja.ɾə.ˈmi.ki/",
+        "sound_out": "sehn mee teem yah-ruh-MEE-kee.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 3,
+        "qaroshi": "hë mi shëno-m sharoa-ho he?",
+        "english": "May I ask a question?",
+        "ipa": "/hə mi ˈʃə.nom ʃa.ɾo.ˈa.ho he/",
+        "sound_out": "huh mee SHUH-nohm shah-roh-AH-hoh heh?",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 4,
+        "qaroshi": "më ti shëno-m sharoa-ho.",
+        "english": "You may ask a question.",
+        "ipa": "/mə ti ˈʃə.nom ʃa.ɾo.ˈa.ho/",
+        "sound_out": "muh tee SHUH-nohm shah-roh-AH-hoh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 5,
+        "qaroshi": "sen mi shëno-m sharoa-te.",
+        "english": "I asked a question.",
+        "ipa": "/sen mi ˈʃə.nom ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee SHUH-nohm shah-roh-AH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 6,
+        "qaroshi": "sen ti mi-m përoa-te.",
+        "english": "You answered me.",
+        "ipa": "/sen ti mim pə.ɾo.ˈa.te/",
+        "sound_out": "sehn tee meem puh-roh-AH-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 7,
+        "qaroshi": "zher mi nu rëmi.",
+        "english": "I am not learning.",
+        "ipa": "/ʒeɾ mi nu ˈɾə.mi/",
+        "sound_out": "zhehr mee noo RUH-mee.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 8,
+        "qaroshi": "dal mi rëmi-yu.",
+        "english": "I will learn.",
+        "ipa": "/dal mi ɾə.ˈmi.ju/",
+        "sound_out": "dahl mee ruh-MEE-yoo.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 9,
+        "qaroshi": "sen mi shiwaro-m shiroli-te.",
+        "english": "I wrote a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-teh.",
+        "status": "structurally_checked_editorial"
+      },
+      {
+        "number": 10,
+        "qaroshi": "rëm mi shiwaro-m shëliro-te.",
+        "english": "I read the message with pride.",
+        "ipa": "/ɾəm mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "ruhm mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "status": "structurally_checked_editorial"
+      }
+    ],
+    "source": "editorial original writing, not human-attested Qaroshi literature"
+  }
+]

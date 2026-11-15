@@ -1,0 +1,13 @@
+{
+  "canonical_headwords": 30000,
+  "idioms_checked": 1000,
+  "idiom_families": 25,
+  "idiom_structural_pass": 1000,
+  "idiom_structural_needs_repair": 0,
+  "idioms_independently_attested": 0,
+  "sense_cards_checked": 5000,
+  "sense_card_structural_pass": 5000,
+  "sense_card_needs_repair": 0,
+  "independently_validated_sense_cards": 0,
+  "note": "Automated checks are not reviews of acceptability, usage, cultural status, or polysemy."
+}

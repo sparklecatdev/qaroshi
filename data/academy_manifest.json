@@ -1,7 +1,7 @@
 {
-  "version": "5.3",
-  "embedded_words": 18663,
-  "embedded_examples": 3183,
+  "version": "14.0",
+  "embedded_words": 30000,
+  "embedded_examples": 4383,
   "lessons": 16,
   "guides": 16,
   "native_glyphs": 26,

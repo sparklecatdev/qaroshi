@@ -1,0 +1,14 @@
+{
+  "new_scenes": 54,
+  "all_scenes": 103,
+  "new_anthology": 18,
+  "editorial_core_profiles": 61,
+  "original_figurative_proposals": 40,
+  "idiom_triage": 1000,
+  "sense_triage": 5000,
+  "dictionary": 30000,
+  "native_glyphs": 26,
+  "html_bytes": 4389101,
+  "editorial_provenance": true,
+  "speaker_attested": false
+}

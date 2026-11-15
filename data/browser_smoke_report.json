@@ -1,0 +1,32 @@
+{
+  "passed": 25,
+  "total": 25,
+  "checks": {
+    "Home opens": true,
+    "Full count shown": true,
+    "Sidebar is populated": true,
+    "Global search works": true,
+    "Dictionary route works": true,
+    "Accent insensitive Romanization": true,
+    "Word page opens": true,
+    "English-style sound-out visible": true,
+    "IPA visible": true,
+    "All native glyph images load": true,
+    "Compounds searchable by definition": true,
+    "Component links open from compound": true,
+    "Phrasebook loads": true,
+    "Phrasebook query responds": true,
+    "Grammar chapter loads": true,
+    "Native converter opens": true,
+    "Native converter renders glyphs": true,
+    "Converter shows sound-out": true,
+    "Native PNG export": true,
+    "Theme toggle works": true,
+    "No page-level horizontal overflow": true,
+    "Mobile menu visible": true,
+    "Mobile sidebar opens": true,
+    "Mobile sidebar closes after navigation": true,
+    "No uncaught runtime errors": true
+  },
+  "errors": []
+}

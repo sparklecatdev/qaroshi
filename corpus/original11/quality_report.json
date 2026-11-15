@@ -1,0 +1,12 @@
+{
+  "scenes": 49,
+  "turns": 294,
+  "unique_contextual_english": 240,
+  "unique_qaroshi_sentences": 198,
+  "prioritized_for_review": {
+    "close surface alignment; still requires human review": 207,
+    "contextual paraphrase review": 77,
+    "priority semantic review": 10
+  },
+  "warning": "Similarity ranking merely organizes editorial review; it cannot determine semantic equivalence or idiomaticity."
+}

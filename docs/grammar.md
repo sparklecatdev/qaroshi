@@ -945,3 +945,183 @@ Qaroshi has its own lexical system and clause structure. Natural translation pre
 Technical and specialized vocabulary is available in the unified dictionary. Some English expressions still require paraphrase or explanatory clauses. The translation guide describes how to handle such cases without borrowing English syntax wholesale.
 
 The reference is a descriptive and pedagogical standard; broad dictionary coverage should not be confused with a measured frequency corpus.
+
+
+## 71. Clause topology and the finite predicate
+
+An independent sentence starts with exactly one resonance. The usual clause order is **[stance] [topic] [time] subject [recipient] [object] [adverbial] predicate [mirative] [evidential] [confidence] [question/request final]**. Case-marked constituents may be topicalized when their grammatical roles remain clear. The position of `nu` is not flexible: it immediately precedes its own predicate. The postpredicate material is grammatical and does not contradict the subject–object–verb default.
+
+`sen mi kima-m këmë.` = I drink water. `sen kima-m-së mi këmë.` = As for water, I drink it. An utterance with an omitted recoverable subject remains resonance-marked. This chapter does not authorize moving the object marker to an adjective or dropping suffixes in formal writing.
+
+**Further reading:** `docs/advanced/01_syntax.md`.
+
+
+## 72. Relative clauses and reference gaps
+
+A relative clause is prenominal and ends with `sha`; its missing argument is interpreted as the head noun. `[mi tika-te sha] mara` means the friend whom I saw. In `më mi [mi tika-te sha] mara-m nashi.`, the matrix case attaches to `mara`, not to the internal verb. A relative inherits its sentence's resonance and does not open with an independent marker.
+
+When more than one relative argument could be understood as missing, prefer a new independent sentence with a demonstrative. Do not map English “who,” “which,” and “that” into separate compulsory relative markers without evidence.
+
+**Further reading:** `docs/advanced/01_syntax.md`.
+
+
+## 73. Content clauses and embedded questions
+
+A content clause is bounded by `do`. In `sen sa haro do mi sëmi.`, the claim “they are well” is the thing known. The content clause does not itself establish the narrator's source or confidence. An embedded question is distinguishable from a direct question through the matrix verb and clause boundary; if two `he` finals create potential ambiguity, render the embedded material as an explicit quote or two sentences.
+
+Every quoted independent sentence retains its own resonance as part of the quotation; that marker is not a second marker opening the narrator's independent clause.
+
+**Further reading:** `docs/advanced/01_syntax.md`.
+
+
+## 74. Verb frames and participant roles
+
+Document each verb's usual arguments. **V0** verbs need no object (`sen sa goro.`); **V1** verbs take an object (`sen mi ti-m tika.`); **V2** transfer verbs can take recipient and object (`sen mi mara-tu kima-m pëli.`). Source `-de`, goal `-gu`, place `-lo`, instrument `-shi`, and comitative `-wa` identify different semantic roles.
+
+The table `data/semantics/valency_frames.json` supplies curated frames for frequent roots; it is not a universal automatic inference for 30,000 dictionary entries. A verb's English gloss alone cannot determine its Qaroshi case frame.
+
+**Further reading:** `docs/advanced/01_syntax.md`.
+
+
+## 75. Topic, focus and information structure
+
+The topic suffix `-së` flags what the clause is about and comes after any case suffix. The information status of a referent is **not** automatically determined by the presence or absence of `-së`; established topics can remain unmarked. A focus particle such as `ngëshi` follows the constituent whose alternatives are restricted.
+
+Topic continuity permits ellipsis of recoverable subjects in dialogue, but long-form written texts should renew noun references when a competing singular `sa` or new character appears. `qëlo` repairs a prior utterance; it does not erase the original from a quotation.
+
+**Further reading:** `docs/advanced/01_syntax.md`.
+
+
+## 76. Negation and focus scope
+
+`nu` immediately precedes the verb or adjective predicate it negates. `sen mi kima-m nu këmë.` means I do not drink water; it does not assert which other drink I consume. A focused negative can be ambiguous about whether the negation applies to the focal alternative or the whole exclusivity claim. Split the proposition into two sentences if the distinction matters.
+
+`zëna` (never) or `sëna nu V` (always not V) provides temporal non-occurrence. Never treat non-occurrence, refusal, inability and prohibition as synonyms.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 77. Scalarity, comparisons and alternatives
+
+The degree markers `mela`, `rela`, `samu`, `rala` precede the adjective. `tëno` introduces the standard of comparison. `ngëshi` (only), `bëso` (also) and `tëmiri` (even) rely on a contextually salient comparison set. Their use affects what is implied about alternatives without changing the noun's base dictionary meaning.
+
+In a comparison, name the two entities explicitly when otherwise ambiguous, and avoid treating “not good” as a definite lexical opposite of “good.”
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 78. Quantifiers and distributivity
+
+Numerals follow nouns; numeral bounds `qësho`, `rëshu`, `nëmi` occur before the numeral. `qaro-ri qësho po` = at least two Nardoragons. A plural sentence does not itself guarantee whether its action is collective or individual. Where scope matters, use explicit collective/distributive forms and independent clauses to prevent “not all” from being mistaken for “none.”
+
+The traditional number system is base six; in mathematical or scientific text, attach explicit base notation to digits when a value would otherwise be misinterpreted.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 79. Ability, permission and obligation
+
+`-ki` is dynamic potential/ability, `-ho` permission, and `-du` necessity. They are alternatives in the modality slot, not interchangeable English “can/may/must” variants. `sen sa goro-ki.` = They can fly; `sen sa goro-ho.` = They may fly; `qor sa goro-du.` = They must fly.
+
+An emotionally warm register does not grant permission, and a speaker's promised future action does not establish its success. If a source combines two modals, use clausal coordination or a descriptive predication rather than stacking both modal suffixes.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 80. Evidentiality, mirativity and confidence
+
+`si` witnessed, `hu` reported and `ye` inferred remain core evidentials. `shëku` remembers a prior observation, `wërusha` cites an instrument or measurement, `rëhu` cites an archive, and `lëshu` expresses customary knowledge. At most one evidential belongs to a finite clause. Mirative `yëqo` may precede evidential; confidence `sëki` or `qëru` follows it.
+
+A source marker explains **how the speaker obtained the claim**, not whether the claim is necessarily true. Do not use a serious resonance to substitute for evidence.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 81. Open, future and counterfactual conditions
+
+`wë` introduces an if-clause; `bëna` means provided that/as long as. A conditional's antecedent is not asserted by being uttered. Future `-yu` commonly appears in projected consequences. `ye` is an inferential evidential and cannot by itself encode “contrary to known fact.”
+
+For past counterfactuals with real consequences, state what actually happened in a separate sentence if the context does not already establish it. Purpose `ko` marks intention and never guarantees fulfillment.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 82. Reference time and aspectual viewpoint
+
+Tense `-te` and `-yu` locate an event before or after reference time; aspect `-se` views an ongoing event, `-mo` a completed event, and `-në` a habit. The order remains root–voice–tense–aspect–modal–manner. A clause may describe an interrupted action, a habit no longer held, or a completed act without specifying any resultant state.
+
+Do not infer arrival from `goro-te-mo` merely because the flight finished. Temporal adverbs can refine a clause without changing the main tense suffix.
+
+**Further reading:** `docs/advanced/02_scope_logic.md`.
+
+
+## 83. Adjacency pairs, turn-taking and repairs
+
+In dialogue, a first move makes a reply relevant: questions invite answers, requests invite granting or declining, and apologies invite acknowledgment. A turn may contain several independent sentences, each marked separately. An omitted subject in a short answer is licensed by recoverable discourse context, not by a conjugation ending.
+
+`qëlo` marks repair of a mistaken utterance. A correction should name the disputed material when the speaker could otherwise be misunderstood. An unanswered request must not be reinterpreted as granted consent.
+
+**Further reading:** `docs/advanced/03_discourse.md`.
+
+
+## 84. Quotation, attribution and paraphrase
+
+`hëra` marks a paraphrase; it does not claim verbatim quotation. `bëlaro` signals another person's perspective. A quoted complete sentence keeps its quoted resonance marker, while the narrating sentence also has an independent one outside the quotation.
+
+Editors should preserve what was stated, what was inferred, and who supplied which source. A quotation with no documented source should not acquire false certainty from the translator.
+
+**Further reading:** `docs/advanced/03_discourse.md`.
+
+
+## 85. Register, politeness and direct refusal
+
+Qaroshi registers are typed resonance choices, not social caste or gender classes. `pëla` marks courteous appeal; `lan` and `pëshu` can lower pressure. These cues never overrule explicit `nu`, `noharo` or `mahori`. A direct refusal may be one complete sentence with its own resonance; it need not justify itself.
+
+Profanity and intimate language also have lexical register. Clinical, vulgar, playful and abusive terms should be distinguished in reference notes; a swear directed at circumstances is not necessarily an insult to a person.
+
+**Further reading:** `docs/advanced/03_discourse.md`.
+
+
+## 86. Connected speech and phrasal stress
+
+Dictionary IPA is **phonemic**, derived from the six vowels and twenty consonants of the 26-glyph inventory. Primary lexical stress is normally penultimate. In fluent speech, focus may change *phrasal prominence* without changing the lexical syllable segmentation. `sh`, `zh`, `kh`, and `ng` each represent one native letter.
+
+A speaker may produce casual boundary reductions, but the standard does not mandate an unrecorded universal sandhi rule. Do not silently change canonical IPA or spelling based on English-like vowel reductions.
+
+**Further reading:** `docs/advanced/04_phonology.md`.
+
+
+## 87. Allophony and phonotactic constraint
+
+Potential context-dependent adjustments, such as nasal place coarticulation, are treated as **phonetic expectations**, not mandatory spelling changes or evidence of new phonemes. `/q/` contrasts with `/k/` and `/x/`, `/ɾ/` with English-like approximants, and `/n/` with `/ŋ/`. This distinction holds across all resonances.
+
+Foreign names containing letters absent from native Qaroshi should remain visibly quoted or be transliterated by an explicit, individually justified adaptation. Do not invent native glyphs without altering the alphabet standard.
+
+**Further reading:** `docs/advanced/04_phonology.md`.
+
+
+## 88. Polysemy, senses and valency
+
+A form may possess related senses, and a semantic frame specifies which participants are expected. `naro` may denote a dwelling/nest/shelter; `nashi` care does not entail `mali` romantic love. Sense records should cite the same stable dictionary identifier when they describe one lexical form, not create phantom new headwords.
+
+`data/semantics/curated_senses.json` and `valency_frames.json` document high-frequency cases with explicit sense and argument notes. They do not claim to have fully sense-tagged all 30,000 dictionary entries.
+
+**Further reading:** `docs/advanced/05_lexical_semantics.md`.
+
+
+## 89. Idioms, collocation and figurative extension
+
+A collocation is a conventional pairing (`kima-m këmë`), an idiom has an established meaning beyond its component words, and a fresh metaphor relies on creative interpretation. They should not be lumped together in a word-count statistic. Productive compounds usually put the modifier before the lexical head; an individual compound's specialist meaning may narrow through usage.
+
+A technical translator should expand an opaque metaphor rather than give it false precision. Native-speaker evidence would be required before claiming a newly proposed saying is historically traditional or common.
+
+**Further reading:** `docs/advanced/05_lexical_semantics.md`.
+
+
+## 90. Genre conventions and textual coherence
+
+Casual dialogue permits recoverable ellipsis; narrative needs consistent reference time; science requires evidential discipline; technical instructions require clear actors and ordered steps; legal and consent texts must distinguish ability, authority, refusal and obligation. Poetry may intentionally deviate but should mark creative usage as such.
+
+The extended connected corpus provides controlled multi-turn dialogues and short narratives, with speaker and discourse annotations. Its exercises support analysis, not claims about corpus frequency or dialect distribution.
+
+**Further reading:** `docs/advanced/06_genres.md`.

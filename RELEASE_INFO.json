@@ -1,19 +1,19 @@
 {
-  "standard": "Qaroshi Unified Standard Reference 5.3 · Living Speech",
-  "version": "5.3",
+  "standard": "Qaroshi Unified Standard Reference 7.0 · Linguistics and Grammar",
+  "version": "7.0",
   "release_state": "unified standard",
-  "dictionary_entries": 18663,
-  "lexicon_new_standalone": 2122,
-  "lexicon_new_compounds": 2732,
-  "dictionary_entries_preserved": 11878,
-  "english_index_rows": 19431,
-  "sentences": 3183,
-  "new_sentences": 1166,
-  "sentences_preserved": 2017,
-  "grammar_chapters": 70,
+  "dictionary_entries": 30000,
+  "lexicon_new_standalone": 924,
+  "lexicon_new_compounds": 10413,
+  "dictionary_entries_preserved": 18663,
+  "english_index_rows": 30768,
+  "sentences": 4383,
+  "new_sentences": 1200,
+  "sentences_preserved": 3183,
+  "grammar_chapters": 90,
   "resonance_registers": 16,
   "native_letters": 26,
-  "semantic_domains": 161,
+  "semantic_domains": 240,
   "parts_of_speech": {
     "conj": 34,
     "adv": 254,
@@ -30,8 +30,8 @@
     "pron": 10
   },
   "pronunciation": {
-    "lexicon_entries": 18663,
-    "sentences": 3183,
+    "lexicon_entries": 30000,
+    "sentences": 4383,
     "style": "broad IPA; stress-marked reading; English-style sound-out on dictionary entries and examples"
   },
   "interface": {
@@ -40,11 +40,11 @@
     "offline": true,
     "github_published": false
   },
-  "release_focus": "interactive academy and practice minigames",
+  "release_focus": "Deep grammar, syntax, scope, discourse, phonology, semantics, connected corpus and robust learning material",
   "new_dictionary_entries": 0,
   "new_example_sentences": 0,
   "guided_lessons": 16,
-  "deep_topic_guides": 16,
+  "deep_topic_guides": 25,
   "learning_library_resources": 19,
   "annotated_sentence_parses": 21,
   "mixed_workbook_translation_tasks": 36,
@@ -54,9 +54,36 @@
     "guided_lessons": 16,
     "practice_modes": 8,
     "mixed_skyflight_questions": 10,
-    "deep_guides": 16,
+    "deep_guides": 25,
     "progress_storage": "local browser storage with JSON export/import",
     "new_dictionary_entries": 0,
     "new_sentences": 0
-  }
+  },
+  "preservation": {
+    "previous_release": "5.3",
+    "dictionary_entries_unchanged": 30000,
+    "sentences_unchanged": 3183,
+    "phonology_and_grammar_unchanged": false,
+    "grammar_chapters_1_through_70_unchanged": true,
+    "examples_unchanged": 4383
+  },
+  "entry_types_6_0": {
+    "new_independent_bases": 924,
+    "new_compositional_compounds": 10413
+  },
+  "advanced_guides": 9,
+  "advanced_grammar_chapters": 20,
+  "connected_corpus_utterances": 301,
+  "dialogue_contexts": 22,
+  "narrative_contexts": 13,
+  "contrast_sets": 94,
+  "contrast_sentences": 196,
+  "verb_frames": 25,
+  "curated_senses": 26,
+  "figurative_expressions": 32,
+  "pronunciation_drills": 208,
+  "dictionary_unchanged": 30000,
+  "legacy_example_sentences_unchanged": 4383,
+  "additional_corpus_is_separate": true,
+  "editorial_examples_not_speaker_attestation": true
 }

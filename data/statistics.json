@@ -1,20 +1,20 @@
 {
-  "standard": "Qaroshi Unified Standard 5.3",
+  "standard": "Qaroshi Unified Standard 6.0",
   "release_state": "published reference",
-  "dictionary_entries": 18663,
-  "english_index_rows": 19431,
-  "sentences": 3183,
-  "grammar_chapters": 70,
+  "dictionary_entries": 30000,
+  "english_index_rows": 30768,
+  "sentences": 4383,
+  "grammar_chapters": 90,
   "resonance_registers": 16,
   "native_letters": 26,
-  "semantic_domains": 161,
+  "semantic_domains": 240,
   "parts_of_speech": {
     "conj": 34,
     "adv": 307,
-    "n": 13253,
+    "n": 24230,
+    "adj": 1596,
     "v": 3517,
     "intj": 178,
-    "adj": 1236,
     "part": 82,
     "register": 16,
     "num": 9,
@@ -24,8 +24,8 @@
     "pron": 10
   },
   "pronunciation_coverage": {
-    "lexicon": 18663,
-    "phrasebook": 3183,
+    "lexicon": 30000,
+    "phrasebook": 4383,
     "supplementary": {
       "data/pronouns.json": 10,
       "data/resonances.json": 16,
@@ -33,9 +33,29 @@
       "data/grammatical_particles.json": 96
     }
   },
-  "version": "5.3",
+  "version": "7.0",
   "sound_out_coverage": {
-    "lexicon": 18663,
-    "phrasebook": 3183
+    "lexicon": 30000,
+    "phrasebook": 4383
+  },
+  "advanced_additions": {
+    "version": "7.0",
+    "grammar_chapters": 90,
+    "advanced_guides": 9,
+    "advanced_grammar_chapters": 20,
+    "connected_corpus_utterances": 301,
+    "dialogue_contexts": 22,
+    "narrative_contexts": 13,
+    "contrast_sets": 94,
+    "contrast_sentences": 196,
+    "verb_frames": 25,
+    "curated_senses": 26,
+    "figurative_expressions": 32,
+    "pronunciation_drills": 208,
+    "dictionary_unchanged": 30000,
+    "legacy_example_sentences_unchanged": 4383,
+    "additional_corpus_is_separate": true,
+    "editorial_examples_not_speaker_attestation": true,
+    "release_focus": "Deep grammar, syntax, scope, discourse, phonology, semantics, connected corpus and robust learning material"
   }
 }

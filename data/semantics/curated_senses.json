@@ -1,0 +1,262 @@
+[
+  {
+    "id": "LS001",
+    "lemma": "naro",
+    "dict_id": "Q002332",
+    "sense": "shelter",
+    "definition": "A place where a being lives or stays",
+    "pos": "noun",
+    "construction": "naro-lo",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS002",
+    "lemma": "naro",
+    "dict_id": "Q002332",
+    "sense": "nest",
+    "definition": "A dwelling framed as a nesting place",
+    "pos": "noun",
+    "construction": "qaro-na naro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS003",
+    "lemma": "naro",
+    "dict_id": "Q002332",
+    "sense": "safe home",
+    "definition": "Home evaluated as a protective refuge",
+    "pos": "noun",
+    "construction": "naro haro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS004",
+    "lemma": "shi",
+    "dict_id": "Q004422",
+    "sense": "voice",
+    "definition": "A living being’s communicative voice",
+    "pos": "noun",
+    "construction": "qaro-na shi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS005",
+    "lemma": "shi",
+    "dict_id": "Q004422",
+    "sense": "speech",
+    "definition": "Spoken language or articulated utterance",
+    "pos": "noun",
+    "construction": "shi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS006",
+    "lemma": "shi",
+    "dict_id": "Q004422",
+    "sense": "language",
+    "definition": "A linguistic system, as in qaroshi",
+    "pos": "noun",
+    "construction": "qaroshi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS007",
+    "lemma": "nashi",
+    "dict_id": "Q002339",
+    "sense": "cherish",
+    "definition": "Hold someone in deep, durable care",
+    "pos": "verb",
+    "construction": "ti-m nashi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS008",
+    "lemma": "nashi",
+    "dict_id": "Q002339",
+    "sense": "care for",
+    "definition": "Maintain a personal bond of concern",
+    "pos": "verb",
+    "construction": "mara-m nashi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS009",
+    "lemma": "mali",
+    "dict_id": "Q002271",
+    "sense": "romantically love",
+    "definition": "Experience romantic love for a person",
+    "pos": "verb",
+    "construction": "ti-m mali",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS010",
+    "lemma": "lani",
+    "dict_id": "Q002001",
+    "sense": "love as kin",
+    "definition": "Nurture a familial/kinship bond",
+    "pos": "verb",
+    "construction": "ti-m lani",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS011",
+    "lemma": "gura",
+    "dict_id": "Q001350",
+    "sense": "go",
+    "definition": "Move away or travel from a place",
+    "pos": "verb",
+    "construction": "naro-de gura",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS012",
+    "lemma": "gura",
+    "dict_id": "Q001350",
+    "sense": "travel",
+    "definition": "Travel toward a goal where specified",
+    "pos": "verb",
+    "construction": "naro-gu gura",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS013",
+    "lemma": "wori",
+    "dict_id": "Q005346",
+    "sense": "explore",
+    "definition": "Move about in search of discovery",
+    "pos": "verb",
+    "construction": "wori",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS014",
+    "lemma": "goro",
+    "dict_id": "Q001170",
+    "sense": "fly",
+    "definition": "Move through air by flying",
+    "pos": "verb",
+    "construction": "banu-shi goro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS015",
+    "lemma": "këmë",
+    "dict_id": "Q001977",
+    "sense": "drink",
+    "definition": "Consume water or other liquid",
+    "pos": "verb",
+    "construction": "kima-m këmë",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS016",
+    "lemma": "tika",
+    "dict_id": "Q004927",
+    "sense": "see",
+    "definition": "See visually",
+    "pos": "verb",
+    "construction": "ti-m tika",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS017",
+    "lemma": "tika",
+    "dict_id": "Q004927",
+    "sense": "notice",
+    "definition": "Become aware through visual perception",
+    "pos": "verb",
+    "construction": "dëna-m tika",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS018",
+    "lemma": "sëmi",
+    "dict_id": "Q004904",
+    "sense": "know",
+    "definition": "Have reliable knowledge of a proposition",
+    "pos": "verb",
+    "construction": "do sëmi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS019",
+    "lemma": "sëmi",
+    "dict_id": "Q004904",
+    "sense": "know a person",
+    "definition": "Be acquainted with the referent",
+    "pos": "verb",
+    "construction": "ti-m sëmi",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS020",
+    "lemma": "pëli",
+    "dict_id": "Q003431",
+    "sense": "give",
+    "definition": "Transfer possession of an item to a recipient",
+    "pos": "verb",
+    "construction": "mara-tu kima-m pëli",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS021",
+    "lemma": "pëli",
+    "dict_id": "Q003431",
+    "sense": "offer",
+    "definition": "Present an item or opportunity to a recipient",
+    "pos": "verb",
+    "construction": "mara-tu kima-m pëli",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS022",
+    "lemma": "haro",
+    "dict_id": "Q001450",
+    "sense": "safe",
+    "definition": "Not dangerous in the relevant context",
+    "pos": "adjective",
+    "construction": "naro haro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS023",
+    "lemma": "haro",
+    "dict_id": "Q001450",
+    "sense": "well",
+    "definition": "In a good physical/social state",
+    "pos": "adjective",
+    "construction": "ti haro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS024",
+    "lemma": "haro",
+    "dict_id": "Q001450",
+    "sense": "good",
+    "definition": "Positive evaluation of a thing",
+    "pos": "adjective",
+    "construction": "shiro haro",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS025",
+    "lemma": "lësha",
+    "dict_id": "Q002265",
+    "sense": "cute",
+    "definition": "Endearing or charming in appearance/behavior",
+    "pos": "adjective",
+    "construction": "ti lësha",
+    "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS026",
+    "lemma": "zaki",
+    "dict_id": "Q006009",
+    "sense": "powerful",
+    "definition": "Having strength or capacity",
+    "pos": "adjective",
+    "construction": "qaro zaki",
+    "status": "standard editorial sense description"
+  }
+]

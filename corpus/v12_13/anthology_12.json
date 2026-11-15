@@ -1,0 +1,2459 @@
+[
+  {
+    "title": "The Map That Wasn't a Map",
+    "genre": "fictional narrative",
+    "premise": "A navigator learns that a precise tool cannot answer every social question.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi rehëngo-m hari.",
+        "english_editorial": "I owned a compass.",
+        "number": 1,
+        "ipa": "/sen mi ɾe.ˈhə.ŋom ˈha.ɾi/",
+        "sound_out": "sehn mee reh-HUH-ngohm HAH-ree.",
+        "literal_engine_translation": "I have a compass.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi gëru-m tika-te.",
+        "english_editorial": "I had seen the mountain in the distance.",
+        "number": 2,
+        "ipa": "/sen mi ˈɡə.ɾum ti.ˈka.te/",
+        "sound_out": "sehn mee GUH-room tee-KAH-teh.",
+        "literal_engine_translation": "I saw a mountain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi wëru-m tika-te si.",
+        "english_editorial": "I had observed the forest myself.",
+        "number": 3,
+        "ipa": "/sen mi ˈwə.ɾum ti.ˈka.te si/",
+        "sound_out": "sehn mee WUH-room tee-KAH-teh see.",
+        "literal_engine_translation": "I saw a forest.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english_editorial": "I had also read a book about the route.",
+        "number": 4,
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "Even so, I didn't know the whole truth.",
+        "number": 5,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti mi-wa goro-yu he?",
+        "english_editorial": "Will you fly with me?",
+        "number": 6,
+        "ipa": "/hə ti ˈmi.wa ɡo.ˈɾo.ju he/",
+        "sound_out": "huh tee MEE-wah goh-ROH-yoo heh?",
+        "literal_engine_translation": "Will you fly with me?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I had asked the friend directly.",
+        "number": 7,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "wen mi mara-m nashi.",
+        "english_editorial": "I cared for that friend across the distance.",
+        "number": 8,
+        "ipa": "/wen mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "wehn mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa shiwaro-m shiwari-te.",
+        "english_editorial": "They sent a message.",
+        "number": 9,
+        "ipa": "/sen sa ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn sah shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "They sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english_editorial": "I read it carefully.",
+        "number": 10,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher sa goro-ho nu hari.",
+        "english_editorial": "They did not have permission to fly.",
+        "number": 11,
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.ho nu ˈha.ɾi/",
+        "sound_out": "zhehr sah goh-ROH-hoh noo HAH-ree.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi rehëngo-m tika-te.",
+        "english_editorial": "I looked at the compass again.",
+        "number": 12,
+        "ipa": "/sen mi ɾe.ˈhə.ŋom ti.ˈka.te/",
+        "sound_out": "sehn mee reh-HUH-ngohm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a compass.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shënoa-m hari.",
+        "english_editorial": "I had a choice.",
+        "number": 13,
+        "ipa": "/sen mi ʃə.ˈno.am ˈha.ɾi/",
+        "sound_out": "sehn mee shuh-NOH-ahm HAH-ree.",
+        "literal_engine_translation": "I have a choice.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi mara-m daru-yu.",
+        "english_editorial": "I would respect my friend rather than a timetable.",
+        "number": 14,
+        "ipa": "/qoɾ mi ˈma.ɾam da.ˈɾu.ju/",
+        "sound_out": "qohr mee MAH-rahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi naro-gu gura-te.",
+        "english_editorial": "I traveled home instead.",
+        "number": 15,
+        "ipa": "/nəm mi na.ˈɾo.ɡu ɡu.ˈɾa.te/",
+        "sound_out": "nuhm mee nah-ROH-goo goo-RAH-teh.",
+        "literal_engine_translation": "I traveled toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "That evening I recorded what had happened.",
+        "number": 16,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi rehëngo-m daru-te.",
+        "english_editorial": "I kept the compass safe.",
+        "number": 17,
+        "ipa": "/sen mi ɾe.ˈhə.ŋom da.ˈɾu.te/",
+        "sound_out": "sehn mee reh-HUH-ngohm dah-ROO-teh.",
+        "literal_engine_translation": "I protected a compass.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi shëno-m hari.",
+        "english_editorial": "But I had one question left.",
+        "number": 18,
+        "ipa": "/nəm mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "nuhm mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-map-that-wasn-t-a-map"
+  },
+  {
+    "title": "The Honest Report",
+    "genre": "essay",
+    "premise": "Why source-of-evidence particles matter more than sounding confident.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english_editorial": "I read a message.",
+        "number": 1,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa goro-te hu.",
+        "english_editorial": "The message said someone had flown.",
+        "number": 2,
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "literal_engine_translation": "They flew, according to a report.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sa-m nu tika-te.",
+        "english_editorial": "I had not seen that person.",
+        "number": 3,
+        "ipa": "/ʒeɾ mi sam nu ti.ˈka.te/",
+        "sound_out": "zhehr mee sahm noo tee-KAH-teh.",
+        "literal_engine_translation": "I did not see them.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi qaro-m nu tika-te.",
+        "english_editorial": "I had not seen the Nardoragon either.",
+        "number": 4,
+        "ipa": "/sen mi ˈqa.ɾom nu ti.ˈka.te/",
+        "sound_out": "sehn mee QAH-rohm noo tee-KAH-teh.",
+        "literal_engine_translation": "I did not see a Nardoragon.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m hari.",
+        "english_editorial": "That gave me a question.",
+        "number": 5,
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti sa-m tika-te si he?",
+        "english_editorial": "Did you see that person yourself?",
+        "number": 6,
+        "ipa": "/hə ti sam ti.ˈka.te si he/",
+        "sound_out": "huh tee sahm tee-KAH-teh see heh?",
+        "literal_engine_translation": "Did you see them?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa sa-m nu tika-te.",
+        "english_editorial": "They had not seen the person.",
+        "number": 7,
+        "ipa": "/sen sa sam nu ti.ˈka.te/",
+        "sound_out": "sehn sah sahm noo tee-KAH-teh.",
+        "literal_engine_translation": "They did not see them.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi sëma-m daru-yu.",
+        "english_editorial": "I decided to protect the difference between report and truth.",
+        "number": 8,
+        "ipa": "/qoɾ mi ˈsə.mam da.ˈɾu.ju/",
+        "sound_out": "qohr mee SUH-mahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a truth.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli-te.",
+        "english_editorial": "I wrote a second message.",
+        "number": 9,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m nu hari.",
+        "english_editorial": "I had no first-hand memory of the event.",
+        "number": 10,
+        "ipa": "/sen mi ˈmo.ɾum nu ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room noo HAH-ree.",
+        "literal_engine_translation": "I do not have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sa-m nu sëmi.",
+        "english_editorial": "I admitted I did not know what had happened.",
+        "number": 11,
+        "ipa": "/ʒeɾ mi sam nu ˈsə.mi/",
+        "sound_out": "zhehr mee sahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend instead.",
+        "number": 12,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "I documented my own memory separately.",
+        "number": 13,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi shërohi.",
+        "english_editorial": "The investigation was tiring.",
+        "number": 14,
+        "ipa": "/nəm mi ʃə.ˈɾo.hi/",
+        "sound_out": "nuhm mee shuh-ROH-hee.",
+        "literal_engine_translation": "I am tired.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-lo nëru-te.",
+        "english_editorial": "I rested at home.",
+        "number": 15,
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾu.te/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-ROO-teh.",
+        "literal_engine_translation": "I rested at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "dal mi yurayaro shëno-m sharoa-yu.",
+        "english_editorial": "I would ask again the following day.",
+        "number": 16,
+        "ipa": "/dal mi ju.ɾa.ˈja.ɾo ˈʃə.nom ʃa.ɾo.ˈa.ju/",
+        "sound_out": "dahl mee yoo-rah-YAH-roh SHUH-nohm shah-roh-AH-yoo.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-honest-report"
+  },
+  {
+    "title": "The Book Returned with Notes",
+    "genre": "fictional narrative",
+    "premise": "A library incident becomes a lesson about ownership and shared learning.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi shima-m hari.",
+        "english_editorial": "I had a book.",
+        "number": 1,
+        "ipa": "/sen mi ˈʃi.mam ˈha.ɾi/",
+        "sound_out": "sehn mee SHEE-mahm HAH-ree.",
+        "literal_engine_translation": "I have a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english_editorial": "I read the book slowly.",
+        "number": 2,
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m hari.",
+        "english_editorial": "I encountered a question.",
+        "number": 3,
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "I wrote down a memory the page evoked.",
+        "number": 4,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shiroli-te.",
+        "english_editorial": "Then I wrote in the book itself.",
+        "number": 5,
+        "ipa": "/sen mi ˈʃi.mam ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee SHEE-mahm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi shima-m nu daru-te.",
+        "english_editorial": "I had failed to protect the borrowed volume.",
+        "number": 6,
+        "ipa": "/ʒeɾ mi ˈʃi.mam nu da.ˈɾu.te/",
+        "sound_out": "zhehr mee SHEE-mahm noo dah-ROO-teh.",
+        "literal_engine_translation": "I did not protect a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "lën mi përë.",
+        "english_editorial": "I apologized to its keeper.",
+        "number": 7,
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "literal_engine_translation": "I apologize.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m pëli-te.",
+        "english_editorial": "I returned the book.",
+        "number": 8,
+        "ipa": "/sen mi ˈʃi.mam pə.ˈli.te/",
+        "sound_out": "sehn mee SHEE-mahm puh-LEE-teh.",
+        "literal_engine_translation": "I gave a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti mi-m shiroawe-yu he?",
+        "english_editorial": "Will you listen to my explanation?",
+        "number": 9,
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ju he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-yoo heh?",
+        "literal_engine_translation": "Will you listen to me?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m shiroawe-te.",
+        "english_editorial": "They listened.",
+        "number": 10,
+        "ipa": "/sen sa mim ʃi.ɾo.a.ˈwe.te/",
+        "sound_out": "sehn sah meem shee-roh-ah-WEH-teh.",
+        "literal_engine_translation": "They listened to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-yu.",
+        "english_editorial": "I promised to write my notes separately next time.",
+        "number": 11,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-yoo.",
+        "literal_engine_translation": "I will write a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi shima-m daru-yu.",
+        "english_editorial": "I would protect the shared copy.",
+        "number": 12,
+        "ipa": "/qoɾ mi ˈʃi.mam da.ˈɾu.ju/",
+        "sound_out": "qohr mee SHEE-mahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m yarëmi-te.",
+        "english_editorial": "The keeper taught me how to make an annotation.",
+        "number": 13,
+        "ipa": "/sen sa mim ja.ɾə.ˈmi.te/",
+        "sound_out": "sehn sah meem yah-ruh-MEE-teh.",
+        "literal_engine_translation": "They taught me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "rëm mi rëmi-te.",
+        "english_editorial": "I learned something more valuable than a rule.",
+        "number": 14,
+        "ipa": "/ɾəm mi ɾə.ˈmi.te/",
+        "sound_out": "ruhm mee ruh-MEE-teh.",
+        "literal_engine_translation": "I learned.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm naru shima-m shëliro-yu.",
+        "english_editorial": "We planned to read together again.",
+        "number": 15,
+        "ipa": "/nəm ˈna.ɾu ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm NAH-roo SHEE-mahm shuh-lee-ROH-yoo.",
+        "literal_engine_translation": "We will read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-book-returned-with-notes"
+  },
+  {
+    "title": "Two Meanings of Home",
+    "genre": "reflective essay",
+    "premise": "A building can offer shelter without automatically granting belonging.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi naro-m tika-te.",
+        "english_editorial": "I saw a building that looked like home.",
+        "number": 1,
+        "ipa": "/sen mi ˈna.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee NAH-rohm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi raro-m tika-te.",
+        "english_editorial": "I noticed its door.",
+        "number": 2,
+        "ipa": "/sen mi ˈɾa.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee RAH-rohm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a door.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi tëdiba-m tika-te.",
+        "english_editorial": "I saw its window.",
+        "number": 3,
+        "ipa": "/sen mi tə.ˈdi.bam ti.ˈka.te/",
+        "sound_out": "sehn mee tuh-DEE-bahm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a window pane.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura-te.",
+        "english_editorial": "I traveled toward it.",
+        "number": 4,
+        "ipa": "/sen mi na.ˈɾo.ɡu ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-goo goo-RAH-teh.",
+        "literal_engine_translation": "I traveled toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë mi naro-gu nëra-ho he?",
+        "english_editorial": "May I stay here?",
+        "number": 5,
+        "ipa": "/hə mi na.ˈɾo.ɡu nə.ˈɾa.ho he/",
+        "sound_out": "huh mee nah-ROH-goo nuh-RAH-hoh heh?",
+        "literal_engine_translation": "May i stay toward a home?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-lo nëra-te.",
+        "english_editorial": "I was allowed inside.",
+        "number": 6,
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-teh.",
+        "literal_engine_translation": "I stayed at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi naro-lo nëru-te.",
+        "english_editorial": "I rested there quietly.",
+        "number": 7,
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.te/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-teh.",
+        "literal_engine_translation": "I rested at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi runa-m nu hari.",
+        "english_editorial": "I did not yet have a chosen family.",
+        "number": 8,
+        "ipa": "/ʒeɾ mi ˈɾu.nam nu ˈha.ɾi/",
+        "sound_out": "zhehr mee ROO-nahm noo HAH-ree.",
+        "literal_engine_translation": "I do not have chosen family.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m hari.",
+        "english_editorial": "But I did have a friend.",
+        "number": 9,
+        "ipa": "/sen mi ˈma.ɾam ˈha.ɾi/",
+        "sound_out": "sehn mee MAH-rahm HAH-ree.",
+        "literal_engine_translation": "I have a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "më mi mara-m nashi.",
+        "english_editorial": "I cared about that friend.",
+        "number": 10,
+        "ipa": "/mə mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "muh mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-tu kima-m pëli-te.",
+        "english_editorial": "They gave me water.",
+        "number": 11,
+        "ipa": "/sen sa ˈmi.tu ˈki.mam pə.ˈli.te/",
+        "sound_out": "sehn sah MEE-too KEE-mahm puh-LEE-teh.",
+        "literal_engine_translation": "They gave water to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kima-m këmë-te.",
+        "english_editorial": "I drank it.",
+        "number": 12,
+        "ipa": "/sen mi ˈki.mam kə.ˈmə.te/",
+        "sound_out": "sehn mee KEE-mahm kuh-MUH-teh.",
+        "literal_engine_translation": "I drank water.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëna-m hari.",
+        "english_editorial": "Little by little, trust grew.",
+        "number": 13,
+        "ipa": "/sen mi ˈʃə.nam ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nahm HAH-ree.",
+        "literal_engine_translation": "I have trust.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi runa-m hari.",
+        "english_editorial": "Eventually I could speak of chosen family.",
+        "number": 14,
+        "ipa": "/sen mi ˈɾu.nam ˈha.ɾi/",
+        "sound_out": "sehn mee ROO-nahm HAH-ree.",
+        "literal_engine_translation": "I have chosen family.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-m daru-yu.",
+        "english_editorial": "I wanted to care for the home too.",
+        "number": 15,
+        "ipa": "/sen mi ˈna.ɾom da.ˈɾu.ju/",
+        "sound_out": "sehn mee NAH-rohm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi shëna-m daru-yu.",
+        "english_editorial": "And to protect the trust that made it a home.",
+        "number": 16,
+        "ipa": "/qoɾ mi ˈʃə.nam da.ˈɾu.ju/",
+        "sound_out": "qohr mee SHUH-nahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect trust.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-two-meanings-of-home"
+  },
+  {
+    "title": "What a Promise Can Contain",
+    "genre": "philosophical essay",
+    "premise": "Distinguishing a meaningful promise from an impossible guarantee.",
+    "sentences": [
+      {
+        "qaroshi": "hë ti namu-m hari he?",
+        "english_editorial": "Do you have a promise?",
+        "number": 1,
+        "ipa": "/hə ti ˈna.mum ˈha.ɾi he/",
+        "sound_out": "huh tee NAH-moom HAH-ree heh?",
+        "literal_engine_translation": "Do you have a promise?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi namu-m hari.",
+        "english_editorial": "I do.",
+        "number": 2,
+        "ipa": "/sen mi ˈna.mum ˈha.ɾi/",
+        "sound_out": "sehn mee NAH-moom HAH-ree.",
+        "literal_engine_translation": "I have a promise.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi wukëro-m nu sëmi.",
+        "english_editorial": "But I cannot know the whole future.",
+        "number": 3,
+        "ipa": "/ʒeɾ mi wu.ˈkə.ɾom nu ˈsə.mi/",
+        "sound_out": "zhehr mee woo-KUH-rohm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi nënayaro-m tika.",
+        "english_editorial": "I can see what is here today.",
+        "number": 4,
+        "ipa": "/sen mi nə.na.ˈja.ɾom ˈti.ka/",
+        "sound_out": "sehn mee nuh-nah-YAH-rohm TEE-kah.",
+        "literal_engine_translation": "I see a today.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m nashi.",
+        "english_editorial": "I care for my friend.",
+        "number": 5,
+        "ipa": "/sen mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "sehn mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi nënayaro ti-wa nëra-yu.",
+        "english_editorial": "I promise to stay with them today.",
+        "number": 6,
+        "ipa": "/qoɾ mi nə.na.ˈja.ɾo ˈti.wa nə.ˈɾa.ju/",
+        "sound_out": "qohr mee nuh-nah-YAH-roh TEE-wah nuh-RAH-yoo.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëna nu sëmi.",
+        "english_editorial": "I cannot certify forever.",
+        "number": 7,
+        "ipa": "/ʒeɾ mi ˈsə.na nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-nah noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti goro-ki he?",
+        "english_editorial": "Can you physically fly?",
+        "number": 8,
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee goh-ROH-kee heh?",
+        "literal_engine_translation": "Can you fly?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi goro-ki.",
+        "english_editorial": "I can.",
+        "number": 9,
+        "ipa": "/sen mi ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee goh-ROH-kee.",
+        "literal_engine_translation": "I can fly.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti goro-ho he?",
+        "english_editorial": "Are you permitted to?",
+        "number": 10,
+        "ipa": "/hə ti ɡo.ˈɾo.ho he/",
+        "sound_out": "huh tee goh-ROH-hoh heh?",
+        "literal_engine_translation": "May you fly?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi goro-ho.",
+        "english_editorial": "Sometimes I am.",
+        "number": 11,
+        "ipa": "/sen mi ɡo.ˈɾo.ho/",
+        "sound_out": "sehn mee goh-ROH-hoh.",
+        "literal_engine_translation": "I may fly.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi goro-du.",
+        "english_editorial": "Sometimes duty requires flight.",
+        "number": 12,
+        "ipa": "/sen mi ɡo.ˈɾo.du/",
+        "sound_out": "sehn mee goh-ROH-doo.",
+        "literal_engine_translation": "I must fly.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi goro-yu.",
+        "english_editorial": "A future flight is another question again.",
+        "number": 13,
+        "ipa": "/sen mi ɡo.ˈɾo.ju/",
+        "sound_out": "sehn mee goh-ROH-yoo.",
+        "literal_engine_translation": "I will fly.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi namu-m shiroli-yu.",
+        "english_editorial": "I will write the promise down.",
+        "number": 14,
+        "ipa": "/sen mi ˈna.mum ʃi.ɾo.ˈli.ju/",
+        "sound_out": "sehn mee NAH-moom shee-roh-LEE-yoo.",
+        "literal_engine_translation": "I will write a promise.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiwari-yu.",
+        "english_editorial": "And send it clearly.",
+        "number": 15,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-yoo.",
+        "literal_engine_translation": "I will send a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi mara-m daru-yu.",
+        "english_editorial": "The commitment will be concrete rather than grandiose.",
+        "number": 16,
+        "ipa": "/qoɾ mi ˈma.ɾam da.ˈɾu.ju/",
+        "sound_out": "qohr mee MAH-rahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-what-a-promise-can-contain"
+  },
+  {
+    "title": "The River Without an Answer",
+    "genre": "literary fiction",
+    "premise": "Someone asks a river a question better addressed to another person.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi kimaro-m tika-te.",
+        "english_editorial": "I reached the river.",
+        "number": 1,
+        "ipa": "/sen mi ki.ˈma.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee kee-MAH-rohm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a river.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kimaro-lo nëra-te.",
+        "english_editorial": "I stayed beside it.",
+        "number": 2,
+        "ipa": "/sen mi ki.ma.ˈɾo.lo nə.ˈɾa.te/",
+        "sound_out": "sehn mee kee-mah-ROH-loh nuh-RAH-teh.",
+        "literal_engine_translation": "I stayed at a river.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "I did not know the truth.",
+        "number": 3,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kimaro-m sharoa-te.",
+        "english_editorial": "I asked the river anyway.",
+        "number": 4,
+        "ipa": "/sen mi ki.ˈma.ɾom ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee kee-MAH-rohm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a river.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m sharoa-te.",
+        "english_editorial": "I repeated my question.",
+        "number": 5,
+        "ipa": "/sen mi ˈʃə.nom ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee SHUH-nohm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m nu hari.",
+        "english_editorial": "There was no message to keep.",
+        "number": 6,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom nu ˈha.ɾi/",
+        "sound_out": "sehn mee shee-WAH-rohm noo HAH-ree.",
+        "literal_engine_translation": "I do not have a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kima-m tika-te.",
+        "english_editorial": "I watched the water.",
+        "number": 7,
+        "ipa": "/sen mi ˈki.mam ti.ˈka.te/",
+        "sound_out": "sehn mee KEE-mahm tee-KAH-teh.",
+        "literal_engine_translation": "I saw water.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m këmiro-te.",
+        "english_editorial": "An old memory returned.",
+        "number": 8,
+        "ipa": "/sen mi ˈmo.ɾum kə.mi.ˈɾo.te/",
+        "sound_out": "sehn mee MOH-room kuh-mee-ROH-teh.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m këmiro-te.",
+        "english_editorial": "I remembered a friend.",
+        "number": 9,
+        "ipa": "/sen mi ˈma.ɾam kə.mi.ˈɾo.te/",
+        "sound_out": "sehn mee MAH-rahm kuh-mee-ROH-teh.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura-te.",
+        "english_editorial": "I traveled home.",
+        "number": 10,
+        "ipa": "/sen mi na.ˈɾo.ɡu ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-goo goo-RAH-teh.",
+        "literal_engine_translation": "I traveled toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english_editorial": "Can you listen to me?",
+        "number": 11,
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "literal_engine_translation": "Can you listen to me?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m shiroawe-te.",
+        "english_editorial": "They listened carefully.",
+        "number": 12,
+        "ipa": "/sen sa mim ʃi.ɾo.a.ˈwe.te/",
+        "sound_out": "sehn sah meem shee-roh-ah-WEH-teh.",
+        "literal_engine_translation": "They listened to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m sharoa-te.",
+        "english_editorial": "This time I asked a person the question.",
+        "number": 13,
+        "ipa": "/sen mi ˈʃə.nom ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee SHUH-nohm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa-te.",
+        "english_editorial": "They answered.",
+        "number": 14,
+        "ipa": "/sen sa mim pə.ɾo.ˈa.te/",
+        "sound_out": "sehn sah meem puh-roh-AH-teh.",
+        "literal_engine_translation": "They replyed to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi sëma-m nu sëmi.",
+        "english_editorial": "I still did not know everything.",
+        "number": 15,
+        "ipa": "/nəm mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "nuhm mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "më mi mara-m nashi.",
+        "english_editorial": "But I was no longer alone with the question.",
+        "number": 16,
+        "ipa": "/mə mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "muh mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-river-without-an-answer"
+  },
+  {
+    "title": "The Night Watch",
+    "genre": "fictional report",
+    "premise": "A watcher must decide when to send a storm warning.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi yami-lo nëra-te.",
+        "english_editorial": "I was on watch during the night.",
+        "number": 1,
+        "ipa": "/sen mi ja.ˈmi.lo nə.ˈɾa.te/",
+        "sound_out": "sehn mee yah-MEE-loh nuh-RAH-teh.",
+        "literal_engine_translation": "I stayed at a night.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi wena-m tika-te.",
+        "english_editorial": "I observed the sky.",
+        "number": 2,
+        "ipa": "/sen mi ˈwe.nam ti.ˈka.te/",
+        "sound_out": "sehn mee WEH-nahm tee-KAH-teh.",
+        "literal_engine_translation": "I saw the sky.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kimazu-m tika-te si.",
+        "english_editorial": "I saw rain directly.",
+        "number": 3,
+        "ipa": "/sen mi ki.ˈma.zum ti.ˈka.te si/",
+        "sound_out": "sehn mee kee-MAH-zoom tee-KAH-teh see.",
+        "literal_engine_translation": "I saw a rain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "khar mi lushënga-m tika-te.",
+        "english_editorial": "A storm came into view.",
+        "number": 4,
+        "ipa": "/xaɾ mi lu.ˈʃə.ŋam ti.ˈka.te/",
+        "sound_out": "khahr mee loo-SHUH-ngahm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a storm.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli-te.",
+        "english_editorial": "I wrote a warning.",
+        "number": 5,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti shiwaro-m shiwari-yu he?",
+        "english_editorial": "Will you send the warning?",
+        "number": 6,
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju he/",
+        "sound_out": "huh tee shee-WAH-rohm shee-wah-REE-yoo heh?",
+        "literal_engine_translation": "Will you send a message?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi shiwaro-m shiwari-yu.",
+        "english_editorial": "I would.",
+        "number": 7,
+        "ipa": "/qoɾ mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "qohr mee shee-WAH-rohm shee-wah-REE-yoo.",
+        "literal_engine_translation": "I will send a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend about the safest route.",
+        "number": 8,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa gëru-m tika-te si.",
+        "english_editorial": "They had observed the mountain.",
+        "number": 9,
+        "ipa": "/sen sa ˈɡə.ɾum ti.ˈka.te si/",
+        "sound_out": "sehn sah GUH-room tee-KAH-teh see.",
+        "literal_engine_translation": "They saw a mountain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi gëru-gu nu gura-yu.",
+        "english_editorial": "We would not travel toward it.",
+        "number": 10,
+        "ipa": "/sen mi ɡə.ˈɾu.ɡu nu ɡu.ˈɾa.ju/",
+        "sound_out": "sehn mee guh-ROO-goo noo goo-RAH-yoo.",
+        "literal_engine_translation": "I will not travel toward a mountain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura-yu.",
+        "english_editorial": "We would return home.",
+        "number": 11,
+        "ipa": "/sen mi na.ˈɾo.ɡu ɡu.ˈɾa.ju/",
+        "sound_out": "sehn mee nah-ROH-goo goo-RAH-yoo.",
+        "literal_engine_translation": "I will travel toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi raro-m rëgë-yu.",
+        "english_editorial": "We would repair the door if necessary.",
+        "number": 12,
+        "ipa": "/sen mi ˈɾa.ɾom ɾə.ˈɡə.ju/",
+        "sound_out": "sehn mee RAH-rohm ruh-GUH-yoo.",
+        "literal_engine_translation": "I will repair a door.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor naru naro-m daru-yu.",
+        "english_editorial": "We would guard the shelter.",
+        "number": 13,
+        "ipa": "/qoɾ ˈna.ɾu ˈna.ɾom da.ˈɾu.ju/",
+        "sound_out": "qohr NAH-roo NAH-rohm dah-ROO-yoo.",
+        "literal_engine_translation": "We will protect a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm naru naro-lo nëru-yu.",
+        "english_editorial": "Then we could rest.",
+        "number": 14,
+        "ipa": "/nəm ˈna.ɾu na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm NAH-roo nah-ROH-loh nuh-ROO-yoo.",
+        "literal_engine_translation": "We will rest at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-night-watch"
+  },
+  {
+    "title": "The Question in a Painted Wing",
+    "genre": "fictional arts dialogue retold as prose",
+    "premise": "An image raises a memory its maker did not intend.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi mërawë-m shiroli-te.",
+        "english_editorial": "I painted a wing.",
+        "number": 1,
+        "ipa": "/sen mi mə.ˈɾa.wəm ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee muh-RAH-wuhm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi banu-m tika-te.",
+        "english_editorial": "I had studied a real wing.",
+        "number": 2,
+        "ipa": "/sen mi ˈba.num ti.ˈka.te/",
+        "sound_out": "sehn mee BAH-noom tee-KAH-teh.",
+        "literal_engine_translation": "I saw a wing.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mëru-m tika-te.",
+        "english_editorial": "I had looked closely at a feather.",
+        "number": 3,
+        "ipa": "/sen mi ˈmə.ɾum ti.ˈka.te/",
+        "sound_out": "sehn mee MUH-room tee-KAH-teh.",
+        "literal_engine_translation": "I saw a feather.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mërawë-m daru-te.",
+        "english_editorial": "I cared for the painting.",
+        "number": 4,
+        "ipa": "/sen mi mə.ˈɾa.wəm da.ˈɾu.te/",
+        "sound_out": "sehn mee muh-RAH-wuhm dah-ROO-teh.",
+        "literal_engine_translation": "I protected a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend to see it.",
+        "number": 5,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mërawë-m tika-te.",
+        "english_editorial": "They looked at the work.",
+        "number": 6,
+        "ipa": "/sen sa mə.ˈɾa.wəm ti.ˈka.te/",
+        "sound_out": "sehn sah muh-RAH-wuhm tee-KAH-teh.",
+        "literal_engine_translation": "They saw a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sur sa moru-m hari.",
+        "english_editorial": "It brought back a sad memory for them.",
+        "number": 7,
+        "ipa": "/suɾ sa ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "soor sah MOH-room HAH-ree.",
+        "literal_engine_translation": "They have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi moru-m nu sëmi.",
+        "english_editorial": "I didn't know about that memory.",
+        "number": 8,
+        "ipa": "/ʒeɾ mi ˈmo.ɾum nu ˈsə.mi/",
+        "sound_out": "zhehr mee MOH-room noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti moru-m shiri-yu he?",
+        "english_editorial": "Will you speak about that memory?",
+        "number": 9,
+        "ipa": "/hə ti ˈmo.ɾum ʃi.ˈɾi.ju he/",
+        "sound_out": "huh tee MOH-room shee-REE-yoo heh?",
+        "literal_engine_translation": "Will you speak a memory?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa nu shiri-yu.",
+        "english_editorial": "Not yet, they replied.",
+        "number": 10,
+        "ipa": "/sen sa nu ʃi.ˈɾi.ju/",
+        "sound_out": "sehn sah noo shee-REE-yoo.",
+        "literal_engine_translation": "They will not speak.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "më mi sa-m nashi.",
+        "english_editorial": "I cared about their boundaries.",
+        "number": 11,
+        "ipa": "/mə mi sam ˈna.ʃi/",
+        "sound_out": "muh mee sahm NAH-shee.",
+        "literal_engine_translation": "I cherish them.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mërawë-m nu shiwari-yu.",
+        "english_editorial": "I wouldn't share the work without permission.",
+        "number": 12,
+        "ipa": "/sen mi mə.ˈɾa.wəm nu ʃi.wa.ˈɾi.ju/",
+        "sound_out": "sehn mee muh-RAH-wuhm noo shee-wah-REE-yoo.",
+        "literal_engine_translation": "I will not send a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-lo nëra-te.",
+        "english_editorial": "I went home and thought.",
+        "number": 13,
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-teh.",
+        "literal_engine_translation": "I stayed at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi morushira-m shiroli-te.",
+        "english_editorial": "I wrote a story instead.",
+        "number": 14,
+        "ipa": "/nəm mi mo.ɾu.ˈʃi.ɾam ʃi.ɾo.ˈli.te/",
+        "sound_out": "nuhm mee moh-roo-SHEE-rahm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a story.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi mara-m daru-yu.",
+        "english_editorial": "I would protect my friend, not my pride.",
+        "number": 15,
+        "ipa": "/qoɾ mi ˈma.ɾam da.ˈɾu.ju/",
+        "sound_out": "qohr mee MAH-rahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-question-in-a-painted-wing"
+  },
+  {
+    "title": "How to Correct a Word",
+    "genre": "language-learning essay",
+    "premise": "A learner separates a translation error from the original language.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi qaroshi-m rëmi.",
+        "english_editorial": "I study Qaroshi.",
+        "number": 1,
+        "ipa": "/sen mi qa.ˈɾo.ʃim ˈɾə.mi/",
+        "sound_out": "sehn mee qah-ROH-sheem RUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro.",
+        "english_editorial": "I read the reference book.",
+        "number": 2,
+        "ipa": "/sen mi ˈʃi.mam ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee SHEE-mahm shuh-LEE-roh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m hari.",
+        "english_editorial": "I have a question.",
+        "number": 3,
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli.",
+        "english_editorial": "I write a sample sentence.",
+        "number": 4,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-ROH-lee.",
+        "literal_engine_translation": "I write a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti mi-m shiroawe-ki he?",
+        "english_editorial": "Can you listen to me?",
+        "number": 5,
+        "ipa": "/hə ti mim ʃi.ɾo.a.ˈwe.ki he/",
+        "sound_out": "huh tee meem shee-roh-ah-WEH-kee heh?",
+        "literal_engine_translation": "Can you listen to me?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m shiroawe.",
+        "english_editorial": "The partner listens.",
+        "number": 6,
+        "ipa": "/sen sa mim ʃi.ɾo.ˈa.we/",
+        "sound_out": "sehn sah meem shee-roh-AH-weh.",
+        "literal_engine_translation": "They listen to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shëliro.",
+        "english_editorial": "I read the sentence again.",
+        "number": 7,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-LEE-roh.",
+        "literal_engine_translation": "I read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "I am not sure of the interpretation.",
+        "number": 8,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa.",
+        "english_editorial": "I ask my friend about the missing context.",
+        "number": 9,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ˈɾo.a/",
+        "sound_out": "sehn mee MAH-rahm shah-ROH-ah.",
+        "literal_engine_translation": "I ask a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa.",
+        "english_editorial": "They offer a reply.",
+        "number": 10,
+        "ipa": "/sen sa mim pə.ˈɾo.a/",
+        "sound_out": "sehn sah meem puh-ROH-ah.",
+        "literal_engine_translation": "They reply to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli.",
+        "english_editorial": "I record the alternative reading.",
+        "number": 11,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee MOH-room shee-ROH-lee.",
+        "literal_engine_translation": "I write a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli.",
+        "english_editorial": "I rewrite the message.",
+        "number": 12,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-ROH-lee.",
+        "literal_engine_translation": "I write a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "rëm mi rëmi.",
+        "english_editorial": "I am learning, not pretending to know everything.",
+        "number": 13,
+        "ipa": "/ɾəm mi ˈɾə.mi/",
+        "sound_out": "ruhm mee RUH-mee.",
+        "literal_engine_translation": "I learn.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi shima-m shëliro-yu.",
+        "english_editorial": "I will keep studying calmly.",
+        "number": 14,
+        "ipa": "/nəm mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "literal_engine_translation": "I will read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-how-to-correct-a-word"
+  },
+  {
+    "title": "A Letter Sent Twice",
+    "genre": "epistolary fiction",
+    "premise": "A message is sent, but a better reply requires listening first.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-te.",
+        "english_editorial": "I sent a message to you.",
+        "number": 1,
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "I sent a message to you.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiwari-te si.",
+        "english_editorial": "I can confirm that I sent it.",
+        "number": 2,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te si/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh see.",
+        "literal_engine_translation": "I sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi ti-m nu ronaro-te.",
+        "english_editorial": "I did not hear from you.",
+        "number": 3,
+        "ipa": "/ʒeɾ mi tim nu ɾo.na.ˈɾo.te/",
+        "sound_out": "zhehr mee teem noo roh-nah-ROH-teh.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m nu hari.",
+        "english_editorial": "I had no memory of receiving a reply.",
+        "number": 4,
+        "ipa": "/sen mi ˈmo.ɾum nu ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room noo HAH-ree.",
+        "literal_engine_translation": "I do not have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëna-m hari.",
+        "english_editorial": "I kept some trust nonetheless.",
+        "number": 5,
+        "ipa": "/sen mi ˈʃə.nam ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nahm HAH-ree.",
+        "literal_engine_translation": "I have trust.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend what they knew.",
+        "number": 6,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m nu përoa-te.",
+        "english_editorial": "They had no reply either.",
+        "number": 7,
+        "ipa": "/sen sa mim nu pə.ɾo.ˈa.te/",
+        "sound_out": "sehn sah meem noo puh-roh-AH-teh.",
+        "literal_engine_translation": "They did not reply to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english_editorial": "I reread what I had written.",
+        "number": 8,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "lën mi përë.",
+        "english_editorial": "I realized I had been too demanding.",
+        "number": 9,
+        "ipa": "/lən mi ˈpə.ɾə/",
+        "sound_out": "luhn mee PUH-ruh.",
+        "literal_engine_translation": "I apologize.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli-te.",
+        "english_editorial": "I wrote a gentler message.",
+        "number": 10,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi ti-tu shiwaro-m shiwari-te.",
+        "english_editorial": "I sent that new message too.",
+        "number": 11,
+        "ipa": "/sen mi ˈti.tu ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee TEE-too shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "I sent a message to you.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi ti-m shiroawe-yu.",
+        "english_editorial": "I promised to listen when you were ready.",
+        "number": 12,
+        "ipa": "/qoɾ mi tim ʃi.ɾo.a.ˈwe.ju/",
+        "sound_out": "qohr mee teem shee-roh-ah-WEH-yoo.",
+        "literal_engine_translation": "I will listen to you.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi naro-lo nëru-te.",
+        "english_editorial": "Then I put the device away and rested.",
+        "number": 13,
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.te/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-teh.",
+        "literal_engine_translation": "I rested at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-a-letter-sent-twice"
+  },
+  {
+    "title": "The Weather and the Story",
+    "genre": "analytical essay",
+    "premise": "Separating what a story says from what an observation proves.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi morushira-m shëliro-te.",
+        "english_editorial": "I read a story.",
+        "number": 1,
+        "ipa": "/sen mi mo.ɾu.ˈʃi.ɾam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee moh-roo-SHEE-rahm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a story.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa lushënga-m tika-te hu.",
+        "english_editorial": "The story reported a storm.",
+        "number": 2,
+        "ipa": "/sen sa lu.ˈʃə.ŋam ti.ˈka.te hu/",
+        "sound_out": "sehn sah loo-SHUH-ngahm tee-KAH-teh hoo.",
+        "literal_engine_translation": "They saw a storm.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi lushënga-m nu tika-te.",
+        "english_editorial": "I hadn't observed any storm.",
+        "number": 3,
+        "ipa": "/sen mi lu.ˈʃə.ŋam nu ti.ˈka.te/",
+        "sound_out": "sehn mee loo-SHUH-ngahm noo tee-KAH-teh.",
+        "literal_engine_translation": "I did not see a storm.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi lugoqa-m shiroli-te.",
+        "english_editorial": "I wrote a weather note anyway.",
+        "number": 4,
+        "ipa": "/sen mi lu.ˈɡo.qam ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee loo-GOH-qahm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a weather.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "I realized I didn't know enough.",
+        "number": 5,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english_editorial": "I sent a question to a watcher.",
+        "number": 6,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "I sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa kimazu-m tika-te si.",
+        "english_editorial": "The watcher reported direct rain observation.",
+        "number": 7,
+        "ipa": "/sen sa ki.ˈma.zum ti.ˈka.te si/",
+        "sound_out": "sehn sah kee-MAH-zoom tee-KAH-teh see.",
+        "literal_engine_translation": "They saw a rain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kimazu-m nu tika-te.",
+        "english_editorial": "I personally had not seen rain.",
+        "number": 8,
+        "ipa": "/sen mi ki.ˈma.zum nu ti.ˈka.te/",
+        "sound_out": "sehn mee kee-MAH-zoom noo tee-KAH-teh.",
+        "literal_engine_translation": "I did not see a rain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "I documented the difference.",
+        "number": 9,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english_editorial": "I checked the source book again.",
+        "number": 10,
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m hari.",
+        "english_editorial": "I had a new question about the narrator.",
+        "number": 11,
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti sëma-m sëmi he?",
+        "english_editorial": "Does the narrator know the truth?",
+        "number": 12,
+        "ipa": "/hə ti ˈsə.mam ˈsə.mi he/",
+        "sound_out": "huh tee SUH-mahm SUH-mee heh?",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi nu sëmi.",
+        "english_editorial": "I couldn't establish that.",
+        "number": 13,
+        "ipa": "/ʒeɾ mi nu ˈsə.mi/",
+        "sound_out": "zhehr mee noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi shiwaro-m shiroli-yu.",
+        "english_editorial": "I would revise the report rather than invent certainty.",
+        "number": 14,
+        "ipa": "/qoɾ mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.ju/",
+        "sound_out": "qohr mee shee-WAH-rohm shee-roh-LEE-yoo.",
+        "literal_engine_translation": "I will write a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-weather-and-the-story"
+  },
+  {
+    "title": "The Careful Journey",
+    "genre": "travel diary",
+    "premise": "A traveler follows an unfamiliar route while respecting a companion's limits.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi naro-de gura-te.",
+        "english_editorial": "I left home.",
+        "number": 1,
+        "ipa": "/sen mi na.ˈɾo.de ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-deh goo-RAH-teh.",
+        "literal_engine_translation": "I traveled from a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi wëru-m tika-te.",
+        "english_editorial": "I saw the forest.",
+        "number": 2,
+        "ipa": "/sen mi ˈwə.ɾum ti.ˈka.te/",
+        "sound_out": "sehn mee WUH-room tee-KAH-teh.",
+        "literal_engine_translation": "I saw a forest.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi gëru-m tika-te.",
+        "english_editorial": "I saw a mountain behind it.",
+        "number": 3,
+        "ipa": "/sen mi ˈɡə.ɾum ti.ˈka.te/",
+        "sound_out": "sehn mee GUH-room tee-KAH-teh.",
+        "literal_engine_translation": "I saw a mountain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi rehëngo-m hari.",
+        "english_editorial": "I carried a compass.",
+        "number": 4,
+        "ipa": "/sen mi ɾe.ˈhə.ŋom ˈha.ɾi/",
+        "sound_out": "sehn mee reh-HUH-ngohm HAH-ree.",
+        "literal_engine_translation": "I have a compass.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-wa gura-te.",
+        "english_editorial": "I traveled with a friend.",
+        "number": 5,
+        "ipa": "/sen mi ma.ˈɾa.wa ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee mah-RAH-wah goo-RAH-teh.",
+        "literal_engine_translation": "I traveled with a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa shërohi.",
+        "english_editorial": "The friend was tired.",
+        "number": 6,
+        "ipa": "/sen sa ʃə.ˈɾo.hi/",
+        "sound_out": "sehn sah shuh-ROH-hee.",
+        "literal_engine_translation": "They are tired.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë ti naro-gu gura-yu he?",
+        "english_editorial": "Will you travel home?",
+        "number": 7,
+        "ipa": "/hə ti na.ˈɾo.ɡu ɡu.ˈɾa.ju he/",
+        "sound_out": "huh tee nah-ROH-goo goo-RAH-yoo heh?",
+        "literal_engine_translation": "Will you travel toward a home?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa naro-gu gura-yu.",
+        "english_editorial": "They did.",
+        "number": 8,
+        "ipa": "/sen sa na.ˈɾo.ɡu ɡu.ˈɾa.ju/",
+        "sound_out": "sehn sah nah-ROH-goo goo-RAH-yoo.",
+        "literal_engine_translation": "They will travel toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi gëru-gu nu gura-yu.",
+        "english_editorial": "I abandoned the mountain route.",
+        "number": 9,
+        "ipa": "/sen mi ɡə.ˈɾu.ɡu nu ɡu.ˈɾa.ju/",
+        "sound_out": "sehn mee guh-ROO-goo noo goo-RAH-yoo.",
+        "literal_engine_translation": "I will not travel toward a mountain.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m daru-yu.",
+        "english_editorial": "I chose the friend's safety.",
+        "number": 10,
+        "ipa": "/sen mi ˈma.ɾam da.ˈɾu.ju/",
+        "sound_out": "sehn mee MAH-rahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kimaro-m tika-te.",
+        "english_editorial": "On the way back we saw a river.",
+        "number": 11,
+        "ipa": "/sen mi ki.ˈma.ɾom ti.ˈka.te/",
+        "sound_out": "sehn mee kee-MAH-rohm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a river.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi kima-m këmë-te.",
+        "english_editorial": "I drank water.",
+        "number": 12,
+        "ipa": "/sen mi ˈki.mam kə.ˈmə.te/",
+        "sound_out": "sehn mee KEE-mahm kuh-MUH-teh.",
+        "literal_engine_translation": "I drank water.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura-te.",
+        "english_editorial": "We reached the homeward path.",
+        "number": 13,
+        "ipa": "/sen mi na.ˈɾo.ɡu ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee nah-ROH-goo goo-RAH-teh.",
+        "literal_engine_translation": "I traveled toward a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm naru naro-lo nëru-te.",
+        "english_editorial": "We rested at the roost.",
+        "number": 14,
+        "ipa": "/nəm ˈna.ɾu na.ˈɾo.lo nə.ˈɾu.te/",
+        "sound_out": "nuhm NAH-roo nah-ROH-loh nuh-ROO-teh.",
+        "literal_engine_translation": "We rested at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-careful-journey"
+  },
+  {
+    "title": "Memory Without Witnesses",
+    "genre": "reflective essay",
+    "premise": "Remembering is meaningful but is not always independent evidence.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi moru-m hari.",
+        "english_editorial": "I have a memory.",
+        "number": 1,
+        "ipa": "/sen mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room HAH-ree.",
+        "literal_engine_translation": "I have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi yami-m këmiro.",
+        "english_editorial": "I remember a night.",
+        "number": 2,
+        "ipa": "/sen mi ˈja.mim kə.ˈmi.ɾo/",
+        "sound_out": "sehn mee YAH-meem kuh-MEE-roh.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi sëra-m këmiro.",
+        "english_editorial": "I remember a star.",
+        "number": 3,
+        "ipa": "/sen mi ˈsə.ɾam kə.ˈmi.ɾo/",
+        "sound_out": "sehn mee SUH-rahm kuh-MEE-roh.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëra-m nu tika-te si.",
+        "english_editorial": "Yet I do not claim direct current observation.",
+        "number": 4,
+        "ipa": "/ʒeɾ mi ˈsə.ɾam nu ti.ˈka.te si/",
+        "sound_out": "zhehr mee SUH-rahm noo tee-KAH-teh see.",
+        "literal_engine_translation": "I did not see a star.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "I wrote the recollection down.",
+        "number": 5,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend what they remembered.",
+        "number": 6,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa moru-m hari.",
+        "english_editorial": "They had a memory too.",
+        "number": 7,
+        "ipa": "/sen sa ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "sehn sah MOH-room HAH-ree.",
+        "literal_engine_translation": "They have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa-te.",
+        "english_editorial": "They told me their version.",
+        "number": 8,
+        "ipa": "/sen sa mim pə.ɾo.ˈa.te/",
+        "sound_out": "sehn sah meem puh-roh-AH-teh.",
+        "literal_engine_translation": "They replyed to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "I could not prove which account was exact.",
+        "number": 9,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi morushira-m shiroli-te.",
+        "english_editorial": "I wrote a story using both recollections.",
+        "number": 10,
+        "ipa": "/sen mi mo.ɾu.ˈʃi.ɾam ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee moh-roo-SHEE-rahm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a story.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëna-m hari.",
+        "english_editorial": "I maintained trust in the people.",
+        "number": 11,
+        "ipa": "/sen mi ˈʃə.nam ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nahm HAH-ree.",
+        "literal_engine_translation": "I have trust.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi sëma-m daru-yu.",
+        "english_editorial": "I would keep facts and imagination separate.",
+        "number": 12,
+        "ipa": "/sen mi ˈsə.mam da.ˈɾu.ju/",
+        "sound_out": "sehn mee SUH-mahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a truth.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi shima-m shëliro-yu.",
+        "english_editorial": "Later I would reread what I had written.",
+        "number": 13,
+        "ipa": "/nəm mi ˈʃi.mam ʃə.li.ˈɾo.ju/",
+        "sound_out": "nuhm mee SHEE-mahm shuh-lee-ROH-yoo.",
+        "literal_engine_translation": "I will read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-memory-without-witnesses"
+  },
+  {
+    "title": "The Classroom of Questions",
+    "genre": "instructional essay",
+    "premise": "Permission to ask is as important as the confidence to answer.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi shima-m hari.",
+        "english_editorial": "I have a book.",
+        "number": 1,
+        "ipa": "/sen mi ˈʃi.mam ˈha.ɾi/",
+        "sound_out": "sehn mee SHEE-mahm HAH-ree.",
+        "literal_engine_translation": "I have a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi qaroshi-m rëmi.",
+        "english_editorial": "I am learning Qaroshi.",
+        "number": 2,
+        "ipa": "/sen mi qa.ˈɾo.ʃim ˈɾə.mi/",
+        "sound_out": "sehn mee qah-ROH-sheem RUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë mi shëno-m sharoa-ho he?",
+        "english_editorial": "May I ask a question?",
+        "number": 3,
+        "ipa": "/hə mi ˈʃə.nom ʃa.ɾo.ˈa.ho he/",
+        "sound_out": "huh mee SHUH-nohm shah-roh-AH-hoh heh?",
+        "literal_engine_translation": "May i ask a question?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m sharoa.",
+        "english_editorial": "I ask it.",
+        "number": 4,
+        "ipa": "/sen mi ˈʃə.nom ʃa.ˈɾo.a/",
+        "sound_out": "sehn mee SHUH-nohm shah-ROH-ah.",
+        "literal_engine_translation": "I ask a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi yarao-m sharoa.",
+        "english_editorial": "I ask the teacher.",
+        "number": 5,
+        "ipa": "/sen mi ja.ˈɾa.om ʃa.ˈɾo.a/",
+        "sound_out": "sehn mee yah-RAH-ohm shah-ROH-ah.",
+        "literal_engine_translation": "I ask a teacher.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m shiroawe.",
+        "english_editorial": "The teacher listens to me.",
+        "number": 6,
+        "ipa": "/sen sa mim ʃi.ɾo.ˈa.we/",
+        "sound_out": "sehn sah meem shee-roh-AH-weh.",
+        "literal_engine_translation": "They listen to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa.",
+        "english_editorial": "The teacher replies.",
+        "number": 7,
+        "ipa": "/sen sa mim pə.ˈɾo.a/",
+        "sound_out": "sehn sah meem puh-ROH-ah.",
+        "literal_engine_translation": "They reply to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi shiwaro-m nu sëmi.",
+        "english_editorial": "I still don't know one word in the answer.",
+        "number": 8,
+        "ipa": "/ʒeɾ mi ʃi.ˈwa.ɾom nu ˈsə.mi/",
+        "sound_out": "zhehr mee shee-WAH-rohm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli.",
+        "english_editorial": "I write it down.",
+        "number": 9,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-ROH-lee.",
+        "literal_engine_translation": "I write a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro.",
+        "english_editorial": "I consult the book.",
+        "number": 10,
+        "ipa": "/sen mi ˈʃi.mam ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee SHEE-mahm shuh-LEE-roh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m hari.",
+        "english_editorial": "I remember the example.",
+        "number": 11,
+        "ipa": "/sen mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room HAH-ree.",
+        "literal_engine_translation": "I have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi sëma-m daru-yu.",
+        "english_editorial": "I want to preserve the exact meaning.",
+        "number": 12,
+        "ipa": "/qoɾ mi ˈsə.mam da.ˈɾu.ju/",
+        "sound_out": "qohr mee SUH-mahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a truth.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "rëm mi rëmi.",
+        "english_editorial": "I learn by being willing to be uncertain.",
+        "number": 13,
+        "ipa": "/ɾəm mi ˈɾə.mi/",
+        "sound_out": "ruhm mee RUH-mee.",
+        "literal_engine_translation": "I learn.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-classroom-of-questions"
+  },
+  {
+    "title": "The Reader and the Rumor",
+    "genre": "discussion essay",
+    "premise": "A rumor can be repeated even when everybody labels it as only a report.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi shiwaro-m shëliro-te.",
+        "english_editorial": "I read the first message.",
+        "number": 1,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa goro-te hu.",
+        "english_editorial": "It reported that someone flew.",
+        "number": 2,
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "literal_engine_translation": "They flew, according to a report.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english_editorial": "I forwarded a second message.",
+        "number": 3,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "I sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mara shiwaro-m shëliro-te.",
+        "english_editorial": "A friend read it.",
+        "number": 4,
+        "ipa": "/sen ˈma.ɾa ʃi.ˈwa.ɾom ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn MAH-rah shee-WAH-rohm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "A friend read a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa shiwaro-m shiwari-te.",
+        "english_editorial": "They forwarded it again.",
+        "number": 5,
+        "ipa": "/sen sa ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn sah shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "They sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher naru sa-m nu tika-te.",
+        "english_editorial": "We did not see the flyer ourselves.",
+        "number": 6,
+        "ipa": "/ʒeɾ ˈna.ɾu sam nu ti.ˈka.te/",
+        "sound_out": "zhehr NAH-roo sahm noo tee-KAH-teh.",
+        "literal_engine_translation": "We did not see them.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi sëma-m nu sëmi.",
+        "english_editorial": "I did not know the claim was true.",
+        "number": 7,
+        "ipa": "/sen mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "sehn mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked my friend about the source.",
+        "number": 8,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa-te.",
+        "english_editorial": "They replied honestly.",
+        "number": 9,
+        "ipa": "/sen sa mim pə.ɾo.ˈa.te/",
+        "sound_out": "sehn sah meem puh-roh-AH-teh.",
+        "literal_engine_translation": "They replyed to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiroli-te.",
+        "english_editorial": "I wrote a correction.",
+        "number": 10,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi shiwaro-m shiwari-yu.",
+        "english_editorial": "I would send the correction through the same channel.",
+        "number": 11,
+        "ipa": "/qoɾ mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.ju/",
+        "sound_out": "qohr mee shee-WAH-rohm shee-wah-REE-yoo.",
+        "literal_engine_translation": "I will send a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëna-m daru-yu.",
+        "english_editorial": "I hoped to preserve trust rather than win an argument.",
+        "number": 12,
+        "ipa": "/sen mi ˈʃə.nam da.ˈɾu.ju/",
+        "sound_out": "sehn mee SHUH-nahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect trust.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-reader-and-the-rumor"
+  },
+  {
+    "title": "The Old Painting",
+    "genre": "art essay",
+    "premise": "Why conservation can be different from making an artwork look new.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi mërawë-m tika-te.",
+        "english_editorial": "I saw an old painting.",
+        "number": 1,
+        "ipa": "/sen mi mə.ˈɾa.wəm ti.ˈka.te/",
+        "sound_out": "sehn mee muh-RAH-wuhm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mëru-m tika-te.",
+        "english_editorial": "A feather was depicted there.",
+        "number": 2,
+        "ipa": "/sen mi ˈmə.ɾum ti.ˈka.te/",
+        "sound_out": "sehn mee MUH-room tee-KAH-teh.",
+        "literal_engine_translation": "I saw a feather.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi banu-m tika-te.",
+        "english_editorial": "There was a wing too.",
+        "number": 3,
+        "ipa": "/sen mi ˈba.num ti.ˈka.te/",
+        "sound_out": "sehn mee BAH-noom tee-KAH-teh.",
+        "literal_engine_translation": "I saw a wing.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m hari.",
+        "english_editorial": "The picture brought back a memory.",
+        "number": 4,
+        "ipa": "/sen mi ˈmo.ɾum ˈha.ɾi/",
+        "sound_out": "sehn mee MOH-room HAH-ree.",
+        "literal_engine_translation": "I have a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mërawë-m daru-te.",
+        "english_editorial": "I protected the original.",
+        "number": 5,
+        "ipa": "/sen mi mə.ˈɾa.wəm da.ˈɾu.te/",
+        "sound_out": "sehn mee muh-RAH-wuhm dah-ROO-teh.",
+        "literal_engine_translation": "I protected a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mërawë-m nu rëgë-te.",
+        "english_editorial": "I did not try to repair every mark.",
+        "number": 6,
+        "ipa": "/sen mi mə.ˈɾa.wəm nu ɾə.ˈɡə.te/",
+        "sound_out": "sehn mee muh-RAH-wuhm noo ruh-GUH-teh.",
+        "literal_engine_translation": "I did not repair a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend about their perspective.",
+        "number": 7,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mërawë-m nashi.",
+        "english_editorial": "They loved the aged surface.",
+        "number": 8,
+        "ipa": "/sen sa mə.ˈɾa.wəm ˈna.ʃi/",
+        "sound_out": "sehn sah muh-RAH-wuhm NAH-shee.",
+        "literal_engine_translation": "They cherish a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi mërawë-m nu sëmi.",
+        "english_editorial": "I still did not understand every detail.",
+        "number": 9,
+        "ipa": "/ʒeɾ mi mə.ˈɾa.wəm nu ˈsə.mi/",
+        "sound_out": "zhehr mee muh-RAH-wuhm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi morushira-m shiroli-te.",
+        "english_editorial": "I wrote a short account of its history.",
+        "number": 10,
+        "ipa": "/sen mi mo.ɾu.ˈʃi.ɾam ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee moh-roo-SHEE-rahm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a story.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english_editorial": "I shared the story, not an invented restoration.",
+        "number": 11,
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "literal_engine_translation": "I sent a message.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi mërawë-m daru-yu.",
+        "english_editorial": "I would continue to care for the artwork.",
+        "number": 12,
+        "ipa": "/nəm mi mə.ˈɾa.wəm da.ˈɾu.ju/",
+        "sound_out": "nuhm mee muh-RAH-wuhm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a painting.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-old-painting"
+  },
+  {
+    "title": "The Door and the Difference",
+    "genre": "short ethical essay",
+    "premise": "An open door is not the same as permission to enter.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi raro-m tika.",
+        "english_editorial": "I see a door.",
+        "number": 1,
+        "ipa": "/sen mi ˈɾa.ɾom ˈti.ka/",
+        "sound_out": "sehn mee RAH-rohm TEE-kah.",
+        "literal_engine_translation": "I see a door.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-m tika.",
+        "english_editorial": "I see a home beyond it.",
+        "number": 2,
+        "ipa": "/sen mi ˈna.ɾom ˈti.ka/",
+        "sound_out": "sehn mee NAH-rohm TEE-kah.",
+        "literal_engine_translation": "I see a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m hari.",
+        "english_editorial": "I have a friend who lives there.",
+        "number": 3,
+        "ipa": "/sen mi ˈma.ɾam ˈha.ɾi/",
+        "sound_out": "sehn mee MAH-rahm HAH-ree.",
+        "literal_engine_translation": "I have a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "hë mi naro-gu nëra-ho he?",
+        "english_editorial": "May I stay here?",
+        "number": 4,
+        "ipa": "/hə mi na.ˈɾo.ɡu nə.ˈɾa.ho he/",
+        "sound_out": "huh mee nah-ROH-goo nuh-RAH-hoh heh?",
+        "literal_engine_translation": "May i stay toward a home?",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa.",
+        "english_editorial": "The friend answers me.",
+        "number": 5,
+        "ipa": "/sen sa mim pə.ˈɾo.a/",
+        "sound_out": "sehn sah meem puh-ROH-ah.",
+        "literal_engine_translation": "They reply to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi naro-lo nëra-ho.",
+        "english_editorial": "I am permitted to stay.",
+        "number": 6,
+        "ipa": "/sen mi na.ˈɾo.lo nə.ˈɾa.ho/",
+        "sound_out": "sehn mee nah-ROH-loh nuh-RAH-hoh.",
+        "literal_engine_translation": "I may stay at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi raro-m nu sëmi.",
+        "english_editorial": "I did not infer permission from the doorway alone.",
+        "number": 7,
+        "ipa": "/ʒeɾ mi ˈɾa.ɾom nu ˈsə.mi/",
+        "sound_out": "zhehr mee RAH-rohm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shënoa-m hari.",
+        "english_editorial": "I had a real choice.",
+        "number": 8,
+        "ipa": "/sen mi ʃə.ˈno.am ˈha.ɾi/",
+        "sound_out": "sehn mee shuh-NOH-ahm HAH-ree.",
+        "literal_engine_translation": "I have a choice.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m nashi.",
+        "english_editorial": "I care for that friend.",
+        "number": 9,
+        "ipa": "/sen mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "sehn mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi naro-m daru-yu.",
+        "english_editorial": "I will protect their home.",
+        "number": 10,
+        "ipa": "/qoɾ mi ˈna.ɾom da.ˈɾu.ju/",
+        "sound_out": "qohr mee NAH-rohm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi naro-lo nëru-yu.",
+        "english_editorial": "I can rest there without imposing myself.",
+        "number": 11,
+        "ipa": "/nəm mi na.ˈɾo.lo nə.ˈɾu.ju/",
+        "sound_out": "nuhm mee nah-ROH-loh nuh-ROO-yoo.",
+        "literal_engine_translation": "I will rest at a home.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-door-and-the-difference"
+  },
+  {
+    "title": "The Last Question",
+    "genre": "fictional philosophical ending",
+    "premise": "A speaker learns when to leave a question unanswered.",
+    "sentences": [
+      {
+        "qaroshi": "sen mi shëno-m hari.",
+        "english_editorial": "I had a question.",
+        "number": 1,
+        "ipa": "/sen mi ˈʃə.nom ˈha.ɾi/",
+        "sound_out": "sehn mee SHUH-nohm HAH-ree.",
+        "literal_engine_translation": "I have a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi mara-m sharoa-te.",
+        "english_editorial": "I asked a friend.",
+        "number": 2,
+        "ipa": "/sen mi ˈma.ɾam ʃa.ɾo.ˈa.te/",
+        "sound_out": "sehn mee MAH-rahm shah-roh-AH-teh.",
+        "literal_engine_translation": "I asked a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m shiroawe-te.",
+        "english_editorial": "They listened.",
+        "number": 3,
+        "ipa": "/sen sa mim ʃi.ɾo.a.ˈwe.te/",
+        "sound_out": "sehn sah meem shee-roh-ah-WEH-teh.",
+        "literal_engine_translation": "They listened to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen sa mi-m përoa-te.",
+        "english_editorial": "They answered what they could.",
+        "number": 4,
+        "ipa": "/sen sa mim pə.ɾo.ˈa.te/",
+        "sound_out": "sehn sah meem puh-roh-AH-teh.",
+        "literal_engine_translation": "They replyed to me.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "zher mi sëma-m nu sëmi.",
+        "english_editorial": "I remained uncertain about part of it.",
+        "number": 5,
+        "ipa": "/ʒeɾ mi ˈsə.mam nu ˈsə.mi/",
+        "sound_out": "zhehr mee SUH-mahm noo SUH-mee.",
+        "literal_engine_translation": null,
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shima-m shëliro-te.",
+        "english_editorial": "I read another book.",
+        "number": 6,
+        "ipa": "/sen mi ˈʃi.mam ʃə.li.ˈɾo.te/",
+        "sound_out": "sehn mee SHEE-mahm shuh-lee-ROH-teh.",
+        "literal_engine_translation": "I read a book.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi moru-m shiroli-te.",
+        "english_editorial": "I recorded what I remembered.",
+        "number": 7,
+        "ipa": "/sen mi ˈmo.ɾum ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee MOH-room shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a memory.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi shëno-m shiroli-te.",
+        "english_editorial": "I wrote the unanswered question too.",
+        "number": 8,
+        "ipa": "/sen mi ˈʃə.nom ʃi.ɾo.ˈli.te/",
+        "sound_out": "sehn mee SHUH-nohm shee-roh-LEE-teh.",
+        "literal_engine_translation": "I wrote a question.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi sëra-m tika-te.",
+        "english_editorial": "Outside, I saw a star.",
+        "number": 9,
+        "ipa": "/sen mi ˈsə.ɾam ti.ˈka.te/",
+        "sound_out": "sehn mee SUH-rahm tee-KAH-teh.",
+        "literal_engine_translation": "I saw a star.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "sen mi yami-lo nëra-te.",
+        "english_editorial": "I stayed for a moment in the night.",
+        "number": 10,
+        "ipa": "/sen mi ja.ˈmi.lo nə.ˈɾa.te/",
+        "sound_out": "sehn mee yah-MEE-loh nuh-RAH-teh.",
+        "literal_engine_translation": "I stayed at a night.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "nëm mi nu shiri.",
+        "english_editorial": "I did not need to speak.",
+        "number": 11,
+        "ipa": "/nəm mi nu ˈʃi.ɾi/",
+        "sound_out": "nuhm mee noo SHEE-ree.",
+        "literal_engine_translation": "I do not speak.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "më mi mara-m nashi.",
+        "english_editorial": "I cared about the people who had tried to help.",
+        "number": 12,
+        "ipa": "/mə mi ˈma.ɾam ˈna.ʃi/",
+        "sound_out": "muh mee MAH-rahm NAH-shee.",
+        "literal_engine_translation": "I cherish a friend.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      },
+      {
+        "qaroshi": "qor mi sëma-m daru-yu.",
+        "english_editorial": "I would respect the truth, even when unfinished.",
+        "number": 13,
+        "ipa": "/qoɾ mi ˈsə.mam da.ˈɾu.ju/",
+        "sound_out": "qohr mee SUH-mahm dah-ROO-yoo.",
+        "literal_engine_translation": "I will protect a truth.",
+        "review_status": "structurally checked editorial, not speaker-attested"
+      }
+    ],
+    "source_status": "original editorial long-form writing; not speaker-attested",
+    "id": "lit12-the-last-question"
+  }
+]

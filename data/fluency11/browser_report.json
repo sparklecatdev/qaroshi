@@ -1,0 +1,191 @@
+{
+  "total_checks": 46,
+  "passed": 46,
+  "page_errors": [],
+  "checks": [
+    {
+      "name": "overview loads",
+      "passed": true
+    },
+    {
+      "name": "navigation entries",
+      "passed": true
+    },
+    {
+      "name": "English to Qaroshi licensed translation",
+      "passed": true
+    },
+    {
+      "name": "Qaroshi to English licensed translation",
+      "passed": true
+    },
+    {
+      "name": "no hallucinated unknown sentence",
+      "passed": true
+    },
+    {
+      "name": "complex exact reference",
+      "passed": true
+    },
+    {
+      "name": "sentence builder emits Qaroshi",
+      "passed": true
+    },
+    {
+      "name": "builder respects selected resonance",
+      "passed": true
+    },
+    {
+      "name": "dialogue turns are displayed",
+      "passed": true
+    },
+    {
+      "name": "dialogue translations reveal",
+      "passed": true
+    },
+    {
+      "name": "next scene changes selection",
+      "passed": true
+    },
+    {
+      "name": "reading progress marker",
+      "passed": true
+    },
+    {
+      "name": "literary source list",
+      "passed": true
+    },
+    {
+      "name": "literary translations reveal",
+      "passed": true
+    },
+    {
+      "name": "five proficiency levels",
+      "passed": true
+    },
+    {
+      "name": "test begins",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 1",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 2",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 3",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 4",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 5",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 6",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 7",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 8",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 9",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 10",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 11",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 12",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 13",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 14",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 15",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 16",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 17",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 18",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 19",
+      "passed": true
+    },
+    {
+      "name": "quiz explanation displayed 20",
+      "passed": true
+    },
+    {
+      "name": "assessment outcome",
+      "passed": true
+    },
+    {
+      "name": "dictionary search",
+      "passed": true
+    },
+    {
+      "name": "all original glyphs rendered",
+      "passed": true
+    },
+    {
+      "name": "digraph conversion to five glyphs",
+      "passed": true
+    },
+    {
+      "name": "dark mode",
+      "passed": true
+    },
+    {
+      "name": "progress export control",
+      "passed": true
+    },
+    {
+      "name": "progress exported",
+      "passed": true
+    },
+    {
+      "name": "mobile home",
+      "passed": true
+    },
+    {
+      "name": "mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "mobile scene navigation",
+      "passed": true
+    }
+  ]
+}

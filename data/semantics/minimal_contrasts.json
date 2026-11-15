@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "CT001",
+    "family": "tense",
+    "skill": "fly: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro-te.",
+        "english": "I flew.",
+        "ipa": "/sen mi ɡo.ˈɾo.te/",
+        "sound_out": "sehn mee goh-ROH-teh."
+      },
+      {
+        "qaroshi": "sen mi goro-yu.",
+        "english": "I will fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ju/",
+        "sound_out": "sehn mee goh-ROH-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on goro."
+  },
+  {
+    "id": "CT002",
+    "family": "aspect",
+    "skill": "fly: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro-se.",
+        "english": "I am flying.",
+        "ipa": "/sen mi ɡo.ˈɾo.se/",
+        "sound_out": "sehn mee goh-ROH-seh."
+      },
+      {
+        "qaroshi": "sen mi goro-në.",
+        "english": "I habitually fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.nə/",
+        "sound_out": "sehn mee goh-ROH-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT003",
+    "family": "aspect",
+    "skill": "fly: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro-te-se.",
+        "english": "I was flying.",
+        "ipa": "/sen mi ɡo.ɾo.ˈte.se/",
+        "sound_out": "sehn mee goh-roh-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi goro-te-mo.",
+        "english": "I finished flying.",
+        "ipa": "/sen mi ɡo.ɾo.ˈte.mo/",
+        "sound_out": "sehn mee goh-roh-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT004",
+    "family": "modality",
+    "skill": "fly: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro-ki.",
+        "english": "I can fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee goh-ROH-kee."
+      },
+      {
+        "qaroshi": "sen mi goro-ho.",
+        "english": "I may fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ho/",
+        "sound_out": "sehn mee goh-ROH-hoh."
+      },
+      {
+        "qaroshi": "qor mi goro-du.",
+        "english": "I must fly.",
+        "ipa": "/qoɾ mi ɡo.ˈɾo.du/",
+        "sound_out": "qohr mee goh-ROH-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT005",
+    "family": "negative",
+    "skill": "fly: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro.",
+        "english": "I fly.",
+        "ipa": "/sen mi ˈɡo.ɾo/",
+        "sound_out": "sehn mee GOH-roh."
+      },
+      {
+        "qaroshi": "sen mi nu goro.",
+        "english": "I do not fly.",
+        "ipa": "/sen mi nu ˈɡo.ɾo/",
+        "sound_out": "sehn mee noo GOH-roh."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT006",
+    "family": "tense",
+    "skill": "go: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi gura-te.",
+        "english": "I went.",
+        "ipa": "/sen mi ɡu.ˈɾa.te/",
+        "sound_out": "sehn mee goo-RAH-teh."
+      },
+      {
+        "qaroshi": "sen mi gura-yu.",
+        "english": "I will go.",
+        "ipa": "/sen mi ɡu.ˈɾa.ju/",
+        "sound_out": "sehn mee goo-RAH-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on gura."
+  },
+  {
+    "id": "CT007",
+    "family": "aspect",
+    "skill": "go: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi gura-se.",
+        "english": "I am going.",
+        "ipa": "/sen mi ɡu.ˈɾa.se/",
+        "sound_out": "sehn mee goo-RAH-seh."
+      },
+      {
+        "qaroshi": "sen mi gura-në.",
+        "english": "I habitually go.",
+        "ipa": "/sen mi ɡu.ˈɾa.nə/",
+        "sound_out": "sehn mee goo-RAH-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT008",
+    "family": "aspect",
+    "skill": "go: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi gura-te-se.",
+        "english": "I was going.",
+        "ipa": "/sen mi ɡu.ɾa.ˈte.se/",
+        "sound_out": "sehn mee goo-rah-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi gura-te-mo.",
+        "english": "I finished going.",
+        "ipa": "/sen mi ɡu.ɾa.ˈte.mo/",
+        "sound_out": "sehn mee goo-rah-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT009",
+    "family": "modality",
+    "skill": "go: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi gura-ki.",
+        "english": "I can go.",
+        "ipa": "/sen mi ɡu.ˈɾa.ki/",
+        "sound_out": "sehn mee goo-RAH-kee."
+      },
+      {
+        "qaroshi": "sen mi gura-ho.",
+        "english": "I may go.",
+        "ipa": "/sen mi ɡu.ˈɾa.ho/",
+        "sound_out": "sehn mee goo-RAH-hoh."
+      },
+      {
+        "qaroshi": "qor mi gura-du.",
+        "english": "I must go.",
+        "ipa": "/qoɾ mi ɡu.ˈɾa.du/",
+        "sound_out": "qohr mee goo-RAH-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT010",
+    "family": "negative",
+    "skill": "go: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi gura.",
+        "english": "I go.",
+        "ipa": "/sen mi ˈɡu.ɾa/",
+        "sound_out": "sehn mee GOO-rah."
+      },
+      {
+        "qaroshi": "sen mi nu gura.",
+        "english": "I do not go.",
+        "ipa": "/sen mi nu ˈɡu.ɾa/",
+        "sound_out": "sehn mee noo GOO-rah."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT011",
+    "family": "tense",
+    "skill": "stay: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëra-te.",
+        "english": "I stayed.",
+        "ipa": "/sen mi nə.ˈɾa.te/",
+        "sound_out": "sehn mee nuh-RAH-teh."
+      },
+      {
+        "qaroshi": "sen mi nëra-yu.",
+        "english": "I will stay.",
+        "ipa": "/sen mi nə.ˈɾa.ju/",
+        "sound_out": "sehn mee nuh-RAH-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on nëra."
+  },
+  {
+    "id": "CT012",
+    "family": "aspect",
+    "skill": "stay: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëra-se.",
+        "english": "I am staying.",
+        "ipa": "/sen mi nə.ˈɾa.se/",
+        "sound_out": "sehn mee nuh-RAH-seh."
+      },
+      {
+        "qaroshi": "sen mi nëra-në.",
+        "english": "I habitually stay.",
+        "ipa": "/sen mi nə.ˈɾa.nə/",
+        "sound_out": "sehn mee nuh-RAH-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT013",
+    "family": "aspect",
+    "skill": "stay: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëra-te-se.",
+        "english": "I was staying.",
+        "ipa": "/sen mi nə.ɾa.ˈte.se/",
+        "sound_out": "sehn mee nuh-rah-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi nëra-te-mo.",
+        "english": "I finished staying.",
+        "ipa": "/sen mi nə.ɾa.ˈte.mo/",
+        "sound_out": "sehn mee nuh-rah-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT014",
+    "family": "modality",
+    "skill": "stay: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëra-ki.",
+        "english": "I can stay.",
+        "ipa": "/sen mi nə.ˈɾa.ki/",
+        "sound_out": "sehn mee nuh-RAH-kee."
+      },
+      {
+        "qaroshi": "sen mi nëra-ho.",
+        "english": "I may stay.",
+        "ipa": "/sen mi nə.ˈɾa.ho/",
+        "sound_out": "sehn mee nuh-RAH-hoh."
+      },
+      {
+        "qaroshi": "qor mi nëra-du.",
+        "english": "I must stay.",
+        "ipa": "/qoɾ mi nə.ˈɾa.du/",
+        "sound_out": "qohr mee nuh-RAH-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT015",
+    "family": "negative",
+    "skill": "stay: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëra.",
+        "english": "I stay.",
+        "ipa": "/sen mi ˈnə.ɾa/",
+        "sound_out": "sehn mee NUH-rah."
+      },
+      {
+        "qaroshi": "sen mi nu nëra.",
+        "english": "I do not stay.",
+        "ipa": "/sen mi nu ˈnə.ɾa/",
+        "sound_out": "sehn mee noo NUH-rah."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT016",
+    "family": "tense",
+    "skill": "rest: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëru-te.",
+        "english": "I rested.",
+        "ipa": "/sen mi nə.ˈɾu.te/",
+        "sound_out": "sehn mee nuh-ROO-teh."
+      },
+      {
+        "qaroshi": "sen mi nëru-yu.",
+        "english": "I will rest.",
+        "ipa": "/sen mi nə.ˈɾu.ju/",
+        "sound_out": "sehn mee nuh-ROO-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on nëru."
+  },
+  {
+    "id": "CT017",
+    "family": "aspect",
+    "skill": "rest: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëru-se.",
+        "english": "I am resting.",
+        "ipa": "/sen mi nə.ˈɾu.se/",
+        "sound_out": "sehn mee nuh-ROO-seh."
+      },
+      {
+        "qaroshi": "sen mi nëru-në.",
+        "english": "I habitually rest.",
+        "ipa": "/sen mi nə.ˈɾu.nə/",
+        "sound_out": "sehn mee nuh-ROO-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT018",
+    "family": "aspect",
+    "skill": "rest: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëru-te-se.",
+        "english": "I was resting.",
+        "ipa": "/sen mi nə.ɾu.ˈte.se/",
+        "sound_out": "sehn mee nuh-roo-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi nëru-te-mo.",
+        "english": "I finished resting.",
+        "ipa": "/sen mi nə.ɾu.ˈte.mo/",
+        "sound_out": "sehn mee nuh-roo-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT019",
+    "family": "modality",
+    "skill": "rest: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëru-ki.",
+        "english": "I can rest.",
+        "ipa": "/sen mi nə.ˈɾu.ki/",
+        "sound_out": "sehn mee nuh-ROO-kee."
+      },
+      {
+        "qaroshi": "sen mi nëru-ho.",
+        "english": "I may rest.",
+        "ipa": "/sen mi nə.ˈɾu.ho/",
+        "sound_out": "sehn mee nuh-ROO-hoh."
+      },
+      {
+        "qaroshi": "qor mi nëru-du.",
+        "english": "I must rest.",
+        "ipa": "/qoɾ mi nə.ˈɾu.du/",
+        "sound_out": "qohr mee nuh-ROO-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT020",
+    "family": "negative",
+    "skill": "rest: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi nëru.",
+        "english": "I rest.",
+        "ipa": "/sen mi ˈnə.ɾu/",
+        "sound_out": "sehn mee NUH-roo."
+      },
+      {
+        "qaroshi": "sen mi nu nëru.",
+        "english": "I do not rest.",
+        "ipa": "/sen mi nu ˈnə.ɾu/",
+        "sound_out": "sehn mee noo NUH-roo."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT021",
+    "family": "tense",
+    "skill": "play: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi rawo-te.",
+        "english": "I played.",
+        "ipa": "/sen mi ɾa.ˈwo.te/",
+        "sound_out": "sehn mee rah-WOH-teh."
+      },
+      {
+        "qaroshi": "sen mi rawo-yu.",
+        "english": "I will play.",
+        "ipa": "/sen mi ɾa.ˈwo.ju/",
+        "sound_out": "sehn mee rah-WOH-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on rawo."
+  },
+  {
+    "id": "CT022",
+    "family": "aspect",
+    "skill": "play: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi rawo-se.",
+        "english": "I am playing.",
+        "ipa": "/sen mi ɾa.ˈwo.se/",
+        "sound_out": "sehn mee rah-WOH-seh."
+      },
+      {
+        "qaroshi": "sen mi rawo-në.",
+        "english": "I habitually play.",
+        "ipa": "/sen mi ɾa.ˈwo.nə/",
+        "sound_out": "sehn mee rah-WOH-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT023",
+    "family": "aspect",
+    "skill": "play: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi rawo-te-se.",
+        "english": "I was playing.",
+        "ipa": "/sen mi ɾa.wo.ˈte.se/",
+        "sound_out": "sehn mee rah-woh-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi rawo-te-mo.",
+        "english": "I finished playing.",
+        "ipa": "/sen mi ɾa.wo.ˈte.mo/",
+        "sound_out": "sehn mee rah-woh-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT024",
+    "family": "modality",
+    "skill": "play: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi rawo-ki.",
+        "english": "I can play.",
+        "ipa": "/sen mi ɾa.ˈwo.ki/",
+        "sound_out": "sehn mee rah-WOH-kee."
+      },
+      {
+        "qaroshi": "sen mi rawo-ho.",
+        "english": "I may play.",
+        "ipa": "/sen mi ɾa.ˈwo.ho/",
+        "sound_out": "sehn mee rah-WOH-hoh."
+      },
+      {
+        "qaroshi": "qor mi rawo-du.",
+        "english": "I must play.",
+        "ipa": "/qoɾ mi ɾa.ˈwo.du/",
+        "sound_out": "qohr mee rah-WOH-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT025",
+    "family": "negative",
+    "skill": "play: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi rawo.",
+        "english": "I play.",
+        "ipa": "/sen mi ˈɾa.wo/",
+        "sound_out": "sehn mee RAH-woh."
+      },
+      {
+        "qaroshi": "sen mi nu rawo.",
+        "english": "I do not play.",
+        "ipa": "/sen mi nu ˈɾa.wo/",
+        "sound_out": "sehn mee noo RAH-woh."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT026",
+    "family": "tense",
+    "skill": "explore: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi wori-te.",
+        "english": "I explored.",
+        "ipa": "/sen mi wo.ˈɾi.te/",
+        "sound_out": "sehn mee woh-REE-teh."
+      },
+      {
+        "qaroshi": "sen mi wori-yu.",
+        "english": "I will explore.",
+        "ipa": "/sen mi wo.ˈɾi.ju/",
+        "sound_out": "sehn mee woh-REE-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on wori."
+  },
+  {
+    "id": "CT027",
+    "family": "aspect",
+    "skill": "explore: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi wori-se.",
+        "english": "I am exploring.",
+        "ipa": "/sen mi wo.ˈɾi.se/",
+        "sound_out": "sehn mee woh-REE-seh."
+      },
+      {
+        "qaroshi": "sen mi wori-në.",
+        "english": "I habitually explore.",
+        "ipa": "/sen mi wo.ˈɾi.nə/",
+        "sound_out": "sehn mee woh-REE-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT028",
+    "family": "aspect",
+    "skill": "explore: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi wori-te-se.",
+        "english": "I was exploring.",
+        "ipa": "/sen mi wo.ɾi.ˈte.se/",
+        "sound_out": "sehn mee woh-ree-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi wori-te-mo.",
+        "english": "I finished exploring.",
+        "ipa": "/sen mi wo.ɾi.ˈte.mo/",
+        "sound_out": "sehn mee woh-ree-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT029",
+    "family": "modality",
+    "skill": "explore: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi wori-ki.",
+        "english": "I can explore.",
+        "ipa": "/sen mi wo.ˈɾi.ki/",
+        "sound_out": "sehn mee woh-REE-kee."
+      },
+      {
+        "qaroshi": "sen mi wori-ho.",
+        "english": "I may explore.",
+        "ipa": "/sen mi wo.ˈɾi.ho/",
+        "sound_out": "sehn mee woh-REE-hoh."
+      },
+      {
+        "qaroshi": "qor mi wori-du.",
+        "english": "I must explore.",
+        "ipa": "/qoɾ mi wo.ˈɾi.du/",
+        "sound_out": "qohr mee woh-REE-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT030",
+    "family": "negative",
+    "skill": "explore: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi wori.",
+        "english": "I explore.",
+        "ipa": "/sen mi ˈwo.ɾi/",
+        "sound_out": "sehn mee WOH-ree."
+      },
+      {
+        "qaroshi": "sen mi nu wori.",
+        "english": "I do not explore.",
+        "ipa": "/sen mi nu ˈwo.ɾi/",
+        "sound_out": "sehn mee noo WOH-ree."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT031",
+    "family": "tense",
+    "skill": "dream: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi gëma-te.",
+        "english": "I dreamed.",
+        "ipa": "/sen mi ɡə.ˈma.te/",
+        "sound_out": "sehn mee guh-MAH-teh."
+      },
+      {
+        "qaroshi": "sen mi gëma-yu.",
+        "english": "I will dream.",
+        "ipa": "/sen mi ɡə.ˈma.ju/",
+        "sound_out": "sehn mee guh-MAH-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on gëma."
+  },
+  {
+    "id": "CT032",
+    "family": "aspect",
+    "skill": "dream: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi gëma-se.",
+        "english": "I am dreaming.",
+        "ipa": "/sen mi ɡə.ˈma.se/",
+        "sound_out": "sehn mee guh-MAH-seh."
+      },
+      {
+        "qaroshi": "sen mi gëma-në.",
+        "english": "I habitually dream.",
+        "ipa": "/sen mi ɡə.ˈma.nə/",
+        "sound_out": "sehn mee guh-MAH-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT033",
+    "family": "aspect",
+    "skill": "dream: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi gëma-te-se.",
+        "english": "I was dreaming.",
+        "ipa": "/sen mi ɡə.ma.ˈte.se/",
+        "sound_out": "sehn mee guh-mah-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi gëma-te-mo.",
+        "english": "I finished dreaming.",
+        "ipa": "/sen mi ɡə.ma.ˈte.mo/",
+        "sound_out": "sehn mee guh-mah-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT034",
+    "family": "modality",
+    "skill": "dream: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi gëma-ki.",
+        "english": "I can dream.",
+        "ipa": "/sen mi ɡə.ˈma.ki/",
+        "sound_out": "sehn mee guh-MAH-kee."
+      },
+      {
+        "qaroshi": "sen mi gëma-ho.",
+        "english": "I may dream.",
+        "ipa": "/sen mi ɡə.ˈma.ho/",
+        "sound_out": "sehn mee guh-MAH-hoh."
+      },
+      {
+        "qaroshi": "qor mi gëma-du.",
+        "english": "I must dream.",
+        "ipa": "/qoɾ mi ɡə.ˈma.du/",
+        "sound_out": "qohr mee guh-MAH-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT035",
+    "family": "negative",
+    "skill": "dream: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi gëma.",
+        "english": "I dream.",
+        "ipa": "/sen mi ˈɡə.ma/",
+        "sound_out": "sehn mee GUH-mah."
+      },
+      {
+        "qaroshi": "sen mi nu gëma.",
+        "english": "I do not dream.",
+        "ipa": "/sen mi nu ˈɡə.ma/",
+        "sound_out": "sehn mee noo GUH-mah."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT036",
+    "family": "tense",
+    "skill": "speak: past vs future",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri-te.",
+        "english": "I spoke.",
+        "ipa": "/sen mi ʃi.ˈɾi.te/",
+        "sound_out": "sehn mee shee-REE-teh."
+      },
+      {
+        "qaroshi": "sen mi shiri-yu.",
+        "english": "I will speak.",
+        "ipa": "/sen mi ʃi.ˈɾi.ju/",
+        "sound_out": "sehn mee shee-REE-yoo."
+      }
+    ],
+    "explanation": "Past -te and future -yu occupy alternative tense slots on shiri."
+  },
+  {
+    "id": "CT037",
+    "family": "aspect",
+    "skill": "speak: progressive vs habitual",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri-se.",
+        "english": "I am speaking.",
+        "ipa": "/sen mi ʃi.ˈɾi.se/",
+        "sound_out": "sehn mee shee-REE-seh."
+      },
+      {
+        "qaroshi": "sen mi shiri-në.",
+        "english": "I habitually speak.",
+        "ipa": "/sen mi ʃi.ˈɾi.nə/",
+        "sound_out": "sehn mee shee-REE-nuh."
+      }
+    ],
+    "explanation": "-se profiles an event underway; -në denotes a recurring habit."
+  },
+  {
+    "id": "CT038",
+    "family": "aspect",
+    "skill": "speak: in progress vs completed",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri-te-se.",
+        "english": "I was speaking.",
+        "ipa": "/sen mi ʃi.ɾi.ˈte.se/",
+        "sound_out": "sehn mee shee-ree-TEH-seh."
+      },
+      {
+        "qaroshi": "sen mi shiri-te-mo.",
+        "english": "I finished speaking.",
+        "ipa": "/sen mi ʃi.ɾi.ˈte.mo/",
+        "sound_out": "sehn mee shee-ree-TEH-moh."
+      }
+    ],
+    "explanation": "-te-se is past progressive while -te-mo is past completed; completion does not imply a specific destination."
+  },
+  {
+    "id": "CT039",
+    "family": "modality",
+    "skill": "speak: capability, permission, duty",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri-ki.",
+        "english": "I can speak.",
+        "ipa": "/sen mi ʃi.ˈɾi.ki/",
+        "sound_out": "sehn mee shee-REE-kee."
+      },
+      {
+        "qaroshi": "sen mi shiri-ho.",
+        "english": "I may speak.",
+        "ipa": "/sen mi ʃi.ˈɾi.ho/",
+        "sound_out": "sehn mee shee-REE-hoh."
+      },
+      {
+        "qaroshi": "qor mi shiri-du.",
+        "english": "I must speak.",
+        "ipa": "/qoɾ mi ʃi.ˈɾi.du/",
+        "sound_out": "qohr mee shee-REE-doo."
+      }
+    ],
+    "explanation": "-ki, -ho, and -du are distinct and cannot be stacked on one verb."
+  },
+  {
+    "id": "CT040",
+    "family": "negative",
+    "skill": "speak: positive vs negative",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri.",
+        "english": "I speak.",
+        "ipa": "/sen mi ˈʃi.ɾi/",
+        "sound_out": "sehn mee SHEE-ree."
+      },
+      {
+        "qaroshi": "sen mi nu shiri.",
+        "english": "I do not speak.",
+        "ipa": "/sen mi nu ˈʃi.ɾi/",
+        "sound_out": "sehn mee noo SHEE-ree."
+      }
+    ],
+    "explanation": "nu must be directly before the finite predicate; it does not attach as a suffix."
+  },
+  {
+    "id": "CT041",
+    "family": "argument roles",
+    "skill": "drink: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi kima-m këmë.",
+        "english": "I drink water.",
+        "ipa": "/sen mi ˈki.mam ˈkə.mə/",
+        "sound_out": "sehn mee KEE-mahm KUH-muh."
+      },
+      {
+        "qaroshi": "sen mi kima-m nu këmë.",
+        "english": "I do not drink water.",
+        "ipa": "/sen mi ˈki.mam nu ˈkə.mə/",
+        "sound_out": "sehn mee KEE-mahm noo KUH-muh."
+      }
+    ],
+    "explanation": "Object kima-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT042",
+    "family": "speech act",
+    "skill": "drink: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti kima-m këmë.",
+        "english": "You drink water.",
+        "ipa": "/sen ti ˈki.mam ˈkə.mə/",
+        "sound_out": "sehn tee KEE-mahm KUH-muh."
+      },
+      {
+        "qaroshi": "hë ti kima-m këmë he?",
+        "english": "Do you drink water?",
+        "ipa": "/hə ti ˈki.mam ˈkə.mə he/",
+        "sound_out": "huh tee KEE-mahm KUH-muh heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT043",
+    "family": "argument roles",
+    "skill": "see: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi mara-m tika.",
+        "english": "I see a friend.",
+        "ipa": "/sen mi ˈma.ɾam ˈti.ka/",
+        "sound_out": "sehn mee MAH-rahm TEE-kah."
+      },
+      {
+        "qaroshi": "sen mi mara-m nu tika.",
+        "english": "I do not see a friend.",
+        "ipa": "/sen mi ˈma.ɾam nu ˈti.ka/",
+        "sound_out": "sehn mee MAH-rahm noo TEE-kah."
+      }
+    ],
+    "explanation": "Object mara-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT044",
+    "family": "speech act",
+    "skill": "see: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti mara-m tika.",
+        "english": "You see a friend.",
+        "ipa": "/sen ti ˈma.ɾam ˈti.ka/",
+        "sound_out": "sehn tee MAH-rahm TEE-kah."
+      },
+      {
+        "qaroshi": "hë ti mara-m tika he?",
+        "english": "Do you see a friend?",
+        "ipa": "/hə ti ˈma.ɾam ˈti.ka he/",
+        "sound_out": "huh tee MAH-rahm TEE-kah heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT045",
+    "family": "argument roles",
+    "skill": "cherish: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/sen mi tim ˈna.ʃi/",
+        "sound_out": "sehn mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "sen mi ti-m nu nashi.",
+        "english": "I do not cherish you.",
+        "ipa": "/sen mi tim nu ˈna.ʃi/",
+        "sound_out": "sehn mee teem noo NAH-shee."
+      }
+    ],
+    "explanation": "Object ti-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT046",
+    "family": "speech act",
+    "skill": "cherish: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti ti-m nashi.",
+        "english": "You cherish you.",
+        "ipa": "/sen ti tim ˈna.ʃi/",
+        "sound_out": "sehn tee teem NAH-shee."
+      },
+      {
+        "qaroshi": "hë ti ti-m nashi he?",
+        "english": "Do you cherish you?",
+        "ipa": "/hə ti tim ˈna.ʃi he/",
+        "sound_out": "huh tee teem NAH-shee heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT047",
+    "family": "argument roles",
+    "skill": "love: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m mali.",
+        "english": "I love you romantically.",
+        "ipa": "/sen mi tim ˈma.li/",
+        "sound_out": "sehn mee teem MAH-lee."
+      },
+      {
+        "qaroshi": "sen mi ti-m nu mali.",
+        "english": "I do not love you romantically.",
+        "ipa": "/sen mi tim nu ˈma.li/",
+        "sound_out": "sehn mee teem noo MAH-lee."
+      }
+    ],
+    "explanation": "Object ti-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT048",
+    "family": "speech act",
+    "skill": "love: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti ti-m mali.",
+        "english": "You love you romantically.",
+        "ipa": "/sen ti tim ˈma.li/",
+        "sound_out": "sehn tee teem MAH-lee."
+      },
+      {
+        "qaroshi": "hë ti ti-m mali he?",
+        "english": "Do you love you romantically?",
+        "ipa": "/hə ti tim ˈma.li he/",
+        "sound_out": "huh tee teem MAH-lee heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT049",
+    "family": "argument roles",
+    "skill": "protect: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi naro-m daru.",
+        "english": "I protect a home.",
+        "ipa": "/sen mi ˈna.ɾom ˈda.ɾu/",
+        "sound_out": "sehn mee NAH-rohm DAH-roo."
+      },
+      {
+        "qaroshi": "sen mi naro-m nu daru.",
+        "english": "I do not protect a home.",
+        "ipa": "/sen mi ˈna.ɾom nu ˈda.ɾu/",
+        "sound_out": "sehn mee NAH-rohm noo DAH-roo."
+      }
+    ],
+    "explanation": "Object naro-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT050",
+    "family": "speech act",
+    "skill": "protect: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti naro-m daru.",
+        "english": "You protect a home.",
+        "ipa": "/sen ti ˈna.ɾom ˈda.ɾu/",
+        "sound_out": "sehn tee NAH-rohm DAH-roo."
+      },
+      {
+        "qaroshi": "hë ti naro-m daru he?",
+        "english": "Do you protect a home?",
+        "ipa": "/hə ti ˈna.ɾom ˈda.ɾu he/",
+        "sound_out": "huh tee NAH-rohm DAH-roo heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT051",
+    "family": "argument roles",
+    "skill": "read: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiro-m shëliro.",
+        "english": "I read a poem.",
+        "ipa": "/sen mi ˈʃi.ɾom ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee SHEE-rohm shuh-LEE-roh."
+      },
+      {
+        "qaroshi": "sen mi shiro-m nu shëliro.",
+        "english": "I do not read a poem.",
+        "ipa": "/sen mi ˈʃi.ɾom nu ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee SHEE-rohm noo shuh-LEE-roh."
+      }
+    ],
+    "explanation": "Object shiro-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT052",
+    "family": "speech act",
+    "skill": "read: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti shiro-m shëliro.",
+        "english": "You read a poem.",
+        "ipa": "/sen ti ˈʃi.ɾom ʃə.ˈli.ɾo/",
+        "sound_out": "sehn tee SHEE-rohm shuh-LEE-roh."
+      },
+      {
+        "qaroshi": "hë ti shiro-m shëliro he?",
+        "english": "Do you read a poem?",
+        "ipa": "/hə ti ˈʃi.ɾom ʃə.ˈli.ɾo he/",
+        "sound_out": "huh tee SHEE-rohm shuh-LEE-roh heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT053",
+    "family": "argument roles",
+    "skill": "write: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi shina-m shiroli.",
+        "english": "I write a word.",
+        "ipa": "/sen mi ˈʃi.nam ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee SHEE-nahm shee-ROH-lee."
+      },
+      {
+        "qaroshi": "sen mi shina-m nu shiroli.",
+        "english": "I do not write a word.",
+        "ipa": "/sen mi ˈʃi.nam nu ʃi.ˈɾo.li/",
+        "sound_out": "sehn mee SHEE-nahm noo shee-ROH-lee."
+      }
+    ],
+    "explanation": "Object shina-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT054",
+    "family": "speech act",
+    "skill": "write: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti shina-m shiroli.",
+        "english": "You write a word.",
+        "ipa": "/sen ti ˈʃi.nam ʃi.ˈɾo.li/",
+        "sound_out": "sehn tee SHEE-nahm shee-ROH-lee."
+      },
+      {
+        "qaroshi": "hë ti shina-m shiroli he?",
+        "english": "Do you write a word?",
+        "ipa": "/hə ti ˈʃi.nam ʃi.ˈɾo.li he/",
+        "sound_out": "huh tee SHEE-nahm shee-ROH-lee heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT055",
+    "family": "argument roles",
+    "skill": "know: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi mara-m sëmi.",
+        "english": "I know a friend.",
+        "ipa": "/sen mi ˈma.ɾam ˈsə.mi/",
+        "sound_out": "sehn mee MAH-rahm SUH-mee."
+      },
+      {
+        "qaroshi": "sen mi mara-m nu sëmi.",
+        "english": "I do not know a friend.",
+        "ipa": "/sen mi ˈma.ɾam nu ˈsə.mi/",
+        "sound_out": "sehn mee MAH-rahm noo SUH-mee."
+      }
+    ],
+    "explanation": "Object mara-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT056",
+    "family": "speech act",
+    "skill": "know: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti mara-m sëmi.",
+        "english": "You know a friend.",
+        "ipa": "/sen ti ˈma.ɾam ˈsə.mi/",
+        "sound_out": "sehn tee MAH-rahm SUH-mee."
+      },
+      {
+        "qaroshi": "hë ti mara-m sëmi he?",
+        "english": "Do you know a friend?",
+        "ipa": "/hə ti ˈma.ɾam ˈsə.mi he/",
+        "sound_out": "huh tee MAH-rahm SUH-mee heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT057",
+    "family": "argument roles",
+    "skill": "have: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi kima-m hari.",
+        "english": "I have water.",
+        "ipa": "/sen mi ˈki.mam ˈha.ɾi/",
+        "sound_out": "sehn mee KEE-mahm HAH-ree."
+      },
+      {
+        "qaroshi": "sen mi kima-m nu hari.",
+        "english": "I do not have water.",
+        "ipa": "/sen mi ˈki.mam nu ˈha.ɾi/",
+        "sound_out": "sehn mee KEE-mahm noo HAH-ree."
+      }
+    ],
+    "explanation": "Object kima-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT058",
+    "family": "speech act",
+    "skill": "have: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti kima-m hari.",
+        "english": "You have water.",
+        "ipa": "/sen ti ˈki.mam ˈha.ɾi/",
+        "sound_out": "sehn tee KEE-mahm HAH-ree."
+      },
+      {
+        "qaroshi": "hë ti kima-m hari he?",
+        "english": "Do you have water?",
+        "ipa": "/hə ti ˈki.mam ˈha.ɾi he/",
+        "sound_out": "huh tee KEE-mahm HAH-ree heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT059",
+    "family": "argument roles",
+    "skill": "see: patient vs its negation",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiro-m tika.",
+        "english": "I see a poem.",
+        "ipa": "/sen mi ˈʃi.ɾom ˈti.ka/",
+        "sound_out": "sehn mee SHEE-rohm TEE-kah."
+      },
+      {
+        "qaroshi": "sen mi shiro-m nu tika.",
+        "english": "I do not see a poem.",
+        "ipa": "/sen mi ˈʃi.ɾom nu ˈti.ka/",
+        "sound_out": "sehn mee SHEE-rohm noo TEE-kah."
+      }
+    ],
+    "explanation": "Object shiro-m keeps its direct-object case; only the predicate is negated."
+  },
+  {
+    "id": "CT060",
+    "family": "speech act",
+    "skill": "see: assertion versus question",
+    "choices": [
+      {
+        "qaroshi": "sen ti shiro-m tika.",
+        "english": "You see a poem.",
+        "ipa": "/sen ti ˈʃi.ɾom ˈti.ka/",
+        "sound_out": "sehn tee SHEE-rohm TEE-kah."
+      },
+      {
+        "qaroshi": "hë ti shiro-m tika he?",
+        "english": "Do you see a poem?",
+        "ipa": "/hə ti ˈʃi.ɾom ˈti.ka he/",
+        "sound_out": "huh tee SHEE-rohm TEE-kah heh?"
+      }
+    ],
+    "explanation": "hë at the beginning expresses a seeking stance; he at the end makes it a question."
+  },
+  {
+    "id": "CT061",
+    "family": "resonance",
+    "skill": "I cherish you: Still Voice vs Deep Resonance",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/sen mi tim ˈna.ʃi/",
+        "sound_out": "sehn mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "qor mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/qoɾ mi tim ˈna.ʃi/",
+        "sound_out": "qohr mee teem NAH-shee."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT062",
+    "family": "resonance",
+    "skill": "I cherish you: Warm Hum vs Hidden Hum",
+    "choices": [
+      {
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "lën mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/lən mi tim ˈna.ʃi/",
+        "sound_out": "luhn mee teem NAH-shee."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT063",
+    "family": "resonance",
+    "skill": "I cherish you: Bright Trill vs Broken Echo",
+    "choices": [
+      {
+        "qaroshi": "zha mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/ʒa mi tim ˈna.ʃi/",
+        "sound_out": "zhah mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "zher mi ti-m nashi.",
+        "english": "I cherish you",
+        "ipa": "/ʒeɾ mi tim ˈna.ʃi/",
+        "sound_out": "zhehr mee teem NAH-shee."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT064",
+    "family": "resonance",
+    "skill": "I will protect you: Still Voice vs Deep Resonance",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/sen mi tim da.ˈɾu.ju/",
+        "sound_out": "sehn mee teem dah-ROO-yoo."
+      },
+      {
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/qoɾ mi tim da.ˈɾu.ju/",
+        "sound_out": "qohr mee teem dah-ROO-yoo."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT065",
+    "family": "resonance",
+    "skill": "I will protect you: Warm Hum vs Hidden Hum",
+    "choices": [
+      {
+        "qaroshi": "më mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/mə mi tim da.ˈɾu.ju/",
+        "sound_out": "muh mee teem dah-ROO-yoo."
+      },
+      {
+        "qaroshi": "lën mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/lən mi tim da.ˈɾu.ju/",
+        "sound_out": "luhn mee teem dah-ROO-yoo."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT066",
+    "family": "resonance",
+    "skill": "I will protect you: Bright Trill vs Broken Echo",
+    "choices": [
+      {
+        "qaroshi": "zha mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/ʒa mi tim da.ˈɾu.ju/",
+        "sound_out": "zhah mee teem dah-ROO-yoo."
+      },
+      {
+        "qaroshi": "zher mi ti-m daru-yu.",
+        "english": "I will protect you",
+        "ipa": "/ʒeɾ mi tim da.ˈɾu.ju/",
+        "sound_out": "zhehr mee teem dah-ROO-yoo."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT067",
+    "family": "resonance",
+    "skill": "you are well: Still Voice vs Deep Resonance",
+    "choices": [
+      {
+        "qaroshi": "sen ti haro.",
+        "english": "you are well",
+        "ipa": "/sen ti ˈha.ɾo/",
+        "sound_out": "sehn tee HAH-roh."
+      },
+      {
+        "qaroshi": "qor ti haro.",
+        "english": "you are well",
+        "ipa": "/qoɾ ti ˈha.ɾo/",
+        "sound_out": "qohr tee HAH-roh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT068",
+    "family": "resonance",
+    "skill": "you are well: Warm Hum vs Hidden Hum",
+    "choices": [
+      {
+        "qaroshi": "më ti haro.",
+        "english": "you are well",
+        "ipa": "/mə ti ˈha.ɾo/",
+        "sound_out": "muh tee HAH-roh."
+      },
+      {
+        "qaroshi": "lën ti haro.",
+        "english": "you are well",
+        "ipa": "/lən ti ˈha.ɾo/",
+        "sound_out": "luhn tee HAH-roh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT069",
+    "family": "resonance",
+    "skill": "you are well: Bright Trill vs Broken Echo",
+    "choices": [
+      {
+        "qaroshi": "zha ti haro.",
+        "english": "you are well",
+        "ipa": "/ʒa ti ˈha.ɾo/",
+        "sound_out": "zhah tee HAH-roh."
+      },
+      {
+        "qaroshi": "zher ti haro.",
+        "english": "you are well",
+        "ipa": "/ʒeɾ ti ˈha.ɾo/",
+        "sound_out": "zhehr tee HAH-roh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT070",
+    "family": "resonance",
+    "skill": "they flew: Still Voice vs Deep Resonance",
+    "choices": [
+      {
+        "qaroshi": "sen sa goro-te.",
+        "english": "they flew",
+        "ipa": "/sen sa ɡo.ˈɾo.te/",
+        "sound_out": "sehn sah goh-ROH-teh."
+      },
+      {
+        "qaroshi": "qor sa goro-te.",
+        "english": "they flew",
+        "ipa": "/qoɾ sa ɡo.ˈɾo.te/",
+        "sound_out": "qohr sah goh-ROH-teh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT071",
+    "family": "resonance",
+    "skill": "they flew: Warm Hum vs Hidden Hum",
+    "choices": [
+      {
+        "qaroshi": "më sa goro-te.",
+        "english": "they flew",
+        "ipa": "/mə sa ɡo.ˈɾo.te/",
+        "sound_out": "muh sah goh-ROH-teh."
+      },
+      {
+        "qaroshi": "lën sa goro-te.",
+        "english": "they flew",
+        "ipa": "/lən sa ɡo.ˈɾo.te/",
+        "sound_out": "luhn sah goh-ROH-teh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT072",
+    "family": "resonance",
+    "skill": "they flew: Bright Trill vs Broken Echo",
+    "choices": [
+      {
+        "qaroshi": "zha sa goro-te.",
+        "english": "they flew",
+        "ipa": "/ʒa sa ɡo.ˈɾo.te/",
+        "sound_out": "zhah sah goh-ROH-teh."
+      },
+      {
+        "qaroshi": "zher sa goro-te.",
+        "english": "they flew",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.te/",
+        "sound_out": "zhehr sah goh-ROH-teh."
+      }
+    ],
+    "explanation": "Objective content can remain similar while the mandatory opening marker changes social stance. It is not a lexical translation of an emotion word."
+  },
+  {
+    "id": "CT073",
+    "family": "evidential",
+    "skill": "they flew: evidence si vs hu",
+    "choices": [
+      {
+        "qaroshi": "sen sa goro-te si.",
+        "english": "they flew [si evidence]",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/",
+        "sound_out": "sehn sah goh-ROH-teh see."
+      },
+      {
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "they flew [hu evidence]",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo."
+      }
+    ],
+    "explanation": "si versus hu changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT074",
+    "family": "evidential",
+    "skill": "they flew: evidence hu vs ye",
+    "choices": [
+      {
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "they flew [hu evidence]",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo."
+      },
+      {
+        "qaroshi": "sen sa goro-te ye.",
+        "english": "they flew [ye evidence]",
+        "ipa": "/sen sa ɡo.ˈɾo.te je/",
+        "sound_out": "sehn sah goh-ROH-teh yeh."
+      }
+    ],
+    "explanation": "hu versus ye changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT075",
+    "family": "evidential",
+    "skill": "they spoke: evidence si vs hu",
+    "choices": [
+      {
+        "qaroshi": "sen sa shiri-te si.",
+        "english": "they spoke [si evidence]",
+        "ipa": "/sen sa ʃi.ˈɾi.te si/",
+        "sound_out": "sehn sah shee-REE-teh see."
+      },
+      {
+        "qaroshi": "sen sa shiri-te hu.",
+        "english": "they spoke [hu evidence]",
+        "ipa": "/sen sa ʃi.ˈɾi.te hu/",
+        "sound_out": "sehn sah shee-REE-teh hoo."
+      }
+    ],
+    "explanation": "si versus hu changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT076",
+    "family": "evidential",
+    "skill": "they spoke: evidence hu vs ye",
+    "choices": [
+      {
+        "qaroshi": "sen sa shiri-te hu.",
+        "english": "they spoke [hu evidence]",
+        "ipa": "/sen sa ʃi.ˈɾi.te hu/",
+        "sound_out": "sehn sah shee-REE-teh hoo."
+      },
+      {
+        "qaroshi": "sen sa shiri-te ye.",
+        "english": "they spoke [ye evidence]",
+        "ipa": "/sen sa ʃi.ˈɾi.te je/",
+        "sound_out": "sehn sah shee-REE-teh yeh."
+      }
+    ],
+    "explanation": "hu versus ye changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT077",
+    "family": "evidential",
+    "skill": "a friend stayed at home: evidence si vs hu",
+    "choices": [
+      {
+        "qaroshi": "sen mara naro-lo nëra-te si.",
+        "english": "a friend stayed at home [si evidence]",
+        "ipa": "/sen ˈma.ɾa na.ˈɾo.lo nə.ˈɾa.te si/",
+        "sound_out": "sehn MAH-rah nah-ROH-loh nuh-RAH-teh see."
+      },
+      {
+        "qaroshi": "sen mara naro-lo nëra-te hu.",
+        "english": "a friend stayed at home [hu evidence]",
+        "ipa": "/sen ˈma.ɾa na.ˈɾo.lo nə.ˈɾa.te hu/",
+        "sound_out": "sehn MAH-rah nah-ROH-loh nuh-RAH-teh hoo."
+      }
+    ],
+    "explanation": "si versus hu changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT078",
+    "family": "evidential",
+    "skill": "a friend stayed at home: evidence hu vs ye",
+    "choices": [
+      {
+        "qaroshi": "sen mara naro-lo nëra-te hu.",
+        "english": "a friend stayed at home [hu evidence]",
+        "ipa": "/sen ˈma.ɾa na.ˈɾo.lo nə.ˈɾa.te hu/",
+        "sound_out": "sehn MAH-rah nah-ROH-loh nuh-RAH-teh hoo."
+      },
+      {
+        "qaroshi": "sen mara naro-lo nëra-te ye.",
+        "english": "a friend stayed at home [ye evidence]",
+        "ipa": "/sen ˈma.ɾa na.ˈɾo.lo nə.ˈɾa.te je/",
+        "sound_out": "sehn MAH-rah nah-ROH-loh nuh-RAH-teh yeh."
+      }
+    ],
+    "explanation": "hu versus ye changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT079",
+    "family": "evidential",
+    "skill": "they traveled home: evidence si vs hu",
+    "choices": [
+      {
+        "qaroshi": "sen sa naro-gu gura-te si.",
+        "english": "they traveled home [si evidence]",
+        "ipa": "/sen sa na.ˈɾo.ɡu ɡu.ˈɾa.te si/",
+        "sound_out": "sehn sah nah-ROH-goo goo-RAH-teh see."
+      },
+      {
+        "qaroshi": "sen sa naro-gu gura-te hu.",
+        "english": "they traveled home [hu evidence]",
+        "ipa": "/sen sa na.ˈɾo.ɡu ɡu.ˈɾa.te hu/",
+        "sound_out": "sehn sah nah-ROH-goo goo-RAH-teh hoo."
+      }
+    ],
+    "explanation": "si versus hu changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT080",
+    "family": "evidential",
+    "skill": "they traveled home: evidence hu vs ye",
+    "choices": [
+      {
+        "qaroshi": "sen sa naro-gu gura-te hu.",
+        "english": "they traveled home [hu evidence]",
+        "ipa": "/sen sa na.ˈɾo.ɡu ɡu.ˈɾa.te hu/",
+        "sound_out": "sehn sah nah-ROH-goo goo-RAH-teh hoo."
+      },
+      {
+        "qaroshi": "sen sa naro-gu gura-te ye.",
+        "english": "they traveled home [ye evidence]",
+        "ipa": "/sen sa na.ˈɾo.ɡu ɡu.ˈɾa.te je/",
+        "sound_out": "sehn sah nah-ROH-goo goo-RAH-teh yeh."
+      }
+    ],
+    "explanation": "hu versus ye changes the claimed evidence source, not necessarily the event itself. Evidence markers follow predicate."
+  },
+  {
+    "id": "CT081",
+    "family": "sentence act",
+    "skill": "statement vs direct question",
+    "choices": [
+      {
+        "qaroshi": "sen sa goro.",
+        "english": "sa goro.",
+        "ipa": "/sen sa ˈɡo.ɾo/",
+        "sound_out": "sehn sah GOH-roh."
+      },
+      {
+        "qaroshi": "hë sa goro he?",
+        "english": "Does sa goro?",
+        "ipa": "/hə sa ˈɡo.ɾo he/",
+        "sound_out": "huh sah GOH-roh heh?"
+      }
+    ],
+    "explanation": "The final he is required for an ordinary full question; hë alone is insufficient."
+  },
+  {
+    "id": "CT082",
+    "family": "sentence act",
+    "skill": "statement vs direct question",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiri.",
+        "english": "mi shiri.",
+        "ipa": "/sen mi ˈʃi.ɾi/",
+        "sound_out": "sehn mee SHEE-ree."
+      },
+      {
+        "qaroshi": "hë mi shiri he?",
+        "english": "Does mi shiri?",
+        "ipa": "/hə mi ˈʃi.ɾi he/",
+        "sound_out": "huh mee SHEE-ree heh?"
+      }
+    ],
+    "explanation": "The final he is required for an ordinary full question; hë alone is insufficient."
+  },
+  {
+    "id": "CT083",
+    "family": "sentence act",
+    "skill": "statement vs direct question",
+    "choices": [
+      {
+        "qaroshi": "sen ti nëra.",
+        "english": "ti nëra.",
+        "ipa": "/sen ti ˈnə.ɾa/",
+        "sound_out": "sehn tee NUH-rah."
+      },
+      {
+        "qaroshi": "hë ti nëra he?",
+        "english": "Does ti nëra?",
+        "ipa": "/hə ti ˈnə.ɾa he/",
+        "sound_out": "huh tee NUH-rah heh?"
+      }
+    ],
+    "explanation": "The final he is required for an ordinary full question; hë alone is insufficient."
+  },
+  {
+    "id": "CT084",
+    "family": "sentence act",
+    "skill": "statement vs direct question",
+    "choices": [
+      {
+        "qaroshi": "sen mara rawo.",
+        "english": "mara rawo.",
+        "ipa": "/sen ˈma.ɾa ˈɾa.wo/",
+        "sound_out": "sehn MAH-rah RAH-woh."
+      },
+      {
+        "qaroshi": "hë mara rawo he?",
+        "english": "Does mara rawo?",
+        "ipa": "/hə ˈma.ɾa ˈɾa.wo he/",
+        "sound_out": "huh MAH-rah RAH-woh heh?"
+      }
+    ],
+    "explanation": "The final he is required for an ordinary full question; hë alone is insufficient."
+  },
+  {
+    "id": "CT085",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/sen mi tim ˈna.ʃi/",
+        "sound_out": "sehn mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "sen mi ti-m mali.",
+        "english": "I love you romantically.",
+        "ipa": "/sen mi tim ˈma.li/",
+        "sound_out": "sehn mee teem MAH-lee."
+      }
+    ],
+    "explanation": "nashi does not entail romantic love; mali does."
+  },
+  {
+    "id": "CT086",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/sen mi tim ˈna.ʃi/",
+        "sound_out": "sehn mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "sen mi ti-m lani.",
+        "english": "I love you as family.",
+        "ipa": "/sen mi tim ˈla.ni/",
+        "sound_out": "sehn mee teem LAH-nee."
+      }
+    ],
+    "explanation": "nashi is broad care; lani specifies kinship nurture."
+  },
+  {
+    "id": "CT087",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi naro-lo nëra.",
+        "english": "I stay at home.",
+        "ipa": "/sen mi na.ˈɾo.lo ˈnə.ɾa/",
+        "sound_out": "sehn mee nah-ROH-loh NUH-rah."
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I travel toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah."
+      }
+    ],
+    "explanation": "-lo is location; -gu is goal."
+  },
+  {
+    "id": "CT088",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi naro-de gura.",
+        "english": "I travel from home.",
+        "ipa": "/sen mi na.ˈɾo.de ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-deh GOO-rah."
+      },
+      {
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I travel toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah."
+      }
+    ],
+    "explanation": "-de is source; -gu is goal."
+  },
+  {
+    "id": "CT089",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi shiro-m shëliro.",
+        "english": "I read a poem.",
+        "ipa": "/sen mi ˈʃi.ɾom ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee SHEE-rohm shuh-LEE-roh."
+      },
+      {
+        "qaroshi": "sen mi shiro-m sëmi.",
+        "english": "I know the poem.",
+        "ipa": "/sen mi ˈʃi.ɾom ˈsə.mi/",
+        "sound_out": "sehn mee SHEE-rohm SUH-mee."
+      }
+    ],
+    "explanation": "Reading is not equivalent to knowing/understanding."
+  },
+  {
+    "id": "CT090",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi goro-ki.",
+        "english": "I can fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ki/",
+        "sound_out": "sehn mee goh-ROH-kee."
+      },
+      {
+        "qaroshi": "sen mi goro-ho.",
+        "english": "I am allowed to fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.ho/",
+        "sound_out": "sehn mee goh-ROH-hoh."
+      }
+    ],
+    "explanation": "Ability and permission are distinct."
+  },
+  {
+    "id": "CT091",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/mə mi tim ˈna.ʃi/",
+        "sound_out": "muh mee teem NAH-shee."
+      },
+      {
+        "qaroshi": "lën mi ti-m nashi.",
+        "english": "I cherish you.",
+        "ipa": "/lən mi tim ˈna.ʃi/",
+        "sound_out": "luhn mee teem NAH-shee."
+      }
+    ],
+    "explanation": "Warm and shy register can frame the same statement."
+  },
+  {
+    "id": "CT092",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, reportedly.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo."
+      },
+      {
+        "qaroshi": "sen sa goro-te si.",
+        "english": "I saw them fly.",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/",
+        "sound_out": "sehn sah goh-ROH-teh see."
+      }
+    ],
+    "explanation": "Evidentials identify different sources of evidence."
+  },
+  {
+    "id": "CT093",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "hë sa haro he?",
+        "english": "Are they well?",
+        "ipa": "/hə sa ˈha.ɾo he/",
+        "sound_out": "huh sah HAH-roh heh?"
+      },
+      {
+        "qaroshi": "khar sa haro he?",
+        "english": "Are they all right?!",
+        "ipa": "/xaɾ sa ˈha.ɾo he/",
+        "sound_out": "khahr sah HAH-roh heh?"
+      }
+    ],
+    "explanation": "Question form survives change of resonance."
+  },
+  {
+    "id": "CT094",
+    "family": "lexical and semantic contrast",
+    "skill": "Meaning changes even when morphology is similar",
+    "choices": [
+      {
+        "qaroshi": "sen mi nu goro.",
+        "english": "I do not fly.",
+        "ipa": "/sen mi nu ˈɡo.ɾo/",
+        "sound_out": "sehn mee noo GOH-roh."
+      },
+      {
+        "qaroshi": "sen mi goro-në.",
+        "english": "I habitually fly.",
+        "ipa": "/sen mi ɡo.ˈɾo.nə/",
+        "sound_out": "sehn mee goh-ROH-nuh."
+      }
+    ],
+    "explanation": "Negation of a predicate vs positive habitual aspect."
+  }
+]

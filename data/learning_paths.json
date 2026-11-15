@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Recognize a complete sentence",
+    "skills": "Resonance, greetings, short assertions",
+    "source": "reference examples"
+  },
+  {
+    "id": 2,
+    "title": "Names, identity, and speaking",
+    "skills": "Present noun predicates, pronouns, who speaks",
+    "source": "reference examples"
+  },
+  {
+    "id": 3,
+    "title": "Care and interpersonal stance",
+    "skills": "Warm Hum, romantic/familial senses, requests",
+    "source": "reference examples"
+  },
+  {
+    "id": 4,
+    "title": "Requests, wishes, and commitment",
+    "skills": "Politeness, command ending, future, purpose",
+    "source": "reference examples"
+  },
+  {
+    "id": 5,
+    "title": "State and emotion",
+    "skills": "Adjective predicates, emotion vocabulary, negation",
+    "source": "reference examples"
+  },
+  {
+    "id": 6,
+    "title": "Tense and habituality",
+    "skills": "The suffixes -te, -se, -në; habit vs ongoing",
+    "source": "reference examples"
+  },
+  {
+    "id": 7,
+    "title": "Food, objects, and daily life",
+    "skills": "Direct objects and everyday predicates",
+    "source": "reference examples"
+  },
+  {
+    "id": 8,
+    "title": "Wings, weather, and the sky",
+    "skills": "Nardoragon body, instrument and plural cases",
+    "source": "reference examples"
+  },
+  {
+    "id": 9,
+    "title": "Location and movement",
+    "skills": "-lo, -gu, -de and wh-questions",
+    "source": "reference examples"
+  },
+  {
+    "id": 10,
+    "title": "Evidence and reports",
+    "skills": "si, hu, ye and resonance contrasts",
+    "source": "reference examples"
+  },
+  {
+    "id": 11,
+    "title": "Question structures",
+    "skills": "Direct questions vs embedded forms",
+    "source": "reference examples"
+  },
+  {
+    "id": 12,
+    "title": "Digital vocabulary I",
+    "skills": "SOV paradigms with modern devices",
+    "source": "reference examples"
+  },
+  {
+    "id": 13,
+    "title": "Complex predicate morphology",
+    "skills": "Ability, future, past, lexical actions",
+    "source": "reference examples"
+  },
+  {
+    "id": 14,
+    "title": "Nuance in technical assertions",
+    "skills": "Precise modern concepts and careful evidence",
+    "source": "reference examples"
+  },
+  {
+    "id": 15,
+    "title": "Advanced clause relations",
+    "skills": "Counterfactuals, optatives, controlled embedded meaning",
+    "source": "reference examples"
+  },
+  {
+    "id": 16,
+    "title": "Fluent editing and comparison",
+    "skills": "Apply all grammar layers deliberately",
+    "source": "reference examples"
+  },
+  {
+    "id": 17,
+    "title": "Syntax",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/01_syntax.md"
+  },
+  {
+    "id": 18,
+    "title": "Scope Logic",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/02_scope_logic.md"
+  },
+  {
+    "id": 19,
+    "title": "Discourse",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/03_discourse.md"
+  },
+  {
+    "id": 20,
+    "title": "Phonology",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/04_phonology.md"
+  },
+  {
+    "id": 21,
+    "title": "Lexical Semantics",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/05_lexical_semantics.md"
+  },
+  {
+    "id": 22,
+    "title": "Genres",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/06_genres.md"
+  },
+  {
+    "id": 23,
+    "title": "Style Dialects",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/07_style_dialects.md"
+  },
+  {
+    "id": 24,
+    "title": "Translation Protocol",
+    "skills": "Advanced formal reasoning and interpretation",
+    "source": "docs/advanced/08_translation_protocol.md"
+  }
+]

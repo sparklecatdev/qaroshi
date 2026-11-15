@@ -1,3 +1,24 @@
+# Qaroshi Standard 7.0 · Grammar and Linguistics
+
+## Standard 7.0: Linguistics and grammar expansion
+
+This is the **deep grammar release**, built on the original 30,000-word reference. **All 30,000 dictionary records and all 4,383 original bilingual teaching examples remain untouched.** The first 70 grammar chapters remain in their original order and wording, with 20 explanatory chapters added (71–90).
+
+### New resources
+
+- **9 advanced manuals and workbooks** covering sentence structure, subordinate clauses, scope, tense/modality, conversational discourse, phonemic vs fluent pronunciation, lexical semantics, style/dialects, genre and rigorous translation.
+- **301 annotated lines of connected text** in **22 dialogues** and **13 narrative/expository passages**, each with speaker or narrator, resonance, English, IPA, sound-out and an explanation. They are maintained separately from the 4,383 legacy phrasebook examples.
+- **94 controlled meaning contrast sets** containing **196 individual study sentences**; these target tense, aspect, modality, negation, evidentials, focus and pronoun reference.
+- **25 curated predicate frames**, **26 distinguished word senses**, **32 figurative interpretations**, and **208 phoneme recognition drills** using existing documented words.
+- A more comprehensive **advanced workbook** with exercises and answer keys, and an expanded self-contained Wiki with dedicated **Connected texts**, **Grammar lab**, **Semantics & idioms**, and **Sound lab** pages. The Academy includes all 25 deep guides; the existing 16 lessons and eight games remain intact.
+
+**Start:** Open `Qaroshi_Wiki.html` and select **Connected texts** or **Grammar lab** in the sidebar, or open `Qaroshi_Academy.html` and select **Deep guides**.
+
+**Scope and honesty:** These are controlled editorial examples and standardized reference conventions, not independently recorded natural-language data. The connected-text collection is substantially more useful than isolated example rows, but it is not yet a large naturalistic speaker corpus. No new lexical headwords or artificial counts were added.
+
+
+## Earlier release history
+
 # Qaroshi Standard 5.1 · Deep learning edition
 
 ## New in the deep learning edition
@@ -41,3 +62,7 @@ A complete offline learning app joins the existing reference and is linked from 
 ## Unified Standard 5.3: Living Speech
 
 Added 1,931 headwords, 106 controlled examples, a register-labelled field guide, and adult-vocabulary practice controls. All preexisting headwords and examples are preserved unchanged. The fully integrated dictionary contains 18,663 entries.
+
+## Unified Standard 6.0: 30,000-entry Vocabulary Atlas
+
+The complete lexicon contains 30,000 distinct Qaroshi spellings: 18,663 preserved from 5.3, plus 924 new independent bases and 10,413 transparent compounds. Added 1,200 controlled teaching sentences with eight different topical examples. The grammar, original 26 glyphs, 16 written resonance markers and Academy course sequence are preserved. English index and IPA/sound-out fields have been regenerated. Source code for the expansion and validation is bundled. Editorially standardized terminology is not evidence of frequency or independently attested everyday use.

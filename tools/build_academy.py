@@ -50,7 +50,7 @@ packet={
   'glyphs':glyphs,
   'affixes':json.loads(read('data/affixes.json')),
   'resonances':json.loads(read('data/resonances.json')),
-  'meta':{'title':'Qaroshi Academy','edition':'5.3','source':'Unified Standard 5.3','word_count':len(words),'sentence_count':len(phrases)}
+  'meta':{'title':'Qaroshi Academy','edition':'14.0','source':'Release 14','word_count':len(words),'sentence_count':len(phrases)}
 }
 js=read('web/academy/academy.js')
 css=read('web/academy/academy.css')
@@ -68,5 +68,5 @@ html=f'''<!doctype html><html lang="en" data-theme="light"><head>
 </body></html>'''
 (ROOT/'Qaroshi_Academy.html').write_text(html,encoding='utf-8')
 (ROOT/'data/academy_lessons.json').write_text(json.dumps([{'id':l['id'],'title':l['title'],'skills':l['skills'],'example_ids':[e['id'] for e in l['examples']]} for l in lessons],ensure_ascii=False,indent=2),encoding='utf-8')
-(ROOT/'data/academy_manifest.json').write_text(json.dumps({'version':'5.3','embedded_words':len(words),'embedded_examples':len(phrases),'lessons':len(lessons),'guides':len(guides),'native_glyphs':len(glyphs),'practice_modes':['vocab','reverse','sentence','affix','resonance','glyph','forge','sound'],'offline':True,'progress':'localStorage; JSON export/import'},indent=2),encoding='utf-8')
+(ROOT/'data/academy_manifest.json').write_text(json.dumps({'version':'14.0','embedded_words':len(words),'embedded_examples':len(phrases),'lessons':len(lessons),'guides':len(guides),'native_glyphs':len(glyphs),'practice_modes':['vocab','reverse','sentence','affix','resonance','glyph','forge','sound'],'offline':True,'progress':'localStorage; JSON export/import'},indent=2),encoding='utf-8')
 print('Academy HTML',len(html),'bytes,',len(lessons),'lessons',len(guides),'guides',len(words),'entries',len(phrases),'sentences')

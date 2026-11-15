@@ -1,0 +1,12 @@
+{
+  "individual_core_profiles": 61,
+  "individually_written_metaphors": 40,
+  "existing_idiom_candidates_audited": 1000,
+  "existing_sense_cards_audited": 5000,
+  "idiom_risk_rows": 454,
+  "sense_risk_rows": 4791,
+  "source_checks_errors": 0,
+  "community_accepted_new_idioms": 0,
+  "independently_validated_new_senses": 0,
+  "note": "Automated semantic heuristics are triage flags, not human language review or proof of idiom conventionalization."
+}
