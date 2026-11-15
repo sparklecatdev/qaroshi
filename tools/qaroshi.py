@@ -9,6 +9,10 @@ from collections import Counter
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 ROOT=Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0,str(ROOT/'source'))
+from morphemes_v3 import MORPHEMES_V3
+DERIVATION_RULES={r['form'].lstrip('-'):r for r in MORPHEMES_V3}
 GLYPHS=ROOT/'assets/glyphs'
 LETTERS=('sh','zh','kh','ng','k','a','w','t','r','q','o','d','z','u','ë','i','g','e','h','b','p','m','s','n','y','l')
 RESONANCES='më zha qor sen hë lën sur rak khar yë nëm wen dal rëm hol zher'.split()
@@ -72,6 +76,13 @@ def analyze_word(spelling,lexicon):
     if root not in lexicon:return None
     item=lexicon[root]
     pos=item['pos']
+    derived=None
+    if len(parts)>1 and parts[1] in DERIVATION_RULES:
+        rule=DERIVATION_RULES[parts[1]]
+        if rule['root_pos'] != pos: return None
+        derived=parts[1]
+        pos=rule['result_pos']
+        parts=[root]+parts[2:]
     if pos in ('n','pron','det'):
         order={'lë':0,'ri':1,**{v:2 for v in CASES},'së':3}
     elif pos=='v':
@@ -83,7 +94,21 @@ def analyze_word(spelling,lexicon):
         if end not in order:return None
         slots.append(order[end])
     if slots!=sorted(set(slots)):return None
-    return {'lexeme':root,'segments':parts[1:],'exact':False}
+    return {'lexeme':root,'segments':([derived] if derived else [])+parts[1:],'exact':False,
+            'derived':bool(derived),'result_pos':pos}
+
+
+def derive_word(root, suffix, lexicon):
+    """Propose a transparent derived form; never claim it is a dictionary headword."""
+    suffix=suffix.lstrip('-')
+    rule=DERIVATION_RULES.get(suffix)
+    if rule is None:raise ValueError('unknown derivational suffix')
+    item=lexicon.get(root)
+    if item is None:raise ValueError('root is not in the dictionary')
+    if item['pos'] != rule['root_pos']:
+        raise ValueError(f"-{suffix} requires a {rule['root_pos']} root, got {item['pos']}")
+    return {'form':root+'-'+suffix,'pos':rule['result_pos'],
+            'meaning':rule['meaning'],'lexical_status':'compositional proposal, not a dictionary entry'}
 
 
 def check_sentence(text,lexicon):
@@ -195,6 +220,8 @@ def main():
     png.add_argument('text');png.add_argument('--output',required=True)
     check=sp.add_parser('check',help='Conservative sentence check (not a full grammar parser)')
     check.add_argument('sentence')
+    der=sp.add_parser('derive',help='Apply a documented 3.0 derivation; does not add a headword')
+    der.add_argument('root');der.add_argument('--suffix',required=True,choices=tuple('-'+s for s in DERIVATION_RULES))
     sp.add_parser('validate',help='Validate lexicon, glyph and corpus invariants')
     args=ap.parse_args()
     if args.command=='lookup':
@@ -209,6 +236,8 @@ def main():
     elif args.command=='check':
         notes=check_sentence(args.sentence,{r['qaroshi']:r for r in entries()})
         print('\n'.join(notes) if notes else 'No basic structural issues found. Semantics not verified.')
+    elif args.command=='derive':
+        print(json.dumps(derive_word(args.root,args.suffix,{r['qaroshi']:r for r in entries()}),ensure_ascii=False,indent=2))
     elif args.command=='validate':
         problems,stats=validate_data()
         print(json.dumps({'counts':stats,'problems':problems[:50],'problem_count':len(problems)},ensure_ascii=False,indent=2))

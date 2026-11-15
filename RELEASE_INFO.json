@@ -1,15 +1,18 @@
 {
   "name": "Qaroshi Standard Reference",
-  "version": "2.0.0-draft",
+  "version": "3.0.0-draft",
   "language": "Qaroshi",
   "script_native_glyphs": 26,
   "mandatory_sentence_resonances": 16,
-  "lexicon_entries": 6819,
-  "established_entries": 853,
-  "new_standardized_grammar_entries": 24,
-  "candidate_lexical_entries": 5942,
-  "candidate_compounds": 234,
-  "parallel_example_sentences": 880,
+  "lexicon_entries": 9082,
+  "frozen_v2_entries": 6819,
+  "frozen_v1_entries": 853,
+  "new_v3_candidate_headwords": 2223,
+  "new_v3_proposed_function_words": 40,
+  "new_productive_derivations_not_in_dictionary": 4,
+  "parallel_example_sentences": 1384,
+  "preserved_v2_sentences": 880,
+  "new_v3_sentences": 504,
   "license_status": "owner selection and artwork permission pending",
-  "github_published": false
+  "github_published_by_this_artifact": false
 }

@@ -879,3 +879,507 @@ S00877,Resonance contrast,wen mi ti-m nashi.,I cherish you. (with longing),Longi
 S00878,Resonance contrast,qor mi ti-m nashi.,I cherish you. (solemnly),Serious declaration,2.0,advanced grammar
 S00879,Resonance contrast,zha ti lësha!,You are cute! (playfully),Playful register,2.0,advanced grammar
 S00880,Technical notation,sen mi sëna haro.,I am always safe.,Time adverb and predicate,2.0,advanced grammar
+S300001,"Access, disability and inclusive design",sen mi kamaya-m kagenu.,I provide audio description.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300002,"Access, disability and inclusive design",dal mi kamaya-m kagenu-yu.,I will provide audio description.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300003,"Access, disability and inclusive design",hë ti kamaya-m kagenu-yu he?,Will you provide audio description?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300004,"Access, disability and inclusive design",sen mi tikawa-m kakhewu.,I enlarge a display.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300005,"Access, disability and inclusive design",dal mi tikawa-m kakhewu-yu.,I will enlarge a display.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300006,"Access, disability and inclusive design",hë ti tikawa-m kakhewu-yu he?,Will you enlarge a display?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300007,"Access, disability and inclusive design",sen mi gulato-m kangëqu.,I configure accessibility.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300008,"Access, disability and inclusive design",dal mi gulato-m kangëqu-yu.,I will configure accessibility.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300009,"Access, disability and inclusive design",hë ti gulato-m kangëqu-yu he?,Will you configure accessibility?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300010,"Civil rights, public policy and institutions",sen mi qidisha-m kibongu.,I renew a residence permit.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300011,"Civil rights, public policy and institutions",dal mi qidisha-m kibongu-yu.,I will renew a residence permit.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300012,"Civil rights, public policy and institutions",hë ti qidisha-m kibongu-yu he?,Will you renew a residence permit?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300013,"Civil rights, public policy and institutions",sen mi yudoheweheda-m kidisu.,I evaluate a public policy.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300014,"Civil rights, public policy and institutions",dal mi yudoheweheda-m kidisu-yu.,I will evaluate a public policy.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300015,"Civil rights, public policy and institutions",hë ti yudoheweheda-m kidisu-yu he?,Will you evaluate a public policy?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300016,"Civil rights, public policy and institutions",sen mi qishana-m kigëpu.,I correct a public record.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300017,"Civil rights, public policy and institutions",dal mi qishana-m kigëpu-yu.,I will correct a public record.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300018,"Civil rights, public policy and institutions",hë ti qishana-m kigëpu-yu he?,Will you correct a public record?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300019,"Civil rights, public policy and institutions",sen mi kekëmo-m kikhogi.,I challenge discrimination.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300020,"Civil rights, public policy and institutions",dal mi kekëmo-m kikhogi-yu.,I will challenge discrimination.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300021,"Civil rights, public policy and institutions",hë ti kekëmo-m kikhogi-yu he?,Will you challenge discrimination?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300022,"Civil rights, public policy and institutions",sen mi qibazho-m kinëshi.,I interpret a statute.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300023,"Civil rights, public policy and institutions",dal mi qibazho-m kinëshi-yu.,I will interpret a statute.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300024,"Civil rights, public policy and institutions",hë ti qibazho-m kinëshi-yu he?,Will you interpret a statute?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300025,"Civil rights, public policy and institutions",sen mi yudoheqisosa-m kiporu.,I attend a public hearing.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300026,"Civil rights, public policy and institutions",dal mi yudoheqisosa-m kiporu-yu.,I will attend a public hearing.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300027,"Civil rights, public policy and institutions",hë ti yudoheqisosa-m kiporu-yu he?,Will you attend a public hearing?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300028,"Civil rights, public policy and institutions",sen mi qilako-m kiqanu.,I disclose a conflict of interest.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300029,"Civil rights, public policy and institutions",dal mi qilako-m kiqanu-yu.,I will disclose a conflict of interest.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300030,"Civil rights, public policy and institutions",hë ti qilako-m kiqanu-yu he?,Will you disclose a conflict of interest?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300031,"Civil rights, public policy and institutions",sen mi kikhada-m kirokhu.,I invoke a legal remedy.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300032,"Civil rights, public policy and institutions",dal mi kikhada-m kirokhu-yu.,I will invoke a legal remedy.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300033,"Civil rights, public policy and institutions",hë ti kikhada-m kirokhu-yu he?,Will you invoke a legal remedy?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300034,"Civil rights, public policy and institutions",sen mi qiwama-m kisaki.,I request legal aid.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300035,"Civil rights, public policy and institutions",dal mi qiwama-m kisaki-yu.,I will request legal aid.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300036,"Civil rights, public policy and institutions",hë ti qiwama-m kisaki-yu he?,Will you request legal aid?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300037,"Civil rights, public policy and institutions",sen mi kizhisa-m kitolu.,I file an administrative appeal.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300038,"Civil rights, public policy and institutions",dal mi kizhisa-m kitolu-yu.,I will file an administrative appeal.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300039,"Civil rights, public policy and institutions",hë ti kizhisa-m kitolu-yu he?,Will you file an administrative appeal?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300040,"Civil rights, public policy and institutions",sen mi wekesho-m kizhisi.,I petition a legislature.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300041,"Civil rights, public policy and institutions",dal mi wekesho-m kizhisi-yu.,I will petition a legislature.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300042,"Civil rights, public policy and institutions",hë ti wekesho-m kizhisi-yu he?,Will you petition a legislature?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300043,"Cybersecurity, privacy and artificial intelligence",sen mi bozaga-m koniri.,I review a threat model.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300044,"Cybersecurity, privacy and artificial intelligence",dal mi bozaga-m koniri-yu.,I will review a threat model.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300045,"Cybersecurity, privacy and artificial intelligence",hë ti bozaga-m koniri-yu he?,Will you review a threat model?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300046,"Cybersecurity, privacy and artificial intelligence",sen mi shërawëmiho-m korësi.,I pseudonymize an account.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300047,"Cybersecurity, privacy and artificial intelligence",dal mi shërawëmiho-m korësi-yu.,I will pseudonymize an account.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300048,"Cybersecurity, privacy and artificial intelligence",hë ti shërawëmiho-m korësi-yu he?,Will you pseudonymize an account?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300049,"Cybersecurity, privacy and artificial intelligence",sen mi koruka-m kotusi.,I enforce least privilege.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300050,"Cybersecurity, privacy and artificial intelligence",dal mi koruka-m kotusi-yu.,I will enforce least privilege.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300051,"Cybersecurity, privacy and artificial intelligence",hë ti koruka-m kotusi-yu he?,Will you enforce least privilege?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300052,"Cybersecurity, privacy and artificial intelligence",sen mi boqogo-m kozosu.,I verify a cryptographic signature.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300053,"Cybersecurity, privacy and artificial intelligence",dal mi boqogo-m kozosu-yu.,I will verify a cryptographic signature.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300054,"Cybersecurity, privacy and artificial intelligence",hë ti boqogo-m kozosu-yu he?,Will you verify a cryptographic signature?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300055,"Cybersecurity, privacy and artificial intelligence",sen mi kohango-m kozuqu.,I detect prompt injection.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300056,"Cybersecurity, privacy and artificial intelligence",dal mi kohango-m kozuqu-yu.,I will detect prompt injection.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300057,"Cybersecurity, privacy and artificial intelligence",hë ti kohango-m kozuqu-yu he?,Will you detect prompt injection?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300058,"Ecology, evolution and stewardship",sen mi kuhato-m kudësu.,I preserve a seed bank.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300059,"Ecology, evolution and stewardship",dal mi kuhato-m kudësu-yu.,I will preserve a seed bank.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300060,"Ecology, evolution and stewardship",hë ti kuhato-m kudësu-yu he?,Will you preserve a seed bank?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300061,"Ecology, evolution and stewardship",sen mi zenguqa-m kukoyi.,I survey biodiversity.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300062,"Ecology, evolution and stewardship",dal mi zenguqa-m kukoyi-yu.,I will survey biodiversity.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300063,"Ecology, evolution and stewardship",hë ti zenguqa-m kukoyi-yu he?,Will you survey biodiversity?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300064,"Ecology, evolution and stewardship",sen mi rashota-m kulasu.,I evaluate ecosystem resilience.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300065,"Ecology, evolution and stewardship",dal mi rashota-m kulasu-yu.,I will evaluate ecosystem resilience.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300066,"Ecology, evolution and stewardship",hë ti rashota-m kulasu-yu he?,Will you evaluate ecosystem resilience?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300067,"Ecology, evolution and stewardship",sen mi kuzako-m kuraki.,I minimize nesting disturbance.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300068,"Ecology, evolution and stewardship",dal mi kuzako-m kuraki-yu.,I will minimize nesting disturbance.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300069,"Ecology, evolution and stewardship",hë ti kuzako-m kuraki-yu he?,Will you minimize nesting disturbance?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300070,"Ecology, evolution and stewardship",sen mi zeyëngo-m kushiku.,I reintroduce a species.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300071,"Ecology, evolution and stewardship",dal mi zeyëngo-m kushiku-yu.,I will reintroduce a species.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300072,"Ecology, evolution and stewardship",hë ti zeyëngo-m kushiku-yu he?,Will you reintroduce a species?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300073,"Ecology, evolution and stewardship",sen mi kungëngo-m kushuwi.,I restore a habitat corridor.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300074,"Ecology, evolution and stewardship",dal mi kungëngo-m kushuwi-yu.,I will restore a habitat corridor.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300075,"Ecology, evolution and stewardship",hë ti kungëngo-m kushuwi-yu he?,Will you restore a habitat corridor?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300076,"Ecology, evolution and stewardship",sen mi kuqido-m kuwemu.,I collect environmental DNA.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300077,"Ecology, evolution and stewardship",dal mi kuqido-m kuwemu-yu.,I will collect environmental DNA.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300078,"Ecology, evolution and stewardship",hë ti kuqido-m kuwemu-yu he?,Will you collect environmental DNA?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300079,"Ecology, evolution and stewardship",sen mi kimarao-m kuyami.,I restore a wetland.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300080,"Ecology, evolution and stewardship",dal mi kimarao-m kuyami-yu.,I will restore a wetland.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300081,"Ecology, evolution and stewardship",hë ti kimarao-m kuyami-yu he?,Will you restore a wetland?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300082,"Economic life, work and household finance",sen mi shërawëmiho-m këdoyi.,I reconcile an account.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300083,"Economic life, work and household finance",dal mi shërawëmiho-m këdoyi-yu.,I will reconcile an account.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300084,"Economic life, work and household finance",hë ti shërawëmiho-m këdoyi-yu he?,Will you reconcile an account?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300085,"Economic life, work and household finance",sen mi sekosha-m këgoyu.,I track an expense.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300086,"Economic life, work and household finance",dal mi sekosha-m këgoyu-yu.,I will track an expense.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300087,"Economic life, work and household finance",hë ti sekosha-m këgoyu-yu he?,Will you track an expense?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300088,"Economic life, work and household finance",sen mi këyeza-m këmogu.,I request wage transparency.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300089,"Economic life, work and household finance",dal mi këyeza-m këmogu-yu.,I will request wage transparency.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300090,"Economic life, work and household finance",hë ti këyeza-m këmogu-yu he?,Will you request wage transparency?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300091,"Economic life, work and household finance",sen mi sezaha-m këtegi.,I document a payment.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300092,"Economic life, work and household finance",dal mi sezaha-m këtegi-yu.,I will document a payment.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300093,"Economic life, work and household finance",hë ti sezaha-m këtegi-yu he?,Will you document a payment?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300094,"Economic life, work and household finance",sen mi senima-m këzhazu.,I request a refund.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300095,"Economic life, work and household finance",dal mi senima-m këzhazu-yu.,I will request a refund.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300096,"Economic life, work and household finance",hë ti senima-m këzhazu-yu he?,Will you request a refund?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300097,"Planetary astronomy, space and climate",sen mi rasëya-m ragewi.,I estimate impact probability.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300098,"Planetary astronomy, space and climate",dal mi rasëya-m ragewi-yu.,I will estimate impact probability.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300099,"Planetary astronomy, space and climate",hë ti rasëya-m ragewi-yu he?,Will you estimate impact probability?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300100,"Planetary astronomy, space and climate",sen mi suzaqo-m rahemi.,I calibrate a telescope.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300101,"Planetary astronomy, space and climate",dal mi suzaqo-m rahemi-yu.,I will calibrate a telescope.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300102,"Planetary astronomy, space and climate",hë ti suzaqo-m rahemi-yu he?,Will you calibrate a telescope?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300103,"Planetary astronomy, space and climate",sen mi ragëya-m ramakhu.,I identify a biosignature.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300104,"Planetary astronomy, space and climate",dal mi ragëya-m ramakhu-yu.,I will identify a biosignature.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300105,"Planetary astronomy, space and climate",hë ti ragëya-m ramakhu-yu he?,Will you identify a biosignature?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300106,"Planetary astronomy, space and climate",sen mi ragiyo-m ranëbi.,I measure a spectral line.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300107,"Planetary astronomy, space and climate",dal mi ragiyo-m ranëbi-yu.,I will measure a spectral line.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300108,"Planetary astronomy, space and climate",hë ti ragiyo-m ranëbi-yu he?,Will you measure a spectral line?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300109,"Planetary astronomy, space and climate",sen mi rakëso-m ratidi.,I monitor atmospheric entry.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300110,"Planetary astronomy, space and climate",dal mi rakëso-m ratidi-yu.,I will monitor atmospheric entry.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300111,"Planetary astronomy, space and climate",hë ti rakëso-m ratidi-yu he?,Will you monitor atmospheric entry?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300112,"Planetary astronomy, space and climate",sen mi luhiwo-m rawëqu.,I detect a greenhouse gas.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300113,"Planetary astronomy, space and climate",dal mi luhiwo-m rawëqu-yu.,I will detect a greenhouse gas.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300114,"Planetary astronomy, space and climate",hë ti luhiwo-m rawëqu-yu he?,Will you detect a greenhouse gas?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300115,"Qaroshi social life, roosting and development",sen mi banuwa-m ringoyu.,I inspect a wing membrane.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300116,"Qaroshi social life, roosting and development",dal mi banuwa-m ringoyu-yu.,I will inspect a wing membrane.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300117,"Qaroshi social life, roosting and development",hë ti banuwa-m ringoyu-yu he?,Will you inspect a wing membrane?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300118,"Qaroshi social life, roosting and development",sen mi riluko-m riqenu.,I honor airspace etiquette.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300119,"Qaroshi social life, roosting and development",dal mi riluko-m riqenu-yu.,I will honor airspace etiquette.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300120,"Qaroshi social life, roosting and development",hë ti riluko-m riqenu-yu he?,Will you honor airspace etiquette?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300121,"Qaroshi social life, roosting and development",sen mi riwëza-m riquhi.,I perform a mourning flight.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300122,"Qaroshi social life, roosting and development",dal mi riwëza-m riquhi-yu.,I will perform a mourning flight.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300123,"Qaroshi social life, roosting and development",hë ti riwëza-m riquhi-yu he?,Will you perform a mourning flight?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300124,"Rhetoric, dialogue and language learning",sen mi romaro-m roboqi.,I provide an interlinear gloss.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300125,"Rhetoric, dialogue and language learning",dal mi romaro-m roboqi-yu.,I will provide an interlinear gloss.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300126,"Rhetoric, dialogue and language learning",hë ti romaro-m roboqi-yu he?,Will you provide an interlinear gloss?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300127,"Rhetoric, dialogue and language learning",sen mi marashi-m rokheshi.,I preserve an oral tradition.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300128,"Rhetoric, dialogue and language learning",dal mi marashi-m rokheshi-yu.,I will preserve an oral tradition.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300129,"Rhetoric, dialogue and language learning",hë ti marashi-m rokheshi-yu he?,Will you preserve an oral tradition?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300130,"Rhetoric, dialogue and language learning",sen mi ngizhisha-m rolezhu.,I explain an idiom.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300131,"Rhetoric, dialogue and language learning",dal mi ngizhisha-m rolezhu-yu.,I will explain an idiom.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300132,"Rhetoric, dialogue and language learning",hë ti ngizhisha-m rolezhu-yu he?,Will you explain an idiom?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300133,"Rhetoric, dialogue and language learning",sen mi ropëya-m rometi.,I mark a morpheme boundary.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300134,"Rhetoric, dialogue and language learning",dal mi ropëya-m rometi-yu.,I will mark a morpheme boundary.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300135,"Rhetoric, dialogue and language learning",hë ti ropëya-m rometi-yu he?,Will you mark a morpheme boundary?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300136,"Rhetoric, dialogue and language learning",sen mi surozho-m romoyi.,I hedge a prediction.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300137,"Rhetoric, dialogue and language learning",dal mi surozho-m romoyi-yu.,I will hedge a prediction.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300138,"Rhetoric, dialogue and language learning",hë ti surozho-m romoyi-yu he?,Will you hedge a prediction?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300139,"Rhetoric, dialogue and language learning",sen mi kegëza-m rongeki.,I reformulate an argument.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300140,"Rhetoric, dialogue and language learning",dal mi kegëza-m rongeki-yu.,I will reformulate an argument.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300141,"Rhetoric, dialogue and language learning",hë ti kegëza-m rongeki-yu he?,Will you reformulate an argument?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300142,"Rhetoric, dialogue and language learning",sen mi rokango-m roningi.,I repair a misquotation.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300143,"Rhetoric, dialogue and language learning",dal mi rokango-m roningi-yu.,I will repair a misquotation.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300144,"Rhetoric, dialogue and language learning",hë ti rokango-m roningi-yu he?,Will you repair a misquotation?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300145,"Rhetoric, dialogue and language learning",sen mi ngikhango-m rotari.,I document a dialect.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300146,"Rhetoric, dialogue and language learning",dal mi ngikhango-m rotari-yu.,I will document a dialect.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300147,"Rhetoric, dialogue and language learning",hë ti ngikhango-m rotari-yu he?,Will you document a dialect?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300148,"Rhetoric, dialogue and language learning",sen mi shërawëmara-m rotushi.,I disambiguate a pronoun.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300149,"Rhetoric, dialogue and language learning",dal mi shërawëmara-m rotushi-yu.,I will disambiguate a pronoun.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300150,"Rhetoric, dialogue and language learning",hë ti shërawëmara-m rotushi-yu he?,Will you disambiguate a pronoun?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300151,"Rhetoric, dialogue and language learning",sen mi zhënohozhilazo-m royizu.,I challenge a false dilemma.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300152,"Rhetoric, dialogue and language learning",dal mi zhënohozhilazo-m royizu-yu.,I will challenge a false dilemma.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300153,"Rhetoric, dialogue and language learning",hë ti zhënohozhilazo-m royizu-yu he?,Will you challenge a false dilemma?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300154,"Sports, games and skill development",sen mi ruhudo-m rudikhu.,I take a strategic timeout.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300155,"Sports, games and skill development",dal mi ruhudo-m rudikhu-yu.,I will take a strategic timeout.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300156,"Sports, games and skill development",hë ti ruhudo-m rudikhu-yu he?,Will you take a strategic timeout?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300157,"Sports, games and skill development",sen mi rukhoyo-m rulëri.,I review a match replay.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300158,"Sports, games and skill development",dal mi rukhoyo-m rulëri-yu.,I will review a match replay.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300159,"Sports, games and skill development",hë ti rukhoyo-m rulëri-yu he?,Will you review a match replay?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300160,"Sports, games and skill development",sen mi qabëpo-m runeshi.,I assess reaction time.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300161,"Sports, games and skill development",dal mi qabëpo-m runeshi-yu.,I will assess reaction time.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300162,"Sports, games and skill development",hë ti qabëpo-m runeshi-yu he?,Will you assess reaction time?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300163,"Sports, games and skill development",sen mi rupuqo-m rupubi.,I train spatial awareness.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300164,"Sports, games and skill development",dal mi rupuqo-m rupubi-yu.,I will train spatial awareness.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300165,"Sports, games and skill development",hë ti rupuqo-m rupubi-yu he?,Will you train spatial awareness?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300166,"Sports, games and skill development",sen mi ruzhito-m ruriwi.,I host a community tournament.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300167,"Sports, games and skill development",dal mi ruzhito-m ruriwi-yu.,I will host a community tournament.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300168,"Sports, games and skill development",hë ti ruzhito-m ruriwi-yu he?,Will you host a community tournament?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300169,"Sports, games and skill development",sen mi rukhuko-m ruzebi.,I manage performance anxiety.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300170,"Sports, games and skill development",dal mi rukhuko-m ruzebi-yu.,I will manage performance anxiety.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300171,"Sports, games and skill development",hë ti rukhuko-m ruzebi-yu he?,Will you manage performance anxiety?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300172,"Health, medicine and care ethics",sen mi tashulo-m takëli.,I provide discharge instructions.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300173,"Health, medicine and care ethics",dal mi tashulo-m takëli-yu.,I will provide discharge instructions.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300174,"Health, medicine and care ethics",hë ti tashulo-m takëli-yu he?,Will you provide discharge instructions?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300175,"Health, medicine and care ethics",sen mi pizikha-m tamewu.,I give informed consent.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300176,"Health, medicine and care ethics",dal mi pizikha-m tamewu-yu.,I will give informed consent.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300177,"Health, medicine and care ethics",hë ti pizikha-m tamewu-yu he?,Will you give informed consent?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300178,"Health, medicine and care ethics",sen mi gumuba-m tamoyu.,I prevent an infection.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300179,"Health, medicine and care ethics",dal mi gumuba-m tamoyu-yu.,I will prevent an infection.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300180,"Health, medicine and care ethics",hë ti gumuba-m tamoyu-yu he?,Will you prevent an infection?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300181,"Health, medicine and care ethics",sen mi tagëlo-m tanasi.,I request an accessible care plan.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300182,"Health, medicine and care ethics",dal mi tagëlo-m tanasi-yu.,I will request an accessible care plan.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300183,"Health, medicine and care ethics",hë ti tagëlo-m tanasi-yu he?,Will you request an accessible care plan?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300184,"Health, medicine and care ethics",sen mi gukezho-m tanëzi.,I correct a medical record.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300185,"Health, medicine and care ethics",dal mi gukezho-m tanëzi-yu.,I will correct a medical record.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300186,"Health, medicine and care ethics",hë ti gukezho-m tanëzi-yu he?,Will you correct a medical record?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300187,"Health, medicine and care ethics",sen mi guzozho-m taqupi.,I reassess a diagnosis.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300188,"Health, medicine and care ethics",dal mi guzozho-m taqupi-yu.,I will reassess a diagnosis.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300189,"Health, medicine and care ethics",hë ti guzozho-m taqupi-yu he?,Will you reassess a diagnosis?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300190,"Health, medicine and care ethics",sen mi guzhana-m tazohu.,I report an adverse reaction.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300191,"Health, medicine and care ethics",dal mi guzhana-m tazohu-yu.,I will report an adverse reaction.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300192,"Health, medicine and care ethics",hë ti guzhana-m tazohu-yu he?,Will you report an adverse reaction?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300193,"Infrastructure, logistics and public safety",sen mi sehungo-m tehetu.,I track a shipment.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300194,"Infrastructure, logistics and public safety",dal mi sehungo-m tehetu-yu.,I will track a shipment.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300195,"Infrastructure, logistics and public safety",hë ti sehungo-m tehetu-yu he?,Will you track a shipment?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300196,"Infrastructure, logistics and public safety",sen mi terëbo-m tekhozi.,I schedule preventative maintenance.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300197,"Infrastructure, logistics and public safety",dal mi terëbo-m tekhozi-yu.,I will schedule preventative maintenance.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300198,"Infrastructure, logistics and public safety",hë ti terëbo-m tekhozi-yu he?,Will you schedule preventative maintenance?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300199,"Infrastructure, logistics and public safety",sen mi zhalarokharo-m temuqi.,I verify a smoke alarm.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300200,"Infrastructure, logistics and public safety",dal mi zhalarokharo-m temuqi-yu.,I will verify a smoke alarm.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300201,"Infrastructure, logistics and public safety",hë ti zhalarokharo-m temuqi-yu he?,Will you verify a smoke alarm?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300202,"Infrastructure, logistics and public safety",sen mi tesësho-m teshapi.,I file a customs declaration.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300203,"Infrastructure, logistics and public safety",dal mi tesësho-m teshapi-yu.,I will file a customs declaration.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300204,"Infrastructure, logistics and public safety",hë ti tesësho-m teshapi-yu he?,Will you file a customs declaration?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300205,"Infrastructure, logistics and public safety",sen mi tedosho-m tezhihi.,I activate a failover route.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300206,"Infrastructure, logistics and public safety",dal mi tedosho-m tezhihi-yu.,I will activate a failover route.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300207,"Infrastructure, logistics and public safety",hë ti tedosho-m tezhihi-yu he?,Will you activate a failover route?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300208,"Mathematics, epistemology and research method",sen mi tingira-m tidoshu.,I test a boundary condition.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300209,"Mathematics, epistemology and research method",dal mi tingira-m tidoshu-yu.,I will test a boundary condition.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300210,"Mathematics, epistemology and research method",hë ti tingira-m tidoshu-yu he?,Will you test a boundary condition?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300211,"Mathematics, epistemology and research method",sen mi tilungo-m tidoyi.,I perform sensitivity analysis.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300212,"Mathematics, epistemology and research method",dal mi tilungo-m tidoyi-yu.,I will perform sensitivity analysis.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300213,"Mathematics, epistemology and research method",hë ti tilungo-m tidoyi-yu he?,Will you perform sensitivity analysis?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300214,"Mathematics, epistemology and research method",sen mi tikhaqo-m tigeli.,I compute a probability distribution.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300215,"Mathematics, epistemology and research method",dal mi tikhaqo-m tigeli-yu.,I will compute a probability distribution.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300216,"Mathematics, epistemology and research method",hë ti tikhaqo-m tigeli-yu he?,Will you compute a probability distribution?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300217,"Mathematics, epistemology and research method",sen mi tikhëya-m tigoqi.,I validate a model assumption.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300218,"Mathematics, epistemology and research method",dal mi tikhëya-m tigoqi-yu.,I will validate a model assumption.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300219,"Mathematics, epistemology and research method",hë ti tikhëya-m tigoqi-yu he?,Will you validate a model assumption?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300220,"Mathematics, epistemology and research method",sen mi tidëda-m tihapu.,I optimize an objective function.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300221,"Mathematics, epistemology and research method",dal mi tidëda-m tihapu-yu.,I will optimize an objective function.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300222,"Mathematics, epistemology and research method",hë ti tidëda-m tihapu-yu he?,Will you optimize an objective function?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300223,"Mathematics, epistemology and research method",sen mi tiqisa-m tihodi.,I document data provenance.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300224,"Mathematics, epistemology and research method",dal mi tiqisa-m tihodi-yu.,I will document data provenance.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300225,"Mathematics, epistemology and research method",hë ti tiqisa-m tihodi-yu he?,Will you document data provenance?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300226,"Mathematics, epistemology and research method",sen mi tigësha-m tikhuru.,I bound an approximation error.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300227,"Mathematics, epistemology and research method",dal mi tigësha-m tikhuru-yu.,I will bound an approximation error.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300228,"Mathematics, epistemology and research method",hë ti tigësha-m tikhuru-yu he?,Will you bound an approximation error?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300229,"Mathematics, epistemology and research method",sen mi sukhado-m tingoyu.,I replicate an experiment.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300230,"Mathematics, epistemology and research method",dal mi sukhado-m tingoyu-yu.,I will replicate an experiment.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300231,"Mathematics, epistemology and research method",hë ti sukhado-m tingoyu-yu he?,Will you replicate an experiment?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300232,"Mathematics, epistemology and research method",sen mi sumaqa-m tiqomu.,I publish a replication.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300233,"Mathematics, epistemology and research method",dal mi sumaqa-m tiqomu-yu.,I will publish a replication.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300234,"Mathematics, epistemology and research method",hë ti sumaqa-m tiqomu-yu he?,Will you publish a replication?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300235,"Mathematics, epistemology and research method",sen mi tibanga-m tiraqi.,I calculate an effect size.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300236,"Mathematics, epistemology and research method",dal mi tibanga-m tiraqi-yu.,I will calculate an effect size.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300237,"Mathematics, epistemology and research method",hë ti tibanga-m tiraqi-yu he?,Will you calculate an effect size?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300238,"Mathematics, epistemology and research method",sen mi zosebo-m titagi.,I derive a theorem.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300239,"Mathematics, epistemology and research method",dal mi zosebo-m titagi-yu.,I will derive a theorem.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300240,"Mathematics, epistemology and research method",hë ti zosebo-m titagi-yu he?,Will you derive a theorem?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300241,"Mathematics, epistemology and research method",sen mi zhingena-m titomi.,I quantify uncertainty.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300242,"Mathematics, epistemology and research method",dal mi zhingena-m titomi-yu.,I will quantify uncertainty.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300243,"Mathematics, epistemology and research method",hë ti zhingena-m titomi-yu he?,Will you quantify uncertainty?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300244,"Mathematics, epistemology and research method",sen mi tiwaho-m tiwukhi.,I verify unit consistency.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300245,"Mathematics, epistemology and research method",dal mi tiwaho-m tiwukhi-yu.,I will verify unit consistency.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300246,"Mathematics, epistemology and research method",hë ti tiwaho-m tiwukhi-yu he?,Will you verify unit consistency?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300247,"Mathematics, epistemology and research method",sen mi tizugo-m tiwëdi.,I construct a counterexample.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300248,"Mathematics, epistemology and research method",dal mi tizugo-m tiwëdi-yu.,I will construct a counterexample.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300249,"Mathematics, epistemology and research method",hë ti tizugo-m tiwëdi-yu he?,Will you construct a counterexample?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300250,"Mathematics, epistemology and research method",sen mi tisheso-m tiyubu.,I evaluate statistical power.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300251,"Mathematics, epistemology and research method",dal mi tisheso-m tiyubu-yu.,I will evaluate statistical power.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300252,"Mathematics, epistemology and research method",hë ti tisheso-m tiyubu-yu he?,Will you evaluate statistical power?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300253,"Mathematics, epistemology and research method",sen mi ngirunga-m tizhidi.,I preregister a study.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300254,"Mathematics, epistemology and research method",dal mi ngirunga-m tizhidi-yu.,I will preregister a study.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300255,"Mathematics, epistemology and research method",hë ti ngirunga-m tizhidi-yu he?,Will you preregister a study?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300256,"Media, storytelling and critical expression",sen mi bomayo-m tobuli.,I moderate a livestream.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300257,"Media, storytelling and critical expression",dal mi bomayo-m tobuli-yu.,I will moderate a livestream.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300258,"Media, storytelling and critical expression",hë ti bomayo-m tobuli-yu he?,Will you moderate a livestream?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300259,"Media, storytelling and critical expression",sen mi shiraro-m tobëqu.,I subtitle a dialogue.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300260,"Media, storytelling and critical expression",dal mi shiraro-m tobëqu-yu.,I will subtitle a dialogue.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300261,"Media, storytelling and critical expression",hë ti shiraro-m tobëqu-yu he?,Will you subtitle a dialogue?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300262,"Media, storytelling and critical expression",sen mi tozalo-m topeni.,I interpret subtext.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300263,"Media, storytelling and critical expression",dal mi tozalo-m topeni-yu.,I will interpret subtext.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300264,"Media, storytelling and critical expression",hë ti tozalo-m topeni-yu he?,Will you interpret subtext?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300265,"Media, storytelling and critical expression",sen mi deheto-m toruki.,I dub a performance.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300266,"Media, storytelling and critical expression",dal mi deheto-m toruki-yu.,I will dub a performance.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300267,"Media, storytelling and critical expression",hë ti deheto-m toruki-yu he?,Will you dub a performance?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300268,"Media, storytelling and critical expression",sen mi zokëpa-m totudi.,I storyboard a sequence.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300269,"Media, storytelling and critical expression",dal mi zokëpa-m totudi-yu.,I will storyboard a sequence.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300270,"Media, storytelling and critical expression",hë ti zokëpa-m totudi-yu he?,Will you storyboard a sequence?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300271,"Media, storytelling and critical expression",sen mi morushi-m towëru.,I remaster a recording.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300272,"Media, storytelling and critical expression",dal mi morushi-m towëru-yu.,I will remaster a recording.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300273,"Media, storytelling and critical expression",hë ti morushi-m towëru-yu he?,Will you remaster a recording?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300274,"Media, storytelling and critical expression",sen mi deheto-m tozhudi.,I annotate a performance.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300275,"Media, storytelling and critical expression",dal mi deheto-m tozhudi-yu.,I will annotate a performance.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300276,"Media, storytelling and critical expression",hë ti deheto-m tozhudi-yu he?,Will you annotate a performance?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300277,"Organizational decisions, ethics and collaboration",sen mi shëmo-m tubaki.,I mediate a disagreement.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300278,"Organizational decisions, ethics and collaboration",dal mi shëmo-m tubaki-yu.,I will mediate a disagreement.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300279,"Organizational decisions, ethics and collaboration",hë ti shëmo-m tubaki-yu he?,Will you mediate a disagreement?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300280,"Organizational decisions, ethics and collaboration",sen mi zhirëba-m tudedi.,I document a decision.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300281,"Organizational decisions, ethics and collaboration",dal mi zhirëba-m tudedi-yu.,I will document a decision.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300282,"Organizational decisions, ethics and collaboration",hë ti zhirëba-m tudedi-yu he?,Will you document a decision?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300283,"Organizational decisions, ethics and collaboration",sen mi wëmaho-m tuheku.,I assign responsibility.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300284,"Organizational decisions, ethics and collaboration",dal mi wëmaho-m tuheku-yu.,I will assign responsibility.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300285,"Organizational decisions, ethics and collaboration",hë ti wëmaho-m tuheku-yu he?,Will you assign responsibility?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300286,"Organizational decisions, ethics and collaboration",sen mi tumaza-m turëhu.,I prepare a rollback plan.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300287,"Organizational decisions, ethics and collaboration",dal mi tumaza-m turëhu-yu.,I will prepare a rollback plan.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300288,"Organizational decisions, ethics and collaboration",hë ti tumaza-m turëhu-yu he?,Will you prepare a rollback plan?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300289,"Organizational decisions, ethics and collaboration",sen mi qilako-m tuyizu.,I resolve a conflict of interest.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300290,"Organizational decisions, ethics and collaboration",dal mi qilako-m tuyizu-yu.,I will resolve a conflict of interest.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300291,"Organizational decisions, ethics and collaboration",hë ti qilako-m tuyizu-yu he?,Will you resolve a conflict of interest?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300292,"Organizational decisions, ethics and collaboration",sen mi tukhëlo-m tuzaqu.,I update a risk register.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300293,"Organizational decisions, ethics and collaboration",dal mi tukhëlo-m tuzaqu-yu.,I will update a risk register.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300294,"Organizational decisions, ethics and collaboration",hë ti tukhëlo-m tuzaqu-yu he?,Will you update a risk register?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300295,"Organizational decisions, ethics and collaboration",sen mi tubigo-m tuzhengi.,I obtain informed participation.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300296,"Organizational decisions, ethics and collaboration",dal mi tubigo-m tuzhengi-yu.,I will obtain informed participation.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300297,"Organizational decisions, ethics and collaboration",hë ti tubigo-m tuzhengi-yu he?,Will you obtain informed participation?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300298,"Organizational decisions, ethics and collaboration",sen mi tuyekha-m tuzhuki.,I evaluate acceptance criteria.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300299,"Organizational decisions, ethics and collaboration",dal mi tuyekha-m tuzhuki-yu.,I will evaluate acceptance criteria.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300300,"Organizational decisions, ethics and collaboration",hë ti tuyekha-m tuzhuki-yu he?,Will you evaluate acceptance criteria?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300301,"Education, learning and expertise",sen mi ngiwasho-m wagënu.,I revise a thesis.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300302,"Education, learning and expertise",dal mi ngiwasho-m wagënu-yu.,I will revise a thesis.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300303,"Education, learning and expertise",hë ti ngiwasho-m wagënu-yu he?,Will you revise a thesis?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300304,"Education, learning and expertise",sen mi ngigala-m wahotu.,I adjust a lesson.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300305,"Education, learning and expertise",dal mi ngigala-m wahotu-yu.,I will adjust a lesson.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300306,"Education, learning and expertise",hë ti ngigala-m wahotu-yu he?,Will you adjust a lesson?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300307,"Education, learning and expertise",sen mi ngimuka-m wakhasi.,I check academic integrity.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300308,"Education, learning and expertise",dal mi ngimuka-m wakhasi-yu.,I will check academic integrity.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300309,"Education, learning and expertise",hë ti ngimuka-m wakhasi-yu he?,Will you check academic integrity?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300310,"Education, learning and expertise",sen mi wahasa-m wakhizi.,I map a learning progression.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300311,"Education, learning and expertise",dal mi wahasa-m wakhizi-yu.,I will map a learning progression.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300312,"Education, learning and expertise",hë ti wahasa-m wakhizi-yu he?,Will you map a learning progression?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300313,"Education, learning and expertise",sen mi wadozho-m wakhënu.,I define a learning objective.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300314,"Education, learning and expertise",dal mi wadozho-m wakhënu-yu.,I will define a learning objective.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300315,"Education, learning and expertise",hë ti wadozho-m wakhënu-yu he?,Will you define a learning objective?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300316,"Education, learning and expertise",sen mi wabima-m wanozhu.,I schedule spaced repetition.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300317,"Education, learning and expertise",dal mi wabima-m wanozhu-yu.,I will schedule spaced repetition.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300318,"Education, learning and expertise",hë ti wabima-m wanozhu-yu he?,Will you schedule spaced repetition?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300319,"Education, learning and expertise",sen mi wagema-m wapidu.,I build a vocabulary deck.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300320,"Education, learning and expertise",dal mi wagema-m wapidu-yu.,I will build a vocabulary deck.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300321,"Education, learning and expertise",hë ti wagema-m wapidu-yu he?,Will you build a vocabulary deck?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300322,"Education, learning and expertise",sen mi wagëzo-m wasoshu.,I explain a worked example.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300323,"Education, learning and expertise",dal mi wagëzo-m wasoshu-yu.,I will explain a worked example.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300324,"Education, learning and expertise",hë ti wagëzo-m wasoshu-yu he?,Will you explain a worked example?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300325,"Education, learning and expertise",sen mi wakhipo-m wawongu.,I practice oral fluency.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300326,"Education, learning and expertise",dal mi wakhipo-m wawongu-yu.,I will practice oral fluency.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300327,"Education, learning and expertise",hë ti wakhipo-m wawongu-yu he?,Will you practice oral fluency?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300328,"Education, learning and expertise",sen mi tilanga-m wayuku.,I evaluate source reliability.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300329,"Education, learning and expertise",dal mi tilanga-m wayuku-yu.,I will evaluate source reliability.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300330,"Education, learning and expertise",hë ti tilanga-m wayuku-yu he?,Will you evaluate source reliability?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300331,"Education, learning and expertise",sen mi ngitësha-m wazëshi.,I summarize a chapter.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300332,"Education, learning and expertise",dal mi ngitësha-m wazëshi-yu.,I will summarize a chapter.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300333,"Education, learning and expertise",hë ti ngitësha-m wazëshi-yu he?,Will you summarize a chapter?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300334,Emotional precision and relationship language,sen mi keshibo-m widihu.,I decline an apology.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300335,Emotional precision and relationship language,dal mi keshibo-m widihu-yu.,I will decline an apology.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300336,Emotional precision and relationship language,hë ti keshibo-m widihu-yu he?,Will you decline an apology?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300337,Emotional precision and relationship language,sen mi shëna-m widonu.,I repair trust.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300338,Emotional precision and relationship language,dal mi shëna-m widonu-yu.,I will repair trust.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300339,Emotional precision and relationship language,hë ti shëna-m widonu-yu he?,Will you repair trust?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300340,Emotional precision and relationship language,sen mi noha-m wimëngi.,I disclose a boundary.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300341,Emotional precision and relationship language,dal mi noha-m wimëngi-yu.,I will disclose a boundary.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300342,Emotional precision and relationship language,hë ti noha-m wimëngi-yu he?,Will you disclose a boundary?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300343,Emotional precision and relationship language,sen mi kekhopa-m wizhazi.,I clarify a misunderstanding.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300344,Emotional precision and relationship language,dal mi kekhopa-m wizhazi-yu.,I will clarify a misunderstanding.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300345,Emotional precision and relationship language,hë ti kekhopa-m wizhazi-yu he?,Will you clarify a misunderstanding?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300346,Emotional precision and relationship language,sen mi ngëmo-m wizhuyu.,I acknowledge a mistake.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300347,Emotional precision and relationship language,dal mi ngëmo-m wizhuyu-yu.,I will acknowledge a mistake.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300348,Emotional precision and relationship language,hë ti ngëmo-m wizhuyu-yu he?,Will you acknowledge a mistake?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300349,"Flight mechanics, navigation and air safety",sen mi wokhuwa-m woboru.,I calculate a glide slope.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300350,"Flight mechanics, navigation and air safety",dal mi wokhuwa-m woboru-yu.,I will calculate a glide slope.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300351,"Flight mechanics, navigation and air safety",hë ti wokhuwa-m woboru-yu he?,Will you calculate a glide slope?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300352,"Flight mechanics, navigation and air safety",sen mi resada-m wolequ.,I confirm a waypoint.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300353,"Flight mechanics, navigation and air safety",dal mi resada-m wolequ-yu.,I will confirm a waypoint.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300354,"Flight mechanics, navigation and air safety",hë ti resada-m wolequ-yu he?,Will you confirm a waypoint?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300355,"Flight mechanics, navigation and air safety",sen mi wonoyo-m woloyi.,I monitor airspeed.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300356,"Flight mechanics, navigation and air safety",dal mi wonoyo-m woloyi-yu.,I will monitor airspeed.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300357,"Flight mechanics, navigation and air safety",hë ti wonoyo-m woloyi-yu he?,Will you monitor airspeed?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300358,"Flight mechanics, navigation and air safety",sen mi ngipala-m womayu.,I correct a heading.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300359,"Flight mechanics, navigation and air safety",dal mi ngipala-m womayu-yu.,I will correct a heading.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300360,"Flight mechanics, navigation and air safety",hë ti ngipala-m womayu-yu he?,Will you correct a heading?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300361,"Flight mechanics, navigation and air safety",sen mi wowaga-m woqoshi.,I maintain formation spacing.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300362,"Flight mechanics, navigation and air safety",dal mi wowaga-m woqoshi-yu.,I will maintain formation spacing.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300363,"Flight mechanics, navigation and air safety",hë ti wowaga-m woqoshi-yu he?,Will you maintain formation spacing?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300364,"Flight mechanics, navigation and air safety",sen mi wowingo-m wosohi.,I detect wind shear.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300365,"Flight mechanics, navigation and air safety",dal mi wowingo-m wosohi-yu.,I will detect wind shear.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300366,"Flight mechanics, navigation and air safety",hë ti wowingo-m wosohi-yu he?,Will you detect wind shear?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300367,"Flight mechanics, navigation and air safety",sen mi goroa-m woyangu.,I log a flight.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300368,"Flight mechanics, navigation and air safety",dal mi goroa-m woyangu-yu.,I will log a flight.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300369,"Flight mechanics, navigation and air safety",hë ti goroa-m woyangu-yu he?,Will you log a flight?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300370,"Flight mechanics, navigation and air safety",sen mi wokhukho-m woyowi.,I reduce wing loading.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300371,"Flight mechanics, navigation and air safety",dal mi wokhukho-m woyowi-yu.,I will reduce wing loading.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300372,"Flight mechanics, navigation and air safety",hë ti wokhukho-m woyowi-yu he?,Will you reduce wing loading?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300373,"Flight mechanics, navigation and air safety",sen mi wozena-m wozhisu.,I identify a downdraft.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300374,"Flight mechanics, navigation and air safety",dal mi wozena-m wozhisu-yu.,I will identify a downdraft.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300375,"Flight mechanics, navigation and air safety",hë ti wozena-m wozhisu-yu he?,Will you identify a downdraft?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300376,"Food systems, materials and everyday living",sen mi këmi-m wëguhu.,I batch-cook a meal.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300377,"Food systems, materials and everyday living",dal mi këmi-m wëguhu-yu.,I will batch-cook a meal.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300378,"Food systems, materials and everyday living",hë ti këmi-m wëguhu-yu he?,Will you batch-cook a meal?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300379,"Food systems, materials and everyday living",sen mi këmaro-m wënibu.,I adjust seasoning.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300380,"Food systems, materials and everyday living",dal mi këmaro-m wënibu-yu.,I will adjust seasoning.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300381,"Food systems, materials and everyday living",hë ti këmaro-m wënibu-yu he?,Will you adjust seasoning?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300382,"Food systems, materials and everyday living",sen mi mërawa-m wëyosu.,I repair a garment.,Unmarked finite present; overt object case -m,3.0,3.0 precise semantic patient
+S300383,"Food systems, materials and everyday living",dal mi mërawa-m wëyosu-yu.,I will repair a garment.,Firm Pulse with future -yu,3.0,3.0 precise semantic patient
+S300384,"Food systems, materials and everyday living",hë ti mërawa-m wëyosu-yu he?,Will you repair a garment?,Question he after the final verb; no double resonance,3.0,3.0 precise semantic patient
+S300385,Predicates,sen dëna kashala katunge.,This accessible entrance is step-free.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300386,Predicates,hë dëna kashala katunge he?,Is this accessible entrance step-free?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300387,Predicates,sen dëna kadeqa kadezhe.,This inclusive design is cognitively accessible.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300388,Predicates,hë dëna kadeqa kadezhe he?,Is this inclusive design cognitively accessible?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300389,Predicates,sen dëna kadozha kakemë.,This quiet room is low-stimulation.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300390,Predicates,hë dëna kadozha kakemë he?,Is this quiet room low-stimulation?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300391,Predicates,sen dëna ritiqa tutëkhë.,This shared roost agreement is consent-based.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300392,Predicates,hë dëna ritiqa tutëkhë he?,Is this shared roost agreement consent-based?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300393,Predicates,sen dëna rihuta rishukhe.,This seasonal roost is sheltered from the wind.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300394,Predicates,hë dëna rihuta rishukhe he?,Is this seasonal roost sheltered from the wind?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300395,Predicates,sen dëna riqopa wiyukhe.,This flight mentor is reassuring.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300396,Predicates,hë dëna riqopa wiyukhe he?,Is this flight mentor reassuring?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300397,Predicates,sen dëna womaro waquke.,This aerodynamics lesson is conceptually difficult.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300398,Predicates,hë dëna womaro waquke he?,Is this aerodynamics lesson conceptually difficult?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300399,Predicates,sen dëna wowupo tanoke.,This landing approach is time-sensitive.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300400,Predicates,hë dëna wowupo tanoke he?,Is this landing approach time-sensitive?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300401,Predicates,sen dëna womeka tutile.,This flight log is publicly documented.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300402,Predicates,hë dëna womeka tutile he?,Is this flight log publicly documented?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300403,Predicates,sen dëna wimëda wiqungë.,This mutual trust is something that builds trust.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300404,Predicates,hë dëna wimëda wiqungë he?,Is this mutual trust something that builds trust?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300405,Predicates,sen dëna wibira wizishe.,This boundary clarification is respectful of consent.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300406,Predicates,hë dëna wibira wizishe he?,Is this boundary clarification respectful of consent?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300407,Predicates,sen dëna wizhura wililë.,This shared nostalgia is emotionally reciprocal.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300408,Predicates,hë dëna wizhura wililë he?,Is this shared nostalgia emotionally reciprocal?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300409,Predicates,sen dëna koruka kozhëre.,This least privilege policy is privacy-preserving.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300410,Predicates,hë dëna koruka kozhëre he?,Is this least privilege policy privacy-preserving?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300411,Predicates,sen dëna konikho kodëze.,This reproducible build is reproducible.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300412,Predicates,hë dëna konikho kodëze he?,Is this reproducible build reproducible?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300413,Predicates,sen dëna kokheqo kozhëkë.,This device attestation is cryptographically verifiable.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300414,Predicates,hë dëna kokheqo kozhëkë he?,Is this device attestation cryptographically verifiable?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300415,Predicates,sen dëna kiqela tukokhë.,This public comment period is procedurally transparent.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300416,Predicates,hë dëna kiqela tukokhë he?,Is this public comment period procedurally transparent?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300417,Predicates,sen dëna kibako kizheyë.,This judicial review is independently audited.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300418,Predicates,hë dëna kibako kizheyë he?,Is this judicial review independently audited?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300419,Predicates,sen dëna tamowo tatodë.,This medical history review is patient-centered.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300420,Predicates,hë dëna tamowo tatodë he?,Is this medical history review patient-centered?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300421,Predicates,sen dëna tasebo taluzhe.,This clinical trial protocol is evidence-based.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300422,Predicates,hë dëna tasebo taluzhe he?,Is this clinical trial protocol evidence-based?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300423,Predicates,sen dëna taqita tawëne.,This treatment preference is dependent on consent.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300424,Predicates,hë dëna taqita tawëne he?,Is this treatment preference dependent on consent?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300425,Predicates,sen dëna tingogo tibiwe.,This proof obligation is mathematically rigorous.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300426,Predicates,hë dëna tingogo tibiwe he?,Is this proof obligation mathematically rigorous?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300427,Predicates,sen dëna tisila tikhigë.,This sampling bias assessment is statistically underpowered.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300428,Predicates,hë dëna tisila tikhigë he?,Is this sampling bias assessment statistically underpowered?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300429,Predicates,sen dëna tokhira tobiqe.,This narrative arc is coherent.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300430,Predicates,hë dëna tokhira tobiqe he?,Is this narrative arc coherent?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300431,Predicates,sen dëna toqika tobadë.,This subtitle translation is localized internationally.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300432,Predicates,hë dëna toqika tobadë he?,Is this subtitle translation localized internationally?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300433,Predicates,sen dëna tobëho kiwëhe.,This corrections policy is publicly accountable.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300434,Predicates,hë dëna tobëho kiwëhe he?,Is this corrections policy publicly accountable?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300435,Predicates,sen dëna këgiho tanoke.,This payment settlement is time-sensitive.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300436,Predicates,hë dëna këgiho tanoke he?,Is this payment settlement time-sensitive?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300437,Predicates,sen dëna kësaba kitëhe.,This rental inspection is procedurally fair.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300438,Predicates,hë dëna kësaba kitëhe he?,Is this rental inspection procedurally fair?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300439,Predicates,sen dëna rahata rameqe.,This exoplanet atmosphere is astronomically distant.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300440,Predicates,hë dëna rahata rameqe he?,Is this exoplanet atmosphere astronomically distant?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300441,Predicates,sen dëna timako tiqozhe.,This experimental protocol is experimentally reproducible.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300442,Predicates,hë dëna timako tiqozhe he?,Is this experimental protocol experimentally reproducible?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300443,Predicates,sen dëna ronesa tutile.,This language documentation is publicly documented.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300444,Predicates,hë dëna ronesa tutile he?,Is this language documentation publicly documented?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300445,Predicates,sen dëna wadozho wasugë.,This learning objective is accessible to learners.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300446,Predicates,hë dëna wadozho wasugë he?,Is this learning objective accessible to learners?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300447,Predicates,sen dëna wanita wasëge.,This course equivalency is transferable between courses.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300448,Predicates,hë dëna wanita wasëge he?,Is this course equivalency transferable between courses?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300449,Predicates,sen dëna tekodo teyabë.,This critical infrastructure is redundant for reliability.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300450,Predicates,hë dëna tekodo teyabë he?,Is this critical infrastructure redundant for reliability?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300451,Predicates,sen dëna temekha tetarë.,This emergency radio network is interoperable.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300452,Predicates,hë dëna temekha tetarë he?,Is this emergency radio network interoperable?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300453,Predicates,sen dëna kudëgo kunobe.,This wildlife crossing is ecologically sensitive.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300454,Predicates,hë dëna kudëgo kunobe he?,Is this wildlife crossing ecologically sensitive?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300455,Predicates,sen dëna kuhato kudëlë.,This seed bank is dependent on conservation.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300456,Predicates,hë dëna kuhato kudëlë he?,Is this seed bank dependent on conservation?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300457,Predicates,sen dëna rulëga rubirë.,This match statistics is sensitive to latency.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300458,Predicates,hë dëna rulëga rubirë he?,Is this match statistics sensitive to latency?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300459,Predicates,sen dëna rukheha kodëze.,This save-file backup is reproducible.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300460,Predicates,hë dëna rukheha kodëze he?,Is this save-file backup reproducible?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300461,Predicates,sen dëna wëqeqo wësibe.,This ventilation rate is energy efficient.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300462,Predicates,hë dëna wëqeqo wësibe he?,Is this ventilation rate energy efficient?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300463,Predicates,sen dëna wëkëta wëpishë.,This garment is repairable.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300464,Predicates,hë dëna wëkëta wëpishë he?,Is this garment repairable?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300465,Predicates,sen dëna tushëdo tuyihë.,This decision record is independently reviewable.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300466,Predicates,hë dëna tushëdo tuyihë he?,Is this decision record independently reviewable?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300467,Predicates,sen dëna tutipo tungikhë.,This rollout strategy is reversible by design.,Demonstrative + noun + adjective predicate (no copula),3.0,3.0 curated adjective predicate
+S300468,Predicates,hë dëna tutipo tungikhë he?,Is this rollout strategy reversible by design?,"Question marker is final, after adjective predicate",3.0,3.0 curated adjective predicate
+S300469,Temporary aspect,sen mi bozaga-m wëshi koniri.,I am about to review a threat model.,Imminence marker directly before verb,3.0,3.0 grammar and pragmatics
+S300470,Temporary aspect,sen mi bozaga-m shëtë koniri-te.,I have just finished reviewing a threat model.,Recent-completion particle before past predicate,3.0,3.0 grammar and pragmatics
+S300471,Temporary aspect,sen mi bozaga-m zhoro koniri-se.,I am still reviewing a threat model.,Continuative particle before progressive predicate,3.0,3.0 grammar and pragmatics
+S300472,Temporary aspect,sen mi bozaga-m mënoro nu koniri.,I have not reviewed the threat model yet.,Not-yet particle immediately before nu + verb,3.0,3.0 grammar and pragmatics
+S300473,Temporary aspect,sen mi bozaga-m nësha nu koniri.,I no longer review the threat model.,Cessation particle immediately before nu + verb,3.0,3.0 grammar and pragmatics
+S300474,Focus,sen dëna qaro ngëshi haro.,Only this Nardoragon is well.,Only scopes over the noun phrase directly preceding it,3.0,3.0 grammar and pragmatics
+S300475,Focus,sen dëna qaro bëso haro.,This Nardoragon is also well.,Additive focus does not imply exclusivity,3.0,3.0 grammar and pragmatics
+S300476,Focus,sen dëna qaro tëmiri haro.,Even this Nardoragon is well.,Scalar unexpected-member focus,3.0,3.0 grammar and pragmatics
+S300477,Quantification,sen qaro-ri qësho po goro.,At least two Nardoragons fly.,Lower bound with the native base-six numeral po,3.0,3.0 grammar and pragmatics
+S300478,Quantification,sen qaro-ri rëshu po goro.,At most two Nardoragons fly.,Upper bound with numeral,3.0,3.0 grammar and pragmatics
+S300479,Quantification,sen qaro-ri nëmi po goro.,Exactly two Nardoragons fly.,Lower and upper bounds simultaneously,3.0,3.0 grammar and pragmatics
+S300480,Evidence,sen sa goro-te shëku.,I remember witnessing that they flew.,Memory as source: not the same as current observation si,3.0,3.0 grammar and pragmatics
+S300481,Evidence,sen sa goro-te wërusha.,Measurements indicate that they flew.,"Measurement-derived evidence, not an assertion of direct seeing",3.0,3.0 grammar and pragmatics
+S300482,Evidence,sen sa goro-te rëhu.,A written document reports that they flew.,Written report subtype of reported evidence,3.0,3.0 grammar and pragmatics
+S300483,Evidence,yë sa goro-te yëqo si.,"Surprisingly, they flew, and I witnessed it.","Mirative before evidential, not a replacement for it",3.0,3.0 grammar and pragmatics
+S300484,Evidence,zher sa goro-te ye sëki.,"It seems they flew, though I am not very confident.",Inferred source + low confidence,3.0,3.0 grammar and pragmatics
+S300485,Evidence,sen sa goro-te si qëru.,I witnessed them fly and am highly confident.,Evidence vs epistemic confidence,3.0,3.0 grammar and pragmatics
+S300486,Dialogue,hë hëwo ti haro he?,"Are you well? I am asking for clarification, not confirmation.",Seeking Call + clarification stance,3.0,3.0 grammar and pragmatics
+S300487,Dialogue,më pëshu mi ti-m nashi.,"I cherish you, and you are not obliged to reciprocate.",Pressure-free interpersonal expression,3.0,3.0 grammar and pragmatics
+S300488,Dialogue,lën pënu mi ti-tu shiri-ki he?,May I talk to you about something sensitive?,Consent-check stance with polar question,3.0,3.0 grammar and pragmatics
+S300489,Dialogue,nëm nëto mi nu shiri.,I prefer not to speak right now.,Soft refusal still uses normal predicate negation,3.0,3.0 grammar and pragmatics
+S300490,Dialogue,sen tëshi mi qaroshi-m shiri.,"Changing topics, I speak Qaroshi.",Discourse shift after the mandatory resonance,3.0,3.0 grammar and pragmatics
+S300491,Dialogue,sen hëra mi qaroshi-m shiri.,I am paraphrasing this in Qaroshi.,Statement marked as paraphrase,3.0,3.0 grammar and pragmatics
+S300492,Dialogue,sen shëmoshi mi qaroshi-m shiri.,I am giving an approximate Qaroshi translation.,Translation fidelity disclaimer,3.0,3.0 grammar and pragmatics
+S300493,Dialogue,sen bëshi mi qaroshi-m shiri.,"I speak Qaroshi, but do not claim expertise.",Epistemic humility markers do not change literal predicate,3.0,3.0 grammar and pragmatics
+S300494,Dialogue,sen yëmiri mi qaroshi-m shiri.,"I speak Qaroshi, and remain open to discussing this.",Nonfinal stance marker,3.0,3.0 grammar and pragmatics
+S300495,Dialogue,qor rëmëlo naru qaro-ri-m daru-yu.,"With the group’s agreement, we will protect the Nardoragons.",Stance does not imply automatic legal authority,3.0,3.0 grammar and pragmatics
+S300496,Dialogue,sen qëlo mi ti-m nashi.,To correct what was misheard: I care deeply about you.,Repair a misunderstanding without new resonance mid-sentence,3.0,3.0 grammar and pragmatics
+S300497,Dialogue,më mëri ti haro he?,Are you doing okay? This is a gentle check-in.,Emotional check-in never overrides possibility of refusal,3.0,3.0 grammar and pragmatics
+S300498,Dialogue,"sen shërawono mi ti-wa goro-yu, wë ti haro.",I will fly with you if you are well.,Conditioned acceptance is not a blank agreement,3.0,3.0 grammar and pragmatics
+S300499,Conditionals,"sen tëwaro mi nëru, ti shiri.","While I rest, you speak.",Two finite clauses share one sentence-initial resonance,3.0,3.0 grammar and pragmatics
+S300500,Conditionals,"sen huwë mi nëru-mo, mi shiri-yu.","As soon as I finish resting, I will speak.",Temporal immediate succession,3.0,3.0 grammar and pragmatics
+S300501,Conditionals,"sen bëna mi haro, mi goro-yu.","As long as I am well, I will fly.",Ongoing condition,3.0,3.0 grammar and pragmatics
+S300502,Conditionals,"sen kheso sa goro-yu, mi naro-lo nëra-yu.","In case they fly, I will remain at home.",Precautionary event is not asserted as certain,3.0,3.0 grammar and pragmatics
+S300503,Conditionals,"sen zuwë ti nu zëru, mi ti-m daru-yu.","So that you do not die, I will protect you.",Negative purpose clause with one explicit nu,3.0,3.0 grammar and pragmatics
+S300504,Conditionals,"sen hëshu ti goro-yu, mi naro-lo nëra-yu.","Whether or not you fly, I will stay at home.",Exhaustive concession: no separate yes/no claim,3.0,3.0 grammar and pragmatics

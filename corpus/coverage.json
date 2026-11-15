@@ -1,83 +1,13 @@
 {
-  "original_sentences": 190,
-  "new_sentences": 690,
-  "total_sentences": 880,
-  "lexical_pairs_used": 132,
-  "lexical_pairs_skipped": [
-    [
-      "document",
-      "read",
-      "missing noun"
-    ],
-    [
-      "programming",
-      "learn",
-      "missing noun"
-    ],
-    [
-      "data",
-      "encrypt",
-      "missing noun"
-    ],
-    [
-      "data",
-      "store data",
-      "missing noun"
-    ],
-    [
-      "data",
-      "retrieve data",
-      "missing noun"
-    ],
-    [
-      "record (database)",
-      "index data",
-      "missing noun"
-    ],
-    [
-      "formula",
-      "derive a formula",
-      "missing noun"
-    ],
-    [
-      "instrument",
-      "calibrate an instrument",
-      "missing noun"
-    ],
-    [
-      "contract",
-      "sign a contract",
-      "missing noun"
-    ],
-    [
-      "crime",
-      "investigate legally",
-      "missing noun"
-    ],
-    [
-      "item",
-      "buy",
-      "missing noun"
-    ],
-    [
-      "item",
-      "sell",
-      "missing noun"
-    ],
-    [
-      "plant",
-      "water houseplants",
-      "missing noun"
-    ],
-    [
-      "musical instrument",
-      "tune an instrument",
-      "missing noun"
-    ],
-    [
-      "hatchling",
-      "care for a hatchling",
-      "missing noun"
-    ]
-  ]
+  "original_from_v2": 880,
+  "v3_sentence_entries": 504,
+  "total_sentences": 1384,
+  "semantically_exact_verb_patient_pairs": 128,
+  "curated_noun_adjective_pairs": 42,
+  "grammar_and_pragmatics_demonstrations": 37,
+  "v3_patterns": {
+    "3.0 precise semantic patient": 384,
+    "3.0 curated adjective predicate": 84,
+    "3.0 grammar and pragmatics": 36
+  }
 }

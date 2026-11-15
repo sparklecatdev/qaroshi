@@ -1,0 +1,38 @@
+[
+  {
+    "form": "-dëno",
+    "root_pos": "v",
+    "result_pos": "n",
+    "meaning": "place or setting where a named action normally happens",
+    "contrast": "Not same as -ra (settlement/place associated with a noun)",
+    "example": "shiri-dëno",
+    "example_gloss": "a speaking venue"
+  },
+  {
+    "form": "-nëro",
+    "root_pos": "v",
+    "result_pos": "n",
+    "meaning": "result or product left by an action",
+    "contrast": "Not same as -ma (activity) or -rëma (one instance of an event)",
+    "example": "shiri-nëro",
+    "example_gloss": "a statement or speech product"
+  },
+  {
+    "form": "-khëno",
+    "root_pos": "n",
+    "result_pos": "n",
+    "meaning": "organized functioning system of the named type",
+    "contrast": "Not same as -no (collection of items)",
+    "example": "mara-khëno",
+    "example_gloss": "an organized friendship network"
+  },
+  {
+    "form": "-zëma",
+    "root_pos": "v",
+    "result_pos": "n",
+    "meaning": "a physical or written trace offered as evidence of an action",
+    "contrast": "Not same as -nëro (the result itself): a trace might not be the intended product",
+    "example": "goro-zëma",
+    "example_gloss": "evidence or a trace of a flight"
+  }
+]

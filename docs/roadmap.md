@@ -1,6 +1,6 @@
 # Roadmap toward Contemporary-Language Parity
 
-A reference with 6,819 unique lemmas supports much broader translation than a starter glossary, but modern language parity is multidimensional. A mature language needs semantic depth, corpus usage, flexible sentence constructions, sociolinguistic nuance, and script infrastructure.
+A reference with 9,082 unique dictionary entries supports much broader translation than a starter glossary, but modern language parity is multidimensional. A mature language needs semantic depth, corpus usage, flexible sentence constructions, sociolinguistic nuance, and script infrastructure.
 
 ## Current coverage
 
@@ -8,7 +8,7 @@ A reference with 6,819 unique lemmas supports much broader translation than a st
 - **Complex syntax:** causal, purpose, temporal, conditional, counterfactual, concessive, quotation, relative, embedded question, information-structure focus, and polite wishes.
 - **Social expression:** mandatory sentence-initial resonance, gender-neutral pronouns, inclusive/exclusive plurals, respect and consent language.
 - **Lexical domains:** technology, communications, law, government, finance, computing, mathematics, physics, medicine, biological sciences, nature, household, food, clothing, arts, education, travel, psychology, philosophy, Nardoragon anatomy and flight culture.
-- **Reference data:** lexicon CSV/JSON, English index, original art, offline search/converter, and 880 parallel/controlled example sentences.
+- **Reference data:** lexicon CSV/JSON, English index, original art, offline search/converter, and 1,384 parallel/controlled example sentences.
 
 ## Next milestones (ordered by linguistic value)
 
@@ -29,13 +29,15 @@ A reference with 6,819 unique lemmas supports much broader translation than a st
 |---|---|---|
 | Core compatibility | 853 original entries unchanged | Met in automated tests |
 | Typed resonance | All 16 mandatory markers retained | Met in tests and corpus samples |
-| Lexicon scale | At least 5,000 searchable entries | Met: 6,819; most new terms still candidate status |
-| Example scale | At least 500 bilingual examples | Met: 880; only 190 from original reference |
+| Lexicon scale | At least 5,000 searchable entries | Met: 9,082; most new terms still candidate status |
+| Example scale | At least 500 bilingual examples | Met: 1,384; only 190 from original reference |
 | Spelling consistency | Every dictionary headword fits 26-glyph inventory | Met in automated checks |
 | Natural corpus | 10,000 edited, attested sentences | Not yet met |
 | Semantic/valency annotation | Detailed senses and argument patterns | Partial, needs systematic review |
 | Fully native keyboard/font | Stable cross-platform text input | Not yet met |
 | Community linguistic review | Proposals reviewed by fluent users | Not yet met |
 | Public repository | Pushed, licensed and archived on GitHub | Not done in this package |
+
+**Reference 3.0 contribution:** adds 40 proposed grammar forms, four productive derivations, 2,223 candidate lexemes across 18 domains, and 504 controlled example sentences. The 6,819 previous entries and first 880 example rows remain frozen.
 
 **Quality rule:** no milestone can be declared complete merely because a machine generated more headwords or morphologically predictable inflections. Verified usage, clear syntax and semantic robustness are required.

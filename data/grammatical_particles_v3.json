@@ -1,0 +1,282 @@
+[
+  {
+    "form": "tëwaro",
+    "pos": "conj",
+    "english": "while two actions overlap",
+    "rule": "Introduces simultaneous-event subordinate clause; independent SOV clauses follow",
+    "review": "proposed"
+  },
+  {
+    "form": "huwë",
+    "pos": "conj",
+    "english": "as soon as",
+    "rule": "Temporal boundary: main event starts immediately after subordinate event",
+    "review": "proposed"
+  },
+  {
+    "form": "bëna",
+    "pos": "conj",
+    "english": "as long as; provided that",
+    "rule": "Conditional continuous requirement, unlike a single hypothetical wë",
+    "review": "proposed"
+  },
+  {
+    "form": "kheso",
+    "pos": "conj",
+    "english": "in case; as a precaution for",
+    "rule": "Precautionary context; does not assert the anticipated event happened",
+    "review": "proposed"
+  },
+  {
+    "form": "qësu",
+    "pos": "conj",
+    "english": "rather than (clausal alternative)",
+    "rule": "Links two alternatives and selects the first over the second",
+    "review": "proposed"
+  },
+  {
+    "form": "ngësha",
+    "pos": "conj",
+    "english": "instead of (replacing action)",
+    "rule": "Introduces action not chosen in favor of matrix action",
+    "review": "proposed"
+  },
+  {
+    "form": "tërashi",
+    "pos": "conj",
+    "english": "as a result of",
+    "rule": "Introduces prior event as causal circumstance, unlike purposive ko",
+    "review": "proposed"
+  },
+  {
+    "form": "dëshu",
+    "pos": "conj",
+    "english": "even though evidence suggests otherwise",
+    "rule": "Concessive contrast despite contextual expectation",
+    "review": "proposed"
+  },
+  {
+    "form": "zuwë",
+    "pos": "conj",
+    "english": "so that not; to prevent",
+    "rule": "Negative-purpose subordinate clause; mark negation once, not twice",
+    "review": "proposed"
+  },
+  {
+    "form": "hëshu",
+    "pos": "conj",
+    "english": "whether or not (alternative exhaustive)",
+    "rule": "Subordinates a yes/no possibility without asserting which",
+    "review": "proposed"
+  },
+  {
+    "form": "wëshi",
+    "pos": "part",
+    "english": "about to; imminently",
+    "rule": "Preverbal aspect particle immediately before predicate; not tense suffix",
+    "review": "proposed"
+  },
+  {
+    "form": "shëtë",
+    "pos": "part",
+    "english": "just finished",
+    "rule": "Preverbal recent-completion particle; compatible with past -te",
+    "review": "proposed"
+  },
+  {
+    "form": "zhoro",
+    "pos": "part",
+    "english": "still continuing",
+    "rule": "Preverbal continuation particle; compatible with progressive -se",
+    "review": "proposed"
+  },
+  {
+    "form": "mënoro",
+    "pos": "part",
+    "english": "not yet",
+    "rule": "Preverbal particle immediately before nu + predicate",
+    "review": "proposed"
+  },
+  {
+    "form": "nësha",
+    "pos": "part",
+    "english": "no longer",
+    "rule": "Preverbal cessation particle immediately before nu + predicate",
+    "review": "proposed"
+  },
+  {
+    "form": "tëmiri",
+    "pos": "part",
+    "english": "even (unexpected member)",
+    "rule": "Postposed focus particle, after focused NP or proposition",
+    "review": "proposed"
+  },
+  {
+    "form": "ngëshi",
+    "pos": "part",
+    "english": "only; exclusively",
+    "rule": "Postposed narrow-focus particle; marks exactly the focused constituent",
+    "review": "proposed"
+  },
+  {
+    "form": "bëso",
+    "pos": "part",
+    "english": "also; in addition",
+    "rule": "Postposed additive focus particle",
+    "review": "proposed"
+  },
+  {
+    "form": "qësho",
+    "pos": "part",
+    "english": "at least (minimum)",
+    "rule": "Precedes numeral/quantity; minimum lower bound",
+    "review": "proposed"
+  },
+  {
+    "form": "rëshu",
+    "pos": "part",
+    "english": "at most (maximum)",
+    "rule": "Precedes numeral/quantity; upper bound",
+    "review": "proposed"
+  },
+  {
+    "form": "nëmi",
+    "pos": "part",
+    "english": "exactly (quantity)",
+    "rule": "Precedes numeral/quantity; both lower and upper bound",
+    "review": "proposed"
+  },
+  {
+    "form": "shëku",
+    "pos": "part",
+    "english": "recalled from direct memory",
+    "rule": "Post-predicate evidential; no second evidential in same clause",
+    "review": "proposed"
+  },
+  {
+    "form": "wërusha",
+    "pos": "part",
+    "english": "computed or instrument-measured evidence",
+    "rule": "Post-predicate evidential; calculation/measurement rather than eyewitness si",
+    "review": "proposed"
+  },
+  {
+    "form": "rëhu",
+    "pos": "part",
+    "english": "read in a document or archival source",
+    "rule": "Post-predicate evidential; written-source subtype of hu",
+    "review": "proposed"
+  },
+  {
+    "form": "yëqo",
+    "pos": "part",
+    "english": "unexpected discovery; mirative",
+    "rule": "After predicate and before evidential/question; reports speaker surprise, not source",
+    "review": "proposed"
+  },
+  {
+    "form": "sëki",
+    "pos": "part",
+    "english": "tentatively asserted; low confidence",
+    "rule": "After evidential; scope is proposition, not participant",
+    "review": "proposed"
+  },
+  {
+    "form": "qëru",
+    "pos": "part",
+    "english": "high confidence (not certainty)",
+    "rule": "After evidential; epistemic confidence distinct from observed source",
+    "review": "proposed"
+  },
+  {
+    "form": "shëmoshi",
+    "pos": "part",
+    "english": "I am translating this approximately",
+    "rule": "After resonance, before subject; pragmatics of translation",
+    "review": "proposed"
+  },
+  {
+    "form": "hëra",
+    "pos": "part",
+    "english": "my words are a paraphrase",
+    "rule": "After resonance, before subject; paraphrase warning",
+    "review": "proposed"
+  },
+  {
+    "form": "rëmëlo",
+    "pos": "part",
+    "english": "speaking for a group by agreement",
+    "rule": "After resonance, before subject; does not grant authority automatically",
+    "review": "proposed"
+  },
+  {
+    "form": "pënu",
+    "pos": "part",
+    "english": "requesting permission to discuss sensitive matter",
+    "rule": "After resonance, before topic; explicit boundary check",
+    "review": "proposed"
+  },
+  {
+    "form": "nëto",
+    "pos": "part",
+    "english": "soft refusal without shame",
+    "rule": "After resonance, before negated clause; signals refusal not negotiation",
+    "review": "proposed"
+  },
+  {
+    "form": "qëlo",
+    "pos": "part",
+    "english": "correction of misheard words",
+    "rule": "After resonance, before restated proposition",
+    "review": "proposed"
+  },
+  {
+    "form": "tëshi",
+    "pos": "part",
+    "english": "topic shift; new subject",
+    "rule": "After resonance; separates discourse thread from previous sentence",
+    "review": "proposed"
+  },
+  {
+    "form": "yëmiri",
+    "pos": "part",
+    "english": "this remains open for discussion",
+    "rule": "After resonance; nonfinal stance, may precede any clause",
+    "review": "proposed"
+  },
+  {
+    "form": "bëshi",
+    "pos": "part",
+    "english": "speaker does not claim expertise",
+    "rule": "After resonance; epistemic humility, does not replace evidence",
+    "review": "proposed"
+  },
+  {
+    "form": "shërawono",
+    "pos": "part",
+    "english": "conditional acceptance",
+    "rule": "After resonance; agreement only with stated condition",
+    "review": "proposed"
+  },
+  {
+    "form": "hëwo",
+    "pos": "part",
+    "english": "requesting clarification rather than agreement",
+    "rule": "After resonance; occurs with final question he",
+    "review": "proposed"
+  },
+  {
+    "form": "mëri",
+    "pos": "part",
+    "english": "gentle request for emotional check-in",
+    "rule": "After resonance; recipient may decline without penalty",
+    "review": "proposed"
+  },
+  {
+    "form": "pëshu",
+    "pos": "part",
+    "english": "explicitly no obligation",
+    "rule": "After resonance; marks pressure-free offer/request",
+    "review": "proposed"
+  }
+]

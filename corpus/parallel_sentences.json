@@ -7918,5 +7918,4541 @@
     "note": "Time adverb and predicate",
     "edition": "2.0",
     "pattern": "advanced grammar"
+  },
+  {
+    "id": "S300001",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "sen mi kamaya-m kagenu.",
+    "english": "I provide audio description.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300002",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "dal mi kamaya-m kagenu-yu.",
+    "english": "I will provide audio description.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300003",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "hë ti kamaya-m kagenu-yu he?",
+    "english": "Will you provide audio description?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300004",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "sen mi tikawa-m kakhewu.",
+    "english": "I enlarge a display.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300005",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "dal mi tikawa-m kakhewu-yu.",
+    "english": "I will enlarge a display.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300006",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "hë ti tikawa-m kakhewu-yu he?",
+    "english": "Will you enlarge a display?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300007",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "sen mi gulato-m kangëqu.",
+    "english": "I configure accessibility.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300008",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "dal mi gulato-m kangëqu-yu.",
+    "english": "I will configure accessibility.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300009",
+    "domain": "Access, disability and inclusive design",
+    "qaroshi": "hë ti gulato-m kangëqu-yu he?",
+    "english": "Will you configure accessibility?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300010",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi qidisha-m kibongu.",
+    "english": "I renew a residence permit.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300011",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi qidisha-m kibongu-yu.",
+    "english": "I will renew a residence permit.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300012",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti qidisha-m kibongu-yu he?",
+    "english": "Will you renew a residence permit?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300013",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi yudoheweheda-m kidisu.",
+    "english": "I evaluate a public policy.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300014",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi yudoheweheda-m kidisu-yu.",
+    "english": "I will evaluate a public policy.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300015",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti yudoheweheda-m kidisu-yu he?",
+    "english": "Will you evaluate a public policy?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300016",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi qishana-m kigëpu.",
+    "english": "I correct a public record.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300017",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi qishana-m kigëpu-yu.",
+    "english": "I will correct a public record.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300018",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti qishana-m kigëpu-yu he?",
+    "english": "Will you correct a public record?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300019",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi kekëmo-m kikhogi.",
+    "english": "I challenge discrimination.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300020",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi kekëmo-m kikhogi-yu.",
+    "english": "I will challenge discrimination.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300021",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti kekëmo-m kikhogi-yu he?",
+    "english": "Will you challenge discrimination?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300022",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi qibazho-m kinëshi.",
+    "english": "I interpret a statute.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300023",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi qibazho-m kinëshi-yu.",
+    "english": "I will interpret a statute.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300024",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti qibazho-m kinëshi-yu he?",
+    "english": "Will you interpret a statute?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300025",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi yudoheqisosa-m kiporu.",
+    "english": "I attend a public hearing.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300026",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi yudoheqisosa-m kiporu-yu.",
+    "english": "I will attend a public hearing.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300027",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti yudoheqisosa-m kiporu-yu he?",
+    "english": "Will you attend a public hearing?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300028",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi qilako-m kiqanu.",
+    "english": "I disclose a conflict of interest.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300029",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi qilako-m kiqanu-yu.",
+    "english": "I will disclose a conflict of interest.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300030",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti qilako-m kiqanu-yu he?",
+    "english": "Will you disclose a conflict of interest?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300031",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi kikhada-m kirokhu.",
+    "english": "I invoke a legal remedy.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300032",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi kikhada-m kirokhu-yu.",
+    "english": "I will invoke a legal remedy.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300033",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti kikhada-m kirokhu-yu he?",
+    "english": "Will you invoke a legal remedy?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300034",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi qiwama-m kisaki.",
+    "english": "I request legal aid.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300035",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi qiwama-m kisaki-yu.",
+    "english": "I will request legal aid.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300036",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti qiwama-m kisaki-yu he?",
+    "english": "Will you request legal aid?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300037",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi kizhisa-m kitolu.",
+    "english": "I file an administrative appeal.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300038",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi kizhisa-m kitolu-yu.",
+    "english": "I will file an administrative appeal.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300039",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti kizhisa-m kitolu-yu he?",
+    "english": "Will you file an administrative appeal?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300040",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "sen mi wekesho-m kizhisi.",
+    "english": "I petition a legislature.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300041",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "dal mi wekesho-m kizhisi-yu.",
+    "english": "I will petition a legislature.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300042",
+    "domain": "Civil rights, public policy and institutions",
+    "qaroshi": "hë ti wekesho-m kizhisi-yu he?",
+    "english": "Will you petition a legislature?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300043",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "sen mi bozaga-m koniri.",
+    "english": "I review a threat model.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300044",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "dal mi bozaga-m koniri-yu.",
+    "english": "I will review a threat model.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300045",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "hë ti bozaga-m koniri-yu he?",
+    "english": "Will you review a threat model?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300046",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "sen mi shërawëmiho-m korësi.",
+    "english": "I pseudonymize an account.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300047",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "dal mi shërawëmiho-m korësi-yu.",
+    "english": "I will pseudonymize an account.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300048",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "hë ti shërawëmiho-m korësi-yu he?",
+    "english": "Will you pseudonymize an account?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300049",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "sen mi koruka-m kotusi.",
+    "english": "I enforce least privilege.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300050",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "dal mi koruka-m kotusi-yu.",
+    "english": "I will enforce least privilege.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300051",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "hë ti koruka-m kotusi-yu he?",
+    "english": "Will you enforce least privilege?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300052",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "sen mi boqogo-m kozosu.",
+    "english": "I verify a cryptographic signature.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300053",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "dal mi boqogo-m kozosu-yu.",
+    "english": "I will verify a cryptographic signature.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300054",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "hë ti boqogo-m kozosu-yu he?",
+    "english": "Will you verify a cryptographic signature?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300055",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "sen mi kohango-m kozuqu.",
+    "english": "I detect prompt injection.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300056",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "dal mi kohango-m kozuqu-yu.",
+    "english": "I will detect prompt injection.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300057",
+    "domain": "Cybersecurity, privacy and artificial intelligence",
+    "qaroshi": "hë ti kohango-m kozuqu-yu he?",
+    "english": "Will you detect prompt injection?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300058",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi kuhato-m kudësu.",
+    "english": "I preserve a seed bank.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300059",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi kuhato-m kudësu-yu.",
+    "english": "I will preserve a seed bank.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300060",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti kuhato-m kudësu-yu he?",
+    "english": "Will you preserve a seed bank?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300061",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi zenguqa-m kukoyi.",
+    "english": "I survey biodiversity.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300062",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi zenguqa-m kukoyi-yu.",
+    "english": "I will survey biodiversity.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300063",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti zenguqa-m kukoyi-yu he?",
+    "english": "Will you survey biodiversity?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300064",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi rashota-m kulasu.",
+    "english": "I evaluate ecosystem resilience.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300065",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi rashota-m kulasu-yu.",
+    "english": "I will evaluate ecosystem resilience.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300066",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti rashota-m kulasu-yu he?",
+    "english": "Will you evaluate ecosystem resilience?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300067",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi kuzako-m kuraki.",
+    "english": "I minimize nesting disturbance.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300068",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi kuzako-m kuraki-yu.",
+    "english": "I will minimize nesting disturbance.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300069",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti kuzako-m kuraki-yu he?",
+    "english": "Will you minimize nesting disturbance?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300070",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi zeyëngo-m kushiku.",
+    "english": "I reintroduce a species.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300071",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi zeyëngo-m kushiku-yu.",
+    "english": "I will reintroduce a species.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300072",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti zeyëngo-m kushiku-yu he?",
+    "english": "Will you reintroduce a species?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300073",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi kungëngo-m kushuwi.",
+    "english": "I restore a habitat corridor.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300074",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi kungëngo-m kushuwi-yu.",
+    "english": "I will restore a habitat corridor.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300075",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti kungëngo-m kushuwi-yu he?",
+    "english": "Will you restore a habitat corridor?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300076",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi kuqido-m kuwemu.",
+    "english": "I collect environmental DNA.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300077",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi kuqido-m kuwemu-yu.",
+    "english": "I will collect environmental DNA.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300078",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti kuqido-m kuwemu-yu he?",
+    "english": "Will you collect environmental DNA?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300079",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "sen mi kimarao-m kuyami.",
+    "english": "I restore a wetland.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300080",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "dal mi kimarao-m kuyami-yu.",
+    "english": "I will restore a wetland.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300081",
+    "domain": "Ecology, evolution and stewardship",
+    "qaroshi": "hë ti kimarao-m kuyami-yu he?",
+    "english": "Will you restore a wetland?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300082",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "sen mi shërawëmiho-m këdoyi.",
+    "english": "I reconcile an account.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300083",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "dal mi shërawëmiho-m këdoyi-yu.",
+    "english": "I will reconcile an account.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300084",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "hë ti shërawëmiho-m këdoyi-yu he?",
+    "english": "Will you reconcile an account?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300085",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "sen mi sekosha-m këgoyu.",
+    "english": "I track an expense.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300086",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "dal mi sekosha-m këgoyu-yu.",
+    "english": "I will track an expense.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300087",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "hë ti sekosha-m këgoyu-yu he?",
+    "english": "Will you track an expense?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300088",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "sen mi këyeza-m këmogu.",
+    "english": "I request wage transparency.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300089",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "dal mi këyeza-m këmogu-yu.",
+    "english": "I will request wage transparency.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300090",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "hë ti këyeza-m këmogu-yu he?",
+    "english": "Will you request wage transparency?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300091",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "sen mi sezaha-m këtegi.",
+    "english": "I document a payment.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300092",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "dal mi sezaha-m këtegi-yu.",
+    "english": "I will document a payment.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300093",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "hë ti sezaha-m këtegi-yu he?",
+    "english": "Will you document a payment?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300094",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "sen mi senima-m këzhazu.",
+    "english": "I request a refund.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300095",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "dal mi senima-m këzhazu-yu.",
+    "english": "I will request a refund.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300096",
+    "domain": "Economic life, work and household finance",
+    "qaroshi": "hë ti senima-m këzhazu-yu he?",
+    "english": "Will you request a refund?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300097",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi rasëya-m ragewi.",
+    "english": "I estimate impact probability.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300098",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi rasëya-m ragewi-yu.",
+    "english": "I will estimate impact probability.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300099",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti rasëya-m ragewi-yu he?",
+    "english": "Will you estimate impact probability?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300100",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi suzaqo-m rahemi.",
+    "english": "I calibrate a telescope.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300101",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi suzaqo-m rahemi-yu.",
+    "english": "I will calibrate a telescope.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300102",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti suzaqo-m rahemi-yu he?",
+    "english": "Will you calibrate a telescope?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300103",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi ragëya-m ramakhu.",
+    "english": "I identify a biosignature.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300104",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi ragëya-m ramakhu-yu.",
+    "english": "I will identify a biosignature.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300105",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti ragëya-m ramakhu-yu he?",
+    "english": "Will you identify a biosignature?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300106",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi ragiyo-m ranëbi.",
+    "english": "I measure a spectral line.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300107",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi ragiyo-m ranëbi-yu.",
+    "english": "I will measure a spectral line.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300108",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti ragiyo-m ranëbi-yu he?",
+    "english": "Will you measure a spectral line?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300109",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi rakëso-m ratidi.",
+    "english": "I monitor atmospheric entry.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300110",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi rakëso-m ratidi-yu.",
+    "english": "I will monitor atmospheric entry.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300111",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti rakëso-m ratidi-yu he?",
+    "english": "Will you monitor atmospheric entry?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300112",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "sen mi luhiwo-m rawëqu.",
+    "english": "I detect a greenhouse gas.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300113",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "dal mi luhiwo-m rawëqu-yu.",
+    "english": "I will detect a greenhouse gas.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300114",
+    "domain": "Planetary astronomy, space and climate",
+    "qaroshi": "hë ti luhiwo-m rawëqu-yu he?",
+    "english": "Will you detect a greenhouse gas?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300115",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "sen mi banuwa-m ringoyu.",
+    "english": "I inspect a wing membrane.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300116",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "dal mi banuwa-m ringoyu-yu.",
+    "english": "I will inspect a wing membrane.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300117",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "hë ti banuwa-m ringoyu-yu he?",
+    "english": "Will you inspect a wing membrane?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300118",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "sen mi riluko-m riqenu.",
+    "english": "I honor airspace etiquette.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300119",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "dal mi riluko-m riqenu-yu.",
+    "english": "I will honor airspace etiquette.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300120",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "hë ti riluko-m riqenu-yu he?",
+    "english": "Will you honor airspace etiquette?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300121",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "sen mi riwëza-m riquhi.",
+    "english": "I perform a mourning flight.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300122",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "dal mi riwëza-m riquhi-yu.",
+    "english": "I will perform a mourning flight.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300123",
+    "domain": "Qaroshi social life, roosting and development",
+    "qaroshi": "hë ti riwëza-m riquhi-yu he?",
+    "english": "Will you perform a mourning flight?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300124",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi romaro-m roboqi.",
+    "english": "I provide an interlinear gloss.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300125",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi romaro-m roboqi-yu.",
+    "english": "I will provide an interlinear gloss.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300126",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti romaro-m roboqi-yu he?",
+    "english": "Will you provide an interlinear gloss?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300127",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi marashi-m rokheshi.",
+    "english": "I preserve an oral tradition.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300128",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi marashi-m rokheshi-yu.",
+    "english": "I will preserve an oral tradition.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300129",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti marashi-m rokheshi-yu he?",
+    "english": "Will you preserve an oral tradition?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300130",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi ngizhisha-m rolezhu.",
+    "english": "I explain an idiom.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300131",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi ngizhisha-m rolezhu-yu.",
+    "english": "I will explain an idiom.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300132",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti ngizhisha-m rolezhu-yu he?",
+    "english": "Will you explain an idiom?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300133",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi ropëya-m rometi.",
+    "english": "I mark a morpheme boundary.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300134",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi ropëya-m rometi-yu.",
+    "english": "I will mark a morpheme boundary.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300135",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti ropëya-m rometi-yu he?",
+    "english": "Will you mark a morpheme boundary?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300136",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi surozho-m romoyi.",
+    "english": "I hedge a prediction.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300137",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi surozho-m romoyi-yu.",
+    "english": "I will hedge a prediction.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300138",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti surozho-m romoyi-yu he?",
+    "english": "Will you hedge a prediction?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300139",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi kegëza-m rongeki.",
+    "english": "I reformulate an argument.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300140",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi kegëza-m rongeki-yu.",
+    "english": "I will reformulate an argument.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300141",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti kegëza-m rongeki-yu he?",
+    "english": "Will you reformulate an argument?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300142",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi rokango-m roningi.",
+    "english": "I repair a misquotation.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300143",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi rokango-m roningi-yu.",
+    "english": "I will repair a misquotation.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300144",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti rokango-m roningi-yu he?",
+    "english": "Will you repair a misquotation?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300145",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi ngikhango-m rotari.",
+    "english": "I document a dialect.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300146",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi ngikhango-m rotari-yu.",
+    "english": "I will document a dialect.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300147",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti ngikhango-m rotari-yu he?",
+    "english": "Will you document a dialect?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300148",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi shërawëmara-m rotushi.",
+    "english": "I disambiguate a pronoun.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300149",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi shërawëmara-m rotushi-yu.",
+    "english": "I will disambiguate a pronoun.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300150",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti shërawëmara-m rotushi-yu he?",
+    "english": "Will you disambiguate a pronoun?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300151",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "sen mi zhënohozhilazo-m royizu.",
+    "english": "I challenge a false dilemma.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300152",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "dal mi zhënohozhilazo-m royizu-yu.",
+    "english": "I will challenge a false dilemma.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300153",
+    "domain": "Rhetoric, dialogue and language learning",
+    "qaroshi": "hë ti zhënohozhilazo-m royizu-yu he?",
+    "english": "Will you challenge a false dilemma?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300154",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi ruhudo-m rudikhu.",
+    "english": "I take a strategic timeout.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300155",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi ruhudo-m rudikhu-yu.",
+    "english": "I will take a strategic timeout.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300156",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti ruhudo-m rudikhu-yu he?",
+    "english": "Will you take a strategic timeout?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300157",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi rukhoyo-m rulëri.",
+    "english": "I review a match replay.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300158",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi rukhoyo-m rulëri-yu.",
+    "english": "I will review a match replay.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300159",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti rukhoyo-m rulëri-yu he?",
+    "english": "Will you review a match replay?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300160",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi qabëpo-m runeshi.",
+    "english": "I assess reaction time.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300161",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi qabëpo-m runeshi-yu.",
+    "english": "I will assess reaction time.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300162",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti qabëpo-m runeshi-yu he?",
+    "english": "Will you assess reaction time?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300163",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi rupuqo-m rupubi.",
+    "english": "I train spatial awareness.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300164",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi rupuqo-m rupubi-yu.",
+    "english": "I will train spatial awareness.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300165",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti rupuqo-m rupubi-yu he?",
+    "english": "Will you train spatial awareness?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300166",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi ruzhito-m ruriwi.",
+    "english": "I host a community tournament.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300167",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi ruzhito-m ruriwi-yu.",
+    "english": "I will host a community tournament.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300168",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti ruzhito-m ruriwi-yu he?",
+    "english": "Will you host a community tournament?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300169",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "sen mi rukhuko-m ruzebi.",
+    "english": "I manage performance anxiety.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300170",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "dal mi rukhuko-m ruzebi-yu.",
+    "english": "I will manage performance anxiety.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300171",
+    "domain": "Sports, games and skill development",
+    "qaroshi": "hë ti rukhuko-m ruzebi-yu he?",
+    "english": "Will you manage performance anxiety?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300172",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi tashulo-m takëli.",
+    "english": "I provide discharge instructions.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300173",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi tashulo-m takëli-yu.",
+    "english": "I will provide discharge instructions.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300174",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti tashulo-m takëli-yu he?",
+    "english": "Will you provide discharge instructions?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300175",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi pizikha-m tamewu.",
+    "english": "I give informed consent.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300176",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi pizikha-m tamewu-yu.",
+    "english": "I will give informed consent.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300177",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti pizikha-m tamewu-yu he?",
+    "english": "Will you give informed consent?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300178",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi gumuba-m tamoyu.",
+    "english": "I prevent an infection.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300179",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi gumuba-m tamoyu-yu.",
+    "english": "I will prevent an infection.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300180",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti gumuba-m tamoyu-yu he?",
+    "english": "Will you prevent an infection?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300181",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi tagëlo-m tanasi.",
+    "english": "I request an accessible care plan.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300182",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi tagëlo-m tanasi-yu.",
+    "english": "I will request an accessible care plan.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300183",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti tagëlo-m tanasi-yu he?",
+    "english": "Will you request an accessible care plan?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300184",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi gukezho-m tanëzi.",
+    "english": "I correct a medical record.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300185",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi gukezho-m tanëzi-yu.",
+    "english": "I will correct a medical record.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300186",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti gukezho-m tanëzi-yu he?",
+    "english": "Will you correct a medical record?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300187",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi guzozho-m taqupi.",
+    "english": "I reassess a diagnosis.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300188",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi guzozho-m taqupi-yu.",
+    "english": "I will reassess a diagnosis.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300189",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti guzozho-m taqupi-yu he?",
+    "english": "Will you reassess a diagnosis?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300190",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "sen mi guzhana-m tazohu.",
+    "english": "I report an adverse reaction.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300191",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "dal mi guzhana-m tazohu-yu.",
+    "english": "I will report an adverse reaction.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300192",
+    "domain": "Health, medicine and care ethics",
+    "qaroshi": "hë ti guzhana-m tazohu-yu he?",
+    "english": "Will you report an adverse reaction?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300193",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "sen mi sehungo-m tehetu.",
+    "english": "I track a shipment.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300194",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "dal mi sehungo-m tehetu-yu.",
+    "english": "I will track a shipment.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300195",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "hë ti sehungo-m tehetu-yu he?",
+    "english": "Will you track a shipment?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300196",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "sen mi terëbo-m tekhozi.",
+    "english": "I schedule preventative maintenance.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300197",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "dal mi terëbo-m tekhozi-yu.",
+    "english": "I will schedule preventative maintenance.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300198",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "hë ti terëbo-m tekhozi-yu he?",
+    "english": "Will you schedule preventative maintenance?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300199",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "sen mi zhalarokharo-m temuqi.",
+    "english": "I verify a smoke alarm.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300200",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "dal mi zhalarokharo-m temuqi-yu.",
+    "english": "I will verify a smoke alarm.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300201",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "hë ti zhalarokharo-m temuqi-yu he?",
+    "english": "Will you verify a smoke alarm?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300202",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "sen mi tesësho-m teshapi.",
+    "english": "I file a customs declaration.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300203",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "dal mi tesësho-m teshapi-yu.",
+    "english": "I will file a customs declaration.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300204",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "hë ti tesësho-m teshapi-yu he?",
+    "english": "Will you file a customs declaration?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300205",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "sen mi tedosho-m tezhihi.",
+    "english": "I activate a failover route.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300206",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "dal mi tedosho-m tezhihi-yu.",
+    "english": "I will activate a failover route.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300207",
+    "domain": "Infrastructure, logistics and public safety",
+    "qaroshi": "hë ti tedosho-m tezhihi-yu he?",
+    "english": "Will you activate a failover route?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300208",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tingira-m tidoshu.",
+    "english": "I test a boundary condition.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300209",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tingira-m tidoshu-yu.",
+    "english": "I will test a boundary condition.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300210",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tingira-m tidoshu-yu he?",
+    "english": "Will you test a boundary condition?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300211",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tilungo-m tidoyi.",
+    "english": "I perform sensitivity analysis.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300212",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tilungo-m tidoyi-yu.",
+    "english": "I will perform sensitivity analysis.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300213",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tilungo-m tidoyi-yu he?",
+    "english": "Will you perform sensitivity analysis?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300214",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tikhaqo-m tigeli.",
+    "english": "I compute a probability distribution.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300215",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tikhaqo-m tigeli-yu.",
+    "english": "I will compute a probability distribution.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300216",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tikhaqo-m tigeli-yu he?",
+    "english": "Will you compute a probability distribution?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300217",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tikhëya-m tigoqi.",
+    "english": "I validate a model assumption.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300218",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tikhëya-m tigoqi-yu.",
+    "english": "I will validate a model assumption.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300219",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tikhëya-m tigoqi-yu he?",
+    "english": "Will you validate a model assumption?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300220",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tidëda-m tihapu.",
+    "english": "I optimize an objective function.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300221",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tidëda-m tihapu-yu.",
+    "english": "I will optimize an objective function.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300222",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tidëda-m tihapu-yu he?",
+    "english": "Will you optimize an objective function?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300223",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tiqisa-m tihodi.",
+    "english": "I document data provenance.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300224",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tiqisa-m tihodi-yu.",
+    "english": "I will document data provenance.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300225",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tiqisa-m tihodi-yu he?",
+    "english": "Will you document data provenance?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300226",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tigësha-m tikhuru.",
+    "english": "I bound an approximation error.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300227",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tigësha-m tikhuru-yu.",
+    "english": "I will bound an approximation error.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300228",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tigësha-m tikhuru-yu he?",
+    "english": "Will you bound an approximation error?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300229",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi sukhado-m tingoyu.",
+    "english": "I replicate an experiment.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300230",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi sukhado-m tingoyu-yu.",
+    "english": "I will replicate an experiment.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300231",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti sukhado-m tingoyu-yu he?",
+    "english": "Will you replicate an experiment?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300232",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi sumaqa-m tiqomu.",
+    "english": "I publish a replication.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300233",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi sumaqa-m tiqomu-yu.",
+    "english": "I will publish a replication.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300234",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti sumaqa-m tiqomu-yu he?",
+    "english": "Will you publish a replication?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300235",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tibanga-m tiraqi.",
+    "english": "I calculate an effect size.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300236",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tibanga-m tiraqi-yu.",
+    "english": "I will calculate an effect size.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300237",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tibanga-m tiraqi-yu he?",
+    "english": "Will you calculate an effect size?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300238",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi zosebo-m titagi.",
+    "english": "I derive a theorem.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300239",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi zosebo-m titagi-yu.",
+    "english": "I will derive a theorem.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300240",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti zosebo-m titagi-yu he?",
+    "english": "Will you derive a theorem?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300241",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi zhingena-m titomi.",
+    "english": "I quantify uncertainty.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300242",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi zhingena-m titomi-yu.",
+    "english": "I will quantify uncertainty.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300243",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti zhingena-m titomi-yu he?",
+    "english": "Will you quantify uncertainty?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300244",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tiwaho-m tiwukhi.",
+    "english": "I verify unit consistency.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300245",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tiwaho-m tiwukhi-yu.",
+    "english": "I will verify unit consistency.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300246",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tiwaho-m tiwukhi-yu he?",
+    "english": "Will you verify unit consistency?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300247",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tizugo-m tiwëdi.",
+    "english": "I construct a counterexample.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300248",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tizugo-m tiwëdi-yu.",
+    "english": "I will construct a counterexample.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300249",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tizugo-m tiwëdi-yu he?",
+    "english": "Will you construct a counterexample?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300250",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi tisheso-m tiyubu.",
+    "english": "I evaluate statistical power.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300251",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi tisheso-m tiyubu-yu.",
+    "english": "I will evaluate statistical power.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300252",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti tisheso-m tiyubu-yu he?",
+    "english": "Will you evaluate statistical power?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300253",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "sen mi ngirunga-m tizhidi.",
+    "english": "I preregister a study.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300254",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "dal mi ngirunga-m tizhidi-yu.",
+    "english": "I will preregister a study.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300255",
+    "domain": "Mathematics, epistemology and research method",
+    "qaroshi": "hë ti ngirunga-m tizhidi-yu he?",
+    "english": "Will you preregister a study?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300256",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi bomayo-m tobuli.",
+    "english": "I moderate a livestream.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300257",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi bomayo-m tobuli-yu.",
+    "english": "I will moderate a livestream.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300258",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti bomayo-m tobuli-yu he?",
+    "english": "Will you moderate a livestream?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300259",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi shiraro-m tobëqu.",
+    "english": "I subtitle a dialogue.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300260",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi shiraro-m tobëqu-yu.",
+    "english": "I will subtitle a dialogue.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300261",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti shiraro-m tobëqu-yu he?",
+    "english": "Will you subtitle a dialogue?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300262",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi tozalo-m topeni.",
+    "english": "I interpret subtext.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300263",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi tozalo-m topeni-yu.",
+    "english": "I will interpret subtext.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300264",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti tozalo-m topeni-yu he?",
+    "english": "Will you interpret subtext?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300265",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi deheto-m toruki.",
+    "english": "I dub a performance.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300266",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi deheto-m toruki-yu.",
+    "english": "I will dub a performance.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300267",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti deheto-m toruki-yu he?",
+    "english": "Will you dub a performance?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300268",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi zokëpa-m totudi.",
+    "english": "I storyboard a sequence.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300269",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi zokëpa-m totudi-yu.",
+    "english": "I will storyboard a sequence.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300270",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti zokëpa-m totudi-yu he?",
+    "english": "Will you storyboard a sequence?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300271",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi morushi-m towëru.",
+    "english": "I remaster a recording.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300272",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi morushi-m towëru-yu.",
+    "english": "I will remaster a recording.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300273",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti morushi-m towëru-yu he?",
+    "english": "Will you remaster a recording?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300274",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "sen mi deheto-m tozhudi.",
+    "english": "I annotate a performance.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300275",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "dal mi deheto-m tozhudi-yu.",
+    "english": "I will annotate a performance.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300276",
+    "domain": "Media, storytelling and critical expression",
+    "qaroshi": "hë ti deheto-m tozhudi-yu he?",
+    "english": "Will you annotate a performance?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300277",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi shëmo-m tubaki.",
+    "english": "I mediate a disagreement.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300278",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi shëmo-m tubaki-yu.",
+    "english": "I will mediate a disagreement.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300279",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti shëmo-m tubaki-yu he?",
+    "english": "Will you mediate a disagreement?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300280",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi zhirëba-m tudedi.",
+    "english": "I document a decision.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300281",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi zhirëba-m tudedi-yu.",
+    "english": "I will document a decision.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300282",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti zhirëba-m tudedi-yu he?",
+    "english": "Will you document a decision?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300283",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi wëmaho-m tuheku.",
+    "english": "I assign responsibility.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300284",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi wëmaho-m tuheku-yu.",
+    "english": "I will assign responsibility.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300285",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti wëmaho-m tuheku-yu he?",
+    "english": "Will you assign responsibility?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300286",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi tumaza-m turëhu.",
+    "english": "I prepare a rollback plan.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300287",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi tumaza-m turëhu-yu.",
+    "english": "I will prepare a rollback plan.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300288",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti tumaza-m turëhu-yu he?",
+    "english": "Will you prepare a rollback plan?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300289",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi qilako-m tuyizu.",
+    "english": "I resolve a conflict of interest.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300290",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi qilako-m tuyizu-yu.",
+    "english": "I will resolve a conflict of interest.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300291",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti qilako-m tuyizu-yu he?",
+    "english": "Will you resolve a conflict of interest?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300292",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi tukhëlo-m tuzaqu.",
+    "english": "I update a risk register.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300293",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi tukhëlo-m tuzaqu-yu.",
+    "english": "I will update a risk register.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300294",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti tukhëlo-m tuzaqu-yu he?",
+    "english": "Will you update a risk register?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300295",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi tubigo-m tuzhengi.",
+    "english": "I obtain informed participation.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300296",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi tubigo-m tuzhengi-yu.",
+    "english": "I will obtain informed participation.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300297",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti tubigo-m tuzhengi-yu he?",
+    "english": "Will you obtain informed participation?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300298",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "sen mi tuyekha-m tuzhuki.",
+    "english": "I evaluate acceptance criteria.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300299",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "dal mi tuyekha-m tuzhuki-yu.",
+    "english": "I will evaluate acceptance criteria.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300300",
+    "domain": "Organizational decisions, ethics and collaboration",
+    "qaroshi": "hë ti tuyekha-m tuzhuki-yu he?",
+    "english": "Will you evaluate acceptance criteria?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300301",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi ngiwasho-m wagënu.",
+    "english": "I revise a thesis.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300302",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi ngiwasho-m wagënu-yu.",
+    "english": "I will revise a thesis.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300303",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti ngiwasho-m wagënu-yu he?",
+    "english": "Will you revise a thesis?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300304",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi ngigala-m wahotu.",
+    "english": "I adjust a lesson.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300305",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi ngigala-m wahotu-yu.",
+    "english": "I will adjust a lesson.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300306",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti ngigala-m wahotu-yu he?",
+    "english": "Will you adjust a lesson?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300307",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi ngimuka-m wakhasi.",
+    "english": "I check academic integrity.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300308",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi ngimuka-m wakhasi-yu.",
+    "english": "I will check academic integrity.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300309",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti ngimuka-m wakhasi-yu he?",
+    "english": "Will you check academic integrity?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300310",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wahasa-m wakhizi.",
+    "english": "I map a learning progression.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300311",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wahasa-m wakhizi-yu.",
+    "english": "I will map a learning progression.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300312",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wahasa-m wakhizi-yu he?",
+    "english": "Will you map a learning progression?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300313",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wadozho-m wakhënu.",
+    "english": "I define a learning objective.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300314",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wadozho-m wakhënu-yu.",
+    "english": "I will define a learning objective.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300315",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wadozho-m wakhënu-yu he?",
+    "english": "Will you define a learning objective?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300316",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wabima-m wanozhu.",
+    "english": "I schedule spaced repetition.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300317",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wabima-m wanozhu-yu.",
+    "english": "I will schedule spaced repetition.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300318",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wabima-m wanozhu-yu he?",
+    "english": "Will you schedule spaced repetition?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300319",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wagema-m wapidu.",
+    "english": "I build a vocabulary deck.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300320",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wagema-m wapidu-yu.",
+    "english": "I will build a vocabulary deck.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300321",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wagema-m wapidu-yu he?",
+    "english": "Will you build a vocabulary deck?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300322",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wagëzo-m wasoshu.",
+    "english": "I explain a worked example.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300323",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wagëzo-m wasoshu-yu.",
+    "english": "I will explain a worked example.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300324",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wagëzo-m wasoshu-yu he?",
+    "english": "Will you explain a worked example?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300325",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi wakhipo-m wawongu.",
+    "english": "I practice oral fluency.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300326",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi wakhipo-m wawongu-yu.",
+    "english": "I will practice oral fluency.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300327",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti wakhipo-m wawongu-yu he?",
+    "english": "Will you practice oral fluency?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300328",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi tilanga-m wayuku.",
+    "english": "I evaluate source reliability.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300329",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi tilanga-m wayuku-yu.",
+    "english": "I will evaluate source reliability.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300330",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti tilanga-m wayuku-yu he?",
+    "english": "Will you evaluate source reliability?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300331",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "sen mi ngitësha-m wazëshi.",
+    "english": "I summarize a chapter.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300332",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "dal mi ngitësha-m wazëshi-yu.",
+    "english": "I will summarize a chapter.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300333",
+    "domain": "Education, learning and expertise",
+    "qaroshi": "hë ti ngitësha-m wazëshi-yu he?",
+    "english": "Will you summarize a chapter?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300334",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "sen mi keshibo-m widihu.",
+    "english": "I decline an apology.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300335",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "dal mi keshibo-m widihu-yu.",
+    "english": "I will decline an apology.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300336",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "hë ti keshibo-m widihu-yu he?",
+    "english": "Will you decline an apology?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300337",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "sen mi shëna-m widonu.",
+    "english": "I repair trust.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300338",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "dal mi shëna-m widonu-yu.",
+    "english": "I will repair trust.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300339",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "hë ti shëna-m widonu-yu he?",
+    "english": "Will you repair trust?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300340",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "sen mi noha-m wimëngi.",
+    "english": "I disclose a boundary.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300341",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "dal mi noha-m wimëngi-yu.",
+    "english": "I will disclose a boundary.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300342",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "hë ti noha-m wimëngi-yu he?",
+    "english": "Will you disclose a boundary?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300343",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "sen mi kekhopa-m wizhazi.",
+    "english": "I clarify a misunderstanding.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300344",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "dal mi kekhopa-m wizhazi-yu.",
+    "english": "I will clarify a misunderstanding.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300345",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "hë ti kekhopa-m wizhazi-yu he?",
+    "english": "Will you clarify a misunderstanding?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300346",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "sen mi ngëmo-m wizhuyu.",
+    "english": "I acknowledge a mistake.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300347",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "dal mi ngëmo-m wizhuyu-yu.",
+    "english": "I will acknowledge a mistake.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300348",
+    "domain": "Emotional precision and relationship language",
+    "qaroshi": "hë ti ngëmo-m wizhuyu-yu he?",
+    "english": "Will you acknowledge a mistake?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300349",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wokhuwa-m woboru.",
+    "english": "I calculate a glide slope.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300350",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wokhuwa-m woboru-yu.",
+    "english": "I will calculate a glide slope.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300351",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wokhuwa-m woboru-yu he?",
+    "english": "Will you calculate a glide slope?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300352",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi resada-m wolequ.",
+    "english": "I confirm a waypoint.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300353",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi resada-m wolequ-yu.",
+    "english": "I will confirm a waypoint.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300354",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti resada-m wolequ-yu he?",
+    "english": "Will you confirm a waypoint?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300355",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wonoyo-m woloyi.",
+    "english": "I monitor airspeed.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300356",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wonoyo-m woloyi-yu.",
+    "english": "I will monitor airspeed.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300357",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wonoyo-m woloyi-yu he?",
+    "english": "Will you monitor airspeed?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300358",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi ngipala-m womayu.",
+    "english": "I correct a heading.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300359",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi ngipala-m womayu-yu.",
+    "english": "I will correct a heading.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300360",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti ngipala-m womayu-yu he?",
+    "english": "Will you correct a heading?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300361",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wowaga-m woqoshi.",
+    "english": "I maintain formation spacing.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300362",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wowaga-m woqoshi-yu.",
+    "english": "I will maintain formation spacing.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300363",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wowaga-m woqoshi-yu he?",
+    "english": "Will you maintain formation spacing?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300364",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wowingo-m wosohi.",
+    "english": "I detect wind shear.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300365",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wowingo-m wosohi-yu.",
+    "english": "I will detect wind shear.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300366",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wowingo-m wosohi-yu he?",
+    "english": "Will you detect wind shear?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300367",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi goroa-m woyangu.",
+    "english": "I log a flight.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300368",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi goroa-m woyangu-yu.",
+    "english": "I will log a flight.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300369",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti goroa-m woyangu-yu he?",
+    "english": "Will you log a flight?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300370",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wokhukho-m woyowi.",
+    "english": "I reduce wing loading.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300371",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wokhukho-m woyowi-yu.",
+    "english": "I will reduce wing loading.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300372",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wokhukho-m woyowi-yu he?",
+    "english": "Will you reduce wing loading?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300373",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "sen mi wozena-m wozhisu.",
+    "english": "I identify a downdraft.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300374",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "dal mi wozena-m wozhisu-yu.",
+    "english": "I will identify a downdraft.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300375",
+    "domain": "Flight mechanics, navigation and air safety",
+    "qaroshi": "hë ti wozena-m wozhisu-yu he?",
+    "english": "Will you identify a downdraft?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300376",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "sen mi këmi-m wëguhu.",
+    "english": "I batch-cook a meal.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300377",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "dal mi këmi-m wëguhu-yu.",
+    "english": "I will batch-cook a meal.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300378",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "hë ti këmi-m wëguhu-yu he?",
+    "english": "Will you batch-cook a meal?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300379",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "sen mi këmaro-m wënibu.",
+    "english": "I adjust seasoning.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300380",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "dal mi këmaro-m wënibu-yu.",
+    "english": "I will adjust seasoning.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300381",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "hë ti këmaro-m wënibu-yu he?",
+    "english": "Will you adjust seasoning?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300382",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "sen mi mërawa-m wëyosu.",
+    "english": "I repair a garment.",
+    "note": "Unmarked finite present; overt object case -m",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300383",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "dal mi mërawa-m wëyosu-yu.",
+    "english": "I will repair a garment.",
+    "note": "Firm Pulse with future -yu",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300384",
+    "domain": "Food systems, materials and everyday living",
+    "qaroshi": "hë ti mërawa-m wëyosu-yu he?",
+    "english": "Will you repair a garment?",
+    "note": "Question he after the final verb; no double resonance",
+    "edition": "3.0",
+    "pattern": "3.0 precise semantic patient"
+  },
+  {
+    "id": "S300385",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kashala katunge.",
+    "english": "This accessible entrance is step-free.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300386",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kashala katunge he?",
+    "english": "Is this accessible entrance step-free?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300387",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kadeqa kadezhe.",
+    "english": "This inclusive design is cognitively accessible.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300388",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kadeqa kadezhe he?",
+    "english": "Is this inclusive design cognitively accessible?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300389",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kadozha kakemë.",
+    "english": "This quiet room is low-stimulation.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300390",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kadozha kakemë he?",
+    "english": "Is this quiet room low-stimulation?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300391",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna ritiqa tutëkhë.",
+    "english": "This shared roost agreement is consent-based.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300392",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna ritiqa tutëkhë he?",
+    "english": "Is this shared roost agreement consent-based?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300393",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna rihuta rishukhe.",
+    "english": "This seasonal roost is sheltered from the wind.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300394",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna rihuta rishukhe he?",
+    "english": "Is this seasonal roost sheltered from the wind?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300395",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna riqopa wiyukhe.",
+    "english": "This flight mentor is reassuring.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300396",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna riqopa wiyukhe he?",
+    "english": "Is this flight mentor reassuring?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300397",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna womaro waquke.",
+    "english": "This aerodynamics lesson is conceptually difficult.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300398",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna womaro waquke he?",
+    "english": "Is this aerodynamics lesson conceptually difficult?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300399",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wowupo tanoke.",
+    "english": "This landing approach is time-sensitive.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300400",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wowupo tanoke he?",
+    "english": "Is this landing approach time-sensitive?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300401",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna womeka tutile.",
+    "english": "This flight log is publicly documented.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300402",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna womeka tutile he?",
+    "english": "Is this flight log publicly documented?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300403",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wimëda wiqungë.",
+    "english": "This mutual trust is something that builds trust.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300404",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wimëda wiqungë he?",
+    "english": "Is this mutual trust something that builds trust?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300405",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wibira wizishe.",
+    "english": "This boundary clarification is respectful of consent.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300406",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wibira wizishe he?",
+    "english": "Is this boundary clarification respectful of consent?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300407",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wizhura wililë.",
+    "english": "This shared nostalgia is emotionally reciprocal.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300408",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wizhura wililë he?",
+    "english": "Is this shared nostalgia emotionally reciprocal?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300409",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna koruka kozhëre.",
+    "english": "This least privilege policy is privacy-preserving.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300410",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna koruka kozhëre he?",
+    "english": "Is this least privilege policy privacy-preserving?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300411",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna konikho kodëze.",
+    "english": "This reproducible build is reproducible.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300412",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna konikho kodëze he?",
+    "english": "Is this reproducible build reproducible?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300413",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kokheqo kozhëkë.",
+    "english": "This device attestation is cryptographically verifiable.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300414",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kokheqo kozhëkë he?",
+    "english": "Is this device attestation cryptographically verifiable?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300415",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kiqela tukokhë.",
+    "english": "This public comment period is procedurally transparent.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300416",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kiqela tukokhë he?",
+    "english": "Is this public comment period procedurally transparent?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300417",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kibako kizheyë.",
+    "english": "This judicial review is independently audited.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300418",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kibako kizheyë he?",
+    "english": "Is this judicial review independently audited?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300419",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tamowo tatodë.",
+    "english": "This medical history review is patient-centered.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300420",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tamowo tatodë he?",
+    "english": "Is this medical history review patient-centered?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300421",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tasebo taluzhe.",
+    "english": "This clinical trial protocol is evidence-based.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300422",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tasebo taluzhe he?",
+    "english": "Is this clinical trial protocol evidence-based?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300423",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna taqita tawëne.",
+    "english": "This treatment preference is dependent on consent.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300424",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna taqita tawëne he?",
+    "english": "Is this treatment preference dependent on consent?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300425",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tingogo tibiwe.",
+    "english": "This proof obligation is mathematically rigorous.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300426",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tingogo tibiwe he?",
+    "english": "Is this proof obligation mathematically rigorous?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300427",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tisila tikhigë.",
+    "english": "This sampling bias assessment is statistically underpowered.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300428",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tisila tikhigë he?",
+    "english": "Is this sampling bias assessment statistically underpowered?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300429",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tokhira tobiqe.",
+    "english": "This narrative arc is coherent.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300430",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tokhira tobiqe he?",
+    "english": "Is this narrative arc coherent?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300431",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna toqika tobadë.",
+    "english": "This subtitle translation is localized internationally.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300432",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna toqika tobadë he?",
+    "english": "Is this subtitle translation localized internationally?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300433",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tobëho kiwëhe.",
+    "english": "This corrections policy is publicly accountable.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300434",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tobëho kiwëhe he?",
+    "english": "Is this corrections policy publicly accountable?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300435",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna këgiho tanoke.",
+    "english": "This payment settlement is time-sensitive.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300436",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna këgiho tanoke he?",
+    "english": "Is this payment settlement time-sensitive?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300437",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kësaba kitëhe.",
+    "english": "This rental inspection is procedurally fair.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300438",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kësaba kitëhe he?",
+    "english": "Is this rental inspection procedurally fair?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300439",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna rahata rameqe.",
+    "english": "This exoplanet atmosphere is astronomically distant.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300440",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna rahata rameqe he?",
+    "english": "Is this exoplanet atmosphere astronomically distant?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300441",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna timako tiqozhe.",
+    "english": "This experimental protocol is experimentally reproducible.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300442",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna timako tiqozhe he?",
+    "english": "Is this experimental protocol experimentally reproducible?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300443",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna ronesa tutile.",
+    "english": "This language documentation is publicly documented.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300444",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna ronesa tutile he?",
+    "english": "Is this language documentation publicly documented?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300445",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wadozho wasugë.",
+    "english": "This learning objective is accessible to learners.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300446",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wadozho wasugë he?",
+    "english": "Is this learning objective accessible to learners?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300447",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wanita wasëge.",
+    "english": "This course equivalency is transferable between courses.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300448",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wanita wasëge he?",
+    "english": "Is this course equivalency transferable between courses?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300449",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tekodo teyabë.",
+    "english": "This critical infrastructure is redundant for reliability.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300450",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tekodo teyabë he?",
+    "english": "Is this critical infrastructure redundant for reliability?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300451",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna temekha tetarë.",
+    "english": "This emergency radio network is interoperable.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300452",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna temekha tetarë he?",
+    "english": "Is this emergency radio network interoperable?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300453",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kudëgo kunobe.",
+    "english": "This wildlife crossing is ecologically sensitive.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300454",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kudëgo kunobe he?",
+    "english": "Is this wildlife crossing ecologically sensitive?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300455",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna kuhato kudëlë.",
+    "english": "This seed bank is dependent on conservation.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300456",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna kuhato kudëlë he?",
+    "english": "Is this seed bank dependent on conservation?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300457",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna rulëga rubirë.",
+    "english": "This match statistics is sensitive to latency.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300458",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna rulëga rubirë he?",
+    "english": "Is this match statistics sensitive to latency?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300459",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna rukheha kodëze.",
+    "english": "This save-file backup is reproducible.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300460",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna rukheha kodëze he?",
+    "english": "Is this save-file backup reproducible?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300461",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wëqeqo wësibe.",
+    "english": "This ventilation rate is energy efficient.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300462",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wëqeqo wësibe he?",
+    "english": "Is this ventilation rate energy efficient?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300463",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna wëkëta wëpishë.",
+    "english": "This garment is repairable.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300464",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna wëkëta wëpishë he?",
+    "english": "Is this garment repairable?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300465",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tushëdo tuyihë.",
+    "english": "This decision record is independently reviewable.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300466",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tushëdo tuyihë he?",
+    "english": "Is this decision record independently reviewable?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300467",
+    "domain": "Predicates",
+    "qaroshi": "sen dëna tutipo tungikhë.",
+    "english": "This rollout strategy is reversible by design.",
+    "note": "Demonstrative + noun + adjective predicate (no copula)",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300468",
+    "domain": "Predicates",
+    "qaroshi": "hë dëna tutipo tungikhë he?",
+    "english": "Is this rollout strategy reversible by design?",
+    "note": "Question marker is final, after adjective predicate",
+    "edition": "3.0",
+    "pattern": "3.0 curated adjective predicate"
+  },
+  {
+    "id": "S300469",
+    "domain": "Temporary aspect",
+    "qaroshi": "sen mi bozaga-m wëshi koniri.",
+    "english": "I am about to review a threat model.",
+    "note": "Imminence marker directly before verb",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300470",
+    "domain": "Temporary aspect",
+    "qaroshi": "sen mi bozaga-m shëtë koniri-te.",
+    "english": "I have just finished reviewing a threat model.",
+    "note": "Recent-completion particle before past predicate",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300471",
+    "domain": "Temporary aspect",
+    "qaroshi": "sen mi bozaga-m zhoro koniri-se.",
+    "english": "I am still reviewing a threat model.",
+    "note": "Continuative particle before progressive predicate",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300472",
+    "domain": "Temporary aspect",
+    "qaroshi": "sen mi bozaga-m mënoro nu koniri.",
+    "english": "I have not reviewed the threat model yet.",
+    "note": "Not-yet particle immediately before nu + verb",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300473",
+    "domain": "Temporary aspect",
+    "qaroshi": "sen mi bozaga-m nësha nu koniri.",
+    "english": "I no longer review the threat model.",
+    "note": "Cessation particle immediately before nu + verb",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300474",
+    "domain": "Focus",
+    "qaroshi": "sen dëna qaro ngëshi haro.",
+    "english": "Only this Nardoragon is well.",
+    "note": "Only scopes over the noun phrase directly preceding it",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300475",
+    "domain": "Focus",
+    "qaroshi": "sen dëna qaro bëso haro.",
+    "english": "This Nardoragon is also well.",
+    "note": "Additive focus does not imply exclusivity",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300476",
+    "domain": "Focus",
+    "qaroshi": "sen dëna qaro tëmiri haro.",
+    "english": "Even this Nardoragon is well.",
+    "note": "Scalar unexpected-member focus",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300477",
+    "domain": "Quantification",
+    "qaroshi": "sen qaro-ri qësho po goro.",
+    "english": "At least two Nardoragons fly.",
+    "note": "Lower bound with the native base-six numeral po",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300478",
+    "domain": "Quantification",
+    "qaroshi": "sen qaro-ri rëshu po goro.",
+    "english": "At most two Nardoragons fly.",
+    "note": "Upper bound with numeral",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300479",
+    "domain": "Quantification",
+    "qaroshi": "sen qaro-ri nëmi po goro.",
+    "english": "Exactly two Nardoragons fly.",
+    "note": "Lower and upper bounds simultaneously",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300480",
+    "domain": "Evidence",
+    "qaroshi": "sen sa goro-te shëku.",
+    "english": "I remember witnessing that they flew.",
+    "note": "Memory as source: not the same as current observation si",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300481",
+    "domain": "Evidence",
+    "qaroshi": "sen sa goro-te wërusha.",
+    "english": "Measurements indicate that they flew.",
+    "note": "Measurement-derived evidence, not an assertion of direct seeing",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300482",
+    "domain": "Evidence",
+    "qaroshi": "sen sa goro-te rëhu.",
+    "english": "A written document reports that they flew.",
+    "note": "Written report subtype of reported evidence",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300483",
+    "domain": "Evidence",
+    "qaroshi": "yë sa goro-te yëqo si.",
+    "english": "Surprisingly, they flew, and I witnessed it.",
+    "note": "Mirative before evidential, not a replacement for it",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300484",
+    "domain": "Evidence",
+    "qaroshi": "zher sa goro-te ye sëki.",
+    "english": "It seems they flew, though I am not very confident.",
+    "note": "Inferred source + low confidence",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300485",
+    "domain": "Evidence",
+    "qaroshi": "sen sa goro-te si qëru.",
+    "english": "I witnessed them fly and am highly confident.",
+    "note": "Evidence vs epistemic confidence",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300486",
+    "domain": "Dialogue",
+    "qaroshi": "hë hëwo ti haro he?",
+    "english": "Are you well? I am asking for clarification, not confirmation.",
+    "note": "Seeking Call + clarification stance",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300487",
+    "domain": "Dialogue",
+    "qaroshi": "më pëshu mi ti-m nashi.",
+    "english": "I cherish you, and you are not obliged to reciprocate.",
+    "note": "Pressure-free interpersonal expression",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300488",
+    "domain": "Dialogue",
+    "qaroshi": "lën pënu mi ti-tu shiri-ki he?",
+    "english": "May I talk to you about something sensitive?",
+    "note": "Consent-check stance with polar question",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300489",
+    "domain": "Dialogue",
+    "qaroshi": "nëm nëto mi nu shiri.",
+    "english": "I prefer not to speak right now.",
+    "note": "Soft refusal still uses normal predicate negation",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300490",
+    "domain": "Dialogue",
+    "qaroshi": "sen tëshi mi qaroshi-m shiri.",
+    "english": "Changing topics, I speak Qaroshi.",
+    "note": "Discourse shift after the mandatory resonance",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300491",
+    "domain": "Dialogue",
+    "qaroshi": "sen hëra mi qaroshi-m shiri.",
+    "english": "I am paraphrasing this in Qaroshi.",
+    "note": "Statement marked as paraphrase",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300492",
+    "domain": "Dialogue",
+    "qaroshi": "sen shëmoshi mi qaroshi-m shiri.",
+    "english": "I am giving an approximate Qaroshi translation.",
+    "note": "Translation fidelity disclaimer",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300493",
+    "domain": "Dialogue",
+    "qaroshi": "sen bëshi mi qaroshi-m shiri.",
+    "english": "I speak Qaroshi, but do not claim expertise.",
+    "note": "Epistemic humility markers do not change literal predicate",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300494",
+    "domain": "Dialogue",
+    "qaroshi": "sen yëmiri mi qaroshi-m shiri.",
+    "english": "I speak Qaroshi, and remain open to discussing this.",
+    "note": "Nonfinal stance marker",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300495",
+    "domain": "Dialogue",
+    "qaroshi": "qor rëmëlo naru qaro-ri-m daru-yu.",
+    "english": "With the group’s agreement, we will protect the Nardoragons.",
+    "note": "Stance does not imply automatic legal authority",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300496",
+    "domain": "Dialogue",
+    "qaroshi": "sen qëlo mi ti-m nashi.",
+    "english": "To correct what was misheard: I care deeply about you.",
+    "note": "Repair a misunderstanding without new resonance mid-sentence",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300497",
+    "domain": "Dialogue",
+    "qaroshi": "më mëri ti haro he?",
+    "english": "Are you doing okay? This is a gentle check-in.",
+    "note": "Emotional check-in never overrides possibility of refusal",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300498",
+    "domain": "Dialogue",
+    "qaroshi": "sen shërawono mi ti-wa goro-yu, wë ti haro.",
+    "english": "I will fly with you if you are well.",
+    "note": "Conditioned acceptance is not a blank agreement",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300499",
+    "domain": "Conditionals",
+    "qaroshi": "sen tëwaro mi nëru, ti shiri.",
+    "english": "While I rest, you speak.",
+    "note": "Two finite clauses share one sentence-initial resonance",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300500",
+    "domain": "Conditionals",
+    "qaroshi": "sen huwë mi nëru-mo, mi shiri-yu.",
+    "english": "As soon as I finish resting, I will speak.",
+    "note": "Temporal immediate succession",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300501",
+    "domain": "Conditionals",
+    "qaroshi": "sen bëna mi haro, mi goro-yu.",
+    "english": "As long as I am well, I will fly.",
+    "note": "Ongoing condition",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300502",
+    "domain": "Conditionals",
+    "qaroshi": "sen kheso sa goro-yu, mi naro-lo nëra-yu.",
+    "english": "In case they fly, I will remain at home.",
+    "note": "Precautionary event is not asserted as certain",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300503",
+    "domain": "Conditionals",
+    "qaroshi": "sen zuwë ti nu zëru, mi ti-m daru-yu.",
+    "english": "So that you do not die, I will protect you.",
+    "note": "Negative purpose clause with one explicit nu",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
+  },
+  {
+    "id": "S300504",
+    "domain": "Conditionals",
+    "qaroshi": "sen hëshu ti goro-yu, mi naro-lo nëra-yu.",
+    "english": "Whether or not you fly, I will stay at home.",
+    "note": "Exhaustive concession: no separate yes/no claim",
+    "edition": "3.0",
+    "pattern": "3.0 grammar and pragmatics"
   }
 ]

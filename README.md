@@ -1,99 +1,96 @@
-# Qaroshi • Standard Reference 2.0
+# Qaroshi • Standard Reference 3.0
 
-**The Nardoragon language** · 26 native glyphs · 16 mandatory written resonance registers · predominantly SOV syntax · traditional base-six numerals
+**The Nardoragon language** · 26 native glyphs · 16 obligatory typed resonance registers · primarily SOV syntax · traditional base-six numerals
 
-Qaroshi is documented here as a living, extensible language with its own script, grammar, lexicon, cultural expressions, and register system. The repository separates previously established vocabulary from newer terminology that still needs speaker review, linguistic testing, and usage examples.
+Qaroshi has its own script, lexicon, social register system, and productive word-building rules. Standard Reference 3.0 expands both specialized language and conversational nuance while preserving the entire prior standard as a frozen baseline. The glossary distinguishes established forms from newer terminology proposed for usage review.
 
-## Reference statistics
+## Reference at a glance
 
-| Corpus component | Quantity | Meaning |
+| Component | Count | Notes |
 |---|---:|---|
-| Lexicon entries | **6,819** | Unique Qaroshi headwords, transparent compounds, and function words |
-| Preserved established entries | **853** | Reference 1.0 spellings, glosses, and parts of speech unchanged |
-| New grammatical function words | **24** | Explicitly standardized in the 2.0 grammar |
-| New lexical candidates | **5,942** | Glossed concepts spanning modern technical and everyday usage |
-| Transparent compounds among candidates | **234** | Modifier–head constructions with constituent analysis |
-| Corpus sentences | **880** | 190 original, 660 controlled patterns, 30 advanced examples |
-| Native glyphs | **26** | Original handwritten forms, including four multi-character Romanizations |
-| Typed resonance registers | **16** | Mandatory initial marker on every complete sentence |
-| Automated tests | **17** | Dataset integrity, script coverage, morphology and preserved canon |
+| **All dictionary entries** | **9,082** | No duplicate Qaroshi headwords |
+| Preserved Reference 2.0 entries | 6,819 | Entire CSV snapshot preserved, including 853 original 1.0 headwords |
+| New specialized lexical candidates (3.0) | 2,223 | 18 conceptual fields, each with explicit semantic gloss |
+| New proposed grammar function words (3.0) | 40 | Time, evidence, focus, scope, discourse and consent |
+| Total bilingual examples | **1,384** | 880 previous rows preserved, 504 new controlled examples |
+| New documented derivations | 4 | Productive formations, *not* counted as new dictionary entries |
+| Native handwritten glyphs | 26 | Original supplied images retained |
+| Mandatory sentence-initial resonances | 16 | Same inventory as 1.0 and 2.0 |
 
-**Important:** 5,942 terminology entries are marked *candidate*, not independently attested historical usage. Many are reserved Romanized forms assigned through the reproducible lexical-family builder, not words validated by a speaker community. Formal grammar and original headwords are documented separately. This distinction matters for reaching genuine modern-language expressiveness rather than just inflating a word count.
+**Status matters:** a new `candidate` entry has a documented English sense and stable proposed Romanization. It is **not** evidence of naturally attested speech. The 40 new grammar forms are `proposed` until reviewed. This project does not claim modern-language parity solely because thousands of entries exist.
 
-## Quick reference
+## The central grammar rule
 
-Every complete sentence begins with one written resonance marker, such as `më` (Warm Hum), `zha` (Bright Trill), `sen` (neutral), `qor` (solemn), or `hë` (inquiry). There are 16 in total. Sentences are generally **Subject–Object–Verb**; direct objects take `-m`; past `-te`, future `-yu`, ability `-ki`, and predicate negation `nu` before the verb.
+Every independent Qaroshi sentence begins with exactly one of the 16 **typed** resonance markers, including ordinary text messages. A subordinate clause inherits the sentence's opening resonance. `sen` is the neutral, factual register; `më` affectionate; `zha` playful; `qor` solemn; `hë` seeking information. The other eleven register particles remain documented in `docs/grammar.md` and `data/resonances.json`.
 
 > `më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.`  
 > “Please never die so you can stay with me forever.”
 
-That established sentence is retained without alteration. The original glyph chart and individual character artwork are under `assets/`.
+The canonical wording has not changed. Qaroshi retains its Subject–Object–Verb order, noun case `-m`, past `-te`, future `-yu`, ability `-ki`, predicate negation `nu`, and all previously documented morphology.
 
-## Repository map
+## What's new in Reference 3.0?
 
-| Path | Purpose |
+- **Nardoragon culture:** detailed roosts, landing customs, flight mentorship, hatchling care, formation etiquette and commemorations.
+- **Flight mechanics:** aerodynamics, thermals, navigation, altitude safety, weather hazards and emergency landings.
+- **Social nuance:** boundaries, trust repair, affectionate friendship, grief, mutual obligations, encouragement and autonomy.
+- **Specialist communication:** accessibility, human rights, medical consent, scientific uncertainty, statistics and research integrity.
+- **Modern technology:** security engineering, end-to-end encryption verification, privacy, machine learning, cryptographic trust and AI evaluation.
+- **Formal grammar:** event phases (not yet, no longer, about to), clausal conditional distinctions, precision quantity, document vs witnessed evidence, confidence and conversational repair.
+- **Productive word formation:** four derivations for venues, outcomes, systems and evidence traces.
+
+The 3.0 glossary entries are spread across 18 named semantic domains. Open the searchable site or CSV to see each exact entry and its review status.
+
+## File layout
+
+| Path | Contents |
 |---|---|
-| `docs/grammar.md` | 35-section grammar including advanced syntax and new markers |
-| `docs/lexicography.md` | Editorial policy, semantic senses, usage status and revision rules |
-| `docs/translation.md` | Translation procedure and annotated examples |
-| `docs/roadmap.md` | Capabilities still needed for parity with contemporary languages |
-| `docs/phonology_and_script.md` | Sounds, handwriting conventions, Romanization, and glyph rendering |
-| `data/lexicon.csv`, `data/lexicon.json` | Searchable source-of-truth lexicon |
-| `data/english_index.csv` | Reverse English index with explicit senses |
-| `data/resonances.json` | All 16 registers |
-| `data/pronouns.json` | Pronouns and inclusivity distinctions |
-| `data/grammatical_particles_v2.json` | 24 new fixed grammatical entries |
-| `data/lexicon_lock.json` | Stable assigned spellings across future revisions |
-| `corpus/parallel_sentences.csv` | Bilingual reference and controlled examples |
-| `assets/glyphs/*.png` | Original 26 native letter glyphs |
-| `Qaroshi_Offline_Dictionary_v2.html` | Self-contained offline search and glyph converter |
-| `tools/` | Reproducible build, lexical search, morphological formatting, PNG rendering, validation |
-| `tests/` | Integrity and regression tests |
-| `source/` | Immutable 1.0 sources and curated concept inventory |
+| `Qaroshi_Offline_Dictionary_v3.html` | Fully offline English/Qaroshi lookup, version/status filters, phrase search, and handwritten native glyph converter |
+| `data/lexicon.csv`, `data/lexicon.json` | All 9,082 entries, with stable IDs, origin, POS, exact gloss, review status and domain |
+| `data/english_index.csv` | English-to-Qaroshi index including edition and review status |
+| `data/grammatical_particles_v3.json` | 40 proposed grammatical function words |
+| `data/morphemes_v3.json` | Four transparent derivations and their input classes |
+| `data/lexicon_lock_v3.json`, `data/domain_prefixes_v3.json` | Reproducible new candidate spellings and their lexical families |
+| `data/v3_lexical_review_queue.csv` | Only the 2,223 new lexical candidates awaiting review |
+| `data/v3_skipped_senses.csv` | Overlapping already-covered concepts not double-counted |
+| `corpus/parallel_sentences.csv`, `.json` | All 1,384 bilingual examples, with edition and pattern |
+| `docs/grammar.md` | Unchanged 35-section Reference 2.0 grammar |
+| `docs/grammar_v3_extensions.md` | Added sections 36–50 covering the 3.0 grammar |
+| `docs/translation.md`, `docs/lexicography.md` | Editorial and translation procedures |
+| `docs/roadmap.md`, `docs/release_notes_v3.md` | Further parity work and change summary |
+| `assets/glyphs/*.png`, `assets/alphabet_reference.png` | Original 26-glyph Nardoragon script |
+| `tools/qaroshi.py` | Lookup, morphology, derivations, rendered glyph images, validation |
+| `source/lexicon_v2_snapshot.csv`, `source/corpus_v2_snapshot.csv` | Frozen source baseline that 3.0 must never silently overwrite |
+| `source/curated_terms_v3.py`, `source/functional_v3.py` | Auditable new vocabulary concepts and proposed grammar |
+| `tests/` | Regression tests, source preservation, corpus and script validation |
 
-## Try it
+## Use it locally
+
+Requires Python 3.10 or newer. `Pillow` is required for generating native-script PNGs. Open the HTML directly for offline use without installing anything.
 
 ```bash
-# Requires Python 3.10+, plus Pillow for the optional PNG renderer.
-python tools/qaroshi.py lookup "resonance"
-python tools/qaroshi.py lookup "nashi"
+python tools/qaroshi.py lookup "aerodynamics"
+python tools/qaroshi.py lookup "roostmate"
 python tools/qaroshi.py morph mara --pos noun --endear --plural --case m
 python tools/qaroshi.py morph goro --pos verb --tense te --aspect se
+python tools/qaroshi.py derive shiri --suffix=-dëno
 python tools/qaroshi.py check "më mi ti-m nashi."
 python tools/qaroshi.py render "më ti lësha." --output cute.png
 python tools/qaroshi.py validate
 python -m unittest discover -s tests -v
 ```
 
-Or open `Qaroshi_Offline_Dictionary_v2.html` directly in a browser. It does not require a server or online connection, and can search English meanings and Qaroshi forms. The **native converter** maps Qaroshi spelling to the original glyph artwork; it is not a general English-to-Qaroshi machine translator.
-
-### Rebuild reference data
+### Rebuild the complete project
 
 ```bash
-python tools/build_lexicon.py
-python tools/build_metadata.py
-python tools/build_corpus.py
-python tools/build_dictionary_site.py
-python -m unittest discover -s tests
+make build
+make validate
+make test
 ```
 
-The `data/lexicon_lock.json` and `data/domain_prefixes.json` files should be committed and treated as editorial change-control files. Existing words must not silently change spelling when new terms are added.
+The build reads **the frozen 2.0 dictionary and corpus snapshots**, not a generator that might change their existing spellings. The 3.0 locked candidate forms are deterministic. New concepts are not allowed to collide with an existing Qaroshi word; existing source IDs remain unchanged when lexemes are added.
 
-## Canonical status and edition policy
+### Review policy and community contributions
 
-- **Established:** original Reference 1.0 data. Do not reassign these forms or senses.
-- **Standardized:** explicitly documented new grammatical markers.
-- **Candidate:** well-defined lexical senses awaiting pronunciation, usage, ambiguity, and cultural review.
-- **Compound:** a lexical form built transparently from two attested or documented roots; constituents are recorded.
+See `CONTRIBUTING.md`, `docs/lexicography.md`, and `docs/grammar_v3_extensions.md` before promoting words or grammar proposals. Disagreements about meaning, dialect, register, or naturalness should be documented, not silently overwritten. The native alphabet is provided as original image artwork rather than an installable font or assigned Unicode character set.
 
-The 16 resonance markers, inclusive/exclusive distinction (`naru` vs. `muru`), and 26 glyph inventory are core constraints. Complete sentences need exactly one opening resonance. A quotation that contains a complete Qaroshi sentence has its own opening register inside the quotation.
-
-## Scope and limitations
-
-The dictionary covers thousands of modern concepts, but it is **not yet a fully attested, community-reviewed everyday language at natural-language parity**. The remaining work includes spontaneous dialogue recordings, idioms, semantic drift, pronunciation variation, regional registers, productivity testing, discourse annotation, natural parallel text, and a keyboard-ready font/IME for the native script. See `docs/roadmap.md`.
-
-The existing script is represented by image artwork, **not assigned Unicode code points**. For programmatic interchange use UTF-8 Romanization or a sequence of the 26 glyph IDs, and display the art with the included renderer.
-
-## Contributing and publishing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). This directory is prepared for GitHub with source files, tests, sample workflows, and change-control rules. **No GitHub remote or push has been performed by this package build.** The original alphabet is user-supplied artwork; confirm permission and choose a license before publishing it publicly. A license has intentionally not been assigned for the project owner.
+**Publication:** This ZIP does not automatically change a GitHub repository. The source artwork and code have no chosen license in this draft; verify contributor permissions and select a license before public distribution.

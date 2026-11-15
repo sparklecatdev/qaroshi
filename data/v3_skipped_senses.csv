@@ -1,0 +1,51 @@
+﻿domain,pos,english,reason
+"Access, disability and inclusive design",n,mobility aid,existing/repeated sense
+"Access, disability and inclusive design",v,request an accommodation,existing/repeated sense
+"Qaroshi social life, roosting and development",n,roost keeper,existing/repeated sense
+"Qaroshi social life, roosting and development",n,scale shedding,existing/repeated sense
+"Flight mechanics, navigation and air safety",n,thermal updraft,existing/repeated sense
+"Flight mechanics, navigation and air safety",n,waypoint,existing/repeated sense
+"Flight mechanics, navigation and air safety",v,navigate by stars,existing/repeated sense
+Emotional precision and relationship language,n,overwhelm,existing/repeated sense
+"Cybersecurity, privacy and artificial intelligence",n,threat model,existing/repeated sense
+"Cybersecurity, privacy and artificial intelligence",n,passkey,existing/repeated sense
+"Cybersecurity, privacy and artificial intelligence",n,context window,existing/repeated sense
+"Civil rights, public policy and institutions",n,freedom of association,existing/repeated sense
+"Civil rights, public policy and institutions",n,transparency report,existing/repeated sense
+"Civil rights, public policy and institutions",v,ratify a treaty,existing/repeated sense
+"Health, medicine and care ethics",n,differential diagnosis,existing/repeated sense
+"Health, medicine and care ethics",n,control group,existing/repeated sense
+"Health, medicine and care ethics",n,contraindication,existing/repeated sense
+"Health, medicine and care ethics",n,incubation period,existing/repeated sense
+"Health, medicine and care ethics",n,respiratory rate,existing/repeated sense
+"Health, medicine and care ethics",n,sleep hygiene,existing/repeated sense
+"Health, medicine and care ethics",v,monitor vital signs,existing/repeated sense
+"Mathematics, epistemology and research method",n,measurement uncertainty,existing/repeated sense
+"Mathematics, epistemology and research method",n,significant figures,existing/repeated sense
+"Mathematics, epistemology and research method",n,computational complexity,existing/repeated sense
+"Mathematics, epistemology and research method",n,falsifiability,existing/repeated sense
+"Media, storytelling and critical expression",n,spoken-word poetry,existing/repeated sense
+"Media, storytelling and critical expression",n,assonance,existing/repeated sense
+"Media, storytelling and critical expression",n,alliteration,existing/repeated sense
+"Media, storytelling and critical expression",n,hyperbole,existing/repeated sense
+"Media, storytelling and critical expression",n,community guideline,existing/repeated sense
+"Economic life, work and household finance",n,wire transfer,existing/repeated sense
+"Rhetoric, dialogue and language learning",n,false dilemma,existing/repeated sense
+"Rhetoric, dialogue and language learning",n,source attribution,existing/repeated sense
+"Rhetoric, dialogue and language learning",n,phonetic transcription,existing/repeated sense
+"Education, learning and expertise",n,academic integrity,existing/repeated sense
+"Education, learning and expertise",n,academic advisor,existing/repeated sense
+"Infrastructure, logistics and public safety",n,road closure,existing/repeated sense
+"Infrastructure, logistics and public safety",n,carbon monoxide alarm,existing/repeated sense
+"Infrastructure, logistics and public safety",n,hazard assessment,existing/repeated sense
+"Ecology, evolution and stewardship",n,ecological niche,existing/repeated sense
+"Ecology, evolution and stewardship",n,commensalism,existing/repeated sense
+"Ecology, evolution and stewardship",n,seed dispersal,existing/repeated sense
+"Ecology, evolution and stewardship",n,protected habitat,existing/repeated sense
+"Sports, games and skill development",n,reaction time,existing/repeated sense
+"Sports, games and skill development",n,proprioception,existing/repeated sense
+"Sports, games and skill development",n,performance metric,existing/repeated sense
+"Food systems, materials and everyday living",n,refrigerated storage,existing/repeated sense
+"Food systems, materials and everyday living",v,compost food scraps,existing/repeated sense
+"Food systems, materials and everyday living",v,mend a seam,existing/repeated sense
+"Organizational decisions, ethics and collaboration",n,conflict of interest,existing/repeated sense

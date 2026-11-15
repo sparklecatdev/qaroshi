@@ -19,15 +19,16 @@ A community-attested phrase with clear context is stronger evidence than a machi
 
 ## Changes and stability
 
-The lexicon uses a **locked spelling ledger** (`data/lexicon_lock.json`). Do not delete or regenerate it. A correction that genuinely requires a spelling change should have a documented migration alias and a release note. An old phrasebook expression must remain understandable after an update. All accepted grammar examples must include a resonance marker and an English translation.
+The lexicon uses **frozen 2.0 snapshots** and separate locked spelling ledgers (`data/lexicon_lock.json` for 2.0 and `data/lexicon_lock_v3.json` for 3.0). Do not delete or regenerate it. A correction that genuinely requires a spelling change should have a documented migration alias and a release note. An old phrasebook expression must remain understandable after an update. All accepted grammar examples must include a resonance marker and an English translation.
 
-The `source/Qaroshi_Dictionary_853.csv` and `source/Qaroshi_Phrasebook_190.csv` files are canonical snapshots. Propose changes in new, clearly labeled data files, not by quietly modifying preserved originals. If a previously attested gloss is discovered to be contradictory, document the discrepancy, rationale and effective edition.
+The `source/Qaroshi_Dictionary_853.csv`, `source/Qaroshi_Phrasebook_190.csv`, `source/lexicon_v2_snapshot.csv`, and `source/corpus_v2_snapshot.csv` files are canonical snapshots. Propose changes in new, clearly labeled data files, not by quietly modifying preserved originals. If a previously attested gloss is discovered to be contradictory, document the discrepancy, rationale and effective edition.
 
 ## Review labels
 
 - `established`: unchanged Reference 1.0.
 - `standardized`: explicit 2.0 grammar.
-- `candidate`: concept and form present, pronunciation/usage review outstanding.
+- `candidate`: documented lexical sense with a stable proposed form; pronunciation/usage review outstanding.
+- `proposed`: explicitly documented 3.0 grammatical form pending review.
 
 A reviewer can promote a candidate to standard status only after resolving collisions, semantics, syntax examples and compositional transparency. Promotion must be reflected in the lock ledger and release notes.
 
