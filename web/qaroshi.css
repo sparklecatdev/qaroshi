@@ -198,3 +198,9 @@ html[data-theme="dark"] .home-hero .statsline b{color:var(--text)}
 .chapter-further ul{margin-bottom:4px;padding-left:19px}
 @media(max-width:670px){.learning-grid{grid-template-columns:1fr}.learning-card{min-height:125px}.doc-body table{font-size:.76rem}.doc-body th,.doc-body td{padding:7px 5px}}
 @media print{.doc-body details{break-inside:avoid}.doc-body details>summary{font-weight:700}.learning-grid{display:block}.learning-card{margin:10px 0}}
+
+/* Shared appearance control */
+html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{height:38px;max-width:100px;padding:0 8px;border:1px solid var(--border);border-radius:7px;background:var(--panel);font-size:13px}
+
+/* A quieter reference-focused home page. */
+.brand-mark{background:#6b52af;box-shadow:none}.home-hero,html[data-theme="dark"] .home-hero{background:var(--canvas);border-color:var(--border);border-radius:9px}.home-hero h1{font-size:clamp(2.3rem,4vw,3.2rem);letter-spacing:-.035em}.hero-glyphs{transform:none;opacity:.07}html[data-theme="dark"] .button.primary{color:#171520}

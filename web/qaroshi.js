@@ -705,15 +705,7 @@
   $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
   $('sideBackdrop').addEventListener('click',closeNav);
   toc.addEventListener('click',e=>{const a=e.target.closest('a[data-scroll]');if(!a)return;e.preventDefault();const target=$(a.dataset.scroll);if(target)target.scrollIntoView({behavior:'smooth',block:'start'})});
-  $('themeBtn').addEventListener('click',()=>{
-    const dark=document.documentElement.getAttribute('data-theme')!=='dark';
-    document.documentElement.setAttribute('data-theme',dark?'dark':'light');
-    try{localStorage.setItem('qaroshi-theme',dark?'dark':'light')}catch{}
-    $('themeBtn').setAttribute('aria-label',dark?'Use light theme':'Use dark theme');
-    $('themeBtn').textContent=dark?'☼':'☾';
-  });
-  try{const theme=localStorage.getItem('qaroshi-theme');if(theme==='dark')document.documentElement.setAttribute('data-theme','dark')}catch{}
-  if(document.documentElement.getAttribute('data-theme')==='dark'){$('themeBtn').textContent='☼';$('themeBtn').setAttribute('aria-label','Use light theme')}
+  window.QaroshiTheme.bind($('themeBtn'));
   document.addEventListener('keydown',e=>{
     const tag=document.activeElement?.tagName?.toLowerCase();
     if(e.key==='Escape')closeNav();

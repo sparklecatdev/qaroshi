@@ -54,14 +54,15 @@ packet={
 }
 js=read('web/academy/academy.js')
 css=read('web/academy/academy.css')
+theme_js=read('web/theme.js')
 json_data=json.dumps(packet,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
 html=f'''<!doctype html><html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Learn Qaroshi, the language of Nardoragons, with guided lessons, word review, games, and the original writing system.">
-<title>Qaroshi Academy</title><style>{css}</style></head>
+<title>Qaroshi Academy</title><script>{theme_js}</script><style>{css}</style></head>
 <body><div class="app" id="app"><div class="mobile-shade" id="shade" aria-hidden="true"></div>
 <aside class="sidebar" id="sidebar" aria-label="Main navigation"></aside>
-<div class="stage"><header class="topbar"><div class="row"><button class="tiny-btn hamburger" id="menu-btn" aria-label="Open menu">☰</button><span class="crumb" id="crumb">Overview</span></div><div class="actions"><span class="tag purple">Learn at your pace</span><button class="tiny-btn" id="theme-btn" aria-label="Toggle color theme">◐</button></div></header>
+<div class="stage"><header class="topbar"><div class="row"><button class="tiny-btn hamburger" id="menu-btn" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">☰</button><span class="crumb" id="crumb">Overview</span></div><div class="actions"><select class="theme-select" id="theme-btn" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></div></header>
 <main class="content" id="content"></main></div></div>
 <script type="application/json" id="academy-data">{json_data}</script><script>{js}</script>
 </body></html>'''

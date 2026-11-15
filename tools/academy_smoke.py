@@ -69,7 +69,7 @@ async def main():
         await page.locator('.sidebar [data-go="flight"]').click()
         await page.locator('[data-mode="flight"]').click()
         await check('skyflight route' in (await page.locator('main').inner_text()).lower(),'skyflight started')
-        await page.locator('#theme-btn').click()
+        await page.locator('#theme-btn').select_option('dark')
         await check(await page.locator('html').get_attribute('data-theme')=='dark','dark theme')
         await page.screenshot(path=str(ROOT/'previews/academy_skyflight_dark.png'),full_page=True)
         await check(not errors,'no JavaScript errors: '+str(errors))

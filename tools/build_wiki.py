@@ -55,17 +55,17 @@ metadata={'words':public_words,'phrases':public_sentences,'chapters':chapters,'g
           'affixes':json.loads((ROOT/'data/affixes.json').read_text(encoding='utf-8')),
           'counts':{'dictionary':len(words),'phrasebook':len(sentences),'grammar':len(chapters),'letters':len(letters)}}
 blob=json.dumps(metadata,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e')
-css=(ROOT/'web/qaroshi.css').read_text(encoding='utf-8');js=(ROOT/'web/qaroshi.js').read_text(encoding='utf-8')
+css=(ROOT/'web/qaroshi.css').read_text(encoding='utf-8');js=(ROOT/'web/qaroshi.js').read_text(encoding='utf-8');theme_js=(ROOT/'web/theme.js').read_text(encoding='utf-8')
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, deep learning guides, exercises, and native handwritten alphabet entirely offline.">
 <title>Qaroshi Wiki · Unified Standard 5.3</title>
-<style>{css}</style></head><body>
+<script>{theme_js}</script><style>{css}</style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
 <input id="topSearch" autocomplete="off" placeholder="Search the reference" type="search"><span class="kbd" aria-hidden="true">/</span></form>
-<button class="iconbtn" type="button" id="themeBtn" aria-label="Use dark theme" title="Toggle light/dark appearance">☾</button>
+<select class="theme-select" id="themeBtn" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>
 <button class="iconbtn" type="button" id="menuBtn" aria-controls="leftSidebar" aria-expanded="false" aria-label="Open sidebar">☰</button></div></header>
 <div class="backdrop" id="sideBackdrop" aria-hidden="true"></div>
 <div class="shell"><aside class="sidebar" id="leftSidebar" aria-label="Reference navigation"></aside>

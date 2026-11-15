@@ -3,7 +3,35 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, deep learning guides, exercises, and native handwritten alphabet entirely offline.">
 <title>Qaroshi Wiki · Unified Standard 5.3</title>
-<style>/* Qaroshi unified 4.1 offline wiki • system-font, no external dependencies */
+<script>/* Shared appearance preference for the wiki and Academy. */
+(() => {
+  const key = 'qaroshi-theme';
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  let preference = 'system';
+  try { preference = localStorage.getItem(key) || 'system'; } catch (_) {}
+  if (!['system', 'light', 'dark'].includes(preference)) preference = 'system';
+  const controls = new Set();
+  function apply() {
+    document.documentElement.dataset.theme = preference === 'system' ? (media.matches ? 'dark' : 'light') : preference;
+    controls.forEach(control => { control.value = preference; });
+  }
+  function set(value) {
+    if (!['system', 'light', 'dark'].includes(value)) return;
+    preference = value;
+    try { if (value === 'system') localStorage.removeItem(key); else localStorage.setItem(key, value); } catch (_) {}
+    apply();
+  }
+  window.QaroshiTheme = { bind(control) { controls.add(control); control.addEventListener('change', () => set(control.value)); apply(); } };
+  media.addEventListener('change', apply);
+  window.addEventListener('storage', event => {
+    if (event.key !== key && event.key !== null) return;
+    const value = event.key === null ? null : event.newValue;
+    preference = value === 'light' || value === 'dark' ? value : 'system';
+    apply();
+  });
+  apply();
+})();
+</script><style>/* Qaroshi unified 4.1 offline wiki • system-font, no external dependencies */
 :root{--bg:#fff;--canvas:#f8f9fb;--text:#252833;--muted:#677181;--border:#e2e5eb;--link:#6247ad;--link-hover:#4c348f;--accent-bg:#f0ecfa;--accent-border:#d7cbee;--panel:#fff;--hover:#f4f5f8;--code-bg:#f3f4f8;--shadow:0 8px 25px #13162712;--sans:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;--serif:Georgia,ui-serif,serif}
 html[data-theme="dark"]{--bg:#17191f;--canvas:#13151a;--text:#e7e7ed;--muted:#9ca4b4;--border:#333743;--link:#c1abff;--link-hover:#ddcfff;--accent-bg:#292338;--accent-border:#4c4267;--panel:#1c1f27;--hover:#252833;--code-bg:#222632;--shadow:0 12px 32px #0005}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:var(--bg);font:15px/1.65 var(--sans)}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline;color:var(--link-hover)}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--link);outline-offset:3px}code,pre,.roman{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}code{background:var(--code-bg);border-radius:4px;padding:.1rem .28rem;font-size:.9em}h1,h2,h3,h4{line-height:1.25;letter-spacing:-.025em}h1{font-size:clamp(2.05rem,3.4vw,2.7rem);margin:.2rem 0 1.1rem}h2{font-size:1.43rem;margin:2rem 0 .7rem}h3{font-size:1.12rem;margin:1.5rem 0 .6rem}p{margin:.7rem 0 1.15rem}small,.small{font-size:.82rem}.muted{color:var(--muted)}.eyebrow{color:var(--link);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em}.divider{border:0;border-top:1px solid var(--border);margin:24px 0}.sr-only{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
@@ -203,11 +231,17 @@ html[data-theme="dark"] .home-hero .statsline b{color:var(--text)}
 .chapter-further ul{margin-bottom:4px;padding-left:19px}
 @media(max-width:670px){.learning-grid{grid-template-columns:1fr}.learning-card{min-height:125px}.doc-body table{font-size:.76rem}.doc-body th,.doc-body td{padding:7px 5px}}
 @media print{.doc-body details{break-inside:avoid}.doc-body details>summary{font-weight:700}.learning-grid{display:block}.learning-card{margin:10px 0}}
+
+/* Shared appearance control */
+html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{height:38px;max-width:100px;padding:0 8px;border:1px solid var(--border);border-radius:7px;background:var(--panel);font-size:13px}
+
+/* A quieter reference-focused home page. */
+.brand-mark{background:#6b52af;box-shadow:none}.home-hero,html[data-theme="dark"] .home-hero{background:var(--canvas);border-color:var(--border);border-radius:9px}.home-hero h1{font-size:clamp(2.3rem,4vw,3.2rem);letter-spacing:-.035em}.hero-glyphs{transform:none;opacity:.07}html[data-theme="dark"] .button.primary{color:#171520}
 </style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
 <input id="topSearch" autocomplete="off" placeholder="Search the reference" type="search"><span class="kbd" aria-hidden="true">/</span></form>
-<button class="iconbtn" type="button" id="themeBtn" aria-label="Use dark theme" title="Toggle light/dark appearance">☾</button>
+<select class="theme-select" id="themeBtn" aria-label="Appearance"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select>
 <button class="iconbtn" type="button" id="menuBtn" aria-controls="leftSidebar" aria-expanded="false" aria-label="Open sidebar">☰</button></div></header>
 <div class="backdrop" id="sideBackdrop" aria-hidden="true"></div>
 <div class="shell"><aside class="sidebar" id="leftSidebar" aria-label="Reference navigation"></aside>
@@ -921,15 +955,7 @@ html[data-theme="dark"] .home-hero .statsline b{color:var(--text)}
   $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
   $('sideBackdrop').addEventListener('click',closeNav);
   toc.addEventListener('click',e=>{const a=e.target.closest('a[data-scroll]');if(!a)return;e.preventDefault();const target=$(a.dataset.scroll);if(target)target.scrollIntoView({behavior:'smooth',block:'start'})});
-  $('themeBtn').addEventListener('click',()=>{
-    const dark=document.documentElement.getAttribute('data-theme')!=='dark';
-    document.documentElement.setAttribute('data-theme',dark?'dark':'light');
-    try{localStorage.setItem('qaroshi-theme',dark?'dark':'light')}catch{}
-    $('themeBtn').setAttribute('aria-label',dark?'Use light theme':'Use dark theme');
-    $('themeBtn').textContent=dark?'☼':'☾';
-  });
-  try{const theme=localStorage.getItem('qaroshi-theme');if(theme==='dark')document.documentElement.setAttribute('data-theme','dark')}catch{}
-  if(document.documentElement.getAttribute('data-theme')==='dark'){$('themeBtn').textContent='☼';$('themeBtn').setAttribute('aria-label','Use light theme')}
+  window.QaroshiTheme.bind($('themeBtn'));
   document.addEventListener('keydown',e=>{
     const tag=document.activeElement?.tagName?.toLowerCase();
     if(e.key==='Escape')closeNav();
