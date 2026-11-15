@@ -1,0 +1,42 @@
+[
+  {
+    "form": "mi",
+    "english": "I/me"
+  },
+  {
+    "form": "ti",
+    "english": "you (singular)"
+  },
+  {
+    "form": "sa",
+    "english": "they (singular)"
+  },
+  {
+    "form": "naru",
+    "english": "we (inclusive)"
+  },
+  {
+    "form": "muru",
+    "english": "we (exclusive)"
+  },
+  {
+    "form": "tiri",
+    "english": "you (plural)"
+  },
+  {
+    "form": "sari",
+    "english": "they (plural)"
+  },
+  {
+    "form": "miyo",
+    "english": "one/people generally"
+  },
+  {
+    "form": "yano",
+    "english": "someone"
+  },
+  {
+    "form": "nura",
+    "english": "nobody"
+  }
+]

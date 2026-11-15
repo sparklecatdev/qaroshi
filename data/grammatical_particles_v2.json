@@ -1,0 +1,146 @@
+[
+  {
+    "form": "wënu",
+    "pos": "conj",
+    "english": "if, contrary to fact",
+    "rule": "Counterfactual protasis introducer; contrasted with real/unknown wë"
+  },
+  {
+    "form": "qinë",
+    "pos": "part",
+    "english": "would, counterfactual result",
+    "rule": "Follows the counterfactual consequent predicate before optional evidential"
+  },
+  {
+    "form": "yëmë",
+    "pos": "part",
+    "english": "may it be that; let it be",
+    "rule": "Optative marker after initial resonance, before clause"
+  },
+  {
+    "form": "rëshi",
+    "pos": "part",
+    "english": "contrastively focused constituent",
+    "rule": "Immediately follows highlighted constituent; once per clause"
+  },
+  {
+    "form": "nashu",
+    "pos": "det",
+    "english": "as a single group, collectively",
+    "rule": "Before plural or group noun; collective quantifier"
+  },
+  {
+    "form": "nura",
+    "pos": "pron",
+    "english": "no one, nobody",
+    "rule": "Independent negative quantifier; does not take a second nu"
+  },
+  {
+    "form": "yano",
+    "pos": "pron",
+    "english": "someone, somebody",
+    "rule": "Indefinite animate referent"
+  },
+  {
+    "form": "gawo",
+    "pos": "det",
+    "english": "both of two",
+    "rule": "Before countable group; restricted to two"
+  },
+  {
+    "form": "qona",
+    "pos": "conj",
+    "english": "whether, if (embedded question)",
+    "rule": "Marks boundary of an embedded polar question; not a conditional"
+  },
+  {
+    "form": "pëlë",
+    "pos": "part",
+    "english": "if it is acceptable; respectfully please",
+    "rule": "Optional deferential alternative to pëla"
+  },
+  {
+    "form": "hëmi",
+    "pos": "part",
+    "english": "is that correct?; confirmation tag",
+    "rule": "Question-final tag after the predicate; no additional he"
+  },
+  {
+    "form": "shëto",
+    "pos": "part",
+    "english": "rather; corrective replacement",
+    "rule": "Replaces a previously asserted alternative in discourse"
+  },
+  {
+    "form": "toru",
+    "pos": "part",
+    "english": "direct-quotation introducer",
+    "rule": "Introduces fully independent quoted utterance; quote retains resonance"
+  },
+  {
+    "form": "tara",
+    "pos": "conj",
+    "english": "until",
+    "rule": "Temporal subordinate clause boundary"
+  },
+  {
+    "form": "dasha",
+    "pos": "conj",
+    "english": "even if",
+    "rule": "Concessive hypothetical condition"
+  },
+  {
+    "form": "shoru",
+    "pos": "conj",
+    "english": "unless",
+    "rule": "Negative condition; not combined with nu on same protasis predicate"
+  },
+  {
+    "form": "nësho",
+    "pos": "part",
+    "english": "as already established",
+    "rule": "Shared-ground discourse marker after resonance"
+  },
+  {
+    "form": "hëla",
+    "pos": "part",
+    "english": "in the speaker’s view",
+    "rule": "Epistemic opinion marker after resonance"
+  },
+  {
+    "form": "shëgi",
+    "pos": "part",
+    "english": "in fact, contrary to expectation",
+    "rule": "Corrective evidence/discourse marker after resonance"
+  },
+  {
+    "form": "zërë",
+    "pos": "part",
+    "english": "except for; excluding",
+    "rule": "Postposed to excluded noun phrase"
+  },
+  {
+    "form": "neshë",
+    "pos": "conj",
+    "english": "regardless of whether",
+    "rule": "Unconditional concessive connector"
+  },
+  {
+    "form": "lëshu",
+    "pos": "part",
+    "english": "according to shared custom",
+    "rule": "Customary-source marker after predicate, before sentence final marker"
+  },
+  {
+    "form": "keho",
+    "pos": "part",
+    "english": "respectful address",
+    "rule": "Before addressed name or kinship term; not grammatical gender"
+  },
+  {
+    "form": "miyo",
+    "pos": "pron",
+    "english": "one, people generally",
+    "rule": "Impersonal human/animate generic pronoun"
+  }
+]

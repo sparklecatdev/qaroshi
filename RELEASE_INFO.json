@@ -1,0 +1,15 @@
+{
+  "name": "Qaroshi Standard Reference",
+  "version": "2.0.0-draft",
+  "language": "Qaroshi",
+  "script_native_glyphs": 26,
+  "mandatory_sentence_resonances": 16,
+  "lexicon_entries": 6819,
+  "established_entries": 853,
+  "new_standardized_grammar_entries": 24,
+  "candidate_lexical_entries": 5942,
+  "candidate_compounds": 234,
+  "parallel_example_sentences": 880,
+  "license_status": "owner selection and artwork permission pending",
+  "github_published": false
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "marker": "më",
+    "name": "Warm Hum",
+    "meaning": "affection, tenderness, vulnerability",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "zha",
+    "name": "Bright Trill",
+    "meaning": "excitement, play, delight",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "qor",
+    "name": "Deep Resonance",
+    "meaning": "solemnity, promises, authority",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "sen",
+    "name": "Still Voice",
+    "meaning": "neutral information",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "hë",
+    "name": "Seeking Call",
+    "meaning": "sincere inquiry, curiosity",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "lën",
+    "name": "Hidden Hum",
+    "meaning": "shyness, bashfulness",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "sur",
+    "name": "Falling Song",
+    "meaning": "grief, sadness",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "rak",
+    "name": "Rough Growl",
+    "meaning": "anger, defiance",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "khar",
+    "name": "Sharp Cry",
+    "meaning": "alarm, fear",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "yë",
+    "name": "Rising Echo",
+    "meaning": "wonder, surprise",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "nëm",
+    "name": "Quiet Breath",
+    "meaning": "contentment, peace",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "wen",
+    "name": "Distant Call",
+    "meaning": "longing",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "dal",
+    "name": "Firm Pulse",
+    "meaning": "determination, resolve",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "rëm",
+    "name": "High Crest",
+    "meaning": "pride, triumph",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "hol",
+    "name": "Open Heart",
+    "meaning": "gratitude",
+    "mandatory_sentence_initial": true
+  },
+  {
+    "marker": "zher",
+    "name": "Broken Echo",
+    "meaning": "doubt, suspicion",
+    "mandatory_sentence_initial": true
+  }
+]

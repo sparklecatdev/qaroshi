@@ -1,0 +1,32 @@
+[
+  {
+    "form": "-nga",
+    "category": "case",
+    "meaning": "through; along; via a path",
+    "rule": "Optional perlative spatial case in same slot as -lo/-gu/-de"
+  },
+  {
+    "form": "-wë",
+    "category": "derivation",
+    "meaning": "a kind or class of a noun",
+    "rule": "Denotes taxonomic subtype; only on nouns"
+  },
+  {
+    "form": "-këlë",
+    "category": "derivation",
+    "meaning": "a tool used for the base action",
+    "rule": "Instrument noun formed from a verb; not an inflection"
+  },
+  {
+    "form": "-rëma",
+    "category": "derivation",
+    "meaning": "an occasion of the base event",
+    "rule": "Event token noun from an action root, distinguished from -ma action category"
+  },
+  {
+    "form": "-sharo",
+    "category": "derivation",
+    "meaning": "a practitioner or trained specialist",
+    "rule": "Role noun from a professional activity; contrast with general agent -mi"
+  }
+]
