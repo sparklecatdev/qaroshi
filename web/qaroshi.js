@@ -1,9 +1,11 @@
-/* Qaroshi Unified Standard Reference 5.0. */
+/* Qaroshi Unified Standard Reference 5.3. */
 (() => {
   'use strict';
   const D = JSON.parse(document.getElementById('wiki-data').textContent);
   const W = D.words, P = D.phrases, C = D.chapters, G = D.glyphs;
   const PH = Object.fromEntries(D.phonemes.map(p => [p.glyph, p.ipa.slice(1,-1)]));
+  const STUDY = D.studyIndex || [];
+  const studyBy = new Map(STUDY.map(x => [x.id,x]));
   const VOWELS = new Set(['a','e','i','o','u','ë']);
   const GLIDES = new Set(['r','l','w','y']);
   const DIGRAPHS = new Set(['sh','zh','kh','ng']);
@@ -40,7 +42,7 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70]
@@ -154,12 +156,21 @@
     }).join('');
     const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
     return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}${a('assistant','AI assistant')}${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
+      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
+      <div class="side-group"><div class="side-heading">Learn Qaroshi</div>
+      ${a('learn','Learning library')}
+      ${a('guide/getting_started','Start here')}
+      ${a('guide/graded_course','Guided course · 16 lessons')}
+      ${a('guide/sentence_atlas','Annotated sentence atlas')}
+      ${a('guide/workbook','Practice and answer keys')}
+      <details class="chapter-group"><summary>Deep topic guides · 16</summary><div class="nested">
+        ${STUDY.filter(x => !['graded_course','sentence_atlas','workbook'].includes(x.id)).map(x=>a('guide/'+x.id,x.title)).join('')}
+      </div></details></div>
       <div class="side-group"><div class="side-heading">Grammar</div>${a('grammar','All grammar chapters')}${groups}</div>
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
-      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 5.0</strong><br>Reference available offline.</div>`;
+      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/living','Living speech, profanity & intimacy')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
+      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 5.3</strong><br>Reference available offline.</div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -211,7 +222,7 @@
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · STANDARD 5.0</div>
+        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · STANDARD 5.3</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
         <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
@@ -219,6 +230,7 @@
       <div class="quick-grid">
         <a class="quick-card" href="#assistant"><span class="arrow">›</span><strong>AI assistant</strong><small>Ask questions or translate</small></a>
         <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Look up any word with IPA, sound-out and letter-by-letter pronunciation</small></a>
+        <a class="quick-card learning-quick" href="#learn"><span class="arrow">›</span><strong>Learning library</strong><small>16 lessons, step-by-step guides and practice answers</small></a>
         <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar</strong><small>Read rules, examples and suffixes</small></a>
         <a class="quick-card" href="#phrases"><span class="arrow">›</span><strong>Phrasebook</strong><small>Read bilingual sentences</small></a>
         <a class="quick-card" href="#script"><span class="arrow">›</span><strong>Native writing</strong><small>Use the 26 handwritten characters</small></a>
@@ -230,7 +242,7 @@
       ${glyphHTML('më ti lësha.',{large:true})}
       <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
       <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all 70 grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Qaroshi Unified Standard 5.0 · Offline and self-contained · <a href="#guide/release">Reference notes</a></div></article>`;
+      <div class="foot">Qaroshi Unified Standard 5.3 · Reference available offline · <a href="#guide/release">Reference notes</a></div></article>`;
     setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
   }
   let assistantIndex;
@@ -376,6 +388,28 @@
       finally{submit.disabled=false}
     });
   }
+  function renderLearn(){
+    const featured=['getting_started','graded_course','sentence_atlas','workbook'];
+    const lead=featured.map(id=>studyBy.get(id)).filter(Boolean);
+    const rest=STUDY.filter(x=>!featured.includes(x.id));
+    const entry=x=>`<a class="learning-card" href="#guide/${enc(x.id)}">
+      <span class="learning-arrow" aria-hidden="true">↗</span>
+      <strong>${esc(x.title)}</strong><small>${esc(x.chapters==='all'?'Complete reference':('Grammar chapters '+x.chapters))}</small>
+      <span class="learning-activity">${x.id==='graded_course'?'16 staged lessons and answer keys':x.id==='workbook'?'Grammar traps and mixed assessment':x.id==='sentence_atlas'?'21 worked morphology parses':'Detailed explanations, IPA and checked examples'}</span>
+    </a>`;
+    main.innerHTML=`<article class="readable">${mkHeader('Reference / Study','Learn Qaroshi','A structured, self-contained curriculum with lessons, deep topic guides, worked sentence analyses, and answer keys.')}
+      <div class="study-summary"><strong>Start with a complete sentence.</strong> Learn its resonance, identify roles, read the predicate, then translate. The 16-lesson course grows those skills with existing reference examples; it does not introduce new grammar rules or replace the dictionary.</div>
+      <h2 id="path">Recommended path</h2>
+      <ol class="study-steps"><li>Read <a href="#guide/getting_started">Start here</a> and the <a href="#guide/pronunciation_lab">Pronunciation laboratory</a>.</li>
+      <li>Complete lessons 1–8 in the <a href="#guide/graded_course">guided course</a>.</li>
+      <li>Study the <a href="#guide/nouns_cases">noun cases</a>, <a href="#guide/verb_workshop">verb endings</a> and <a href="#guide/resonance_mastery">resonance registers</a>.</li>
+      <li>Complete lessons 9–16, then check the <a href="#guide/sentence_atlas">sentence atlas</a> and <a href="#guide/workbook">practice workbook</a>.</li></ol>
+      <h2 id="featured">Core study resources</h2><div class="learning-grid">${lead.map(entry).join('')}</div>
+      <h2 id="deep">Deep-dive guides</h2><p class="muted">Each guide explains a topic in context and includes reference IPA, worked examples, independent practice, and a revealable answer key.</p>
+      <div class="learning-grid">${rest.map(entry).join('')}</div>
+      <div class="foot">The original standard dictionary and 70 grammar chapters remain the normative basis for every guide.</div></article>`;
+    setToc([{id:'path',name:'Study route'},{id:'featured',name:'Core resources'},{id:'deep',name:'Deep guides'}]);
+  }
   function renderDictionary(route){
     if(route.query.has('domain'))state.domain=route.query.get('domain')||'';
     const domainOptions=Object.keys(D.domains).sort((a,b)=>a.localeCompare(b)).map(x=>`<option value="${esc(x)}" ${state.domain===x?'selected':''}>${esc(x)}</option>`).join('');
@@ -440,14 +474,20 @@
       <ul class="section-list">${C.filter(c=>c.number>=range[0]&&c.number<=range[1]).map(c=>`<li><a href="#grammar/${c.id}"><span class="ch-num">${c.number}.</span>${esc(c.title)}</a></li>`).join('')}</ul>`).join('');
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Grammar','Qaroshi grammar',`Browse all ${C.length} grammar chapters in order. Every chapter opens as a separate wiki article.`)}
       <div class="note"><strong>Sentence rule.</strong><p>Exactly one written resonance marker opens every independent sentence; subordinate clauses inherit it. 4.0 adds optional discourse particles, not additional mandatory resonance types.</p></div>
-      ${groups}<div class="foot">All 70 chapters belong to the same unified grammar.</div></article>`;
+      ${groups}<div class="foot">All 70 chapters belong to the same unified grammar. <a href="#learn">Study them with guided examples and answer keys.</a></div></article>`;
     setToc(Object.keys(bookMark).map(name=>({id:name,name:name[0].toUpperCase()+name.slice(1)})));
   }
   function renderChapter(id){
     const c=chapterBy.get(id);if(!c){renderMissing('Grammar chapter not found');return}
     const prev=C.find(x=>x.number===c.number-1),next=C.find(x=>x.number===c.number+1);
+    const related=STUDY.filter(x=>x.chapters!=='all'&&x.chapters.split(',').some(piece=>{
+      const match=piece.trim().match(/^(\d+)(?:[–-](\d+))?$/);
+      if(!match)return false;return c.number>=Number(match[1])&&c.number<=Number(match[2]||match[1]);
+    })).slice(0,5);
+    const deeper=related.length?`<section class="chapter-further"><h2 id="further-reading">Go deeper</h2><p>Read a step-by-step explanation and practice this topic using existing Qaroshi sentences.</p>
+      <ul>${related.map(x=>`<li><a href="#guide/${enc(x.id)}">${esc(x.title)}</a></li>`).join('')}</ul></section>`:'';
     main.innerHTML=`<article class="readable">${mkHeader('Grammar / Chapter '+c.number,c.title,'Qaroshi grammar')}
-      <div class="doc-body" id="chapterBody">${c.html}</div><div class="divider"></div>
+      <div class="doc-body" id="chapterBody">${c.html}</div>${deeper}<div class="divider"></div>
       <div class="controls" style="justify-content:space-between">${prev?`<a class="button" href="#grammar/${prev.id}">‹ ${esc(prev.number+'. '+prev.title)}</a>`:'<span></span>'}
       ${next?`<a class="button" href="#grammar/${next.id}">${esc(next.number+'. '+next.title)} ›</a>`:''}</div>
       <div class="foot">Chapter ${c.number} · Qaroshi standard grammar</div></article>`;
@@ -535,7 +575,7 @@
   const TOP_PAGES = {'translation':'Translation guide','lexicography':'Dictionary conventions','phonology':'Writing system','pronunciation':'Pronunciation & IPA','latin':'Latin A–Z pronunciation','release':'Reference notes','roadmap':'Coverage & future work'};
   function renderGuide(id){
     if(!D.guides[id]){renderMissing('Guide not found');return}
-    main.innerHTML=`<article class="readable">${mkHeader('Reference / Guides',TOP_PAGES[id]||id,'Qaroshi supporting documentation')}
+    main.innerHTML=`<article class="readable">${mkHeader('Reference / Guides',studyBy.get(id)?.title || TOP_PAGES[id] || id,studyBy.has(id)?'Deep learning guide · Worked examples, IPA, and active practice':'Qaroshi supporting documentation')}
       <div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
     enrichToc();
   }
@@ -566,8 +606,9 @@
   function renderMissing(message){main.innerHTML=`<article class="readable">${mkHeader('Reference','Not found',message)}<p><a href="#home">Return to home</a></p></article>`;setToc([])}
   function setToc(items){toc.innerHTML=`<h4>On this page</h4>`+(items.length?items.map(a=>`<a class="toc-link" href="#" data-scroll="${esc(a.id)}">${esc(a.name)}</a>`).join(''):'<p class="muted">Browse using the left sidebar.</p>');}
   function enrichToc(){
-    const headings=main.querySelectorAll('.doc-body h2,.doc-body h3');const items=[];
-    headings.forEach((h,i)=>{h.id='inpage-'+i;items.push({id:h.id,name:h.textContent.trim().slice(0,74)});});
+    const h2=main.querySelectorAll('.doc-body h2');
+    const headings=h2.length>11?h2:main.querySelectorAll('.doc-body h2,.doc-body h3');const items=[];
+    headings.forEach((h,i)=>{h.id='inpage-'+i;if(items.length<28)items.push({id:h.id,name:h.textContent.trim().slice(0,74)});});
     setToc(items);
   }
   function render(){
@@ -577,6 +618,7 @@
     switch(route.page){
       case 'home':renderHome();break;
       case 'assistant':renderAssistant();break;
+      case 'learn':renderLearn();break;
       case 'dictionary':renderDictionary(route);break;
       case 'word':renderWord(route.id);break;
       case 'grammar':route.id?renderChapter(route.id):renderGrammarIndex();break;

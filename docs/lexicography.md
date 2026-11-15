@@ -29,3 +29,28 @@ For editorial changes, preserve all existing stable IDs and update `data/lexicon
 The teaching phrasebook is controlled pedagogical content, not a measure of spontaneous speaker usage.
 
 The bilingual teaching corpus is a collection of controlled examples for grammar practice. It is not presented as spontaneous spoken-language attestation.
+
+
+---
+
+## Reading entries as a lexicographer
+
+A headword is a spelling connected to a defined lexical sense and grammatical behavior. It is not an instruction to substitute the English gloss wherever an English writer happens to use the same letters. The English gloss *safe* might represent a state, a safety-related device or an instruction to avoid danger; these belong to different semantic categories even if English shares the word. The lexicon therefore separates **part of speech**, **definition/sense**, **domain**, **word components**, **usage note** and **phonetics**.
+
+### Three tests before choosing a word
+
+**Semantic test:** What is the exact intended meaning? If an English term is polysemous, locate the correct sense. **Syntactic test:** Is the entry a noun, verb, adjective, adverb or function word? Do not force a noun directly into a verb slot without a documented conversion process. **Pragmatic test:** Does the entry imply romance, family, ownership, legal status, permission, or a technical property that the source actually intends? Avoid silently intensifying the claim.
+
+## Inflected forms are predictable, but lexical senses are not
+
+`qaro-ri` is the regular plural of `qaro`, not a second unrelated entry with a new root. `goro-te-se` expresses past continuous flying by ordinary verb morphology. By contrast, `qaroshi` is a specific lexical compound, because the conventional meaning “the Nardoragon language” matters. When a reader sees `naro`, `naro-gu` and `naro-de`, the differences are grammatical roles; when a reader sees a head-final compound, the definition may be specialized beyond the simplest literal sum.
+
+Compounding works modifier-first and head-last in documented examples. That does not mean any two dictionary words can be concatenated and accepted automatically. A new technical term needs unambiguous root choices, a well-documented semantic relationship and a natural use in a sentence. Where the relationship cannot be expressed cleanly by a compound, a content clause or relative clause may be clearer.
+
+## Using the reverse index critically
+
+English-to-Qaroshi lookup is best treated as a list of possible senses. It does not demonstrate that two results are mutually interchangeable; they may belong to different domains or word classes. Exact Qaroshi spelling has priority over accent-folded search. In particular, `ë` and `e` are distinct native vowels even though the search tool may allow `gero` to retrieve `gëro`. The displayed dictionary entry, not the approximate search string, is the spelling to use in writing.
+
+## Stable identifiers and maintenance
+
+A lexical entry has a stable `id`, enabling citations across the wiki and data exports. A word page may have related topical entries, but those are **not a formal synonym set**. For careful cross-referencing, cite the exact headword and ID, record which definition was used, and retain the original broad IPA fields. If a definition is clarified later, distinguish an editorial gloss improvement from a change in the word's denotation. The [Dictionary mastery guide](deep_guides/dictionary_compounding.md) expands this into a full practical workflow.

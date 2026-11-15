@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "title": "Recognize a complete sentence",
+    "skills": "Resonance, greetings, short assertions",
+    "example_ids": [
+      "S00001",
+      "S00002",
+      "S00003",
+      "S00004",
+      "S00005",
+      "S00006",
+      "S00007",
+      "S00008",
+      "S00011",
+      "S00012"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Names, identity, and speaking",
+    "skills": "Present noun predicates, pronouns, who speaks",
+    "example_ids": [
+      "S00009",
+      "S00010",
+      "S00013",
+      "S00014",
+      "S00017",
+      "S00018",
+      "S00019",
+      "S00020",
+      "S00021",
+      "S00022"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Care and interpersonal stance",
+    "skills": "Warm Hum, romantic/familial senses, requests",
+    "example_ids": [
+      "S00023",
+      "S00024",
+      "S00025",
+      "S00026",
+      "S00027",
+      "S00028",
+      "S00029",
+      "S00030",
+      "S00031",
+      "S00032"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Requests, wishes, and commitment",
+    "skills": "Politeness, command ending, future, purpose",
+    "example_ids": [
+      "S00033",
+      "S00034",
+      "S00035",
+      "S00036",
+      "S00037",
+      "S00038",
+      "S00039",
+      "S00040",
+      "S00050",
+      "S00055"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "State and emotion",
+    "skills": "Adjective predicates, emotion vocabulary, negation",
+    "example_ids": [
+      "S00041",
+      "S00042",
+      "S00043",
+      "S00044",
+      "S00045",
+      "S00046",
+      "S00047",
+      "S00048",
+      "S00049",
+      "S00056"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tense and habituality",
+    "skills": "The suffixes -te, -se, -në; habit vs ongoing",
+    "example_ids": [
+      "S00051",
+      "S00052",
+      "S00053",
+      "S00059",
+      "S00060",
+      "S00061",
+      "S00062",
+      "S00071",
+      "S00074",
+      "S00078"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Food, objects, and daily life",
+    "skills": "Direct objects and everyday predicates",
+    "example_ids": [
+      "S00063",
+      "S00064",
+      "S00065",
+      "S00066",
+      "S00067",
+      "S00068",
+      "S00069",
+      "S00070",
+      "S00072",
+      "S00073"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Wings, weather, and the sky",
+    "skills": "Nardoragon body, instrument and plural cases",
+    "example_ids": [
+      "S00079",
+      "S00080",
+      "S00081",
+      "S00082",
+      "S00083",
+      "S00084",
+      "S00085",
+      "S00092",
+      "S00093",
+      "S00094"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Location and movement",
+    "skills": "-lo, -gu, -de and wh-questions",
+    "example_ids": [
+      "S00074",
+      "S00075",
+      "S00086",
+      "S00087",
+      "S00088",
+      "S00089",
+      "S00090",
+      "S00091",
+      "S00100",
+      "S00101"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Evidence and reports",
+    "skills": "si, hu, ye and resonance contrasts",
+    "example_ids": [
+      "S00095",
+      "S00096",
+      "S00097",
+      "S00098",
+      "S00099",
+      "S00102",
+      "S00103",
+      "S00104",
+      "S00047",
+      "S00056"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Question structures",
+    "skills": "Direct questions vs embedded forms",
+    "example_ids": [
+      "S00003",
+      "S00009",
+      "S00013",
+      "S00019",
+      "S00032",
+      "S00056",
+      "S00098",
+      "S00099",
+      "S00100",
+      "S00105"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Digital vocabulary I",
+    "skills": "SOV paradigms with modern devices",
+    "example_ids": [
+      "S00191",
+      "S00192",
+      "S00193",
+      "S500001",
+      "S500002",
+      "S500003",
+      "S400024",
+      "S400025",
+      "S5V00001",
+      "S5V00002"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Complex predicate morphology",
+    "skills": "Ability, future, past, lexical actions",
+    "example_ids": [
+      "S00034",
+      "S00051",
+      "S00059",
+      "S00060",
+      "S00061",
+      "S00062",
+      "S00080",
+      "S00095",
+      "S5V00001",
+      "S5V00003"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Nuance in technical assertions",
+    "skills": "Precise modern concepts and careful evidence",
+    "example_ids": [
+      "S300469",
+      "S300470",
+      "S300471",
+      "S400182",
+      "S400183",
+      "S400184",
+      "S500001",
+      "S500002",
+      "S500003",
+      "S00097"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Advanced clause relations",
+    "skills": "Counterfactuals, optatives, controlled embedded meaning",
+    "example_ids": [
+      "S00851",
+      "S00852",
+      "S00853",
+      "S400593",
+      "S400594",
+      "S400595",
+      "S00035",
+      "S00038",
+      "S00095",
+      "S00096"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Fluent editing and comparison",
+    "skills": "Apply all grammar layers deliberately",
+    "example_ids": [
+      "S00003",
+      "S00024",
+      "S00032",
+      "S00034",
+      "S00035",
+      "S00061",
+      "S00085",
+      "S00097",
+      "S00851",
+      "S400595"
+    ]
+  }
+]

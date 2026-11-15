@@ -1,0 +1,21 @@
+{
+  "release": "5.3",
+  "baseline": "5.2",
+  "baseline_dictionary_entries_preserved": 16732,
+  "baseline_examples_preserved": 3077,
+  "new_headwords": 1931,
+  "new_controlled_examples": 106,
+  "dictionary_entries_total": 18663,
+  "examples_total": 3183,
+  "alphabet_images_verified": 26,
+  "resonance_inventory_unchanged": 16,
+  "canonical_grammar_unchanged": true,
+  "new_usage_registers": {
+    "neutral": 769,
+    "slang": 455,
+    "vulgar": 336,
+    "clinical": 162,
+    "adult": 158,
+    "technical": 51
+  }
+}

@@ -12,7 +12,7 @@ class QaroshiFinalReference(unittest.TestCase):
   cls.sentences=rows('corpus/parallel_sentences.csv')
   cls.grammar=(ROOT/'docs/grammar.md').read_text(encoding='utf-8')
   cls.html=(ROOT/'Qaroshi_Wiki.html').read_text(encoding='utf-8')
- def test_dictionary_size(self):self.assertEqual(len(self.words),16732)
+ def test_dictionary_size(self):self.assertEqual(len(self.words),18663)
  def test_dictionary_headwords_unique(self):self.assertEqual(len(set(x['qaroshi'] for x in self.words)),len(self.words))
  def test_dictionary_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.words)),len(self.words))
  def test_dictionary_schema_unified(self):self.assertEqual(set(self.words[0]),{'id','qaroshi','pos','english','domain','type','components','note','ipa','reading','sound_out'})
@@ -21,8 +21,8 @@ class QaroshiFinalReference(unittest.TestCase):
  def test_dictionary_json_same(self):self.assertEqual(json.loads((ROOT/'data/lexicon.json').read_text()),self.words)
  def test_original_phrase_preserved(self):
   self.assertTrue(any(x['qaroshi']=='më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.' for x in self.sentences))
- def test_phrase_count(self):self.assertEqual(len(self.sentences),3077)
- def test_phrase_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.sentences)),3077)
+ def test_phrase_count(self):self.assertEqual(len(self.sentences),3183)
+ def test_phrase_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.sentences)),3183)
  def test_phrase_json_same(self):self.assertEqual(json.loads((ROOT/'corpus/parallel_sentences.json').read_text()),self.sentences)
  def test_phrase_schema_unified(self):self.assertNotIn('edition',self.sentences[0]);self.assertIn('ipa',self.sentences[0]);self.assertIn('reading',self.sentences[0])
  def test_70_chapters(self):self.assertEqual([int(x) for x in re.findall(r'^## (\d+)\.',self.grammar,re.M)],list(range(1,71)))
@@ -33,7 +33,7 @@ class QaroshiFinalReference(unittest.TestCase):
   obj=json.loads((ROOT/'data/grammatical_particles.json').read_text())
   self.assertEqual(len(obj),96);self.assertEqual(len({a['form'] for a in obj}),96)
   for x in obj:self.assertIn(x['form'],{a['qaroshi'] for a in self.words})
- def test_english_index(self):self.assertGreaterEqual(len(rows('data/english_index.csv')),16732)
+ def test_english_index(self):self.assertGreaterEqual(len(rows('data/english_index.csv')),18663)
  def test_offline_html_embed(self):
   self.assertIn('id="wiki-data"',self.html);self.assertIn('id="leftSidebar"',self.html)
   self.assertIn('id="mainContent"',self.html);self.assertIn('id="scriptInput"', (ROOT/'web/qaroshi.js').read_text())
@@ -42,7 +42,7 @@ class QaroshiFinalReference(unittest.TestCase):
   self.assertNotIn('phraseEdition',self.html);self.assertNotIn('w.review',self.html)
  def test_no_legacy_grammars(self):self.assertEqual(len(list((ROOT/'docs').glob('grammar*.md'))),1)
  def test_release_description(self):
-  self.assertIn('Unified Standard Reference 5.0',(ROOT/'README.md').read_text())
+  self.assertIn('Unified Standard Reference 5.3',(ROOT/'README.md').read_text())
  def test_sample_headwords(self):
   w={r['qaroshi']:r['english'] for r in self.words}
   for x in ['qaro','qaroshi','pëla','lësha','qor','sen','zha','womaro','riqosha']:
@@ -86,7 +86,7 @@ class QaroshiIPAReference(unittest.TestCase):
    self.assertEqual(item['sound_out'],sound_out_text(line),line)
  def test_bilingual_index_pronunciation(self):
   words={row['qaroshi']:row for row in self.words}
-  self.assertEqual(len(self.index),17500)
+  self.assertEqual(len(self.index),19431)
   for row in self.index:
    self.assertEqual(row['ipa'],words[row['qaroshi']]['ipa'])
    self.assertEqual(row['reading'],words[row['qaroshi']]['reading'])
@@ -149,8 +149,8 @@ class LatinAlphabetReference(unittest.TestCase):
   self.assertIn('id="wiki-data"',html)
   self.assertIn('"latin_upper":"Z"',html)
  def test_base_word_counts_unchanged(self):
-  self.assertEqual(len(rows('data/lexicon.csv')),16732)
-  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3077)
+  self.assertEqual(len(rows('data/lexicon.csv')),18663)
+  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3183)
 
 class DictionaryPronunciationPatch(unittest.TestCase):
  def test_soundout_examples(self):
@@ -172,15 +172,15 @@ class DictionaryPronunciationPatch(unittest.TestCase):
   for r in rows('data/lexicon.csv'):
    self.assertTrue(r['sound_out'].strip())
  def test_unchanged_vocabulary_and_corpus_size(self):
-  self.assertEqual(len(rows('data/lexicon.csv')),16732)
-  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3077)
+  self.assertEqual(len(rows('data/lexicon.csv')),18663)
+  self.assertEqual(len(rows('corpus/parallel_sentences.csv')),3183)
 
 class QaroshiFifthEdition(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.words=rows('data/lexicon.csv')
   cls.phrases=rows('corpus/parallel_sentences.csv')
-  cls.new=[x for x in cls.words if x['id'].startswith('Q5')]
+  cls.new=[x for x in cls.words if x['id'].startswith('Q5') and not x['id'].startswith('Q530')]
   cls.old=[x for x in cls.words if not x['id'].startswith('Q5')]
   cls.old_phrases=[x for x in cls.phrases if not x['id'].startswith('S5')]
   cls.info=json.loads((ROOT/'data/legacy_standard_4_3_1_digest.json').read_text())
@@ -197,7 +197,7 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_new_words_types(self):
   self.assertEqual(collections.Counter(x['type'] for x in self.new),{'headword':2122,'compound':2732})
  def test_total_words_and_phrases(self):
-  self.assertEqual(len(self.words),16732);self.assertEqual(len(self.phrases),3077)
+  self.assertEqual(len(self.words),18663);self.assertEqual(len(self.phrases),3183)
  def test_new_root_phonotactics(self):
   for entry in self.new:
    self.assertTrue(graphemes(entry['qaroshi']), entry['qaroshi'])
@@ -223,7 +223,7 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_version_statistics_consistent(self):
   info=json.loads((ROOT/'RELEASE_INFO.json').read_text())
   stats=json.loads((ROOT/'data/statistics.json').read_text())
-  for a,b,c in [('dictionary_entries',16732,'dictionary_entries'),('sentences',3077,'sentences')]:
+  for a,b,c in [('dictionary_entries',18663,'dictionary_entries'),('sentences',3183,'sentences')]:
    self.assertEqual(info[a],b);self.assertEqual(stats[c],b)
   self.assertEqual(info['native_letters'],26)
  def test_ui_contains_no_external_links(self):
@@ -247,7 +247,7 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_all_entries_have_real_phonetic_ipa(self):
   for row in self.new:self.assertEqual(row['ipa'],ipa_word(row['qaroshi']))
  def test_english_index_tracks_all_new_words(self):
-  idx=rows('data/english_index.csv');self.assertEqual(len(idx),17500)
+  idx=rows('data/english_index.csv');self.assertEqual(len(idx),19431)
   present={x['qaroshi'] for x in idx}
   self.assertTrue(all(x['qaroshi'] in present for x in self.new))
  def test_3k_phrasebook_has_no_missing_english(self):
@@ -258,5 +258,55 @@ class QaroshiFifthEdition(unittest.TestCase):
  def test_documentation_explains_compounds_and_limitations(self):
   t=(ROOT/'docs/lexicography.md').read_text()
   for s in ('modifier–head','penultimate','corpus','IPA'):self.assertIn(s,t)
+
+class DeepStudyEdition(unittest.TestCase):
+ @classmethod
+ def setUpClass(cls):
+  cls.index=json.loads((ROOT/'docs/deep_guides/guide_index.json').read_text(encoding='utf8'))
+  cls.library=json.loads((ROOT/'data/learning_library.json').read_text(encoding='utf8'))
+  cls.js=(ROOT/'web/qaroshi.js').read_text(encoding='utf8')
+  cls.html=(ROOT/'Qaroshi_Wiki.html').read_text(encoding='utf8')
+ def test_nineteen_study_pages(self):self.assertEqual(len(self.index),19)
+ def test_unique_study_ids(self):self.assertEqual(len({x['id'] for x in self.index}),19)
+ def test_study_paths_present(self):
+  self.assertTrue(all((ROOT/x['path']).is_file() for x in self.index))
+ def test_sixteen_learning_lessons(self):
+  t=(ROOT/'docs/deep_guides/graded_course.md').read_text(encoding='utf8')
+  self.assertEqual(len(re.findall(r'^## Lesson \d{2}',t,re.M)),16)
+ def test_sixteen_course_keys(self):
+  t=(ROOT/'docs/deep_guides/graded_course.md').read_text(encoding='utf8')
+  self.assertEqual(t.count('Teacher answer key: open only after completing A and B'),16)
+ def test_sentence_atlas_21_parses(self):
+  t=(ROOT/'docs/deep_guides/sentence_atlas.md').read_text(encoding='utf8')
+  self.assertEqual(len(re.findall(r'^## \d+\.',t,re.M)),21)
+ def test_workbook_has_10_traps(self):
+  t=(ROOT/'docs/deep_guides/workbook.md').read_text(encoding='utf8')
+  self.assertEqual(len(re.findall(r'^### Trap \d+',t,re.M)),10)
+ def test_workbook_mixed_assessment_36(self):
+  t=(ROOT/'docs/deep_guides/workbook.md').read_text(encoding='utf8')
+  part=t.split('## Mixed translation assessment',1)[1].split('<details>',1)[0]
+  self.assertEqual(len(re.findall(r'^\d+\.',part,re.M)),36)
+ def test_topic_guides_have_documented_examples(self):
+  for x in self.index:
+   t=(ROOT/x['path']).read_text(encoding='utf8')
+   self.assertGreater(len(t),3500,x['id'])
+ def test_example_ids_are_in_corpus(self):
+  ids={x['id'] for x in rows('corpus/parallel_sentences.csv')}
+  t=(ROOT/'docs/deep_guides/graded_course.md').read_text(encoding='utf8')
+  self.assertTrue(set(re.findall(r'\bS(?:\d[A-Z]\d{5}|\d{6}|\d{5})\b',t))<=ids)
+ def test_wiki_embeds_guide_content(self):
+  for s in ('Learn Qaroshi','Start here: a structured route','Qaroshi graded course','Sentence atlas','Teacher answer key'):
+   self.assertTrue(s in self.html or s in self.js,s)
+ def test_wiki_learning_route(self):self.assertIn("case 'learn':renderLearn();break;",self.js)
+ def test_wiki_chapter_related_guides(self):self.assertIn('class="chapter-further"',self.js)
+ def test_wiki_has_answer_disclosures(self):self.assertIn(r'\u003cdetails',self.html)
+ def test_integrity_counts_preserved(self):
+  self.assertEqual(self.library['dictionary_unchanged'],16732)
+  self.assertEqual(self.library['corpus_unchanged'],3077)
+  self.assertEqual(self.library['new_grammar_rules'],0)
+ def test_release_state(self):
+  self.assertEqual(json.loads((ROOT/'RELEASE_INFO.json').read_text())['version'],'5.3')
+ def test_study_browser_script(self):self.assertTrue((ROOT/'tools/study_smoke.py').is_file())
+
 if __name__=='__main__': unittest.main()
 

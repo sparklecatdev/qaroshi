@@ -1,19 +1,19 @@
 {
-  "standard": "Qaroshi Unified Standard Reference 5.0",
-  "version": "5.0",
+  "standard": "Qaroshi Unified Standard Reference 5.3 · Living Speech",
+  "version": "5.3",
   "release_state": "unified standard",
-  "dictionary_entries": 16732,
+  "dictionary_entries": 18663,
   "lexicon_new_standalone": 2122,
   "lexicon_new_compounds": 2732,
   "dictionary_entries_preserved": 11878,
-  "english_index_rows": 17500,
-  "sentences": 3077,
-  "new_sentences": 1060,
+  "english_index_rows": 19431,
+  "sentences": 3183,
+  "new_sentences": 1166,
   "sentences_preserved": 2017,
   "grammar_chapters": 70,
   "resonance_registers": 16,
   "native_letters": 26,
-  "semantic_domains": 132,
+  "semantic_domains": 161,
   "parts_of_speech": {
     "conj": 34,
     "adv": 254,
@@ -30,14 +30,33 @@
     "pron": 10
   },
   "pronunciation": {
-    "lexicon_entries": 16732,
-    "sentences": 3077,
+    "lexicon_entries": 18663,
+    "sentences": 3183,
     "style": "broad IPA; stress-marked reading; English-style sound-out on dictionary entries and examples"
   },
   "interface": {
     "self_contained": true,
-    "style": "reading-first, responsive wiki",
+    "style": "offline Qaroshi Wiki + integrated Academy learning app",
     "offline": true,
     "github_published": false
+  },
+  "release_focus": "interactive academy and practice minigames",
+  "new_dictionary_entries": 0,
+  "new_example_sentences": 0,
+  "guided_lessons": 16,
+  "deep_topic_guides": 16,
+  "learning_library_resources": 19,
+  "annotated_sentence_parses": 21,
+  "mixed_workbook_translation_tasks": 36,
+  "error_diagnosis_tasks": 10,
+  "academy": {
+    "standalone_offline": true,
+    "guided_lessons": 16,
+    "practice_modes": 8,
+    "mixed_skyflight_questions": 10,
+    "deep_guides": 16,
+    "progress_storage": "local browser storage with JSON export/import",
+    "new_dictionary_entries": 0,
+    "new_sentences": 0
   }
 }

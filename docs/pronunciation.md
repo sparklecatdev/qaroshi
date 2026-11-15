@@ -108,3 +108,39 @@ The reference does not claim to capture speaking rate, pitch, individual vocal a
 ## The ordinary Latin A–Z alphabet
 
 For **all 26 Latin letters**, American English letter names, their IPA, and the distinction from Qaroshi Romanization, see [Latin A–Z phonetics](latin_alphabet.md). The wiki includes an A–Z lookup and a tool to pronounce *spelled-out English letters*, not the natural pronunciation of full English words.
+
+
+---
+
+## Practical articulation and stress training
+
+A pronunciation entry can show three complementary kinds of help. **IPA** indicates the intended phonemes with minimal ambiguity; the **Qaroshi syllable guide** groups syllables and capitalizes a stress-bearing syllable; and the **English-style sound-out** is an approximate bridge for beginners. Where these disagree with an English reader's first impression, the IPA remains the reference. For instance, Qaroshi `q` /q/ is never English letter-name “cue,” and `kh` /x/ is not two separate consonants.
+
+### Train vowels before whole sentences
+
+Sustain each vowel without adding a glide: `a /a/`, `e /e/`, `i /i/`, `o /o/`, `u /u/`, `ë /ə/`. Then switch deliberately between pairs likely to be confused by an English speaker: `e` versus `ë`, `i` versus `e`, and pure `o` versus English diphthongal “oh.” The reference does not assert that invented minimal pairs are part of the dictionary; use existing headwords in the dictionary for lexical practice rather than fabricating similar-looking words.
+
+### Train consonant place and manner
+
+Contrast `k /k/` against farther-back `q /q/`; practice the fricative duration of `kh /x/`; keep `ng /ŋ/` nasal with no added stop; use a single tap for `r /ɾ/`; voice `zh /ʒ/` while keeping `sh /ʃ/` unvoiced. English spelling conventions do not determine these sounds: `sh`, `zh`, `kh`, `ng` are four single native letters written as Romanized digraphs.
+
+### Apply stress mechanically
+
+For a word with multiple syllables, the default stress falls on the penultimate syllable; the pronunciation tools print that stress in capitals for learning. `qaroshi` is `qa-RO-shi` /qa.ˈɾo.ʃi/; `gëro` is `GË-ro` /ˈɡə.ɾo/; `dërawa` is `dë-RA-wa` /də.ˈɾa.wa/. Hyphens marking cases or tense do not become audible interruptions. For long compounds, predict the broad citation pronunciation from the final word before adding emotional delivery.
+
+## Four-pass pronunciation routine
+
+1. **Segment:** find each native letter, using the longest of `sh/zh/kh/ng` where appropriate.
+2. **Syllabify:** locate the six vowels and divide the word according to the standard `(C)(r/l/w/y)V(C)` pattern.
+3. **Stress:** emphasize the penultimate syllable of a multisyllabic citation form.
+4. **Read in context:** keep grammatical endings connected to their root and communicate the written resonance through an appropriate speaking style without treating it as a scientifically prescribed pitch pattern.
+
+## Learning practice with reference sentences
+
+| Qaroshi sentence | IPA | English |
+|---|---|---|
+| `më ti lësha.` | `/mə ti ˈlə.ʃa/` | You are cute. |
+| `sen mi-na gëro dërawa.` | `/sen ˈmi.na ˈɡə.ɾo də.ˈɾa.wa/` | My throat is dry. |
+| `sen mi kima-m këmë.` | `/sen mi ˈki.mam ˈkə.mə/` | I drink water. |
+
+The examples isolate vowel quality, tapped `r`, and the absence of a present copula. Broad IPA is not a claim about an individual voice recording, and the exact syllable boundary of a cliticized phrase may vary in connected speech. More practice, including all 26 original glyphs, is in the [Pronunciation laboratory](deep_guides/pronunciation_lab.md).

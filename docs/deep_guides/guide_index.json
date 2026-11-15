@@ -1,0 +1,135 @@
+[
+  {
+    "id": "graded_course",
+    "title": "Guided course · 16 lessons",
+    "chapters": "all",
+    "examples": 160,
+    "path": "docs/deep_guides/graded_course.md"
+  },
+  {
+    "id": "sentence_atlas",
+    "title": "Sentence atlas · 21 full parses",
+    "chapters": "all",
+    "examples": 21,
+    "path": "docs/deep_guides/sentence_atlas.md"
+  },
+  {
+    "id": "getting_started",
+    "title": "Start here: a structured route to Qaroshi",
+    "chapters": "1–5, 8–11",
+    "examples": 8,
+    "path": "docs/deep_guides/getting_started.md"
+  },
+  {
+    "id": "pronunciation_lab",
+    "title": "Pronunciation laboratory: phonemes, stress, and rhythm",
+    "chapters": "1, 30, 48",
+    "examples": 8,
+    "path": "docs/deep_guides/pronunciation_lab.md"
+  },
+  {
+    "id": "resonance_mastery",
+    "title": "Resonance mastery: writing emotion into grammar",
+    "chapters": "2, 16, 31, 36, 40–43, 51",
+    "examples": 8,
+    "path": "docs/deep_guides/resonance_mastery.md"
+  },
+  {
+    "id": "sentence_anatomy",
+    "title": "Sentence anatomy and interlinear parsing",
+    "chapters": "3, 18–20, 28–30",
+    "examples": 8,
+    "path": "docs/deep_guides/sentence_anatomy.md"
+  },
+  {
+    "id": "nouns_cases",
+    "title": "Nouns, possession, reference, and case",
+    "chapters": "4–5, 12–13, 22, 26, 28–29",
+    "examples": 11,
+    "path": "docs/deep_guides/nouns_cases.md"
+  },
+  {
+    "id": "verb_workshop",
+    "title": "Verb workshop: tense, aspect, voice, modality",
+    "chapters": "6–8, 21, 27, 30, 38",
+    "examples": 10,
+    "path": "docs/deep_guides/verb_workshop.md"
+  },
+  {
+    "id": "asking_and_negating",
+    "title": "Questions, requests, negatives, and boundaries",
+    "chapters": "8–9, 24, 31, 41, 64–65",
+    "examples": 11,
+    "path": "docs/deep_guides/asking_and_negating.md"
+  },
+  {
+    "id": "clauses_and_counterfactuals",
+    "title": "Complex clauses: because, so that, if, although",
+    "chapters": "11, 20–21, 24–25, 37, 55–60",
+    "examples": 8,
+    "path": "docs/deep_guides/clauses_and_counterfactuals.md"
+  },
+  {
+    "id": "evidence_information",
+    "title": "Evidence, information structure, uncertainty, and scope",
+    "chapters": "10, 22–25, 39–41, 51–57, 61–64",
+    "examples": 8,
+    "path": "docs/deep_guides/evidence_information.md"
+  },
+  {
+    "id": "number_time",
+    "title": "Numbers, calendars, measurements, and technical notation",
+    "chapters": "13, 15, 32, 58–62",
+    "examples": 6,
+    "path": "docs/deep_guides/number_time.md"
+  },
+  {
+    "id": "writing_script",
+    "title": "Native script, transliteration, typography, and names",
+    "chapters": "1, 30, 33–34, 46, 50, 69",
+    "examples": 8,
+    "path": "docs/deep_guides/writing_script.md"
+  },
+  {
+    "id": "conversation_social",
+    "title": "Conversation skills: relationships, care, and boundaries",
+    "chapters": "16, 31, 40–43, 63–66",
+    "examples": 10,
+    "path": "docs/deep_guides/conversation_social.md"
+  },
+  {
+    "id": "modern_technical",
+    "title": "Modern technical Qaroshi: precise prose and terminology",
+    "chapters": "32–34, 45–47, 50, 62, 68–70",
+    "examples": 8,
+    "path": "docs/deep_guides/modern_technical.md"
+  },
+  {
+    "id": "dictionary_compounding",
+    "title": "Dictionary mastery: senses, compounds, and morphology",
+    "chapters": "14, 26, 30, 33, 35, 47, 49–50, 67–68",
+    "examples": 8,
+    "path": "docs/deep_guides/dictionary_compounding.md"
+  },
+  {
+    "id": "editing_troubleshooting",
+    "title": "Grammar clinic: debugging a difficult sentence",
+    "chapters": "17–20, 27–30, 34, 39, 47, 70",
+    "examples": 10,
+    "path": "docs/deep_guides/editing_troubleshooting.md"
+  },
+  {
+    "id": "culture_pragmatics",
+    "title": "Nardoragon communication and interpretive context",
+    "chapters": "2, 16, 31, 36, 41–44, 51, 63–65",
+    "examples": 9,
+    "path": "docs/deep_guides/culture_pragmatics.md"
+  },
+  {
+    "id": "workbook",
+    "title": "Practice workbook · 46 checks",
+    "chapters": "all",
+    "examples": 36,
+    "path": "docs/deep_guides/workbook.md"
+  }
+]

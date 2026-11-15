@@ -1,4 +1,12 @@
-# Qaroshi Standard 5.0 · Release notes
+# Qaroshi Standard 5.1 · Deep learning edition
+
+## New in the deep learning edition
+
+- Nineteen integrated learning resources: a 16-lesson progressive course, 16 deep topical guides (including the start guide), a 21-sentence interlinear analysis atlas, and a 46-item editing and translation workbook (ten error diagnoses plus 36 translation questions).
+- Every lesson uses ten unchanged corpus examples with IPA and full answer keys. Relevant deep guides appear as links from grammar chapters and the new sidebar Learning section.
+- Source guides (translation, writing, pronunciation, lexicography, wiki usage) are substantially longer and feature step-by-step procedures and comparisons.
+- Old dictionary words, existing example rows, phoneme inventory, native glyphs, grammar rules and sentence-initial resonance inventory are unchanged.
+- All new illustrative sentences in the graded course and atlas are drawn from stable internal corpus references. Deliberately incorrect examples in the editing workbook are explicitly labeled as mistakes.
 
 ## Dictionary and corpus
 
@@ -24,3 +32,12 @@ Existing 4.3.1 lexical and corpus records are identical and retain their origina
 ## Limitations
 
 A large lexicon does not imply one-to-one parity with all natural-language idioms, dialects, usage frequencies or registers. A controlled translation example is not spontaneous-speech attestation. Phonetic pronunciation is rule-based, and English sound-outs are approximate.
+
+## Unified Standard 5.2 · Qaroshi Academy
+
+A complete offline learning app joins the existing reference and is linked from the wiki sidebar. The app includes sixteen guided lessons, eight mini-game modes, a ten-question mixed Skyflight challenge, spaced word review, local progress export/import, native glyph decoding, and a full embedded dictionary and phrasebook with IPA and English-style sound-out. It also contains the complete 16 deep guides and full lesson texts with answer keys. The source is available in `web/academy/` and can be rebuilt using `tools/build_academy.py`. No dictionary, grammar, phonology, sentence, or native script data changed from Unified Standard 5.1.
+
+
+## Unified Standard 5.3: Living Speech
+
+Added 1,931 headwords, 106 controlled examples, a register-labelled field guide, and adult-vocabulary practice controls. All preexisting headwords and examples are preserved unchanged. The fully integrated dictionary contains 18,663 entries.

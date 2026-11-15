@@ -1,0 +1,10 @@
+{
+  "source": "Unified Standard 5.2",
+  "sha256": {
+    "data/lexicon.json": "71c497c862df5e8df5d71c28523fe2cdcc47d6922bafa2ca76d85a609e39d7ab",
+    "corpus/parallel_sentences.json": "a359d7725032898bebad0c5d4d29975ff983bbaa7d15bc2704bda87491c7eed5",
+    "data/resonances.json": "b4bd824438ece9a3086ba5777beb3a0809028d63744c0427d333afd0ba9cda06",
+    "data/phoneme_inventory.json": "72ecb77b349c5159d1dd995e0f64b0fdc78ea19aeaec20c08d3180ab95f3d546",
+    "docs/grammar.md": "689a63e37cabf14d8d86d0cf70c0ad3164111c7835b17f4a054ab4d5a5c0db69"
+  }
+}

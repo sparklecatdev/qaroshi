@@ -172,3 +172,29 @@ html[data-theme="dark"] .home-hero .statsline b{color:var(--text)}
  .letter-sounds{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(prefers-reduced-motion:reduce){.quick-card:hover,.alphabet-card:hover{transform:none}}
+
+/* 5.1 learning library: wiki-native, compact, readable, keyboard-accessible. */
+.learning-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:16px 0 30px}
+.learning-card{display:flex;flex-direction:column;min-height:138px;gap:4px;position:relative;padding:17px 18px;border:1px solid var(--border);border-radius:12px;color:var(--text);background:var(--panel);text-decoration:none;transition:border-color .14s,box-shadow .14s}
+.learning-card:hover,.learning-card:focus-visible{color:var(--text);text-decoration:none;border-color:var(--accent-border);box-shadow:var(--shadow)}
+.learning-card strong{max-width:90%;font-size:.97rem;line-height:1.4;letter-spacing:-.02em}
+.learning-card small{font-size:.72rem;color:var(--muted)}
+.learning-activity{font-size:.77rem;color:var(--link);margin-top:auto}
+.learning-arrow{position:absolute;top:11px;right:14px;color:var(--muted);font-size:.95rem}
+.study-summary{border-left:4px solid var(--link);border-radius:0 10px 10px 0;padding:15px 19px;margin:14px 0 28px;background:var(--accent-bg);line-height:1.8}
+.study-steps{padding-left:25px;margin:14px 0 30px}.study-steps li{margin:9px 0;padding-left:4px}
+.doc-body details{border:1px solid var(--accent-border);border-radius:10px;background:var(--canvas);padding:12px 17px;margin:18px 0 24px}
+.doc-body details summary{font-weight:700;color:var(--link);cursor:pointer;line-height:1.5;list-style:revert}
+.doc-body details[open]{background:var(--panel)}
+.doc-body details ol,.doc-body details ul{padding-left:24px}
+.doc-body details li{margin:6px 0}
+.doc-body table{display:table;max-width:100%;width:100%;font-size:.85rem}
+.doc-body{overflow-wrap:anywhere}
+.doc-body h2{padding-top:8px}
+.doc-body blockquote{background:var(--canvas);border-left:3px solid var(--accent-border);padding:12px 18px;margin:16px 0}
+.chapter-further{background:var(--canvas);padding:13px 21px 17px;border-radius:10px;margin:28px 0}
+.chapter-further h2{margin:6px 0 8px;font-size:1.2rem}
+.chapter-further p{font-size:.84rem;color:var(--muted)}
+.chapter-further ul{margin-bottom:4px;padding-left:19px}
+@media(max-width:670px){.learning-grid{grid-template-columns:1fr}.learning-card{min-height:125px}.doc-body table{font-size:.76rem}.doc-body th,.doc-body td{padding:7px 5px}}
+@media print{.doc-body details{break-inside:avoid}.doc-body details>summary{font-weight:700}.learning-grid{display:block}.learning-card{margin:10px 0}}

@@ -1,0 +1,20 @@
+{
+  "version": "5.3",
+  "embedded_words": 18663,
+  "embedded_examples": 3183,
+  "lessons": 16,
+  "guides": 16,
+  "native_glyphs": 26,
+  "practice_modes": [
+    "vocab",
+    "reverse",
+    "sentence",
+    "affix",
+    "resonance",
+    "glyph",
+    "forge",
+    "sound"
+  ],
+  "offline": true,
+  "progress": "localStorage; JSON export/import"
+}
