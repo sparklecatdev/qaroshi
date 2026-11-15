@@ -1,5 +1,7 @@
 """Non-attestation / backwards-compatibility gates for the 18+19 teaching layer."""
 import csv
+import gzip
+import hashlib
 import json
 import re
 import unittest
@@ -19,6 +21,13 @@ def rows(path):
 class LivingLanguageTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        # Restore the byte-identical standalone studio from its checked-in gzip.
+        if not APP.exists():
+            archive = ROOT / 'Qaroshi_18_19_Living_Language_Studio.html.gz'
+            content = gzip.decompress(archive.read_bytes())
+            expected = '08531faa297c44e8cbad7339fa3619178438403b549be1118974f4f9ffb1deeb'
+            assert hashlib.sha256(content).hexdigest() == expected, 'Studio archive checksum mismatch'
+            APP.write_bytes(content)
         cls.m = json.loads(MANIFEST.read_text(encoding='utf-8'))
         cls.dialogues = json.loads((D18/'source_linked_conversation_paths.json').read_text(encoding='utf-8'))
         cls.rules = rows(D18/'pragmatic_register_rules.csv')
