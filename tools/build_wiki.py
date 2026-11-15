@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build one self-contained, offline wiki HTML for Qaroshi Unified Standard 4.1.
+"""Build the GitHub Pages wiki HTML for Qaroshi Unified Standard 4.1.
 
-All assets (including original hand-drawn native glyphs), dictionary, corpus,
-metadata and reference chapters are embedded. No requests, CDN or service worker.
+The page is self-contained: assets, dictionary, corpus, metadata and reference
+chapters are embedded. No requests, CDN or service worker are needed.
 """
 from pathlib import Path
 from collections import Counter
@@ -66,7 +66,7 @@ page=f'''<!doctype html>
 <noscript><p style="padding:2rem">This offline wiki requires JavaScript for navigation and search. The Markdown and CSV sources are provided in the full release package.</p></noscript>
 <script type="application/json" id="wiki-data">{blob}</script><script>{js}</script>
 </body></html>'''
-site=ROOT/'Qaroshi_Wiki.html';site.write_text(page,encoding='utf-8')
-# One canonical HTML entry point; no duplicate release versions.
+site=ROOT/'index.html';site.write_text(page,encoding='utf-8')
+# GitHub Pages serves index.html from the repository root.
 print('wiki build:',len(words),'lexemes,',len(sentences),'sentences,',len(chapters),'chapters,',len(domains),'domains,',
       len(page.encode('utf-8')),'bytes,',len(glyphs),'original-derived glyphs')

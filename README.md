@@ -4,7 +4,7 @@
 
 ## Read the wiki
 
-Open **`Qaroshi_Wiki.html`** in a browser. The file is fully offline and contains the 11,878-entry bilingual dictionary, 2,017 example sentences, all 70 grammar chapters, and the original 26-symbol native writing system. The interface has a wiki-style sidebar, built-in search, topic browsing, a chapter list, dark mode, mobile navigation and native-script PNG export.
+Open **`index.html`** in a browser or visit the repository's GitHub Pages site. The page is fully offline and contains the 11,878-entry bilingual dictionary, 2,017 example sentences, all 70 grammar chapters, and the original 26-symbol native writing system. The interface has a wiki-style sidebar, built-in search, topic browsing, a chapter list, dark mode, mobile navigation and native-script PNG export.
 
 ## Main reference files
 
