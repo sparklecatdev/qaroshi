@@ -37,7 +37,7 @@ for c in letters:
  a=im.getchannel('A')
  bbox=a.getbbox()
  if bbox:im=im.crop(bbox)
- im.putdata([(0,0,0,p[3]) for p in im.get_flattened_data()])
+ im.putdata([(0,0,0,p[3]) for p in im.getdata()])
  buf=io.BytesIO();im.save(buf,format='PNG',optimize=True)
  glyphs[c]='data:image/png;base64,'+base64.b64encode(buf.getvalue()).decode()
 domains=dict(sorted(Counter(w['domain'] for w in words).items()))
