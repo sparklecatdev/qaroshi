@@ -172,18 +172,54 @@
     el.innerHTML=html.replace(/<\/(?:p|li|h[1-6]|tr|div)>/gi,'$&\n').replace(/<br\s*\/?>/gi,'$&\n');
     return el.textContent.replace(/[ \t]+/g,' ').replace(/\n\s*\n/g,'\n').trim();
   }
+  function assistantAnswerHTML(text){
+    const inline=s=>esc(s).replace(/(`[^`\n]+`|\*\*[^*\n]+\*\*|__[^_\n]+__|\*[^*\n]+\*|_[^_\n]+_)/g,match=>{
+      if(match[0]==='`')return '<code>'+match.slice(1,-1)+'</code>';
+      if(match.startsWith('**')||match.startsWith('__'))return '<strong>'+match.slice(2,-2)+'</strong>';
+      return '<em>'+match.slice(1,-1)+'</em>';
+    });
+    const lines=text.replace(/\r\n?/g,'\n').split('\n'),out=[];
+    let paragraph=[],list='',code=null;
+    const flush=()=>{if(paragraph.length){out.push('<p>'+paragraph.map(inline).join('<br>')+'</p>');paragraph=[]}};
+    const closeList=()=>{if(list){out.push('</'+list+'>');list=''}};
+    for(const line of lines){
+      if(/^\s*```/.test(line)){flush();closeList();if(code!==null){out.push('<pre><code>'+esc(code.join('\n'))+'</code></pre>');code=null}else code=[];continue}
+      if(code!==null){code.push(line);continue}
+      if(!line.trim()){flush();closeList();continue}
+      if(/^\s*(?:---+|\*\*\*+)\s*$/.test(line)){flush();closeList();out.push('<hr>');continue}
+      const heading=line.match(/^\s{0,3}#{1,6}\s+(.+)$/);
+      if(heading){flush();closeList();out.push('<h3>'+inline(heading[1])+'</h3>');continue}
+      const item=line.match(/^\s*(?:([-*+])\s+|(\d+)\.\s+)(.+)$/);
+      if(item){flush();const type=item[2]?'ol':'ul';if(list!==type){closeList();list=type;out.push('<'+type+'>')}out.push('<li>'+inline(item[3])+'</li>');continue}
+      closeList();paragraph.push(line);
+    }
+    if(code!==null)out.push('<pre><code>'+esc(code.join('\n'))+'</code></pre>');
+    flush();closeList();return out.join('');
+  }
   function renderAssistant(){
     main.innerHTML=`<article class="readable">${mkHeader('Explore','AI assistant','Ask about Qaroshi or request a translation using the reference.')}
-      <div class="note"><strong>Free, with an OpenRouter account.</strong><p>Get a <a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">free API key</a>. Free models have usage limits and may be temporarily unavailable. Your question and relevant reference material are sent to OpenRouter and its model provider. The key stays in this page and is not saved.</p><p>Answers can be inaccurate; check the linked sources.</p></div>
+      <div class="note"><strong>Free, with an OpenRouter account.</strong><p>Get a <a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">free API key</a>. Free models have usage limits and may be temporarily unavailable. Your question and relevant reference material are sent to OpenRouter and its model provider. Your key is saved unencrypted in this browser on this device.</p><p>Answers can be inaccurate; check the linked sources.</p></div>
       <form id="assistantForm"><label for="assistantKey">OpenRouter API key</label>
       <input class="field search" id="assistantKey" type="password" autocomplete="off" required placeholder="sk-or-…">
+      <button class="button" id="assistantClearKey" type="button">Remove saved key</button>
       <label for="assistantQuery">Question or text to translate</label>
       <textarea class="converter-input" id="assistantQuery" maxlength="2000" required placeholder="How do resonance markers work? Or: Translate ‘hello’ into Qaroshi."></textarea>
       <div class="controls"><button class="button primary" id="assistantSubmit" type="submit">Ask assistant</button></div></form>
       <p id="assistantStatus" class="muted" role="status" aria-live="polite"></p>
-      <section id="assistantResult" hidden><h2>Answer</h2><div id="assistantAnswer" style="white-space:pre-wrap"></div><h3>Reference sources</h3><ul id="assistantReferences"></ul></section></article>`;
+      <section id="assistantResult" hidden><h2>Answer</h2><div class="doc-body" id="assistantAnswer"></div><h3>Reference sources</h3><ul id="assistantReferences"></ul></section></article>`;
     setToc([]);
     const formEl=$('assistantForm'),submit=$('assistantSubmit'),status=$('assistantStatus'),result=$('assistantResult'),answer=$('assistantAnswer'),references=$('assistantReferences');
+    const keyInput=$('assistantKey'),storageKey='qaroshi-openrouter-key';
+    try{keyInput.value=localStorage.getItem(storageKey)||''}catch{status.textContent='Browser storage is unavailable; your key will not be saved.'}
+    keyInput.addEventListener('input',()=>{
+      try{if(keyInput.value)localStorage.setItem(storageKey,keyInput.value);else localStorage.removeItem(storageKey)}
+      catch{status.textContent='Browser storage is unavailable; your key will not be saved.'}
+    });
+    $('assistantClearKey').addEventListener('click',()=>{
+      keyInput.value='';
+      try{localStorage.removeItem(storageKey);status.textContent='Saved key removed.'}
+      catch{status.textContent='Browser storage is unavailable; the key could not be removed.'}
+    });
     formEl.addEventListener('submit',async e=>{
       e.preventDefault();const query=$('assistantQuery').value.trim(),key=$('assistantKey').value.trim();if(!query||!key)return;
       result.hidden=true;submit.disabled=true;
@@ -209,7 +245,7 @@
         }
         const content=data.choices?.[0]?.message?.content;
         if(!content)throw new Error('The model returned no answer. Please try again.');
-        answer.textContent=content;
+        answer.innerHTML=assistantAnswerHTML(content);
         const cited=new Set([...content.matchAll(/\b(?:G\d{2}|D\d+|S\d+)\b/g)].map(m=>m[0]));
         const citedSources=documents.filter(s=>cited.has(s.id));
         references.innerHTML=(citedSources.length?citedSources:[{id:'',title:'Grammar overview',href:'#grammar'},...sources.slice(0,5)]).map(s=>`<li>${s.id?'['+esc(s.id)+'] ':''}<a href="${esc(s.href)}">${esc(s.title)}</a></li>`).join('');
