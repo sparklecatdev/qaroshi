@@ -114,24 +114,57 @@
   let assistantIndex;
   function assistantSources(query){
     const tokens=s=>String(s).normalize('NFC').toLowerCase().match(/[\p{L}\p{N}]+/gu)||[];
-    const stop=new Set('a an and are as at be can could do does for from how in into is it of on or please qaroshi tell that the this to translate translation what when where which with would'.split(' '));
+    const stop=new Set('could how into please qaroshi tell translate translation what when where which would'.split(' '));
     const terms=[...new Set(tokens(query).filter(t=>!stop.has(t)))];
     if(!assistantIndex){
       const items=[],frequency=new Map();
-      const add=(kind,title,href,text,head)=>{
-        const words=new Set(tokens(text));
+      const add=(kind,title,href,text,qaroshi,english)=>{
+        const words=new Set(tokens(text)),q=new Set(tokens(qaroshi)),en=new Set(tokens(english));
         words.forEach(t=>frequency.set(t,(frequency.get(t)||0)+1));
-        items.push({kind,title,href,text,head:new Set(tokens(head)),words});
+        items.push({kind,title,href,text,q,en,words,meaning:english.toLowerCase().split(/[;(),]/).map(x=>x.trim())});
       };
-      W.forEach(w=>add('word','Dictionary: '+w.qaroshi,'#word/'+enc(w.qaroshi),`${w.qaroshi}: ${w.english}. ${form(w.pos)}. ${w.domain}. ${w.components||''} ${w.note||''}`,w.qaroshi+' '+w.english));
-      P.forEach(p=>add('phrase','Example: '+p.qaroshi,'#phrase/'+enc(p.id),`${p.qaroshi} — ${p.english}. ${p.note||''} ${p.pattern||''}`,p.qaroshi+' '+p.english));
+      W.forEach(w=>add('word','Dictionary: '+w.qaroshi,'#word/'+enc(w.qaroshi),`${w.qaroshi}: ${w.english}. ${form(w.pos)}. ${w.domain}. ${w.components||''} ${w.note||''}`,w.qaroshi,w.english));
+      P.forEach(p=>add('phrase','Example: '+p.qaroshi,'#phrase/'+enc(p.id),`${p.qaroshi} — ${p.english}. ${p.note||''} ${p.pattern||''}`,p.qaroshi,p.english));
       assistantIndex={items,frequency};
     }
     const {items,frequency}=assistantIndex;
-    const ranked=items.map(item=>({item,score:terms.reduce((n,t)=>n+(item.words.has(t)?(item.head.has(t)?2:1)*Math.log(1+items.length/(frequency.get(t)||1)):0),0)}))
-      .filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
+    // Exact Qaroshi headwords take priority over possible joined suffixes.
+    const variants=term=>{
+      const forms=new Set([term]);
+      if(term.length>3){
+        if(term.endsWith('ies'))forms.add(term.slice(0,-3)+'y');
+        if(term.endsWith('es'))forms.add(term.slice(0,-2));
+        if(term.endsWith('s'))forms.add(term.slice(0,-1));
+        for(const suffix of ['ing','ed'])if(term.endsWith(suffix)){
+          const stem=term.slice(0,-suffix.length);
+          if(stem.length>2){forms.add(stem);forms.add(stem+'e');if(/(.)\1$/.test(stem))forms.add(stem.slice(0,-1));}
+        }
+      }
+      if(!wordBy.has(term)){
+        let roots=[term];
+        for(let i=0;i<4;i++){
+          roots=roots.flatMap(root=>['ri','te','yu','se','mo','në','ki','ho','du','la','lo','wa','m','së'].filter(suffix=>root.endsWith(suffix)&&root.length-suffix.length>=3).map(suffix=>root.slice(0,-suffix.length)));
+          roots.forEach(root=>{if(wordBy.has(root))forms.add(root)});
+        }
+      }
+      return [...forms];
+    };
+    const expanded=terms.map(term=>({term,forms:variants(term)}));
+    const ranked=items.map(item=>({item,scores:expanded.map(({term,forms})=>Math.max(0,...forms.map((t,i)=>{
+      if(!item.words.has(t))return 0;
+      const weight=item.kind==='word'?(item.q.has(t)?6:item.meaning.includes(t)?8:item.en.has(t)?4:0.5):(item.q.has(t)||item.en.has(t)?2:0.5);
+      return weight*Math.log(1+items.length/(frequency.get(t)||1))*(i?0.65:1);
+    })))}));
+    ranked.forEach(x=>{x.score=x.scores.reduce((a,b)=>a+b,0)});
+    ranked.sort((a,b)=>b.score-a.score);
     const selected=[];
-    for(const kind of ['word','phrase'])selected.push(...ranked.filter(x=>x.item.kind===kind).slice(0,kind==='word'?70:30).map(x=>x.item));
+    for(const [kind,limit] of [['word',70],['phrase',30]]){
+      const candidates=ranked.filter(x=>x.item.kind===kind&&x.score>0),chosen=new Set();
+      // Reserve a few entries per query term so common words are not crowded out.
+      expanded.forEach((_,i)=>candidates.filter(x=>x.scores[i]>0).sort((a,b)=>b.scores[i]-a.scores[i]).slice(0,kind==='word'?3:1).forEach(x=>{if(chosen.size<limit)chosen.add(x)}));
+      candidates.forEach(x=>{if(chosen.size<limit)chosen.add(x)});
+      selected.push(...[...chosen].map(x=>x.item));
+    }
     return selected;
   }
   function assistantDocument(html){
