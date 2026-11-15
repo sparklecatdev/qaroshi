@@ -1,0 +1,144 @@
+# New 15.0 independent editorial continuous texts. Each line is a separate sentence with a contextual English rendering.
+@ The Wind and the Witness | short fiction | A traveler discovers that evidence must be distinguished from rumor.
+sen mi yami-lo goro-te.|I flew at night.
+sen mi gëru-m tika-te.|I saw a mountain.
+zher mi sa-m nu tika-te.|I did not see the traveler.
+sen sa goro-te hu.|I was told the traveler had flown.
+hë ti sa-m tika-te si he?|Did you see them yourself?
+sen mi sa-m nu tika-te.|I did not see them.
+sen mi shiwaro-m shiroli-te.|I wrote a report.
+zher sa goro-te ye.|I infer they flew.
+sen mi shiwaro-m shiwari-yu.|I will send a message.
+nëm mi naro-lo nëru-yu.|I will rest at home.
+
+@ A School for Questions | educational essay | An inquiry-based education avoids mistaking uncertainty for ignorance.
+sen mi qaroshi-m shiri.|I speak Qaroshi.
+hë ti qaroshi-m shiri he?|Do you speak Qaroshi?
+zher mi shëno-m hari.|I have a question.
+hë mi shëno-m sharoa-ho he?|May I ask a question?
+sen mi shëno-m sharoa-te.|I asked the question.
+sen mi ti-m shiroawe-te.|I listened to you.
+sen mi shima-m shëliro-te.|I read the book.
+zher mi nu rëmi.|I am not yet learning.
+dal mi rëmi-yu.|I will learn.
+hol mi ti-m holë.|Thank you.
+
+@ The Archive of Uncertain Stories | archival essay | An archivist declines to promote unverified events into history.
+sen mi shima-m shëliro-te.|I read a book.
+sen mi moru-m hari.|I have a memory.
+sen sa goro-te hu.|Someone reported that they flew.
+zher mi sa-m nu tika-te.|I did not see them.
+sen mi shiwaro-m shiroli-te.|I wrote a record.
+hë ti sa-m tika-te si he?|Did you witness them?
+zher sa goro-te ye.|I infer they may have flown.
+sen mi shiwaro-m nu shiwari-yu.|I will not send the report.
+sen mi shëno-m sharoa-yu.|I will ask a question.
+qor mi moru-m daru-yu.|I will protect the memory.
+
+@ The Ethics of a Refusal | philosophical essay | A refusal remains a refusal even when the invitation is affectionate.
+hë ti mi-wa goro-yu he?|Will you fly with me?
+sen mi nu goro-yu.|I will not fly.
+më mi ti-m nashi.|I care deeply about you.
+sen mi ti-m ronaro.|I hear you.
+hë ti mi-wa nëra-yu he?|Will you stay with me?
+sen mi ti-wa nëra-yu.|I will stay with you.
+hë ti goro-ki he?|Are you physically able to fly?
+sen mi goro-ki.|I can fly.
+hë ti goro-ho he?|Are you permitted to fly?
+sen mi nu goro-ho.|I am not permitted to fly.
+
+@ One Star, Three Meanings | literary meditation | A night sky offers a setting for different readings of the same object.
+sen mi sëra-m tika.|I see a star.
+nëm mi yami-lo nëru.|I rest in the night.
+më mi sëra-m nashi.|I cherish the star.
+hë ti sëra-m hari he?|Do you possess the star?
+sen mi sëra-m nu hari.|I do not possess the star.
+sen mi moru-m hari.|I have a memory.
+zher mi sëra-m tika-yu ye.|I infer that I may see the star again.
+sen mi moru-m shiroli-yu.|I will write down a memory.
+wen mi sëra-m tika-yu.|I will look at the star with longing.
+nëm mi naro-lo nëru-yu.|I will rest at home.
+
+@ The Machine and the Promise | technical reflection | A repair is delayed when an exhausted mechanic sets a boundary.
+sen mi shenaro-m hari.|I have a device.
+sen mi shenaro-m tika-te.|I inspected the device.
+hë ti shenaro-m rëgë-ki he?|Can you repair it?
+sen mi shenaro-m rëgë-ki.|I can repair it.
+sur mi shërohi.|I am tired.
+sen mi shenaro-m nu rëgë-yu.|I will not repair it yet.
+hë ti nëru-yu he?|Will you rest?
+nëm mi nëru-yu.|I will rest.
+qor mi shenaro-m rëgë-yu.|I will repair the device.
+hol mi ti-m holë.|Thank you.
+
+@ The Weather Ledger | travel log | A group records observations and revises a travel plan.
+sen mi lushënga-m tika-te si.|I witnessed a storm.
+sen mi gëru-m nu tika-te.|I did not see the mountain.
+hë ti goro-ki he?|Can you fly?
+sen mi goro-ki.|I can fly.
+hë ti goro-ho he?|Are you permitted to fly?
+sen mi nu goro-ho.|I do not have permission to fly.
+sen mi naro-lo nëra-te.|I stayed at home.
+sen mi shiwaro-m shiroli-te.|I wrote a note.
+zher mi yurayaro goro-yu ye.|I infer I may fly tomorrow.
+qor mi ti-m daru-yu.|I will protect you.
+
+@ A Careful Translation | language study | A learner compares an interpretation with what the words actually say.
+sen mi qaroshi-m shiri.|I speak Qaroshi.
+sen mi shima-m shëliro-te.|I read the book.
+sen mi shiwaro-m tika-te.|I saw the message.
+zher mi shëno-m hari.|I have a question.
+hë ti mi-m shiroawe-ki he?|Can you listen to me?
+sen mi ti-m shiroawe-yu.|I will listen to you.
+hë ti goro-ki he?|Can you fly?
+hë ti goro-ho he?|May you fly?
+sen mi shiwaro-m shiroli-yu.|I will write the message.
+dal mi rëmi-yu.|I will learn.
+
+@ An Open Door in the Storm | short fiction | A visitor seeks shelter and the host offers practical care.
+sen mi yami-lo goro-te.|I flew through the night.
+sen mi lushënga-m tika-te.|I saw the storm.
+sur mi shërohi.|I am tired.
+sen mi naro-m nu hari.|I have no home.
+hë mi naro-gu nëra-ho he?|May I stay at the home?
+më ti naro-gu nëra-ho.|You may stay at the home.
+sen mi kima-m këmë-te.|I drank water.
+sen mi naro-lo nëra-te.|I stayed at the home.
+hol mi ti-m holë.|Thank you.
+nëm mi naro-lo nëru-te.|I rested at home.
+
+@ The Unfinished Book | literary fiction | A writer chooses to ask one more question before publishing.
+sen mi shima-m shiroli-te.|I wrote a book.
+sen mi shima-m shëliro-te.|I read the book.
+zher mi shëno-m hari.|I have a question.
+hë ti shima-m shëliro-yu he?|Will you read the book?
+sen mi shima-m nu shiwari-yu.|I will not send the book.
+sen mi moru-m hari.|I have a memory.
+më mi moru-m nashi.|I cherish that memory.
+sen mi shëno-m sharoa-yu.|I will ask the question.
+dal mi shima-m shiroli-yu.|I will write the book.
+nëm mi nëru-yu.|I will rest.
+
+@ A Letter Across Distance | epistolary fiction | A friend sends one carefully chosen message rather than a grand promise.
+më mi ti-m nashi.|I cherish you.
+sen mi ti-tu shiwaro-m shiwari-yu.|I will send a message to you.
+hë ti shiwaro-m shëliro-yu he?|Will you read the message?
+zher mi naro-gu gura-yu ye.|I infer that I may travel home.
+sen mi moru-m hari.|I have a memory.
+qor mi nënayaro ti-wa nëra-yu.|I will stay with you today.
+më mi ti-m shiroawe-yu.|I will listen to you.
+sen mi shiwaro-m shiroli-yu.|I will write the message.
+hol mi ti-m holë.|Thank you.
+nëm naru nëru-yu.|We will rest together.
+
+@ The Permission to Wait | reflective essay | Waiting may be an informed choice rather than an inability.
+sen mi goro-ki.|I can fly.
+sen mi nu goro-ho.|I may not fly.
+sen mi naro-lo nëra-yu.|I will stay home.
+sen mi lushënga-m tika-te si.|I witnessed the storm.
+hë ti mi-m dëmi-ki he?|Can you help me?
+sen mi ti-m dëmi-ki.|I can help you.
+sen mi ti-m ronaro.|I hear you.
+më mi ti-m nashi.|I care about you.
+hol mi ti-m holë.|Thank you.
+nëm mi nëru-yu.|I will rest.

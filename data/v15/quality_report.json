@@ -1,0 +1,63 @@
+{
+  "all_reviewable_editorial_lines": 1594,
+  "all_source_whitespace_tokens": 6828,
+  "all_distinct_sentence_surfaces": 771,
+  "cross_release_contextual_translation_variation_groups": 223,
+  "new_release_lines": 561,
+  "new_release_distinct_sentences": 312,
+  "new_release_repeated_surface_instances": 347,
+  "new_release_repetition_rate": 0.6185,
+  "new_release_english_variant_groups": 48,
+  "most_repeated_new_sentence_forms": [
+    [
+      "hol mi ti-m holë.",
+      21
+    ],
+    [
+      "zher mi shëno-m hari.",
+      12
+    ],
+    [
+      "sen mi ti-m ronaro.",
+      9
+    ],
+    [
+      "sen mi shima-m shëliro-te.",
+      8
+    ],
+    [
+      "hë ti sa-m tika-te si he?",
+      7
+    ],
+    [
+      "zher mi sa-m nu tika-te.",
+      7
+    ],
+    [
+      "hë ti goro-ki he?",
+      7
+    ],
+    [
+      "sen mi goro-ki.",
+      7
+    ],
+    [
+      "sen sa goro-te hu.",
+      6
+    ],
+    [
+      "sen mi moru-m hari.",
+      6
+    ],
+    [
+      "sen mi shiwaro-m shiroli-te.",
+      6
+    ],
+    [
+      "sen mi nu goro-yu.",
+      6
+    ]
+  ],
+  "quality_criterion": "Separate narrative contexts and independent drafting were used. Frequent formulaic language remains; this is editorial teaching data, not authentic naturalistic speech.",
+  "review_criterion": "Semantic variations are not adjudicated automatically; independent reviewers must decide what English translation is licensed by the source."
+}

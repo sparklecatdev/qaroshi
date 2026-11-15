@@ -1,0 +1,212 @@
+piece_id,title,release,kind,genre,premise,lines,qaroshi_source_whitespace_tokens,speaker_attested
+a-window-at-night,A window at night,11.0,dialogue,earlier editorial dialogue,A watcher tries to decide if a distant light is a star or a warning,6,29,no
+the-missing-message,The missing message,11.0,dialogue,earlier editorial dialogue,One friend confuses sending a message with receiving it,6,28,no
+permission-to-leave,Permission to leave,11.0,dialogue,earlier editorial dialogue,A young flier asks before departing a shared roost,6,21,no
+a-day-of-rest,A day of rest,11.0,dialogue,earlier editorial dialogue,Two people choose rest rather than another journey,6,24,no
+the-borrowed-book,A borrowed book,11.0,dialogue,earlier editorial dialogue,A friend wants to return a borrowed book after reading,6,27,no
+an-unwanted-journey,An unwanted journey,11.0,dialogue,earlier editorial dialogue,A companion declines an invitation without giving an excuse,6,25,no
+reported-flight,A reported flight,11.0,dialogue,earlier editorial dialogue,A reporter distinguishes a witnessed event from a rumor,6,28,no
+a-frightening-storm,A frightening storm,11.0,dialogue,earlier editorial dialogue,A storm forces an immediate change in plans,6,27,no
+the-repair-promise,The repair promise,11.0,dialogue,earlier editorial dialogue,Someone refuses to promise a repair they cannot perform,6,26,no
+a-small-lesson,A small lesson,11.0,dialogue,earlier editorial dialogue,A teacher allows a learner to ask more questions,6,25,no
+the-late-apology,The late apology,11.0,dialogue,earlier editorial dialogue,A reply comes after the hurt has already happened,6,24,no
+two-kinds-of-we,Two kinds of we,11.0,dialogue,earlier editorial dialogue,A speaker clarifies whether the listener is included,6,21,no
+a-thirsty-flyer,A thirsty flyer,11.0,dialogue,earlier editorial dialogue,A flier asks for water before discussing anything else,6,26,no
+choosing-a-boundary,Choosing a boundary,11.0,dialogue,earlier editorial dialogue,A visitor accepts someone else’s limits,6,25,no
+the-star-and-the-sky,The star and the sky,11.0,dialogue,earlier editorial dialogue,A learner mistakes two different words while reading,6,26,no
+a-warm-message,A warm message,11.0,dialogue,earlier editorial dialogue,Someone writes affection without making a demand,6,25,no
+the-unfinished-answer,The unfinished answer,11.0,dialogue,earlier editorial dialogue,A speaker corrects a too-confident prediction,6,26,no
+an-empty-roost,An empty roost,11.0,dialogue,earlier editorial dialogue,A traveler learns that a building can be different from belonging,6,27,no
+memory-on-paper,Memory on paper,11.0,dialogue,earlier editorial dialogue,A story is recorded so a friend can read it later,6,25,no
+the-wrong-inference,The wrong inference,11.0,dialogue,earlier editorial dialogue,A listener confuses a report with an observation,6,28,no
+a-friendly-question,A friendly question,11.0,dialogue,earlier editorial dialogue,An invitation becomes an opportunity to choose freely,6,25,no
+a-quiet-night,A quiet night,11.0,dialogue,earlier editorial dialogue,The night becomes a place to talk rather than a danger,6,26,no
+sharing-a-book,Sharing a book,11.0,dialogue,earlier editorial dialogue,Two learners make space for one another while studying,6,27,no
+care-without-a-promise,Care without a promise,11.0,dialogue,earlier editorial dialogue,A commitment is limited to what a speaker can actually do,6,28,no
+the-lesson-of-no,The lesson of no,11.0,dialogue,earlier editorial dialogue,Someone respects a refusal instead of trying to negotiate it,6,26,no
+the-first-word,The first word,11.0,dialogue,earlier editorial dialogue,A beginner learns why resonance belongs in writing,6,25,no
+an-injured-wing,An injured wing,11.0,dialogue,earlier editorial dialogue,"A traveler needs protection, not another challenge",6,25,no
+checking-the-source,Checking the source,11.0,dialogue,earlier editorial dialogue,Two witnesses disagree and decide what evidence they actually have,6,31,no
+patience-in-learning,Patience in learning,11.0,dialogue,earlier editorial dialogue,A teacher rejects the idea that one error ends progress,6,24,no
+alone-but-not-lost,Alone but not lost,11.0,dialogue,earlier editorial dialogue,A traveler distinguishes being alone from needing help,6,27,no
+the-unread-story,The unread story,11.0,dialogue,earlier editorial dialogue,An author shares a story before anyone has read it,6,26,no
+a-new-friend,A new friend,11.0,dialogue,earlier editorial dialogue,Two people decide whether to trust one another slowly,6,27,no
+an-uncertain-answer,An uncertain answer,11.0,dialogue,earlier editorial dialogue,A hesitant speaker refuses to invent certainty,6,25,no
+two-books,Two books,11.0,dialogue,earlier editorial dialogue,A learner distinguishes possession from lending,6,28,no
+near-the-storm,Near the storm,11.0,dialogue,earlier editorial dialogue,A flyer changes a plan before a storm arrives,6,26,no
+an-apology-accepted,An apology accepted,11.0,dialogue,earlier editorial dialogue,A hesitant apology is followed by a concrete change,6,23,no
+teaching-permission,Teaching permission,11.0,dialogue,earlier editorial dialogue,A lesson makes the three modal endings explicit,6,22,no
+the-silent-roost,The silent roost,11.0,dialogue,earlier editorial dialogue,A visitor learns when someone needs quiet,6,25,no
+a-returned-memory,A returned memory,11.0,dialogue,earlier editorial dialogue,A long conversation ends with one remembered promise,6,25,no
+a-question-of-home,A question of home,11.0,dialogue,earlier editorial dialogue,A traveler asks whether shelter means belonging,6,27,no
+a-letter-for-tomorrow,A letter for tomorrow,11.0,dialogue,earlier editorial dialogue,A message is planned for a later day,6,28,no
+warmth-and-distance,Warmth and distance,11.0,dialogue,earlier editorial dialogue,Two friends agree that care does not require being in the same place,6,26,no
+finding-the-question,Finding the question,11.0,dialogue,earlier editorial dialogue,A teacher asks a learner to clarify what is actually unknown,6,23,no
+stars-over-the-roost,Stars over the roost,11.0,dialogue,earlier editorial dialogue,A story ends with observation rather than prediction,6,27,no
+the-double-negative,The double negative,11.0,dialogue,earlier editorial dialogue,A learner clarifies a sentence that could mislead,6,22,no
+trust-after-an-error,Trust after an error,11.0,dialogue,earlier editorial dialogue,A mistake becomes an invitation to repair the facts,6,25,no
+one-more-story,One more story,11.0,dialogue,earlier editorial dialogue,Someone values listening more than another long explanation,6,27,no
+the-cautious-reader,The cautious reader,11.0,dialogue,earlier editorial dialogue,An uncertain sentence prompts a question about source evidence,6,28,no
+the-final-page,The final page,11.0,dialogue,earlier editorial dialogue,Two students finish a lesson without calling themselves fluent,6,26,no
+q12-the-borrowed-compass,The borrowed compass,12–13,dialogue,earlier editorial dialogue,"A navigator lends a compass but wants the friend to learn, not depend forever.",9,41,no
+q12-the-festival-without-a-song,The festival without a song,12–13,dialogue,earlier editorial dialogue,The planned song is missing and the performer has to improvise.,9,39,no
+q12-a-lost-page-in-the-library,A lost page in the library,12–13,dialogue,earlier editorial dialogue,A missing page changes whether the reader trusts an old story.,8,35,no
+q12-the-message-marked-read,The message marked read,12–13,dialogue,earlier editorial dialogue,A read receipt is mistaken for agreement.,8,33,no
+q12-a-broken-window-at-dusk,A broken window at dusk,12–13,dialogue,earlier editorial dialogue,Two people disagree over fixing a window before an approaching storm.,8,33,no
+q12-the-mountain-map,The mountain map,12–13,dialogue,earlier editorial dialogue,A mentor corrects a student's map without humiliating them.,8,33,no
+q12-the-apology-without-an-excuse,The apology without an excuse,12–13,dialogue,earlier editorial dialogue,A friend apologizes while the other asks for actual change.,8,33,no
+q12-an-uncertain-star,An uncertain star,12–13,dialogue,earlier editorial dialogue,The pair must distinguish what was seen from what was inferred.,8,37,no
+q12-the-accidental-invitation,The accidental invitation,12–13,dialogue,earlier editorial dialogue,An exclusive we is mistaken for an inclusive we.,8,31,no
+q12-a-price-too-low,A price too low,12–13,dialogue,earlier editorial dialogue,A merchant and buyer debate whether a bargain is fair.,8,35,no
+q12-an-evening-without-flight,An evening without flight,12–13,dialogue,earlier editorial dialogue,A flier makes space for grief rather than forcing a cheerful journey.,8,31,no
+q12-the-inherited-feather,The inherited feather,12–13,dialogue,earlier editorial dialogue,"A feather carries a story, but the narrator refuses to invent details.",8,36,no
+q12-the-library-s-last-hour,The library's last hour,12–13,dialogue,earlier editorial dialogue,A student races to return a book but chooses to protect it rather than rush.,8,33,no
+q12-the-private-map,The private map,12–13,dialogue,earlier editorial dialogue,An explorer refuses to share a friend's private route without permission.,8,37,no
+q12-a-water-jar-of-questions,A water jar of questions,12–13,dialogue,earlier editorial dialogue,A thirsty visitor has a surprising philosophical question.,8,35,no
+q12-a-quiet-birthday,A quiet birthday,12–13,dialogue,earlier editorial dialogue,A friend rejects a loud celebration and chooses a private message.,8,35,no
+q12-the-dispute-about-a-rumor,The dispute about a rumor,12–13,dialogue,earlier editorial dialogue,A group argues over a rumor and agrees on evidence standards.,8,35,no
+q12-rest-before-the-exam,Rest before the exam,12–13,dialogue,earlier editorial dialogue,A mentor sees a student practicing while exhausted.,8,33,no
+q12-the-torn-illustration,The torn illustration,12–13,dialogue,earlier editorial dialogue,An artist refuses to discard a damaged painting.,8,34,no
+q12-a-song-in-two-voices,A song in two voices,12–13,dialogue,earlier editorial dialogue,Two performers negotiate timing and share credit.,8,35,no
+q12-the-silent-museum,The silent museum,12–13,dialogue,earlier editorial dialogue,A visitor mistakes silence for disrespect at an exhibition.,8,33,no
+q12-a-storm-before-dawn,A storm before dawn,12–13,dialogue,earlier editorial dialogue,A night watchman decides whether to alert the roost.,8,35,no
+q12-the-missing-medicine,The missing medicine,12–13,dialogue,earlier editorial dialogue,Two helpers decide to seek help rather than improvise treatment.,8,36,no
+q12-a-promise-at-the-bridge,A promise at the bridge,12–13,dialogue,earlier editorial dialogue,An old promise is renegotiated when crossing a dangerous bridge.,8,34,no
+q12-the-name-of-a-star,The name of a star,12–13,dialogue,earlier editorial dialogue,A scholar corrects an overconfident name in an atlas.,8,35,no
+q12-a-friend-at-the-doorway,A friend at the doorway,12–13,dialogue,earlier editorial dialogue,A friend checks whether a guest wants company or solitude.,8,35,no
+q12-the-unfinished-oath,The unfinished oath,12–13,dialogue,earlier editorial dialogue,A solemn vow is interrupted by an unknown risk.,8,35,no
+q12-learning-without-embarrassment,Learning without embarrassment,12–13,dialogue,earlier editorial dialogue,A shy student corrects a grammatical mistake in public.,8,32,no
+q12-a-letter-delayed,A letter delayed,12–13,dialogue,earlier editorial dialogue,One person gets worried when the reply doesn't arrive.,8,36,no
+q12-the-diary-s-blank-page,The diary's blank page,12–13,dialogue,earlier editorial dialogue,A diarist learns to write about uncertainty without inventing an answer.,8,36,no
+q12-the-borrowed-blanket,The borrowed blanket,12–13,dialogue,earlier editorial dialogue,A visitor returns a blanket with a difficult confession.,8,34,no
+q12-a-silent-disagreement,A silent disagreement,12–13,dialogue,earlier editorial dialogue,A quiet listener finally explains why they disagree.,8,34,no
+q12-the-wrong-gift,The wrong gift,12–13,dialogue,earlier editorial dialogue,A mistaken present becomes a better conversation about what matters.,8,36,no
+q12-a-forest-crossing,A forest crossing,12–13,dialogue,earlier editorial dialogue,Two walkers choose to guide a novice rather than compete over speed.,8,36,no
+q12-the-disputed-portrait,The disputed portrait,12–13,dialogue,earlier editorial dialogue,An artist and subject agree about permission to share a painting.,8,34,no
+q12-a-warning-mistaken-for-an-order,A warning mistaken for an order,12–13,dialogue,earlier editorial dialogue,A flight controller explains the difference between danger and permission.,8,31,no
+q12-the-lost-melody,The lost melody,12–13,dialogue,earlier editorial dialogue,Someone remembers the song's feeling but not its notes.,8,35,no
+q12-the-reading-lamp,The reading lamp,12–13,dialogue,earlier editorial dialogue,A late-night reader learns to ask before changing the shared room.,8,33,no
+q12-the-promise-of-tomorrow,The promise of tomorrow,12–13,dialogue,earlier editorial dialogue,A precise promise replaces a vague reassurance.,8,35,no
+q12-the-weather-notebook,The weather notebook,12–13,dialogue,earlier editorial dialogue,Students compare first-hand observations with forecasts.,8,37,no
+q12-the-train-that-isn-t-there,The train that isn't there,12–13,dialogue,earlier editorial dialogue,Two friends realize a suggested route came from an outdated book.,8,36,no
+q12-a-story-with-two-endings,A story with two endings,12–13,dialogue,earlier editorial dialogue,Writers debate whether a story must resolve every question.,8,37,no
+q12-a-call-across-the-river,A call across the river,12–13,dialogue,earlier editorial dialogue,Two friends communicate across water without assuming they heard correctly.,8,36,no
+q12-the-borrowed-book-s-margin,The borrowed book's margin,12–13,dialogue,earlier editorial dialogue,A teacher discovers a student's helpful annotation.,8,34,no
+q12-the-medical-question,The medical question,12–13,dialogue,earlier editorial dialogue,A worried friend requests a clinician rather than speculative advice.,8,36,no
+q12-a-door-left-open,A door left open,12–13,dialogue,earlier editorial dialogue,A host discovers that a visitor mistakes an open door for permission.,8,33,no
+q12-the-word-forever,The word 'forever',12–13,dialogue,earlier editorial dialogue,Two people talk about why a strong word should be used carefully.,8,37,no
+q12-the-cracked-compass,The cracked compass,12–13,dialogue,earlier editorial dialogue,An explorer must decide whether damaged equipment is reliable.,8,34,no
+q12-the-unfinished-mural,The unfinished mural,12–13,dialogue,earlier editorial dialogue,Artists disagree about whether to cover an earlier layer.,8,35,no
+q12-the-late-arrival,The late arrival,12–13,dialogue,earlier editorial dialogue,A group waits for the slowest flyer and revises their plan.,8,29,no
+q12-an-unfamiliar-word,An unfamiliar word,12–13,dialogue,earlier editorial dialogue,A translator refuses to translate a word without enough context.,8,35,no
+q12-a-festival-under-rain,A festival under rain,12–13,dialogue,earlier editorial dialogue,A group adapts its celebration rather than canceling the day.,8,32,no
+q12-the-letter-never-sent,The letter never sent,12–13,dialogue,earlier editorial dialogue,Someone realizes that writing an apology differs from delivering it.,8,35,no
+q12-a-quiet-victory,A quiet victory,12–13,dialogue,earlier editorial dialogue,"After a hard lesson, a student celebrates without boasting.",8,31,no
+lit12-the-map-that-wasn-t-a-map,The Map That Wasn't a Map,12–13,literature,fictional narrative,A navigator learns that a precise tool cannot answer every social question.,18,76,no
+lit12-the-honest-report,The Honest Report,12–13,literature,essay,Why source-of-evidence particles matter more than sounding confident.,16,71,no
+lit12-the-book-returned-with-notes,The Book Returned with Notes,12–13,literature,fictional narrative,A library incident becomes a lesson about ownership and shared learning.,15,60,no
+lit12-two-meanings-of-home,Two Meanings of Home,12–13,literature,reflective essay,A building can offer shelter without automatically granting belonging.,16,67,no
+lit12-what-a-promise-can-contain,What a Promise Can Contain,12–13,literature,philosophical essay,Distinguishing a meaningful promise from an impossible guarantee.,16,64,no
+lit12-the-river-without-an-answer,The River Without an Answer,12–13,literature,literary fiction,Someone asks a river a question better addressed to another person.,16,68,no
+lit12-the-night-watch,The Night Watch,12–13,literature,fictional report,A watcher must decide when to send a storm warning.,14,60,no
+lit12-the-question-in-a-painted-wing,The Question in a Painted Wing,12–13,literature,fictional arts dialogue retold as prose,An image raises a memory its maker did not intend.,15,63,no
+lit12-how-to-correct-a-word,How to Correct a Word,12–13,literature,language-learning essay,A learner separates a translation error from the original language.,14,57,no
+lit12-a-letter-sent-twice,A Letter Sent Twice,12–13,literature,epistolary fiction,"A message is sent, but a better reply requires listening first.",13,57,no
+lit12-the-weather-and-the-story,The Weather and the Story,12–13,literature,analytical essay,Separating what a story says from what an observation proves.,14,62,no
+lit12-the-careful-journey,The Careful Journey,12–13,literature,travel diary,A traveler follows an unfamiliar route while respecting a companion's limits.,14,57,no
+lit12-memory-without-witnesses,Memory Without Witnesses,12–13,literature,reflective essay,Remembering is meaningful but is not always independent evidence.,13,55,no
+lit12-the-classroom-of-questions,The Classroom of Questions,12–13,literature,instructional essay,Permission to ask is as important as the confidence to answer.,13,53,no
+lit12-the-reader-and-the-rumor,The Reader and the Rumor,12–13,literature,discussion essay,A rumor can be repeated even when everybody labels it as only a report.,12,50,no
+lit12-the-old-painting,The Old Painting,12–13,literature,art essay,Why conservation can be different from making an artwork look new.,12,50,no
+lit12-the-door-and-the-difference,The Door and the Difference,12–13,literature,short ethical essay,An open door is not the same as permission to enter.,11,46,no
+lit12-the-last-question,The Last Question,12–13,literature,fictional philosophical ending,A speaker learns when to leave a question unanswered.,13,53,no
+the-home-with-an-open-door,The Home with an Open Door,13.0,literature,earlier editorial reading,A visitor finds shelter after a difficult night,10,41,no
+the-flight-we-did-not-take,The Flight We Did Not Take,13.0,literature,earlier editorial reading,A weather report changes the course of a planned journey,10,43,no
+the-message-that-returned,The Message That Returned,13.0,literature,earlier editorial reading,Two friends repair a misunderstanding instead of trading blame,10,43,no
+the-smallest-promise,The Smallest Promise,13.0,literature,earlier editorial reading,A promise is phrased narrowly to avoid false certainty,10,43,no
+learning-a-new-voice,Learning a New Voice,13.0,literature,earlier editorial reading,A learner makes progress through questions rather than perfection,10,41,no
+q15-001,The Quiet Archive,15.0,dialogue,library,Two archivists decide whether an uncertain report belongs in the public record.,6,28,no
+q15-002,The Last Dry Cup,15.0,dialogue,daily life,A guest asks about water and learns the host is also thirsty.,6,28,no
+q15-003,The Narrow Bridge,15.0,dialogue,travel,Two travelers choose whether to cross before checking what lies ahead.,6,25,no
+q15-004,The Gift No One Wanted,15.0,dialogue,consent,An offered gift is declined without turning the refusal into a conflict.,6,27,no
+q15-005,The Night Signal,15.0,dialogue,navigation,A flyer distinguishes what a beacon shows from what a friend merely reported.,6,29,no
+q15-006,A Promise with an End,15.0,dialogue,ethics,A helper makes a limited promise instead of claiming permanence.,6,28,no
+q15-007,The Book with Two Endings,15.0,dialogue,literature,Two readers accept different interpretations of the same story.,7,31,no
+q15-008,The Borrowed Voice,15.0,dialogue,learning,A learner rehearses an unfamiliar greeting without pretending to be fluent.,6,27,no
+q15-009,The Storm Council,15.0,dialogue,civic discussion,An emergency discussion separates obligation from ability.,6,24,no
+q15-010,A Missing Page,15.0,dialogue,investigation,Someone insists on checking the actual page rather than repeating a rumor.,6,27,no
+q15-011,Two Different We,15.0,dialogue,identity,A visitor learns why an inclusive plural cannot replace an exclusive one.,6,22,no
+q15-012,The Disputed Memory,15.0,dialogue,family,Two friends decide not to turn uncertain recollection into a fact.,6,28,no
+q15-013,The Unsent Letter,15.0,dialogue,private messages,A writer chooses not to deliver a message before understanding its consequences.,6,27,no
+q15-014,The Visitor's Boundary,15.0,dialogue,hospitality,A visitor explicitly refuses a proposed flight.,6,26,no
+q15-015,A Star Nobody Owned,15.0,dialogue,philosophy,Friends discuss whether admiration requires possession.,6,26,no
+q15-016,The Smallest Correction,15.0,dialogue,classroom,An educator corrects a tense without humiliating the student.,6,26,no
+q15-017,When the Fire Dies,15.0,dialogue,evening story,The group checks whether a warning was directly observed.,6,27,no
+q15-018,The Map and the Compass,15.0,dialogue,wayfinding,An experienced navigator refuses to treat a compass as infallible.,7,32,no
+q15-019,A Night of Study,15.0,dialogue,education,A learner requests a break and the teacher respects it.,6,22,no
+q15-020,A Name in the Ledger,15.0,dialogue,archival ethics,An archivist distinguishes preserving a record from making it public.,6,27,no
+q15-021,The Question That Changed,15.0,dialogue,inquiry,A question is reformulated from permission into capability.,6,23,no
+q15-022,A Friend in the Rain,15.0,dialogue,friendship,A friend prefers practical help to a grand declaration.,6,26,no
+q15-023,The Clock Was Wrong,15.0,dialogue,time,Two people repair a prediction after discovering new evidence.,6,26,no
+q15-024,The Broken Wing Metaphor,15.0,dialogue,poetry,An apprentice checks whether a wing is literally injured or figuratively weary.,6,26,no
+q15-025,The Road Not Chosen,15.0,dialogue,decision,The group accepts a decision to stay rather than leave.,6,25,no
+q15-026,The Rumor of a Mountain,15.0,dialogue,evidence,An explorer checks a claim about a mountain without confusing reports with sights.,6,29,no
+q15-027,The Listener's Silence,15.0,dialogue,conversation,Silence is mistaken for agreement and the listener corrects it.,6,25,no
+q15-028,A Page for Tomorrow,15.0,dialogue,planning,A writer keeps a record for later rather than rushing to publish it.,6,27,no
+q15-029,The Sky Without a Signal,15.0,dialogue,exploration,Two flyers agree to wait for communication before flying.,6,25,no
+q15-030,The Teacher's Mistake,15.0,dialogue,education,The teacher openly acknowledges an error in the lesson.,6,24,no
+q15-031,The Letter to a Future Self,15.0,dialogue,introspection,Someone records a hope but avoids promising certainty.,6,27,no
+q15-032,The Open Question,15.0,dialogue,research,Researchers preserve uncertainty rather than making up an answer.,6,27,no
+q15-033,The Unexpected Invitation,15.0,dialogue,social,An invitation is turned down while the relationship stays intact.,6,25,no
+q15-034,The Lost History,15.0,dialogue,cultural research,A storyteller distinguishes a source from an invented tradition.,6,27,no
+q15-035,"Two Books, One Night",15.0,dialogue,reading,Two readers choose different books without treating the choice as a dispute.,6,26,no
+q15-036,The Weather and the Wish,15.0,dialogue,travel,A desired journey is separated from the weather evidence.,6,25,no
+q15-037,Three Ways to Know,15.0,dialogue,epistemology,"A student compares witnessing, hearing and inferring the same flight.",6,26,no
+q15-038,The First Public Poem,15.0,dialogue,arts,A writer checks whether a poem is ready to share.,6,27,no
+q15-039,A Friend Across the Sky,15.0,dialogue,distance,Two distant friends agree to exchange messages rather than promise a visit.,6,27,no
+q15-040,The Safety Question,15.0,dialogue,practical ethics,A helper responds to a frightened friend without assuming permission.,6,27,no
+q15-041,The Hidden Definition,15.0,dialogue,lexicography,Two editors distinguish a word definition from its situational translation.,6,26,no
+q15-042,A Consent Before the Recording,15.0,dialogue,pronunciation,A person declines a recording and the collector respects the boundary.,7,27,no
+q15-043,The Door That Stayed Open,15.0,dialogue,hospitality,A host offers shelter without requiring a reciprocal favor.,6,27,no
+q15-044,An Honest Forecast,15.0,dialogue,weather,A group distinguishes uncertainty about tomorrow from yesterday's observation.,6,26,no
+q15-045,An Incomplete Report,15.0,dialogue,journalism,A reporter removes an unwarranted claim from a message.,6,29,no
+q15-046,The Gentle Disagreement,15.0,dialogue,friendship,Two friends disagree while respecting each other's autonomy.,6,25,no
+q15-047,The Stone and the Star,15.0,dialogue,philosophy,A writer contrasts something nearby with a distant ideal.,6,27,no
+q15-048,The Resting Mechanic,15.0,dialogue,workshop,A mechanic recognizes that ability is not the same as readiness to work.,6,24,no
+q15-049,The Three Messages,15.0,dialogue,communication,A recipient asks the sender to slow down and clarify.,6,25,no
+q15-050,A Promise of Water,15.0,dialogue,community,Neighbors promise practical support through a difficult evening.,6,26,no
+q15-051,The Unwritten Ending,15.0,dialogue,literature,A story finishes with a question rather than a forced conclusion.,6,27,no
+q15-052,The River Marker,15.0,dialogue,landscape,A pathfinder corrects the map after the river changes course.,6,27,no
+q15-053,A Blue Flower,15.0,dialogue,botany,The gardener compares a growing flower with a colored drawing.,6,26,no
+q15-054,The Sea Without a Bridge,15.0,dialogue,voyage,Two people choose walking and flying to avoid a difficult crossing.,6,25,no
+q15-055,The Hungry Cat,15.0,dialogue,animals,A caregiver considers what an animal needs before leaving home.,6,27,no
+q15-056,Song at the Market,15.0,dialogue,music,An improvising musician chooses music over merchandise.,6,25,no
+q15-057,Leaves in a Storm,15.0,dialogue,nature,A traveler stops to notice fragile leaves before a storm arrives.,6,27,no
+q15-058,A Missing Key,15.0,dialogue,mystery,A missing key prompts a careful search rather than an accusation.,6,26,no
+q15-059,The Early Sunrise,15.0,dialogue,time,The night watch is relieved when the sun rises.,6,25,no
+q15-060,Two Colors on a Map,15.0,dialogue,art,The artist discusses the painting's colored details instead of arguing over a label.,6,25,no
+q15-061,The Forest Path,15.0,dialogue,travel,A trail guide changes course after losing a landmark.,6,27,no
+q15-062,An Unfinished Song,15.0,dialogue,composition,The composer chooses to finish the music before inviting an audience.,6,27,no
+q15-063,The Cold Room,15.0,dialogue,everyday life,A person explains why they are staying by the fire instead of going outside.,6,27,no
+q15-064,The Slow Dance,15.0,dialogue,community arts,The performers negotiate pace without framing a difference as failure.,6,24,no
+q15-065,The Painting in the Window,15.0,dialogue,visual art,A curator asks the painter whether a work is ready to be seen.,6,27,no
+q15-066,A Seed for Tomorrow,15.0,dialogue,gardening,A gardener delays planting until the weather clears.,6,26,no
+q15-067,The Moon over the Shore,15.0,dialogue,nature diary,A writer watches the moon and later records the night.,6,26,no
+q15-068,The Shared Bread,15.0,dialogue,hospitality,A host checks that everyone has food before the meal.,6,26,no
+q15-069,A Painting without a Name,15.0,dialogue,creativity,An artist rejects the pressure to supply a definitive explanation.,6,27,no
+q15-070,The Door by the River,15.0,dialogue,wayfinding,A child looks for a house after crossing a bridge.,6,26,no
+q15-071,The Fish that Escaped,15.0,dialogue,animal story,A person accepts that the fish is safer in the river.,6,27,no
+q15-072,The Last Note of Music,15.0,dialogue,performance,Two musicians remember an unfinished performance.,6,24,no
+q15-073,A Quiet River Morning,15.0,dialogue,reflection,A traveler chooses to wait and listen before moving on.,6,26,no
+q15t-001,The Wind and the Witness,15.0,literature,short fiction,A traveler discovers that evidence must be distinguished from rumor.,10,44,no
+q15t-002,A School for Questions,15.0,literature,educational essay,An inquiry-based education avoids mistaking uncertainty for ignorance.,10,41,no
+q15t-003,The Archive of Uncertain Stories,15.0,literature,archival essay,An archivist declines to promote unverified events into history.,10,44,no
+q15t-004,The Ethics of a Refusal,15.0,literature,philosophical essay,A refusal remains a refusal even when the invitation is affectionate.,10,41,no
+q15t-005,"One Star, Three Meanings",15.0,literature,literary meditation,A night sky offers a setting for different readings of the same object.,10,43,no
+q15t-006,The Machine and the Promise,15.0,literature,technical reflection,A repair is delayed when an exhausted mechanic sets a boundary.,10,40,no
+q15t-007,The Weather Ledger,15.0,literature,travel log,A group records observations and revises a travel plan.,10,42,no
+q15t-008,A Careful Translation,15.0,literature,language study,A learner compares an interpretation with what the words actually say.,10,40,no
+q15t-009,An Open Door in the Storm,15.0,literature,short fiction,A visitor seeks shelter and the host offers practical care.,10,41,no
+q15t-010,The Unfinished Book,15.0,literature,literary fiction,A writer chooses to ask one more question before publishing.,10,41,no
+q15t-011,A Letter Across Distance,15.0,literature,epistolary fiction,A friend sends one carefully chosen message rather than a grand promise.,10,43,no
+q15t-012,The Permission to Wait,15.0,literature,reflective essay,Waiting may be an informed choice rather than an inability.,10,40,no

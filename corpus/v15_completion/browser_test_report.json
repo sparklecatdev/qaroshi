@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "test": "overview visible",
+      "passed": true
+    },
+    {
+      "test": "count 1000",
+      "passed": true
+    },
+    {
+      "test": "honest provenance",
+      "passed": true
+    },
+    {
+      "test": "default original filter",
+      "passed": true
+    },
+    {
+      "test": "original 211 pieces",
+      "passed": true
+    },
+    {
+      "test": "procedural 994 pieces",
+      "passed": true
+    },
+    {
+      "test": "procedural dialogue 824",
+      "passed": true
+    },
+    {
+      "test": "procedural prose 170",
+      "passed": true
+    },
+    {
+      "test": "transcript exists",
+      "passed": true
+    },
+    {
+      "test": "translations initially hidden",
+      "passed": true
+    },
+    {
+      "test": "translations revealed",
+      "passed": true
+    },
+    {
+      "test": "review saved",
+      "passed": true
+    },
+    {
+      "test": "lexeme details",
+      "passed": true
+    },
+    {
+      "test": "concordance search",
+      "passed": true
+    },
+    {
+      "test": "dictionary results",
+      "passed": true
+    },
+    {
+      "test": "quality evidence",
+      "passed": true
+    },
+    {
+      "test": "review export",
+      "passed": true
+    },
+    {
+      "test": "no console page errors",
+      "passed": true
+    },
+    {
+      "test": "mobile navigation",
+      "passed": true
+    },
+    {
+      "test": "mobile browser visible",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "canonical_entries_unchanged": 30000,
+  "all_candidate_rows": 3817,
+  "manual_editorial_review_rows": 65,
+  "manual_trial_count": 44,
+  "manual_hold_count": 9,
+  "manual_reject_count": 12,
+  "automatic_unreviewed_shortlist_count": 1963,
+  "candidate_forms_for_independent_acceptance": 0,
+  "hypothetical_new_root_derivatives": 26,
+  "learning_contrasts": 16,
+  "root_decision_dossiers": 8,
+  "new_roots_added_to_canonical_dictionary": 0,
+  "reuse_before_coinage_analyses": 8,
+  "canonical_lexicon_sha256": "39cfe975107d052c6fad648956a83895edb51824279f344e28c467b8f3c3d940",
+  "limitations": [
+    "Exact English gloss splits are not proof of natural Qaroshi meaning.",
+    "Manual editorial trial labels are *not* independent speaker acceptance.",
+    "Coined root proposals are noncanonical and add memorization cost unless justified.",
+    "Long compounds are less practical in everyday conversation even when interpretable.",
+    "Some existing vocabulary is conventional and legitimately requires memorization.",
+    "A screened shortlist is not a reviewed approval list."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "checks": [
+    [
+      "library title",
+      true
+    ],
+    [
+      "154 conversations number",
+      true
+    ],
+    [
+      "filters",
+      true
+    ],
+    [
+      "literature filtering",
+      true
+    ],
+    [
+      "dialogue filtering",
+      true
+    ],
+    [
+      "new 15.0 filters",
+      true
+    ],
+    [
+      "detail",
+      true
+    ],
+    [
+      "IPA visible",
+      true
+    ],
+    [
+      "English initially hidden",
+      true
+    ],
+    [
+      "translations revealed",
+      true
+    ],
+    [
+      "review saved",
+      true
+    ],
+    [
+      "word lookup",
+      true
+    ],
+    [
+      "concordance",
+      true
+    ],
+    [
+      "review exported",
+      true
+    ],
+    [
+      "methodology",
+      true
+    ],
+    [
+      "global search",
+      true
+    ],
+    [
+      "mobile menu",
+      true
+    ],
+    [
+      "mobile library",
+      true
+    ]
+  ],
+  "page_errors": [],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "checks_passed": 67,
+  "desktop_mobile": true,
+  "managed_browser_mode": "set_content about:blank with localStorage memory shim",
+  "page_errors": 0
+}

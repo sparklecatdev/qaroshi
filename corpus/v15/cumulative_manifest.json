@@ -1,0 +1,16 @@
+{
+  "total_piece_count": 211,
+  "editorial_dialogues": 176,
+  "editorial_literature": 35,
+  "total_source_language_whitespace_tokens": 6828,
+  "tokens_by_release": {
+    "11.0": 1263,
+    "12–13": 2935,
+    "13.0": 211,
+    "15.0": 2419
+  },
+  "aligned_lines": 1594,
+  "speaker_attested_lines": 0,
+  "excluded_from_independent_counts": "Earlier 1,000 controlled template variants / 123,000 tokens are retained elsewhere but excluded",
+  "caveat": "Editorial source-language tokens count, NOT empirically naturalistic/independently speaker-attested words"
+}

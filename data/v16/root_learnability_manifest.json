@@ -1,0 +1,78 @@
+{
+  "lexicon_entries": 30000,
+  "compound_entries": 13379,
+  "headword_labeled_entries": 16525,
+  "function_word_entries": 96,
+  "distinct_immediate_components": 1832,
+  "unique_ultimate_base_components": 1820,
+  "headword_bases_in_compounds": 1820,
+  "nested_compounds": 114,
+  "compound_components_resolve": 13379,
+  "compound_forms_match_concatenated_components": 13379,
+  "learning_curve": [
+    {
+      "unique_base_roots_learned": 25,
+      "unlocked_compounds": 79,
+      "fraction_compounds": 0.0059
+    },
+    {
+      "unique_base_roots_learned": 50,
+      "unlocked_compounds": 292,
+      "fraction_compounds": 0.02183
+    },
+    {
+      "unique_base_roots_learned": 100,
+      "unlocked_compounds": 846,
+      "fraction_compounds": 0.06323
+    },
+    {
+      "unique_base_roots_learned": 200,
+      "unlocked_compounds": 2204,
+      "fraction_compounds": 0.16474
+    },
+    {
+      "unique_base_roots_learned": 350,
+      "unlocked_compounds": 3882,
+      "fraction_compounds": 0.29016
+    },
+    {
+      "unique_base_roots_learned": 500,
+      "unlocked_compounds": 5476,
+      "fraction_compounds": 0.4093
+    },
+    {
+      "unique_base_roots_learned": 750,
+      "unlocked_compounds": 7439,
+      "fraction_compounds": 0.55602
+    },
+    {
+      "unique_base_roots_learned": 1000,
+      "unlocked_compounds": 9085,
+      "fraction_compounds": 0.67905
+    },
+    {
+      "unique_base_roots_learned": 1250,
+      "unlocked_compounds": 10804,
+      "fraction_compounds": 0.80753
+    },
+    {
+      "unique_base_roots_learned": 1500,
+      "unlocked_compounds": 12303,
+      "fraction_compounds": 0.91958
+    },
+    {
+      "unique_base_roots_learned": 1820,
+      "unlocked_compounds": 13379,
+      "fraction_compounds": 1.0
+    }
+  ],
+  "non_compound_headwords_without_explicit_compound_analysis": 16525,
+  "claim_limits": [
+    "One must first learn base meanings. Word sounds do not encode definitions.",
+    "Knowing components does not guarantee the exact conventional or technical gloss.",
+    "The dictionary documents modifier–head morphology but not 16,525 headword derivations.",
+    "Ranks optimize compound reuse, not conversation frequency or psychological acquisition difficulty.",
+    "Grammatical suffixes are predictable on their own rules, not a way to guess lexical roots."
+  ],
+  "canonical_dictionary_sha256": "39cfe975107d052c6fad648956a83895edb51824279f344e28c467b8f3c3d940"
+}

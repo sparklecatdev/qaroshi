@@ -1,0 +1,411 @@
+# Qaroshi 15.0 original editorial dialogue scripts. Each block is separately written, not a parameterized template.
+@ The Quiet Archive | library | Two archivists decide whether an uncertain report belongs in the public record.
+A|hë ti shiwaro-m shëliro-te he?|Did you read the message?
+B|sen mi shiwaro-m shëliro-te.|I read the message.
+A|hë ti sa-m tika-te si he?|Did you witness them yourself?
+B|zher mi sa-m nu tika-te.|I did not see them.
+A|sen mi shiwaro-m shiroli-yu.|I will record the message.
+B|qor mi shiwaro-m daru-yu.|I will protect the message.
+
+@ The Last Dry Cup | daily life | A guest asks about water and learns the host is also thirsty.
+A|hë ti kima-m hari he?|Do you have water?
+B|sen mi kima-m nu hari.|I do not have water.
+A|zher mi kima-m këmë-ki ye.|I think I can drink water.
+B|hë ti naro-gu gura-ki he?|Can you travel toward home?
+A|sen mi naro-gu gura-ki.|I can travel home.
+B|nëm naru naro-gu gura-yu.|We will go home together.
+
+@ The Narrow Bridge | travel | Two travelers choose whether to cross before checking what lies ahead.
+A|hë ti gëru-m tika-ki he?|Can you see the mountain?
+B|sen mi gëru-m tika-ki.|I can see the mountain.
+A|hë ti kharo-m hari he?|Are you afraid?
+B|zher mi kharo-m hari.|I am afraid.
+A|më mi ti-m daru-yu.|I will protect you.
+B|dal naru goro-yu.|We will fly together.
+
+@ The Gift No One Wanted | consent | An offered gift is declined without turning the refusal into a conflict.
+A|hë ti shima-m hari he?|Do you have a book?
+B|sen mi shima-m hari.|I have a book.
+A|hë ti shima-m shëliro-yu he?|Will you read the book?
+B|sen mi shima-m nu shëliro-yu.|I will not read the book.
+A|sen mi ti-m ronaro.|I hear you.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Night Signal | navigation | A flyer distinguishes what a beacon shows from what a friend merely reported.
+A|hë ti sëra-m tika-te he?|Did you see the star?
+B|sen mi sëra-m tika-te si.|I saw the star myself.
+A|sen sa goro-te hu.|I heard that they flew.
+B|hë ti sa-m tika-te si he?|Did you actually see them?
+A|zher mi sa-m nu tika-te.|I did not see them.
+B|sen mi shiwaro-m shiwari-yu.|I will send a message.
+
+@ A Promise with an End | ethics | A helper makes a limited promise instead of claiming permanence.
+A|hë ti mi-wa nëra-yu he?|Will you stay with me?
+B|më mi ti-wa nëra-yu.|I will stay with you.
+A|hë ti sëna nëra-yu he?|Will you stay forever?
+B|zher mi sëna nëra-ki ye.|I infer that I might be able to stay forever.
+A|qor mi nënayaro ti-wa nëra-yu.|I will stay with you today.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Book with Two Endings | literature | Two readers accept different interpretations of the same story.
+A|hë ti shima-m shëliro-te he?|Did you read the book?
+B|sen mi shima-m shëliro-te.|I read the book.
+A|hë ti moru-m hari he?|Do you remember it?
+B|më mi moru-m hari.|I have a memory.
+A|zher mi shëno-m hari.|I have a question.
+B|hë ti shëno-m sharoa-yu he?|Will you ask the question?
+A|sen mi shëno-m sharoa-yu.|I will ask it.
+
+@ The Borrowed Voice | learning | A learner rehearses an unfamiliar greeting without pretending to be fluent.
+A|hë ti qaroshi-m shiri he?|Do you speak Qaroshi?
+B|sen mi qaroshi-m shiri.|I speak Qaroshi.
+A|zher mi qaroshi-m nu shiri-ki.|I cannot speak Qaroshi.
+B|më mi ti-m yarëmi-yu.|I will teach you.
+A|hë mi shëno-m sharoa-ho he?|May I ask a question?
+B|sen ti shëno-m sharoa-ho.|You may ask.
+
+@ The Storm Council | civic discussion | An emergency discussion separates obligation from ability.
+A|sen mi lushënga-m tika-te si.|I witnessed the storm.
+B|hë ti goro-ki he?|Can you fly?
+A|sen mi goro-ki.|I am physically able to fly.
+B|hë ti goro-ho he?|Are you permitted to fly?
+A|qor mi nu goro-ho.|I am not permitted to fly.
+B|nëm naru naro-lo nëra-yu.|We will stay home together.
+
+@ A Missing Page | investigation | Someone insists on checking the actual page rather than repeating a rumor.
+A|sen mi shima-m shëliro-te.|I read the book.
+B|hë ti shiwaro-m tika-te he?|Did you see the message?
+A|sen mi shiwaro-m nu tika-te.|I did not see the message.
+B|sen sa shiroli-te hu.|I heard that they wrote.
+A|zher mi sa-m nu tika-te.|I did not see them.
+B|dal mi shiwaro-m sharoa-yu.|I will ask about the message.
+
+@ Two Different We | identity | A visitor learns why an inclusive plural cannot replace an exclusive one.
+A|hë naru goro-yu he?|Will we fly together, including me?
+B|sen naru goro-yu.|We will fly, including you.
+A|hë muru goro-yu he?|Will we fly without the addressee?
+B|sen muru goro-yu.|We will fly, excluding you.
+A|zher mi shëno-m hari.|I have a question.
+B|më mi ti-m ronaro.|I hear you.
+
+@ The Disputed Memory | family | Two friends decide not to turn uncertain recollection into a fact.
+A|hë ti moru-m hari he?|Do you remember?
+B|sen mi moru-m hari.|I have a memory.
+A|hë ti sa-m tika-te si he?|Did you witness them?
+B|zher mi sa-m nu tika-te.|I did not see them.
+A|sen sa goro-te hu.|I heard that they flew.
+B|sen mi moru-m shiroli-yu.|I will write down the memory.
+
+@ The Unsent Letter | private messages | A writer chooses not to deliver a message before understanding its consequences.
+A|sen mi shiwaro-m shiroli-te.|I wrote a message.
+B|hë ti shiwaro-m shiwari-yu he?|Will you send the message?
+A|zher mi shiwaro-m nu shiwari-yu.|I will not send it.
+B|hë ti shëno-m hari he?|Do you have a question?
+A|sen mi shëno-m hari.|I have a question.
+B|nëm naru shëno-m sharoa-yu.|We will ask the question together.
+
+@ The Visitor's Boundary | hospitality | A visitor explicitly refuses a proposed flight.
+A|hë ti mi-wa goro-yu he?|Will you fly with me?
+B|sen mi nu goro-yu.|I will not fly.
+A|hë ti naro-lo nëra-yu he?|Will you stay at home?
+B|sen mi naro-lo nëra-yu.|I will stay home.
+A|më mi ti-m nashi.|I care for you.
+B|hol mi ti-m holë.|Thank you.
+
+@ A Star Nobody Owned | philosophy | Friends discuss whether admiration requires possession.
+A|sen mi sëra-m tika-te.|I saw a star.
+B|hë ti sëra-m hari he?|Do you have a star?
+A|sen mi sëra-m nu hari.|I do not possess a star.
+B|më mi sëra-m nashi.|I cherish the star.
+A|nëm mi yami-lo nëru-yu.|I will rest at night.
+B|sen mi sëra-m tika-yu.|I will look at the star.
+
+@ The Smallest Correction | classroom | An educator corrects a tense without humiliating the student.
+A|sen mi shiwaro-m tika-yu.|I will see the message.
+B|hë ti shiwaro-m tika-te he?|Did you already see it?
+A|sen mi shiwaro-m nu tika-te.|I did not see it yet.
+B|sen mi ti-m ronaro.|I hear you.
+A|sen mi shiwaro-m tika-yu.|I will see it later.
+B|hol mi ti-m holë.|Thank you for clarifying.
+
+@ When the Fire Dies | evening story | The group checks whether a warning was directly observed.
+A|hë ti zhalo-m tika-te he?|Did you see the fire?
+B|sen mi zhalo-m tika-te si.|I saw the fire myself.
+A|hë ti kharo-m hari he?|Are you afraid?
+B|zher mi kharo-m hari.|I feel afraid.
+A|qor mi ti-m daru-yu.|I will protect you.
+B|nëm naru naro-lo nëru-yu.|We will rest at home.
+
+@ The Map and the Compass | wayfinding | An experienced navigator refuses to treat a compass as infallible.
+A|hë ti rehëngo-m hari he?|Do you have a compass?
+B|sen mi rehëngo-m hari.|I have a compass.
+A|hë ti gëru-m tika-ki he?|Can you see the mountain?
+B|zher mi gëru-m nu tika-ki.|I cannot see the mountain.
+A|sen mi shëno-m hari.|I have a question.
+B|hë ti shëno-m sharoa-yu he?|Will you ask it?
+A|dal mi shëno-m sharoa-yu.|I will ask.
+
+@ A Night of Study | education | A learner requests a break and the teacher respects it.
+A|sen mi shima-m shëliro-te.|I read the book.
+B|hë ti rëmi-ki he?|Can you learn?
+A|zher mi shërohi.|I am tired.
+B|hë ti nëru-yu he?|Will you rest?
+A|nëm mi nëru-yu.|I will rest.
+B|më mi ti-m daru-yu.|I will protect you.
+
+@ A Name in the Ledger | archival ethics | An archivist distinguishes preserving a record from making it public.
+A|sen mi moru-m shiroli-te.|I wrote down the memory.
+B|hë ti shiwaro-m shiwari-yu he?|Will you send the message?
+A|sen mi shiwaro-m nu shiwari-yu.|I will not send it.
+B|hë ti moru-m daru-ki he?|Can you protect the memory?
+A|qor mi moru-m daru-yu.|I will protect the memory.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Question That Changed | inquiry | A question is reformulated from permission into capability.
+A|hë ti goro-ho he?|May you fly?
+B|sen mi nu goro-ho.|I may not fly.
+A|hë ti goro-ki he?|Can you fly physically?
+B|sen mi goro-ki.|I can fly.
+A|zher mi shëno-m hari.|I have another question.
+B|sen mi ti-m ronaro.|I hear you.
+
+@ A Friend in the Rain | friendship | A friend prefers practical help to a grand declaration.
+A|sur mi naro-gu gura-ki.|I can travel toward home.
+B|hë ti mi-m dëmi-ki he?|Can you help me?
+A|sen mi ti-m dëmi-ki.|I can help you.
+B|hë ti kima-m hari he?|Do you have water?
+A|sen mi kima-m hari.|I have water.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Clock Was Wrong | time | Two people repair a prediction after discovering new evidence.
+A|sen sa goro-yu hu.|I heard that they will fly.
+B|hë ti sa-m tika-te si he?|Did you personally see them?
+A|sen mi sa-m nu tika-te.|I did not see them.
+B|zher sa goro-yu ye.|I infer that they may fly.
+A|sen mi shiwaro-m shiwari-yu.|I will send a message.
+B|nëm naru nëra-yu.|We will stay together.
+
+@ The Broken Wing Metaphor | poetry | An apprentice checks whether a wing is literally injured or figuratively weary.
+A|sur mi shërohi.|I am tired.
+B|hë ti banu-m tika-te he?|Did you see the wing?
+A|sen mi banu-m nu tika-te.|I did not see the wing.
+B|zher mi shëno-m hari.|I have a question.
+A|hë ti shëno-m sharoa-yu he?|Will you ask it?
+B|sen mi shëno-m sharoa-yu.|I will ask the question.
+
+@ The Road Not Chosen | decision | The group accepts a decision to stay rather than leave.
+A|hë naru goro-yu he?|Will we fly together?
+B|sen mi nu goro-yu.|I will not fly.
+A|hë ti naro-lo nëra-yu he?|Will you stay home?
+B|sen mi naro-lo nëra-yu.|I will stay home.
+A|më mi ti-wa nëra-yu.|I will stay with you.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Rumor of a Mountain | evidence | An explorer checks a claim about a mountain without confusing reports with sights.
+A|sen sa gëru-m tika-te hu.|I heard they saw a mountain.
+B|hë ti gëru-m tika-te si he?|Did you see the mountain yourself?
+A|sen mi gëru-m nu tika-te.|I did not see the mountain.
+B|zher sa gëru-m tika-te ye.|I infer that they saw it.
+A|sen mi shiwaro-m shiroli-yu.|I will write a message.
+B|dal mi gëru-m tika-yu.|I will look at the mountain.
+
+@ The Listener's Silence | conversation | Silence is mistaken for agreement and the listener corrects it.
+A|hë ti mi-m ronaro he?|Do you hear me?
+B|sen mi ti-m ronaro.|I hear you.
+A|hë ti mi-wa goro-yu he?|Will you fly with me?
+B|sen mi nu goro-yu.|I will not fly.
+A|lën mi përë.|I apologize.
+B|nëm mi naro-lo nëra-yu.|I will stay home.
+
+@ A Page for Tomorrow | planning | A writer keeps a record for later rather than rushing to publish it.
+A|sen mi shima-m shiroli-te.|I wrote a book.
+B|hë ti shima-m shiwari-yu he?|Will you send the book?
+A|sen mi shima-m nu shiwari-yu.|I will not send the book.
+B|hë ti moru-m hari he?|Do you have a memory?
+A|më mi moru-m hari.|I have a memory.
+B|sen mi shima-m shëliro-yu.|I will read the book.
+
+@ The Sky Without a Signal | exploration | Two flyers agree to wait for communication before flying.
+A|hë ti shiwaro-m tika-te he?|Did you see the message?
+B|sen mi shiwaro-m nu tika-te.|I did not see the message.
+A|sen sa goro-yu hu.|I heard that they will fly.
+B|zher mi goro-ho ye.|I infer I may have permission to fly.
+A|qor mi nu goro-yu.|I will not fly.
+B|nëm naru nëru-yu.|We will rest together.
+
+@ The Teacher's Mistake | education | The teacher openly acknowledges an error in the lesson.
+A|sen mi qaroshi-m shiri.|I speak Qaroshi.
+B|hë ti shëno-m sharoa-ho he?|May I ask a question?
+A|sen ti shëno-m sharoa-ho.|You may ask.
+B|zher mi shëno-m hari.|I have a question.
+A|lën mi përë.|I apologize.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Letter to a Future Self | introspection | Someone records a hope but avoids promising certainty.
+A|sen mi shiwaro-m shiroli-yu.|I will write a message.
+B|hë ti sëra-m tika-yu he?|Will you see the star?
+A|zher mi sëra-m tika-yu ye.|I infer I may see the star.
+B|hë ti namu-m hari he?|Do you have a promise?
+A|qor mi namu-m hari.|I have a promise.
+B|nëm mi moru-m shiroli-yu.|I will write down a memory.
+
+@ The Open Question | research | Researchers preserve uncertainty rather than making up an answer.
+A|hë ti shëno-m hari he?|Do you have a question?
+B|sen mi shëno-m hari.|I have a question.
+A|hë ti shiwaro-m shëliro-te he?|Did you read the message?
+B|sen mi shiwaro-m shëliro-te.|I read it.
+A|zher mi sa-m nu tika-te.|I did not see them.
+B|sen sa shiri-te hu.|I heard that they spoke.
+
+@ The Unexpected Invitation | social | An invitation is turned down while the relationship stays intact.
+A|hë ti mi-wa goro-yu he?|Will you fly with me?
+B|sen mi nu goro-yu.|I will not fly.
+A|hë ti mi-wa nëra-yu he?|Will you stay with me?
+B|më mi ti-wa nëra-yu.|I will stay with you.
+A|hol mi ti-m holë.|Thank you.
+B|zha naru nëru-yu.|We will rest together!
+
+@ The Lost History | cultural research | A storyteller distinguishes a source from an invented tradition.
+A|hë ti moru-m hari he?|Do you remember?
+B|sen mi moru-m hari.|I have a memory.
+A|hë ti shima-m shëliro-te he?|Did you read the book?
+B|sen mi shima-m nu shëliro-te.|I did not read the book.
+A|zher mi shëno-m hari.|I have a question.
+B|sen mi shima-m shëliro-yu.|I will read the book.
+
+@ Two Books, One Night | reading | Two readers choose different books without treating the choice as a dispute.
+A|hë ti shima-m hari he?|Do you have a book?
+B|sen mi shima-m hari.|I have a book.
+A|hë ti shima-m shëliro-yu he?|Will you read it?
+B|sen mi shima-m shëliro-yu.|I will read it.
+A|nëm mi shima-m shiroli-yu.|I will write a book.
+B|zha naru naro-lo nëru-yu.|We will rest at home!
+
+@ The Weather and the Wish | travel | A desired journey is separated from the weather evidence.
+A|sen mi goro-yu.|I will fly.
+B|sen mi lushënga-m tika-te si.|I witnessed a storm.
+A|zher mi goro-yu ye.|I infer that I may fly.
+B|qor ti nu goro ya.|Do not fly.
+A|nëm mi naro-lo nëra-yu.|I will stay home.
+B|hol mi ti-m holë.|Thank you.
+
+@ Three Ways to Know | epistemology | A student compares witnessing, hearing and inferring the same flight.
+A|sen sa goro-te si.|I witnessed their flight.
+B|sen sa goro-te hu.|I heard a report that they flew.
+A|zher sa goro-te ye.|I infer that they flew.
+B|hë ti sa-m tika-te he?|Did you see them?
+A|sen mi sa-m tika-te si.|I saw them directly.
+B|sen mi moru-m shiroli-yu.|I will write down that memory.
+
+@ The First Public Poem | arts | A writer checks whether a poem is ready to share.
+A|sen mi shiwaro-m shiroli-te.|I wrote a message.
+B|hë ti shiwaro-m shiwari-yu he?|Will you send it?
+A|zher mi shiwaro-m nu shiwari-yu.|I will not send it yet.
+B|hë ti shëno-m hari he?|Do you have a question?
+A|sen mi shëno-m hari.|I have a question.
+B|më mi ti-m shiroawe-yu.|I will listen to you.
+
+@ A Friend Across the Sky | distance | Two distant friends agree to exchange messages rather than promise a visit.
+A|hë ti naro-gu gura-yu he?|Will you travel home?
+B|zher mi naro-gu gura-yu ye.|I think I will travel home.
+A|sen mi ti-tu shiwaro-m shiwari-yu.|I will send a message to you.
+B|sen mi shiwaro-m shëliro-yu.|I will read the message.
+A|më mi ti-m nashi.|I cherish you.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Safety Question | practical ethics | A helper responds to a frightened friend without assuming permission.
+A|khar mi kharo-m hari.|I am afraid.
+B|hë ti mi-wa nëra-ho he?|May you stay with me?
+A|sen mi ti-wa nëra-ho.|I am permitted to stay with you.
+B|hë ti kima-m hari he?|Do you have water?
+A|sen mi kima-m nu hari.|I have no water.
+B|dal mi ti-m dëmi-yu.|I will help you.
+
+@ The Hidden Definition | lexicography | Two editors distinguish a word definition from its situational translation.
+A|hë ti qaroshi-m shiri he?|Do you speak Qaroshi?
+B|sen mi qaroshi-m shiri.|I speak Qaroshi.
+A|hë ti shima-m shëliro-te he?|Did you read the book?
+B|sen mi shima-m shëliro-te.|I read the book.
+A|zher mi shëno-m hari.|I have a question.
+B|sen mi ti-m ronaro.|I hear you.
+
+@ A Consent Before the Recording | pronunciation | A person declines a recording and the collector respects the boundary.
+A|hë ti shiri-ki he?|Can you speak?
+B|sen mi shiri-ki.|I can speak.
+A|hë ti shiri-ho he?|Are you permitted to speak?
+B|sen mi shiri-ho.|I may speak.
+A|hë ti mi-wa shiri-yu he?|Will you speak with me?
+B|sen mi nu shiri-yu.|I will not speak.
+A|sen mi ti-m ronaro.|I hear your decision.
+
+@ The Door That Stayed Open | hospitality | A host offers shelter without requiring a reciprocal favor.
+A|hë ti naro-m hari he?|Do you have a home?
+B|sen mi naro-m nu hari.|I do not have a home.
+A|hë ti mi-wa nëra-yu he?|Will you stay with me?
+B|më mi ti-wa nëra-yu.|I will stay with you.
+A|sen mi kima-m hari.|I have water.
+B|hol mi ti-m holë.|Thank you.
+
+@ An Honest Forecast | weather | A group distinguishes uncertainty about tomorrow from yesterday's observation.
+A|sen mi lushënga-m tika-te si.|I personally saw a storm.
+B|hë ti yurayaro goro-yu he?|Will you fly tomorrow?
+A|zher mi yurayaro goro-yu ye.|I infer I may fly tomorrow.
+B|hë ti goro-ki he?|Are you physically able to fly?
+A|sen mi goro-ki.|I can fly.
+B|nëm mi ti-m ronaro.|I hear you.
+
+@ An Incomplete Report | journalism | A reporter removes an unwarranted claim from a message.
+A|sen sa goro-te hu.|I heard they flew.
+B|hë ti sa-m tika-te si he?|Did you see them personally?
+A|sen mi sa-m nu tika-te.|I did not see them.
+B|zher mi shiwaro-m shiroli-yu.|I will write a message cautiously.
+A|hë ti shiwaro-m shiwari-yu he?|Will you send it?
+B|sen mi shiwaro-m nu shiwari-yu.|I will not send it.
+
+@ The Gentle Disagreement | friendship | Two friends disagree while respecting each other's autonomy.
+A|hë ti mi-wa goro-yu he?|Will you fly with me?
+B|sen mi nu goro-yu.|I will not fly.
+A|zher mi shëno-m hari.|I have a question.
+B|sen mi ti-m ronaro.|I hear you.
+A|më mi ti-m nashi.|I care about you.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Stone and the Star | philosophy | A writer contrasts something nearby with a distant ideal.
+A|sen mi sëra-m tika.|I see a star.
+B|hë ti gëru-m tika he?|Do you see the mountain?
+A|sen mi gëru-m tika.|I see the mountain.
+B|hë ti sëra-m hari he?|Do you possess a star?
+A|sen mi sëra-m nu hari.|I do not possess the star.
+B|nëm mi sëra-m tika-yu.|I will watch the star.
+
+@ The Resting Mechanic | workshop | A mechanic recognizes that ability is not the same as readiness to work.
+A|hë ti shenaro-m rëgë-ki he?|Can you repair the device?
+B|sen mi shenaro-m rëgë-ki.|I can repair the device.
+A|hë ti shenaro-m rëgë-yu he?|Will you repair it now?
+B|sur mi shërohi.|I am tired.
+A|hë ti nëru-yu he?|Will you rest?
+B|nëm mi nëru-yu.|I will rest.
+
+@ The Three Messages | communication | A recipient asks the sender to slow down and clarify.
+A|sen mi shiwaro-m shiwari-te.|I sent a message.
+B|hë ti shiwaro-m shiroli-te he?|Did you write the message?
+A|sen mi shiwaro-m shiroli-te.|I wrote it.
+B|hë ti mi-m shiroawe-ki he?|Can you listen to me?
+A|sen mi ti-m shiroawe-yu.|I will listen.
+B|nëm mi përoa-yu.|I will reply.
+
+@ A Promise of Water | community | Neighbors promise practical support through a difficult evening.
+A|hë ti kima-m hari he?|Do you have water?
+B|sen mi kima-m hari.|I have water.
+A|hë ti mi-m dëmi-ki he?|Can you help me?
+B|sen mi ti-m dëmi-ki.|I can help you.
+A|qor mi ti-m daru-yu.|I will protect you.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Unwritten Ending | literature | A story finishes with a question rather than a forced conclusion.
+A|sen mi shima-m shiroli-te.|I wrote a book.
+B|hë ti shima-m shëliro-te he?|Did you read your book?
+A|sen mi shima-m nu shëliro-te.|I have not read the book.
+B|zher mi shëno-m hari.|I have a question.
+A|hë ti shëno-m sharoa-yu he?|Will you ask the question?
+B|sen mi shëno-m sharoa-yu.|I will ask it.

@@ -1,0 +1,6 @@
+{
+  "cross_headword_candidate_collisions": 4,
+  "affected_headword_candidates": 9,
+  "new_words_approved": 0,
+  "review_policy": "Do not accept any proposed spelling that maps to distinct target senses without disambiguation."
+}

@@ -1,0 +1,105 @@
+{
+  "edition": "15.1 substantial corpus-volume extension",
+  "new_dialogue_instances": 824,
+  "new_dialogue_turns": 41810,
+  "new_prose_instances": 170,
+  "new_prose_sentences": 4251,
+  "new_source_qaroshi_whitespace_tokens": 204538,
+  "new_aligned_utterances": 46061,
+  "unique_exact_source_sentences": 9690,
+  "repeat_sentence_instances": 42216,
+  "unique_source_word_forms": 341,
+  "top_repeated_sentences": [
+    [
+      "hol mi ti-m holë.",
+      1495
+    ],
+    [
+      "dal mi shënoa-m hari.",
+      994
+    ],
+    [
+      "më mi ti-m nashi.",
+      824
+    ],
+    [
+      "nëm naru këmuro-yu.",
+      824
+    ],
+    [
+      "sen mi ti-m shiroawe-yu.",
+      670
+    ],
+    [
+      "sen mi shiwaro-m shëmiroa-yu.",
+      650
+    ],
+    [
+      "sen mi shiwaro-m shiroli-te.",
+      627
+    ],
+    [
+      "sen mi shiwaro-m shëliro-yu.",
+      627
+    ],
+    [
+      "më mi shiwaro-m shëmiwa-yu.",
+      623
+    ],
+    [
+      "sen mi tëdabo-lo nëra-yu.",
+      574
+    ],
+    [
+      "hë ti shëno-m hari he?",
+      516
+    ],
+    [
+      "lën mi përë.",
+      488
+    ],
+    [
+      "sen mi ti-m dëmi-yu.",
+      488
+    ],
+    [
+      "zher mi shiwaro-m nu shëliro-te.",
+      462
+    ],
+    [
+      "hë ti shiwaro-m shëliro-te he?",
+      461
+    ],
+    [
+      "sen mi shiwaro-m shiwari-yu.",
+      457
+    ],
+    [
+      "hë ti shiwaro-m shëmiwa-ho he?",
+      368
+    ],
+    [
+      "hë ti shiwaro-m shëliro-ki he?",
+      368
+    ],
+    [
+      "sen mi shiwaro-m shëliro-ki.",
+      368
+    ],
+    [
+      "sen mi naro-lo nëra-yu.",
+      337
+    ]
+  ],
+  "total_review_flags": 1988,
+  "flag_counts": {
+    "R14-010": 1988
+  },
+  "surface_valid_rows": 46061,
+  "duplicate_piece_texts": 0,
+  "speaker_attested": 0,
+  "human_verified_translations": 0,
+  "independently_scripted_new_scenes": 0,
+  "counting_policy": "Only Qaroshi strings; whitespace-separated graphic tokens; exclude titles, metadata, IPA and English.",
+  "critical_limitation": "824 conversations are procedurally composed from limited semantic-discourse modules, not independently human-authored natural conversations. 170 prose sequences are likewise procedural and often dialogue-like. Passing surface checks does not establish naturalness. These must NOT be counted as completed original naturalistic corpus."
+}

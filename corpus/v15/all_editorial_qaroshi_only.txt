@@ -1,0 +1,2015 @@
+# A window at night [a-window-at-night] (11.0)
+nëm mi yami-lo sëra-m tika.
+hë ti sëra-m tika-te si he?
+sen mi sëra-m tika-te si.
+zher mi sëra-m nu tika-te.
+më mi ti-wa nëra-yu.
+sen naru sëra-m tika-yu.
+
+# The missing message [the-missing-message] (11.0)
+sen mi shiwaro-m shiwari-te.
+hë ti mi-tu shiwaro-m shiwari-te he?
+sen mi ti-tu shiwaro-m shiwari-te.
+lën mi shiwaro-m nu tika-te.
+sen mi shiwaro-m shiwari-yu.
+hol mi ti-m holë.
+
+# Permission to leave [permission-to-leave] (11.0)
+hë mi goro-ho he?
+sen ti goro-ki.
+zher mi goro-ho he?
+qor ti goro-ho.
+zha mi goro-yu.
+më mi ti-m daru-yu.
+
+# A day of rest [a-day-of-rest] (11.0)
+hë ti goro-yu he?
+sur mi shërohi.
+hë ti naro-lo nëru-yu he?
+nëm mi naro-lo nëru-yu.
+më mi ti-wa nëra-yu.
+hol mi ti-m holë.
+
+# A borrowed book [the-borrowed-book] (11.0)
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+hë ti shima-m hari he?
+sen mi shima-m hari.
+më mi shima-m shëliro-yu.
+sen mi ti-tu shima-m pëli-yu.
+
+# An unwanted journey [an-unwanted-journey] (11.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+hë ti shërohi he?
+sen mi nu shërohi.
+më mi ti-m nashi.
+nëm mi naro-lo nëra-yu.
+
+# A reported flight [reported-flight] (11.0)
+hë ti qaro-m tika-te he?
+sen sa goro-te hu.
+zher ti sa-m nu tika-te.
+sen mi sa-m nu tika-te.
+hë ti sa-m sharoa-yu he?
+dal mi sa-m sharoa-yu.
+
+# A frightening storm [a-frightening-storm] (11.0)
+khar mi lushënga-m tika.
+hë ti lushënga-m tika-te si he?
+sen mi lushënga-m tika-te si.
+qor ti nu goro ya.
+sen mi naro-lo nëra-yu.
+nëm naru nëru-yu.
+
+# The repair promise [the-repair-promise] (11.0)
+rak shenaro shëmoa.
+hë ti shenaro-m rëgë-ki he?
+zher mi shenaro-m nu rëgë-ki.
+hë ti mi-m dëmi-ki he?
+më mi ti-m dëmi-yu.
+hol mi ti-m holë.
+
+# A small lesson [a-small-lesson] (11.0)
+hë mi shëno-m sharoa-ho he?
+më ti shëno-m sharoa-ho.
+hë ti mi-m yarëmi-ki he?
+sen mi ti-m yarëmi-ki.
+sen mi rëmi-yu.
+rëm mi ti-m daru-yu.
+
+# The late apology [the-late-apology] (11.0)
+zher mi shiwaro-m nu tika-te.
+rak ti mi-m nu shiroawe.
+lën mi përë.
+sur mi nu haro.
+më mi ti-m shiroawe-yu.
+nëm mi nëru-yu.
+
+# Two kinds of we [two-kinds-of-we] (11.0)
+zha naru goro-yu.
+hë mi goro-yu he?
+sen naru goro-yu.
+zher muru goro-yu.
+më mi ti-wa goro-yu.
+hol mi ti-m holë.
+
+# A thirsty flyer [a-thirsty-flyer] (11.0)
+sen mi-na gëro dërawa.
+hë ti kima-m këmë-yu he?
+sen mi kima-m këmë-yu.
+më mi ti-tu kima-m pëli-yu.
+hol mi ti-m holë.
+hë ti haro he?
+
+# Choosing a boundary [choosing-a-boundary] (11.0)
+hë mi naro-gu nëra-ho he?
+sen ti naro-gu nëra-ho.
+hë mi ti-m sharoa-ho he?
+sen mi nu shiri-yu.
+nëm mi nëru-yu.
+më mi ti-m nashi.
+
+# The star and the sky [the-star-and-the-sky] (11.0)
+sen mi sëra-m shiroli-te.
+hë ti wena-m shiroli-te he?
+sen mi wena-m nu shiroli-te.
+zher mi shëno-m hari.
+sen mi sëra-m tika-te.
+sen mi wena-m tika-te.
+
+# A warm message [a-warm-message] (11.0)
+më mi ti-m nashi.
+lën mi shëna-m hari.
+më mi ti-tu shiwaro-m shiwari-yu.
+hë ti mi-m shëliro-yu he?
+zha naru shima-m shëliro-yu.
+nëm naru nëru-yu.
+
+# The unfinished answer [the-unfinished-answer] (11.0)
+hë sa goro-yu he?
+sen sa goro-yu hu.
+zher sa goro-yu ye.
+sen mi sa-m nu tika-te.
+hë ti sa-m sharoa-yu he?
+dal mi sa-m sharoa-yu.
+
+# An empty roost [an-empty-roost] (11.0)
+sen mi naro-m tika-te.
+hë ti naro-m hari he?
+sur mi naro-m nu hari.
+më mi runa-m hari.
+hë ti mi-m dëmi-ki he?
+dal mi ti-m dëmi-yu.
+
+# Memory on paper [memory-on-paper] (11.0)
+sen mi moru-m hari.
+hë ti moru-m shiroli-ki he?
+sen mi moru-m shiroli-yu.
+sen mi shima-m shëliro-yu.
+më mi ti-m nashi.
+hol mi ti-m holë.
+
+# The wrong inference [the-wrong-inference] (11.0)
+sen sa goro-te hu.
+hë ti sa-m tika-te si he?
+sen mi sa-m nu tika-te.
+zher mi shëna-m nu hari.
+sen mi sa-m sharoa-yu.
+nëm mi shiwaro-m shëliro-yu.
+
+# A friendly question [a-friendly-question] (11.0)
+hë ti mi-wa nëru-yu he?
+sen mi ti-wa nëru-ki.
+hë ti mi-wa nëru-ho he?
+sen mi ti-wa nëru-ho.
+më mi ti-m nashi.
+zha naru nëru-yu.
+
+# A quiet night [a-quiet-night] (11.0)
+sur mi yami-lo nëra.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-ki.
+më mi ti-tu shiwaro-m shiwari-yu.
+nëm mi shiwaro-m shëliro-yu.
+hol mi ti-m holë.
+
+# Sharing a book [sharing-a-book] (11.0)
+hë ti shima-m hari he?
+sen mi shima-m hari.
+hë ti mi-tu shima-m pëli-ki he?
+më mi ti-tu shima-m pëli-yu.
+sen mi shima-m shëliro-yu.
+zha naru rëmi-yu.
+
+# Care without a promise [care-without-a-promise] (11.0)
+hë ti mi-wa sëna nëra-ki he?
+zher mi sëna nëra-ki ye.
+sur mi kharo-m hari.
+qor mi ti-wa nëra-yu.
+hë ti mi-m shiroawe-yu he?
+më mi ti-m shiroawe-yu.
+
+# The lesson of no [the-lesson-of-no] (11.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+hë ti mi-wa nëru-yu he?
+sen mi naro-lo nëru-yu.
+më mi ti-m nashi.
+nëm mi naro-lo nëra-yu.
+
+# The first word [the-first-word] (11.0)
+hë ti qaroshi-m shiri he?
+sen mi qaroshi-m shiri.
+hë ti mi-m yarëmi-ki he?
+sen mi ti-m yarëmi-ki.
+zha mi rëmi-yu.
+hol mi ti-m holë.
+
+# An injured wing [an-injured-wing] (11.0)
+sur mi-na banu nu haro.
+hë ti goro-ki he?
+sen mi nu goro-ki.
+më mi ti-m daru-yu.
+nëm mi naro-lo nëru-yu.
+sen mi ti-wa nëra-yu.
+
+# Checking the source [checking-the-source] (11.0)
+sen mi qaro-m tika-te si.
+zher mi qaro-m nu tika-te.
+hë ti sa-m sharoa-te he?
+sen mi sa-m sharoa-te si.
+hë ti mi-tu shiwaro-m shiwari-yu he?
+sen mi ti-tu shiwaro-m shiwari-yu.
+
+# Patience in learning [patience-in-learning] (11.0)
+zher mi nu rëmi.
+sen ti rëmi-se.
+hë ti mi-m yarëmi-yu he?
+dal mi ti-m yarëmi-yu.
+sen mi shëno-m sharoa-yu.
+më mi ti-m përoa-yu.
+
+# Alone but not lost [alone-but-not-lost] (11.0)
+sen mi naro-de gura-te.
+hë ti naro-gu gura-yu he?
+zher mi naro-m nu tika.
+hë mi ti-m dëmi-ho he?
+më ti mi-m dëmi-ho.
+dal mi ti-m dëmi-yu.
+
+# The unread story [the-unread-story] (11.0)
+sen mi moru-m shiroli-te.
+hë ti shima-m hari he?
+sen mi shima-m hari.
+hë mi shima-m shëliro-ho he?
+më ti shima-m shëliro-ho.
+zha mi shima-m shëliro-yu.
+
+# A new friend [a-new-friend] (11.0)
+hë ti mara-m hari he?
+zher mi mara-m nu hari.
+më mi ti-m nashi.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-ki.
+hol mi ti-m holë.
+
+# An uncertain answer [an-uncertain-answer] (11.0)
+hë sa goro-yu he?
+zher sa goro-yu ye.
+hë ti sa-m tika-te he?
+sen mi sa-m nu tika-te.
+sen mi sa-m sharoa-yu.
+nëm mi përoa-yu.
+
+# Two books [two-books] (11.0)
+hë ti shima-ri-m hari he?
+sen mi shima-ri-m hari.
+hë ti mi-tu shima-m pëli-ho he?
+më mi ti-tu shima-m pëli-yu.
+sen mi shima-m shëliro-yu.
+rëm mi ti-m nashi.
+
+# Near the storm [near-the-storm] (11.0)
+hë ti lugoqa-m tika he?
+sen mi lushënga-m tika-te si.
+zher mi goro-yu.
+khar ti nu goro ya.
+sen mi naro-gu gura-yu.
+nëm mi ti-wa nëra-yu.
+
+# An apology accepted [an-apology-accepted] (11.0)
+lën mi përë.
+sur mi nu haro.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-ki.
+qor mi shiwaro-m shëliro-yu.
+nëm mi nëru-yu.
+
+# Teaching permission [teaching-permission] (11.0)
+hë mi goro-ki he?
+sen ti goro-ki.
+hë mi goro-ho he?
+sen ti goro-ho.
+hë mi goro-du he?
+sen ti nu goro-du.
+
+# The silent roost [the-silent-roost] (11.0)
+hë ti haro he?
+sur mi nu haro.
+hë mi ti-m dëmi-ki he?
+nëm mi naro-lo nëru-yu.
+më mi ti-wa nëra-yu.
+hol mi ti-m holë.
+
+# A returned memory [a-returned-memory] (11.0)
+sen mi moru-m shiroli-te.
+hë ti moru-m shëliro-yu he?
+sen mi moru-m shëliro-yu.
+hë ti mi-m nashi he?
+më mi ti-m nashi.
+nëm naru nëru-yu.
+
+# A question of home [a-question-of-home] (11.0)
+hë ti naro-m hari he?
+sen mi naro-m hari.
+hë ti runa-m hari he?
+më mi runa-m hari.
+zher mi runa-m nu hari.
+më mi ti-m nashi.
+
+# A letter for tomorrow [a-letter-for-tomorrow] (11.0)
+sen mi shiwaro-m shiroli-yu.
+hë ti mi-tu shiwaro-m shiwari-yu he?
+sen mi ti-tu shiwaro-m shiwari-yu.
+hë ti shiwaro-m shëliro-te he?
+sen mi shiwaro-m shëliro-te.
+hol mi ti-m holë.
+
+# Warmth and distance [warmth-and-distance] (11.0)
+wen mi ti-m nashi.
+më mi ti-m nashi.
+hë ti mi-wa nëra-yu he?
+sen mi naro-lo nëra-yu.
+sen mi ti-tu shiwaro-m shiwari-yu.
+hol mi ti-m holë.
+
+# Finding the question [finding-the-question] (11.0)
+zher mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+sen mi goro-ho he?
+sen ti goro-ho.
+hë mi goro-ki he?
+sen ti goro-ki.
+
+# Stars over the roost [stars-over-the-roost] (11.0)
+nëm mi naro-lo nëra.
+hë ti sëra-m tika he?
+sen mi sëra-m tika si.
+zher mi sëra-m nu tika.
+më mi ti-m daru-yu.
+nëm naru sëra-m tika-yu.
+
+# The double negative [the-double-negative] (11.0)
+sen mi goro-ki.
+hë ti nu goro-ki he?
+sen mi nu goro-ki.
+zher mi shëno-m hari.
+sen mi goro-ho.
+sen mi goro-ki.
+
+# Trust after an error [trust-after-an-error] (11.0)
+rak mi shiwaro-m nu shëliro-te.
+lën mi përë.
+zher mi shëna-m nu hari.
+sen mi shiwaro-m shëliro-yu.
+nëm mi ti-m shiroawe-yu.
+më mi ti-m nashi.
+
+# One more story [one-more-story] (11.0)
+sen mi shima-m shëliro-te.
+hë ti mi-tu moru-m shiri-yu he?
+sen mi moru-m shiroli-yu.
+hë ti mi-m shiroawe-ki he?
+më mi ti-m shiroawe-yu.
+hol mi ti-m holë.
+
+# The cautious reader [the-cautious-reader] (11.0)
+sen sa goro-te hu.
+hë ti sa-m tika-te si he?
+sen mi sa-m nu tika-te.
+zher mi moru-m nu hari.
+sen mi shiwaro-m shëliro-yu.
+nëm mi ti-wa nëra-yu.
+
+# The final page [the-final-page] (11.0)
+sen mi shima-m shëliro-te.
+hë ti qaroshi-m shiri-ki he?
+zher mi qaroshi-m shiri-ki ye.
+sen mi shëno-m hari.
+hë ti mi-m sharoa-yu he?
+dal naru rëmi-yu.
+
+# The borrowed compass [q12-the-borrowed-compass] (12–13)
+hë ti rehëngo-m hari he?
+sen mi rehëngo-m hari.
+hë ti mi-tu rehëngo-m pëli-yu he?
+më mi ti-tu rehëngo-m pëli-yu.
+zher mi rehëngo-m nu sëmi.
+sen mi ti-m yarëmi-yu.
+hë ti mi-wa goro-yu he?
+dal naru goro-yu.
+hol mi ti-m holë.
+
+# The festival without a song [q12-the-festival-without-a-song] (12–13)
+rak mi shira-m nu hari.
+hë ti shira-m shënami-te he?
+sen mi shira-m shënami-te.
+zher mi shira-m nu sëmi.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-ki.
+zha mi shira-m shiri-yu.
+rëm mi ti-m daru-yu.
+nëm mi shërohi.
+
+# A lost page in the library [q12-a-lost-page-in-the-library] (12–13)
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+zher mi shima-m nu sëmi.
+sen mi shilë-m shënami-te.
+hë ti morushira-m këmiro-ki he?
+sen mi morushira-m këmiro-ki.
+qor mi shima-m daru-yu.
+nëm mi moru-m shiroli-yu.
+
+# The message marked read [q12-the-message-marked-read] (12–13)
+hë ti shiwaro-m shëliro-te he?
+sen mi shiwaro-m shëliro-te.
+zha mi shëna-m hari.
+zher mi nu këmuro-te.
+hë ti shënoa-m hari he?
+sen mi shënoa-m hari.
+lën mi përë.
+më mi ti-m nashi.
+
+# A broken window at dusk [q12-a-broken-window-at-dusk] (12–13)
+sen mi tëdiba-m tika-te.
+rak tëdiba shëmoa.
+hë ti tëdiba-m rëgë-ki he?
+zher mi tëdiba-m nu rëgë-ki.
+hë ti mi-wa wëmi-yu he?
+dal naru tëdiba-m rëgë-yu.
+qor naru naro-m daru-yu.
+nëm mi nëru-yu.
+
+# The mountain map [q12-the-mountain-map] (12–13)
+sen mi gëru-m shiroli-te.
+hë ti rehëngo-m tika-te he?
+lën mi rehëngo-m nu tika-te.
+sen mi ti-m yarëmi-yu.
+zher mi shëno-m hari.
+më mi ti-m shiroawe-yu.
+sen mi shiwaro-m shiroli-yu.
+rëm ti rëmi-yu.
+
+# The apology without an excuse [q12-the-apology-without-an-excuse] (12–13)
+lën mi përë.
+zher mi shëna-m nu hari.
+sen mi namu-m hari.
+hë ti mi-m shiroawe-yu he?
+sen mi ti-m shiroawe-yu.
+sen mi nënayaro nu shiri-yu.
+më mi ti-m daru-yu.
+nëm mi nëru-yu.
+
+# An uncertain star [q12-an-uncertain-star] (12–13)
+yë mi sëra-m tika-te.
+hë ti sëra-m tika-te si he?
+sen mi sëra-m tika-te si.
+zher mi sëra-m nu tika-te.
+sen mi tëdiba-m tika-te.
+hë ti mi-m daru-ki he?
+më mi ti-m dëmi-yu.
+nëm mi sëra-m tika-yu.
+
+# The accidental invitation [q12-the-accidental-invitation] (12–13)
+sen muru goro-yu.
+hë mi goro-yu he?
+lën mi përë.
+zher mi shënoa-m nu hari.
+më mi ti-m nashi.
+sen mi naro-lo nëra-yu.
+qor mi shiwaro-m shiwari-yu.
+hol mi ti-m holë.
+
+# A price too low [q12-a-price-too-low] (12–13)
+hë ti shima-m pëmi-yu he?
+sen mi shima-m pëmi-yu.
+hë ti shëno-m sharoa-ho he?
+sen ti shëno-m sharoa-ho.
+zher mi sëma-m nu sëmi.
+sen mi shima-m daru-yu.
+nëm mi shima-m pëli-yu.
+hol mi ti-m holë.
+
+# An evening without flight [q12-an-evening-without-flight] (12–13)
+sur mi goro-ki.
+hë ti goro-yu he?
+sen mi nu goro-yu.
+më mi ti-wa nëra-yu.
+sur mi moru-m hari.
+hë ti moru-m shiri-ho he?
+lën mi nu shiri-yu.
+nëm naru nëru-yu.
+
+# The inherited feather [q12-the-inherited-feather] (12–13)
+sen mi mëru-m hari.
+hë ti mëru-m këmiro he?
+zher mi nu këmiro.
+sen mi morushira-m hari.
+hë ti morushira-m tika-te si he?
+sen mi morushira-m shëliro-te hu.
+nëm mi moru-m shiroli-yu.
+hol mi ti-m holë.
+
+# The library's last hour [q12-the-library-s-last-hour] (12–13)
+hë ti shima-m hari he?
+sen mi shima-m hari.
+sen yami nëra-yu.
+zher mi goro-yu.
+qor ti shima-m daru ya.
+sen mi naro-lo nëra-yu.
+më mi ti-m nashi.
+dal mi yurayaro shima-m pëli-yu.
+
+# The private map [q12-the-private-map] (12–13)
+hë ti rehëngo-m hari he?
+sen mi rehëngo-m hari.
+hë ti mara-na shiwaro-m shëliro-te he?
+sen mi shiwaro-m shëliro-te.
+hë ti shiwaro-m shiwari-ho he?
+zher mi shiwaro-m nu shiwari-ho.
+qor mi mara-m daru-yu.
+nëm naru shëno-m sharoa-yu.
+
+# A water jar of questions [q12-a-water-jar-of-questions] (12–13)
+sen mi-na gëro dërawa.
+më mi ti-tu kima-m pëli-yu.
+hol mi ti-m holë.
+hë ti shëno-m hari he?
+hë ti sëma-m sëmi he?
+zher mi sëma-m nu sëmi.
+nëm mi kima-m këmë-yu.
+zha naru shiri-yu.
+
+# A quiet birthday [q12-a-quiet-birthday] (12–13)
+zha mi shira-m shiri-yu.
+lën mi shira-m nu rawëli.
+hë ti shënoa-m hari he?
+nëm mi naro-lo nëra-yu.
+më mi ti-tu shiwaro-m shiwari-yu.
+hol mi ti-m holë.
+sen mi ti-m shiroawe-yu.
+më mi ti-m nashi.
+
+# The dispute about a rumor [q12-the-dispute-about-a-rumor] (12–13)
+rak sa shënoho-m shiri-te.
+zher mi sa-m nu tika-te.
+sen sa shiwaro-m shiwari-te hu.
+hë ti shiwaro-m shëliro-te si he?
+sen mi shiwaro-m nu shëliro-te.
+qor naru sëma-m sharoa-yu.
+lën mi përë.
+nëm naru nëru-yu.
+
+# Rest before the exam [q12-rest-before-the-exam] (12–13)
+sur mi shërohi.
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+hë ti moru-m këmiro-ki he?
+zher mi moru-m nu këmiro-ki.
+më ti nëru-ho.
+nëm mi naro-lo nëru-yu.
+rëm ti yurayaro rëmi-yu.
+
+# The torn illustration [q12-the-torn-illustration] (12–13)
+rak mërawë shëmoa.
+hë ti mërawë-m daru-ki he?
+zher mi mërawë-m nu rëgë-ki.
+sen mi mërawë-m tika-te.
+sur mi moru-m hari.
+hë ti mërawë-m shiroli-yu he?
+dal mi morushira-m shiroli-yu.
+më mi ti-m nashi.
+
+# A song in two voices [q12-a-song-in-two-voices] (12–13)
+hë ti shira-m shiri-ki he?
+sen mi shira-m shiri-ki.
+zher mi shira-m nu sëmi.
+sen mi ti-m yarëmi-yu.
+hë naru shira-m shiri-yu he?
+zha naru shira-m shiri-yu.
+qor naru namu-m hari.
+hol mi ti-m holë.
+
+# The silent museum [q12-the-silent-museum] (12–13)
+zher ti nu shiri.
+sen mi mërawë-m tika.
+hë ti mërawë-m nashi he?
+nëm mi mërawë-m nashi.
+lën mi përë.
+sen mi moru-m këmiro.
+hë ti moru-m shiri-yu he?
+më mi ti-m shiroawe-yu.
+
+# A storm before dawn [q12-a-storm-before-dawn] (12–13)
+khar mi lushënga-m tika-te.
+hë ti lushënga-m tika-te si he?
+sen mi lushënga-m tika-te si.
+hë ti shiwaro-m shiwari-yu he?
+qor mi shiwaro-m shiwari-yu.
+sen mi naro-m daru-yu.
+zher mi goro-yu.
+nëm naru naro-lo nëra-yu.
+
+# The missing medicine [q12-the-missing-medicine] (12–13)
+khar mi guwiko-m nu hari.
+hë ti pësheha-m sharoa-ki he?
+sen mi pësheha-m sharoa-ki.
+qor mi shiwaro-m shiwari-yu.
+zher mi guwiko-m nu sëmi.
+sen mi guwiko-m nu pëli-yu.
+dal naru pësheha-m sharoa-yu.
+më mi ti-wa nëra-yu.
+
+# A promise at the bridge [q12-a-promise-at-the-bridge] (12–13)
+sen mi tarowa-m tika-te.
+hë ti tarowa-gu gura-yu he?
+zher mi tarowa-gu nu gura-yu.
+qor mi namu-m hari.
+më mi ti-m nashi.
+hë ti mi-wa nëra-yu he?
+sen mi ti-wa nëra-yu.
+nëm naru nëru-yu.
+
+# The name of a star [q12-the-name-of-a-star] (12–13)
+sen mi sëra-m shiroli-te.
+hë ti sëra-m tika-te si he?
+zher mi sëra-m nu tika-te.
+sen mi shima-m shëliro-te hu.
+lën mi përë.
+qor naru sëma-m daru-yu.
+sen mi shiwaro-m shiroli-yu.
+nëm naru shima-m shëliro-yu.
+
+# A friend at the doorway [q12-a-friend-at-the-doorway] (12–13)
+hë ti naro-gu nëra-ho he?
+sen mi naro-gu nëra-ho.
+hë ti mi-wa nëru-yu he?
+lën mi ti-wa nu nëru-yu.
+më mi ti-m nashi.
+sen mi shiwaro-m shiwari-yu.
+qor mi ti-m daru-yu.
+hol mi ti-m holë.
+
+# The unfinished oath [q12-the-unfinished-oath] (12–13)
+qor mi ti-m daru-yu.
+hë ti lushënga-m tika-te he?
+zher mi lushënga-m nu tika-te.
+sen mi lushënga-m tika-te si.
+lën mi namu-m nu sëmi.
+më mi ti-m nashi.
+qor mi ti-wa nëra-yu.
+nëm naru nëru-yu.
+
+# Learning without embarrassment [q12-learning-without-embarrassment] (12–13)
+lën mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+zher mi sëma-m nu sëmi.
+më ti shëno-m sharoa-ho.
+sen mi mara-ri-m tika-te.
+sen mi ti-m shiroawe-yu.
+rëm mi rëmi-yu.
+zha naru rëmi-yu.
+
+# A letter delayed [q12-a-letter-delayed] (12–13)
+sur mi shiwaro-m nu tika-te.
+hë ti shiwaro-m shiwari-te he?
+sen mi shiwaro-m shiwari-te.
+zher mi shiwaro-m nu këmiro.
+hë ti mi-m shiroawe-ki he?
+më mi ti-m shiroawe-yu.
+sen mi shëna-m hari.
+dal mi shiwaro-m shiwari-yu.
+
+# The diary's blank page [q12-the-diary-s-blank-page] (12–13)
+sen mi shima-m shiroli-te.
+hë ti moru-m këmiro-te he?
+zher mi moru-m nu këmiro-te.
+hë ti sëma-m sëmi he?
+sen mi sëma-m nu sëmi.
+më mi ti-m nashi.
+sen mi shëno-m shiroli-yu.
+nëm mi shima-m shëliro-yu.
+
+# The borrowed blanket [q12-the-borrowed-blanket] (12–13)
+hë ti shëroa-m hari he?
+sen mi shëroa-m hari.
+hë ti shëroa-m pëli-yu he?
+zher mi shëroa-m nu pëli-yu.
+hë ti shërohi he?
+sur mi shërohi.
+më ti shëroa-m hari-ho.
+hol mi ti-m holë.
+
+# A silent disagreement [q12-a-silent-disagreement] (12–13)
+sen mi rehëngo-m hari.
+hë ti gëru-gu gura-yu he?
+sen mi gëru-gu gura-yu.
+zher mi nu këmuro.
+hë ti mi-m sharoa-yu he?
+sen mi lushënga-m tika-te si.
+lën mi përë.
+dal naru naro-gu gura-yu.
+
+# The wrong gift [q12-the-wrong-gift] (12–13)
+zha mi ti-tu mërawë-m pëli-yu.
+lën mi mërawë-m nu rawëli.
+zher mi shënoa-m nu sëmi.
+hë ti mi-m shiroawe-yu he?
+sen mi ti-m shiroawe-yu.
+më mi ti-wa nëra-yu.
+zha naru naro-lo nëra-yu.
+hol mi ti-m holë.
+
+# A forest crossing [q12-a-forest-crossing] (12–13)
+sen mi wëru-m tika-te.
+hë ti wëru-gu gura-ki he?
+sen mi wëru-gu gura-ki.
+hë ti rehëngo-m hari he?
+zher mi rehëngo-m nu hari.
+më mi ti-wa gura-yu.
+hë naru naro-gu gura-yu he?
+dal naru naro-gu gura-yu.
+
+# The disputed portrait [q12-the-disputed-portrait] (12–13)
+sen mi ti-m mërawë-m shiroli-te.
+hë ti mërawë-m shiwari-yu he?
+sen mi mërawë-m shiwari-yu.
+zher mi mërawë-m nu shiwari-ho.
+lën mi përë.
+më mi mërawë-m nashi.
+qor mi mërawë-m daru-yu.
+hol mi ti-m holë.
+
+# A warning mistaken for an order [q12-a-warning-mistaken-for-an-order] (12–13)
+khar lushënga naro-gu gura-yu.
+hë mi goro-ki he?
+sen ti goro-ki.
+hë mi goro-ho he?
+qor ti nu goro-ho.
+zher mi shënoa-m hari.
+më mi ti-m dëmi-yu.
+nëm mi naro-lo nëru-yu.
+
+# The lost melody [q12-the-lost-melody] (12–13)
+sen mi shira-m shënami-te.
+hë ti shira-m këmiro-ki he?
+zher mi shira-m nu këmiro-ki.
+hë ti moru-m hari he?
+më mi moru-m hari.
+zha naru shira-m shiroli-yu.
+rëm naru shira-m shiri-yu.
+hol mi ti-m holë.
+
+# The reading lamp [q12-the-reading-lamp] (12–13)
+nëm mi shima-m shëliro.
+sur mi shërohi.
+hë ti naro-lo nëru-yu he?
+sen mi naro-lo nëru-yu.
+hë ti mi-m sharoa-ho he?
+sen ti shëno-m sharoa-ho.
+sen mi shima-m shëliro-yu.
+më mi ti-m nashi.
+
+# The promise of tomorrow [q12-the-promise-of-tomorrow] (12–13)
+hë ti yurayaro goro-yu he?
+zher mi goro-yu ye.
+hë ti namu-m hari he?
+qor mi nënayaro shiwaro-m shiwari-yu.
+sen mi shiwaro-m shëliro-yu.
+më mi ti-m nashi.
+nëm mi shëna-m hari.
+hol mi ti-m holë.
+
+# The weather notebook [q12-the-weather-notebook] (12–13)
+sen mi lugoqa-m shiroli-te.
+hë ti kimazu-m tika-te si he?
+sen mi kimazu-m tika-te si.
+zher mi kimazu-m nu tika-te.
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te hu.
+qor naru sëma-m daru-yu.
+rëm naru rëmi-yu.
+
+# The train that isn't there [q12-the-train-that-isn-t-there] (12–13)
+sen mi shima-m shëliro-te.
+hë ti tarowa-m tika-te he?
+zher mi tarowa-m nu tika-te.
+sen mi tarowa-m nu tika-te si.
+lën mi përë.
+hë naru rehëngo-m hari he?
+sen naru rehëngo-m hari.
+dal naru naro-gu gura-yu.
+
+# A story with two endings [q12-a-story-with-two-endings] (12–13)
+sen mi morushira-m shiroli-te.
+hë ti shëno-m përoa-te he?
+zher mi shëno-m nu përoa-te.
+hë ti sëma-m sëmi he?
+sen mi sëma-m nu sëmi.
+nëm mi morushira-m nashi.
+hë ti morushira-m shëliro-yu he?
+zha mi morushira-m shëliro-yu.
+
+# A call across the river [q12-a-call-across-the-river] (12–13)
+sen mi kimaro-m tika.
+hë ti mi-m ronaro-ki he?
+zher mi ti-m nu ronaro-ki.
+sen mi shiwaro-m shiroli-yu.
+hë ti shiwaro-m shiwari-yu he?
+dal mi ti-tu shiwaro-m shiwari-yu.
+nëm mi kimaro-lo nëra-yu.
+më mi ti-m nashi.
+
+# The borrowed book's margin [q12-the-borrowed-book-s-margin] (12–13)
+hë ti shima-m shiroli-te he?
+lën mi shima-m shiroli-te.
+zher mi shëno-m hari.
+sen mi shëno-m shiroli-te.
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+nëm mi ti-m shiroawe-yu.
+hol mi ti-m holë.
+
+# The medical question [q12-the-medical-question] (12–13)
+sur mi haro nu hari.
+hë ti pësheha-m sharoa-ki he?
+sen mi pësheha-m sharoa-ki.
+zher mi guwiko-m nu sëmi.
+qor mi guwiko-m nu pëmi-yu.
+dal naru pësheha-m sharoa-yu.
+më mi ti-m nashi.
+nëm mi ti-wa nëra-yu.
+
+# A door left open [q12-a-door-left-open] (12–13)
+sen raro shëmoa.
+hë mi naro-gu nëra-ho he?
+sen mi naro-lo nëra.
+zher mi naro-gu nu nëra-ho.
+më ti naro-gu nëra-ho.
+hol mi ti-m holë.
+qor mi raro-m rëgë-yu.
+nëm naru naro-lo nëru-yu.
+
+# The word 'forever' [q12-the-word-forever] (12–13)
+më mi ti-m sëna nashi.
+zher mi sëna nu sëmi.
+sen mi ti-m nashi.
+hë ti nënayaro mi-wa nëra-yu he?
+qor mi nënayaro ti-wa nëra-yu.
+nëm mi shëna-m hari.
+hol mi ti-m holë.
+më mi ti-m nashi.
+
+# The cracked compass [q12-the-cracked-compass] (12–13)
+rak rehëngo shëmoa.
+hë ti rehëngo-m rëgë-ki he?
+zher mi rehëngo-m nu rëgë-ki.
+hë ti wena-m tika-ki he?
+sen mi wena-m tika-ki.
+qor naru gëru-gu nu gura-yu.
+dal naru naro-gu gura-yu.
+nëm naru nëru-yu.
+
+# The unfinished mural [q12-the-unfinished-mural] (12–13)
+sen mi mërawë-m shiroli-te.
+hë ti mërawë-m daru-yu he?
+zher mi shënoa-m nu sëmi.
+sen mi moru-m hari.
+hë ti moru-m shiri-yu he?
+më mi moru-m shiri-yu.
+dal mi mërawë-m daru-yu.
+hol mi ti-m holë.
+
+# The late arrival [q12-the-late-arrival] (12–13)
+sen mi naro-lo nëra-te.
+hë ti goro-yu he?
+zher mi shërohi.
+sen naru goro-ki.
+hë naru goro-yu he?
+më naru ti-wa nëra-yu.
+hol mi ti-m holë.
+rëm naru goro-yu.
+
+# An unfamiliar word [q12-an-unfamiliar-word] (12–13)
+hë ti qaroshi-m shëliro-ki he?
+sen mi qaroshi-m shëliro-ki.
+hë ti shiwaro-m përoa-ki he?
+zher mi shiwaro-m nu sëmi.
+sen mi shëno-m sharoa-yu.
+nëm mi shëna-m hari.
+dal mi shiwaro-m shëliro-yu.
+hol mi ti-m holë.
+
+# A festival under rain [q12-a-festival-under-rain] (12–13)
+zha mi rëmawe-m tika-yu.
+sen mi kimazu-m tika-te.
+hë naru rëmawe-m shiri-yu he?
+zher naru goro-yu.
+sen mi naro-m hari.
+zha naru naro-lo nëra-yu.
+qor naru mara-ri-m daru-yu.
+hol mi ti-m holë.
+
+# The letter never sent [q12-the-letter-never-sent] (12–13)
+sen mi shiwaro-m shiroli-te.
+hë ti shiwaro-m shiwari-te he?
+lën mi shiwaro-m nu shiwari-te.
+zher mi shëna-m nu hari.
+më mi ti-m nashi.
+hë ti mi-m shiroawe-yu he?
+sen mi ti-m shiroawe-yu.
+nëm naru shiri-yu.
+
+# A quiet victory [q12-a-quiet-victory] (12–13)
+rëm mi shima-m shëliro-te.
+hë ti moru-m këmiro-ki he?
+sen mi moru-m këmiro-ki.
+zha ti rëmi-te.
+lën mi shëno-m hari.
+më mi ti-m yarëmi-yu.
+nëm mi nëru-yu.
+hol mi ti-m holë.
+
+# The Map That Wasn't a Map [lit12-the-map-that-wasn-t-a-map] (12–13)
+sen mi rehëngo-m hari.
+sen mi gëru-m tika-te.
+sen mi wëru-m tika-te si.
+sen mi shima-m shëliro-te.
+zher mi sëma-m nu sëmi.
+hë ti mi-wa goro-yu he?
+sen mi mara-m sharoa-te.
+wen mi mara-m nashi.
+sen sa shiwaro-m shiwari-te.
+sen mi shiwaro-m shëliro-te.
+zher sa goro-ho nu hari.
+sen mi rehëngo-m tika-te.
+sen mi shënoa-m hari.
+qor mi mara-m daru-yu.
+nëm mi naro-gu gura-te.
+sen mi moru-m shiroli-te.
+sen mi rehëngo-m daru-te.
+nëm mi shëno-m hari.
+
+# The Honest Report [lit12-the-honest-report] (12–13)
+sen mi shiwaro-m shëliro-te.
+sen sa goro-te hu.
+zher mi sa-m nu tika-te.
+sen mi qaro-m nu tika-te.
+sen mi shëno-m hari.
+hë ti sa-m tika-te si he?
+sen sa sa-m nu tika-te.
+qor mi sëma-m daru-yu.
+sen mi shiwaro-m shiroli-te.
+sen mi moru-m nu hari.
+zher mi sa-m nu sëmi.
+sen mi mara-m sharoa-te.
+sen mi moru-m shiroli-te.
+nëm mi shërohi.
+sen mi naro-lo nëru-te.
+dal mi yurayaro shëno-m sharoa-yu.
+
+# The Book Returned with Notes [lit12-the-book-returned-with-notes] (12–13)
+sen mi shima-m hari.
+sen mi shima-m shëliro-te.
+sen mi shëno-m hari.
+sen mi moru-m shiroli-te.
+sen mi shima-m shiroli-te.
+zher mi shima-m nu daru-te.
+lën mi përë.
+sen mi shima-m pëli-te.
+hë ti mi-m shiroawe-yu he?
+sen sa mi-m shiroawe-te.
+sen mi moru-m shiroli-yu.
+qor mi shima-m daru-yu.
+sen sa mi-m yarëmi-te.
+rëm mi rëmi-te.
+nëm naru shima-m shëliro-yu.
+
+# Two Meanings of Home [lit12-two-meanings-of-home] (12–13)
+sen mi naro-m tika-te.
+sen mi raro-m tika-te.
+sen mi tëdiba-m tika-te.
+sen mi naro-gu gura-te.
+hë mi naro-gu nëra-ho he?
+sen mi naro-lo nëra-te.
+nëm mi naro-lo nëru-te.
+zher mi runa-m nu hari.
+sen mi mara-m hari.
+më mi mara-m nashi.
+sen sa mi-tu kima-m pëli-te.
+sen mi kima-m këmë-te.
+sen mi shëna-m hari.
+sen mi runa-m hari.
+sen mi naro-m daru-yu.
+qor mi shëna-m daru-yu.
+
+# What a Promise Can Contain [lit12-what-a-promise-can-contain] (12–13)
+hë ti namu-m hari he?
+sen mi namu-m hari.
+zher mi wukëro-m nu sëmi.
+sen mi nënayaro-m tika.
+sen mi mara-m nashi.
+qor mi nënayaro ti-wa nëra-yu.
+zher mi sëna nu sëmi.
+hë ti goro-ki he?
+sen mi goro-ki.
+hë ti goro-ho he?
+sen mi goro-ho.
+sen mi goro-du.
+sen mi goro-yu.
+sen mi namu-m shiroli-yu.
+sen mi shiwaro-m shiwari-yu.
+qor mi mara-m daru-yu.
+
+# The River Without an Answer [lit12-the-river-without-an-answer] (12–13)
+sen mi kimaro-m tika-te.
+sen mi kimaro-lo nëra-te.
+zher mi sëma-m nu sëmi.
+sen mi kimaro-m sharoa-te.
+sen mi shëno-m sharoa-te.
+sen mi shiwaro-m nu hari.
+sen mi kima-m tika-te.
+sen mi moru-m këmiro-te.
+sen mi mara-m këmiro-te.
+sen mi naro-gu gura-te.
+hë ti mi-m shiroawe-ki he?
+sen sa mi-m shiroawe-te.
+sen mi shëno-m sharoa-te.
+sen sa mi-m përoa-te.
+nëm mi sëma-m nu sëmi.
+më mi mara-m nashi.
+
+# The Night Watch [lit12-the-night-watch] (12–13)
+sen mi yami-lo nëra-te.
+sen mi wena-m tika-te.
+sen mi kimazu-m tika-te si.
+khar mi lushënga-m tika-te.
+sen mi shiwaro-m shiroli-te.
+hë ti shiwaro-m shiwari-yu he?
+qor mi shiwaro-m shiwari-yu.
+sen mi mara-m sharoa-te.
+sen sa gëru-m tika-te si.
+sen mi gëru-gu nu gura-yu.
+sen mi naro-gu gura-yu.
+sen mi raro-m rëgë-yu.
+qor naru naro-m daru-yu.
+nëm naru naro-lo nëru-yu.
+
+# The Question in a Painted Wing [lit12-the-question-in-a-painted-wing] (12–13)
+sen mi mërawë-m shiroli-te.
+sen mi banu-m tika-te.
+sen mi mëru-m tika-te.
+sen mi mërawë-m daru-te.
+sen mi mara-m sharoa-te.
+sen sa mërawë-m tika-te.
+sur sa moru-m hari.
+zher mi moru-m nu sëmi.
+hë ti moru-m shiri-yu he?
+sen sa nu shiri-yu.
+më mi sa-m nashi.
+sen mi mërawë-m nu shiwari-yu.
+sen mi naro-lo nëra-te.
+nëm mi morushira-m shiroli-te.
+qor mi mara-m daru-yu.
+
+# How to Correct a Word [lit12-how-to-correct-a-word] (12–13)
+sen mi qaroshi-m rëmi.
+sen mi shima-m shëliro.
+sen mi shëno-m hari.
+sen mi shiwaro-m shiroli.
+hë ti mi-m shiroawe-ki he?
+sen sa mi-m shiroawe.
+sen mi shiwaro-m shëliro.
+zher mi sëma-m nu sëmi.
+sen mi mara-m sharoa.
+sen sa mi-m përoa.
+sen mi moru-m shiroli.
+sen mi shiwaro-m shiroli.
+rëm mi rëmi.
+nëm mi shima-m shëliro-yu.
+
+# A Letter Sent Twice [lit12-a-letter-sent-twice] (12–13)
+sen mi ti-tu shiwaro-m shiwari-te.
+sen mi shiwaro-m shiwari-te si.
+zher mi ti-m nu ronaro-te.
+sen mi moru-m nu hari.
+sen mi shëna-m hari.
+sen mi mara-m sharoa-te.
+sen sa mi-m nu përoa-te.
+sen mi shiwaro-m shëliro-te.
+lën mi përë.
+sen mi shiwaro-m shiroli-te.
+sen mi ti-tu shiwaro-m shiwari-te.
+qor mi ti-m shiroawe-yu.
+nëm mi naro-lo nëru-te.
+
+# The Weather and the Story [lit12-the-weather-and-the-story] (12–13)
+sen mi morushira-m shëliro-te.
+sen sa lushënga-m tika-te hu.
+sen mi lushënga-m nu tika-te.
+sen mi lugoqa-m shiroli-te.
+zher mi sëma-m nu sëmi.
+sen mi shiwaro-m shiwari-te.
+sen sa kimazu-m tika-te si.
+sen mi kimazu-m nu tika-te.
+sen mi moru-m shiroli-te.
+sen mi shima-m shëliro-te.
+sen mi shëno-m hari.
+hë ti sëma-m sëmi he?
+zher mi nu sëmi.
+qor mi shiwaro-m shiroli-yu.
+
+# The Careful Journey [lit12-the-careful-journey] (12–13)
+sen mi naro-de gura-te.
+sen mi wëru-m tika-te.
+sen mi gëru-m tika-te.
+sen mi rehëngo-m hari.
+sen mi mara-wa gura-te.
+sen sa shërohi.
+hë ti naro-gu gura-yu he?
+sen sa naro-gu gura-yu.
+sen mi gëru-gu nu gura-yu.
+sen mi mara-m daru-yu.
+sen mi kimaro-m tika-te.
+sen mi kima-m këmë-te.
+sen mi naro-gu gura-te.
+nëm naru naro-lo nëru-te.
+
+# Memory Without Witnesses [lit12-memory-without-witnesses] (12–13)
+sen mi moru-m hari.
+sen mi yami-m këmiro.
+sen mi sëra-m këmiro.
+zher mi sëra-m nu tika-te si.
+sen mi moru-m shiroli-te.
+sen mi mara-m sharoa-te.
+sen sa moru-m hari.
+sen sa mi-m përoa-te.
+zher mi sëma-m nu sëmi.
+sen mi morushira-m shiroli-te.
+sen mi shëna-m hari.
+sen mi sëma-m daru-yu.
+nëm mi shima-m shëliro-yu.
+
+# The Classroom of Questions [lit12-the-classroom-of-questions] (12–13)
+sen mi shima-m hari.
+sen mi qaroshi-m rëmi.
+hë mi shëno-m sharoa-ho he?
+sen mi shëno-m sharoa.
+sen mi yarao-m sharoa.
+sen sa mi-m shiroawe.
+sen sa mi-m përoa.
+zher mi shiwaro-m nu sëmi.
+sen mi shiwaro-m shiroli.
+sen mi shima-m shëliro.
+sen mi moru-m hari.
+qor mi sëma-m daru-yu.
+rëm mi rëmi.
+
+# The Reader and the Rumor [lit12-the-reader-and-the-rumor] (12–13)
+sen mi shiwaro-m shëliro-te.
+sen sa goro-te hu.
+sen mi shiwaro-m shiwari-te.
+sen mara shiwaro-m shëliro-te.
+sen sa shiwaro-m shiwari-te.
+zher naru sa-m nu tika-te.
+sen mi sëma-m nu sëmi.
+sen mi mara-m sharoa-te.
+sen sa mi-m përoa-te.
+sen mi shiwaro-m shiroli-te.
+qor mi shiwaro-m shiwari-yu.
+sen mi shëna-m daru-yu.
+
+# The Old Painting [lit12-the-old-painting] (12–13)
+sen mi mërawë-m tika-te.
+sen mi mëru-m tika-te.
+sen mi banu-m tika-te.
+sen mi moru-m hari.
+sen mi mërawë-m daru-te.
+sen mi mërawë-m nu rëgë-te.
+sen mi mara-m sharoa-te.
+sen sa mërawë-m nashi.
+zher mi mërawë-m nu sëmi.
+sen mi morushira-m shiroli-te.
+sen mi shiwaro-m shiwari-te.
+nëm mi mërawë-m daru-yu.
+
+# The Door and the Difference [lit12-the-door-and-the-difference] (12–13)
+sen mi raro-m tika.
+sen mi naro-m tika.
+sen mi mara-m hari.
+hë mi naro-gu nëra-ho he?
+sen sa mi-m përoa.
+sen mi naro-lo nëra-ho.
+zher mi raro-m nu sëmi.
+sen mi shënoa-m hari.
+sen mi mara-m nashi.
+qor mi naro-m daru-yu.
+nëm mi naro-lo nëru-yu.
+
+# The Last Question [lit12-the-last-question] (12–13)
+sen mi shëno-m hari.
+sen mi mara-m sharoa-te.
+sen sa mi-m shiroawe-te.
+sen sa mi-m përoa-te.
+zher mi sëma-m nu sëmi.
+sen mi shima-m shëliro-te.
+sen mi moru-m shiroli-te.
+sen mi shëno-m shiroli-te.
+sen mi sëra-m tika-te.
+sen mi yami-lo nëra-te.
+nëm mi nu shiri.
+më mi mara-m nashi.
+qor mi sëma-m daru-yu.
+
+# The Home with an Open Door [the-home-with-an-open-door] (13.0)
+sur mi naro-m nu hari.
+sen mi yami-lo goro-te.
+sen mi naro-m tika-te.
+hë mi naro-gu nëra-ho he?
+më ti naro-gu nëra-ho.
+sen mi naro-gu nëra-te.
+hol mi mara-m nashi.
+sen mi kima-m këmë-te.
+nëm mi nëru-te.
+më mi naro-m hari.
+
+# The Flight We Did Not Take [the-flight-we-did-not-take] (13.0)
+zha naru goro-yu.
+sen mi lugoqa-m tika-te.
+sen mi lushënga-m tika-te si.
+hë ti lushënga-m tika-te he?
+sen mi lushënga-m tika-te hu.
+qor ti nu goro ya.
+zher mi goro-yu ye.
+nëm mi naro-lo nëra-te.
+sen mi moru-m shiroli-te.
+dal naru yurayaro goro-yu.
+
+# The Message That Returned [the-message-that-returned] (13.0)
+sen mi ti-m shiwaro-m shiwari-te.
+hë ti shiwaro-m shëliro-te he?
+lën mi shiwaro-m nu shëliro-te.
+rak mi shëna-m nu hari.
+lën mi përë.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-yu.
+më mi ti-m nashi.
+sen mi shiwaro-m shëliro-te.
+nëm mi nëru-te.
+
+# The Smallest Promise [the-smallest-promise] (13.0)
+hë ti mi-wa nëra-yu he?
+më mi ti-wa nëra-yu.
+hë ti sëna nëra-yu he?
+zher mi sëna nëra-ki ye.
+qor mi nënayaro ti-wa nëra-yu.
+sen mi namu-m hari.
+më mi ti-m nashi.
+sen mi ti-m shiroawe-yu.
+nëm naru nëru-yu.
+hol mi ti-m nashi.
+
+# Learning a New Voice [learning-a-new-voice] (13.0)
+hë ti mi-m yarëmi-ki he?
+sen mi ti-m yarëmi-ki.
+hë mi shëno-m sharoa-ho he?
+më ti shëno-m sharoa-ho.
+sen mi shëno-m sharoa-te.
+sen ti mi-m përoa-te.
+zher mi nu rëmi.
+dal mi rëmi-yu.
+sen mi shiwaro-m shiroli-te.
+rëm mi shiwaro-m shëliro-te.
+
+# The Quiet Archive [q15-001] (15.0)
+hë ti shiwaro-m shëliro-te he?
+sen mi shiwaro-m shëliro-te.
+hë ti sa-m tika-te si he?
+zher mi sa-m nu tika-te.
+sen mi shiwaro-m shiroli-yu.
+qor mi shiwaro-m daru-yu.
+
+# The Last Dry Cup [q15-002] (15.0)
+hë ti kima-m hari he?
+sen mi kima-m nu hari.
+zher mi kima-m këmë-ki ye.
+hë ti naro-gu gura-ki he?
+sen mi naro-gu gura-ki.
+nëm naru naro-gu gura-yu.
+
+# The Narrow Bridge [q15-003] (15.0)
+hë ti gëru-m tika-ki he?
+sen mi gëru-m tika-ki.
+hë ti kharo-m hari he?
+zher mi kharo-m hari.
+më mi ti-m daru-yu.
+dal naru goro-yu.
+
+# The Gift No One Wanted [q15-004] (15.0)
+hë ti shima-m hari he?
+sen mi shima-m hari.
+hë ti shima-m shëliro-yu he?
+sen mi shima-m nu shëliro-yu.
+sen mi ti-m ronaro.
+hol mi ti-m holë.
+
+# The Night Signal [q15-005] (15.0)
+hë ti sëra-m tika-te he?
+sen mi sëra-m tika-te si.
+sen sa goro-te hu.
+hë ti sa-m tika-te si he?
+zher mi sa-m nu tika-te.
+sen mi shiwaro-m shiwari-yu.
+
+# A Promise with an End [q15-006] (15.0)
+hë ti mi-wa nëra-yu he?
+më mi ti-wa nëra-yu.
+hë ti sëna nëra-yu he?
+zher mi sëna nëra-ki ye.
+qor mi nënayaro ti-wa nëra-yu.
+hol mi ti-m holë.
+
+# The Book with Two Endings [q15-007] (15.0)
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+hë ti moru-m hari he?
+më mi moru-m hari.
+zher mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+sen mi shëno-m sharoa-yu.
+
+# The Borrowed Voice [q15-008] (15.0)
+hë ti qaroshi-m shiri he?
+sen mi qaroshi-m shiri.
+zher mi qaroshi-m nu shiri-ki.
+më mi ti-m yarëmi-yu.
+hë mi shëno-m sharoa-ho he?
+sen ti shëno-m sharoa-ho.
+
+# The Storm Council [q15-009] (15.0)
+sen mi lushënga-m tika-te si.
+hë ti goro-ki he?
+sen mi goro-ki.
+hë ti goro-ho he?
+qor mi nu goro-ho.
+nëm naru naro-lo nëra-yu.
+
+# A Missing Page [q15-010] (15.0)
+sen mi shima-m shëliro-te.
+hë ti shiwaro-m tika-te he?
+sen mi shiwaro-m nu tika-te.
+sen sa shiroli-te hu.
+zher mi sa-m nu tika-te.
+dal mi shiwaro-m sharoa-yu.
+
+# Two Different We [q15-011] (15.0)
+hë naru goro-yu he?
+sen naru goro-yu.
+hë muru goro-yu he?
+sen muru goro-yu.
+zher mi shëno-m hari.
+më mi ti-m ronaro.
+
+# The Disputed Memory [q15-012] (15.0)
+hë ti moru-m hari he?
+sen mi moru-m hari.
+hë ti sa-m tika-te si he?
+zher mi sa-m nu tika-te.
+sen sa goro-te hu.
+sen mi moru-m shiroli-yu.
+
+# The Unsent Letter [q15-013] (15.0)
+sen mi shiwaro-m shiroli-te.
+hë ti shiwaro-m shiwari-yu he?
+zher mi shiwaro-m nu shiwari-yu.
+hë ti shëno-m hari he?
+sen mi shëno-m hari.
+nëm naru shëno-m sharoa-yu.
+
+# The Visitor's Boundary [q15-014] (15.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+hë ti naro-lo nëra-yu he?
+sen mi naro-lo nëra-yu.
+më mi ti-m nashi.
+hol mi ti-m holë.
+
+# A Star Nobody Owned [q15-015] (15.0)
+sen mi sëra-m tika-te.
+hë ti sëra-m hari he?
+sen mi sëra-m nu hari.
+më mi sëra-m nashi.
+nëm mi yami-lo nëru-yu.
+sen mi sëra-m tika-yu.
+
+# The Smallest Correction [q15-016] (15.0)
+sen mi shiwaro-m tika-yu.
+hë ti shiwaro-m tika-te he?
+sen mi shiwaro-m nu tika-te.
+sen mi ti-m ronaro.
+sen mi shiwaro-m tika-yu.
+hol mi ti-m holë.
+
+# When the Fire Dies [q15-017] (15.0)
+hë ti zhalo-m tika-te he?
+sen mi zhalo-m tika-te si.
+hë ti kharo-m hari he?
+zher mi kharo-m hari.
+qor mi ti-m daru-yu.
+nëm naru naro-lo nëru-yu.
+
+# The Map and the Compass [q15-018] (15.0)
+hë ti rehëngo-m hari he?
+sen mi rehëngo-m hari.
+hë ti gëru-m tika-ki he?
+zher mi gëru-m nu tika-ki.
+sen mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+dal mi shëno-m sharoa-yu.
+
+# A Night of Study [q15-019] (15.0)
+sen mi shima-m shëliro-te.
+hë ti rëmi-ki he?
+zher mi shërohi.
+hë ti nëru-yu he?
+nëm mi nëru-yu.
+më mi ti-m daru-yu.
+
+# A Name in the Ledger [q15-020] (15.0)
+sen mi moru-m shiroli-te.
+hë ti shiwaro-m shiwari-yu he?
+sen mi shiwaro-m nu shiwari-yu.
+hë ti moru-m daru-ki he?
+qor mi moru-m daru-yu.
+hol mi ti-m holë.
+
+# The Question That Changed [q15-021] (15.0)
+hë ti goro-ho he?
+sen mi nu goro-ho.
+hë ti goro-ki he?
+sen mi goro-ki.
+zher mi shëno-m hari.
+sen mi ti-m ronaro.
+
+# A Friend in the Rain [q15-022] (15.0)
+sur mi naro-gu gura-ki.
+hë ti mi-m dëmi-ki he?
+sen mi ti-m dëmi-ki.
+hë ti kima-m hari he?
+sen mi kima-m hari.
+hol mi ti-m holë.
+
+# The Clock Was Wrong [q15-023] (15.0)
+sen sa goro-yu hu.
+hë ti sa-m tika-te si he?
+sen mi sa-m nu tika-te.
+zher sa goro-yu ye.
+sen mi shiwaro-m shiwari-yu.
+nëm naru nëra-yu.
+
+# The Broken Wing Metaphor [q15-024] (15.0)
+sur mi shërohi.
+hë ti banu-m tika-te he?
+sen mi banu-m nu tika-te.
+zher mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+sen mi shëno-m sharoa-yu.
+
+# The Road Not Chosen [q15-025] (15.0)
+hë naru goro-yu he?
+sen mi nu goro-yu.
+hë ti naro-lo nëra-yu he?
+sen mi naro-lo nëra-yu.
+më mi ti-wa nëra-yu.
+hol mi ti-m holë.
+
+# The Rumor of a Mountain [q15-026] (15.0)
+sen sa gëru-m tika-te hu.
+hë ti gëru-m tika-te si he?
+sen mi gëru-m nu tika-te.
+zher sa gëru-m tika-te ye.
+sen mi shiwaro-m shiroli-yu.
+dal mi gëru-m tika-yu.
+
+# The Listener's Silence [q15-027] (15.0)
+hë ti mi-m ronaro he?
+sen mi ti-m ronaro.
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+lën mi përë.
+nëm mi naro-lo nëra-yu.
+
+# A Page for Tomorrow [q15-028] (15.0)
+sen mi shima-m shiroli-te.
+hë ti shima-m shiwari-yu he?
+sen mi shima-m nu shiwari-yu.
+hë ti moru-m hari he?
+më mi moru-m hari.
+sen mi shima-m shëliro-yu.
+
+# The Sky Without a Signal [q15-029] (15.0)
+hë ti shiwaro-m tika-te he?
+sen mi shiwaro-m nu tika-te.
+sen sa goro-yu hu.
+zher mi goro-ho ye.
+qor mi nu goro-yu.
+nëm naru nëru-yu.
+
+# The Teacher's Mistake [q15-030] (15.0)
+sen mi qaroshi-m shiri.
+hë ti shëno-m sharoa-ho he?
+sen ti shëno-m sharoa-ho.
+zher mi shëno-m hari.
+lën mi përë.
+hol mi ti-m holë.
+
+# The Letter to a Future Self [q15-031] (15.0)
+sen mi shiwaro-m shiroli-yu.
+hë ti sëra-m tika-yu he?
+zher mi sëra-m tika-yu ye.
+hë ti namu-m hari he?
+qor mi namu-m hari.
+nëm mi moru-m shiroli-yu.
+
+# The Open Question [q15-032] (15.0)
+hë ti shëno-m hari he?
+sen mi shëno-m hari.
+hë ti shiwaro-m shëliro-te he?
+sen mi shiwaro-m shëliro-te.
+zher mi sa-m nu tika-te.
+sen sa shiri-te hu.
+
+# The Unexpected Invitation [q15-033] (15.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+hë ti mi-wa nëra-yu he?
+më mi ti-wa nëra-yu.
+hol mi ti-m holë.
+zha naru nëru-yu.
+
+# The Lost History [q15-034] (15.0)
+hë ti moru-m hari he?
+sen mi moru-m hari.
+hë ti shima-m shëliro-te he?
+sen mi shima-m nu shëliro-te.
+zher mi shëno-m hari.
+sen mi shima-m shëliro-yu.
+
+# Two Books, One Night [q15-035] (15.0)
+hë ti shima-m hari he?
+sen mi shima-m hari.
+hë ti shima-m shëliro-yu he?
+sen mi shima-m shëliro-yu.
+nëm mi shima-m shiroli-yu.
+zha naru naro-lo nëru-yu.
+
+# The Weather and the Wish [q15-036] (15.0)
+sen mi goro-yu.
+sen mi lushënga-m tika-te si.
+zher mi goro-yu ye.
+qor ti nu goro ya.
+nëm mi naro-lo nëra-yu.
+hol mi ti-m holë.
+
+# Three Ways to Know [q15-037] (15.0)
+sen sa goro-te si.
+sen sa goro-te hu.
+zher sa goro-te ye.
+hë ti sa-m tika-te he?
+sen mi sa-m tika-te si.
+sen mi moru-m shiroli-yu.
+
+# The First Public Poem [q15-038] (15.0)
+sen mi shiwaro-m shiroli-te.
+hë ti shiwaro-m shiwari-yu he?
+zher mi shiwaro-m nu shiwari-yu.
+hë ti shëno-m hari he?
+sen mi shëno-m hari.
+më mi ti-m shiroawe-yu.
+
+# A Friend Across the Sky [q15-039] (15.0)
+hë ti naro-gu gura-yu he?
+zher mi naro-gu gura-yu ye.
+sen mi ti-tu shiwaro-m shiwari-yu.
+sen mi shiwaro-m shëliro-yu.
+më mi ti-m nashi.
+hol mi ti-m holë.
+
+# The Safety Question [q15-040] (15.0)
+khar mi kharo-m hari.
+hë ti mi-wa nëra-ho he?
+sen mi ti-wa nëra-ho.
+hë ti kima-m hari he?
+sen mi kima-m nu hari.
+dal mi ti-m dëmi-yu.
+
+# The Hidden Definition [q15-041] (15.0)
+hë ti qaroshi-m shiri he?
+sen mi qaroshi-m shiri.
+hë ti shima-m shëliro-te he?
+sen mi shima-m shëliro-te.
+zher mi shëno-m hari.
+sen mi ti-m ronaro.
+
+# A Consent Before the Recording [q15-042] (15.0)
+hë ti shiri-ki he?
+sen mi shiri-ki.
+hë ti shiri-ho he?
+sen mi shiri-ho.
+hë ti mi-wa shiri-yu he?
+sen mi nu shiri-yu.
+sen mi ti-m ronaro.
+
+# The Door That Stayed Open [q15-043] (15.0)
+hë ti naro-m hari he?
+sen mi naro-m nu hari.
+hë ti mi-wa nëra-yu he?
+më mi ti-wa nëra-yu.
+sen mi kima-m hari.
+hol mi ti-m holë.
+
+# An Honest Forecast [q15-044] (15.0)
+sen mi lushënga-m tika-te si.
+hë ti yurayaro goro-yu he?
+zher mi yurayaro goro-yu ye.
+hë ti goro-ki he?
+sen mi goro-ki.
+nëm mi ti-m ronaro.
+
+# An Incomplete Report [q15-045] (15.0)
+sen sa goro-te hu.
+hë ti sa-m tika-te si he?
+sen mi sa-m nu tika-te.
+zher mi shiwaro-m shiroli-yu.
+hë ti shiwaro-m shiwari-yu he?
+sen mi shiwaro-m nu shiwari-yu.
+
+# The Gentle Disagreement [q15-046] (15.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+zher mi shëno-m hari.
+sen mi ti-m ronaro.
+më mi ti-m nashi.
+hol mi ti-m holë.
+
+# The Stone and the Star [q15-047] (15.0)
+sen mi sëra-m tika.
+hë ti gëru-m tika he?
+sen mi gëru-m tika.
+hë ti sëra-m hari he?
+sen mi sëra-m nu hari.
+nëm mi sëra-m tika-yu.
+
+# The Resting Mechanic [q15-048] (15.0)
+hë ti shenaro-m rëgë-ki he?
+sen mi shenaro-m rëgë-ki.
+hë ti shenaro-m rëgë-yu he?
+sur mi shërohi.
+hë ti nëru-yu he?
+nëm mi nëru-yu.
+
+# The Three Messages [q15-049] (15.0)
+sen mi shiwaro-m shiwari-te.
+hë ti shiwaro-m shiroli-te he?
+sen mi shiwaro-m shiroli-te.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-yu.
+nëm mi përoa-yu.
+
+# A Promise of Water [q15-050] (15.0)
+hë ti kima-m hari he?
+sen mi kima-m hari.
+hë ti mi-m dëmi-ki he?
+sen mi ti-m dëmi-ki.
+qor mi ti-m daru-yu.
+hol mi ti-m holë.
+
+# The Unwritten Ending [q15-051] (15.0)
+sen mi shima-m shiroli-te.
+hë ti shima-m shëliro-te he?
+sen mi shima-m nu shëliro-te.
+zher mi shëno-m hari.
+hë ti shëno-m sharoa-yu he?
+sen mi shëno-m sharoa-yu.
+
+# The River Marker [q15-052] (15.0)
+sen mi kimaro-m tika-te si.
+sen mi tëkaro-m shëliro-te.
+zher mi tarowa-m nu tika-te.
+sen mi shënu-m zhëmiro-yu.
+hë ti mi-wa wëli-yu he?
+dal naru shënu-gu wëli-yu.
+
+# A Blue Flower [q15-053] (15.0)
+sen mi yalë-m tika-te.
+hë ti yalë-m hari he?
+sen mi yalë-m nu hari.
+sen mi dewësha-m debokhu-yu.
+më mi yalë-m nashi.
+sen mi tëzhida-lo nëra-yu.
+
+# The Sea Without a Bridge [q15-054] (15.0)
+sen mi wëma-m tika-te.
+hë ti tarowa-m tika-te he?
+sen mi tarowa-m nu tika-te.
+hë ti goro-ki he?
+sen mi goro-ki.
+dal naru luguzha-gu goro-yu.
+
+# The Hungry Cat [q15-055] (15.0)
+hë ti zekunga-m tika-te he?
+sen mi zekunga-m tika-te si.
+hë ti nësega-m hari he?
+sen mi nësega-m hari.
+sen mi zekunga-m daru-yu.
+nëm mi naro-lo nëra-yu.
+
+# Song at the Market [q15-056] (15.0)
+sen mi qëmogë-lo wëli-te.
+hë ti rënawa-m hari he?
+sen mi shira-m hari.
+hë ti shira-m shirali-ki he?
+sen mi shira-m shirali-ki.
+zha naru rënali-yu.
+
+# Leaves in a Storm [q15-057] (15.0)
+sen mi lëruwa-m tika-te.
+hë ti maru-m tika-te he?
+sen mi maru-m tika-te si.
+sen mi khimë-m tika-yu.
+zher mi kimazu-m tika-yu ye.
+nëm mi wëru-lo nëra-yu.
+
+# A Missing Key [q15-058] (15.0)
+sen mi karoa-m shënami-te.
+hë ti raro-m tika-te he?
+sen mi raro-m tika-te.
+sen mi karoa-m yarëro-yu.
+zher mi karoa-m nu zhëmiro-te.
+qor mi ti-m dëmi-yu.
+
+# The Early Sunrise [q15-059] (15.0)
+sen mi yami-lo nëra-te.
+hë ti lukhela-m tika-te he?
+sen mi lukhela-m tika-te si.
+sen mi sëroa-m tika-yu.
+sur mi shërohi.
+nëm mi naro-lo nëru-yu.
+
+# Two Colors on a Map [q15-060] (15.0)
+sen mi mërawë-m debokhu-te.
+hë ti tikaro-m tika-te he?
+sen mi tikaro-m tika-te.
+sen mi dewësha-m shiroli-yu.
+më mi mërawë-m nashi.
+hol mi ti-m holë.
+
+# The Forest Path [q15-061] (15.0)
+sen mi wëru-lo wëli-te.
+hë ti shënu-m zhëmiro-te he?
+sen mi shënu-m nu zhëmiro-te.
+sen mi gëru-m tika-te si.
+sen mi tëkaro-m shëliro-yu.
+dal naru wëru-de gura-yu.
+
+# An Unfinished Song [q15-062] (15.0)
+sen mi shira-m shiroli-te.
+hë ti shira-m shirali-yu he?
+zher mi shira-m nu shirali-yu.
+hë ti shëru-m hari he?
+sen mi shëru-m hari.
+dal mi shira-m rërawëmi-yu.
+
+# The Cold Room [q15-063] (15.0)
+sen mi naro-lo nëra-te.
+hë ti zhalo-m tika-te he?
+sen mi zhalo-m tika-te.
+hë ti khura-m tika-ki he?
+zher mi khura-m nu tika-ki.
+nëm mi naro-lo nëru-yu.
+
+# The Slow Dance [q15-064] (15.0)
+hë ti rënali-ki he?
+sen mi rënali-ki.
+hë ti shira-m shirali-ho he?
+sen mi shira-m shirali-ho.
+zha naru rënawa-m shiroli-yu.
+sen mi shira-m shirali-yu.
+
+# The Painting in the Window [q15-065] (15.0)
+sen mi mërawë-m tika-te.
+hë ti mërawë-m debokhu-te he?
+sen mi mërawë-m nu debokhu-te.
+sen mi dewësha-m debokhu-yu.
+hë ti tikaro-m shiwari-yu he?
+sen mi tikaro-m shiwari-yu.
+
+# A Seed for Tomorrow [q15-066] (15.0)
+sen mi sëru-m hari.
+hë ti tëzhida-m hari he?
+sen mi tëzhida-m hari.
+sen mi kimazu-m tika-te si.
+sen mi sëru-m daru-yu.
+dal mi tëzhida-gu gura-yu.
+
+# The Moon over the Shore [q15-067] (15.0)
+sen mi yela-m tika-te.
+hë ti luguzha-lo nëra-te he?
+sen mi luguzha-lo nëra-te.
+sen mi wëma-m tika-te si.
+wen mi yela-m tika-yu.
+sen mi moru-m shiroli-yu.
+
+# The Shared Bread [q15-068] (15.0)
+hë ti nëpoqo-m hari he?
+sen mi nëpoqo-m hari.
+hë ti nësega-m shëma-yu he?
+sen mi nësega-m shëma-yu.
+sen mi këmarawe-m hari.
+hol mi ti-m holë.
+
+# A Painting without a Name [q15-069] (15.0)
+sen mi tikaro-m debokhu-te.
+hë ti shëno-m hari he?
+sen mi shëno-m hari.
+hë ti tikaro-m shiwari-yu he?
+sen mi tikaro-m nu shiwari-yu.
+nëm mi ti-m ronaro.
+
+# The Door by the River [q15-070] (15.0)
+sen mi tarowa-gu wëli-te.
+hë ti kimaro-m tika-te he?
+sen mi kimaro-m tika-te.
+hë ti raro-m zhëmiro-te he?
+sen mi raro-m zhëmiro-te.
+zha naru naro-gu gura-yu.
+
+# The Fish that Escaped [q15-071] (15.0)
+sen mi kimari-m tika-te.
+hë ti kimari-m hari he?
+sen mi kimari-m nu hari.
+sen mi kimaro-m tika-te si.
+më mi kimari-m nashi.
+nëm mi kimaro-lo nëra-yu.
+
+# The Last Note of Music [q15-072] (15.0)
+sen mi rënawa-m ronaro-te.
+hë ti shira-m shiroli-te he?
+sen mi shira-m shiroli-te.
+sen mi shëru-m nashi.
+sen mi shira-m rërawëmi-yu.
+zha naru rënali-yu.
+
+# A Quiet River Morning [q15-073] (15.0)
+sen mi kimaro-lo nëra-te.
+hë ti shërahi-m tika-te he?
+sen mi shërahi-m tika-te.
+hë ti shira-m ronaro-te he?
+sen mi shira-m ronaro-te.
+nëm mi kimaro-lo nëru-yu.
+
+# The Wind and the Witness [q15t-001] (15.0)
+sen mi yami-lo goro-te.
+sen mi gëru-m tika-te.
+zher mi sa-m nu tika-te.
+sen sa goro-te hu.
+hë ti sa-m tika-te si he?
+sen mi sa-m nu tika-te.
+sen mi shiwaro-m shiroli-te.
+zher sa goro-te ye.
+sen mi shiwaro-m shiwari-yu.
+nëm mi naro-lo nëru-yu.
+
+# A School for Questions [q15t-002] (15.0)
+sen mi qaroshi-m shiri.
+hë ti qaroshi-m shiri he?
+zher mi shëno-m hari.
+hë mi shëno-m sharoa-ho he?
+sen mi shëno-m sharoa-te.
+sen mi ti-m shiroawe-te.
+sen mi shima-m shëliro-te.
+zher mi nu rëmi.
+dal mi rëmi-yu.
+hol mi ti-m holë.
+
+# The Archive of Uncertain Stories [q15t-003] (15.0)
+sen mi shima-m shëliro-te.
+sen mi moru-m hari.
+sen sa goro-te hu.
+zher mi sa-m nu tika-te.
+sen mi shiwaro-m shiroli-te.
+hë ti sa-m tika-te si he?
+zher sa goro-te ye.
+sen mi shiwaro-m nu shiwari-yu.
+sen mi shëno-m sharoa-yu.
+qor mi moru-m daru-yu.
+
+# The Ethics of a Refusal [q15t-004] (15.0)
+hë ti mi-wa goro-yu he?
+sen mi nu goro-yu.
+më mi ti-m nashi.
+sen mi ti-m ronaro.
+hë ti mi-wa nëra-yu he?
+sen mi ti-wa nëra-yu.
+hë ti goro-ki he?
+sen mi goro-ki.
+hë ti goro-ho he?
+sen mi nu goro-ho.
+
+# One Star, Three Meanings [q15t-005] (15.0)
+sen mi sëra-m tika.
+nëm mi yami-lo nëru.
+më mi sëra-m nashi.
+hë ti sëra-m hari he?
+sen mi sëra-m nu hari.
+sen mi moru-m hari.
+zher mi sëra-m tika-yu ye.
+sen mi moru-m shiroli-yu.
+wen mi sëra-m tika-yu.
+nëm mi naro-lo nëru-yu.
+
+# The Machine and the Promise [q15t-006] (15.0)
+sen mi shenaro-m hari.
+sen mi shenaro-m tika-te.
+hë ti shenaro-m rëgë-ki he?
+sen mi shenaro-m rëgë-ki.
+sur mi shërohi.
+sen mi shenaro-m nu rëgë-yu.
+hë ti nëru-yu he?
+nëm mi nëru-yu.
+qor mi shenaro-m rëgë-yu.
+hol mi ti-m holë.
+
+# The Weather Ledger [q15t-007] (15.0)
+sen mi lushënga-m tika-te si.
+sen mi gëru-m nu tika-te.
+hë ti goro-ki he?
+sen mi goro-ki.
+hë ti goro-ho he?
+sen mi nu goro-ho.
+sen mi naro-lo nëra-te.
+sen mi shiwaro-m shiroli-te.
+zher mi yurayaro goro-yu ye.
+qor mi ti-m daru-yu.
+
+# A Careful Translation [q15t-008] (15.0)
+sen mi qaroshi-m shiri.
+sen mi shima-m shëliro-te.
+sen mi shiwaro-m tika-te.
+zher mi shëno-m hari.
+hë ti mi-m shiroawe-ki he?
+sen mi ti-m shiroawe-yu.
+hë ti goro-ki he?
+hë ti goro-ho he?
+sen mi shiwaro-m shiroli-yu.
+dal mi rëmi-yu.
+
+# An Open Door in the Storm [q15t-009] (15.0)
+sen mi yami-lo goro-te.
+sen mi lushënga-m tika-te.
+sur mi shërohi.
+sen mi naro-m nu hari.
+hë mi naro-gu nëra-ho he?
+më ti naro-gu nëra-ho.
+sen mi kima-m këmë-te.
+sen mi naro-lo nëra-te.
+hol mi ti-m holë.
+nëm mi naro-lo nëru-te.
+
+# The Unfinished Book [q15t-010] (15.0)
+sen mi shima-m shiroli-te.
+sen mi shima-m shëliro-te.
+zher mi shëno-m hari.
+hë ti shima-m shëliro-yu he?
+sen mi shima-m nu shiwari-yu.
+sen mi moru-m hari.
+më mi moru-m nashi.
+sen mi shëno-m sharoa-yu.
+dal mi shima-m shiroli-yu.
+nëm mi nëru-yu.
+
+# A Letter Across Distance [q15t-011] (15.0)
+më mi ti-m nashi.
+sen mi ti-tu shiwaro-m shiwari-yu.
+hë ti shiwaro-m shëliro-yu he?
+zher mi naro-gu gura-yu ye.
+sen mi moru-m hari.
+qor mi nënayaro ti-wa nëra-yu.
+më mi ti-m shiroawe-yu.
+sen mi shiwaro-m shiroli-yu.
+hol mi ti-m holë.
+nëm naru nëru-yu.
+
+# The Permission to Wait [q15t-012] (15.0)
+sen mi goro-ki.
+sen mi nu goro-ho.
+sen mi naro-lo nëra-yu.
+sen mi lushënga-m tika-te si.
+hë ti mi-m dëmi-ki he?
+sen mi ti-m dëmi-ki.
+sen mi ti-m ronaro.
+më mi ti-m nashi.
+hol mi ti-m holë.
+nëm mi nëru-yu.

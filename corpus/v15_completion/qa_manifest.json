@@ -1,0 +1,19 @@
+{
+  "canonical_source_files_bytewise_preserved": 29,
+  "all_dialogues": 1000,
+  "separately_drafted_editorial_dialogues": 176,
+  "procedural_dialogue_instances": 824,
+  "all_prose": 205,
+  "separately_drafted_editorial_prose": 35,
+  "procedural_prose_instances": 170,
+  "all_source_language_tokens": 211366,
+  "repeated_sentence_occurrences": 43327,
+  "repeated_sentence_percentage": 90.92,
+  "unique_sentence_forms": 10415,
+  "unique_lexeme_roots": 346,
+  "complex_clause_review_queue": 1988,
+  "translation_variation_groups": 231,
+  "independent_speaker_attestations": 0,
+  "editorial_human_semantic_approvals": 0,
+  "warning": "Raw volume thresholds have been met only by including procedurally composed synthetic examples; the naturalistic independent-authorship goal is not met. A structural pass does not certify this corpus for standardization."
+}

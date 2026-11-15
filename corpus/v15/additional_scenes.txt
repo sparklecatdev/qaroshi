@@ -1,0 +1,176 @@
+# Independently written supplementary Qaroshi scenes: distinct settings, tasks and vocabulary.
+@ The River Marker | landscape | A pathfinder corrects the map after the river changes course.
+A|sen mi kimaro-m tika-te si.|I observed the river myself.
+B|sen mi tëkaro-m shëliro-te.|I read the map.
+A|zher mi tarowa-m nu tika-te.|I did not see the bridge.
+B|sen mi shënu-m zhëmiro-yu.|I will find the road.
+A|hë ti mi-wa wëli-yu he?|Will you walk with me?
+B|dal naru shënu-gu wëli-yu.|We will walk toward the road together.
+
+@ A Blue Flower | botany | The gardener compares a growing flower with a colored drawing.
+A|sen mi yalë-m tika-te.|I saw a flower.
+B|hë ti yalë-m hari he?|Do you have a flower?
+A|sen mi yalë-m nu hari.|I do not have a flower.
+B|sen mi dewësha-m debokhu-yu.|I will paint a drawing.
+A|më mi yalë-m nashi.|I cherish the flower.
+B|sen mi tëzhida-lo nëra-yu.|I will stay in the garden.
+
+@ The Sea Without a Bridge | voyage | Two people choose walking and flying to avoid a difficult crossing.
+A|sen mi wëma-m tika-te.|I saw the sea.
+B|hë ti tarowa-m tika-te he?|Did you see a bridge?
+A|sen mi tarowa-m nu tika-te.|I did not see a bridge.
+B|hë ti goro-ki he?|Can you fly?
+A|sen mi goro-ki.|I can fly.
+B|dal naru luguzha-gu goro-yu.|We will fly toward the shore.
+
+@ The Hungry Cat | animals | A caregiver considers what an animal needs before leaving home.
+A|hë ti zekunga-m tika-te he?|Did you see the cat?
+B|sen mi zekunga-m tika-te si.|I saw the cat myself.
+A|hë ti nësega-m hari he?|Do you have food?
+B|sen mi nësega-m hari.|I have food.
+A|sen mi zekunga-m daru-yu.|I will protect the cat.
+B|nëm mi naro-lo nëra-yu.|I will stay home.
+
+@ Song at the Market | music | An improvising musician chooses music over merchandise.
+A|sen mi qëmogë-lo wëli-te.|I walked at the market.
+B|hë ti rënawa-m hari he?|Do you have music?
+A|sen mi shira-m hari.|I have a song.
+B|hë ti shira-m shirali-ki he?|Can you sing the song?
+A|sen mi shira-m shirali-ki.|I can sing the song.
+B|zha naru rënali-yu.|We will dance together!
+
+@ Leaves in a Storm | nature | A traveler stops to notice fragile leaves before a storm arrives.
+A|sen mi lëruwa-m tika-te.|I saw the tree.
+B|hë ti maru-m tika-te he?|Did you see the leaf?
+A|sen mi maru-m tika-te si.|I saw the leaf myself.
+B|sen mi khimë-m tika-yu.|I will look at the cloud.
+A|zher mi kimazu-m tika-yu ye.|I infer I may see rain.
+B|nëm mi wëru-lo nëra-yu.|I will stay in the forest.
+
+@ A Missing Key | mystery | A missing key prompts a careful search rather than an accusation.
+A|sen mi karoa-m shënami-te.|I lost the key.
+B|hë ti raro-m tika-te he?|Did you see the door?
+A|sen mi raro-m tika-te.|I saw the door.
+B|sen mi karoa-m yarëro-yu.|I will search for the key.
+A|zher mi karoa-m nu zhëmiro-te.|I did not find the key.
+B|qor mi ti-m dëmi-yu.|I will help you.
+
+@ The Early Sunrise | time | The night watch is relieved when the sun rises.
+A|sen mi yami-lo nëra-te.|I stayed during the night.
+B|hë ti lukhela-m tika-te he?|Did you see the sunrise?
+A|sen mi lukhela-m tika-te si.|I saw the sunrise myself.
+B|sen mi sëroa-m tika-yu.|I will look at the sun.
+A|sur mi shërohi.|I am tired.
+B|nëm mi naro-lo nëru-yu.|I will rest at home.
+
+@ Two Colors on a Map | art | The artist discusses the painting's colored details instead of arguing over a label.
+A|sen mi mërawë-m debokhu-te.|I painted the painting.
+B|hë ti tikaro-m tika-te he?|Did you see the picture?
+A|sen mi tikaro-m tika-te.|I saw the picture.
+B|sen mi dewësha-m shiroli-yu.|I will draw a drawing.
+A|më mi mërawë-m nashi.|I cherish the painting.
+B|hol mi ti-m holë.|Thank you.
+
+@ The Forest Path | travel | A trail guide changes course after losing a landmark.
+A|sen mi wëru-lo wëli-te.|I walked in the forest.
+B|hë ti shënu-m zhëmiro-te he?|Did you find the road?
+A|sen mi shënu-m nu zhëmiro-te.|I did not find the road.
+B|sen mi gëru-m tika-te si.|I saw the mountain myself.
+A|sen mi tëkaro-m shëliro-yu.|I will read the map.
+B|dal naru wëru-de gura-yu.|We will travel away from the forest.
+
+@ An Unfinished Song | composition | The composer chooses to finish the music before inviting an audience.
+A|sen mi shira-m shiroli-te.|I wrote a song.
+B|hë ti shira-m shirali-yu he?|Will you sing the song?
+A|zher mi shira-m nu shirali-yu.|I will not sing the song yet.
+B|hë ti shëru-m hari he?|Do you have rhythm?
+A|sen mi shëru-m hari.|I have rhythm.
+B|dal mi shira-m rërawëmi-yu.|I will finish the song.
+
+@ The Cold Room | everyday life | A person explains why they are staying by the fire instead of going outside.
+A|sen mi naro-lo nëra-te.|I stayed home.
+B|hë ti zhalo-m tika-te he?|Did you see the fire?
+A|sen mi zhalo-m tika-te.|I saw the fire.
+B|hë ti khura-m tika-ki he?|Can you see the wind?
+A|zher mi khura-m nu tika-ki.|I cannot see the wind.
+B|nëm mi naro-lo nëru-yu.|I will rest at home.
+
+@ The Slow Dance | community arts | The performers negotiate pace without framing a difference as failure.
+A|hë ti rënali-ki he?|Can you dance?
+B|sen mi rënali-ki.|I can dance.
+A|hë ti shira-m shirali-ho he?|Are you permitted to sing the song?
+B|sen mi shira-m shirali-ho.|I am permitted to sing the song.
+A|zha naru rënawa-m shiroli-yu.|We will write music together!
+B|sen mi shira-m shirali-yu.|I will sing the song.
+
+@ The Painting in the Window | visual art | A curator asks the painter whether a work is ready to be seen.
+A|sen mi mërawë-m tika-te.|I saw the painting.
+B|hë ti mërawë-m debokhu-te he?|Did you paint it?
+A|sen mi mërawë-m nu debokhu-te.|I did not paint it.
+B|sen mi dewësha-m debokhu-yu.|I will paint a drawing.
+A|hë ti tikaro-m shiwari-yu he?|Will you send the picture?
+B|sen mi tikaro-m shiwari-yu.|I will send the picture.
+
+@ A Seed for Tomorrow | gardening | A gardener delays planting until the weather clears.
+A|sen mi sëru-m hari.|I have a seed.
+B|hë ti tëzhida-m hari he?|Do you have a garden?
+A|sen mi tëzhida-m hari.|I have a garden.
+B|sen mi kimazu-m tika-te si.|I witnessed rain.
+A|sen mi sëru-m daru-yu.|I will protect the seed.
+B|dal mi tëzhida-gu gura-yu.|I will travel to the garden.
+
+@ The Moon over the Shore | nature diary | A writer watches the moon and later records the night.
+A|sen mi yela-m tika-te.|I saw the moon.
+B|hë ti luguzha-lo nëra-te he?|Did you stay on the shore?
+A|sen mi luguzha-lo nëra-te.|I stayed on the shore.
+B|sen mi wëma-m tika-te si.|I saw the sea myself.
+A|wen mi yela-m tika-yu.|I will watch the moon with longing.
+B|sen mi moru-m shiroli-yu.|I will write down a memory.
+
+@ The Shared Bread | hospitality | A host checks that everyone has food before the meal.
+A|hë ti nëpoqo-m hari he?|Do you have bread?
+B|sen mi nëpoqo-m hari.|I have bread.
+A|hë ti nësega-m shëma-yu he?|Will you eat food?
+B|sen mi nësega-m shëma-yu.|I will eat food.
+A|sen mi këmarawe-m hari.|I have tea.
+B|hol mi ti-m holë.|Thank you.
+
+@ A Painting without a Name | creativity | An artist rejects the pressure to supply a definitive explanation.
+A|sen mi tikaro-m debokhu-te.|I painted a picture.
+B|hë ti shëno-m hari he?|Do you have a question?
+A|sen mi shëno-m hari.|I have a question.
+B|hë ti tikaro-m shiwari-yu he?|Will you send the picture?
+A|sen mi tikaro-m nu shiwari-yu.|I will not send it.
+B|nëm mi ti-m ronaro.|I hear you.
+
+@ The Door by the River | wayfinding | A child looks for a house after crossing a bridge.
+A|sen mi tarowa-gu wëli-te.|I walked to the bridge.
+B|hë ti kimaro-m tika-te he?|Did you see the river?
+A|sen mi kimaro-m tika-te.|I saw the river.
+B|hë ti raro-m zhëmiro-te he?|Did you find the door?
+A|sen mi raro-m zhëmiro-te.|I found the door.
+B|zha naru naro-gu gura-yu.|We will travel home together!
+
+@ The Fish that Escaped | animal story | A person accepts that the fish is safer in the river.
+A|sen mi kimari-m tika-te.|I saw a fish.
+B|hë ti kimari-m hari he?|Do you have the fish?
+A|sen mi kimari-m nu hari.|I do not have the fish.
+B|sen mi kimaro-m tika-te si.|I witnessed the river myself.
+A|më mi kimari-m nashi.|I cherish the fish.
+B|nëm mi kimaro-lo nëra-yu.|I will remain near the river.
+
+@ The Last Note of Music | performance | Two musicians remember an unfinished performance.
+A|sen mi rënawa-m ronaro-te.|I heard the music.
+B|hë ti shira-m shiroli-te he?|Did you write the song?
+A|sen mi shira-m shiroli-te.|I wrote the song.
+B|sen mi shëru-m nashi.|I cherish the rhythm.
+A|sen mi shira-m rërawëmi-yu.|I will finish the song.
+B|zha naru rënali-yu.|We will dance!
+
+@ A Quiet River Morning | reflection | A traveler chooses to wait and listen before moving on.
+A|sen mi kimaro-lo nëra-te.|I stayed by the river.
+B|hë ti shërahi-m tika-te he?|Did you see a bird?
+A|sen mi shërahi-m tika-te.|I saw a bird.
+B|hë ti shira-m ronaro-te he?|Did you hear a song?
+A|sen mi shira-m ronaro-te.|I heard a song.
+B|nëm mi kimaro-lo nëru-yu.|I will rest beside the river.

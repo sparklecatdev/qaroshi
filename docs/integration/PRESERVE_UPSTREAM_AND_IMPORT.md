@@ -8,11 +8,13 @@ This branch was created **from the live `main` branch**, rather than copying an 
 - `tests/test_release_import.py`: checks canonical path exclusion, traversal/path rejection, preservation of divergent contributor edits, and idempotency.
 - Select versioned editorial review datasets and guides from the 15/16 development work. These **are review drafts, not accepted language standards**.
 
-## The bulk historical source still needed
+## Historical source recovery
 
 Source used: `Qaroshi_16_2_Root_Standardization.zip`, which contains the v15, v15.1, v16, v16.1 and v16.2 versioned data, corpus, tools, docs and tests. A separate downloadable `Qaroshi_GitHub_v15_v16_Missing_Source_Patch.zip` was prepared with **113 versioned source paths**, approximately 73 MB uncompressed / 6.9 MB compressed, excluding canonical and existing 14/17 material.
 
-**That bulk package has not been committed to this pull request.** The branch is an actual partial integration, not a complete source synchronization or release.
+The cumulative v17 archive supplied the same 113 paths covered by the importer's allowlist. All 113 now match that archive byte for byte. The original v16.2 archive and recovery ZIP were not available for an independent checksum comparison. Six historical generated pages needed by the release tests were also restored from v17.
+
+Three provisional CSV transcriptions included an added row-index column. Their records match the archive; the original bytes are restored at their release paths and the transcriptions are preserved under `docs/integration/provisional_csv/`.
 
 ### Safe local import procedure
 
@@ -43,4 +45,4 @@ The 15.1 generated material is heavily repetitive and **not** a naturalistic spe
 
 An externally edited existing file always takes precedence over a historical ZIP when bytes differ. The import tool preserves it and records a conflict. A reviewer may later merge specific differences deliberately, with provenance, tests and an explicit decision. This is essential because the live repository has changes beyond the archived releases.
 
-**Do not mark this PR complete until the remaining source paths are pushed and tests pass on the GitHub branch.**
+The original v16.2 archive or recovery ZIP can still be checked with the importer to independently verify historical byte parity.

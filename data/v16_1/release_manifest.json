@@ -1,0 +1,63 @@
+{
+  "canonical_sha256": "39cfe975107d052c6fad648956a83895edb51824279f344e28c467b8f3c3d940",
+  "headwords_audited": 16525,
+  "count_by_status": {
+    "no_documented_derivation": 5966,
+    "primary_gloss_candidate": 2662,
+    "semantic_anchors_only": 7749,
+    "secondary_sense_candidate": 146,
+    "preexisting_compoundlike_headword": 2
+  },
+  "headwords_by_pos": {
+    "conj": 11,
+    "adv": 302,
+    "n": 10851,
+    "adj": 1596,
+    "v": 3517,
+    "intj": 178,
+    "register": 16,
+    "num": 9,
+    "det": 8,
+    "part": 21,
+    "qword": 9,
+    "pron": 7
+  },
+  "exact_split_proposal_rows": 3817,
+  "headwords_with_any_exact_split": 2808,
+  "existing_headwords_matching_two_component_spellings": 2,
+  "primary_gloss_candidates": 2662,
+  "secondary_sense_candidates": 146,
+  "original_canonical_words_renamed": 0,
+  "editorially_approved_new_spellings": 0,
+  "function_words_reviewed_here": 0,
+  "learning_core_rows": 1200,
+  "qualifications": [
+    "Existing headword spellings and meanings have not changed.",
+    "Exact English gloss splits suggest optional synonyms/paraphrases, not canonical equivalences.",
+    "Split terms found in secondary dictionary glosses may have different connotations; they are flagged separately.",
+    "A headword without a proposal is not necessarily meaningless or impossible to derive historically.",
+    "No newly proposed word form is labeled an attested utterance or speaker-approved lexical form.",
+    "Cross-POS suffix derivation has not been invented. Grammatical morphology remains separate.",
+    "The priority score is a reproducible heuristic, not proven ease of language acquisition.",
+    "Two existing headwords coincidentally or intentionally match component spellings; these have no new proposed form.",
+    "No data generated here licenses a full-scale breaking rename of canonical reference material."
+  ],
+  "release_name": "Qaroshi 16.1 Root Reform Studio",
+  "release_status": "editorial not ratified",
+  "baseline_preservation": 29,
+  "reference_grammar_chapters": 90,
+  "obligatory_resonance_markers": 16,
+  "native_glyph_count": 26,
+  "reference_examples_preserved": 4383,
+  "canonical_dictionary_entries": 30000,
+  "release_files_to_check": [
+    "Qaroshi_16_1_Root_Reform_Studio.html",
+    "data/v16_1/headword_learnability_audit_16525.csv",
+    "data/v16_1/strict_modifier_head_candidates.csv",
+    "data/v16_1/root_gap_priorities.csv"
+  ],
+  "python_tests_ran": 883,
+  "python_tests_expected_font_skip": 1,
+  "browser_desktop_mobile_checks": 42,
+  "browser_page_errors": 0
+}

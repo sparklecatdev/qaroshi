@@ -1,0 +1,27 @@
+source_headword,source_english,draft_modifier,modifier_english,new_root_proposal,draft_compositional_paraphrase,candidate_not_standard,validation,human_review
+khatide,loyalty card,kedeba,loyalty,mashëwo,kedebamashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+qëbëwe,gift card,mëraho,gift; freely offered item,mashëwo,mërahomashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+requngo,fare card,remizo,fare,mashëwo,remizomashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+sebëngo,debit card,zozëngu,debit,mashëwo,zozëngumashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+sekuna,payment card,sezaha,payment,mashëwo,sezahamashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+setësa,credit card,mayaqo,credit,mashëwo,mayaqomashëwo,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+qizhepo,legal signature,yushëkë,legal,tëwaya,yushëkëtëwaya,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+qoroqa,petition signature,qipungo,petition,tëwaya,qipungotëwaya,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zukuza,shared context,qodudose,shared,leshëro,qodudoseleshëro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zuzhaho,background context,dedopo,background,leshëro,dedopoleshëro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zuzhomo,historical context,ngetushëshe,historical,leshëro,ngetushësheleshëro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+tisila,sampling bias,bizhëde,sampling,bëgawiro,bizhëdebëgawiro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+titada,publication bias,nehuzu,publication,bëgawiro,nehuzubëgawiro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+yarohë,response bias,rënoa,answer; response,bëgawiro,rënoabëgawiro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zimuza,measurement bias,rëmëra,measurement; measured value,bëgawiro,rëmërabëgawiro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zirozo,reporting bias,zhipeqoko,reporting,bëgawiro,zhipeqokobëgawiro,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+sheteto,correction note,ngiqana,correction,shinëmora,ngiqanashinëmora,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+shimoyo,dialect note,ngikhango,dialect,shinëmora,ngikhangoshinëmora,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+shëpuna,release note,gëdezhi,release,shinëmora,gëdezhishinëmora,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+rëgëga,compressor threshold,beroto,compressor,gakënu,berotogakënu,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+tingiko,statistical significance threshold,zomopo,statistical significance,gakënu,zomopogakënu,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zigëma,p-value threshold,zomibo,p-value,gakënu,zomibogakënu,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+zupiwa,decision threshold,zhirëba,decision,gakënu,zhirëbagakënu,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+kaqiqe,accessibility notice,gulato,accessibility,pulëma,gulatopulëma,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+neyaqi,legal notice,yushëkë,legal,pulëma,yushëkëpulëma,true,spelling and English-gloss components only; no independent meaning acceptance,pending
+shegëzo,moderation notice,biqedumë,moderation,pulëma,biqedumëpulëma,true,spelling and English-gloss components only; no independent meaning acceptance,pending

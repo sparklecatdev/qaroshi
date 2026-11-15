@@ -1,0 +1,110 @@
+{
+  "unique_missing_english_concept_gaps": 2925,
+  "missing_heads": 1477,
+  "missing_modifiers": 1448,
+  "gaps_affecting_3_or_more_headwords": 176,
+  "top_20": [
+    {
+      "english": "sexual",
+      "role": "missing_modifier",
+      "headwords": 23
+    },
+    {
+      "english": "call",
+      "role": "missing_noun_head",
+      "headwords": 16
+    },
+    {
+      "english": "self",
+      "role": "missing_modifier",
+      "headwords": 16
+    },
+    {
+      "english": "cycle",
+      "role": "missing_noun_head",
+      "headwords": 10
+    },
+    {
+      "english": "aid",
+      "role": "missing_noun_head",
+      "headwords": 9
+    },
+    {
+      "english": "card",
+      "role": "missing_noun_head",
+      "headwords": 8
+    },
+    {
+      "english": "bias",
+      "role": "missing_noun_head",
+      "headwords": 7
+    },
+    {
+      "english": "clearance",
+      "role": "missing_noun_head",
+      "headwords": 7
+    },
+    {
+      "english": "note",
+      "role": "missing_noun_head",
+      "headwords": 7
+    },
+    {
+      "english": "signature",
+      "role": "missing_noun_head",
+      "headwords": 7
+    },
+    {
+      "english": "allocation",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "approval",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "attempt",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "crossing",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "greeting",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "marker",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "stain",
+      "role": "missing_noun_head",
+      "headwords": 6
+    },
+    {
+      "english": "adjustment",
+      "role": "missing_noun_head",
+      "headwords": 5
+    },
+    {
+      "english": "break",
+      "role": "missing_noun_head",
+      "headwords": 5
+    },
+    {
+      "english": "computing",
+      "role": "missing_noun_head",
+      "headwords": 5
+    }
+  ],
+  "new_qaroshi_roots_coinages": 0,
+  "interpretation": "English missing-component concepts are candidate semantic gaps, not proof no suitable Qaroshi synonym exists."
+}
