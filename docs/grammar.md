@@ -1,11 +1,10 @@
-# Qaroshi: Comprehensive Grammar • Standard Reference 2.0
+# Qaroshi — Complete Grammar
 
-**Language:** Qaroshi (`qaroshi`, “Nardoragon voice”)  
-**Native writing:** the 26 Nardoragon glyphs in the accompanying chart  
-**Reference spelling:** Romanized Qaroshi, used here because it is easy to type and search  
-**Standard:** general modern written Qaroshi; regional voice styles may differ
+Unified Standard Reference 4.1
 
-> **The governing rule:** Every complete Qaroshi sentence begins with exactly one written resonance marker. The marker is grammatical, including in text messages. No default or silent register exists.
+**70 integrated chapters · 26 native letters · 16 mandatory written resonance markers**
+
+This is one continuous grammar reference. Chapter numbers are stable for wiki linking.
 
 ## 1. Writing and sound
 
@@ -355,7 +354,7 @@ Examples:
 
 ---
 
-# PART II — ADVANCED STANDARD REFERENCE 2.0
+# PART II — ADVANCED GRAMMAR
 
 The following sections extend, rather than replace, the preceding standard. Where this document distinguishes **mandatory** from **optional**, that distinction is grammatical. A resonance marker remains obligatory at the beginning of every independent sentence even in email, code comments, legal text, lists, and chat. Labels, fragments, isolated dictionary forms, addresses, headings and code tokens are not full sentences and need no register.
 
@@ -445,7 +444,7 @@ An optional clause-final evidential marks how the **outer speaker** knows the cl
 
 ## 26. Additional noun and derivational structures
 
-The 2.0 standard adds one spatial case and several derivational patterns:
+The grammar includes one spatial case and several derivational patterns:
 
 | Form | Category | Function | Template |
 |---|---|---|---|
@@ -457,7 +456,7 @@ The 2.0 standard adds one spatial case and several derivational patterns:
 
 A case ending is chosen from a mutually exclusive slot: `-m`, `-na`, `-lo`, `-gu`, `-de`, `-wa`, `-tu`, `-shi`, or **`-nga`**. The endearment/diminutive `-lë` is not a case, and the topic `-së` can be outermost. Thus `mara-lë-ri-nga` is a possible noun phrase (“through/along the dear friends”) if the intended traversal interpretation is coherent, but `mara-lo-nga` has competing cases and is not ordinary Qaroshi.
 
-Do not treat **derivation** as **inflection**. Inflection changes grammatical function (e.g. `-ri` plural; `-te` past), while derivation creates a lexeme with a predictable general meaning. A specialized lexeme can differ from its compositional meaning if the lexicon documents it. The 2.0 candidate vocabulary explicitly distinguishes transparent compounds from atomic headwords.
+Do not treat **derivation** as **inflection**. Inflection changes grammatical function (e.g. `-ri` plural; `-te` past), while derivation creates a lexeme with a predictable general meaning. A specialized lexeme can differ from its compositional meaning if the lexicon documents it. The dictionary explicitly distinguishes transparent compounds from atomic headwords.
 
 ## 27. Verbal semantics, modality and temporal interpretation
 
@@ -505,8 +504,6 @@ ISO 8601 dates (`2026-11-14`) and 24-hour times (`19:46`) are permitted as techn
 
 ## 33. Modern vocabulary, semantics and loanwords
 
-The expanded lexicon includes law, money, computer hardware, networking, social media, abstract reasoning, public health, transportation, arts, the sciences, everyday living, and Nardoragon-specific flight life. All 853 Standard Reference 1.0 entries remain unchanged. New Edition 2.0 lexical items are marked `candidate` when their English sense has been editorially specified but still requires attested usage, speaker review, and nuance checking. Core grammatical forms are marked `standardized`. **Dictionary volume is not proof of native-like parity.** Terminology can be extensive while idioms, pragmatics, polysemy and natural usage remain incomplete.
-
 A glossary entry documents **one intended sense**, not every possible English meaning of a spelling. For instance, financial `interest (finance)` and general `interest (curiosity)` are different senses and may require separate Qaroshi headwords. Compound terms are head-final (modifier then head) and the lexicon notes constituent analysis where documented. A special compound meaning must be treated as a convention, not mechanically derived from English spelling.
 
 Formal translation should prefer an unambiguous gloss, retain grammatical register, preserve negation and quantifier scope, and tag unsupported idioms rather than silently improvising. Modern acronyms, product names, usernames, file paths and code literals can be preserved as **quoted foreign text**, which is not interpreted by the Qaroshi word parser. Foreign passages do not require a Qaroshi resonance unless they are themselves complete Qaroshi sentences.
@@ -517,7 +514,7 @@ Every complete sentence in a Qaroshi article, chat message, subtitle or formal l
 
 A validator may reliably check: legal graphemes, recognized resonance markers, duplicate headwords, suffix order, basic sentence openings, case conflicts, and malformed question endings. **It cannot guarantee meaning**, factual truth, idiomaticity, or a complete parse of unrestricted text. For example, knowing that `ti` and `haro` are dictionary words is not sufficient to determine every possible subordinate-clause attachment. Conscientious manual review is required for literary and legal translation.
 
-## 35. Standard appendix: 2.0 grammatical vocabulary
+## 35. Standard grammatical vocabulary
 
 | Form | Function | Specific rule |
 |---|---|---|
@@ -546,4 +543,405 @@ A validator may reliably check: legal graphemes, recognized resonance markers, d
 | `pëlë` | deferential please | request softener; no gender inference |
 | `keho` | respect address | precedes addressed name/kin term |
 
-**Conservative use principle:** If an advanced construction could be interpreted in several different ways, favor an additional clear clause over an untested stack of affixes or particles. The main function of Standard Reference 2.0 is expressive precision rather than maximum morphological density.
+**Conservative use principle:** If an advanced construction could be interpreted in several different ways, favor an additional clear clause over an untested stack of affixes or particles. The main function of the Qaroshi reference is expressive precision rather than maximum morphological density.
+
+## 36. The principle of layered meaning
+
+Every independent Qaroshi sentence expresses several separable dimensions:
+
+1. **Resonance**: how the speaker wants the full sentence to be received emotionally and socially (required).
+2. **Proposition**: the event, action, state or relationship being asserted, denied, questioned or requested.
+3. **Time and viewpoint**: reference time and temporal unfolding, with the existing tense/aspect suffixes and optional preverbal operators.
+4. **Information structure**: topic, focus, alternatives and numerical scope.
+5. **Provenance**: witnessed, reported, recalled, measured, inferred or sourced from a document.
+6. **Confidence**: how sure the speaker is, distinguished from how the proposition was learned.
+7. **Speech act**: assertion, question, instruction, request, wish, refusal, quotation or negotiation.
+
+These dimensions are **not interchangeable**. An affectionate `më` sentence is not automatically true; a serious `qor` sentence is not automatically a promise; a high-confidence claim is not necessarily witnessed; a request does not establish consent. For example, `më ti lësha.` and `zha ti lësha!` have identical propositional content but different written resonances.
+
+### One-sentence ordering diagram
+
+```text
+RESONANCE
+  [one discourse/translation stance]
+  [topic]
+  SUBJECT  [object-m] [other case phrases] [bound number expressions]
+  [preverb aspect/continuation] [nu]
+  PREDICATE(-voice-tense-aspect-modal-manner)
+  [mirative] [one evidential] [one confidence particle] [he / ya / other act final]
+```
+
+This is a template, not a mechanical guarantee that all conceivable word sequences have a valid interpretation. Clause-level subordinate connectors may introduce an additional predicate; each finite predicate keeps its local argument and postpredicate material. The opening resonance governs the entire sentence until the next sentence boundary.
+
+## 37. Temporal overlap, immediate succession, precaution and purpose
+
+The established subordinators `wë` (“if”), `wënu` (counterfactual “if”), `ko` (“so that”), `ro` (“because”), `yaro` (“when”), `tara` (“until”), `dasha` (“even if”) and `shoru` (“unless”) remain unchanged. Additional connectors distinguish:
+
+| Connector | Interpretation | What it does **not** imply |
+|---|---|---|
+| `tëwaro` | while / during the time that | neither event must cause the other |
+| `huwë` | immediately after / as soon as | no long interval is assumed |
+| `bëna` | as long as / throughout the relevant condition | not identical to one-time hypothetical `wë` |
+| `kheso` | in case, as a precaution | anticipated event has not necessarily happened |
+| `qësu` | rather than an alternative clause | alternatives need not be mutually impossible |
+| `ngësha` | instead of a planned action | the skipped action is not said to occur |
+| `tërashi` | as a result of a causal circumstance | no speaker intention or purpose required |
+| `dëshu` | even though, contrary to expectation | does not negate the concession's event |
+| `zuwë` | so that an unwanted outcome will not occur | not a guarantee of success |
+| `hëshu` | whether or not, covering both alternatives | no commitment to which alternative is true |
+
+Examples:
+
+- `sen tëwaro mi nëru, ti shiri.`: “While I rest, you speak.” Two actions overlap; the sentence has **only one** `sen`.
+- `sen huwë mi nëru-mo, mi shiri-yu.`: “As soon as I finish resting, I will speak.” Completion is expressed by old suffix `-mo` and future by `-yu`.
+- `sen bëna mi haro, mi goro-yu.`: “As long as I am well, I will fly.” Continued condition, not a counterfactual assumption.
+- `sen kheso sa goro-yu, mi naro-lo nëra-yu.`: “In case they fly, I will stay at home.” Preparing for an event does not assert it.
+- `sen zuwë ti nu zëru, mi ti-m daru-yu.`: “I will protect you so that you do not die.” The negative purpose clause has an ordinary preverbal `nu`.
+- `sen hëshu ti goro-yu, mi naro-lo nëra-yu.`: “Whether or not you fly, I will stay at home.” The condition covers both possible outcomes.
+
+### Real vs counterfactual vs optative
+
+`wë` leaves the truth of a condition open. `wënu` signals that the condition is contrary to the speaker's chosen reference world, and `qinë` flags the consequent as counterfactual. Neither should be used merely for a polite ordinary question. `yëmë` continues to express a wish or blessing without imposing an obligation.
+
+## 38. Event phases beyond suffix aspect
+
+The aspect suffixes are: `-se` ongoing, `-mo` completed, `-në` habitual. Separate **preverbal particles** provide finer viewpoint distinctions:
+
+| Particle | Semantic scope | Position |
+|---|---|---|
+| `wëshi` | imminent, about to happen | before predicate |
+| `shëtë` | recently completed / just finished | before predicate, ordinarily with past `-te` |
+| `zhoro` | still underway | before predicate, may combine with progressive `-se` |
+| `mënoro` | not yet occurred by reference point | directly before `nu` + predicate |
+| `nësha` | no longer occurs after earlier positive period | directly before `nu` + predicate |
+
+These particles occupy **one event-phase slot**, so two such particles cannot be stacked on one predicate. They do not introduce a new tense or resonance. The following contrasts are important:
+
+- `sen mi bozaga-m wëshi koniri.`: “I am about to review a threat model.” (Imminence does not promise completion.)
+- `sen mi bozaga-m shëtë koniri-te.`: “I just finished reviewing a threat model.” (Recent completion, past reference.)
+- `sen mi bozaga-m zhoro koniri-se.`: “I am still reviewing a threat model.” (Continuative event.)
+- `sen mi bozaga-m mënoro nu koniri.`: “I have not reviewed the threat model yet.” (Non-occurrence so far, later review is possible.)
+- `sen mi bozaga-m nësha nu koniri.`: “I no longer review the threat model.” (Ceased practice, not merely delayed.)
+
+These words do not replace existing temporal adverbs `sëna` (“always/forever”), `nëna` (“now”), or the morphological past and future. Tense and phase together establish temporal perspective.
+
+## 39. Focus scope and quantitative precision
+
+Qaroshi uses `rëshi` for contrastive focus and `gawo` / `nashu` for “both” and group-level quantification. Additional forms include:
+
+- `ngëshi`: “only”; directly follows the **focused constituent**.
+- `bëso`: “also”; follows a constituent added to the understood alternatives.
+- `tëmiri`: “even”; follows an unexpected member of the comparison set.
+- `qësho`: “at least”; comes immediately before a following numeral.
+- `rëshu`: “at most”; comes immediately before a following numeral.
+- `nëmi`: “exactly”; comes immediately before a following numeral.
+
+**Preserve noun–numeral order.** The ordinary phrase is `qaro po` (“two Nardoragons”), not `po qaro`. With a bound, the form is `qaro-ri qësho po` (“at least two Nardoragons”): noun, optional plural, bound particle, numeral. No new numeral glyphs or numeric bases are introduced.
+
+- `sen dëna qaro ngëshi haro.`: “Only this Nardoragon is well.”
+- `sen dëna qaro bëso haro.`: “This Nardoragon is also well.”
+- `sen dëna qaro tëmiri haro.`: “Even this Nardoragon is well.”
+- `sen qaro-ri qësho po goro.`: “At least two Nardoragons fly.”
+- `sen qaro-ri rëshu po goro.`: “At most two Nardoragons fly.”
+- `sen qaro-ri nëmi po goro.`: “Exactly two Nardoragons fly.”
+
+A negation such as `nu` interacts with focus. If the intended reading is “it is not the case that **only** X ...”, the speaker should use clear clause segmentation or reword instead of relying on a potentially ambiguous single-sentence order. A translator must preserve the intended alternative set, not guess it.
+
+## 40. Evidence, surprise and confidence are separate
+
+The prior evidentials remain `si` (direct witness), `hu` (reported) and `ye` (inferred), with `lëshu` (customary knowledge). More specific evidence markers are:
+
+| Particle | Source type | Contrast |
+|---|---|---|
+| `shëku` | directly remembered experience | retrospective memory rather than ongoing direct perception `si` |
+| `wërusha` | calibrated instrument, observation record or computation | measurement rather than naked inference `ye` |
+| `rëhu` | written document / archive | narrower than broad reported `hu` |
+
+At most **one evidential** occurs per finite clause. Two independent pieces of evidence should be communicated in two clauses or explicitly described with source nouns, not by piling evidentials onto a single verb.
+
+The **mirative** `yëqo` marks an unexpected discovery and occurs *before* an optional evidential. It does not tell the reader what the source was. `sëki` (“tentatively asserted; low confidence”) and `qëru` (“high confidence, short of certainty”) occur *after* an evidential, at most one per clause. Do not confuse `qëru` with absolute proof or `sëki` with lack of evidence.
+
+Recommended postpredicate order: `PREDICATE — [yëqo] — [one evidential] — [sëki or qëru] — [question/act final]`.
+
+- `sen sa goro-te shëku.` “I remember witnessing that they flew.”
+- `sen sa goro-te wërusha.` “Measurements indicate that they flew.”
+- `sen sa goro-te rëhu.` “An archival source says they flew.”
+- `yë sa goro-te yëqo si.` “Surprisingly, I witnessed them fly.”
+- `zher sa goro-te ye sëki.` “They may have flown, but I am not confident.”
+- `sen sa goro-te si qëru.` “I witnessed their flight, and I am highly confident.”
+
+A legal or scientific translation must distinguish direct observation, citation of a prior study, an instrument reading, and statistical inference. If a source statement does not warrant the evidential's meaning, choose a broader form or use no evidential.
+
+## 41. Typed discourse stances and conversational repair
+
+A **stance particle** may follow the mandatory resonance and precede the topic or main subject. They are optional, and **not additional resonances**. When several could apply, write separate sentences rather than stacking opaque intentions. Stance is an interpretive cue, not a claim of universal permission.
+
+| Particle | Discourse function |
+|---|---|
+| `shëmoshi` | an approximate translation is being supplied |
+| `hëra` | the speaker is paraphrasing rather than quoting verbatim |
+| `rëmëlo` | the speaker claims to represent a group *by agreement* |
+| `pënu` | checking permission before approaching sensitive subject |
+| `nëto` | gentle refusal without shame or explanation owed |
+| `qëlo` | repair of an earlier mishearing |
+| `tëshi` | the discussion is shifting to a new topic |
+| `yëmiri` | the proposal remains open, not a final agreement |
+| `bëshi` | speaker explicitly declines expert authority |
+| `shërawono` | acceptance depends on the condition in this sentence |
+| `hëwo` | seeks clarification, not agreement/consent |
+| `mëri` | opt-in emotional check-in |
+| `pëshu` | pressure-free invitation or request; no obligation implied |
+
+Examples:
+
+- `hë hëwo ti haro he?` “Are you well? I am asking for clarification.”
+- `më pëshu mi ti-m nashi.` “I cherish you, without demanding reciprocation.”
+- `nëm nëto mi nu shiri.` “I prefer not to speak.”
+- `sen hëra mi qaroshi-m shiri.` “I am paraphrasing in Qaroshi.”
+- `qor rëmëlo naru qaro-ri-m daru-yu.` “By the group's agreement, we will protect the Nardoragons.”
+
+Important ethical distinction: **a resonance cannot override consent or a refusal**. A response using `nëto` does not mean “convince me,” just as `më` does not necessarily imply romance. In interpreting real messages, the explicit semantic content outranks assumptions about speaker intentions.
+
+## 42. Reference, person and shared membership
+
+`mi`, `ti`, `sa`, `naru`, `muru`, `tiri`, and `sari` retain their the reference meanings. The inclusive/exclusive first-person plural contrast is especially important in cross-group cooperation: `naru` includes the addressee and `muru` excludes them. No pronoun marks gender or sexuality. Kinship, chosen family, individual identity, and legal relationship are all lexical matters, not forced pronoun distinctions.
+
+A singular Nardoragon's name does not change the meaning of `sa`; use lexical references to disambiguate multiple participants. Use `-na` for possession, `-tu` for a recipient, and `-wa` for companionship. In sentences such as `më mi ti-wa nëra-yu.`, `ti-wa` says **with you**, not ownership of you. Pronouns in borrowed material should be interpreted in their original context before translation.
+
+## 43. Distinguishing refusals, invitations and commitments
+
+A request normally closes with `ya` and may use polite `pëla`. A question normally closes with `he`. In either case, an emotional or deferential resonance does not create a hidden obligation. A direct statement of a promise should state its action and conditions clearly rather than presuming that `qor` by itself is a contractual commitment. `nëto` can soften a refusal, but the refusal remains valid. `pëshu` explicitly rejects the assumption that a friendly invitation requires reciprocation.
+
+For agreement with limitations, state those limitations using `wë` or `bëna`, optionally beginning with stance `shërawono`. Formal agreements must still identify parties, scope, times, enforcement conditions and whether the commitment is revocable. Literal interpretations matter most for agreements involving resources, bodies, consent, or residence.
+
+## 44. Nardoragon cultural and physical vocabulary
+
+The expanded lexicon makes finer distinctions between *roost*, *nursery*, *clutchmate*, *roostmate*, *flight mentor*, *apprentice*, *shared flight plan*, *safe landing signal*, *molt season*, *assisted first flight*, *communal lookout*, and *protected nesting area*. These are named experiences and practices, not grammatical gender classes. Terms such as *mournful flight* and *hatchling comfort call* can be used literally or as culturally meaningful expressions depending on context.
+
+Qaroshi does not assign moral value to wing length, scale pattern, first-flight age, nesting structure, or other biological variation. Describing ability should distinguish *physical capacity*, *permission*, *safety conditions* and *social custom*: `-ki` means able, `-ho` means permitted, `-du` means required. The terms are not substitutes for one another.
+
+## 45. Contemporary science, computing and AI terminology
+
+Specialized words are recorded under distinct senses even when an English spelling is ambiguous. For example, **privacy** in ethics, **data privacy** in computing, and **privacy policy** as a document are not identical words. Technical concepts added include *prompt injection*, *differential privacy*, *local inference*, *inference latency*, *hardware security keys*, *cryptographic signatures*, *aerodynamics*, *clinical uncertainty*, *causal inference*, *statistical power*, and *stellar parallax*. The dictionary marks their English semantic scopes explicitly.
+
+Reference terms do not automatically denote an exact model/product/brand. Proper names, API tokens, formulas, code, usernames, and unique identifiers can remain quoted foreign strings. No machine tool should automatically replace them by approximate Qaroshi sounds. A formal paper can retain internationally recognized decimal numerals, ISO dates, and scientific notation as *technical symbols* without adding letters to the 26 native-letter inventory.
+
+## 46. Complex written documents
+
+A full sentence starts with exactly one resonance marker, even in text chat, academic writing, captions, subtitles, UI copy or official correspondence. A label without a finite predicate (e.g. "Date", "Table 1", or a two-word heading) is a **fragment** and may omit resonance. Directly quoted **complete Qaroshi sentences** have their own resonance because they are independent utterances. Subordinate clauses introduced by `ko`, `wë`, `ro`, `tëwaro`, etc. inherit the enclosing resonance; do **not** place a fresh resonance at every comma.
+
+One consequence is that strings with foreign material need a tokenizer that distinguishes quoted literal segments from regular Qaroshi sentences. Technical acronyms in a code block are not native 26-glyph Qaroshi lexemes. UTF-8 must be preserved, especially the six-way vowel inventory and the letter `ë`.
+
+## 47. Dictionary organization and lexical categories
+
+Qaroshi headwords are grouped by semantic domain and part of speech, with one principal English definition for each entry. Compounds preserve their documented components, while single-root terms are listed as independent headwords. The English index can point to the same Qaroshi entry under several senses.
+
+The complete dictionary is a unified reference. Its stable IDs distinguish entries even when their concepts share a broad English meaning. New vocabulary may enter later editions by extending the dictionary without redefining existing entries silently.
+
+## 48. Direction for a spoken Qaroshi corpus
+
+A strong next step is collecting community-reviewed utterances in real scenarios: apologies and boundary repair, formal petitions, technical documentation, emergency flight calls, stories and songs, affection across different relationships, and ordinary chores. Track the sentence, resonance, speaker-intended meaning, word segmentation, lexical senses, regional voice style, and reviewer notes. Where several natural phrasings compete, document them instead of silently overwriting one with another. Versioned changes should preserve prior attested usage and make semantic drift visible.
+
+## 49. Productive word formation and derivational boundaries
+
+The 2.0 word-formation system remains valid, including `-mi` agent, `-ma` action noun, `-ra` associated place, `-rë` abstract quality, `-no` group, `-wë` taxonomic subtype, `-këlë` tool, `-rëma` event token, and `-sharo` professional specialist. Four additional **transparent derivations** are:
+
+| Derivation | Root category → result | Compositional meaning | Example |
+|---|---|---|---|
+| `-dëno` | verb → noun | place or setting of an action | `shiri-dëno`: speaking venue |
+| `-nëro` | verb → noun | result of an action | `shiri-nëro`: a speech product |
+| `-khëno` | noun → noun | coordinated system of items or people | `mara-khëno`: organized friendship network |
+| `-zëma` | verb → noun | trace or evidence that an action happened | `goro-zëma`: a trace of flight |
+
+These are **derivational**, not verb conjugations and not replacements for noun cases. A derived form is built from one recognized root and one documented derivational ending. Its reading is transparently compositional until a distinct conventional sense is recorded and independently reviewed. A productive derivation does not automatically become a new headword; the lexicon lists conventional forms separately.
+
+Rule priority in parsing: look for an **exact dictionary headword first**, then try the known, hyphen-separated teaching morphology, then offer compositional analysis. Do not strip a suffix from a legitimate dictionary root simply because its final letters happen to resemble a derivation. This guards against accidental semantic collisions.
+
+## 50. Reference interchange and stable identifiers
+
+Standard Qaroshi reference data is distributed as Unicode-normalized UTF-8 CSV and JSON. Every dictionary entry has a stable identifier, headword, word class, English gloss and semantic domain.
+
+Romanized forms are normalized to NFC. Native-script letter conversion treats `sh`, `zh`, `kh` and `ng` as indivisible letters. Corpus records use stable sentence identifiers and each complete Qaroshi sentence begins with a written resonance marker.
+
+When maintaining the reference, preserve prior lexical spellings and document any true corrections in the release notes.
+
+## 51. Typed resonance and the discourse layer
+
+Every independent sentence opens with exactly **one** resonance marker. The same 16 markers remain mandatory: `më zha qor sen hë lën sur rak khar yë nëm wen dal rëm hol zher`. An independent sentence cannot have a blank or inferred register even in short messages. For a message with multiple complete sentences, repeat the marker on each sentence.
+
+Qaroshi has an **optional discourse frame slot directly after resonance**, usually one marker. Its function is to clarify whether a sentence quotes, corrects, summarizes or speaks from a given perspective. A discourse frame **does not replace** resonance and **does not change the truth of an assertion**.
+
+`më qëmari ti lësha.` = From my affectionate perspective, you're cute.
+
+`sen dënaro mi ti-m daru-yu.` = Correction: I will protect you.
+
+Core order: `RESONANCE [FRAME] [TOPIC] [CLAUSE...] [EVIDENCE] [CONFIDENCE] [QUESTION/REQUEST END]`.
+
+## 52. Verbatim quotations and paraphrases
+
+`qëhano` frames the following words as a **direct quotation**. `wëlëmi` frames them as a **paraphrase**. The speaker must not combine both on the same reported span. Quoted material is not necessarily endorsed by the quoting speaker. If a verbatim quoted passage is a complete Qaroshi sentence, that quoted sentence retains its own resonance marker in the citation. Quoted **fragments** do not require one.
+
+`sen qëhano mi ti-m nashi.` = Exact words follow: “I deeply cherish you.” (Fragment display.)
+
+`sen wëlëmi mi ti-m nashi.` = Paraphrased: the speaker deeply cherishes you.
+
+The Latin quotation marks `« »` are optional editorial punctuation, not two new glyph letters.
+
+## 53. Explicit correction and repair
+
+`dënaro` means *I correct my preceding claim*. The next clause supersedes the relevant earlier statement; the corrected proposition does not magically erase the earlier message. In continuous discourse the corrected content should be as specific as possible. `heshë` in the reference marks a correction of **misheard words**; `dënaro` is a correction of the **speaker's prior statement**, so the two are not interchangeable.
+
+`sen dënaro mi ti-m daru-yu.` = Correction: I will protect you.
+
+A new independent correction sentence still begins with its own resonance marker, even when it follows another marked sentence immediately.
+
+## 54. Open questions and nonfinal assertions
+
+`shurëmi` says the issue remains **unresolved**. It does not mean “maybe yes” or “maybe no,” and it is distinct from the speaker being personally doubtful (`zher` resonance). The particle is appropriate in research, mediation, and uncertain planning.
+
+`zher shurëmi sa haro.` = It remains unresolved whether they are well.
+
+For a literal question use final `he` when applicable. Do not treat `shurëmi` as question punctuation.
+
+## 55. Assertive force, evidence, and withheld sources
+
+`lëhona` marks **emphasis only**. It increases force, never certainty. `tënarë` announces a source **withheld for privacy**, not an independently verified source. Retain `si` (witnessed), `hu` (reported), `ye` (inferred), and the more specific evidentials where supported. The optional frames cannot upgrade a statement's evidence.
+
+`qor lëhona mi ti-m daru-yu.` = Emphatically, I will protect you.
+
+`sen tënarë sa goro-te hu.` = According to an unidentified report, they flew.
+
+A source-withheld marker is not a citation and should never be used to invent or conceal evidence.
+
+## 56. Fiction, simulation, and counter-to-expectation frames
+
+`gëmano` signals **fictional or simulated** scope. A proposition within this scope is not an assertion about the real world. `zënare` marks that an actual or claimed event **contradicts earlier expectations**; it does not by itself encode who expected what. `yë` remains the *felt surprise* resonance.
+
+`sen gëmano mi goro-ki.` = In a simulated scenario, I can fly.
+
+`yë zënare sa goro-te si.` = Surprisingly, against expectation, I saw them fly.
+
+The `wënu` counterfactual conditional from the reference remains distinct: it relates unreal conditions to consequences.
+
+## 57. Source perspective, self-perspective, and other viewpoints
+
+`qëmari` locates the statement in the **speaker's own perspective**, especially useful in opinion, aesthetics and emotional interpretation. `bëlaro` attributes a **viewpoint to someone else**, without implying agreement. The reported person or source should be identified from context or a neighboring clause.
+
+`më qëmari ti lësha.` = To me, you are cute.
+
+`sen bëlaro sa haro.` = In another person's view, they are well.
+
+These particles are not evidential markers and cannot replace an actual source when one is needed.
+
+## 58. Relative time boundaries
+
+Temporal adverbs precede the predicate in the usual SOV clause. `rënogi` means *up to now* and focuses a past-to-present interval; `sëwëna` means *from now onward*. Both differ from `sëna` (*always; forever*), which has no inherent start at the current moment.
+
+`sen mi naro-lo rënogi nëra.` = Up to now I remain home.
+
+`dal mi ti-m sëwëna daru-yu.` = From now on, I will protect you.
+
+For **time bounds** rather than point times: `zhëqaro` = *not earlier than* and `mërëlo` = *not later than*. They precede the reference time expression and do not imply a timestamp is known exactly.
+
+## 59. The “by,” “since,” “until,” and “whenever” clauses
+
+These conjunctions introduce complete subordinate clauses, which inherit the independent sentence's opening resonance:
+
+| Marker | Meaning | Distinguishing rule |
+|---|---|---|
+| `hëgoro` | by the time that | Matrix event completes no later than boundary |
+| `wërano` | whenever | Recurrence over relevant occasions |
+| `torëne` | until | State continues up to endpoint |
+| `mëlëno` | since | Interval begins at subordinate past event |
+
+`sen hëgoro ti goro-te, mi nëru-te-mo.` = By the time you flew, I had finished resting.
+
+`sen wërano ti goro, mi ti-m tika-në.` = Whenever you fly, I habitually see you.
+
+## 60. Conditional premises and restricted scope
+
+`zhëwëra` introduces an **evidential premise**. `tëwëro` introduces a **premise accepted for current reasoning**. `khënari` means **only insofar as** and limits a rule to a specific scope. None is interchangeable with the simple hypothetical condition `wë`.
+
+`sen tëwëro ti haro, mi ti-wa goro-yu.` = Given that you are well, I'll fly with you.
+
+`sen khënari ti haro, mi ti-wa goro-yu.` = I will fly with you only to the extent that you are well.
+
+In nested conditions, prefer explicit commas and avoid relying on English-style “if and only if,” which is not encoded by one of these forms alone.
+
+## 61. Distribution and exclusion
+
+`nëzha` is a **determiner** preceding a noun: each member is considered separately. This contrasts with the general collective interpretation of a plural noun. `gëwëmi` is a **postposition** following the excluded noun or noun phrase: *except for*. Whether the exception applies to subjects, objects or a larger quantified group must be made clear by position and surrounding words.
+
+`sen nëzha qaro goro.` = Each Nardoragon flies individually.
+
+The existing noun suffix `-ri` is still ordinary plural, not a substitute for a distributive marker.
+
+## 62. Approximate limits versus exact quantities
+
+`shëwëri` before a numeral conveys an **approximate upper bound**. Keep it separate from the reference's exact lower/upper/exact quantifiers. Traditional Qaroshi numerals remain base six; for scientific data, conventional Arabic numerals may be borrowed as technical notation without changing the 26-letter alphabet.
+
+`sen shëwëri po qaro-ri goro.` = Roughly no more than two Nardoragons fly.
+
+Upper bound is not an estimate of equality; “at most about two” allows fewer.
+
+## 63. Restricted audiences and intended recipients
+
+`hanori` explicitly states **the listener** is the utterance's social recipient, even if grammatical third-person subjects occur. `rëgëmi` states a sentence is **not addressed to everyone present**, without claiming privacy or secrecy. Both occupy the post-resonance frame slot.
+
+`më hanori mi ti-m nashi.` = Addressing you specifically, I care deeply for you.
+
+Audience markers do **not** replace the morphological recipient `-tu`, which encodes an argument of the verb.
+
+## 64. Rhetorical versus sincere questions
+
+`yëhano` makes an otherwise question-formed sentence explicitly **rhetorical**, and the final `he` remains. With sincere questions, use the normal `hë` Seeking Call resonance without the rhetorical frame. A playful rhetorical question can use `zha`; resonance and rhetorical force are independent.
+
+`hë yëhano ti haro he?` = Rhetorically, “Are you well?”
+
+When a genuine answer is expected, omit `yëhano` and preserve final `he`.
+
+## 65. Consent-friendly requests and qualified promises
+
+`tëqoro` says **this request can freely be refused**. It is a discourse stance, not an automatic grant of consent; a response must still be obtained when actual consent is required. `këmëro` makes a promise **explicitly conditional**, and the condition must be stated in the same or clearly linked clause.
+
+`më tëqoro ti mi-wa goro ya.` = You're invited to fly with me, with no pressure to agree.
+
+`qor këmëro wë ti goro, mi ti-m daru-yu.` = If you fly, I promise to protect you.
+
+Unqualified solemn promises continue to use `qor` with ordinary future morphology; conditional frames avoid accidental overpromising.
+
+## 66. Summaries and side comments
+
+`wëharu` marks a **summary**, not necessarily the final sentence of the conversation. `mëgoro` marks a **side note**, allowing the listener to treat the content as related but not central. Neither authorizes skipping mandatory sentence-initial resonance on later sentences.
+
+`sen wëharu mi qaroshi-m shiri.` = In summary, I speak Qaroshi.
+
+`zha mëgoro mi qaroshi-m shiri.` = A playful side note: I speak Qaroshi.
+
+## 67. Lexicalized event predicates
+
+The lexicon includes specialized single-root predicates corresponding to specified English actions such as *request a reasonable accommodation* or *review an editorial correction*. These are **lexicalized event predicates** for instructional clarity, not evidence that every English verb–object phrase should become one Qaroshi root. Such a predicate generally does **not** take another copy of its English-internal object.
+
+The conservative sentence templates use `sen mi VERB-yu.` = “I will [event]” and `hë ti VERB-yu he?` = “Will you [event]?” More compositional native expressions using an existing verb plus a marked object should be preferred when semantically adequate. Where a compositional expression is clearer, the ordinary verb-plus-object construction is preferred.
+
+## 68. Unified standard lexical forms
+
+All headwords and grammatical particles in the current dictionary belong to one integrated Qaroshi reference. Dictionary entries do not require special grammatical treatment based on when they were entered.
+
+The reference distinguishes a lexical headword from a productive compound and a grammatical function word. New forms are checked against existing spellings, and grammatical particles occupy the positions set out in the relevant chapters.
+
+Dictionary inclusion describes the standardized meaning and spelling in this reference, not the frequency with which speakers use a term.
+
+## 69. Writing conventions for technical and digital contexts
+
+Native Qaroshi is written left-to-right using the original 26 glyphs; `sh`, `zh`, `kh` and `ng` are single letters. Romanization should normalize to Unicode NFC. A hyphen is an **editorial morphology separator**, and Latin punctuation and Arabic digits are **technical marks**, not additions to the native alphabet. The offline reader converts Romanized text into the original glyph artwork and supports copying or exporting rendered text.
+
+Imported filenames, program identifiers, domain names, and literal quotations may be displayed in their source scripts and tagged as external tokens. A parser must never silently reinterpret those tokens as Qaroshi headwords. Automated word checking is partial and should not claim to verify semantics, discourse intention or correctness of an entire translation.
+
+## 70. Translation practice and long-term language coverage
+
+Qaroshi has its own lexical system and clause structure. Natural translation preserves information structure, speaker stance, grammatical scope and mandatory written resonance rather than replacing words one by one.
+
+Technical and specialized vocabulary is available in the unified dictionary. Some English expressions still require paraphrase or explanatory clauses. The translation guide describes how to handle such cases without borrowing English syntax wholesale.
+
+The reference is a descriptive and pedagogical standard; broad dictionary coverage should not be confused with a measured frequency corpus.

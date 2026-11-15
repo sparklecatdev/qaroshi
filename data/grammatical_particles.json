@@ -1,0 +1,578 @@
+[
+  {
+    "form": "bëlaro",
+    "pos": "part",
+    "english": "expressed from another person’s viewpoint",
+    "rule": "After resonance; reported perspective is not automatically the speaker’s own belief."
+  },
+  {
+    "form": "bëna",
+    "pos": "conj",
+    "english": "as long as; provided that",
+    "rule": "Conditional continuous requirement, unlike a single hypothetical wë"
+  },
+  {
+    "form": "bëshi",
+    "pos": "part",
+    "english": "speaker does not claim expertise",
+    "rule": "After resonance; epistemic humility, does not replace evidence"
+  },
+  {
+    "form": "bëso",
+    "pos": "part",
+    "english": "also; in addition",
+    "rule": "Postposed additive focus particle"
+  },
+  {
+    "form": "dasha",
+    "pos": "conj",
+    "english": "even if",
+    "rule": "Concessive hypothetical condition"
+  },
+  {
+    "form": "dënaro",
+    "pos": "part",
+    "english": "I correct the preceding statement",
+    "rule": "After resonance; correction applies to the next clause, not to earlier quoted speech."
+  },
+  {
+    "form": "dëshu",
+    "pos": "conj",
+    "english": "even though evidence suggests otherwise",
+    "rule": "Concessive contrast despite contextual expectation"
+  },
+  {
+    "form": "gawo",
+    "pos": "det",
+    "english": "both of two",
+    "rule": "Before countable group; restricted to two"
+  },
+  {
+    "form": "gëmano",
+    "pos": "part",
+    "english": "fictional or simulated scenario frame",
+    "rule": "After resonance; the following clause belongs to fiction/simulation, not an asserted real-world event."
+  },
+  {
+    "form": "gëwëmi",
+    "pos": "post",
+    "english": "except for; excluding",
+    "rule": "Follows the excluded noun phrase; exception is resolved within the current quantified phrase."
+  },
+  {
+    "form": "hanori",
+    "pos": "part",
+    "english": "specifically addressed to the listener",
+    "rule": "Immediately after resonance; speech-act target is the listener even if another person is grammatical subject."
+  },
+  {
+    "form": "huwë",
+    "pos": "conj",
+    "english": "as soon as",
+    "rule": "Temporal boundary: main event starts immediately after subordinate event"
+  },
+  {
+    "form": "hëgoro",
+    "pos": "conj",
+    "english": "by the time that",
+    "rule": "Introduces a temporal reference clause; main event is completed no later than its boundary."
+  },
+  {
+    "form": "hëla",
+    "pos": "part",
+    "english": "in the speaker’s view",
+    "rule": "Epistemic opinion marker after resonance"
+  },
+  {
+    "form": "hëmi",
+    "pos": "part",
+    "english": "is that correct?; confirmation tag",
+    "rule": "Question-final tag after the predicate; no additional he"
+  },
+  {
+    "form": "hëra",
+    "pos": "part",
+    "english": "my words are a paraphrase",
+    "rule": "After resonance, before subject; paraphrase warning"
+  },
+  {
+    "form": "hëshu",
+    "pos": "conj",
+    "english": "whether or not (alternative exhaustive)",
+    "rule": "Subordinates a yes/no possibility without asserting which"
+  },
+  {
+    "form": "hëwo",
+    "pos": "part",
+    "english": "requesting clarification rather than agreement",
+    "rule": "After resonance; occurs with final question he"
+  },
+  {
+    "form": "keho",
+    "pos": "part",
+    "english": "respectful address",
+    "rule": "Before addressed name or kinship term; not grammatical gender"
+  },
+  {
+    "form": "kheso",
+    "pos": "conj",
+    "english": "in case; as a precaution for",
+    "rule": "Precautionary context; does not assert the anticipated event happened"
+  },
+  {
+    "form": "khënari",
+    "pos": "conj",
+    "english": "only insofar as; only to the extent that",
+    "rule": "Introduces an explicit scope restriction; narrower than simple if wë."
+  },
+  {
+    "form": "këmëro",
+    "pos": "part",
+    "english": "this promise is subject to a stated condition",
+    "rule": "After resonance before a conditional promise; prevents interpretation as unconditional commitment."
+  },
+  {
+    "form": "lëhona",
+    "pos": "part",
+    "english": "emphasis only; does not increase certainty",
+    "rule": "After resonance; highlights forcefulness without changing evidential status."
+  },
+  {
+    "form": "lëshu",
+    "pos": "part",
+    "english": "according to shared custom",
+    "rule": "Customary-source marker after predicate, before sentence final marker"
+  },
+  {
+    "form": "miyo",
+    "pos": "pron",
+    "english": "one, people generally",
+    "rule": "Impersonal human/animate generic pronoun"
+  },
+  {
+    "form": "mëgoro",
+    "pos": "part",
+    "english": "as a side note",
+    "rule": "After resonance; introduces related but peripheral information."
+  },
+  {
+    "form": "mëlëno",
+    "pos": "conj",
+    "english": "since (a past event)",
+    "rule": "Introduces beginning boundary; ongoing interval continues from that event to reference time."
+  },
+  {
+    "form": "mënoro",
+    "pos": "part",
+    "english": "not yet",
+    "rule": "Preverbal particle immediately before nu + predicate"
+  },
+  {
+    "form": "mëri",
+    "pos": "part",
+    "english": "gentle request for emotional check-in",
+    "rule": "After resonance; recipient may decline without penalty"
+  },
+  {
+    "form": "mërëlo",
+    "pos": "adv",
+    "english": "not later than; upper temporal bound",
+    "rule": "Before a time phrase; gives an end-limit without claiming exact event time."
+  },
+  {
+    "form": "nashu",
+    "pos": "det",
+    "english": "as a single group, collectively",
+    "rule": "Before plural or group noun; collective quantifier"
+  },
+  {
+    "form": "neshë",
+    "pos": "conj",
+    "english": "regardless of whether",
+    "rule": "Unconditional concessive connector"
+  },
+  {
+    "form": "ngësha",
+    "pos": "conj",
+    "english": "instead of (replacing action)",
+    "rule": "Introduces action not chosen in favor of matrix action"
+  },
+  {
+    "form": "ngëshi",
+    "pos": "part",
+    "english": "only; exclusively",
+    "rule": "Postposed narrow-focus particle; marks exactly the focused constituent"
+  },
+  {
+    "form": "nura",
+    "pos": "pron",
+    "english": "no one, nobody",
+    "rule": "Independent negative quantifier; does not take a second nu"
+  },
+  {
+    "form": "nëmi",
+    "pos": "part",
+    "english": "exactly (quantity)",
+    "rule": "Precedes numeral/quantity; both lower and upper bound"
+  },
+  {
+    "form": "nësha",
+    "pos": "part",
+    "english": "no longer",
+    "rule": "Preverbal cessation particle immediately before nu + predicate"
+  },
+  {
+    "form": "nësho",
+    "pos": "part",
+    "english": "as already established",
+    "rule": "Shared-ground discourse marker after resonance"
+  },
+  {
+    "form": "nëto",
+    "pos": "part",
+    "english": "soft refusal without shame",
+    "rule": "After resonance, before negated clause; signals refusal not negotiation"
+  },
+  {
+    "form": "nëzha",
+    "pos": "det",
+    "english": "each individually; distributive each",
+    "rule": "Precedes a noun; predicates apply separately to each member, not collectively."
+  },
+  {
+    "form": "pëlë",
+    "pos": "part",
+    "english": "if it is acceptable; respectfully please",
+    "rule": "Optional deferential alternative to pëla"
+  },
+  {
+    "form": "pënu",
+    "pos": "part",
+    "english": "requesting permission to discuss sensitive matter",
+    "rule": "After resonance, before topic; explicit boundary check"
+  },
+  {
+    "form": "pëshu",
+    "pos": "part",
+    "english": "explicitly no obligation",
+    "rule": "After resonance; marks pressure-free offer/request"
+  },
+  {
+    "form": "qinë",
+    "pos": "part",
+    "english": "would, counterfactual result",
+    "rule": "Follows the counterfactual consequent predicate before optional evidential"
+  },
+  {
+    "form": "qona",
+    "pos": "conj",
+    "english": "whether, if (embedded question)",
+    "rule": "Marks boundary of an embedded polar question; not a conditional"
+  },
+  {
+    "form": "qëhano",
+    "pos": "part",
+    "english": "exact words follow; verbatim quotation frame",
+    "rule": "Immediately after resonance and before a quote; marks a literal quotation, unlike an approximate report."
+  },
+  {
+    "form": "qëlo",
+    "pos": "part",
+    "english": "correction of misheard words",
+    "rule": "After resonance, before restated proposition"
+  },
+  {
+    "form": "qëmari",
+    "pos": "part",
+    "english": "from my own perspective",
+    "rule": "After resonance; subjective viewpoint, not a universal fact or evidential source."
+  },
+  {
+    "form": "qëru",
+    "pos": "part",
+    "english": "high confidence (not certainty)",
+    "rule": "After evidential; epistemic confidence distinct from observed source"
+  },
+  {
+    "form": "qësho",
+    "pos": "part",
+    "english": "at least (minimum)",
+    "rule": "Precedes numeral/quantity; minimum lower bound"
+  },
+  {
+    "form": "qësu",
+    "pos": "conj",
+    "english": "rather than (clausal alternative)",
+    "rule": "Links two alternatives and selects the first over the second"
+  },
+  {
+    "form": "rëgëmi",
+    "pos": "part",
+    "english": "not addressed to everyone present",
+    "rule": "After resonance; restricts intended audience without making message private or secret."
+  },
+  {
+    "form": "rëhu",
+    "pos": "part",
+    "english": "read in a document or archival source",
+    "rule": "Post-predicate evidential; written-source subtype of hu"
+  },
+  {
+    "form": "rëmëlo",
+    "pos": "part",
+    "english": "speaking for a group by agreement",
+    "rule": "After resonance, before subject; does not grant authority automatically"
+  },
+  {
+    "form": "rënogi",
+    "pos": "adv",
+    "english": "up to now; prior-to-present extent",
+    "rule": "A temporal adverb before the predicate; contrasts with future-starting sëwëna."
+  },
+  {
+    "form": "rëshi",
+    "pos": "part",
+    "english": "contrastively focused constituent",
+    "rule": "Immediately follows highlighted constituent; once per clause"
+  },
+  {
+    "form": "rëshu",
+    "pos": "part",
+    "english": "at most (maximum)",
+    "rule": "Precedes numeral/quantity; upper bound"
+  },
+  {
+    "form": "shoru",
+    "pos": "conj",
+    "english": "unless",
+    "rule": "Negative condition; not combined with nu on same protasis predicate"
+  },
+  {
+    "form": "shurëmi",
+    "pos": "part",
+    "english": "the issue remains unresolved",
+    "rule": "After resonance; speaker leaves the proposition open rather than asserting a final conclusion."
+  },
+  {
+    "form": "shëgi",
+    "pos": "part",
+    "english": "in fact, contrary to expectation",
+    "rule": "Corrective evidence/discourse marker after resonance"
+  },
+  {
+    "form": "shëku",
+    "pos": "part",
+    "english": "recalled from direct memory",
+    "rule": "Post-predicate evidential; no second evidential in same clause"
+  },
+  {
+    "form": "shëmoshi",
+    "pos": "part",
+    "english": "I am translating this approximately",
+    "rule": "After resonance, before subject; pragmatics of translation"
+  },
+  {
+    "form": "shërawono",
+    "pos": "part",
+    "english": "conditional acceptance",
+    "rule": "After resonance; agreement only with stated condition"
+  },
+  {
+    "form": "shëto",
+    "pos": "part",
+    "english": "rather; corrective replacement",
+    "rule": "Replaces a previously asserted alternative in discourse"
+  },
+  {
+    "form": "shëtë",
+    "pos": "part",
+    "english": "just finished",
+    "rule": "Preverbal recent-completion particle; compatible with past -te"
+  },
+  {
+    "form": "shëwëri",
+    "pos": "adv",
+    "english": "within an approximate upper bound",
+    "rule": "Before a numeral; numerical claim is approximate and should not be mistaken for exact at-most."
+  },
+  {
+    "form": "sëki",
+    "pos": "part",
+    "english": "tentatively asserted; low confidence",
+    "rule": "After evidential; scope is proposition, not participant"
+  },
+  {
+    "form": "sëwëna",
+    "pos": "adv",
+    "english": "from now onward",
+    "rule": "A temporal adverb before the predicate; prospective scope persists until contextual endpoint."
+  },
+  {
+    "form": "tara",
+    "pos": "conj",
+    "english": "until",
+    "rule": "Temporal subordinate clause boundary"
+  },
+  {
+    "form": "toru",
+    "pos": "part",
+    "english": "direct-quotation introducer",
+    "rule": "Introduces fully independent quoted utterance; quote retains resonance"
+  },
+  {
+    "form": "torëne",
+    "pos": "conj",
+    "english": "until (an event or boundary)",
+    "rule": "Introduces endpoint clause; matrix situation persists only up to its boundary."
+  },
+  {
+    "form": "tëmiri",
+    "pos": "part",
+    "english": "even (unexpected member)",
+    "rule": "Postposed focus particle, after focused NP or proposition"
+  },
+  {
+    "form": "tënarë",
+    "pos": "part",
+    "english": "source withheld for privacy",
+    "rule": "After resonance; a source exists but is not identified. Must not be used to imply independent verification."
+  },
+  {
+    "form": "tëqoro",
+    "pos": "part",
+    "english": "this request can be declined freely",
+    "rule": "After resonance in requests; conveys absence of social obligation, not automatic legal consent."
+  },
+  {
+    "form": "tërashi",
+    "pos": "conj",
+    "english": "as a result of",
+    "rule": "Introduces prior event as causal circumstance, unlike purposive ko"
+  },
+  {
+    "form": "tëshi",
+    "pos": "part",
+    "english": "topic shift; new subject",
+    "rule": "After resonance; separates discourse thread from previous sentence"
+  },
+  {
+    "form": "tëwaro",
+    "pos": "conj",
+    "english": "while two actions overlap",
+    "rule": "Introduces simultaneous-event subordinate clause; independent SOV clauses follow"
+  },
+  {
+    "form": "tëwëro",
+    "pos": "conj",
+    "english": "given that; under the premise that",
+    "rule": "Introduces an assumed premise; distinguished from a hypothetical possibility."
+  },
+  {
+    "form": "wëharu",
+    "pos": "part",
+    "english": "in summary; final recap follows",
+    "rule": "After resonance; marks an explicit summary, not necessarily the end of the conversation."
+  },
+  {
+    "form": "wëlëmi",
+    "pos": "part",
+    "english": "the following is a paraphrase, not a direct quote",
+    "rule": "Immediately after resonance; scopes over the following reported clause or quote."
+  },
+  {
+    "form": "wënu",
+    "pos": "conj",
+    "english": "if, contrary to fact",
+    "rule": "Counterfactual protasis introducer; contrasted with real/unknown wë"
+  },
+  {
+    "form": "wërano",
+    "pos": "conj",
+    "english": "whenever; on every occasion when",
+    "rule": "Introduces recurring-event clause; typically combines with habitual -në on the main verb."
+  },
+  {
+    "form": "wërusha",
+    "pos": "part",
+    "english": "computed or instrument-measured evidence",
+    "rule": "Post-predicate evidential; calculation/measurement rather than eyewitness si"
+  },
+  {
+    "form": "wëshi",
+    "pos": "part",
+    "english": "about to; imminently",
+    "rule": "Preverbal aspect particle immediately before predicate; not tense suffix"
+  },
+  {
+    "form": "yano",
+    "pos": "pron",
+    "english": "someone, somebody",
+    "rule": "Indefinite animate referent"
+  },
+  {
+    "form": "yëhano",
+    "pos": "part",
+    "english": "this is a question asked rhetorically",
+    "rule": "After resonance on a question that still ends he; no factual answer is expected."
+  },
+  {
+    "form": "yëmiri",
+    "pos": "part",
+    "english": "this remains open for discussion",
+    "rule": "After resonance; nonfinal stance, may precede any clause"
+  },
+  {
+    "form": "yëmë",
+    "pos": "part",
+    "english": "may it be that; let it be",
+    "rule": "Optative marker after initial resonance, before clause"
+  },
+  {
+    "form": "yëqo",
+    "pos": "part",
+    "english": "unexpected discovery; mirative",
+    "rule": "After predicate and before evidential/question; reports speaker surprise, not source"
+  },
+  {
+    "form": "yëroshi",
+    "pos": "part",
+    "english": "both alternatives are considered",
+    "rule": "After resonance; introduces balanced two-way evaluation without automatically choosing either alternative."
+  },
+  {
+    "form": "zhoro",
+    "pos": "part",
+    "english": "still continuing",
+    "rule": "Preverbal continuation particle; compatible with progressive -se"
+  },
+  {
+    "form": "zhëqaro",
+    "pos": "adv",
+    "english": "not earlier than; lower temporal bound",
+    "rule": "Before a time phrase; gives a start-limit without claiming exact event time."
+  },
+  {
+    "form": "zhëwëra",
+    "pos": "conj",
+    "english": "on the evidence that",
+    "rule": "Introduces an evidential premise; does not guarantee premise is true."
+  },
+  {
+    "form": "zuwë",
+    "pos": "conj",
+    "english": "so that not; to prevent",
+    "rule": "Negative-purpose subordinate clause; mark negation once, not twice"
+  },
+  {
+    "form": "zënare",
+    "pos": "part",
+    "english": "contrary to earlier expectation",
+    "rule": "After resonance; marks a surprising reversal of expected outcome, not necessarily surprise felt now."
+  },
+  {
+    "form": "zërë",
+    "pos": "part",
+    "english": "except for; excluding",
+    "rule": "Postposed to excluded noun phrase"
+  }
+]

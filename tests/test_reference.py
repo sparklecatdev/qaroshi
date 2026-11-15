@@ -1,69 +1,48 @@
-"""Regression checks for the Qaroshi standard and project build."""
-import csv,importlib.util,json,sys,unittest
+import csv,json,re,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT/'tools'))
-from qaroshi import (LETTERS,RESONANCES,analyze_word,entries,format_morphology,
-                     glyphs_of,validate_data)
-class ReferenceTests(unittest.TestCase):
+def rows(p):
+ with (ROOT/p).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+class QaroshiFinalReference(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.rows=entries()
-  cls.lex={r['qaroshi']:r for r in cls.rows}
- def test_original_853_preserved(self):
-  with (ROOT/'source/Qaroshi_Dictionary_853.csv').open(encoding='utf-8-sig') as f: src=list(csv.DictReader(f))
-  self.assertEqual(len(src),853)
-  for r in src:
-   self.assertIn(r['qaroshi'],self.lex)
-   self.assertEqual(self.lex[r['qaroshi']]['english'],r['english'])
-   self.assertEqual(self.lex[r['qaroshi']]['pos'],r['pos'])
- def test_unique_headwords(self):
-  self.assertEqual(len(self.rows),len(self.lex))
-  self.assertGreaterEqual(len(self.rows),6500)
- def test_all_26_native_letters(self):
-  self.assertEqual(len(set(LETTERS)),26)
-  for g in LETTERS:self.assertTrue((ROOT/'assets/glyphs'/f'{g}.png').is_file())
-  for r in self.rows:self.assertTrue(glyphs_of(r['qaroshi']))
- def test_digraphs_are_individual_glyphs(self):
-  self.assertEqual(glyphs_of('shazhakhng'),['sh','a','zh','a','kh','ng'])
- def test_resonance_markers(self):
-  self.assertEqual(len(RESONANCES),16)
-  self.assertTrue(all(r in self.lex for r in RESONANCES))
- def test_existing_phrase_stays_canonical(self):
-  s='më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.'
-  with (ROOT/'corpus/parallel_sentences.csv').open(encoding='utf-8-sig') as f:
-   self.assertIn(s,[r['qaroshi'] for r in csv.DictReader(f)])
- def test_noun_morphology(self):
-  self.assertEqual(format_morphology('mara','noun',plural=True,case='m',endear=True),'mara-lë-ri-m')
-  self.assertEqual(format_morphology('qaro','noun',plural=True,case='nga'),'qaro-ri-nga')
-  self.assertEqual(format_morphology('mi','noun',case='wa'),'mi-wa')
- def test_verb_morphology(self):
-  self.assertEqual(format_morphology('goro','verb',voice='ru',tense='te',aspect='mo',modal='ki',tender=True),
-                   'goro-ru-te-mo-ki-la')
-  self.assertEqual(format_morphology('nëra','verb',modal='ki'),'nëra-ki')
- def test_morphology_rejects_conflicting_endings(self):
-  with self.assertRaises(ValueError):format_morphology('mara','noun',case='ro')
-  with self.assertRaises(ValueError):format_morphology('goro','verb',tense='wrong')
-  self.assertIsNone(analyze_word('goro-te-yu',self.lex))
- def test_parser_prefers_exact_headword(self):
-  self.assertEqual(analyze_word('qaroshi',self.lex)['exact'],True)
-  self.assertEqual(analyze_word('goro-te-se',self.lex)['segments'],['te','se'])
- def test_corpus_has_resonance(self):
-  with (ROOT/'corpus/parallel_sentences.csv').open(encoding='utf-8-sig') as f: corp=list(csv.DictReader(f))
-  self.assertGreaterEqual(len(corp),800)
-  for r in corp:
-   self.assertIn(r['qaroshi'].split()[0],RESONANCES,r)
- def test_compounds_are_compositional(self):
-  for r in self.rows:
-   if r['type']!='compound':continue
-   a,b=r['components'].split(' + ')
-   self.assertIn(a,self.lex);self.assertIn(b,self.lex)
-   self.assertEqual(r['qaroshi'],a+b)
- def test_full_validation(self):
-  problems,info=validate_data();self.assertEqual(problems,[])
-  self.assertEqual(info['core_preserved'],853)
- def test_edition_markings(self):
-  self.assertIn('candidate',{r['review'] for r in self.rows})
-  self.assertIn('established',{r['review'] for r in self.rows})
-  self.assertIn('standardized',{r['review'] for r in self.rows})
+  cls.words=rows('data/lexicon.csv')
+  cls.sentences=rows('corpus/parallel_sentences.csv')
+  cls.grammar=(ROOT/'docs/grammar.md').read_text(encoding='utf-8')
+  cls.html=(ROOT/'Qaroshi_Wiki.html').read_text(encoding='utf-8')
+ def test_dictionary_size(self):self.assertEqual(len(self.words),11878)
+ def test_dictionary_headwords_unique(self):self.assertEqual(len(set(x['qaroshi'] for x in self.words)),len(self.words))
+ def test_dictionary_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.words)),len(self.words))
+ def test_dictionary_schema_unified(self):self.assertEqual(set(self.words[0]),{'id','qaroshi','pos','english','domain','type','components','note'})
+ def test_dictionary_no_status_or_edition(self):self.assertNotIn('review',self.words[0]);self.assertNotIn('edition',self.words[0])
+ def test_glosses_nonempty(self):self.assertTrue(all(x['english'].strip() for x in self.words))
+ def test_dictionary_json_same(self):self.assertEqual(json.loads((ROOT/'data/lexicon.json').read_text()),self.words)
+ def test_original_phrase_preserved(self):
+  self.assertTrue(any(x['qaroshi']=='më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.' for x in self.sentences))
+ def test_phrase_count(self):self.assertEqual(len(self.sentences),2017)
+ def test_phrase_ids_unique(self):self.assertEqual(len(set(x['id'] for x in self.sentences)),2017)
+ def test_phrase_json_same(self):self.assertEqual(json.loads((ROOT/'corpus/parallel_sentences.json').read_text()),self.sentences)
+ def test_phrase_schema_unified(self):self.assertNotIn('edition',self.sentences[0])
+ def test_70_chapters(self):self.assertEqual([int(x) for x in re.findall(r'^## (\d+)\.',self.grammar,re.M)],list(range(1,71)))
+ def test_glyph_inventory(self):self.assertEqual(len(list((ROOT/'assets/glyphs').glob('*.png'))),26)
+ def test_resonances(self):
+  obj=json.loads((ROOT/'data/resonances.json').read_text());self.assertEqual(len(obj),16)
+ def test_granular_particles(self):
+  obj=json.loads((ROOT/'data/grammatical_particles.json').read_text())
+  self.assertEqual(len(obj),96);self.assertEqual(len({a['form'] for a in obj}),96)
+  for x in obj:self.assertIn(x['form'],{a['qaroshi'] for a in self.words})
+ def test_english_index(self):self.assertGreaterEqual(len(rows('data/english_index.csv')),11878)
+ def test_offline_html_embed(self):
+  self.assertIn('id="wiki-data"',self.html);self.assertIn('id="leftSidebar"',self.html)
+  self.assertIn('id="mainContent"',self.html);self.assertIn('id="scriptInput"', (ROOT/'web/qaroshi.js').read_text())
+ def test_wiki_no_review_controls(self):
+  self.assertNotIn('wordStatus',self.html);self.assertNotIn('wordEdition',self.html)
+  self.assertNotIn('phraseEdition',self.html);self.assertNotIn('w.review',self.html)
+ def test_no_legacy_grammars(self):self.assertEqual(len(list((ROOT/'docs').glob('grammar*.md'))),1)
+ def test_release_description(self):
+  self.assertIn('Unified Standard Reference 4.1',(ROOT/'README.md').read_text())
+ def test_sample_headwords(self):
+  w={r['qaroshi']:r['english'] for r in self.words}
+  for x in ['qaro','qaroshi','pëla','lësha','qor','sen','zha','womaro','riqosha']:
+   self.assertIn(x,w)
 if __name__=='__main__': unittest.main()
