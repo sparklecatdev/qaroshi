@@ -10,3 +10,11 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
 
 /* Keep the learning interface visually aligned with the reference. */
 :root{--bg:#fff;--panel:#fff;--panel2:#f4f5f8;--ink:#252833;--muted:#677181;--border:#e2e5eb;--purple:#6247ad;--purple2:#4c348f;--light:#f0ecfa;--nav:#f8f9fb;--shadow:none}html[data-theme=dark]{--bg:#17191f;--panel:#1c1f27;--panel2:#252833;--ink:#e7e7ed;--muted:#aeb5c2;--border:#333743;--purple:#c1abff;--purple2:#ddcfff;--light:#292338;--nav:#13151a;--shadow:none}.brand-mark{width:34px;height:34px;border-radius:9px;transform:none;font-size:22px}.navbtn,.card,.stat,.quizbox,.read-more{border-radius:8px}.hero,html[data-theme=dark] .hero{background:var(--panel);border-radius:10px;box-shadow:none}.hero-art{font-size:75px;transform:none;opacity:.14}.card{box-shadow:none}.card.interactive:hover{transform:none;box-shadow:none}.btn{border-radius:7px}html[data-theme=dark] .btn.primary,html[data-theme=dark] .btn.primary:hover{color:#171520}
+
+@media(max-width:740px){
+ body.academy-menu-open{overflow:hidden}
+ .sidebar{height:100vh;height:100dvh;max-width:85vw;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(22px + env(safe-area-inset-bottom));visibility:hidden;transition:transform .2s,visibility 0s linear .2s}
+ .sidebar>*{flex-shrink:0}
+ .app.menu-open .sidebar{visibility:visible;transition-delay:0s}
+ input,textarea,select{font-size:16px}
+}

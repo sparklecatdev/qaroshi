@@ -237,6 +237,20 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
 
 /* A quieter reference-focused home page. */
 .brand-mark{background:#6b52af;box-shadow:none}.home-hero,html[data-theme="dark"] .home-hero{background:var(--canvas);border-color:var(--border);border-radius:9px}.home-hero h1{font-size:clamp(2.3rem,4vw,3.2rem);letter-spacing:-.035em}.hero-glyphs{transform:none;opacity:.07}html[data-theme="dark"] .button.primary{color:#171520}
+
+/* Keep the mobile navigation within the visible screen. */
+@media(max-width:850px){
+ body.nav-open{overflow:hidden}
+ .sidebar{height:calc(100vh - 64px);height:calc(100dvh - 64px);align-self:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(45px + env(safe-area-inset-bottom));visibility:hidden;transition:transform .2s ease,visibility 0s linear .2s}
+ .sidebar.open{visibility:visible;transition-delay:0s}
+ .sidebar .navlink{min-height:44px;display:flex;align-items:center}
+ .sidebar summary{min-height:44px;padding-top:12px;padding-bottom:12px}
+ .toolbar,.top-search{min-width:0}
+}
+@media(max-width:570px){
+ .sidebar{height:calc(100vh - 58px);height:calc(100dvh - 58px)}
+ input,textarea,select{font-size:16px}
+}
 </style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
@@ -443,7 +457,7 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
       else a.removeAttribute('aria-current');
     }
   }
-  function closeNav(){sidebar.classList.remove('open');$('sideBackdrop').classList.remove('show');$('menuBtn').setAttribute('aria-expanded','false')}
+  function closeNav(){document.body.classList.remove('nav-open');sidebar.classList.remove('open');$('sideBackdrop').classList.remove('show');$('menuBtn').setAttribute('aria-expanded','false')}
   function mkHeader(kicker,title,subtitle){
     return `<div class="article-header"><div class="article-kicker">${esc(kicker)}</div><h1>${esc(title)}</h1>${subtitle?`<p class="article-sub">${esc(subtitle)}</p>`:''}</div>`;
   }
@@ -928,7 +942,7 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
     }catch{notify('Image export is unavailable in this browser')}
   }
   $('topSearchForm').addEventListener('submit',e=>{e.preventDefault();const q=$('topSearch').value.trim();location.hash=q?'#search?q='+enc(q):'#dictionary'});
-  $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
+  $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');document.body.classList.toggle('nav-open',open);$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
   $('sideBackdrop').addEventListener('click',closeNav);
   toc.addEventListener('click',e=>{const a=e.target.closest('a[data-scroll]');if(!a)return;e.preventDefault();const target=$(a.dataset.scroll);if(target)target.scrollIntoView({behavior:'smooth',block:'start'})});
   window.QaroshiTheme.bind($('themeBtn'));

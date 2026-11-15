@@ -193,7 +193,7 @@
       else a.removeAttribute('aria-current');
     }
   }
-  function closeNav(){sidebar.classList.remove('open');$('sideBackdrop').classList.remove('show');$('menuBtn').setAttribute('aria-expanded','false')}
+  function closeNav(){document.body.classList.remove('nav-open');sidebar.classList.remove('open');$('sideBackdrop').classList.remove('show');$('menuBtn').setAttribute('aria-expanded','false')}
   function mkHeader(kicker,title,subtitle){
     return `<div class="article-header"><div class="article-kicker">${esc(kicker)}</div><h1>${esc(title)}</h1>${subtitle?`<p class="article-sub">${esc(subtitle)}</p>`:''}</div>`;
   }
@@ -678,7 +678,7 @@
     }catch{notify('Image export is unavailable in this browser')}
   }
   $('topSearchForm').addEventListener('submit',e=>{e.preventDefault();const q=$('topSearch').value.trim();location.hash=q?'#search?q='+enc(q):'#dictionary'});
-  $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
+  $('menuBtn').addEventListener('click',()=>{const open=sidebar.classList.toggle('open');document.body.classList.toggle('nav-open',open);$('sideBackdrop').classList.toggle('show',open);$('menuBtn').setAttribute('aria-expanded',String(open))});
   $('sideBackdrop').addEventListener('click',closeNav);
   toc.addEventListener('click',e=>{const a=e.target.closest('a[data-scroll]');if(!a)return;e.preventDefault();const target=$(a.dataset.scroll);if(target)target.scrollIntoView({behavior:'smooth',block:'start'})});
   window.QaroshiTheme.bind($('themeBtn'));
