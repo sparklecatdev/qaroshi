@@ -13,22 +13,21 @@ const context = {
   fetch: async (url, options) => {
     requests.push(JSON.parse(options.body));
     const message = requests.length === 1
-      ? {role:'assistant', content:null, tool_calls:[{id:'call1',type:'function',function:{name:'lookup_dictionary',arguments:JSON.stringify({query:'cat'})}}]}
-      : {role:'assistant',content:'A cat is zekunga. [S1]'};
+      ? {role:'assistant',content:'A cat is zekunga. [S1]'}
+      : {role:'assistant',content:'<tool_call>lookup_dictionary</tool_call>'};
     return {ok:true,json:async () => ({choices:[{message}]})};
   }
 };
 vm.createContext(context);
-vm.runInContext(code + '\nthis.lookup = assistantLookup; this.request = assistantRequest;', context);
+vm.runInContext(code + '\nthis.search = assistantSources; this.request = assistantRequest;', context);
 (async () => {
-  const docs = [];
+  const matches = context.search('Translate cat');
+  const cat = matches.find(x => x.title === 'Dictionary: zekunga');
+  assert(cat);
+  const docs = [{...cat, id:'S1'}];
   assert.equal((await context.request('test-key','Translate cat',docs)), 'A cat is zekunga. [S1]');
-  const result = JSON.parse(requests[1].messages.at(-1).content);
-  assert(result.results.some(x => x.title === 'Dictionary: zekunga'));
-  assert(docs.some(x => x.title === 'Dictionary: zekunga' && result.results.some(r => r.id === x.id)));
-  const count = docs.length;
-  context.lookup('cat',docs);
-  assert.equal(docs.length,count);
-  assert(context.lookup('',docs).error);
+  assert(requests[0].messages[1].content.includes('[S1] Dictionary: zekunga'));
+  assert(!('tools' in requests[0]));
+  await assert.rejects(context.request('test-key','Translate cat',docs), /did not return an answer/);
   console.log('Assistant dictionary lookup tests passed.');
 })().catch(error => { console.error(error); process.exitCode = 1; });
