@@ -1,0 +1,1915 @@
+rank,root,english,pos,ipa,sound_out,tier,compound_reuse,canonically_existing,speaker_attestation_claim
+1,mi,I; me,pron,/mi/,mee,daily_core,0,yes,none
+2,ti,you (singular),pron,/ti/,tee,daily_core,0,yes,none
+3,sa,"they; that person (singular, ungendered)",pron,/sa/,sah,daily_core,0,yes,none
+4,goro,fly; move through the air,v,/ˈɡo.ɾo/,GOH-roh,daily_core,0,yes,none
+5,haro,good; safe; well,adj,/ˈha.ɾo/,HAH-roh,daily_core,0,yes,none
+6,hari,have; possess; hold ownership of,v,/ˈha.ɾi/,HAH-ree,daily_core,0,yes,none
+7,qaro,Nardoragon; member of the species,n,/ˈqa.ɾo/,QAH-roh,daily_core,0,yes,none
+8,shiri,speak; say words,v,/ˈʃi.ɾi/,SHEE-ree,daily_core,0,yes,none
+9,tika,see; notice,v,/ˈti.ka/,TEE-kah,daily_core,0,yes,none
+10,gura,go; travel away,v,/ˈɡu.ɾa/,GOO-rah,daily_core,0,yes,none
+11,mara,friend; trusted peer,n,/ˈma.ɾa/,MAH-rah,daily_core,0,yes,none
+12,naru,we; us (including listener),pron,/ˈna.ɾu/,NAH-roo,daily_core,0,yes,none
+13,nëra,stay; remain,v,/ˈnə.ɾa/,NUH-rah,daily_core,0,yes,none
+14,naro,home; nesting place; safe shelter,n,/ˈna.ɾo/,NAH-roh,daily_core,8,yes,none
+15,khe,what,qword,/xe/,kheh,daily_core,0,yes,none
+16,qaroshi,Qaroshi; the Nardoragon language,n,/qa.ˈɾo.ʃi/,qah-ROH-shee,daily_core,0,yes,none
+17,sëna,always; forever,adv,/ˈsə.na/,SUH-nah,daily_core,0,yes,none
+18,daru,protect; guard,v,/ˈda.ɾu/,DAH-roo,daily_core,0,yes,none
+19,nëru,rest; pause from activity,v,/ˈnə.ɾu/,NUH-roo,daily_core,0,yes,none
+20,dëna,this; near the speaker,det,/ˈdə.na/,DUH-nah,daily_core,0,yes,none
+21,lësha,cute; endearing,adj,/ˈlə.ʃa/,LUH-shah,daily_core,0,yes,none
+22,nashi,love deeply; cherish; care for,v,/ˈna.ʃi/,NAH-shee,daily_core,0,yes,none
+23,banu,wing,n,/ˈba.nu/,BAH-noo,daily_core,18,yes,none
+24,shërami,sleep,v,/ʃə.ˈɾa.mi/,shuh-RAH-mee,daily_core,12,yes,none
+25,lona,where,qword,/ˈlo.na/,LOH-nah,daily_core,0,yes,none
+26,rëla,beautiful,adj,/ˈɾə.la/,RUH-lah,daily_core,0,yes,none
+27,sëra,star,n,/ˈsə.ɾa/,SUH-rah,daily_core,10,yes,none
+28,sëmi,know; possess reliable knowledge,v,/ˈsə.mi/,SUH-mee,daily_core,0,yes,none
+29,shëliro,read; interpret written words,v,/ʃə.ˈli.ɾo/,shuh-LEE-roh,daily_core,0,yes,none
+30,ha,hello; attention-getting greeting,intj,/ha/,hah,daily_core,0,yes,none
+31,përo,goodbye; until we meet,intj,/ˈpə.ɾo/,PUH-roh,daily_core,0,yes,none
+32,lëru,name; designation,n,/ˈlə.ɾu/,LUH-roo,daily_core,1,yes,none
+33,wënoa,miss; long for someone absent,v,/wə.ˈno.a/,wuh-NOH-ah,daily_core,0,yes,none
+34,ngëmawe,worried; anxious,adj,/ŋə.ˈma.we/,nguh-MAH-weh,daily_core,0,yes,none
+35,kërawë,try; attempt,v,/kə.ˈɾa.wə/,kuh-RAH-wuh,daily_core,0,yes,none
+36,këmi,meal; prepared food,n,/ˈkə.mi/,KUH-mee,daily_core,0,yes,none
+37,kima,water,n,/ˈki.ma/,KEE-mah,daily_core,32,yes,none
+38,këmë,drink; consume liquid,v,/ˈkə.mə/,KUH-muh,daily_core,0,yes,none
+39,yami,night,n,/ˈja.mi/,YAH-mee,daily_core,43,yes,none
+40,wena,sky,n,/ˈwe.na/,WEH-nah,daily_core,19,yes,none
+41,yëli,shine; glow,v,/ˈjə.li/,YUH-lee,daily_core,0,yes,none
+42,shëno,question; inquiry,n,/ˈʃə.no/,SHUH-noh,daily_core,19,yes,none
+43,shiroli,write; mark language on a surface,v,/ʃi.ˈɾo.li/,shee-ROH-lee,daily_core,0,yes,none
+44,shiwaro,message; spoken or written communication,n,/ʃi.ˈwa.ɾo/,shee-WAH-roh,daily_core,17,yes,none
+45,shiwari,send; transmit a message or item,v,/ʃi.ˈwa.ɾi/,shee-WAH-ree,daily_core,0,yes,none
+46,shenaro,machine; powered device,n,/ʃe.ˈna.ɾo/,sheh-NAH-roh,daily_core,10,yes,none
+47,mahori,consent; agree freely,v,/ma.ˈho.ɾi/,mah-HOH-ree,daily_core,0,yes,none
+48,dëmiwa,help; assistance,n,/də.ˈmi.wa/,duh-MEE-wah,daily_core,0,yes,none
+49,sharoni,need; require,v,/ʃa.ˈɾo.ni/,shah-ROH-nee,daily_core,0,yes,none
+50,po,two,num,/po/,poh,daily_core,0,yes,none
+51,zhe,six; base-six ten,num,/ʒe/,zheh,daily_core,0,yes,none
+52,roha,welcome; come in,intj,/ˈɾo.ha/,ROH-hah,daily_core,0,yes,none
+53,shë,yes; affirmative answer,intj,/ʃə/,shuh,daily_core,0,yes,none
+54,rëmi,learn; gain knowledge,v,/ˈɾə.mi/,RUH-mee,daily_core,0,yes,none
+55,holë,thank; express gratitude,v,/ˈho.lə/,HOH-luh,daily_core,0,yes,none
+56,përë,apologize; say sorry,v,/ˈpə.ɾə/,PUH-ruh,daily_core,0,yes,none
+57,zhëmi,understand; comprehend,v,/ˈʒə.mi/,ZHUH-mee,daily_core,0,yes,none
+58,ngëlawe,slowly,adv,/ŋə.ˈla.we/,nguh-LAH-weh,daily_core,0,yes,none
+59,ëma,oh; sudden realization,intj,/ˈə.ma/,UH-mah,daily_core,0,yes,none
+60,mali,feel romantic love for,v,/ˈma.li/,MAH-lee,daily_core,0,yes,none
+61,lani,love as family; nurture kinship,v,/ˈla.ni/,LAH-nee,daily_core,0,yes,none
+62,runa,chosen family; close-knit community,n,/ˈɾu.na/,ROO-nah,daily_core,0,yes,none
+63,sharuwa,heart; heartbeat,n,/ʃa.ˈɾu.wa/,shah-ROO-wah,daily_core,0,yes,none
+64,shënawo,belong to; be someone's property,v,/ʃə.ˈna.wo/,shuh-NAH-woh,daily_core,0,yes,none
+65,mëlë,like; find pleasing,v,/ˈmə.lə/,MUH-luh,daily_core,0,yes,none
+66,mërali,hug; embrace,v,/mə.ˈɾa.li/,muh-RAH-lee,daily_core,0,yes,none
+67,zëru,die; cease living,v,/ˈzə.ɾu/,ZUH-roo,daily_core,0,yes,none
+68,meri,face,n,/ˈme.ɾi/,MEH-ree,daily_core,0,yes,none
+69,këmiro,remember; recall,v,/kə.ˈmi.ɾo/,kuh-MEE-roh,daily_core,0,yes,none
+70,rënawë,hope for; wish for,v,/ɾə.ˈna.wə/,ruh-NAH-wuh,daily_core,0,yes,none
+71,ngëmiro,forget; lose a memory,v,/ŋə.ˈmi.ɾo/,nguh-MEE-roh,daily_core,0,yes,none
+72,dëmi,help; assist,v,/ˈdə.mi/,DUH-mee,daily_core,0,yes,none
+73,merawo,happy; joyful,adj,/me.ˈɾa.wo/,meh-RAH-woh,daily_core,7,yes,none
+74,nerawo,calm; peaceful,adj,/ne.ˈɾa.wo/,neh-RAH-woh,daily_core,6,yes,none
+75,surawe,sad; grieving,adj,/su.ˈɾa.we/,soo-RAH-weh,daily_core,0,yes,none
+76,lënowa,shy; bashful,adj,/lə.ˈno.wa/,luh-NOH-wah,daily_core,0,yes,none
+77,raka,anger; indignation,n,/ˈɾa.ka/,RAH-kah,daily_core,0,yes,none
+78,kharo,fear; alarm,n,/ˈxa.ɾo/,KHAH-roh,daily_core,2,yes,none
+79,yëma,surprise; amazement,n,/ˈjə.ma/,YUH-mah,daily_core,0,yes,none
+80,shuro,loneliness; isolation,n,/ˈʃu.ɾo/,SHOO-roh,daily_core,7,yes,none
+81,shëruwi,succeed; achieve a goal,v,/ʃə.ˈɾu.wi/,shuh-ROO-wee,daily_core,0,yes,none
+82,zëro,pain; hurt,n,/ˈzə.ɾo/,ZUH-roh,daily_core,13,yes,none
+83,ngëmawa,burden; heavy responsibility borne by someone,n,/ŋə.ˈma.wa/,nguh-MAH-wah,daily_core,0,yes,none
+84,shëna,trust; confidence in someone,n,/ˈʃə.na/,SHUH-nah,daily_core,16,yes,none
+85,shëma,eat; consume food,v,/ˈʃə.ma/,SHUH-mah,daily_core,0,yes,none
+86,shënahoho,hungry; needing food,adj,/ʃə.na.ˈho.ho/,shuh-nah-HOH-hoh,daily_core,0,yes,none
+87,këmëhoho,thirsty; needing water,adj,/kə.mə.ˈho.ho/,kuh-muh-HOH-hoh,daily_core,0,yes,none
+88,ngëruwa,cold; chilled,adj,/ŋə.ˈɾu.wa/,nguh-ROO-wah,daily_core,16,yes,none
+89,kërawoa,warm; pleasantly heated,adj,/kə.ɾa.ˈwo.a/,kuh-rah-WOH-ah,daily_core,0,yes,none
+90,shërohi,tired; fatigued,adj,/ʃə.ˈɾo.hi/,shuh-ROH-hee,daily_core,0,yes,none
+91,rawëli,want; desire,v,/ɾa.ˈwə.li/,rah-WUH-lee,daily_core,0,yes,none
+92,shënariwo,wait; remain until an event,v,/ʃə.na.ˈɾi.wo/,shuh-nah-REE-woh,daily_core,0,yes,none
+93,raro,door; entry barrier,n,/ˈɾa.ɾo/,RAH-roh,daily_core,12,yes,none
+94,rëliwa,open; uncover access,v,/ɾə.ˈli.wa/,ruh-LEE-wah,daily_core,0,yes,none
+95,weru,window; view opening,n,/ˈwe.ɾu/,WEH-roo,daily_core,10,yes,none
+96,shëliroa,close; shut,v,/ʃə.li.ˈɾo.a/,shuh-lee-ROH-ah,daily_core,0,yes,none
+97,gëmawa,bed; resting nest,n,/ɡə.ˈma.wa/,guh-MAH-wah,daily_core,0,yes,none
+98,zhërowë,washroom; bathroom,n,/ʒə.ˈɾo.wə/,zhuh-ROH-wuh,daily_core,7,yes,none
+99,shëroa,blanket; covering,n,/ʃə.ˈɾo.a/,shuh-ROH-ah,daily_core,0,yes,none
+100,shëmiroli,wash; clean with water,v,/ʃə.mi.ˈɾo.li/,shuh-mee-ROH-lee,daily_core,0,yes,none
+101,zhëroli,wear; have clothing on,v,/ʒə.ˈɾo.li/,zhuh-ROH-lee,daily_core,0,yes,none
+102,shëngaro,glittering; sparkling,adj,/ʃə.ˈŋa.ɾo/,shuh-NGAH-roh,daily_core,0,yes,none
+103,kimara,water refuge; waterside shelter,n,/ki.ˈma.ɾa/,kee-MAH-rah,daily_core,0,yes,none
+104,wëngaro,cliff; escarpment,n,/wə.ˈŋa.ɾo/,wuh-NGAH-roh,daily_core,0,yes,none
+105,kimazu,rain,n,/ki.ˈma.zu/,kee-MAH-zoo,daily_core,1,yes,none
+106,wëma,sea; ocean,n,/ˈwə.ma/,WUH-mah,daily_core,2,yes,none
+107,yela,moon,n,/ˈje.la/,YEH-lah,daily_core,10,yes,none
+108,yënawë,rise; move upward,v,/jə.ˈna.wə/,yuh-NAH-wuh,daily_core,0,yes,none
+109,khuramo,breeze,n,/xu.ˈɾa.mo/,khoo-RAH-moh,daily_core,0,yes,none
+110,yeta,when,qword,/ˈje.ta/,YEH-tah,daily_core,0,yes,none
+111,shoro,why,qword,/ˈʃo.ɾo/,SHOH-roh,daily_core,0,yes,none
+112,hara,how; by what manner,qword,/ˈha.ɾa/,HAH-rah,daily_core,0,yes,none
+113,ruki,which; which one,qword,/ˈɾu.ki/,ROO-kee,daily_core,0,yes,none
+114,zëli,how many; how much,qword,/ˈzə.li/,ZUH-lee,daily_core,0,yes,none
+115,shërawë,believe; accept as true,v,/ʃə.ˈɾa.wə/,shuh-RAH-wuh,daily_core,0,yes,none
+116,përoa,answer; reply,v,/pə.ˈɾo.a/,puh-ROH-ah,daily_core,0,yes,none
+117,qaroshishërawëshi,Qaroshi grammar; linguistic rules of Qaroshi,n,/qa.ɾo.ʃi.ʃə.ɾa.ˈwə.ʃi/,qah-roh-shee-shuh-rah-WUH-shee,daily_core,0,yes,none
+118,shimarë,dictionary; reference of words,n,/ʃi.ˈma.ɾə/,shee-MAH-ruh,daily_core,20,yes,none
+119,qaroshishimarë,Qaroshi dictionary,n,/qa.ɾo.ʃi.ʃi.ˈma.ɾə/,qah-roh-shee-shee-MAH-ruh,daily_core,0,yes,none
+120,kërawëmi,password; access secret,n,/kə.ɾa.ˈwə.mi/,kuh-rah-WUH-mee,daily_core,10,yes,none
+121,ngigoka,assessment,n,/ŋi.ˈɡo.ka/,ngee-GOH-kah,productive_extension,227,yes,none
+122,nirami,monitoring,n,/ni.ˈɾa.mi/,nee-RAH-mee,productive_extension,188,yes,none
+123,digëki,record,n,/di.ˈɡə.ki/,dee-GUH-kee,productive_extension,186,yes,none
+124,weheda,policy,n,/we.ˈhe.da/,weh-HEH-dah,productive_extension,178,yes,none
+125,seleloda,training,n,/se.le.ˈlo.da/,seh-leh-LOH-dah,productive_extension,176,yes,none
+126,yokhëgu,analysis,n,/jo.ˈxə.ɡu/,yoh-KHUH-goo,productive_extension,159,yes,none
+127,nohowa,safety; absence of danger,n,/no.ˈho.wa/,noh-HOH-wah,productive_extension,150,yes,none
+128,rëmëra,measurement; measured value,n,/ɾə.ˈmə.ɾa/,ruh-MUH-rah,productive_extension,143,yes,none
+129,deyawonge,archive,n,/de.ja.ˈwo.ŋe/,deh-yah-WOH-ngeh,productive_extension,142,yes,none
+130,pënawë,service; assistance provided to others,n,/pə.ˈna.wə/,puh-NAH-wuh,productive_extension,142,yes,none
+131,teshishi,guide,n,/te.ˈʃi.ʃi/,teh-SHEE-shee,productive_extension,141,yes,none
+132,lohisuzha,review,n,/lo.hi.ˈsu.ʒa/,loh-hee-SOO-zhah,productive_extension,138,yes,none
+133,yudohe,public,adj,/ju.ˈdo.he/,yoo-DOH-heh,productive_extension,133,yes,none
+134,khematupu,system,n,/xe.ma.ˈtu.pu/,kheh-mah-TOO-poo,productive_extension,130,yes,none
+135,ngëmarawo,storage; stored information or goods,n,/ŋə.ma.ˈɾa.wo/,nguh-mah-RAH-woh,productive_extension,119,yes,none
+136,rërawëho,schedule; ordered plan for time,n,/ɾə.ɾa.ˈwə.ho/,ruh-rah-WUH-hoh,productive_extension,110,yes,none
+137,zhërogëshu,community,n,/ʒə.ɾo.ˈɡə.ʃu/,zhuh-roh-GUH-shoo,productive_extension,109,yes,none
+138,gehokë,communication,n,/ɡe.ˈho.kə/,geh-HOH-kuh,productive_extension,108,yes,none
+139,wërawi,plan; intended sequence of steps,n,/wə.ˈɾa.wi/,wuh-RAH-wee,productive_extension,107,yes,none
+140,kunipapa,private,adj,/ku.ni.ˈpa.pa/,koo-nee-PAH-pah,productive_extension,107,yes,none
+141,zihuli,model,n,/zi.ˈhu.li/,zee-HOO-lee,productive_extension,105,yes,none
+142,sekhotë,planning,n,/se.ˈxo.tə/,seh-KHOH-tuh,productive_extension,96,yes,none
+143,ridamo,protection,n,/ɾi.ˈda.mo/,ree-DAH-moh,productive_extension,94,yes,none
+144,yiwigi,technique,n,/ji.ˈwi.ɡi/,yee-WEE-gee,productive_extension,90,yes,none
+145,naloma,research,n,/na.ˈlo.ma/,nah-LOH-mah,productive_extension,89,yes,none
+146,deheto,performance,n,/de.ˈhe.to/,deh-HEH-toh,productive_extension,88,yes,none
+147,ngetushëshe,historical,adj,/ŋe.tu.ˈʃə.ʃe/,ngeh-too-SHUH-sheh,productive_extension,88,yes,none
+148,rëwuze,equipment,n,/ɾə.ˈwu.ze/,ruh-WOO-zeh,productive_extension,85,yes,none
+149,lisezewu,tradition,n,/li.se.ˈze.wu/,lee-seh-ZEH-woo,productive_extension,83,yes,none
+150,yunige,local,adj,/ju.ˈni.ɡe/,yoo-NEE-geh,productive_extension,82,yes,none
+151,kehelo,support,n,/ke.ˈhe.lo/,keh-HEH-loh,productive_extension,81,yes,none
+152,lulëzhoto,survey,n,/lu.lə.ˈʒo.to/,loo-luh-ZHOH-toh,productive_extension,81,yes,none
+153,mëguda,medical,adj,/mə.ˈɡu.da/,muh-GOO-dah,productive_extension,81,yes,none
+154,potinoqë,interface,n,/po.ti.ˈno.qə/,poh-tee-NOH-quh,productive_extension,80,yes,none
+155,shirongo,warning,n,/ʃi.ˈɾo.ŋo/,shee-ROH-ngoh,productive_extension,80,yes,none
+156,qezëmi,educational,adj,/qe.ˈzə.mi/,qeh-ZUH-mee,productive_extension,80,yes,none
+157,bewaha,maintenance,n,/be.ˈwa.ha/,beh-WAH-hah,productive_extension,77,yes,none
+158,supizo,observation,n,/su.ˈpi.zo/,soo-PEE-zoh,productive_extension,76,yes,none
+159,ngusiwimu,response,n,/ŋu.si.ˈwi.mu/,ngoo-see-WEE-moo,productive_extension,75,yes,none
+160,dëmari,project; coordinated effort,n,/də.ˈma.ɾi/,duh-MAH-ree,productive_extension,75,yes,none
+161,dëkhini,documentation,n,/də.ˈxi.ni/,duh-KHEE-nee,productive_extension,75,yes,none
+162,beleha,inspection,n,/be.ˈle.ha/,beh-LEH-hah,productive_extension,75,yes,none
+163,zhikasasho,report,n,/ʒi.ka.ˈsa.ʃo/,zhee-kah-SAH-shoh,productive_extension,74,yes,none
+164,zhuyokhula,quality,n,/ʒu.jo.ˈxu.la/,zhoo-yoh-KHOO-lah,productive_extension,72,yes,none
+165,kërawiho,available; accessible,adj,/kə.ɾa.ˈwi.ho/,kuh-rah-WEE-hoh,productive_extension,72,yes,none
+166,yudawë,temporary,adj,/ju.ˈda.wə/,yoo-DAH-wuh,productive_extension,71,yes,none
+167,khukhare,digital,adj,/xu.ˈxa.ɾe/,khoo-KHAH-reh,productive_extension,70,yes,none
+168,goroa,flight; act of flying,n,/ɡo.ˈɾo.a/,goh-ROH-ah,productive_extension,67,yes,none
+169,bepëqo,repair,n,/be.ˈpə.qo/,beh-PUH-qoh,productive_extension,66,yes,none
+170,silakha,design,n,/si.ˈla.xa/,see-LAH-khah,productive_extension,66,yes,none
+171,rëlawë,risk; possibility of harm,n,/ɾə.ˈla.wə/,ruh-LAH-wuh,productive_extension,66,yes,none
+172,zekheyë,distribution,n,/ze.ˈxe.jə/,zeh-KHEH-yuh,productive_extension,66,yes,none
+173,ngirunga,study,n,/ŋi.ˈɾu.ŋa/,ngee-ROO-ngah,productive_extension,65,yes,none
+174,dozëkaro,international,adj,/do.zə.ˈka.ɾo/,doh-zuh-KAH-roh,productive_extension,65,yes,none
+175,yuwëqë,remote,adj,/ju.ˈwə.qə/,yoo-WUH-quh,productive_extension,65,yes,none
+176,bikhimi,session,n,/bi.ˈxi.mi/,bee-KHEE-mee,productive_extension,64,yes,none
+177,khëgagë,treatment,n,/xə.ˈɡa.ɡə/,khuh-GAH-guh,productive_extension,64,yes,none
+178,ngigala,lesson,n,/ŋi.ˈɡa.la/,ngee-GAH-lah,productive_extension,64,yes,none
+179,sungodo,access,n,/su.ˈŋo.do/,soo-NGOH-doh,productive_extension,64,yes,none
+180,kipula,dataset,n,/ki.ˈpu.la/,kee-POO-lah,productive_extension,63,yes,none
+181,wëlakhe,infrastructure,n,/wə.ˈla.xe/,wuh-LAH-kheh,productive_extension,63,yes,none
+182,morushira,story; narrative,n,/mo.ɾu.ˈʃi.ɾa/,moh-roo-SHEE-rah,productive_extension,61,yes,none
+183,kidishitë,instrument,n,/ki.di.ˈʃi.tə/,kee-dee-SHEE-tuh,productive_extension,60,yes,none
+184,shërawëhu,report; tell others information,v,/ʃə.ɾa.ˈwə.hu/,shuh-rah-WUH-hoo,productive_extension,60,yes,none
+185,zëshewezi,discussion,n,/zə.ʃe.ˈwe.zi/,zuh-sheh-WEH-zee,productive_extension,60,yes,none
+186,puhehu,coastal,adj,/pu.ˈhe.hu/,poo-HEH-hoo,productive_extension,59,yes,none
+187,gosekheyi,audit,n,/ɡo.se.ˈxe.ji/,goh-seh-KHEH-yee,productive_extension,58,yes,none
+188,mesodë,process,n,/me.ˈso.də/,meh-SOH-duh,productive_extension,58,yes,none
+189,tekogi,practice,n,/te.ˈko.ɡi/,teh-KOH-gee,productive_extension,57,yes,none
+190,luzhoyeri,team,n,/lu.ʒo.ˈje.ɾi/,loo-zhoh-YEH-ree,productive_extension,57,yes,none
+191,shiwena,network; communication mesh,n,/ʃi.ˈwe.na/,shee-WEH-nah,productive_extension,57,yes,none
+192,ngidëna,feedback,n,/ŋi.ˈdə.na/,ngee-DUH-nah,productive_extension,56,yes,none
+193,gutoqa,reflection,n,/ɡu.ˈto.qa/,goo-TOH-qah,productive_extension,56,yes,none
+194,segara,budget,n,/se.ˈɡa.ɾa/,seh-GAH-rah,productive_extension,56,yes,none
+195,ngusiyë,method,n,/ŋu.ˈsi.jə/,ngoo-SEE-yuh,productive_extension,56,yes,none
+196,siheshibi,regional,adj,/si.he.ˈʃi.bi/,see-heh-SHEE-bee,productive_extension,56,yes,none
+197,boteweto,consultation,n,/bo.te.ˈwe.to/,boh-teh-WEH-toh,productive_extension,55,yes,none
+198,qodudose,shared,adj,/qo.du.ˈdo.se/,qoh-doo-DOH-seh,productive_extension,55,yes,none
+199,ngiqoba,education,n,/ŋi.ˈqo.ba/,ngee-QOH-bah,productive_extension,54,yes,none
+200,wukola,forecast,n,/wu.ˈko.la/,woo-KOH-lah,productive_extension,54,yes,none
+201,shi,voice; speech; language,n,/ʃi/,shee,productive_extension,54,yes,none
+202,yuyeyë,permanent,adj,/ju.ˈje.jə/,yoo-YEH-yuh,productive_extension,53,yes,none
+203,someki,seasonal,adj,/so.ˈme.ki/,soh-MEH-kee,productive_extension,52,yes,none
+204,bengeka,sensor,n,/be.ˈŋe.ka/,beh-NGEH-kah,productive_extension,51,yes,none
+205,pakhëngë,event,n,/pa.ˈxə.ŋə/,pah-KHUH-nguh,productive_extension,51,yes,none
+206,moru,memory; remembered moment,n,/ˈmo.ɾu/,MOH-roo,productive_extension,51,yes,none
+207,qerungama,experimental,adj,/qe.ɾu.ˈŋa.ma/,qeh-roo-NGAH-mah,productive_extension,51,yes,none
+208,botita,protocol,n,/bo.ˈti.ta/,boh-TEE-tah,productive_extension,50,yes,none
+209,khuloyë,preparation,n,/xu.ˈlo.jə/,khoo-LOH-yuh,productive_extension,50,yes,none
+210,rozhubë,sample,n,/ɾo.ˈʒu.bə/,roh-ZHOO-buh,productive_extension,50,yes,none
+211,ngekeki,recovery,n,/ŋe.ˈke.ki/,ngeh-KEH-kee,productive_extension,50,yes,none
+212,besheqa,workshop,n,/be.ˈʃe.qa/,beh-SHEH-qah,productive_extension,50,yes,none
+213,mesëngiba,resource,n,/me.sə.ˈŋi.ba/,meh-suh-NGEE-bah,productive_extension,50,yes,none
+214,pasëku,device,n,/pa.ˈsə.ku/,pah-SUH-koo,productive_extension,49,yes,none
+215,pudihoto,control,n,/pu.di.ˈho.to/,poo-dee-HOH-toh,productive_extension,49,yes,none
+216,khasiretë,test,n,/xa.si.ˈɾe.tə/,khah-see-REH-tuh,productive_extension,49,yes,none
+217,khumuda,database,n,/xu.ˈmu.da/,khoo-MOO-dah,productive_extension,49,yes,none
+218,khuzhaso,server,n,/xu.ˈʒa.so/,khoo-ZHAH-soh,productive_extension,49,yes,none
+219,khëpidami,emergency,adj,/xə.pi.ˈda.mi/,khuh-pee-DAH-mee,productive_extension,49,yes,none
+220,goshëdo,evaluation,n,/ɡo.ˈʃə.do/,goh-SHUH-doh,productive_extension,48,yes,none
+221,tëkaro,map; spatial representation,n,/tə.ˈka.ɾo/,tuh-KAH-roh,productive_extension,48,yes,none
+222,shingohë,family,n,/ʃi.ˈŋo.hə/,shee-NGOH-huh,productive_extension,48,yes,none
+223,dagëwu,strategy,n,/da.ˈɡə.wu/,dah-GUH-woo,productive_extension,47,yes,none
+224,morura,history; shared memory of events,n,/mo.ˈɾu.ɾa/,moh-ROO-rah,productive_extension,47,yes,none
+225,ngomekhano,rural,adj,/ŋo.me.ˈxa.no/,ngoh-meh-KHAH-noh,productive_extension,47,yes,none
+226,pëqutonu,pediatric,adj,/pə.qu.ˈto.nu/,puh-qoo-TOH-noo,productive_extension,47,yes,none
+227,pëzhadutu,multilingual,adj,/pə.ʒa.ˈdu.tu/,puh-zhah-DOO-too,productive_extension,47,yes,none
+228,tewonë,migration,n,/te.ˈwo.nə/,teh-WOH-nuh,productive_extension,46,yes,none
+229,mërokhi,anonymous,adj,/mə.ˈɾo.xi/,muh-ROH-khee,productive_extension,46,yes,none
+230,qebiya,encrypted,adj,/qe.ˈbi.ja/,qeh-BEE-yah,productive_extension,46,yes,none
+231,sengizhëma,urban,n,/se.ŋi.ˈʒə.ma/,seh-ngee-ZHUH-mah,productive_extension,46,yes,none
+232,rëmawo,ceremony; ritual occasion,n,/ɾə.ˈma.wo/,ruh-MAH-woh,productive_extension,45,yes,none
+233,niqinu,editing,n,/ni.ˈqi.nu/,nee-QEE-noo,productive_extension,45,yes,none
+234,zesëto,conservation,n,/ze.ˈsə.to/,zeh-SUH-toh,productive_extension,45,yes,none
+235,deyega,exhibition,n,/de.ˈje.ɡa/,deh-YEH-gah,productive_extension,45,yes,none
+236,negeshu,visual,adj,/ne.ˈɡe.ʃu/,neh-GEH-shoo,productive_extension,45,yes,none
+237,dëmaro,festival; communal celebration,n,/də.ˈma.ɾo/,duh-MAH-roh,productive_extension,44,yes,none
+238,rengaba,navigation,n,/ɾe.ˈŋa.ba/,reh-NGAH-bah,productive_extension,44,yes,none
+239,zhirëba,decision,n,/ʒi.ˈɾə.ba/,zhee-RUH-bah,productive_extension,44,yes,none
+240,khutëra,application,n,/xu.ˈtə.ɾa/,khoo-TUH-rah,productive_extension,44,yes,none
+241,qulonë,industrial,adj,/qu.ˈlo.nə/,qoo-LOH-nuh,productive_extension,44,yes,none
+242,zohasha,limit,n,/zo.ˈha.ʃa/,zoh-HAH-shah,productive_extension,43,yes,none
+243,sezaha,payment,n,/se.ˈza.ha/,seh-ZAH-hah,productive_extension,43,yes,none
+244,gulato,accessibility,n,/ɡu.ˈla.to/,goo-LAH-toh,productive_extension,43,yes,none
+245,nebëme,personal,adj,/ne.ˈbə.me/,neh-BUH-meh,productive_extension,43,yes,none
+246,shëmozë,guideline,n,/ʃə.ˈmo.zə/,shuh-MOH-zuh,productive_extension,42,yes,none
+247,këmu,agreement; accord,n,/ˈkə.mu/,KUH-moo,productive_extension,42,yes,none
+248,puqëwuku,environmental,adj,/pu.qə.ˈwu.ku/,poo-quh-WOO-koo,productive_extension,42,yes,none
+249,ngërawëra,pattern; recurrence over time,n,/ŋə.ɾa.ˈwə.ɾa/,nguh-rah-WUH-rah,productive_extension,41,yes,none
+250,khuzuwo,simulation,n,/xu.ˈzu.wo/,khoo-ZOO-woh,productive_extension,41,yes,none
+251,zonësongi,document,n,/zo.nə.ˈso.ŋi/,zoh-nuh-SOH-ngee,productive_extension,41,yes,none
+252,nësega,food,n,/nə.ˈse.ɡa/,nuh-SEH-gah,productive_extension,41,yes,none
+253,dolikiqi,communal,adj,/do.li.ˈki.qi/,doh-lee-KEE-qee,productive_extension,41,yes,none
+254,tanowe,testing,n,/ta.ˈno.we/,tah-NOH-weh,productive_extension,40,yes,none
+255,khuzuha,backup,n,/xu.ˈzu.ha/,khoo-ZOO-hah,productive_extension,40,yes,none
+256,ziqota,production,n,/zi.ˈqo.ta/,zee-QOH-tah,productive_extension,39,yes,none
+257,bihuzugo,thermal,adj,/bi.hu.ˈzu.ɡo/,bee-hoo-ZOO-goh,productive_extension,39,yes,none
+258,nguyabo,failure,n,/ŋu.ˈja.bo/,ngoo-YAH-boh,productive_extension,39,yes,none
+259,rërawi,result; consequence,n,/ɾə.ˈɾa.wi/,ruh-RAH-wee,productive_extension,39,yes,none
+260,sedëzo,supply,n,/se.ˈdə.zo/,seh-DUH-zoh,productive_extension,39,yes,none
+261,posami,wildlife,n,/po.ˈsa.mi/,poh-SAH-mee,productive_extension,39,yes,none
+262,kutongo,scientific,adj,/ku.ˈto.ŋo/,koo-TOH-ngoh,productive_extension,39,yes,none
+263,rëliro,practice; repeat to improve,v,/ɾə.ˈli.ɾo/,ruh-LEE-roh,productive_extension,38,yes,none
+264,taroa,path; route,n,/ta.ˈɾo.a/,tah-ROH-ah,productive_extension,38,yes,none
+265,kezhëgo,celebration,n,/ke.ˈʒə.ɡo/,keh-ZHUH-goh,productive_extension,38,yes,none
+266,tëgaka,shelter,n,/tə.ˈɡa.ka/,tuh-GAH-kah,productive_extension,38,yes,none
+267,tiyëbo,emergency,n,/ti.ˈjə.bo/,tee-YUH-boh,productive_extension,38,yes,none
+268,ririsë,audio,adj,/ɾi.ˈɾi.sə/,ree-REE-suh,productive_extension,38,yes,none
+269,yutapë,social,adj,/ju.ˈta.pə/,yoo-TAH-puh,productive_extension,38,yes,none
+270,gunoma,exercise,n,/ɡu.ˈno.ma/,goo-NOH-mah,productive_extension,37,yes,none
+271,shiraro,conversation; dialogue,n,/ʃi.ˈɾa.ɾo/,shee-RAH-roh,productive_extension,37,yes,none
+272,zobukikë,financial,adj,/zo.bu.ˈki.kə/,zoh-boo-KEE-kuh,productive_extension,37,yes,none
+273,nëdëzu,gathering,n,/nə.ˈdə.zu/,nuh-DUH-zoo,productive_extension,36,yes,none
+274,detekebë,verification,n,/de.te.ˈke.bə/,deh-teh-KEH-buh,productive_extension,36,yes,none
+275,khurezi,inference,n,/xu.ˈɾe.zi/,khoo-REH-zee,productive_extension,36,yes,none
+276,shërawëlin,link; clickable reference; connection,n,/ʃə.ɾa.ˈwə.lin/,shuh-rah-WUH-leen,productive_extension,36,yes,none
+277,pagaze,station,n,/pa.ˈɡa.ze/,pah-GAH-zeh,productive_extension,36,yes,none
+278,rëmawe,dance; coordinated movement,n,/ɾə.ˈma.we/,ruh-MAH-weh,productive_extension,36,yes,none
+279,mangurimë,distributed,adj,/ma.ŋu.ˈɾi.mə/,mah-ngoo-REE-muh,productive_extension,36,yes,none
+280,tutëgo,cultural,adj,/tu.ˈtə.ɡo/,too-TUH-goh,productive_extension,36,yes,none
+281,yupëre,mobile,adj,/ju.ˈpə.ɾe/,yoo-PUH-reh,productive_extension,36,yes,none
+282,sukhado,experiment,n,/su.ˈxa.do/,soo-KHAH-doh,productive_extension,35,yes,none
+283,rënawa,music; organized sound,n,/ɾə.ˈna.wa/,ruh-NAH-wah,productive_extension,35,yes,none
+284,dashoyi,air,n,/da.ˈʃo.ji/,dah-SHOH-yee,productive_extension,35,yes,none
+285,rënaro,task; assigned action,n,/ɾə.ˈna.ɾo/,ruh-NAH-roh,productive_extension,34,yes,none
+286,saderene,data,n,/sa.de.ˈɾe.ne/,sah-deh-REH-neh,productive_extension,34,yes,none
+287,mëroa,healing; recovery,n,/mə.ˈɾo.a/,muh-ROH-ah,productive_extension,34,yes,none
+288,pëtango,household,n,/pə.ˈta.ŋo/,puh-TAH-ngoh,productive_extension,34,yes,none
+289,yenikhëka,mode,n,/je.ni.ˈxə.ka/,yeh-nee-KHUH-kah,productive_extension,33,yes,none
+290,sëli,group; gathering,n,/ˈsə.li/,SUH-lee,productive_extension,33,yes,none
+291,guqëpa,symptom,n,/ɡu.ˈqə.pa/,goo-QUH-pah,productive_extension,32,yes,none
+292,rurezhubë,tournament,n,/ɾu.ɾe.ˈʒu.bə/,roo-reh-ZHOO-buh,productive_extension,32,yes,none
+293,behegoqo,checklist,n,/be.he.ˈɡo.qo/,beh-heh-GOH-qoh,productive_extension,32,yes,none
+294,kelako,reconciliation,n,/ke.ˈla.ko/,keh-LAH-koh,productive_extension,32,yes,none
+295,morushi,recording; preserved speech,n,/mo.ˈɾu.ʃi/,moh-ROO-shee,productive_extension,31,yes,none
+296,shëwasëlo,collection,n,/ʃə.wa.ˈsə.lo/,shuh-wah-SUH-loh,productive_extension,31,yes,none
+297,sishipi,request,n,/si.ˈʃi.pi/,see-SHEE-pee,productive_extension,31,yes,none
+298,shërawëmiho,account; identity on a service,n,/ʃə.ɾa.wə.ˈmi.ho/,shuh-rah-wuh-MEE-hoh,productive_extension,31,yes,none
+299,hëzhore,management,n,/hə.ˈʒo.ɾe/,huh-ZHOH-reh,productive_extension,31,yes,none
+300,bengapa,log,n,/be.ˈŋa.pa/,beh-NGAH-pah,productive_extension,31,yes,none
+301,ngokhakhe,collaborative,adj,/ŋo.ˈxa.xe/,ngoh-KHAH-kheh,productive_extension,31,yes,none
+302,qalaso,vision,n,/qa.ˈla.so/,qah-LAH-soh,productive_extension,31,yes,none
+303,rawëho,casual; informal,adj,/ɾa.ˈwə.ho/,rah-WUH-hoh,productive_extension,31,yes,none
+304,shëbeyë,decentralized,adj,/ʃə.ˈbe.jə/,shuh-BEH-yuh,productive_extension,31,yes,none
+305,todungi,ceremonial,adj,/to.ˈdu.ŋi/,toh-DOO-ngee,productive_extension,31,yes,none
+306,wobezë,verified,adj,/wo.ˈbe.zə/,woh-BEH-zuh,productive_extension,31,yes,none
+307,sekogohë,experience,n,/se.ko.ˈɡo.hə/,seh-koh-GOH-huh,productive_extension,30,yes,none
+308,shëroho,energy; stamina,n,/ʃə.ˈɾo.ho/,shuh-ROH-hoh,productive_extension,30,yes,none
+309,kheriniyu,meeting,n,/xe.ɾi.ˈni.ju/,kheh-ree-NEE-yoo,productive_extension,30,yes,none
+310,qisosa,hearing,n,/qi.ˈso.sa/,qee-SOH-sah,productive_extension,30,yes,none
+311,shënaroa,signal; alert transmission,n,/ʃə.na.ˈɾo.a/,shuh-nah-ROH-ah,productive_extension,29,yes,none
+312,sasokhë,housing,n,/sa.ˈso.xə/,sah-SOH-khuh,productive_extension,29,yes,none
+313,gukosa,screening,n,/ɡu.ˈko.sa/,goo-KOH-sah,productive_extension,29,yes,none
+314,ngikeqo,certificate,n,/ŋi.ˈke.qo/,ngee-KEH-qoh,productive_extension,29,yes,none
+315,ngomakë,archived,adj,/ŋo.ˈma.kə/,ngoh-MAH-kuh,productive_extension,29,yes,none
+316,dezhaya,composition,n,/de.ˈʒa.ja/,deh-ZHAH-yah,productive_extension,28,yes,none
+317,daruho,security; protection against intrusion,n,/da.ˈɾu.ho/,dah-ROO-hoh,productive_extension,28,yes,none
+318,dëmiho,care; assistance for well-being,n,/də.ˈmi.ho/,duh-MEE-hoh,productive_extension,28,yes,none
+319,zhisemo,visualization,n,/ʒi.ˈse.mo/,zhee-SEH-moh,productive_extension,28,yes,none
+320,gangazume,national,adj,/ɡa.ŋa.ˈzu.me/,gah-ngah-ZOO-meh,productive_extension,28,yes,none
+321,zhudëbo,follow-up,n,/ʒu.ˈdə.bo/,zhoo-DUH-boh,productive_extension,28,yes,none
+322,yushëkë,legal,adj,/ju.ˈʃə.kə/,yoo-SHUH-kuh,productive_extension,28,yes,none
+323,yërawaroa,software; computer instructions,n,/jə.ɾa.wa.ˈɾo.a/,yuh-rah-wah-ROH-ah,productive_extension,28,yes,none
+324,mërawi,example; illustrative case,n,/mə.ˈɾa.wi/,muh-RAH-wee,productive_extension,27,yes,none
+325,budope,magnetic,adj,/bu.ˈdo.pe/,boo-DOH-peh,productive_extension,27,yes,none
+326,pukëha,transport,n,/pu.ˈkə.ha/,poo-KUH-hah,productive_extension,27,yes,none
+327,dekhewa,art,n,/de.ˈxe.wa/,deh-KHEH-wah,productive_extension,27,yes,none
+328,sëhibaye,environment,n,/sə.hi.ˈba.je/,suh-hee-BAH-yeh,productive_extension,27,yes,none
+329,shërawa,habitat; living range,n,/ʃə.ˈɾa.wa/,shuh-RAH-wah,productive_extension,27,yes,none
+330,doshishëro,chemical,adj,/do.ʃi.ˈʃə.ɾo/,doh-shee-SHUH-roh,productive_extension,27,yes,none
+331,lurizha,drought,n,/lu.ˈɾi.ʒa/,loo-REE-zhah,productive_extension,27,yes,none
+332,kewino,ritual,n,/ke.ˈwi.no/,keh-WEE-noh,productive_extension,26,yes,none
+333,ngiqana,correction,n,/ŋi.ˈqa.na/,ngee-QAH-nah,productive_extension,26,yes,none
+334,lirebi,disclosure,n,/li.ˈɾe.bi/,lee-REH-bee,productive_extension,26,yes,none
+335,gëdida,profile,n,/ɡə.ˈdi.da/,guh-DEE-dah,productive_extension,26,yes,none
+336,wukego,interval,n,/wu.ˈke.ɡo/,woo-KEH-goh,productive_extension,26,yes,none
+337,guhëma,allergy,n,/ɡu.ˈhə.ma/,goo-HUH-mah,productive_extension,26,yes,none
+338,kagiqë,clinical,adj,/ka.ˈɡi.qə/,kah-GEE-quh,productive_extension,26,yes,none
+339,khura,wind; moving air; breath of the world,n,/ˈxu.ɾa/,KHOO-rah,productive_extension,26,yes,none
+340,konizhokë,sustainable,adj,/ko.ni.ˈʒo.kə/,koh-nee-ZHOH-kuh,productive_extension,26,yes,none
+341,këtula,domestic,adj,/kə.ˈtu.la/,kuh-TOO-lah,productive_extension,26,yes,none
+342,ngëshoru,acoustic,adj,/ŋə.ˈʃo.ɾu/,nguh-SHOH-roo,productive_extension,26,yes,none
+343,pëkowo,professional,n,/pə.ˈko.wo/,puh-KOH-woh,productive_extension,26,yes,none
+344,shubishutu,commercial,adj,/ʃu.bi.ˈʃu.tu/,shoo-bee-SHOO-too,productive_extension,26,yes,none
+345,tërakho,optical,adj,/tə.ˈɾa.xo/,tuh-RAH-khoh,productive_extension,26,yes,none
+346,ziyeyë,exploratory,adj,/zi.ˈje.jə/,zee-YEH-yuh,productive_extension,26,yes,none
+347,dumuzhëme,announcement,n,/du.mu.ˈʒə.me/,doo-moo-ZHUH-meh,productive_extension,25,yes,none
+348,dakosinga,referral,n,/da.ko.ˈsi.ŋa/,dah-koh-SEE-ngah,productive_extension,25,yes,none
+349,zhiqomo,interpretation,n,/ʒi.ˈqo.mo/,zhee-QOH-moh,productive_extension,25,yes,none
+350,ngibosha,translation,n,/ŋi.ˈbo.ʃa/,ngee-BOH-shah,productive_extension,25,yes,none
+351,deteyela,platform,n,/de.te.ˈje.la/,deh-teh-YEH-lah,productive_extension,25,yes,none
+352,rimëmuyo,instruction,n,/ɾi.mə.ˈmu.jo/,ree-muh-MOO-yoh,productive_extension,25,yes,none
+353,qilebe,interview,n,/qi.ˈle.be/,qee-LEH-beh,productive_extension,25,yes,none
+354,qinazha,appeal,n,/qi.ˈna.ʒa/,qee-NAH-zhah,productive_extension,25,yes,none
+355,hapasupë,interactive,adj,/ha.pa.ˈsu.pə/,hah-pah-SOO-puh,productive_extension,25,yes,none
+356,luzada,climate,n,/lu.ˈza.da/,loo-ZAH-dah,productive_extension,25,yes,none
+357,suzhoha,science,n,/su.ˈʒo.ha/,soo-ZHOH-hah,productive_extension,25,yes,none
+358,gikëpëkhi,error,n,/ɡi.kə.ˈpə.xi/,gee-kuh-PUH-khee,productive_extension,24,yes,none
+359,zhuzigi,trajectory,n,/ʒu.ˈzi.ɡi/,zhoo-ZEE-gee,productive_extension,24,yes,none
+360,rangadëzu,label,n,/ɾa.ŋa.ˈdə.zu/,rah-ngah-DUH-zoo,productive_extension,24,yes,none
+361,maho,consent; freely given agreement,n,/ˈma.ho/,MAH-hoh,productive_extension,24,yes,none
+362,ralazëngi,tracking,n,/ɾa.la.ˈzə.ŋi/,rah-lah-ZUH-ngee,productive_extension,24,yes,none
+363,nehuzu,publication,n,/ne.ˈhu.zu/,neh-HOO-zoo,productive_extension,24,yes,none
+364,haqepabi,processing,n,/ha.qe.ˈpa.bi/,hah-qeh-PAH-bee,productive_extension,24,yes,none
+365,dihëkha,electric,adj,/di.ˈhə.xa/,dee-HUH-khah,productive_extension,24,yes,none
+366,nakhëqa,municipal,adj,/na.ˈxə.qa/,nah-KHUH-qah,productive_extension,24,yes,none
+367,sëmogomi,recurring,n,/sə.mo.ˈɡo.mi/,suh-moh-GOH-mee,productive_extension,24,yes,none
+368,yuteqë,independent,adj,/ju.ˈte.qə/,yoo-TEH-quh,productive_extension,24,yes,none
+369,noha,boundary; limit of permission,n,/ˈno.ha/,NOH-hah,productive_extension,23,yes,none
+370,zenëne,hazard,n,/ze.ˈnə.ne/,zeh-NUH-neh,productive_extension,23,yes,none
+371,shëdosa,ranking,n,/ʃə.ˈdo.sa/,shuh-DOH-sah,productive_extension,23,yes,none
+372,khupodu,identification,n,/xu.ˈpo.du/,khoo-POH-doo,productive_extension,23,yes,none
+373,zëgukhi,replay,n,/zə.ˈɡu.xi/,zuh-GOO-khee,productive_extension,23,yes,none
+374,getoso,sensory,n,/ɡe.ˈto.so/,geh-TOH-soh,productive_extension,23,yes,none
+375,kheyirë,geographic,adj,/xe.ˈji.ɾə/,kheh-YEE-ruh,productive_extension,23,yes,none
+376,karoa,key; access token,n,/ka.ˈɾo.a/,kah-ROH-ah,productive_extension,23,yes,none
+377,qidure,nuclear,adj,/qi.ˈdu.ɾe/,qee-DOO-reh,productive_extension,23,yes,none
+378,rëzikakhë,longitudinal,adj,/ɾə.zi.ˈka.xə/,ruh-zee-KAH-khuh,productive_extension,23,yes,none
+379,shërawëmin,user; person using a service,n,/ʃə.ɾa.ˈwə.min/,shuh-rah-WUH-meen,productive_extension,23,yes,none
+380,tëtenë,technical,adj,/tə.ˈte.nə/,tuh-TEH-nuh,productive_extension,23,yes,none
+381,yuziqë,inclusive,adj,/ju.ˈzi.qə/,yoo-ZEE-quh,productive_extension,23,yes,none
+382,shongakë,architecture,n,/ʃo.ˈŋa.kə/,shoh-NGAH-kuh,productive_extension,22,yes,none
+383,gëbengu,guidance,n,/ɡə.ˈbe.ŋu/,guh-BEH-ngoo,productive_extension,22,yes,none
+384,bepëga,calibration,n,/be.ˈpə.ɡa/,beh-PUH-gah,productive_extension,22,yes,none
+385,shëbowere,exchange,n,/ʃə.bo.ˈwe.ɾe/,shuh-boh-WEH-reh,productive_extension,22,yes,none
+386,sewisa,delivery,n,/se.ˈwi.sa/,seh-WEE-sah,productive_extension,22,yes,none
+387,diqakhoho,critique,n,/di.qa.ˈxo.ho/,dee-qah-KHOH-hoh,productive_extension,22,yes,none
+388,mokunga,achievement,n,/mo.ˈku.ŋa/,moh-KOO-ngah,productive_extension,22,yes,none
+389,selora,insurance,n,/se.ˈlo.ɾa/,seh-LOH-rah,productive_extension,22,yes,none
+390,lonalëkhë,requirement,n,/lo.na.ˈlə.xə/,loh-nah-LUH-khuh,productive_extension,22,yes,none
+391,sudoya,temperature,n,/su.ˈdo.ja/,soo-DOH-yah,productive_extension,22,yes,none
+392,khëkhini,intervention,n,/xə.ˈxi.ni/,khuh-KHEE-nee,productive_extension,22,yes,none
+393,dunasita,mitigation,n,/du.na.ˈsi.ta/,doo-nah-SEE-tah,productive_extension,22,yes,none
+394,lumiya,earthquake,n,/lu.ˈmi.ja/,loo-MEE-yah,productive_extension,22,yes,none
+395,rëbëkhokha,desktop,adj,/ɾə.bə.ˈxo.xa/,ruh-buh-KHOH-khah,productive_extension,22,yes,none
+396,yukhuqe,online,adj,/ju.ˈxu.qe/,yoo-KHOO-qeh,productive_extension,22,yes,none
+397,zhëroliwa,privacy; ability to control access,n,/ʒə.ɾo.ˈli.wa/,zhuh-roh-LEE-wah,productive_extension,22,yes,none
+398,buzhipongu,component,n,/bu.ʒi.ˈpo.ŋu/,boo-zhee-POH-ngoo,productive_extension,21,yes,none
+399,ponona,investigation,n,/po.ˈno.na/,poh-NOH-nah,productive_extension,21,yes,none
+400,kuhudele,program,n,/ku.hu.ˈde.le/,koo-hoo-DEH-leh,productive_extension,21,yes,none
+401,sugëqo,pressure,n,/su.ˈɡə.qo/,soo-GUH-qoh,reference,21,yes,none
+402,bëhuha,alert,n,/bə.ˈhu.ha/,buh-HOO-hah,reference,21,yes,none
+403,mëwiyuza,catalog,n,/mə.wi.ˈju.za/,muh-wee-YOO-zah,reference,21,yes,none
+404,gidaha,diary,n,/ɡi.ˈda.ha/,gee-DAH-hah,reference,21,yes,none
+405,buzhezi,statistical,adj,/bu.ˈʒe.zi/,boo-ZHEH-zee,reference,21,yes,none
+406,gokhere,legend,n,/ɡo.ˈxe.ɾe/,goh-KHEH-reh,reference,21,yes,none
+407,nëzugëngi,competition,n,/nə.zu.ˈɡə.ŋi/,nuh-zoo-GUH-ngee,reference,21,yes,none
+408,zëkonu,framework,n,/zə.ˈko.nu/,zuh-KOH-noo,reference,21,yes,none
+409,dasunga,political,adj,/da.ˈsu.ŋa/,dah-SOO-ngah,reference,21,yes,none
+410,sehiba,coverage,n,/se.ˈhi.ba/,seh-HEE-bah,reference,21,yes,none
+411,zhipeqoko,reporting,n,/ʒi.pe.ˈqo.ko/,zhee-peh-QOH-koh,reference,21,yes,none
+412,gëbibu,layout,n,/ɡə.ˈbi.bu/,guh-BEE-boo,reference,21,yes,none
+413,kehomi,setting,n,/ke.ˈho.mi/,keh-HOH-mee,reference,21,yes,none
+414,denuko,film,n,/de.ˈnu.ko/,deh-NOO-koh,reference,21,yes,none
+415,deshuzo,photography,n,/de.ˈʃu.zo/,deh-SHOO-zoh,reference,21,yes,none
+416,qëmogë,market,n,/qə.ˈmo.ɡə/,quh-MOH-guh,reference,21,yes,none
+417,dirowo,expression,n,/di.ˈɾo.wo/,dee-ROH-woh,reference,21,yes,none
+418,duwiwe,offline,adv,/du.ˈwi.we/,doo-WEE-weh,reference,21,yes,none
+419,gushelo,disability,n,/ɡu.ˈʃe.lo/,goo-SHEH-loh,reference,21,yes,none
+420,makuda,hatchling,n,/ma.ˈku.da/,mah-KOO-dah,reference,21,yes,none
+421,rasamokhe,marine,n,/ɾa.sa.ˈmo.xe/,rah-sah-MOH-kheh,reference,21,yes,none
+422,shuzhëshë,freshwater,n,/ʃu.ˈʒə.ʃə/,shoo-ZHUH-shuh,reference,21,yes,none
+423,yazopë,archival,adj,/ja.ˈzo.pə/,yah-ZOH-puh,reference,21,yes,none
+424,yubosë,confidential,adj,/ju.ˈbo.sə/,yoo-BOH-suh,reference,21,yes,none
+425,shërawëlon,file; stored digital item,n,/ʃə.ɾa.ˈwə.lon/,shuh-rah-WUH-lohn,reference,20,yes,none
+426,wudiso,routine,n,/wu.ˈdi.so/,woo-DEE-soh,reference,20,yes,none
+427,zheminë,permit,n,/ʒe.ˈmi.nə/,zheh-MEE-nuh,reference,20,yes,none
+428,qiqoso,regulation,n,/qi.ˈqo.so/,qee-QOH-soh,reference,20,yes,none
+429,wehëwa,campaign,n,/we.ˈhə.wa/,weh-HUH-wah,reference,20,yes,none
+430,kedëko,obligation,n,/ke.ˈdə.ko/,keh-DUH-koh,reference,20,yes,none
+431,databu,search,n,/da.ˈta.bu/,dah-TAH-boo,reference,20,yes,none
+432,ngisilo,course,n,/ŋi.ˈsi.lo/,ngee-SEE-loh,reference,20,yes,none
+433,dosagëzhë,aerial,adj,/do.sa.ˈɡə.ʒə/,doh-sah-GUH-zhuh,reference,20,yes,none
+434,kuhusalo,examination,n,/ku.hu.ˈsa.lo/,koo-hoo-SAH-loh,reference,20,yes,none
+435,khuduqa,regression,n,/xu.ˈdu.qa/,khoo-DOO-qah,reference,20,yes,none
+436,sëbemu,statement,n,/sə.ˈbe.mu/,suh-BEH-moo,reference,20,yes,none
+437,ligëmi,modular,n,/li.ˈɡə.mi/,lee-GUH-mee,reference,20,yes,none
+438,lugozu,storm,v,/lu.ˈɡo.zu/,loo-GOH-zoo,reference,20,yes,none
+439,luriro,flood,n,/lu.ˈɾi.ɾo/,loo-REE-roh,reference,20,yes,none
+440,luwiza,landslide,n,/lu.ˈwi.za/,loo-WEE-zah,reference,20,yes,none
+441,lëngahëki,geological,adj,/lə.ŋa.ˈhə.ki/,luh-ngah-HUH-kee,reference,20,yes,none
+442,pegëhëbi,organic,adj,/pe.ɡə.ˈhə.bi/,peh-guh-HUH-bee,reference,20,yes,none
+443,përangu,molecular,adj,/pə.ˈɾa.ŋu/,puh-RAH-ngoo,reference,20,yes,none
+444,rolagayu,underwater,n,/ɾo.la.ˈɡa.ju/,roh-lah-GAH-yoo,reference,20,yes,none
+445,rëngukhi,contemporary,adj,/ɾə.ˈŋu.xi/,ruh-NGOO-khee,reference,20,yes,none
+446,shazekhë,outpatient,adj,/ʃa.ˈze.xə/,shah-ZEH-khuh,reference,20,yes,none
+447,shëmahoho,formal; governed by etiquette,adj,/ʃə.ma.ˈho.ho/,shuh-mah-HOH-hoh,reference,20,yes,none
+448,wozena,downdraft,n,/wo.ˈze.na/,woh-ZEH-nah,reference,20,yes,none
+449,yezaso,high contrast,n,/je.ˈza.so/,yeh-ZAH-soh,reference,20,yes,none
+450,zharo,scale; protective body plate,n,/ˈʒa.ɾo/,ZHAH-roh,reference,20,yes,none
+451,zhoyodipu,intergenerational,adj,/ʒo.jo.ˈdi.pu/,zhoh-yoh-DEE-poo,reference,20,yes,none
+452,qepigongë,movement,n,/qe.pi.ˈɡo.ŋə/,qeh-pee-GOH-nguh,reference,19,yes,none
+453,ngërawëmo,injury; bodily harm,n,/ŋə.ɾa.ˈwə.mo/,nguh-rah-WUH-moh,reference,19,yes,none
+454,zotenga,proof,n,/zo.ˈte.ŋa/,zoh-TEH-ngah,reference,19,yes,none
+455,nëngabe,compatibility,n,/nə.ˈŋa.be/,nuh-NGAH-beh,reference,19,yes,none
+456,dëmolugo,reaction,n,/də.mo.ˈlu.ɡo/,duh-moh-LOO-goh,reference,19,yes,none
+457,pëshëza,specialist,n,/pə.ˈʃə.za/,puh-SHUH-zah,reference,19,yes,none
+458,qobuqë,evacuation,n,/qo.ˈbu.qə/,qoh-BOO-quh,reference,19,yes,none
+459,dasëyo,restoration,n,/da.ˈsə.jo/,dah-SUH-yoh,reference,19,yes,none
+460,shaneyeki,source,n,/ʃa.ne.ˈje.ki/,shah-neh-YEH-kee,reference,19,yes,none
+461,pobayo,population,n,/po.ˈba.jo/,poh-BAH-yoh,reference,19,yes,none
+462,yetadi,procedure,n,/je.ˈta.di/,yeh-TAH-dee,reference,19,yes,none
+463,gukhika,medication,n,/ɡu.ˈxi.ka/,goo-KHEE-kah,reference,19,yes,none
+464,guzaya,hydration,n,/ɡu.ˈza.ja/,goo-ZAH-yah,reference,19,yes,none
+465,khulura,firmware,n,/xu.ˈlu.ɾa/,khoo-LOO-rah,reference,19,yes,none
+466,kibiyiri,adaptive,adj,/ki.bi.ˈji.ɾi/,kee-bee-YEE-ree,reference,19,yes,none
+467,luziya,erosion,n,/lu.ˈzi.ja/,loo-ZEE-yah,reference,19,yes,none
+468,ngukhomi,roost,v,/ŋu.ˈxo.mi/,ngoo-KHOH-mee,reference,19,yes,none
+469,ngunëqo,takeoff,n,/ŋu.ˈnə.qo/,ngoo-NUH-qoh,reference,19,yes,none
+470,peshatibe,comparative,adj,/pe.ʃa.ˈti.be/,peh-shah-TEE-beh,reference,19,yes,none
+471,punushu,fire,n,/pu.ˈnu.ʃu/,poo-NOO-shoo,reference,19,yes,none
+472,qëpogë,sensitive,adj,/qə.ˈpo.ɡə/,quh-POH-guh,reference,19,yes,none
+473,radëtina,consumer,n,/ɾa.də.ˈti.na/,rah-duh-TEE-nah,reference,19,yes,none
+474,raso,tail,n,/ˈɾa.so/,RAH-soh,reference,19,yes,none
+475,suqadamo,geriatric,adj,/su.qa.ˈda.mo/,soo-qah-DAH-moh,reference,19,yes,none
+476,zhekuto,cooperative,adj,/ʒe.ˈku.to/,zheh-KOO-toh,reference,19,yes,none
+477,ngëmarëho,fatigue; exhaustion,n,/ŋə.ma.ˈɾə.ho/,nguh-mah-RUH-hoh,reference,18,yes,none
+478,khungëya,workflow,n,/xu.ˈŋə.ja/,khoo-NGUH-yah,reference,18,yes,none
+479,këyëtigi,cleaning,n,/kə.jə.ˈti.ɡi/,kuh-yuh-TEE-gee,reference,18,yes,none
+480,zeriro,development,n,/ze.ˈɾi.ɾo/,zeh-REE-roh,reference,18,yes,none
+481,daruhoho,secure; protected from threat,adj,/da.ɾu.ˈho.ho/,dah-roo-HOH-hoh,reference,18,yes,none
+482,yezëwenë,accommodation,n,/je.zə.ˈwe.nə/,yeh-zuh-WEH-nuh,reference,18,yes,none
+483,ragëqëti,standard,n,/ɾa.ɡə.ˈqə.ti/,rah-guh-QUH-tee,reference,18,yes,none
+484,luwëna,groundwater,n,/lu.ˈwə.na/,loo-WUH-nah,reference,18,yes,none
+485,naguwa,competitive,adj,/na.ˈɡu.wa/,nah-GOO-wah,reference,18,yes,none
+486,ngihalo,school,n,/ŋi.ˈha.lo/,ngee-HAH-loh,reference,18,yes,none
+487,ngumudo,landing,n,/ŋu.ˈmu.do/,ngoo-MOO-doh,reference,18,yes,none
+488,pëtingenu,pedestrian,n,/pə.ti.ˈŋe.nu/,puh-tee-NGEH-noo,reference,18,yes,none
+489,qogura,accessible,adj,/qo.ˈɡu.ɾa/,qoh-GOO-rah,reference,18,yes,none
+490,qozari,tactile,adj,/qo.ˈza.ɾi/,qoh-ZAH-ree,reference,18,yes,none
+491,rekupesha,manual,adj,/ɾe.ku.ˈpe.ʃa/,reh-koo-PEH-shah,reference,18,yes,none
+492,rëwimago,federated,adj,/ɾə.wi.ˈma.ɡo/,ruh-wee-MAH-goh,reference,18,yes,none
+493,shogomanë,youth,n,/ʃo.ɡo.ˈma.nə/,shoh-goh-MAH-nuh,reference,18,yes,none
+494,tëkongo,building,n,/tə.ˈko.ŋo/,tuh-KOH-ngoh,reference,17,yes,none
+495,renuka,travel,n,/ɾe.ˈnu.ka/,reh-NOO-kah,reference,17,yes,none
+496,bugihube,solar,n,/bu.ɡi.ˈhu.be/,boo-gee-HOO-beh,reference,17,yes,none
+497,gukudo,mapping,n,/ɡu.ˈku.do/,goo-KOO-doh,reference,17,yes,none
+498,kegëza,argument,n,/ke.ˈɡə.za/,keh-GUH-zah,reference,17,yes,none
+499,mupizu,lighting,n,/mu.ˈpi.zu/,moo-PEE-zoo,reference,17,yes,none
+500,gakhorowi,preservation,n,/ɡa.xo.ˈɾo.wi/,gah-khoh-ROH-wee,reference,17,yes,none
+501,geqoli,update,n,/ɡe.ˈqo.li/,geh-QOH-lee,reference,17,yes,none
+502,khushëzu,restart,v,/xu.ˈʃə.zu/,khoo-SHUH-zoo,reference,17,yes,none
+503,tanëma,configuration,n,/ta.ˈnə.ma/,tah-NUH-mah,reference,17,yes,none
+504,zhobile,optimization,n,/ʒo.ˈbi.le/,zhoh-BEE-leh,reference,17,yes,none
+505,ragesakha,authentication,n,/ɾa.ɡe.ˈsa.xa/,rah-geh-SAH-khah,reference,17,yes,none
+506,zhirapo,reasoning,n,/ʒi.ˈɾa.po/,zhee-RAH-poh,reference,17,yes,none
+507,giqëmota,infectious,adj,/ɡi.qə.ˈmo.ta/,gee-quh-MOH-tah,reference,17,yes,none
+508,khaharisu,animated,adj,/xa.ha.ˈɾi.su/,khah-hah-REE-soo,reference,17,yes,none
+509,khisoka,interpersonal,adj,/xi.ˈso.ka/,khee-SOH-kah,reference,17,yes,none
+510,ngipalo,automated,adj,/ŋi.ˈpa.lo/,ngee-PAH-loh,reference,17,yes,none
+511,nishuga,biometric,adj,/ni.ˈʃu.ɡa/,nee-SHOO-gah,reference,17,yes,none
+512,panëwupu,recorded,adj,/pa.nə.ˈwu.pu/,pah-nuh-WOO-poo,reference,17,yes,none
+513,rëna,elder; older community member,n,/ˈɾə.na/,RUH-nah,reference,17,yes,none
+514,tedike,romantic,adj,/te.ˈdi.ke/,teh-DEE-keh,reference,17,yes,none
+515,tongëzhoyo,satellite,n,/to.ŋə.ˈʒo.jo/,toh-nguh-ZHOH-yoh,reference,17,yes,none
+516,zingësë,cognitive,adj,/zi.ˈŋə.sə/,zee-NGUH-suh,reference,17,yes,none
+517,zizonga,advanced,adj,/zi.ˈzo.ŋa/,zee-ZOH-ngah,reference,17,yes,none
+518,zokengo,mathematics,n,/zo.ˈke.ŋo/,zoh-KEH-ngoh,reference,17,yes,none
+519,këkomewë,chat,n,/kə.ko.ˈme.wə/,kuh-koh-MEH-wuh,reference,16,yes,none
+520,regawuhi,channel,n,/ɾe.ɡa.ˈwu.hi/,reh-gah-WOO-hee,reference,16,yes,none
+521,shiwaroho,notification; incoming message alert,n,/ʃi.wa.ˈɾo.ho/,shee-wah-ROH-hoh,reference,16,yes,none
+522,shërawëla,folder; collection of files,n,/ʃə.ɾa.ˈwə.la/,shuh-rah-WUH-lah,reference,16,yes,none
+523,dilëbë,input,n,/di.ˈlə.bə/,dee-LUH-buh,reference,16,yes,none
+524,widëla,feature,n,/wi.ˈdə.la/,wee-DUH-lah,reference,16,yes,none
+525,zukuke,output,n,/zu.ˈku.ke/,zoo-KOO-keh,reference,16,yes,none
+526,narora,village; settlement,n,/na.ˈɾo.ɾa/,nah-ROH-rah,reference,16,yes,none
+527,shëmiho,game; structured play,n,/ʃə.ˈmi.ho/,shuh-MEE-hoh,reference,16,yes,none
+528,shëmo,conflict; disagreement,n,/ˈʃə.mo/,SHUH-moh,reference,16,yes,none
+529,yinisho,imaging,n,/ji.ˈni.ʃo/,yee-NEE-shoh,reference,16,yes,none
+530,yëlusolë,eligibility,n,/jə.lu.ˈso.lə/,yuh-loo-SOH-luh,reference,16,yes,none
+531,sebenga,merchant,n,/se.ˈbe.ŋa/,seh-BEH-ngah,reference,16,yes,none
+532,semakha,debt,n,/se.ˈma.xa/,seh-MAH-khah,reference,16,yes,none
+533,sungengo,heat,n,/su.ˈŋe.ŋo/,soo-NGEH-ngoh,reference,16,yes,none
+534,tingohe,practical,adj,/ti.ˈŋo.he/,tee-NGOH-heh,reference,16,yes,none
+535,tënënga,kitchen,n,/tə.ˈnə.ŋa/,tuh-NUH-ngah,reference,16,yes,none
+536,zamani,computational,adj,/za.ˈma.ni/,zah-MAH-nee,reference,16,yes,none
+537,zhëru,soil; earth,n,/ˈʒə.ɾu/,ZHUH-roo,reference,16,yes,none
+538,pëpuwo,volunteer,n,/pə.ˈpu.wo/,puh-POO-woh,reference,15,yes,none
+539,guleto,rehabilitation,n,/ɡu.ˈle.to/,goo-LEH-toh,reference,15,yes,none
+540,sugewa,laboratory,n,/su.ˈɡe.wa/,soo-GEH-wah,reference,15,yes,none
+541,ngiwaqa,textbook,n,/ŋi.ˈwa.qa/,ngee-WAH-qah,reference,15,yes,none
+542,delishunë,gravitational,adj,/de.li.ˈʃu.nə/,deh-lee-SHOO-nuh,reference,15,yes,none
+543,shira,song; sung composition,n,/ˈʃi.ɾa/,SHEE-rah,reference,15,yes,none
+544,rezina,trip,n,/ɾe.ˈzi.na/,reh-ZEE-nah,reference,15,yes,none
+545,kaluto,screen reader,n,/ka.ˈlu.to/,kah-LOO-toh,reference,15,yes,none
+546,qaneho,credential,n,/qa.ˈne.ho/,qah-NEH-hoh,reference,15,yes,none
+547,setëra,transaction,n,/se.ˈtə.ɾa/,seh-TUH-rah,reference,15,yes,none
+548,ngunora,roost,n,/ŋu.ˈno.ɾa/,ngoo-NOH-rah,reference,15,yes,none
+549,kimaro,river; flowing water,n,/ki.ˈma.ɾo/,kee-MAH-roh,reference,15,yes,none
+550,luzhuda,mineral,n,/lu.ˈʒu.da/,loo-ZHOO-dah,reference,15,yes,none
+551,shërawëshi,grammar; principles of sentence building,n,/ʃə.ɾa.ˈwə.ʃi/,shuh-rah-WUH-shee,reference,15,yes,none
+552,zikëleho,analog,n,/zi.kə.ˈle.ho/,zee-kuh-LEH-hoh,reference,15,yes,none
+553,banoyi,preventive,adj,/ba.ˈno.ji/,bah-NOH-yee,reference,14,yes,none
+554,shëru,rhythm; patterned beat,n,/ˈʃə.ɾu/,SHUH-roo,reference,14,yes,none
+555,surado,force,n,/su.ˈɾa.do/,soo-RAH-doh,reference,14,yes,none
+556,kelagu,compromise,v,/ke.ˈla.ɡu/,keh-LAH-goo,reference,14,yes,none
+557,rengëna,address,n,/ɾe.ˈŋə.na/,reh-NGUH-nah,reference,14,yes,none
+558,bizhëgë,notes,n,/bi.ˈʒə.ɡə/,bee-ZHUH-guh,reference,14,yes,none
+559,dudasa,ecological,adj,/du.ˈda.sa/,doo-DAH-sah,reference,14,yes,none
+560,wewina,initiative,n,/we.ˈwi.na/,weh-WEE-nah,reference,14,yes,none
+561,hupuyito,inpatient,adj,/hu.pu.ˈji.to/,hoo-poo-YEE-toh,reference,14,yes,none
+562,khupeto,processor,n,/xu.ˈpe.to/,khoo-PEH-toh,reference,14,yes,none
+563,khëdamazho,traditional,adj,/xə.da.ˈma.ʒo/,khuh-dah-MAH-zhoh,reference,14,yes,none
+564,tuzhonga,connection,n,/tu.ˈʒo.ŋa/,too-ZHOH-ngah,reference,14,yes,none
+565,këqini,canopy,n,/kə.ˈqi.ni/,kuh-QEE-nee,reference,14,yes,none
+566,lasaru,wildfire,n,/la.ˈsa.ɾu/,lah-SAH-roo,reference,14,yes,none
+567,lisëho,seismic,adj,/li.ˈsə.ho/,lee-SUH-hoh,reference,14,yes,none
+568,hikoka,alert,adj,/hi.ˈko.ka/,hee-KOH-kah,reference,14,yes,none
+569,lutokho,ridge,n,/lu.ˈto.xo/,loo-TOH-khoh,reference,14,yes,none
+570,luyodo,estuary,n,/lu.ˈjo.do/,loo-YOH-doh,reference,14,yes,none
+571,luyuta,canyon,n,/lu.ˈju.ta/,loo-YOO-tah,reference,14,yes,none
+572,mozhomi,hybrid,n,/mo.ˈʒo.mi/,moh-ZHOH-mee,reference,14,yes,none
+573,pinguqo,philosophy,n,/pi.ˈŋu.qo/,pee-NGOO-qoh,reference,14,yes,none
+574,pëzhato,adult,n,/pə.ˈʒa.to/,puh-ZHAH-toh,reference,14,yes,none
+575,qanëtohu,mutual,adj,/qa.nə.ˈto.hu/,qah-nuh-TOH-hoo,reference,14,yes,none
+576,qishaga,refugee,n,/qi.ˈʃa.ɡa/,qee-SHAH-gah,reference,14,yes,none
+577,qëqëwi,residential,adj,/qə.ˈqə.wi/,quh-QUH-wee,reference,14,yes,none
+578,roqeba,electronic,adj,/ɾo.ˈqe.ba/,roh-QEH-bah,reference,14,yes,none
+579,roshezhupa,humanitarian,n,/ɾo.ʃe.ˈʒu.pa/,roh-sheh-ZHOO-pah,reference,14,yes,none
+580,shiwëra,writing; written language,n,/ʃi.ˈwə.ɾa/,shee-WUH-rah,reference,14,yes,none
+581,suyilo,physics,n,/su.ˈji.lo/,soo-YEE-loh,reference,14,yes,none
+582,zehëso,biology,n,/ze.ˈhə.so/,zeh-HUH-soh,reference,14,yes,none
+583,zemoqo,fermentation,n,/ze.ˈmo.qo/,zeh-MOH-qoh,reference,14,yes,none
+584,zokëla,statistics,n,/zo.ˈkə.la/,zoh-KUH-lah,reference,14,yes,none
+585,ëro,identity; sense of self,n,/ˈə.ɾo/,UH-roh,reference,14,yes,none
+586,khimutahë,accessory,n,/xi.mu.ˈta.hə/,khee-moo-TAH-huh,reference,13,yes,none
+587,mehezu,transformation,n,/me.ˈhe.zu/,meh-HEH-zoo,reference,13,yes,none
+588,shënoa,choice; option,n,/ʃə.ˈno.a/,shuh-NOH-ah,reference,13,yes,none
+589,keshëba,invitation,n,/ke.ˈʃə.ba/,keh-SHUH-bah,reference,13,yes,none
+590,gihidanga,stability,n,/ɡi.hi.ˈda.ŋa/,gee-hee-DAH-ngah,reference,13,yes,none
+591,khudene,parameter,n,/xu.ˈde.ne/,khoo-DEH-neh,reference,13,yes,none
+592,sutoda,spectrum,n,/su.ˈto.da/,soo-TOH-dah,reference,13,yes,none
+593,yetoya,degradation,n,/je.ˈto.ja/,yeh-TOH-yah,reference,13,yes,none
+594,kuhewo,safety check,n,/ku.ˈhe.wo/,koo-HEH-woh,reference,13,yes,none
+595,sezura,inventory,n,/se.ˈzu.ɾa/,seh-ZOO-rah,reference,13,yes,none
+596,semabo,commission,n,/se.ˈma.bo/,seh-MAH-boh,reference,13,yes,none
+597,tiroqa,refusal,n,/ti.ˈɾo.qa/,tee-ROH-qah,reference,13,yes,none
+598,pëpukhebe,meter,n,/pə.pu.ˈxe.be/,puh-poo-KHEH-beh,reference,13,yes,none
+599,rekiso,expedition,n,/ɾe.ˈki.so/,reh-KEE-soh,reference,13,yes,none
+600,tënewa,corridor,n,/tə.ˈne.wa/,tuh-NEH-wah,reference,13,yes,none
+601,hibequpe,observation report,n,/hi.be.ˈqu.pe/,hee-beh-QOO-peh,reference,13,yes,none
+602,depikha,rendering,n,/de.ˈpi.xa/,deh-PEE-khah,reference,13,yes,none
+603,mureni,palette,n,/mu.ˈɾe.ni/,moo-REH-nee,reference,13,yes,none
+604,pizogike,projection,n,/pi.zo.ˈɡi.ke/,pee-zoh-GEE-keh,reference,13,yes,none
+605,yashëneqë,damage report,n,/ja.ʃə.ˈne.qə/,yah-shuh-NEH-quh,reference,13,yes,none
+606,palo,tool; implement,n,/ˈpa.lo/,PAH-loh,reference,13,yes,none
+607,qëwazude,care plan,n,/qə.wa.ˈzu.de/,quh-wah-ZOO-deh,reference,13,yes,none
+608,rekesi,cycle,v,/ɾe.ˈke.si/,reh-KEH-see,reference,13,yes,none
+609,zhëwëlë,exposure,n,/ʒə.ˈwə.lə/,zhuh-WUH-luh,reference,13,yes,none
+610,ringusi,editorial,n,/ɾi.ˈŋu.si/,ree-NGOO-see,reference,13,yes,none
+611,dehulo,theater,n,/de.ˈhu.lo/,deh-HOO-loh,reference,13,yes,none
+612,demuba,documentary,n,/de.ˈmu.ba/,deh-MOO-bah,reference,13,yes,none
+613,zapoha,reference,n,/za.ˈpo.ha/,zah-POH-hah,reference,13,yes,none
+614,kokingake,safety railing,n,/ko.ki.ˈŋa.ke/,koh-kee-NGAH-keh,reference,13,yes,none
+615,yimëngumu,storage niche,n,/ji.mə.ˈŋu.mu/,yee-muh-NGOO-moo,reference,13,yes,none
+616,ngëna,ecosystem; community of life,n,/ˈŋə.na/,NGUH-nah,reference,13,yes,none
+617,sëruwa,soil growth; vegetation,n,/sə.ˈɾu.wa/,suh-ROO-wah,reference,13,yes,none
+618,dokhahi,need,n,/do.ˈxa.hi/,doh-KHAH-hee,reference,13,yes,none
+619,qozhido,fact check,n,/qo.ˈʒi.do/,qoh-ZHEE-doh,reference,13,yes,none
+620,qishayëgë,validity,n,/qi.ʃa.ˈjə.ɡə/,qee-shah-YUH-guh,reference,13,yes,none
+621,rodawa,consistency,n,/ɾo.ˈda.wa/,roh-DAH-wah,reference,13,yes,none
+622,shonuya,representation,n,/ʃo.ˈnu.ja/,shoh-NOO-yah,reference,13,yes,none
+623,duhowelë,terrestrial,adj,/du.ho.ˈwe.lə/,doo-hoh-WEH-luh,reference,13,yes,none
+624,gamingogo,contract,n,/ɡa.mi.ˈŋo.ɡo/,gah-mee-NGOH-goh,reference,13,yes,none
+625,degezha,soundtrack,n,/de.ˈɡe.ʒa/,deh-GEH-zhah,reference,13,yes,none
+626,gazhëkhi,live,adj,/ɡa.ˈʒə.xi/,gah-ZHUH-khee,reference,13,yes,none
+627,gebozhiwë,cross-cultural,adj,/ɡe.bo.ˈʒi.wə/,geh-boh-ZHEE-wuh,reference,13,yes,none
+628,gugewakhë,propagation,n,/ɡu.ɡe.ˈwa.xə/,goo-geh-WAH-khuh,reference,13,yes,none
+629,shësiyëre,growth record,n,/ʃə.si.ˈjə.ɾe/,shuh-see-YUH-reh,reference,13,yes,none
+630,geyiwuku,studio,n,/ɡe.ji.ˈwu.ku/,geh-yee-WOO-koo,reference,13,yes,none
+631,kherihëshu,restriction,n,/xe.ɾi.ˈhə.ʃu/,kheh-ree-HUH-shoo,reference,13,yes,none
+632,gërawo,container; storage vessel,n,/ɡə.ˈɾa.wo/,guh-RAH-woh,reference,13,yes,none
+633,hozite,tropical,adj,/ho.ˈzi.te/,hoh-ZEE-teh,reference,13,yes,none
+634,husëtu,atmospheric,adj,/hu.ˈsə.tu/,hoo-SUH-too,reference,13,yes,none
+635,gizhëguho,retention schedule,n,/ɡi.ʒə.ˈɡu.ho/,gee-zhuh-GOO-hoh,reference,13,yes,none
+636,kawuyi,authorized,adj,/ka.ˈwu.ji/,kah-WOO-yee,reference,13,yes,none
+637,kayësesho,employment,adj,/ka.jə.ˈse.ʃo/,kah-yuh-SEH-shoh,reference,13,yes,none
+638,weleho,government,n,/we.ˈle.ho/,weh-LEH-hoh,reference,13,yes,none
+639,kezhëme,autonomous,adj,/ke.ˈʒə.me/,keh-ZHUH-meh,reference,13,yes,none
+640,khimë,cloud,n,/ˈxi.mə/,KHEE-muh,reference,13,yes,none
+641,yemewapo,site,n,/je.me.ˈwa.po/,yeh-meh-WAH-poh,reference,13,yes,none
+642,kolungira,agricultural,adj,/ko.lu.ˈŋi.ɾa/,koh-loo-NGEE-rah,reference,13,yes,none
+643,konishonë,colorblind,n,/ko.ni.ˈʃo.nə/,koh-nee-SHOH-nuh,reference,13,yes,none
+644,luqekha,winter,n,/lu.ˈqe.xa/,loo-QEH-khah,reference,13,yes,none
+645,luwëra,desert,n,/lu.ˈwə.ɾa/,loo-WUH-rah,reference,13,yes,none
+646,musomusha,ethical,adj,/mu.so.ˈmu.ʃa/,moo-soh-MOO-shah,reference,13,yes,none
+647,nahenënga,chronic,adj,/na.he.ˈnə.ŋa/,nah-heh-NUH-ngah,reference,13,yes,none
+648,nanasi,recreational,adj,/na.ˈna.si/,nah-NAH-see,reference,13,yes,none
+649,nginoqolo,nonlinear,n,/ŋi.no.ˈqo.lo/,ngee-noh-QOH-loh,reference,13,yes,none
+650,ngulesima,geothermal,adj,/ŋu.le.ˈsi.ma/,ngoo-leh-SEE-mah,reference,13,yes,none
+651,nusado,reproductive,adj,/nu.ˈsa.do/,noo-SAH-doh,reference,13,yes,none
+652,pezheli,explanatory,n,/pe.ˈʒe.li/,peh-ZHEH-lee,reference,13,yes,none
+653,zoyekhi,estimate,v,/zo.ˈje.xi/,zoh-YEH-khee,reference,13,yes,none
+654,pëyiro,apprentice,n,/pə.ˈji.ɾo/,puh-YEE-roh,reference,13,yes,none
+655,qëmizuqe,mobility,n,/qə.mi.ˈzu.qe/,quh-mee-ZOO-qeh,reference,13,yes,none
+656,qësherë,responsive,adj,/qə.ˈʃe.ɾə/,quh-SHEH-ruh,reference,13,yes,none
+657,segibo,tax,n,/se.ˈɡi.bo/,seh-GEE-boh,reference,13,yes,none
+658,sengungo,investment,n,/se.ˈŋu.ŋo/,seh-NGOO-ngoh,reference,13,yes,none
+659,setuba,cash,n,/se.ˈtu.ba/,seh-TOO-bah,reference,13,yes,none
+660,shamanikha,static,adj,/ʃa.ma.ˈni.xa/,shah-mah-NEE-khah,reference,13,yes,none
+661,sotibe,gliding,adj,/so.ˈti.be/,soh-TEE-beh,reference,13,yes,none
+662,tehebahe,neurological,adj,/te.he.ˈba.he/,teh-heh-BAH-heh,reference,13,yes,none
+663,tokhusi,academic,adj,/to.ˈxu.si/,toh-KHOO-see,reference,13,yes,none
+664,wipunu,volcanic,adj,/wi.ˈpu.nu/,wee-POO-noo,reference,13,yes,none
+665,yozhobore,occupational,adj,/jo.ʒo.ˈbo.ɾe/,yoh-zhoh-BOH-reh,reference,13,yes,none
+666,yubitë,freezing,adj,/ju.ˈbi.tə/,yoo-BEE-tuh,reference,13,yes,none
+667,yubokhë,offline,adj,/ju.ˈbo.xə/,yoo-BOH-khuh,reference,13,yes,none
+668,yulope,portable,adj,/ju.ˈlo.pe/,yoo-LOH-peh,reference,13,yes,none
+669,yungiliki,migratory,n,/ju.ŋi.ˈli.ki/,yoo-ngee-LEE-kee,reference,13,yes,none
+670,zadëkhizha,planetary,adj,/za.də.ˈxi.ʒa/,zah-duh-KHEE-zhah,reference,13,yes,none
+671,zhidëka,stress,n,/ʒi.ˈdə.ka/,zhee-DUH-kah,reference,13,yes,none
+672,zokasha,bittersweet,adj,/zo.ˈka.ʃa/,zoh-KAH-shah,reference,13,yes,none
+673,zozëngu,debit,n,/zo.ˈzə.ŋu/,zoh-ZUH-ngoo,reference,13,yes,none
+674,khungenëse,operator,n,/xu.ŋe.ˈnə.se/,khoo-ngeh-NUH-seh,reference,12,yes,none
+675,dëzudokë,manual,n,/də.zu.ˈdo.kə/,duh-zoo-DOH-kuh,reference,12,yes,none
+676,zhegeri,variation,n,/ʒe.ˈɡe.ɾi/,zheh-GEH-ree,reference,12,yes,none
+677,numazhe,participation,n,/nu.ˈma.ʒe/,noo-MAH-zheh,reference,12,yes,none
+678,mëpagë,organization,n,/mə.ˈpa.ɡə/,muh-PAH-guh,reference,12,yes,none
+679,womeka,flight log,n,/wo.ˈme.ka/,woh-MEH-kah,reference,12,yes,none
+680,bekhugo,pipeline,n,/be.ˈxu.ɡo/,beh-KHOO-goh,reference,12,yes,none
+681,ngadonerë,explanation,n,/ŋa.do.ˈne.ɾə/,ngah-doh-NEH-ruh,reference,12,yes,none
+682,khashiqëpe,mission,n,/xa.ʃi.ˈqə.pe/,khah-shee-QUH-peh,reference,12,yes,none
+683,subaya,concentration,n,/su.ˈba.ja/,soo-BAH-yah,reference,12,yes,none
+684,ngëmara,calculation; arithmetic,n,/ŋə.ˈma.ɾa/,nguh-MAH-rah,reference,12,yes,none
+685,buqatiwë,surface,n,/bu.qa.ˈti.wə/,boo-qah-TEE-wuh,reference,12,yes,none
+686,ngisiru,template,n,/ŋi.ˈsi.ɾu/,ngee-SEE-roo,reference,12,yes,none
+687,yukuqe,annotation,n,/ju.ˈku.qe/,yoo-KOO-qeh,reference,12,yes,none
+688,dediga,caption,n,/de.ˈdi.ɡa/,deh-DEE-gah,reference,12,yes,none
+689,deguta,scene,n,/de.ˈɡu.ta/,deh-GOO-tah,reference,12,yes,none
+690,degokhëzu,acquisition,n,/de.ɡo.ˈxə.zu/,deh-goh-KHUH-zoo,reference,12,yes,none
+691,depura,animation,n,/de.ˈpu.ɾa/,deh-POO-rah,reference,12,yes,none
+692,deshingole,virtual,adj,/de.ʃi.ˈŋo.le/,deh-shee-NGOH-leh,reference,12,yes,none
+693,biqedumë,moderation,n,/bi.qe.ˈdu.mə/,bee-qeh-DOO-muh,reference,12,yes,none
+694,didame,transit,n,/di.ˈda.me/,dee-DAH-meh,reference,12,yes,none
+695,dingënuwë,mathematical,adj,/di.ŋə.ˈnu.wə/,dee-nguh-NOO-wuh,reference,12,yes,none
+696,razuga,care routine,n,/ɾa.ˈzu.ɡa/,rah-ZOO-gah,reference,12,yes,none
+697,kheyaleqe,maintenance schedule,n,/xe.ja.ˈle.qe/,kheh-yah-LEH-qeh,reference,12,yes,none
+698,qëtushe,position,n,/qə.ˈtu.ʃe/,quh-TOO-sheh,reference,12,yes,none
+699,rozëge,gathering hall,n,/ɾo.ˈzə.ɡe/,roh-ZUH-geh,reference,12,yes,none
+700,zhilazo,dilemma,n,/ʒi.ˈla.zo/,zhee-LAH-zoh,reference,12,yes,none
+701,zenguqa,biodiversity,n,/ze.ˈŋu.qa/,zeh-NGOO-qah,reference,12,yes,none
+702,kezhowa,reassurance,n,/ke.ˈʒo.wa/,keh-ZHOH-wah,reference,12,yes,none
+703,guzozho,diagnosis,n,/ɡu.ˈzo.ʒo/,goo-ZOH-zhoh,reference,12,yes,none
+704,përën,price; amount paid,n,/ˈpə.ɾən/,PUH-ruhn,reference,12,yes,none
+705,shënaho,clause; proposition,n,/ʃə.ˈna.ho/,shuh-NAH-hoh,reference,12,yes,none
+706,khëngumu,match,n,/xə.ˈŋu.mu/,khuh-NGOO-moo,reference,12,yes,none
+707,shëkopesi,broadcast,n,/ʃə.ko.ˈpe.si/,shuh-koh-PEH-see,reference,12,yes,none
+708,ngitewa,seminar,n,/ŋi.ˈte.wa/,ngee-TEH-wah,reference,12,yes,none
+709,dëhiguze,genetic study,n,/də.hi.ˈɡu.ze/,duh-hee-GOO-zeh,reference,12,yes,none
+710,gerabënga,immersive,adj,/ɡe.ɾa.ˈbə.ŋa/,geh-rah-BUH-ngah,reference,12,yes,none
+711,linetë,journal,n,/li.ˈne.tə/,lee-NEH-tuh,reference,12,yes,none
+712,tihuyikhu,visit,n,/ti.hu.ˈji.xu/,tee-hoo-YEE-khoo,reference,12,yes,none
+713,zobësho,assumption,n,/zo.ˈbə.ʃo/,zoh-BUH-shoh,reference,12,yes,none
+714,gugisha,quantum,adj,/ɡu.ˈɡi.ʃa/,goo-GEE-shah,reference,12,yes,none
+715,gulamo,prevention,n,/ɡu.ˈla.mo/,goo-LAH-moh,reference,12,yes,none
+716,gususa,nutrition,n,/ɡu.ˈsu.sa/,goo-SOO-sah,reference,12,yes,none
+717,tazila,corpus,n,/ta.ˈzi.la/,tah-ZEE-lah,reference,12,yes,none
+718,komule,access request,n,/ko.ˈmu.le/,koh-MOO-leh,reference,12,yes,none
+719,zhuriqa,anatomy,n,/ʒu.ˈɾi.qa/,zhoo-REE-qah,reference,12,yes,none
+720,khegokheqo,wired,adj,/xe.ɡo.ˈxe.qo/,kheh-goh-KHEH-qoh,reference,12,yes,none
+721,tarowa,bridge; passage over a gap,n,/ta.ˈɾo.wa/,tah-ROH-wah,reference,12,yes,none
+722,khugipo,virtual machine,n,/xu.ˈɡi.po/,khoo-GEE-poh,reference,12,yes,none
+723,khukheza,operating system,n,/xu.ˈxe.za/,khoo-KHEH-zah,reference,12,yes,none
+724,kimarao,wetland; marsh,n,/ki.ma.ˈɾa.o/,kee-mah-RAH-oh,reference,12,yes,none
+725,kongëgiqa,regulatory,n,/ko.ŋə.ˈɡi.qa/,koh-nguh-GEE-qah,reference,12,yes,none
+726,hoyengoza,tutoring,n,/ho.je.ˈŋo.za/,hoh-yeh-NGOH-zah,reference,12,yes,none
+727,dëma,problem; obstacle,n,/ˈdə.ma/,DUH-mah,reference,12,yes,none
+728,zhokhiwusë,trend,n,/ʒo.xi.ˈwu.sə/,zhoh-khee-WOO-suh,reference,12,yes,none
+729,luqowo,summer,n,/lu.ˈqo.wo/,loo-QOH-woh,reference,12,yes,none
+730,luwaho,fossil,n,/lu.ˈwa.ho/,loo-WAH-hoh,reference,12,yes,none
+731,mayaqo,credit,n,/ma.ˈja.qo/,mah-YAH-qoh,reference,12,yes,none
+732,ngamapë,continuous,adj,/ŋa.ˈma.pə/,ngah-MAH-puh,reference,12,yes,none
+733,nonëhe,spatial,adj,/no.ˈnə.he/,noh-NUH-heh,reference,12,yes,none
+734,nëtëqigi,restricted,adj,/nə.tə.ˈqi.ɡi/,nuh-tuh-QEE-gee,reference,12,yes,none
+735,peyëyu,temporal,adj,/pe.ˈjə.ju/,peh-YUH-yoo,reference,12,yes,none
+736,pënëka,lunar,n,/pə.ˈnə.ka/,puh-NUH-kah,reference,12,yes,none
+737,qadopë,browser,adj,/qa.ˈdo.pə/,qah-DOH-puh,reference,12,yes,none
+738,qasewa,touch,n,/qa.ˈse.wa/,qah-SEH-wah,reference,12,yes,none
+739,rawobamu,pseudonymous,adj,/ɾa.wo.ˈba.mu/,rah-woh-BAH-moo,reference,12,yes,none
+740,zhigopa,accident,n,/ʒi.ˈɡo.pa/,zhee-GOH-pah,reference,12,yes,none
+741,riyoso,open access,n,/ɾi.ˈjo.so/,ree-YOH-soh,reference,12,yes,none
+742,sehisi,behavioral,adj,/se.ˈhi.si/,seh-HEE-see,reference,12,yes,none
+743,shapëze,aquatic,adj,/ʃa.ˈpə.ze/,shah-PUH-zeh,reference,12,yes,none
+744,shara,person; individual; sentient being,n,/ˈʃa.ɾa/,SHAH-rah,reference,12,yes,none
+745,shiholeba,multimedia,n,/ʃi.ho.ˈle.ba/,shee-hoh-LEH-bah,reference,12,yes,none
+746,shiyirazhi,psychiatric,adj,/ʃi.ji.ˈɾa.ʒi/,shee-yee-RAH-zhee,reference,12,yes,none
+747,shungësakho,bilingual,adj,/ʃu.ŋə.ˈsa.xo/,shoo-nguh-SAH-khoh,reference,12,yes,none
+748,shëngigaqo,ultraviolet,n,/ʃə.ŋi.ˈɡa.qo/,shuh-ngee-GAH-qoh,reference,12,yes,none
+749,shënu,road; traveled trail,n,/ˈʃə.nu/,SHUH-noo,reference,12,yes,none
+750,tonikiqo,mechanical,adj,/to.ni.ˈki.qo/,toh-nee-KEE-qoh,reference,12,yes,none
+751,topunësë,multiplayer,adj,/to.pu.ˈnə.sə/,toh-poo-NUH-suh,reference,12,yes,none
+752,weqëngu,workplace,n,/we.ˈqə.ŋu/,weh-QUH-ngoo,reference,12,yes,none
+753,wëru,forest; woodland,n,/ˈwə.ɾu/,WUH-roo,reference,12,yes,none
+754,yeweshadu,underground,n,/je.we.ˈʃa.du/,yeh-weh-SHAH-doo,reference,12,yes,none
+755,yonamu,infrared,adj,/jo.ˈna.mu/,yoh-NAH-moo,reference,12,yes,none
+756,yulezhozë,written,n,/ju.le.ˈʒo.zə/,yoo-leh-ZHOH-zuh,reference,12,yes,none
+757,yupate,creative,adj,/ju.ˈpa.te/,yoo-PAH-teh,reference,12,yes,none
+758,yupunge,musical,adj,/ju.ˈpu.ŋe/,yoo-POO-ngeh,reference,12,yes,none
+759,zadadë,deterministic,adj,/za.ˈda.də/,zah-DAH-duh,reference,12,yes,none
+760,zhalëro,hot; heated,adj,/ʒa.ˈlə.ɾo/,zhah-LUH-roh,reference,12,yes,none
+761,zhezuwi,discrete,n,/ʒe.ˈzu.wi/,zheh-ZOO-wee,reference,12,yes,none
+762,zozhinga,vector,n,/zo.ˈʒi.ŋa/,zoh-ZHEE-ngah,reference,12,yes,none
+763,mungowipe,arrangement,n,/mu.ŋo.ˈwi.pe/,moo-ngoh-WEE-peh,reference,11,yes,none
+764,shëquyu,treatment plan,n,/ʃə.ˈqu.ju/,shuh-QOO-yoo,reference,11,yes,none
+765,pozuzhude,therapy,n,/po.zu.ˈʒu.de/,poh-zoo-ZHOO-deh,reference,11,yes,none
+766,mirido,function,n,/mi.ˈɾi.do/,mee-REE-doh,reference,11,yes,none
+767,zosebo,theorem,n,/zo.ˈse.bo/,zoh-SEH-boh,reference,11,yes,none
+768,yatulemo,vocabulary,n,/ja.tu.ˈle.mo/,yah-too-LEH-moh,reference,11,yes,none
+769,hasilekhë,adaptation,n,/ha.si.ˈle.xə/,hah-see-LEH-khuh,reference,11,yes,none
+770,lugë,commitment,n,/ˈlu.ɡə/,LOO-guh,reference,11,yes,none
+771,hupukhëbë,advice,n,/hu.pu.ˈxə.bə/,hoo-poo-KHUH-buh,reference,11,yes,none
+772,dohobuhë,training exercise,n,/do.ho.ˈbu.hə/,doh-hoh-BOO-huh,reference,11,yes,none
+773,hogasu,coordination,n,/ho.ˈɡa.su/,hoh-GAH-soo,reference,11,yes,none
+774,ngishotungo,labeling,n,/ŋi.ʃo.ˈtu.ŋo/,ngee-shoh-TOO-ngoh,reference,11,yes,none
+775,gotëqi,alignment,n,/ɡo.ˈtə.qi/,goh-TUH-qee,reference,11,yes,none
+776,mëkunë,fieldwork,n,/mə.ˈku.nə/,muh-KOO-nuh,reference,11,yes,none
+777,seduqo,demand,n,/se.ˈdu.qo/,seh-DOO-qoh,reference,11,yes,none
+778,bizhëde,sampling,n,/bi.ˈʒə.de/,bee-ZHUH-deh,reference,11,yes,none
+779,wowupo,landing approach,n,/wo.ˈwu.po/,woh-WOO-poh,reference,11,yes,none
+780,morëmi,study; examine carefully,v,/mo.ˈɾə.mi/,moh-RUH-mee,reference,11,yes,none
+781,zozana,coordinate,n,/zo.ˈza.na/,zoh-ZAH-nah,reference,11,yes,none
+782,siwezokha,recovery project,n,/si.we.ˈzo.xa/,see-weh-ZOH-khah,reference,11,yes,none
+783,yenidaru,script,n,/je.ni.ˈda.ɾu/,yeh-nee-DAH-roo,reference,11,yes,none
+784,deningu,photograph,v,/de.ˈni.ŋu/,deh-NEE-ngoo,reference,11,yes,none
+785,tikaro,picture; image,n,/ti.ˈka.ɾo/,tee-KAH-roh,reference,11,yes,none
+786,dewësha,drawing,n,/de.ˈwə.ʃa/,deh-WUH-shah,reference,11,yes,none
+787,khotune,recovery plan,n,/xo.ˈtu.ne/,khoh-TOO-neh,reference,11,yes,none
+788,bërakëwe,entrance tunnel,n,/bə.ɾa.ˈkə.we/,buh-rah-KUH-weh,reference,11,yes,none
+789,keshibo,apology,n,/ke.ˈʃi.bo/,keh-SHEE-boh,reference,11,yes,none
+790,nësitizhu,lookout platform,n,/nə.si.ˈti.ʒu/,nuh-see-TEE-zhoo,reference,11,yes,none
+791,zëkhunezo,yield,n,/zə.xu.ˈne.zo/,zuh-khoo-NEH-zoh,reference,11,yes,none
+792,yatuzhinga,response team,n,/ja.tu.ˈʒi.ŋa/,yah-too-ZHEE-ngah,reference,11,yes,none
+793,kezawo,dispute,n,/ke.ˈza.wo/,keh-ZAH-woh,reference,11,yes,none
+794,morasa,article,n,/mo.ˈɾa.sa/,moh-RAH-sah,reference,11,yes,none
+795,zomamo,conclusion,n,/zo.ˈma.mo/,zoh-MAH-moh,reference,11,yes,none
+796,duponge,online,adv,/du.ˈpo.ŋe/,doo-POH-ngeh,reference,11,yes,none
+797,birëpu,renewal,n,/bi.ˈɾə.pu/,bee-RUH-poo,reference,11,yes,none
+798,birowë,retention,n,/bi.ˈɾo.wə/,bee-ROH-wuh,reference,11,yes,none
+799,ngiqapa,assignment,n,/ŋi.ˈqa.pa/,ngee-QAH-pah,reference,11,yes,none
+800,qingësibu,curriculum,n,/qi.ŋə.ˈsi.bu/,qee-nguh-SEE-boo,reference,11,yes,none
+801,quzalo,laboratory test,n,/qu.ˈza.lo/,qoo-ZAH-loh,reference,11,yes,none
+802,gozhekhë,genetic,adj,/ɡo.ˈʒe.xə/,goh-ZHEH-khuh,reference,11,yes,none
+803,sitikha,care coordination,n,/si.ˈti.xa/,see-TEE-khah,reference,11,yes,none
+804,shalohësa,diagnostics,n,/ʃa.lo.ˈhə.sa/,shah-loh-HUH-sah,reference,11,yes,none
+805,ngidagaye,field guide,n,/ŋi.da.ˈɡa.je/,ngee-dah-GAH-yeh,reference,11,yes,none
+806,zhinosha,understanding,n,/ʒi.ˈno.ʃa/,zhee-NOH-shah,reference,11,yes,none
+807,bohanga,routing,n,/bo.ˈha.ŋa/,boh-HAH-ngah,reference,11,yes,none
+808,qotoraki,gateway,n,/qo.to.ˈɾa.ki/,qoh-toh-RAH-kee,reference,11,yes,none
+809,neqëwi,clarification,n,/ne.ˈqə.wi/,neh-QUH-wee,reference,11,yes,none
+810,beqëba,quality assurance,n,/be.ˈqə.ba/,beh-QUH-bah,reference,11,yes,none
+811,pemute,evacuation plan,n,/pe.ˈmu.te/,peh-MOO-teh,reference,11,yes,none
+812,kolëdë,fixture,n,/ko.ˈlə.də/,koh-LUH-duh,reference,11,yes,none
+813,khuzhazho,keyboard,n,/xu.ˈʒa.ʒo/,khoo-ZHAH-zhoh,reference,11,yes,none
+814,tërabo,renovation,n,/tə.ˈɾa.bo/,tuh-RAH-boh,reference,11,yes,none
+815,bekapëho,repository,n,/be.ka.ˈpə.ho/,beh-kah-PUH-hoh,reference,11,yes,none
+816,khushego,algorithm,n,/xu.ˈʃe.ɡo/,khoo-SHEH-goh,reference,11,yes,none
+817,shubadowë,certification,n,/ʃu.ba.ˈdo.wə/,shoo-bah-DOH-wuh,reference,11,yes,none
+818,mësazhinga,literary,adj,/mə.sa.ˈʒi.ŋa/,muh-sah-ZHEE-ngah,reference,11,yes,none
+819,pëlika,beginner,n,/pə.ˈli.ka/,puh-LEE-kah,reference,11,yes,none
+820,sekosha,expense,n,/se.ˈko.ʃa/,seh-KOH-shah,reference,11,yes,none
+821,semëya,currency,n,/se.ˈmə.ja/,seh-MUH-yah,reference,11,yes,none
+822,sewoga,subscription,n,/se.ˈwo.ɡa/,seh-WOH-gah,reference,11,yes,none
+823,shuwizera,randomized,adj,/ʃu.wi.ˈze.ɾa/,shoo-wee-ZEH-rah,reference,11,yes,none
+824,shëmiwaro,text; written passage,n,/ʃə.mi.ˈwa.ɾo/,shuh-mee-WAH-roh,reference,11,yes,none
+825,wepikhu,wireless,adj,/we.ˈpi.xu/,weh-PEE-khoo,reference,11,yes,none
+826,wëreqë,recycled,adj,/wə.ˈɾe.qə/,wuh-REH-quh,reference,11,yes,none
+827,yuzinge,endangered,adj,/ju.ˈzi.ŋe/,yoo-ZEE-ngeh,reference,11,yes,none
+828,zhalaro,smoke,n,/ʒa.ˈla.ɾo/,zhah-LAH-roh,reference,11,yes,none
+829,zitukhë,observational,adj,/zi.ˈtu.xə/,zee-TOO-khuh,reference,11,yes,none
+830,bediko,connector,n,/be.ˈdi.ko/,beh-DEE-koh,reference,10,yes,none
+831,hiraduni,mastering,n,/hi.ɾa.ˈdu.ni/,hee-rah-DOO-nee,reference,10,yes,none
+832,shaburongi,mix,n,/ʃa.bu.ˈɾo.ŋi/,shah-boo-ROH-ngee,reference,10,yes,none
+833,khërowiko,consent form,n,/xə.ɾo.ˈwi.ko/,khuh-roh-WEE-koh,reference,10,yes,none
+834,yekokhozhe,flexibility,n,/je.ko.ˈxo.ʒe/,yeh-koh-KHOH-zheh,reference,10,yes,none
+835,begëra,prototype,n,/be.ˈɡə.ɾa/,beh-GUH-rah,reference,10,yes,none
+836,bapëri,touch,adj,/ba.ˈpə.ɾi/,bah-PUH-ree,reference,10,yes,none
+837,bebona,robot,n,/be.ˈbo.na/,beh-BOH-nah,reference,10,yes,none
+838,lasorëte,technology,n,/la.so.ˈɾə.te/,lah-soh-RUH-teh,reference,10,yes,none
+839,khakohi,preference,n,/xa.ˈko.hi/,khah-KOH-hee,reference,10,yes,none
+840,rekada,navigation chart,n,/ɾe.ˈka.da/,reh-KAH-dah,reference,10,yes,none
+841,wamozhoho,safety briefing,n,/wa.mo.ˈʒo.ho/,wah-moh-ZHOH-hoh,reference,10,yes,none
+842,kebazë,disposal,n,/ke.ˈba.zə/,keh-BAH-zuh,reference,10,yes,none
+843,sesimë,construction,n,/se.ˈsi.mə/,seh-SEE-muh,reference,10,yes,none
+844,suheda,material,n,/su.ˈhe.da/,soo-HEH-dah,reference,10,yes,none
+845,gogilato,limitation,n,/ɡo.ɡi.ˈla.to/,goh-gee-LAH-toh,reference,10,yes,none
+846,ruyiqa,incident,n,/ɾu.ˈji.qa/,roo-YEE-qah,reference,10,yes,none
+847,bowado,encryption,n,/bo.ˈwa.do/,boh-WAH-doh,reference,10,yes,none
+848,zhingena,uncertainty,n,/ʒi.ˈŋe.na/,zhee-NGEH-nah,reference,10,yes,none
+849,pëqaza,generation,n,/pə.ˈqa.za/,puh-QAH-zah,reference,10,yes,none
+850,këkono,characterization,n,/kə.ˈko.no/,kuh-KOH-noh,reference,10,yes,none
+851,zhopoqo,hazard map,n,/ʒo.ˈpo.qo/,zhoh-POH-qoh,reference,10,yes,none
+852,kunukhu,export,n,/ku.ˈnu.xu/,koo-NOO-khoo,reference,10,yes,none
+853,bëkigiru,physical,adj,/bə.ki.ˈɡi.ɾu/,buh-kee-GEE-roo,reference,10,yes,none
+854,yarowe,vehicle; means of transport,n,/ja.ˈɾo.we/,yah-ROH-weh,reference,10,yes,none
+855,bikosotu,literacy,n,/bi.ko.ˈso.tu/,bee-koh-SOH-too,reference,10,yes,none
+856,ngeshëyëri,principle,n,/ŋe.ʃə.ˈjə.ɾi/,ngeh-shuh-YUH-ree,reference,10,yes,none
+857,penozhe,theory,n,/pe.ˈno.ʒe/,peh-NOH-zheh,reference,10,yes,none
+858,piwuyo,ethics,n,/pi.ˈwu.jo/,pee-WOO-yoh,reference,10,yes,none
+859,sumëla,reproducibility,n,/su.ˈmə.la/,soo-MUH-lah,reference,10,yes,none
+860,razozegë,supplement,n,/ɾa.zo.ˈze.ɡə/,rah-zoh-ZEH-guh,reference,10,yes,none
+861,sulisho,lens,n,/su.ˈli.ʃo/,soo-LEE-shoh,reference,10,yes,none
+862,hatatëwë,index,n,/ha.ta.ˈtə.wə/,hah-tah-TUH-wuh,reference,10,yes,none
+863,shëmaho,rule; constraint,n,/ʃə.ˈma.ho/,shuh-MAH-hoh,reference,10,yes,none
+864,zebëzho,reproduction,n,/ze.ˈbə.ʒo/,zeh-BUH-zhoh,reference,10,yes,none
+865,bunuda,coaching,n,/bu.ˈnu.da/,boo-NOO-dah,reference,10,yes,none
+866,qewazhawe,status,n,/qe.wa.ˈʒa.we/,qeh-wah-ZHAH-weh,reference,10,yes,none
+867,rezheka,booking,n,/ɾe.ˈʒe.ka/,reh-ZHEH-kah,reference,10,yes,none
+868,hanëhoka,governance,n,/ha.nə.ˈho.ka/,hah-nuh-HOH-kah,reference,10,yes,none
+869,zhëzëzho,troubleshooting,n,/ʒə.ˈzə.ʒo/,zhuh-ZUH-zhoh,reference,10,yes,none
+870,zosurogo,landing shelf,n,/zo.su.ˈɾo.ɡo/,zoh-soo-ROH-goh,reference,10,yes,none
+871,kalera,remedy,n,/ka.ˈle.ɾa/,kah-LEH-rah,reference,10,yes,none
+872,yiwodene,role,n,/ji.wo.ˈde.ne/,yee-woh-DEH-neh,reference,10,yes,none
+873,qurahihi,authority,n,/qu.ɾa.ˈhi.hi/,qoo-rah-HEE-hee,reference,10,yes,none
+874,halolo,presentation,n,/ha.ˈlo.lo/,hah-LOH-loh,reference,10,yes,none
+875,betido,controller,n,/be.ˈti.do/,beh-TEE-doh,reference,10,yes,none
+876,qilogo,testimony,n,/qi.ˈlo.ɡo/,qee-LOH-goh,reference,10,yes,none
+877,meshusë,timing,n,/me.ˈʃu.sə/,meh-SHOO-suh,reference,10,yes,none
+878,qebëwaki,pronunciation,n,/qe.bə.ˈwa.ki/,qeh-buh-WAH-kee,reference,10,yes,none
+879,zhikupo,recollection,n,/ʒi.ˈku.po/,zhee-KOO-poh,reference,10,yes,none
+880,guzhoka,counseling,n,/ɡu.ˈʒo.ka/,goo-ZHOH-kah,reference,10,yes,none
+881,kehëlu,welcome,v,/ke.ˈhə.lu/,keh-HUH-loo,reference,10,yes,none
+882,kepiki,volunteer,v,/ke.ˈpi.ki/,keh-PEE-kee,reference,10,yes,none
+883,keqona,farewell,n,/ke.ˈqo.na/,keh-QOH-nah,reference,10,yes,none
+884,tubësha,construction method,n,/tu.ˈbə.ʃa/,too-BUH-shah,reference,10,yes,none
+885,sewozha,receipt,n,/se.ˈwo.ʒa/,seh-WOH-zhah,reference,10,yes,none
+886,benesho,logistics,n,/be.ˈne.ʃo/,beh-NEH-shoh,reference,10,yes,none
+887,barode,quality check,n,/ba.ˈɾo.de/,bah-ROH-deh,reference,10,yes,none
+888,logita,mediation,n,/lo.ˈɡi.ta/,loh-GEE-tah,reference,10,yes,none
+889,tiqamëzhu,digitization,n,/ti.qa.ˈmə.ʒu/,tee-qah-MUH-zhoo,reference,10,yes,none
+890,këkikha,scheduled,adj,/kə.ˈki.xa/,kuh-KEE-khah,reference,10,yes,none
+891,nëlogë,claim,n,/nə.ˈlo.ɡə/,nuh-LOH-guh,reference,10,yes,none
+892,lëtiwu,notation,n,/lə.ˈti.wu/,luh-TEE-woo,reference,10,yes,none
+893,lushënga,storm,n,/lu.ˈʃə.ŋa/,loo-SHUH-ngah,reference,10,yes,none
+894,hekhëwëdu,estimate,n,/he.xə.ˈwə.du/,heh-khuh-WUH-doo,reference,10,yes,none
+895,zëwozo,reminder,n,/zə.ˈwo.zo/,zuh-WOH-zoh,reference,10,yes,none
+896,pëshobo,spectator,n,/pə.ˈʃo.bo/,puh-SHOH-boh,reference,10,yes,none
+897,relishi,ranked,adj,/ɾe.ˈli.ʃi/,reh-LEE-shee,reference,10,yes,none
+898,semaka,purchase,n,/se.ˈma.ka/,seh-MAH-kah,reference,10,yes,none
+899,setuyo,income,n,/se.ˈtu.jo/,seh-TOO-yoh,reference,10,yes,none
+900,shikhoke,causal,adj,/ʃi.ˈxo.ke/,shee-KHOH-keh,reference,10,yes,none
+901,shëlawe,noise; unwanted sound,n,/ʃə.ˈla.we/,shuh-LAH-weh,reference,10,yes,none
+902,sudeka,plastic,n,/su.ˈde.ka/,soo-DEH-kah,reference,10,yes,none
+903,toqetëne,native,adj,/to.qe.ˈtə.ne/,toh-qeh-TUH-neh,reference,10,yes,none
+904,tëbiqa,plumbing,n,/tə.ˈbi.qa/,tuh-BEE-qah,reference,10,yes,none
+905,tëzhida,garden,n,/tə.ˈʒi.da/,tuh-ZHEE-dah,reference,10,yes,none
+906,yuzëme,affectionate,adj,/ju.ˈzə.me/,yoo-ZUH-meh,reference,10,yes,none
+907,shërawërao,root; lexical base,n,/ʃə.ɾa.wə.ˈɾa.o/,shuh-rah-wuh-RAH-oh,reference,9,yes,none
+908,mërawa,clothing; garment,n,/mə.ˈɾa.wa/,muh-RAH-wah,reference,9,yes,none
+909,shadishu,synthesis,n,/ʃa.ˈdi.ʃu/,shah-DEE-shoo,reference,9,yes,none
+910,hapukë,cooperative,n,/ha.ˈpu.kə/,hah-POO-kuh,reference,9,yes,none
+911,rengiya,itinerary,n,/ɾe.ˈŋi.ja/,reh-NGEE-yah,reference,9,yes,none
+912,dedumasi,route plan,n,/de.du.ˈma.si/,deh-doo-MAH-see,reference,9,yes,none
+913,khuzoko,benchmark,n,/xu.ˈzo.ko/,khoo-ZOH-koh,reference,9,yes,none
+914,keshesha,collaboration,n,/ke.ˈʃe.ʃa/,keh-SHEH-shah,reference,9,yes,none
+915,wukhapa,deadline,n,/wu.ˈxa.pa/,woo-KHAH-pah,reference,9,yes,none
+916,lapuzhe,dispensing,n,/la.ˈpu.ʒe/,lah-POO-zheh,reference,9,yes,none
+917,shërawoho,medicine; treatment substance,n,/ʃə.ɾa.ˈwo.ho/,shuh-rah-WOH-hoh,reference,9,yes,none
+918,gokoqiza,preparedness,n,/ɡo.ko.ˈqi.za/,goh-koh-QEE-zah,reference,9,yes,none
+919,qomëgaqo,suite,n,/qo.mə.ˈɡa.qo/,qoh-muh-GAH-qoh,reference,9,yes,none
+920,mëraho,gift; freely offered item,n,/mə.ˈɾa.ho/,muh-RAH-hoh,reference,9,yes,none
+921,rashi,custom; tradition,n,/ˈɾa.ʃi/,RAH-shee,reference,9,yes,none
+922,pimasazha,intake,n,/pi.ma.ˈsa.ʒa/,pee-mah-SAH-zhah,reference,9,yes,none
+923,beditëra,skill,n,/be.di.ˈtə.ɾa/,beh-dee-TUH-rah,reference,9,yes,none
+924,nokoro,activity,n,/no.ˈko.ɾo/,noh-KOH-roh,reference,9,yes,none
+925,bikhelo,welfare,n,/bi.ˈxe.lo/,bee-KHEH-loh,reference,9,yes,none
+926,motoqeba,cultivation,n,/mo.to.ˈqe.ba/,moh-toh-QEH-bah,reference,9,yes,none
+927,wazhira,field study,n,/wa.ˈʒi.ɾa/,wah-ZHEE-rah,reference,9,yes,none
+928,gizëga,wallet,n,/ɡi.ˈzə.ɡa/,gee-ZUH-gah,reference,9,yes,none
+929,piwëma,ledger,n,/pi.ˈwə.ma/,pee-WUH-mah,reference,9,yes,none
+930,megekhe,deployment,n,/me.ˈɡe.xe/,meh-GEH-kheh,reference,9,yes,none
+931,khawëweshi,sleeping alcove,n,/xa.wə.ˈwe.ʃi/,khah-wuh-WEH-shee,reference,9,yes,none
+932,dëraho,right; entitlement or liberty,n,/də.ˈɾa.ho/,duh-RAH-hoh,reference,9,yes,none
+933,nokhatu,resolution,n,/no.ˈxa.tu/,noh-KHAH-too,reference,9,yes,none
+934,shizhaba,surveillance,n,/ʃi.ˈʒa.ba/,shee-ZHAH-bah,reference,9,yes,none
+935,nëbuba,recipe,n,/nə.ˈbu.ba/,nuh-BOO-bah,reference,9,yes,none
+936,ngikhango,dialect,n,/ŋi.ˈxa.ŋo/,ngee-KHAH-ngoh,reference,9,yes,none
+937,pinuka,usage,n,/pi.ˈnu.ka/,pee-NOO-kah,reference,9,yes,none
+938,qishikho,convention,n,/qi.ˈʃi.xo/,qee-SHEE-khoh,reference,9,yes,none
+939,mesakë,gloss,n,/me.ˈsa.kə/,meh-SAH-kuh,reference,9,yes,none
+940,ngedësëyu,register,n,/ŋe.də.ˈsə.ju/,ngeh-duh-SUH-yoo,reference,9,yes,none
+941,kaqolapë,diagram,n,/ka.qo.ˈla.pə/,kah-qoh-LAH-puh,reference,9,yes,none
+942,werëshaku,chart,n,/we.ɾə.ˈʃa.ku/,weh-ruh-SHAH-koo,reference,9,yes,none
+943,zhihipu,figure,n,/ʒi.ˈhi.pu/,zhee-HEE-poo,reference,9,yes,none
+944,sasiqu,signaling protocol,n,/sa.ˈsi.qu/,sah-SEE-qoo,reference,9,yes,none
+945,qoshuro,work,n,/qo.ˈʃu.ɾo/,qoh-SHOO-roh,reference,9,yes,none
+946,gemëngërë,token,n,/ɡe.mə.ˈŋə.ɾə/,geh-muh-NGUH-ruh,reference,9,yes,none
+947,shënaru,craft; created object,n,/ʃə.ˈna.ɾu/,shuh-NAH-roo,reference,9,yes,none
+948,kerëta,friendship,n,/ke.ˈɾə.ta/,keh-RUH-tah,reference,9,yes,none
+949,dehiku,replacement,n,/de.ˈhi.ku/,deh-HEE-koo,reference,9,yes,none
+950,këshasho,roost map,n,/kə.ˈʃa.ʃo/,kuh-SHAH-shoh,reference,9,yes,none
+951,khunasëro,peer-to-peer,n,/xu.na.ˈsə.ɾo/,khoo-nah-SUH-roh,reference,9,yes,none
+952,zëngayure,behavior,n,/zə.ŋa.ˈju.ɾe/,zuh-ngah-YOO-reh,reference,9,yes,none
+953,qerësa,council,n,/qe.ˈɾə.sa/,qeh-RUH-sah,reference,9,yes,none
+954,shamosëlu,registry,n,/ʃa.mo.ˈsə.lu/,shah-moh-SUH-loo,reference,9,yes,none
+955,khozhëshu,proposal,n,/xo.ˈʒə.ʃu/,khoh-ZHUH-shoo,reference,9,yes,none
+956,shozhotoqa,space,n,/ʃo.ʒo.ˈto.qa/,shoh-zhoh-TOH-qah,reference,9,yes,none
+957,tudëzoyo,period,n,/tu.də.ˈzo.jo/,too-duh-ZOH-yoh,reference,9,yes,none
+958,lupëta,dawn,n,/lu.ˈpə.ta/,loo-PUH-tah,reference,9,yes,none
+959,këzapu,structure,n,/kə.ˈza.pu/,kuh-ZAH-poo,reference,9,yes,none
+960,nëbazhë,keyboard,adj,/nə.ˈba.ʒə/,nuh-BAH-zhuh,reference,9,yes,none
+961,nëkhequdo,linguistic,adj,/nə.xe.ˈqu.do/,nuh-kheh-QOO-doh,reference,9,yes,none
+962,shobemu,applied,adj,/ʃo.ˈbe.mu/,shoh-BEH-moo,reference,9,yes,none
+963,shënohi,secret; private,adj,/ʃə.ˈno.hi/,shuh-NOH-hee,reference,9,yes,none
+964,shërawëmo,health; overall well-being,n,/ʃə.ɾa.ˈwə.mo/,shuh-rah-WUH-moh,reference,9,yes,none
+965,yosanipë,rights,n,/jo.sa.ˈni.pə/,yoh-sah-NEE-puh,reference,8,yes,none
+966,zhuqoqa,procurement,n,/ʒu.ˈqo.qa/,zhoo-QOH-qah,reference,8,yes,none
+967,darumi,protector; guardian,n,/da.ˈɾu.mi/,dah-ROO-mee,reference,8,yes,none
+968,kuhoshi,layer,n,/ku.ˈho.ʃi/,koo-HOH-shee,reference,8,yes,none
+969,wubokha,calendar,n,/wu.ˈbo.xa/,woo-BOH-khah,reference,8,yes,none
+970,pëpëmekho,feeling,n,/pə.pə.ˈme.xo/,puh-puh-MEH-khoh,reference,8,yes,none
+971,tomoya,office,n,/to.ˈmo.ja/,toh-MOH-yah,reference,8,yes,none
+972,yërawaro,computer; calculating device,n,/jə.ɾa.ˈwa.ɾo/,yuh-rah-WAH-roh,reference,8,yes,none
+973,perakhesë,committee,n,/pe.ɾa.ˈxe.sə/,peh-rah-KHEH-suh,reference,8,yes,none
+974,ngehasa,universal,adj,/ŋe.ˈha.sa/,ngeh-HAH-sah,reference,8,yes,none
+975,pirangusë,peer,n,/pi.ɾa.ˈŋu.sə/,pee-rah-NGOO-suh,reference,8,yes,none
+976,pusihu,theoretical,adj,/pu.ˈsi.hu/,poo-SEE-hoo,reference,8,yes,none
+977,shano,sibling,n,/ˈʃa.no/,SHAH-noh,reference,8,yes,none
+978,saqengaho,climbing,n,/sa.qe.ˈŋa.ho/,sah-qeh-NGAH-hoh,reference,8,yes,none
+979,shëraho,morning,n,/ʃə.ˈɾa.ho/,shuh-RAH-hoh,reference,8,yes,none
+980,sura,grief; sorrow,n,/ˈsu.ɾa/,SOO-rah,reference,8,yes,none
+981,yakhaheqi,roasting,n,/ja.xa.ˈhe.qi/,yah-khah-HEH-qee,reference,8,yes,none
+982,zahisubo,voice,adj,/za.hi.ˈsu.bo/,zah-hee-SOO-boh,reference,8,yes,none
+983,zibepo,biological,adj,/zi.ˈbe.po/,zee-BEH-poh,reference,8,yes,none
+984,gupono,clinic,n,/ɡu.ˈpo.no/,goo-POH-noh,reference,7,yes,none
+985,banuaro,wing joint,n,/ba.nu.ˈa.ɾo/,bah-noo-AH-roh,reference,7,yes,none
+986,banuwa,wing membrane,n,/ba.ˈnu.wa/,bah-NOO-wah,reference,7,yes,none
+987,banëmë,topological,adj,/ba.ˈnə.mə/,bah-NUH-muh,reference,7,yes,none
+988,baqëzëra,low-power,n,/ba.qə.ˈzə.ɾa/,bah-quh-ZUH-rah,reference,7,yes,none
+989,zhëmo,cloth; fabric,n,/ˈʒə.mo/,ZHUH-moh,reference,7,yes,none
+990,bedubo,motor,n,/be.ˈdu.bo/,beh-DOO-boh,reference,7,yes,none
+991,bedudo,supply chain,n,/be.ˈdu.do/,beh-DOO-doh,reference,7,yes,none
+992,bekago,spring,n,/be.ˈka.ɡo/,beh-KAH-goh,reference,7,yes,none
+993,beliwë,low vision,n,/be.ˈli.wə/,beh-LEE-wuh,reference,7,yes,none
+994,bepongë,immune,n,/be.ˈpo.ŋə/,beh-POH-nguh,reference,7,yes,none
+995,bigesamu,business,n,/bi.ɡe.ˈsa.mu/,bee-geh-SAH-moo,reference,7,yes,none
+996,bingëshato,multimodal,adj,/bi.ŋə.ˈʃa.to/,bee-nguh-SHAH-toh,reference,7,yes,none
+997,biwupë,reinforcement,adj,/bi.ˈwu.pə/,bee-WOO-puh,reference,7,yes,none
+998,bodede,interlinear,n,/bo.ˈde.de/,boh-DEH-deh,reference,7,yes,none
+999,bokhonga,surgical,adj,/bo.ˈxo.ŋa/,boh-KHOH-ngah,reference,7,yes,none
+1000,bomuwa,spyware,n,/bo.ˈmu.wa/,boh-MOO-wah,reference,7,yes,none
+1001,bonëto,malware,n,/bo.ˈnə.to/,boh-NUH-toh,reference,7,yes,none
+1002,boqëno,ransomware,n,/bo.ˈqə.no/,boh-QUH-noh,reference,7,yes,none
+1003,bowato,phishing,n,/bo.ˈwa.to/,boh-WAH-toh,reference,7,yes,none
+1004,bugeloma,conditional,adj,/bu.ɡe.ˈlo.ma/,boo-geh-LOH-mah,reference,7,yes,none
+1005,buqepo,exoplanet,n,/bu.ˈqe.po/,boo-QEH-poh,reference,7,yes,none
+1006,bëbëbi,sedimentary,adj,/bə.ˈbə.bi/,buh-BUH-bee,reference,7,yes,none
+1007,bëzhonuzë,relativistic,adj,/bə.ʒo.ˈnu.zə/,buh-zhoh-NOO-zuh,reference,7,yes,none
+1008,dahenge,conversational,adj,/da.ˈhe.ŋe/,dah-HEH-ngeh,reference,7,yes,none
+1009,zhingango,vulnerability,n,/ʒi.ˈŋa.ŋo/,zhee-NGAH-ngoh,reference,7,yes,none
+1010,darënohu,adopted,adj,/da.ɾə.ˈno.hu/,dah-ruh-NOH-hoo,reference,7,yes,none
+1011,delekhoru,intolerance,n,/de.le.ˈxo.ɾu/,deh-leh-KHOH-roo,reference,7,yes,none
+1012,deneka,museum,n,/de.ˈne.ka/,deh-NEH-kah,reference,7,yes,none
+1013,dewepa,portrait,n,/de.ˈwe.pa/,deh-WEH-pah,reference,7,yes,none
+1014,dihëzawo,crosswind,adj,/di.hə.ˈza.wo/,dee-huh-ZAH-woh,reference,7,yes,none
+1015,dimayono,refrigerated,adj,/di.ma.ˈjo.no/,dee-mah-YOH-noh,reference,7,yes,none
+1016,dokëngo,invasive species,n,/do.ˈkə.ŋo/,doh-KUH-ngoh,reference,7,yes,none
+1017,dorakhë,overwhelming,n,/do.ˈɾa.xə/,doh-RAH-khuh,reference,7,yes,none
+1018,dotëmika,rooftop,n,/do.tə.ˈmi.ka/,doh-tuh-MEE-kah,reference,7,yes,none
+1019,dowoluna,alpine,n,/do.wo.ˈlu.na/,doh-woh-LOO-nah,reference,7,yes,none
+1020,dozhengepa,gastrointestinal,adj,/do.ʒe.ˈŋe.pa/,doh-zheh-NGEH-pah,reference,7,yes,none
+1021,dubalishu,modal,adj,/du.ba.ˈli.ʃu/,doo-bah-LEE-shoo,reference,7,yes,none
+1022,dumiheyi,centralized,adj,/du.mi.ˈhe.ji/,doo-mee-HEH-yee,reference,7,yes,none
+1023,dutidozi,metallic,adj,/du.ti.ˈdo.zi/,doo-tee-DOH-zee,reference,7,yes,none
+1024,dëgokhiqë,captioning,n,/də.ɡo.ˈxi.qə/,duh-goh-KHEE-quh,reference,7,yes,none
+1025,dëshokhozhë,cycling,n,/də.ʃo.ˈxo.ʒə/,duh-shoh-KHOH-zhuh,reference,7,yes,none
+1026,dëzhezu,birdwatching,n,/də.ˈʒe.zu/,duh-ZHEH-zoo,reference,7,yes,none
+1027,gawohe,boreal,adj,/ɡa.ˈwo.he/,gah-WOH-heh,reference,7,yes,none
+1028,gebipesho,primary,adj,/ɡe.bi.ˈpe.ʃo/,geh-bee-PEH-shoh,reference,7,yes,none
+1029,gekhara,choral,adj,/ɡe.ˈxa.ɾa/,geh-KHAH-rah,reference,7,yes,none
+1030,gezoso,anxiety,n,/ɡe.ˈzo.so/,geh-ZOH-soh,reference,7,yes,none
+1031,gihiyo,linen,n,/ɡi.ˈhi.jo/,gee-HEE-yoh,reference,7,yes,none
+1032,gihungëwa,deployment,adj,/ɡi.hu.ˈŋə.wa/,gee-hoo-NGUH-wah,reference,7,yes,none
+1033,gikhina,cotton,n,/ɡi.ˈxi.na/,gee-KHEE-nah,reference,7,yes,none
+1034,gikopa,fashion,n,/ɡi.ˈko.pa/,gee-KOH-pah,reference,7,yes,none
+1035,gisëshe,crystalline,n,/ɡi.ˈsə.ʃe/,gee-SUH-sheh,reference,7,yes,none
+1036,giteno,wool,n,/ɡi.ˈte.no/,gee-TEH-noh,reference,7,yes,none
+1037,giziwo,silk,n,/ɡi.ˈzi.wo/,gee-ZEE-woh,reference,7,yes,none
+1038,gongoli,toxic waste,n,/ɡo.ˈŋo.li/,goh-NGOH-lee,reference,7,yes,none
+1039,gopongizi,swimming,n,/ɡo.po.ˈŋi.zi/,goh-poh-NGEE-zee,reference,7,yes,none
+1040,gorëru,burrowing,n,/ɡo.ˈɾə.ɾu/,goh-RUH-roo,reference,7,yes,none
+1041,gotëke,one-time,n,/ɡo.ˈtə.ke/,goh-TUH-keh,reference,7,yes,none
+1042,gumona,prescription,n,/ɡu.ˈmo.na/,goo-MOH-nah,reference,7,yes,none
+1043,gushëlipë,secular,n,/ɡu.ʃə.ˈli.pə/,goo-shuh-LEE-puh,reference,7,yes,none
+1044,guyemo,glacial,adj,/ɡu.ˈje.mo/,goo-YEH-moh,reference,7,yes,none
+1045,guyuba,epidemic,n,/ɡu.ˈju.ba/,goo-YOO-bah,reference,7,yes,none
+1046,gëkoloni,single-player,n,/ɡə.ko.ˈlo.ni/,guh-koh-LOH-nee,reference,7,yes,none
+1047,gëpamoki,galactic,adj,/ɡə.pa.ˈmo.ki/,guh-pah-MOH-kee,reference,7,yes,none
+1048,gërurizë,over-the-counter,n,/ɡə.ɾu.ˈɾi.zə/,guh-roo-REE-zuh,reference,7,yes,none
+1049,gëshushu,archaic,adj,/ɡə.ˈʃu.ʃu/,guh-SHOO-shoo,reference,7,yes,none
+1050,gësudo,tectonic,adj,/ɡə.ˈsu.do/,guh-SOO-doh,reference,7,yes,none
+1051,hepekhimi,monthly,n,/he.pe.ˈxi.mi/,heh-peh-KHEE-mee,reference,7,yes,none
+1052,hikhizanë,igneous,adj,/hi.xi.ˈza.nə/,hee-khee-ZAH-nuh,reference,7,yes,none
+1053,hikongakhi,steaming,n,/hi.ko.ˈŋa.xi/,hee-koh-NGAH-khee,reference,7,yes,none
+1054,hozhënë,macro,n,/ho.ˈʒə.nə/,hoh-ZHUH-nuh,reference,7,yes,none
+1055,huyozhotë,flowering,n,/hu.jo.ˈʒo.tə/,hoo-yoh-ZHOH-tuh,reference,7,yes,none
+1056,hëhokosi,deductive,adj,/hə.ho.ˈko.si/,huh-hoh-KOH-see,reference,7,yes,none
+1057,kabuhuyo,elected,adj,/ka.bu.ˈhu.jo/,kah-boo-HOO-yoh,reference,7,yes,none
+1058,kekubëzu,deprecation,n,/ke.ku.ˈbə.zu/,keh-koo-BUH-zoo,reference,7,yes,none
+1059,kerukhë,fat,n,/ke.ˈɾu.xə/,keh-ROO-khuh,reference,7,yes,none
+1060,kewezha,confidentiality,n,/ke.ˈwe.ʒa/,keh-WEH-zhah,reference,7,yes,none
+1061,khabengi,technological,adj,/xa.ˈbe.ŋi/,khah-BEH-ngee,reference,7,yes,none
+1062,khalohë,onsite,n,/xa.ˈlo.hə/,khah-LOH-huh,reference,7,yes,none
+1063,khedazate,oral,adj,/xe.da.ˈza.te/,kheh-dah-ZAH-teh,reference,7,yes,none
+1064,khegaraqë,secondary,adj,/xe.ɡa.ˈɾa.qə/,kheh-gah-RAH-quh,reference,7,yes,none
+1065,khekangëdu,permissionless,adj,/xe.ka.ˈŋə.du/,kheh-kah-NGUH-doo,reference,7,yes,none
+1066,khikhoyezhe,unexpected,adj,/xi.xo.ˈje.ʒe/,khee-khoh-YEH-zheh,reference,7,yes,none
+1067,khimashë,offshore,n,/xi.ˈma.ʃə/,khee-MAH-shuh,reference,7,yes,none
+1068,khipanuzha,waterborne,n,/xi.pa.ˈnu.ʒa/,khee-pah-NOO-zhah,reference,7,yes,none
+1069,khisomemi,replicated,adj,/xi.so.ˈme.mi/,khee-soh-MEH-mee,reference,7,yes,none
+1070,khitoshe,ancestral,adj,/xi.ˈto.ʃe/,khee-TOH-sheh,reference,7,yes,none
+1071,kholabazo,natural gas,n,/xo.la.ˈba.zo/,khoh-lah-BAH-zoh,reference,7,yes,none
+1072,khosatozu,hydroponic,adj,/xo.sa.ˈto.zu/,khoh-sah-TOH-zoo,reference,7,yes,none
+1073,khozholo,drinking,n,/xo.ˈʒo.lo/,khoh-ZHOH-loh,reference,7,yes,none
+1074,khumakewe,endocrine,n,/xu.ma.ˈke.we/,khoo-mah-KEH-weh,reference,7,yes,none
+1075,khurabu,retrieval,adj,/xu.ˈɾa.bu/,khoo-RAH-boo,reference,7,yes,none
+1076,khëgewiba,roleplaying,n,/xə.ɡe.ˈwi.ba/,khuh-geh-WEE-bah,reference,7,yes,none
+1077,khëluyonë,comet,n,/xə.lu.ˈjo.nə/,khuh-loo-YOH-nuh,reference,7,yes,none
+1078,khëyarose,musculoskeletal,adj,/xə.ja.ˈɾo.se/,khuh-yah-ROH-seh,reference,7,yes,none
+1079,kisheno,lingering,n,/ki.ˈʃe.no/,kee-SHEH-noh,reference,7,yes,none
+1080,kongewi,grazing,n,/ko.ˈŋe.wi/,koh-NGEH-wee,reference,7,yes,none
+1081,koyedu,karst,n,/ko.ˈje.du/,koh-YEH-doo,reference,7,yes,none
+1082,kupësekhi,reef,n,/ku.pə.ˈse.xi/,koo-puh-SEH-khee,reference,7,yes,none
+1083,këro,clear; transparent,adj,/ˈkə.ɾo/,KUH-roh,reference,7,yes,none
+1084,këzhilo,renewed,adj,/kə.ˈʒi.lo/,kuh-ZHEE-loh,reference,7,yes,none
+1085,ladukëwu,pollution,n,/la.du.ˈkə.wu/,lah-doo-KUH-woo,reference,7,yes,none
+1086,laqesobë,rainwater,n,/la.qe.ˈso.bə/,lah-qeh-SOH-buh,reference,7,yes,none
+1087,laqëyo,brackish,n,/la.ˈqə.jo/,lah-QUH-yoh,reference,7,yes,none
+1088,larakhoge,frying,n,/la.ɾa.ˈxo.ɡe/,lah-rah-KHOH-geh,reference,7,yes,none
+1089,lelukha,platonic,adj,/le.ˈlu.xa/,leh-LOO-khah,reference,7,yes,none
+1090,leshoha,baking,n,/le.ˈʃo.ha/,leh-SHOH-hah,reference,7,yes,none
+1091,logehasha,temperate,n,/lo.ɡe.ˈha.ʃa/,loh-geh-HAH-shah,reference,7,yes,none
+1092,longudongo,withdrawn,n,/lo.ŋu.ˈdo.ŋo/,loh-ngoo-DOH-ngoh,reference,7,yes,none
+1093,losashi,diurnal,adj,/lo.ˈsa.ʃi/,loh-SAH-shee,reference,7,yes,none
+1094,lubada,autumn,n,/lu.ˈba.da/,loo-BAH-dah,reference,7,yes,none
+1095,ludëkhë,appointed,adj,/lu.ˈdə.xə/,loo-DUH-khuh,reference,7,yes,none
+1096,wuqizo,time,n,/wu.ˈqi.zo/,woo-QEE-zoh,reference,7,yes,none
+1097,lukhanga,pasture,n,/lu.ˈxa.ŋa/,loo-KHAH-ngah,reference,7,yes,none
+1098,lukhiya,snowfall,n,/lu.ˈxi.ja/,loo-KHEE-yah,reference,7,yes,none
+1099,luleruzhe,alkaline,n,/lu.le.ˈɾu.ʒe/,loo-leh-ROO-zheh,reference,7,yes,none
+1100,lunebo,hail,n,/lu.ˈne.bo/,loo-NEH-boh,reference,7,yes,none
+1101,lunewo,cyclone,n,/lu.ˈne.wo/,loo-NEH-woh,reference,7,yes,none
+1102,lungipe,salaried,adj,/lu.ˈŋi.pe/,loo-NGEE-peh,reference,7,yes,none
+1103,lushazo,gust,n,/lu.ˈʃa.zo/,loo-SHAH-zoh,reference,7,yes,none
+1104,lushëba,orchard,n,/lu.ˈʃə.ba/,loo-SHUH-bah,reference,7,yes,none
+1105,luteta,frost,n,/lu.ˈte.ta/,loo-TEH-tah,reference,7,yes,none
+1106,luwama,lightning,n,/lu.ˈwa.ma/,loo-WAH-mah,reference,7,yes,none
+1107,luzasa,avalanche,n,/lu.ˈza.sa/,loo-ZAH-sah,reference,7,yes,none
+1108,luzupa,monsoon,n,/lu.ˈzu.pa/,loo-ZOO-pah,reference,7,yes,none
+1109,magishëpë,developmental,adj,/ma.ɡi.ˈʃə.pə/,mah-gee-SHUH-puh,reference,7,yes,none
+1110,manogë,dermatological,adj,/ma.ˈno.ɡə/,mah-NOH-guh,reference,7,yes,none
+1111,mapuko,imported,adj,/ma.ˈpu.ko/,mah-POO-koh,reference,7,yes,none
+1112,maraqo,generic,adj,/ma.ˈɾa.qo/,mah-RAH-qoh,reference,7,yes,none
+1113,mashodë,frozen,n,/ma.ˈʃo.də/,mah-SHOH-duh,reference,7,yes,none
+1114,masësa,riverine,n,/ma.ˈsə.sa/,mah-SUH-sah,reference,7,yes,none
+1115,milezhe,tidal,adj,/mi.ˈle.ʒe/,mee-LEH-zheh,reference,7,yes,none
+1116,momila,rainfall,n,/mo.ˈmi.la/,moh-MEE-lah,reference,7,yes,none
+1117,moqibo,dancing,n,/mo.ˈqi.bo/,moh-QEE-boh,reference,7,yes,none
+1118,moshihike,signed,adj,/mo.ʃi.ˈhi.ke/,moh-shee-HEE-keh,reference,7,yes,none
+1119,mëkotëko,auditory,n,/mə.ko.ˈtə.ko/,muh-koh-TUH-koh,reference,7,yes,none
+1120,mënashë,asteroid,n,/mə.ˈna.ʃə/,muh-NAH-shuh,reference,7,yes,none
+1121,mëtizhu,asymmetric,adj,/mə.ˈti.ʒu/,muh-TEE-zhoo,reference,7,yes,none
+1122,nahunga,colloquial,adj,/na.ˈhu.ŋa/,nah-HOO-ngah,reference,7,yes,none
+1123,nepado,instrumental,adj,/ne.ˈpa.do/,neh-PAH-doh,reference,7,yes,none
+1124,neshuzhe,investigative,adj,/ne.ˈʃu.ʒe/,neh-SHOO-zheh,reference,7,yes,none
+1125,ngapengu,categorical,adj,/ŋa.ˈpe.ŋu/,ngah-PEH-ngoo,reference,7,yes,none
+1126,ngazhuboga,posture,n,/ŋa.ʒu.ˈbo.ɡa/,ngah-zhoo-BOH-gah,reference,7,yes,none
+1127,ngegiwi,atomic,adj,/ŋe.ˈɡi.wi/,ngeh-GEE-wee,reference,7,yes,none
+1128,ngetunga,hydroelectric,adj,/ŋe.ˈtu.ŋa/,ngeh-TOO-ngah,reference,7,yes,none
+1129,ngeyukë,implicit,n,/ŋe.ˈju.kə/,ngeh-YOO-kuh,reference,7,yes,none
+1130,ngezepenë,freelance,n,/ŋe.ze.ˈpe.nə/,ngeh-zeh-PEH-nuh,reference,7,yes,none
+1131,ngigiwa,university,n,/ŋi.ˈɡi.wa/,ngee-GEE-wah,reference,7,yes,none
+1132,ngitika,tabletop,n,/ŋi.ˈti.ka/,ngee-TEE-kah,reference,7,yes,none
+1133,ngudega,wingtip,n,/ŋu.ˈde.ɡa/,ngoo-DEH-gah,reference,7,yes,none
+1134,ngukhago,headwind,n,/ŋu.ˈxa.ɡo/,ngoo-KHAH-goh,reference,7,yes,none
+1135,ngulazha,tailwind,n,/ŋu.ˈla.ʒa/,ngoo-LAH-zhah,reference,7,yes,none
+1136,nguwulo,seawater,n,/ŋu.ˈwu.lo/,ngoo-WOO-loh,reference,7,yes,none
+1137,ngësëte,contextual,adj,/ŋə.ˈsə.te/,nguh-SUH-teh,reference,7,yes,none
+1138,nigëbishë,corporate,n,/ni.ɡə.ˈbi.ʃə/,nee-guh-BEE-shuh,reference,7,yes,none
+1139,nobazharo,arboreal,adj,/no.ba.ˈʒa.ɾo/,noh-bah-ZHAH-roh,reference,7,yes,none
+1140,nomashodo,airborne,n,/no.ma.ˈʃo.do/,noh-mah-SHOH-doh,reference,7,yes,none
+1141,nushasenga,irrigated,adj,/nu.ʃa.ˈse.ŋa/,noo-shah-SEH-ngah,reference,7,yes,none
+1142,nëgeko,carbohydrate,n,/nə.ˈɡe.ko/,nuh-GEH-koh,reference,7,yes,none
+1143,nëkuha,descriptive,adj,/nə.ˈku.ha/,nuh-KOO-hah,reference,7,yes,none
+1144,nëmiwo,lichen,n,/nə.ˈmi.wo/,nuh-MEE-woh,reference,7,yes,none
+1145,nënguto,sodium,n,/nə.ˈŋu.to/,nuh-NGOO-toh,reference,7,yes,none
+1146,nëshipo,vitamin,n,/nə.ˈʃi.po/,nuh-SHEE-poh,reference,7,yes,none
+1147,nëshokënu,location,n,/nə.ʃo.ˈkə.nu/,nuh-shoh-KUH-noo,reference,7,yes,none
+1148,payengiyu,custodial,adj,/pa.je.ˈŋi.ju/,pah-yeh-NGEE-yoo,reference,7,yes,none
+1149,pazizho,metamorphic,adj,/pa.ˈzi.ʒo/,pah-ZEE-zhoh,reference,7,yes,none
+1150,pebukha,historic,adj,/pe.ˈbu.xa/,peh-BOO-khah,reference,7,yes,none
+1151,peyokhodu,deep space,n,/pe.jo.ˈxo.du/,peh-yoh-KHOH-doo,reference,7,yes,none
+1152,pikhita,hiking,n,/pi.ˈxi.ta/,pee-KHEE-tah,reference,7,yes,none
+1153,pizikha,informed consent,n,/pi.ˈzi.xa/,pee-ZEE-khah,reference,7,yes,none
+1154,poketige,moderated,adj,/po.ke.ˈti.ɡe/,poh-keh-TEE-geh,reference,7,yes,none
+1155,poshashi,trauma,n,/po.ˈʃa.ʃi/,poh-SHAH-shee,reference,7,yes,none
+1156,puqëbe,ambient,adj,/pu.ˈqə.be/,poo-QUH-beh,reference,7,yes,none
+1157,puyeze,preserved,adj,/pu.ˈje.ze/,poo-YEH-zeh,reference,7,yes,none
+1158,puzhozezi,classical,adj,/pu.ʒo.ˈze.zi/,poo-zhoh-ZEH-zee,reference,7,yes,none
+1159,pëkhëra,amateur,n,/pə.ˈxə.ɾa/,puh-KHUH-rah,reference,7,yes,none
+1160,pëleya,pilot,n,/pə.ˈle.ja/,puh-LEH-yah,reference,7,yes,none
+1161,pëquha,spouse,n,/pə.ˈqu.ha/,puh-QOO-hah,reference,7,yes,none
+1162,pësuzho,extended family,n,/pə.ˈsu.ʒo/,puh-SOO-zhoh,reference,7,yes,none
+1163,pësënga,visitor,n,/pə.ˈsə.ŋa/,puh-SUH-ngah,reference,7,yes,none
+1164,qadomo,shoulder,n,/qa.ˈdo.mo/,qah-DOH-moh,reference,7,yes,none
+1165,qakhileke,heatwave,n,/qa.xi.ˈle.ke/,qah-khee-LEH-keh,reference,7,yes,none
+1166,qarë,cave; underground hollow,n,/ˈqa.ɾə/,QAH-ruh,reference,7,yes,none
+1167,qawokho,wrist,n,/qa.ˈwo.xo/,qah-WOH-khoh,reference,7,yes,none
+1168,qazëdekhu,camping,n,/qa.zə.ˈde.xu/,qah-zuh-DEH-khoo,reference,7,yes,none
+1169,qekhizhë,orbital,adj,/qe.ˈxi.ʒə/,qeh-KHEE-zhuh,reference,7,yes,none
+1170,qemirë,interplanetary,adj,/qe.ˈmi.ɾə/,qeh-MEE-ruh,reference,7,yes,none
+1171,qeresu,staging,n,/qe.ˈɾe.su/,qeh-REH-soo,reference,7,yes,none
+1172,qigoshukë,haptic,adj,/qi.ɡo.ˈʃu.kə/,qee-goh-SHOO-kuh,reference,7,yes,none
+1173,qingësa,asylum,n,/qi.ˈŋə.sa/,qee-NGUH-sah,reference,7,yes,none
+1174,qipuqë,symmetric,adj,/qi.ˈpu.qə/,qee-POO-quh,reference,7,yes,none
+1175,qisaqowi,suburban,n,/qi.sa.ˈqo.wi/,qee-sah-QOH-wee,reference,7,yes,none
+1176,qomeyëwo,irrigation,n,/qo.me.ˈjə.wo/,qoh-meh-YUH-woh,reference,7,yes,none
+1177,qongiga,vocational,adj,/qo.ˈŋi.ɡa/,qoh-NGEE-gah,reference,7,yes,none
+1178,qulongili,understory,n,/qu.lo.ˈŋi.li/,qoo-loh-NGEE-lee,reference,7,yes,none
+1179,qungedi,nocturnal,adj,/qu.ˈŋe.di/,qoo-NGEH-dee,reference,7,yes,none
+1180,qurëgi,remotely operated,adj,/qu.ˈɾə.ɡi/,qoo-RUH-gee,reference,7,yes,none
+1181,qëhëbëzi,amorphous,adj,/qə.hə.ˈbə.zi/,quh-huh-BUH-zee,reference,7,yes,none
+1182,ranotu,authenticated,adj,/ɾa.ˈno.tu/,rah-NOH-too,reference,7,yes,none
+1183,raqeyo,conflicted,adj,/ɾa.ˈqe.jo/,rah-QEH-yoh,reference,7,yes,none
+1184,rawulë,constitutional,adj,/ɾa.ˈwu.lə/,rah-WOO-luh,reference,7,yes,none
+1185,rawë,foot; talon,n,/ˈɾa.wə/,RAH-wuh,reference,7,yes,none
+1186,rebera,street,n,/ɾe.ˈbe.ɾa/,reh-BEH-rah,reference,7,yes,none
+1187,rewademo,predictive,adj,/ɾe.wa.ˈde.mo/,reh-wah-DEH-moh,reference,7,yes,none
+1188,rikobone,embedded,adj,/ɾi.ko.ˈbo.ne/,ree-koh-BOH-neh,reference,7,yes,none
+1189,ringëyima,unsupervised,adj,/ɾi.ŋə.ˈji.ma/,ree-nguh-YEE-mah,reference,7,yes,none
+1190,riqagike,harmonic,adj,/ɾi.qa.ˈɡi.ke/,ree-qah-GEE-keh,reference,7,yes,none
+1191,riqosha,roostmate,n,/ɾi.ˈqo.ʃa/,ree-QOH-shah,reference,7,yes,none
+1192,rolungë,idiomatic,adj,/ɾo.ˈlu.ŋə/,roh-LOO-nguh,reference,7,yes,none
+1193,rukheshë,hotfix,n,/ɾu.ˈxe.ʃə/,roo-KHEH-shuh,reference,7,yes,none
+1194,rëdëzago,stellar,n,/ɾə.də.ˈza.ɡo/,ruh-duh-ZAH-goh,reference,7,yes,none
+1195,rëqetemë,seabed,adj,/ɾə.qe.ˈte.mə/,ruh-qeh-TEH-muh,reference,7,yes,none
+1196,rëyazu,greenhouse,n,/ɾə.ˈja.zu/,ruh-YAH-zoo,reference,7,yes,none
+1197,sahuruyi,renal,adj,/sa.hu.ˈɾu.ji/,sah-hoo-ROO-yee,reference,7,yes,none
+1198,senuna,blockchain,n,/se.ˈnu.na/,seh-NOO-nah,reference,7,yes,none
+1199,senusheqa,enthusiastic,adj,/se.nu.ˈʃe.qa/,seh-noo-SHEH-qah,reference,7,yes,none
+1200,sezhabo,warehouse,n,/se.ˈʒa.bo/,seh-ZHAH-boh,reference,7,yes,none
+1201,shangakho,acidic,adj,/ʃa.ˈŋa.xo/,shah-NGAH-khoh,reference,7,yes,none
+1202,shenizi,religious,adj,/ʃe.ˈni.zi/,sheh-NEE-zee,reference,7,yes,none
+1203,shibëkupa,adjustment,adj,/ʃi.bə.ˈku.pa/,shee-buh-KOO-pah,reference,7,yes,none
+1204,shibëpe,phonetic,adj,/ʃi.ˈbə.pe/,shee-BUH-peh,reference,7,yes,none
+1205,shimi,student; learner,n,/ˈʃi.mi/,SHEE-mee,reference,7,yes,none
+1206,shopëpë,depression,n,/ʃo.ˈpə.pə/,shoh-PUH-puh,reference,7,yes,none
+1207,shoyebekë,hepatic,adj,/ʃo.je.ˈbe.kə/,shoh-yeh-BEH-kuh,reference,7,yes,none
+1208,shunusho,branded,adj,/ʃu.ˈnu.ʃo/,shoo-NOO-shoh,reference,7,yes,none
+1209,shusozumo,sign language,n,/ʃu.so.ˈzu.mo/,shoo-soh-ZOO-moh,reference,7,yes,none
+1210,shëbënu,regenerative,adj,/ʃə.ˈbə.nu/,shuh-BUH-noo,reference,7,yes,none
+1211,shëkhesu,balance,n,/ʃə.ˈxe.su/,shuh-KHEH-soo,reference,7,yes,none
+1212,shëlozasa,cliffside,n,/ʃə.lo.ˈza.sa/,shuh-loh-ZAH-sah,reference,7,yes,none
+1213,shërawe,moment; instant,n,/ʃə.ˈɾa.we/,shuh-RAH-weh,reference,7,yes,none
+1214,shëraza,fog; heavy mist,n,/ʃə.ˈɾa.za/,shuh-RAH-zah,reference,7,yes,none
+1215,shëruro,quiet; low volume,adj,/ʃə.ˈɾu.ɾo/,shuh-ROO-roh,reference,7,yes,none
+1216,shëwuzinë,sheltered,adj,/ʃə.wu.ˈzi.nə/,shuh-woo-ZEE-nuh,reference,7,yes,none
+1217,shëzadë,dried,adj,/ʃə.ˈza.də/,shuh-ZAH-duh,reference,7,yes,none
+1218,sihimo,discriminative,adj,/si.ˈhi.mo/,see-HEE-moh,reference,7,yes,none
+1219,siminoshu,grilling,n,/si.mi.ˈno.ʃu/,see-mee-NOH-shoo,reference,7,yes,none
+1220,sisode,solitary,adj,/si.ˈso.de/,see-SOH-deh,reference,7,yes,none
+1221,siyiba,foodborne,n,/si.ˈji.ba/,see-YEE-bah,reference,7,yes,none
+1222,sohogosha,orchestral,adj,/so.ho.ˈɡo.ʃa/,soh-hoh-GOH-shah,reference,7,yes,none
+1223,sokaqo,dryland,n,/so.ˈka.qo/,soh-KAH-qoh,reference,7,yes,none
+1224,soweru,linear,n,/so.ˈwe.ɾu/,soh-WEH-roo,reference,7,yes,none
+1225,suhëhozi,adversarial,adj,/su.hə.ˈho.zi/,soo-huh-HOH-zee,reference,7,yes,none
+1226,sukeqa,precision,n,/su.ˈke.qa/,soo-KEH-qah,reference,7,yes,none
+1227,sumaya,ceramic,n,/su.ˈma.ja/,soo-MAH-yah,reference,7,yes,none
+1228,sungikha,solvent,n,/su.ˈŋi.xa/,soo-NGEE-khah,reference,7,yes,none
+1229,sungituwë,combinatorial,adj,/su.ŋi.ˈtu.wə/,soo-ngee-TOO-wuh,reference,7,yes,none
+1230,sungëtë,three-dimensional,adj,/su.ˈŋə.tə/,soo-NGUH-tuh,reference,7,yes,none
+1231,sushono,boiling,n,/su.ˈʃo.no/,soo-SHOH-noh,reference,7,yes,none
+1232,sutasa,polymer,n,/su.ˈta.sa/,soo-TAH-sah,reference,7,yes,none
+1233,suwëko,combustion,n,/su.ˈwə.ko/,soo-WUH-koh,reference,7,yes,none
+1234,sëru,seed,n,/ˈsə.ɾu/,SUH-roo,reference,7,yes,none
+1235,tahuya,differential,adj,/ta.ˈhu.ja/,tah-HOO-yah,reference,7,yes,none
+1236,tamepi,load,n,/ta.ˈme.pi/,tah-MEH-pee,reference,7,yes,none
+1237,taqeki,rugged,adj,/ta.ˈqe.ki/,tah-QEH-kee,reference,7,yes,none
+1238,tatokhësa,insider,n,/ta.to.ˈxə.sa/,tah-toh-KHUH-sah,reference,7,yes,none
+1239,telukobë,integration,n,/te.lu.ˈko.bə/,teh-loo-KOH-buh,reference,7,yes,none
+1240,tepagi,end-to-end,n,/te.ˈpa.ɡi/,teh-PAH-gee,reference,7,yes,none
+1241,tetuwë,inductive,adj,/te.ˈtu.wə/,teh-TOO-wuh,reference,7,yes,none
+1242,tiyotona,frequentist,n,/ti.jo.ˈto.na/,tee-yoh-TOH-nah,reference,7,yes,none
+1243,tonaposë,fiber,n,/to.na.ˈpo.sə/,toh-nah-POH-suh,reference,7,yes,none
+1244,tonuyu,laundry,n,/to.ˈnu.ju/,toh-NOO-yoo,reference,7,yes,none
+1245,tozhule,cardiac,n,/to.ˈʒu.le/,toh-ZHOO-leh,reference,7,yes,none
+1246,tupuso,Bayesian,n,/tu.ˈpu.so/,too-POO-soh,reference,7,yes,none
+1247,tuqayowo,multivariate,n,/tu.qa.ˈjo.wo/,too-qah-YOH-woh,reference,7,yes,none
+1248,tëgopa,bedroom,n,/tə.ˈɡo.pa/,tuh-GOH-pah,reference,7,yes,none
+1249,tëmobo,living room,n,/tə.ˈmo.bo/,tuh-MOH-boh,reference,7,yes,none
+1250,tëshaqo,terrace,n,/tə.ˈʃa.qo/,tuh-SHAH-qoh,reference,7,yes,none
+1251,wakhuqukhu,landscape,n,/wa.xu.ˈqu.xu/,wah-khoo-QOO-khoo,reference,7,yes,none
+1252,wenëha,vineyard,n,/we.ˈnə.ha/,weh-NUH-hah,reference,7,yes,none
+1253,weruso,vocal,adj,/we.ˈɾu.so/,weh-ROO-soh,reference,7,yes,none
+1254,wiwimëngu,treetop,n,/wi.wi.ˈmə.ŋu/,wee-wee-MUH-ngoo,reference,7,yes,none
+1255,wizopogë,geometric,adj,/wi.zo.ˈpo.ɡə/,wee-zoh-POH-guh,reference,7,yes,none
+1256,wobikheqo,permissioned,adj,/wo.bi.ˈxe.qo/,woh-bee-KHEH-qoh,reference,7,yes,none
+1257,worë,valley,n,/ˈwo.ɾə/,WOH-ruh,reference,7,yes,none
+1258,woshushulo,luxury,n,/wo.ʃu.ˈʃu.lo/,woh-shoo-SHOO-loh,reference,7,yes,none
+1259,wowingo,wind shear,n,/wo.ˈwi.ŋo/,woh-WEE-ngoh,reference,7,yes,none
+1260,wozuge,algebraic,adj,/wo.ˈzu.ɡe/,woh-ZOO-geh,reference,7,yes,none
+1261,wudora,weekend,n,/wu.ˈdo.ɾa/,woo-DOH-rah,reference,7,yes,none
+1262,wukhiba,weekday,n,/wu.ˈxi.ba/,woo-KHEE-bah,reference,7,yes,none
+1263,wurëlo,afternoon,n,/wu.ˈɾə.lo/,woo-RUH-loh,reference,7,yes,none
+1264,wuyokëde,abductive,adj,/wu.jo.ˈkə.de/,woo-yoh-KUH-deh,reference,7,yes,none
+1265,wuzhëlu,packet,n,/wu.ˈʒə.lu/,woo-ZHUH-loo,reference,7,yes,none
+1266,wëdoyë,temperature-sensitive,adj,/wə.ˈdo.jə/,wuh-DOH-yuh,reference,7,yes,none
+1267,wëlope,waterproof,adj,/wə.ˈlo.pe/,wuh-LOH-peh,reference,7,yes,none
+1268,wënara,highland; elevated region,n,/wə.ˈna.ɾa/,wuh-NAH-rah,reference,7,yes,none
+1269,wëqiripe,deep sea,n,/wə.qi.ˈɾi.pe/,wuh-qee-REE-peh,reference,7,yes,none
+1270,yamarë,evening,n,/ja.ˈma.ɾə/,yah-MAH-ruh,reference,7,yes,none
+1271,yaqekhëba,running,n,/ja.qe.ˈxə.ba/,yah-qeh-KHUH-bah,reference,7,yes,none
+1272,yarao,teacher; mentor,n,/ja.ˈɾa.o/,yah-RAH-oh,reference,7,yes,none
+1273,yarë,thunder,n,/ˈja.ɾə/,YAH-ruh,reference,7,yes,none
+1274,yawayewo,supervised,adj,/ja.wa.ˈje.wo/,yah-wah-YEH-woh,reference,7,yes,none
+1275,yawupu,topical,adj,/ja.ˈwu.pu/,yah-WOO-poo,reference,7,yes,none
+1276,yekatë,drying,n,/je.ˈka.tə/,yeh-KAH-tuh,reference,7,yes,none
+1277,yenutoki,explicit,n,/je.nu.ˈto.ki/,yeh-noo-TOH-kee,reference,7,yes,none
+1278,yikuti,childhood,n,/ji.ˈku.ti/,yee-KOO-tee,reference,7,yes,none
+1279,yiqiduyu,inorganic,adj,/ji.qi.ˈdu.ju/,yee-qee-DOO-yoo,reference,7,yes,none
+1280,yitada,respiratory,n,/ji.ˈta.da/,yee-TAH-dah,reference,7,yes,none
+1281,yokonabo,predatory,n,/jo.ko.ˈna.bo/,yoh-koh-NAH-boh,reference,7,yes,none
+1282,yolaki,cross-sectional,adj,/jo.ˈla.ki/,yoh-LAH-kee,reference,7,yes,none
+1283,yoyënga,pickling,n,/jo.ˈjə.ŋa/,yoh-YUH-ngah,reference,7,yes,none
+1284,yudahë,modern,adj,/ju.ˈda.hə/,yoo-DAH-huh,reference,7,yes,none
+1285,yuhokhe,melodic,adj,/ju.ˈho.xe/,yoo-HOH-kheh,reference,7,yes,none
+1286,yukhëre,self-custodial,adj,/ju.ˈxə.ɾe/,yoo-KHUH-reh,reference,7,yes,none
+1287,yumere,external,adj,/ju.ˈme.ɾe/,yoo-MEH-reh,reference,7,yes,none
+1288,yuqabë,fresh,adj,/ju.ˈqa.bə/,yoo-QAH-buh,reference,7,yes,none
+1289,yuqëzhë,durable,adj,/ju.ˈqə.ʒə/,yoo-QUH-zhuh,reference,7,yes,none
+1290,yurahë,finite,adj,/ju.ˈɾa.hə/,yoo-RAH-huh,reference,7,yes,none
+1291,yusilu,deidentified,adj,/ju.ˈsi.lu/,yoo-SEE-loo,reference,7,yes,none
+1292,yusime,raw,adj,/ju.ˈsi.me/,yoo-SEE-meh,reference,7,yes,none
+1293,yutube,rhythmic,adj,/ju.ˈtu.be/,yoo-TOO-beh,reference,7,yes,none
+1294,yuzhawozi,traumatic,adj,/ju.ʒa.ˈwo.zi/,yoo-zhah-WOH-zee,reference,7,yes,none
+1295,yëngaro,battery; stored power cell,n,/jə.ˈŋa.ɾo/,yuh-NGAH-roh,reference,7,yes,none
+1296,yënukasë,intense,n,/jə.nu.ˈka.sə/,yuh-noo-KAH-suh,reference,7,yes,none
+1297,yëru,color; hue,n,/ˈjə.ɾu/,YUH-roo,reference,7,yes,none
+1298,yërëwa,solo,n,/jə.ˈɾə.wa/,yuh-RUH-wah,reference,7,yes,none
+1299,zashëzhena,worker,n,/za.ʃə.ˈʒe.na/,zah-shuh-ZHEH-nah,reference,7,yes,none
+1300,zebeho,pollen,n,/ze.ˈbe.ho/,zeh-BEH-hoh,reference,7,yes,none
+1301,zelemo,coal,adj,/ze.ˈle.mo/,zeh-LEH-moh,reference,7,yes,none
+1302,zeloto,protein,n,/ze.ˈlo.to/,zeh-LOH-toh,reference,7,yes,none
+1303,zeloze,cellular,n,/ze.ˈlo.ze/,zeh-LOH-zeh,reference,7,yes,none
+1304,zemaqo,fern,n,/ze.ˈma.qo/,zeh-MAH-qoh,reference,7,yes,none
+1305,zenasha,moss,n,/ze.ˈna.ʃa/,zeh-NAH-shah,reference,7,yes,none
+1306,zequso,spore,n,/ze.ˈqu.so/,zeh-QOO-soh,reference,7,yes,none
+1307,zeshota,human,n,/ze.ˈʃo.ta/,zeh-SHOH-tah,reference,7,yes,none
+1308,zhashape,electromagnetic,adj,/ʒa.ˈʃa.pe/,zhah-SHAH-peh,reference,7,yes,none
+1309,zhazidu,aqueous,adj,/ʒa.ˈzi.du/,zhah-ZEE-doo,reference,7,yes,none
+1310,zhegupuyi,generative,adj,/ʒe.ɡu.ˈpu.ji/,zheh-goo-POO-yee,reference,7,yes,none
+1311,zhepewosa,conifer,n,/ʒe.pe.ˈwo.sa/,zheh-peh-WOH-sah,reference,7,yes,none
+1312,zhilaba,burnout,n,/ʒi.ˈla.ba/,zhee-LAH-bah,reference,7,yes,none
+1313,zhiraza,resilience,n,/ʒi.ˈɾa.za/,zhee-RAH-zah,reference,7,yes,none
+1314,zhomëzë,high-performance,n,/ʒo.ˈmə.zə/,zhoh-MUH-zuh,reference,7,yes,none
+1315,zhukëyuqo,neighborhood,n,/ʒu.kə.ˈju.qo/,zhoo-kuh-YOO-qoh,reference,7,yes,none
+1316,zhusëtu,synthetic,adj,/ʒu.ˈsə.tu/,zhoo-SUH-too,reference,7,yes,none
+1317,zigutë,blinded,adj,/zi.ˈɡu.tə/,zee-GOO-tuh,reference,7,yes,none
+1318,zizhide,confirmatory,adj,/zi.ˈʒi.de/,zee-ZHEE-deh,reference,7,yes,none
+1319,zokoqo,integral,n,/zo.ˈko.qo/,zoh-KOH-qoh,reference,7,yes,none
+1320,zoshuzhudi,yearly,n,/zo.ʃu.ˈʒu.di/,zoh-shoo-ZHOO-dee,reference,7,yes,none
+1321,zuni,updraft,n,/ˈzu.ni/,ZOO-nee,reference,7,yes,none
+1322,zëhayi,flying,n,/zə.ˈha.ji/,zuh-HAH-yee,reference,7,yes,none
+1323,zëmewo,insulated,adj,/zə.ˈme.wo/,zuh-MEH-woh,reference,7,yes,none
+1324,babawaya,binaural,adj,/ba.ba.ˈwa.ja/,bah-bah-WAH-yah,reference,6,yes,none
+1325,bagotë,recyclable,adj,/ba.ˈɡo.tə/,bah-GOH-tuh,reference,6,yes,none
+1326,balëwi,percussive,adj,/ba.ˈlə.wi/,bah-LUH-wee,reference,6,yes,none
+1327,bayimokhi,knitted,adj,/ba.ji.ˈmo.xi/,bah-yee-MOH-khee,reference,6,yes,none
+1328,begëzha,corrosion,n,/be.ˈɡə.ʒa/,beh-GUH-zhah,reference,6,yes,none
+1329,behuzi,smallholder,n,/be.ˈhu.zi/,beh-HOO-zee,reference,6,yes,none
+1330,bekenoda,multitrack,n,/be.ke.ˈno.da/,beh-keh-NOH-dah,reference,6,yes,none
+1331,betashesi,rescue,n,/be.ta.ˈʃe.si/,beh-tah-SHEH-see,reference,6,yes,none
+1332,bikekha,coordinated,adj,/bi.ˈke.xa/,bee-KEH-khah,reference,6,yes,none
+1333,bipimula,nonsterile,n,/bi.pi.ˈmu.la/,bee-pee-MOO-lah,reference,6,yes,none
+1334,bishuyë,renovated,adj,/bi.ˈʃu.jə/,bee-SHOO-yuh,reference,6,yes,none
+1335,biwëpi,high-speed,adj,/bi.ˈwə.pi/,bee-WUH-pee,reference,6,yes,none
+1336,biyozho,decorative,adj,/bi.ˈjo.ʒo/,bee-YOH-zhoh,reference,6,yes,none
+1337,boshëboshu,deleted,adj,/bo.ʃə.ˈbo.ʃu/,boh-shuh-BOH-shoo,reference,6,yes,none
+1338,busadirë,high altitude,n,/bu.sa.ˈdi.ɾə/,boo-sah-DEE-ruh,reference,6,yes,none
+1339,buwape,imagined,adj,/bu.ˈwa.pe/,boo-WAH-peh,reference,6,yes,none
+1340,bëhezhi,endurance,n,/bə.ˈhe.ʒi/,buh-HEH-zhee,reference,6,yes,none
+1341,bëngoro,product,n,/bə.ˈŋo.ɾo/,buh-NGOH-roh,reference,6,yes,none
+1342,bëtadime,rail,n,/bə.ta.ˈdi.me/,buh-tah-DEE-meh,reference,6,yes,none
+1343,bëwëwuha,battery-powered,adj,/bə.wə.ˈwu.ha/,buh-wuh-WOO-hah,reference,6,yes,none
+1344,bëyiqu,sandbox,n,/bə.ˈji.qu/,buh-YEE-qoo,reference,6,yes,none
+1345,bëzëzhangi,injectable,adj,/bə.zə.ˈʒa.ŋi/,buh-zuh-ZHAH-ngee,reference,6,yes,none
+1346,dabëya,fermented,adj,/da.ˈbə.ja/,dah-BUH-yah,reference,6,yes,none
+1347,dahise,inflammatory,n,/da.ˈhi.se/,dah-HEE-seh,reference,6,yes,none
+1348,dahokhoge,water quality,n,/da.ho.ˈxo.ɡe/,dah-hoh-KHOH-geh,reference,6,yes,none
+1349,daliteyo,humanoid,n,/da.li.ˈte.jo/,dah-lee-TEH-yoh,reference,6,yes,none
+1350,dapiwi,unmoderated,adj,/da.ˈpi.wi/,dah-PEE-wee,reference,6,yes,none
+1351,debizose,breeding,n,/de.bi.ˈzo.se/,deh-bee-ZOH-seh,reference,6,yes,none
+1352,dedidoza,theatrical,adj,/de.di.ˈdo.za/,deh-dee-DOH-zah,reference,6,yes,none
+1353,dengëyuqo,introduced,adj,/de.ŋə.ˈju.qo/,deh-nguh-YOO-qoh,reference,6,yes,none
+1354,dihepi,child safety,n,/di.ˈhe.pi/,dee-HEH-pee,reference,6,yes,none
+1355,dingage,improvised,adj,/di.ˈŋa.ɡe/,dee-NGAH-geh,reference,6,yes,none
+1356,dipobaqi,fisheries,n,/di.po.ˈba.qi/,dee-poh-BAH-qee,reference,6,yes,none
+1357,dishëmëmo,wholesale,n,/di.ʃə.ˈmə.mo/,dee-shuh-MUH-moh,reference,6,yes,none
+1358,ditushoyi,logical,adj,/di.tu.ˈʃo.ji/,dee-too-SHOH-yee,reference,6,yes,none
+1359,diyëgaku,airflow,n,/di.jə.ˈɡa.ku/,dee-yuh-GAH-koo,reference,6,yes,none
+1360,dizhakiki,waste,n,/di.ʒa.ˈki.ki/,dee-zhah-KEE-kee,reference,6,yes,none
+1361,dobomu,interaction,n,/do.ˈbo.mu/,doh-BOH-moo,reference,6,yes,none
+1362,dopezha,crop rotation,n,/do.ˈpe.ʒa/,doh-PEH-zhah,reference,6,yes,none
+1363,doqego,tailored,adj,/do.ˈqe.ɡo/,doh-QEH-goh,reference,6,yes,none
+1364,doshakhe,low-emission,adj,/do.ˈʃa.xe/,doh-SHAH-kheh,reference,6,yes,none
+1365,dozhëgu,aesthetic,adj,/do.ˈʒə.ɡu/,doh-ZHUH-goo,reference,6,yes,none
+1366,dugëyihe,cooking,n,/du.ɡə.ˈji.he/,doo-guh-YEE-heh,reference,6,yes,none
+1367,dukëpeqa,fuzzy,n,/du.kə.ˈpe.qa/,doo-kuh-PEH-qah,reference,6,yes,none
+1368,duzhohu,windward,adj,/du.ˈʒo.hu/,doo-ZHOH-hoo,reference,6,yes,none
+1369,duzhokhuzo,sous vide,n,/du.ʒo.ˈxu.zo/,doo-zhoh-KHOO-zoh,reference,6,yes,none
+1370,dëngohëlo,retail,n,/də.ŋo.ˈhə.lo/,duh-ngoh-HUH-loh,reference,6,yes,none
+1371,dënikëzhë,aggregated,adj,/də.ni.ˈkə.ʒə/,duh-nee-KUH-zhuh,reference,6,yes,none
+1372,dëzuzhurë,freight,n,/də.zu.ˈʒu.ɾə/,duh-zoo-ZHOO-ruh,reference,6,yes,none
+1373,gakazhiha,celebratory,n,/ɡa.ka.ˈʒi.ha/,gah-kah-ZHEE-hah,reference,6,yes,none
+1374,këraho,law; binding public rule,n,/kə.ˈɾa.ho/,kuh-RAH-hoh,reference,6,yes,none
+1375,gamobëyë,renewable,adj,/ɡa.mo.ˈbə.jə/,gah-moh-BUH-yuh,reference,6,yes,none
+1376,gangewuga,speech synthesis,n,/ɡa.ŋe.ˈwu.ɡa/,gah-ngeh-WOO-gah,reference,6,yes,none
+1377,gaqatukhë,autobiographical,adj,/ɡa.qa.ˈtu.xə/,gah-qah-TOO-khuh,reference,6,yes,none
+1378,gekhisizhe,perennial,adj,/ɡe.xi.ˈsi.ʒe/,geh-khee-SEE-zheh,reference,6,yes,none
+1379,genginate,photo,n,/ɡe.ŋi.ˈna.te/,geh-ngee-NAH-teh,reference,6,yes,none
+1380,gibupoto,home care,n,/ɡi.bu.ˈpo.to/,gee-boo-POH-toh,reference,6,yes,none
+1381,gingehusi,dialogical,adj,/ɡi.ŋe.ˈhu.si/,gee-ngeh-HOO-see,reference,6,yes,none
+1382,giyame,off-grid,n,/ɡi.ˈja.me/,gee-YAH-meh,reference,6,yes,none
+1383,giyengësi,electricity,n,/ɡi.je.ˈŋə.si/,gee-yeh-NGUH-see,reference,6,yes,none
+1384,gizhada,textile,n,/ɡi.ˈʒa.da/,gee-ZHAH-dah,reference,6,yes,none
+1385,gizuge,racing,n,/ɡi.ˈzu.ɡe/,gee-ZOO-geh,reference,6,yes,none
+1386,gudilu,parametric,adj,/ɡu.ˈdi.lu/,goo-DEE-loo,reference,6,yes,none
+1387,gugëruqe,qualitative,adj,/ɡu.ɡə.ˈɾu.qe/,goo-guh-ROO-qeh,reference,6,yes,none
+1388,guhiho,primary care,n,/ɡu.ˈhi.ho/,goo-HEE-hoh,reference,6,yes,none
+1389,gumobire,existential,adj,/ɡu.mo.ˈbi.ɾe/,goo-moh-BEE-reh,reference,6,yes,none
+1390,gumëzezhe,wind speed,adj,/ɡu.mə.ˈze.ʒe/,goo-muh-ZEH-zheh,reference,6,yes,none
+1391,gutukeqe,mixing,n,/ɡu.tu.ˈke.qe/,goo-too-KEH-qeh,reference,6,yes,none
+1392,guzodo,vaccination,n,/ɡu.ˈzo.do/,goo-ZOH-doh,reference,6,yes,none
+1393,gëdakhise,gravity-fed,adj,/ɡə.da.ˈxi.se/,guh-dah-KHEE-seh,reference,6,yes,none
+1394,gëliqë,playful,adj,/ɡə.ˈli.qə/,guh-LEE-quh,reference,6,yes,none
+1395,gëmodo,literal,adj,/ɡə.ˈmo.do/,guh-MOH-doh,reference,6,yes,none
+1396,gëpata,storm surge,n,/ɡə.ˈpa.ta/,guh-PAH-tah,reference,6,yes,none
+1397,hekëlaqa,symbolic,adj,/he.kə.ˈla.qa/,heh-kuh-LAH-qah,reference,6,yes,none
+1398,hihawiga,molt,n,/hi.ha.ˈwi.ɡa/,hee-hah-WEE-gah,reference,6,yes,none
+1399,hilësu,consecutive,adj,/hi.ˈlə.su/,hee-LUH-soo,reference,6,yes,none
+1400,hingokhëngu,grammatical,adj,/hi.ŋo.ˈxə.ŋu/,hee-ngoh-KHUH-ngoo,reference,6,yes,none
+1401,hinëtë,misinformation,n,/hi.ˈnə.tə/,hee-NUH-tuh,reference,6,yes,none
+1402,hiwiqe,paradoxical,adj,/hi.ˈwi.qe/,hee-WEE-qeh,reference,6,yes,none
+1403,hiyezohe,fading,n,/hi.je.ˈzo.he/,hee-yeh-ZOH-heh,reference,6,yes,none
+1404,hobibo,sprint,n,/ho.ˈbi.bo/,hoh-BEE-boh,reference,6,yes,none
+1405,hohëzhëzë,warm front,n,/ho.hə.ˈʒə.zə/,hoh-huh-ZHUH-zuh,reference,6,yes,none
+1406,hotase,preserving,n,/ho.ˈta.se/,hoh-TAH-seh,reference,6,yes,none
+1407,hudinga,long distance,n,/hu.ˈdi.ŋa/,hoo-DEE-ngah,reference,6,yes,none
+1408,hutoshu,abstract,n,/hu.ˈto.ʃu/,hoo-TOH-shoo,reference,6,yes,none
+1409,huwoshire,particle,n,/hu.wo.ˈʃi.ɾe/,hoo-woh-SHEE-reh,reference,6,yes,none
+1410,huzëgoshe,nonparametric,adj,/hu.zə.ˈɡo.ʃe/,hoo-zuh-GOH-sheh,reference,6,yes,none
+1411,hëdozi,vegan,n,/hə.ˈdo.zi/,huh-DOH-zee,reference,6,yes,none
+1412,hëgugu,treated,adj,/hə.ˈɡu.ɡu/,huh-GOO-goo,reference,6,yes,none
+1413,hëlëzagi,reduction,n,/hə.lə.ˈza.ɡi/,huh-luh-ZAH-gee,reference,6,yes,none
+1414,hëngoba,vulnerable,adj,/hə.ˈŋo.ba/,huh-NGOH-bah,reference,6,yes,none
+1415,hërubo,nostalgic,adj,/hə.ˈɾu.bo/,huh-ROO-boh,reference,6,yes,none
+1416,kagiho,eye tracking,n,/ka.ˈɡi.ho/,kah-GEE-hoh,reference,6,yes,none
+1417,kakhushe,manuscript,n,/ka.ˈxu.ʃe/,kah-KHOO-sheh,reference,6,yes,none
+1418,kapoyaru,demographic,adj,/ka.po.ˈja.ɾu/,kah-poh-YAH-roo,reference,6,yes,none
+1419,kashipepe,supervisory,n,/ka.ʃi.ˈpe.pe/,kah-shee-PEH-peh,reference,6,yes,none
+1420,kazhitukhe,stitched,adj,/ka.ʒi.ˈtu.xe/,kah-zhee-TOO-kheh,reference,6,yes,none
+1421,kezumiqe,certified,adj,/ke.zu.ˈmi.qe/,keh-zoo-MEE-qeh,reference,6,yes,none
+1422,khahotë,intermodal,adj,/xa.ˈho.tə/,khah-HOH-tuh,reference,6,yes,none
+1423,khangelidu,disputed,adj,/xa.ŋe.ˈli.du/,khah-ngeh-LEE-doo,reference,6,yes,none
+1424,khapëkëqë,invasive,adj,/xa.pə.ˈkə.qə/,khah-puh-KUH-quh,reference,6,yes,none
+1425,khaqelaho,plankton,n,/xa.qe.ˈla.ho/,khah-qeh-LAH-hoh,reference,6,yes,none
+1426,khayudezo,skating,n,/xa.ju.ˈde.zo/,khah-yoo-DEH-zoh,reference,6,yes,none
+1427,khayënëbi,dubbed,adj,/xa.jə.ˈnə.bi/,khah-yuh-NUH-bee,reference,6,yes,none
+1428,khazhiteki,strength,n,/xa.ʒi.ˈte.ki/,khah-zhee-TEH-kee,reference,6,yes,none
+1429,kheshaqe,pet care,n,/xe.ˈʃa.qe/,kheh-SHAH-qeh,reference,6,yes,none
+1430,khiritaqë,topsoil,n,/xi.ɾi.ˈta.qə/,khee-ree-TAH-quh,reference,6,yes,none
+1431,khishawukhë,gardening,n,/xi.ʃa.ˈwu.xə/,khee-shah-WOO-khuh,reference,6,yes,none
+1432,khiwozhuro,electrical,adj,/xi.wo.ˈʒu.ɾo/,khee-woh-ZHOO-roh,reference,6,yes,none
+1433,khodaye,post-study,n,/xo.ˈda.je/,khoh-DAH-yeh,reference,6,yes,none
+1434,khorizhi,panoramic,adj,/xo.ˈɾi.ʒi/,khoh-REE-zhee,reference,6,yes,none
+1435,khungada,boolean,n,/xu.ˈŋa.da/,khoo-NGAH-dah,reference,6,yes,none
+1436,khungehosë,compost,n,/xu.ŋe.ˈho.sə/,khoo-ngeh-HOH-suh,reference,6,yes,none
+1437,khuyokhëne,embedding,n,/xu.jo.ˈxə.ne/,khoo-yoh-KHUH-neh,reference,6,yes,none
+1438,kikhelu,assistive,adj,/ki.ˈxe.lu/,kee-KHEH-loo,reference,6,yes,none
+1439,kizari,metropolitan,n,/ki.ˈza.ɾi/,kee-ZAH-ree,reference,6,yes,none
+1440,kodusila,property-based,adj,/ko.du.ˈsi.la/,koh-doo-SEE-lah,reference,6,yes,none
+1441,kodëze,reproducible,adj,/ko.ˈdə.ze/,koh-DUH-zeh,reference,6,yes,none
+1442,kogidu,leeward,adj,/ko.ˈɡi.du/,koh-GEE-doo,reference,6,yes,none
+1443,kogulotu,heritage,n,/ko.ɡu.ˈlo.tu/,koh-goo-LOH-too,reference,6,yes,none
+1444,kozhëre,privacy-preserving,adj,/ko.ˈʒə.ɾe/,koh-ZHUH-reh,reference,6,yes,none
+1445,kuhiyu,wastewater,n,/ku.ˈhi.ju/,koo-HEE-yoo,reference,6,yes,none
+1446,kuzumë,maritime,n,/ku.ˈzu.mə/,koo-ZOO-muh,reference,6,yes,none
+1447,këbëge,metaphysical,adj,/kə.ˈbə.ɡe/,kuh-BUH-geh,reference,6,yes,none
+1448,këmaro,salt; seasoning,n,/kə.ˈma.ɾo/,kuh-MAH-roh,reference,6,yes,none
+1449,këmele,refundable,adj,/kə.ˈme.le/,kuh-MEH-leh,reference,6,yes,none
+1450,këqangi,nesting,n,/kə.ˈqa.ŋi/,kuh-QAH-ngee,reference,6,yes,none
+1451,kërowake,athletic,adj,/kə.ɾo.ˈwa.ke/,kuh-roh-WAH-keh,reference,6,yes,none
+1452,wodazanë,transfer,n,/wo.da.ˈza.nə/,woh-dah-ZAH-nuh,reference,6,yes,none
+1453,këwagu,criminal,adj,/kə.ˈwa.ɡu/,kuh-WAH-goo,reference,6,yes,none
+1454,lalëha,donated,adj,/la.ˈlə.ha/,lah-LUH-hah,reference,6,yes,none
+1455,lashoyi,multi-level,n,/la.ˈʃo.ji/,lah-SHOH-yee,reference,6,yes,none
+1456,layiqokhu,patterned,adj,/la.ji.ˈqo.xu/,lah-yee-QOH-khoo,reference,6,yes,none
+1457,layëkikhë,expired,adj,/la.jə.ˈki.xə/,lah-yuh-KEE-khuh,reference,6,yes,none
+1458,lebogedo,refrigeration,n,/le.bo.ˈɡe.do/,leh-boh-GEH-doh,reference,6,yes,none
+1459,legedëqa,chronic illness,n,/le.ɡe.ˈdə.qa/,leh-geh-DUH-qah,reference,6,yes,none
+1460,lengazo,topographic,adj,/le.ˈŋa.zo/,leh-NGAH-zoh,reference,6,yes,none
+1461,leqozhu,dialectal,adj,/le.ˈqo.ʒu/,leh-QOH-zhoo,reference,6,yes,none
+1462,leshazhedë,stablecoin,n,/le.ʃa.ˈʒe.də/,leh-shah-ZHEH-duh,reference,6,yes,none
+1463,liwiwe,shaded,adj,/li.ˈwi.we/,lee-WEE-weh,reference,6,yes,none
+1464,lobeki,cold front,n,/lo.ˈbe.ki/,loh-BEH-kee,reference,6,yes,none
+1465,lodënigu,ophthalmic,adj,/lo.də.ˈni.ɡu/,loh-duh-NEE-goo,reference,6,yes,none
+1466,lubeke,climate-adaptive,adj,/lu.ˈbe.ke/,loo-BEH-keh,reference,6,yes,none
+1467,luboko,cloud cover,n,/lu.ˈbo.ko/,loo-BOH-koh,reference,6,yes,none
+1468,lubëdo,sediment,n,/lu.ˈbə.do/,loo-BUH-doh,reference,6,yes,none
+1469,luhokaya,therapeutic,adj,/lu.ho.ˈka.ja/,loo-hoh-KAH-yah,reference,6,yes,none
+1470,lukhiwo,humidity,n,/lu.ˈxi.wo/,loo-KHEE-woh,reference,6,yes,none
+1471,lumuto,coral reef,n,/lu.ˈmu.to/,loo-MOO-toh,reference,6,yes,none
+1472,lunota,grassland,n,/lu.ˈno.ta/,loo-NOH-tah,reference,6,yes,none
+1473,luyuzha,tundra,n,/lu.ˈju.ʒa/,loo-YOO-zhah,reference,6,yes,none
+1474,luzosha,island,n,/lu.ˈzo.ʃa/,loo-ZOH-shah,reference,6,yes,none
+1475,lëgumoqë,sports,n,/lə.ɡu.ˈmo.qə/,luh-goo-MOH-quh,reference,6,yes,none
+1476,lëkëzape,participatory,n,/lə.kə.ˈza.pe/,luh-kuh-ZAH-peh,reference,6,yes,none
+1477,lëmi,small; gentle,adj,/ˈlə.mi/,LUH-mee,reference,6,yes,none
+1478,lëmomamo,video,n,/lə.mo.ˈma.mo/,luh-moh-MAH-moh,reference,6,yes,none
+1479,mahobë,atmosphere,n,/ma.ˈho.bə/,mah-HOH-buh,reference,6,yes,none
+1480,mamuqo,outdoor,n,/ma.ˈmu.qo/,mah-MOO-qoh,reference,6,yes,none
+1481,marëgë,subtitled,adj,/ma.ˈɾə.ɡə/,mah-RUH-guh,reference,6,yes,none
+1482,mebego,large text,n,/me.ˈbe.ɡo/,meh-BEH-goh,reference,6,yes,none
+1483,meteri,cross-chain,n,/me.ˈte.ɾi/,meh-TEH-ree,reference,6,yes,none
+1484,mewusëli,major,n,/me.wu.ˈsə.li/,meh-woo-SUH-lee,reference,6,yes,none
+1485,mikhoyë,on-premises,n,/mi.ˈxo.jə/,mee-KHOH-yuh,reference,6,yes,none
+1486,minenubë,constructive,adj,/mi.ne.ˈnu.bə/,mee-neh-NOO-buh,reference,6,yes,none
+1487,momeyu,nanomaterial,adj,/mo.ˈme.ju/,moh-MEH-yoo,reference,6,yes,none
+1488,momiri,nervous,adj,/mo.ˈmi.ɾi/,moh-MEE-ree,reference,6,yes,none
+1489,monëqa,delegated,adj,/mo.ˈnə.qa/,moh-NUH-qah,reference,6,yes,none
+1490,moyebobe,contactless,adj,/mo.je.ˈbo.be/,moh-yeh-BOH-beh,reference,6,yes,none
+1491,mozhazha,nursery,n,/mo.ˈʒa.ʒa/,moh-ZHAH-zhah,reference,6,yes,none
+1492,mozhikë,global,adj,/mo.ˈʒi.kə/,moh-ZHEE-kuh,reference,6,yes,none
+1493,mozimu,real-time,adj,/mo.ˈzi.mu/,moh-ZEE-moo,reference,6,yes,none
+1494,mushëru,plant-based,adj,/mu.ˈʃə.ɾu/,moo-SHUH-roo,reference,6,yes,none
+1495,mëbedosu,modded,adj,/mə.be.ˈdo.su/,muh-beh-DOH-soo,reference,6,yes,none
+1496,mëru,feather; soft plume,n,/ˈmə.ɾu/,MUH-roo,reference,6,yes,none
+1497,mëwo,muscle,n,/ˈmə.wo/,MUH-woh,reference,6,yes,none
+1498,nalohe,traveling,n,/na.ˈlo.he/,nah-LOH-heh,reference,6,yes,none
+1499,napëdi,forgotten,n,/na.ˈpə.di/,nah-PUH-dee,reference,6,yes,none
+1500,neqëro,exported,adj,/ne.ˈqə.ɾo/,neh-QUH-roh,reference,6,yes,none
+1501,nezhuwoya,normative,adj,/ne.ʒu.ˈwo.ja/,neh-zhoo-WOH-yah,reference,6,yes,none
+1502,ngagëshusa,off-chain,n,/ŋa.ɡə.ˈʃu.sa/,ngah-guh-SHOO-sah,reference,6,yes,none
+1503,ngakhasëye,metabolic,adj,/ŋa.xa.ˈsə.je/,ngah-khah-SUH-yeh,reference,6,yes,none
+1504,ngalerazi,low bandwidth,n,/ŋa.le.ˈɾa.zi/,ngah-leh-RAH-zee,reference,6,yes,none
+1505,ngeweyukhe,arcade,n,/ŋe.we.ˈju.xe/,ngeh-weh-YOO-kheh,reference,6,yes,none
+1506,ngezhiyu,dyed,adj,/ŋe.ˈʒi.ju/,ngeh-ZHEE-yoo,reference,6,yes,none
+1507,ngikodo,predicate,n,/ŋi.ˈko.do/,ngee-KOH-doh,reference,6,yes,none
+1508,ngilëtu,plating,n,/ŋi.ˈlə.tu/,ngee-LUH-too,reference,6,yes,none
+1509,ngiziqi,prenatal,adj,/ŋi.ˈzi.qi/,ngee-ZEE-qee,reference,6,yes,none
+1510,ngolori,fluid,n,/ŋo.ˈlo.ɾi/,ngoh-LOH-ree,reference,6,yes,none
+1511,ngolutuli,low voltage,n,/ŋo.lu.ˈtu.li/,ngoh-loo-TOO-lee,reference,6,yes,none
+1512,ngugireda,suppressed,adj,/ŋu.ɡi.ˈɾe.da/,ngoo-gee-REH-dah,reference,6,yes,none
+1513,ngumezola,long exposure,n,/ŋu.me.ˈzo.la/,ngoo-meh-ZOH-lah,reference,6,yes,none
+1514,ngëguhe,supportive,adj,/ŋə.ˈɡu.he/,nguh-GOO-heh,reference,6,yes,none
+1515,ngëhadë,palliative,adj,/ŋə.ˈha.də/,nguh-HAH-duh,reference,6,yes,none
+1516,ngëkhikhë,prefabricated,adj,/ŋə.ˈxi.xə/,nguh-KHEE-khuh,reference,6,yes,none
+1517,ngëminekhë,stargazing,n,/ŋə.mi.ˈne.xə/,nguh-mee-NEH-khuh,reference,6,yes,none
+1518,ngëromurë,medicinal,adj,/ŋə.ɾo.ˈmu.ɾə/,nguh-roh-MOO-ruh,reference,6,yes,none
+1519,ngësingumo,breaking,n,/ŋə.si.ˈŋu.mo/,nguh-see-NGOO-moh,reference,6,yes,none
+1520,ngëtëlë,mantle,n,/ŋə.ˈtə.lə/,nguh-TUH-luh,reference,6,yes,none
+1521,nidekhi,eco-friendly,n,/ni.ˈde.xi/,nee-DEH-khee,reference,6,yes,none
+1522,nodakhengu,programmable,adj,/no.da.ˈxe.ŋu/,noh-dah-KHEH-ngoo,reference,6,yes,none
+1523,notuwë,territorial,adj,/no.ˈtu.wə/,noh-TOO-wuh,reference,6,yes,none
+1524,nozhadëli,beginner,adj,/no.ʒa.ˈdə.li/,noh-zhah-DUH-lee,reference,6,yes,none
+1525,nubewi,one-sided,adj,/nu.ˈbe.wi/,noo-BEH-wee,reference,6,yes,none
+1526,nunguhoti,raster,n,/nu.ŋu.ˈho.ti/,noo-ngoo-HOH-tee,reference,6,yes,none
+1527,nëhusho,gaming,n,/nə.ˈhu.ʃo/,nuh-HOO-shoh,reference,6,yes,none
+1528,nëpishu,quantum-resistant,n,/nə.ˈpi.ʃu/,nuh-PEE-shoo,reference,6,yes,none
+1529,nëyisha,mixed-use,n,/nə.ˈji.ʃa/,nuh-YEE-shah,reference,6,yes,none
+1530,nëzhokho,overnight,n,/nə.ˈʒo.xo/,nuh-ZHOH-khoh,reference,6,yes,none
+1531,pawënëzi,walking,n,/pa.wə.ˈnə.zi/,pah-wuh-NUH-zee,reference,6,yes,none
+1532,payeti,emotional,adj,/pa.ˈje.ti/,pah-YEH-tee,reference,6,yes,none
+1533,pazabi,textual,adj,/pa.ˈza.bi/,pah-ZAH-bee,reference,6,yes,none
+1534,paziku,coerced,adj,/pa.ˈzi.ku/,pah-ZEE-koo,reference,6,yes,none
+1535,pengukhëzi,public interest,n,/pe.ŋu.ˈxə.zi/,peh-ngoo-KHUH-zee,reference,6,yes,none
+1536,pizhakha,manipulation,n,/pi.ˈʒa.xa/,pee-ZHAH-khah,reference,6,yes,none
+1537,pogozi,oxygen,n,/po.ˈɡo.zi/,poh-GOH-zee,reference,6,yes,none
+1538,poharome,subsidence,n,/po.ha.ˈɾo.me/,poh-hah-ROH-meh,reference,6,yes,none
+1539,ponëzhë,semantic,adj,/po.ˈnə.ʒə/,poh-NUH-zhuh,reference,6,yes,none
+1540,poqedu,formation,n,/po.ˈqe.du/,poh-QEH-doo,reference,6,yes,none
+1541,posatihu,on-chain,n,/po.sa.ˈti.hu/,poh-sah-TEE-hoo,reference,6,yes,none
+1542,puhagunga,property,n,/pu.ha.ˈɡu.ŋa/,poo-hah-GOO-ngah,reference,6,yes,none
+1543,pusëdëngi,untreated,adj,/pu.sə.ˈdə.ŋi/,poo-suh-DUH-ngee,reference,6,yes,none
+1544,pëtukhumë,rotating,n,/pə.tu.ˈxu.mə/,puh-too-KHOO-muh,reference,6,yes,none
+1545,qasawiyi,indoor,n,/qa.sa.ˈwi.ji/,qah-sah-WEE-yee,reference,6,yes,none
+1546,qatengo,tendon,n,/qa.ˈte.ŋo/,qah-TEH-ngoh,reference,6,yes,none
+1547,qawëna,ligament,n,/qa.ˈwə.na/,qah-WUH-nah,reference,6,yes,none
+1548,qayekha,robust,n,/qa.ˈje.xa/,qah-YEH-khah,reference,6,yes,none
+1549,qayezuri,charitable,adj,/qa.je.ˈzu.ɾi/,qah-yeh-ZOO-ree,reference,6,yes,none
+1550,qegidë,spectroscopic,adj,/qe.ˈɡi.də/,qeh-GEE-duh,reference,6,yes,none
+1551,qelëngu,sea level,n,/qe.ˈlə.ŋu/,qeh-LUH-ngoo,reference,6,yes,none
+1552,qemoza,polar,n,/qe.ˈmo.za/,qeh-MOH-zah,reference,6,yes,none
+1553,qenoqa,juvenile,n,/qe.ˈno.qa/,qeh-NOH-qah,reference,6,yes,none
+1554,qeyuza,rare book,n,/qe.ˈju.za/,qeh-YOO-zah,reference,6,yes,none
+1555,qidonga,citizenship,n,/qi.ˈdo.ŋa/,qee-DOH-ngah,reference,6,yes,none
+1556,qimapozhu,retirement,adj,/qi.ma.ˈpo.ʒu/,qee-mah-POH-zhoo,reference,6,yes,none
+1557,qinezho,naturalization,n,/qi.ˈne.ʒo/,qee-NEH-zhoh,reference,6,yes,none
+1558,qinosha,immigration,n,/qi.ˈno.ʃa/,qee-NOH-shah,reference,6,yes,none
+1559,qishuno,intellectual property,n,/qi.ˈʃu.no/,qee-SHOO-noh,reference,6,yes,none
+1560,qomohe,hourly,n,/qo.ˈmo.he/,qoh-MOH-heh,reference,6,yes,none
+1561,qosaba,weighted,adj,/qo.ˈsa.ba/,qoh-SAH-bah,reference,6,yes,none
+1562,qozali,wearable,adj,/qo.ˈza.li/,qoh-ZAH-lee,reference,6,yes,none
+1563,qukiyukha,vegetarian,n,/qu.ki.ˈju.xa/,qoo-kee-YOO-khah,reference,6,yes,none
+1564,qukëwe,high bandwidth,n,/qu.ˈkə.we/,qoo-KUH-weh,reference,6,yes,none
+1565,qungeshu,graphic,adj,/qu.ˈŋe.ʃu/,qoo-NGEH-shoo,reference,6,yes,none
+1566,qusharisho,printed,adj,/qu.ʃa.ˈɾi.ʃo/,qoo-shah-REE-shoh,reference,6,yes,none
+1567,quzhewëhi,ongoing,n,/qu.ʒe.ˈwə.hi/,qoo-zheh-WUH-hee,reference,6,yes,none
+1568,qëtoki,fishing,n,/qə.ˈto.ki/,quh-TOH-kee,reference,6,yes,none
+1569,qëzhonahu,elevated,adj,/qə.ʒo.ˈna.hu/,quh-zhoh-NAH-hoo,reference,6,yes,none
+1570,rashomë,solar-powered,adj,/ɾa.ˈʃo.mə/,rah-SHOH-muh,reference,6,yes,none
+1571,rayeneli,day trip,n,/ɾa.je.ˈne.li/,rah-yeh-NEH-lee,reference,6,yes,none
+1572,razhëdë,heating,n,/ɾa.ˈʒə.də/,rah-ZHUH-duh,reference,6,yes,none
+1573,razhëzë,inhaled,adj,/ɾa.ˈʒə.zə/,rah-ZHUH-zuh,reference,6,yes,none
+1574,relomo,bicycle,n,/ɾe.ˈlo.mo/,reh-LOH-moh,reference,6,yes,none
+1575,renaya,dynamic,adj,/ɾe.ˈna.ja/,reh-NAH-yah,reference,6,yes,none
+1576,rerizo,transportation,n,/ɾe.ˈɾi.zo/,reh-REE-zoh,reference,6,yes,none
+1577,resobi,simultaneous,adj,/ɾe.ˈso.bi/,reh-SOH-bee,reference,6,yes,none
+1578,rewongasi,low-rise,n,/ɾe.wo.ˈŋa.si/,reh-woh-NGAH-see,reference,6,yes,none
+1579,reyëzho,passenger,n,/ɾe.ˈjə.ʒo/,reh-YUH-zhoh,reference,6,yes,none
+1580,rohopë,propositional,adj,/ɾo.ˈho.pə/,roh-HOH-puh,reference,6,yes,none
+1581,rowoda,situational,adj,/ɾo.ˈwo.da/,roh-WOH-dah,reference,6,yes,none
+1582,rupisenu,crust,n,/ɾu.pi.ˈse.nu/,roo-pee-SEH-noo,reference,6,yes,none
+1583,ruyozha,miniature,n,/ɾu.ˈjo.ʒa/,roo-YOH-zhah,reference,6,yes,none
+1584,sahiwu,meteor,n,/sa.ˈhi.wu/,sah-HEE-woo,reference,6,yes,none
+1585,sehewo,biased,adj,/se.ˈhe.wo/,seh-HEH-woh,reference,6,yes,none
+1586,sekhose,oncological,adj,/se.ˈxo.se/,seh-KHOH-seh,reference,6,yes,none
+1587,selëhuke,guarded,adj,/se.lə.ˈhu.ke/,seh-luh-HOO-keh,reference,6,yes,none
+1588,seneminga,annotated,adj,/se.ne.ˈmi.ŋa/,seh-neh-MEE-ngah,reference,6,yes,none
+1589,sengulo,trade,n,/se.ˈŋu.lo/,seh-NGOO-loh,reference,6,yes,none
+1590,sharoguma,revoked,adj,/ʃa.ɾo.ˈɡu.ma/,shah-roh-GOO-mah,reference,6,yes,none
+1591,shezhënamo,advertising,n,/ʃe.ʒə.ˈna.mo/,sheh-zhuh-NAH-moh,reference,6,yes,none
+1592,shiroa,radio; wireless voice device,n,/ʃi.ˈɾo.a/,shee-ROH-ah,reference,6,yes,none
+1593,shisoze,hardwood,n,/ʃi.ˈso.ze/,shee-SOH-zeh,reference,6,yes,none
+1594,zhishaha,recognition,n,/ʒi.ˈʃa.ha/,zhee-SHAH-hah,reference,6,yes,none
+1595,shosanu,shade tolerant,n,/ʃo.ˈsa.nu/,shoh-SAH-noo,reference,6,yes,none
+1596,shotadepë,continuous delivery,n,/ʃo.ta.ˈde.pə/,shoh-tah-DEH-puh,reference,6,yes,none
+1597,showushe,trauma-informed,adj,/ʃo.ˈwu.ʃe/,shoh-WOO-sheh,reference,6,yes,none
+1598,showëbëlu,seafood,n,/ʃo.wə.ˈbə.lu/,shoh-wuh-BUH-loo,reference,6,yes,none
+1599,shukula,stochastic,adj,/ʃu.ˈku.la/,shoo-KOO-lah,reference,6,yes,none
+1600,shukësiro,embroidered,adj,/ʃu.kə.ˈsi.ɾo/,shoo-kuh-SEE-roh,reference,6,yes,none
+1601,shumugini,salinity,n,/ʃu.mu.ˈɡi.ni/,shoo-moo-GEE-nee,reference,6,yes,none
+1602,shëkobi,derogatory,n,/ʃə.ˈko.bi/,shuh-KOH-bee,reference,6,yes,none
+1603,shëmaro,green,adj,/ʃə.ˈma.ɾo/,shuh-MAH-roh,reference,6,yes,none
+1604,shërawo,edge; border,n,/ʃə.ˈɾa.wo/,shuh-RAH-woh,reference,6,yes,none
+1605,shëyakhe,missing data,n,/ʃə.ˈja.xe/,shuh-YAH-kheh,reference,6,yes,none
+1606,sidëshera,vascular,n,/si.də.ˈʃe.ɾa/,see-duh-SHEH-rah,reference,6,yes,none
+1607,singiza,urgent care,n,/si.ˈŋi.za/,see-NGEE-zah,reference,6,yes,none
+1608,siporeba,numerical,adj,/si.po.ˈɾe.ba/,see-poh-REH-bah,reference,6,yes,none
+1609,sodengelë,low visibility,n,/so.de.ˈŋe.lə/,soh-deh-NGEH-luh,reference,6,yes,none
+1610,sozëzërë,photographic,adj,/so.zə.ˈzə.ɾə/,soh-zuh-ZUH-ruh,reference,6,yes,none
+1611,sudoto,radiation,n,/su.ˈdo.to/,soo-DOH-toh,reference,6,yes,none
+1612,susiyo,oxidation,n,/su.ˈsi.jo/,soo-SEE-yoh,reference,6,yes,none
+1613,susobo,catalyst,n,/su.ˈso.bo/,soo-SOH-boh,reference,6,yes,none
+1614,suzaqo,telescope,n,/su.ˈza.qo/,soo-ZAH-qoh,reference,6,yes,none
+1615,sëzheyi,tokenized,adj,/sə.ˈʒe.ji/,suh-ZHEH-yee,reference,6,yes,none
+1616,takhukë,smart contract,n,/ta.ˈxu.kə/,tah-KHOO-kuh,reference,6,yes,none
+1617,taluzhe,evidence-based,adj,/ta.ˈlu.ʒe/,tah-LOO-zheh,reference,6,yes,none
+1618,tamëgope,recursive,adj,/ta.mə.ˈɡo.pe/,tah-muh-GOH-peh,reference,6,yes,none
+1619,tehora,skiing,n,/te.ˈho.ɾa/,teh-HOH-rah,reference,6,yes,none
+1620,tekupë,smoking,n,/te.ˈku.pə/,teh-KOO-puh,reference,6,yes,none
+1621,tenëwe,switch control,n,/te.ˈnə.we/,teh-NUH-weh,reference,6,yes,none
+1622,tesezizho,visibility,n,/te.se.ˈzi.ʒo/,teh-seh-ZEE-zhoh,reference,6,yes,none
+1623,tizhangake,canoeing,n,/ti.ʒa.ˈŋa.ke/,tee-zhah-NGAH-keh,reference,6,yes,none
+1624,tohoko,postnatal,adj,/to.ˈho.ko/,toh-HOH-koh,reference,6,yes,none
+1625,toqiwawe,macroscopic,adj,/to.qi.ˈwa.we/,toh-qee-WAH-weh,reference,6,yes,none
+1626,toshiri,privileged,adj,/to.ˈʃi.ɾi/,toh-SHEE-ree,reference,6,yes,none
+1627,toyile,food security,n,/to.ˈji.le/,toh-YEE-leh,reference,6,yes,none
+1628,tulahu,figurative,adj,/tu.ˈla.hu/,too-LAH-hoo,reference,6,yes,none
+1629,tëhasa,ventilation,n,/tə.ˈha.sa/,tuh-HAH-sah,reference,6,yes,none
+1630,tëronge,endpoint,n,/tə.ˈɾo.ŋe/,tuh-ROH-ngeh,reference,6,yes,none
+1631,wakhënoto,rollback,n,/wa.xə.ˈno.to/,wah-khuh-NOH-toh,reference,6,yes,none
+1632,wakëkhuyo,drought resistant,n,/wa.kə.ˈxu.jo/,wah-kuh-KHOO-yoh,reference,6,yes,none
+1633,wamuse,short-form,n,/wa.ˈmu.se/,wah-MOO-seh,reference,6,yes,none
+1634,wangayë,long-form,n,/wa.ˈŋa.jə/,wah-NGAH-yuh,reference,6,yes,none
+1635,wangongëzu,alignment,adj,/wa.ŋo.ˈŋə.zu/,wah-ngoh-NGUH-zoo,reference,6,yes,none
+1636,wangëwubi,dental,adj,/wa.ŋə.ˈwu.bi/,wah-nguh-WOO-bee,reference,6,yes,none
+1637,wasotë,congested,adj,/wa.ˈso.tə/,wah-SOH-tuh,reference,6,yes,none
+1638,watëwë,self-directed,adj,/wa.ˈtə.wə/,wah-TUH-wuh,reference,6,yes,none
+1639,wenaza,taxation,n,/we.ˈna.za/,weh-NAH-zah,reference,6,yes,none
+1640,wenëkhi,coping,n,/we.ˈnə.xi/,weh-NUH-khee,reference,6,yes,none
+1641,weqozi,analytical,adj,/we.ˈqo.zi/,weh-QOH-zee,reference,6,yes,none
+1642,wezewo,audiological,adj,/we.ˈze.wo/,weh-ZEH-woh,reference,6,yes,none
+1643,wezheri,concurrent,adj,/we.ˈʒe.ɾi/,weh-ZHEH-ree,reference,6,yes,none
+1644,wilëta,pressurized,adj,/wi.ˈlə.ta/,wee-LUH-tah,reference,6,yes,none
+1645,wizëko,end-of-life,n,/wi.ˈzə.ko/,wee-ZUH-koh,reference,6,yes,none
+1646,worara,wilderness; uncharted land,n,/wo.ˈɾa.ɾa/,woh-RAH-rah,reference,6,yes,none
+1647,woyali,unit,n,/wo.ˈja.li/,woh-YAH-lee,reference,6,yes,none
+1648,wugate,dairy,n,/wu.ˈɡa.te/,woo-GAH-teh,reference,6,yes,none
+1649,wukura,present,n,/wu.ˈku.ɾa/,woo-KOO-rah,reference,6,yes,none
+1650,wukëro,future,n,/wu.ˈkə.ɾo/,woo-KUH-roh,reference,6,yes,none
+1651,wuzezho,past,n,/wu.ˈze.ʒo/,woo-ZEH-zhoh,reference,6,yes,none
+1652,wëpishë,repairable,adj,/wə.ˈpi.ʃə/,wuh-PEE-shuh,reference,6,yes,none
+1653,wëshiwe,breathable,adj,/wə.ˈʃi.we/,wuh-SHEE-weh,reference,6,yes,none
+1654,yamaro,dusk; twilight,n,/ja.ˈma.ɾo/,yah-MAH-roh,reference,6,yes,none
+1655,yilesatu,pressured,adj,/ji.le.ˈsa.tu/,yee-leh-SAH-too,reference,6,yes,none
+1656,yimodidu,soreness,n,/ji.mo.ˈdi.du/,yee-moh-DEE-doo,reference,6,yes,none
+1657,yimutewi,kneading,n,/ji.mu.ˈte.wi/,yee-moo-TEH-wee,reference,6,yes,none
+1658,yirëhësi,bank,n,/ji.ɾə.ˈhə.si/,yee-ruh-HUH-see,reference,6,yes,none
+1659,yizidi,defeasible,adj,/ji.ˈzi.di/,yee-ZEE-dee,reference,6,yes,none
+1660,yodekhipi,rehabilitative,adj,/jo.de.ˈxi.pi/,yoh-deh-KHEE-pee,reference,6,yes,none
+1661,yorëmo,hierarchical,adj,/jo.ˈɾə.mo/,yoh-RUH-moh,reference,6,yes,none
+1662,yugëlë,microscopic,adj,/ju.ˈɡə.lə/,yoo-GUH-luh,reference,6,yes,none
+1663,yuhele,disappointed,adj,/ju.ˈhe.le/,yoo-HEH-leh,reference,6,yes,none
+1664,yuhizhë,relieved,adj,/ju.ˈhi.ʒə/,yoo-HEE-zhuh,reference,6,yes,none
+1665,yukhëgë,sterile,adj,/ju.ˈxə.ɡə/,yoo-KHUH-guh,reference,6,yes,none
+1666,yukinëto,microgrid,n,/ju.ki.ˈnə.to/,yoo-kee-NUH-toh,reference,6,yes,none
+1667,yukube,stationary,adj,/ju.ˈku.be/,yoo-KOO-beh,reference,6,yes,none
+1668,yulule,affordable,adj,/ju.ˈlu.le/,yoo-LOO-leh,reference,6,yes,none
+1669,yuluzë,delayed,adj,/ju.ˈlu.zə/,yoo-LOO-zuh,reference,6,yes,none
+1670,yunaluwë,high-rise,n,/ju.na.ˈlu.wə/,yoo-nah-LOO-wuh,reference,6,yes,none
+1671,yungewe,contaminated,adj,/ju.ˈŋe.we/,yoo-NGEH-weh,reference,6,yes,none
+1672,yunulë,patient,adj,/ju.ˈnu.lə/,yoo-NOO-luh,reference,6,yes,none
+1673,yuqinge,redundant,adj,/ju.ˈqi.ŋe/,yoo-QEE-ngeh,reference,6,yes,none
+1674,yurële,chaotic,adj,/ju.ˈɾə.le/,yoo-RUH-leh,reference,6,yes,none
+1675,yusubë,respectful,adj,/ju.ˈsu.bə/,yoo-SOO-buh,reference,6,yes,none
+1676,yusëge,vivid,adj,/ju.ˈsə.ɡe/,yoo-SUH-geh,reference,6,yes,none
+1677,yutushë,protective,adj,/ju.ˈtu.ʃə/,yoo-TOO-shuh,reference,6,yes,none
+1678,yuwëge,counterfeit,adj,/ju.ˈwə.ɡe/,yoo-WUH-geh,reference,6,yes,none
+1679,yuyinge,uncertain,adj,/ju.ˈji.ŋe/,yoo-YEE-ngeh,reference,6,yes,none
+1680,yuyërë,silent,adj,/ju.ˈjə.ɾə/,yoo-YUH-ruh,reference,6,yes,none
+1681,yuzhahe,hopeful,adj,/ju.ˈʒa.he/,yoo-ZHAH-heh,reference,6,yes,none
+1682,yuzhazhë,efficient,adj,/ju.ˈʒa.ʒə/,yoo-ZHAH-zhuh,reference,6,yes,none
+1683,yuzure,infinite,adj,/ju.ˈzu.ɾe/,yoo-ZOO-reh,reference,6,yes,none
+1684,yuzuse,monochrome,adj,/ju.ˈzu.se/,yoo-ZOO-seh,reference,6,yes,none
+1685,yëhobo,institutional,adj,/jə.ˈho.bo/,yuh-HOH-boh,reference,6,yes,none
+1686,yëhëbilë,mountainous,adj,/jə.hə.ˈbi.lə/,yuh-huh-BEE-luh,reference,6,yes,none
+1687,yënguzhahë,water temperature,n,/jə.ŋu.ˈʒa.hə/,yuh-ngoo-ZHAH-huh,reference,6,yes,none
+1688,yëqëwu,marinating,n,/jə.ˈqə.wu/,yuh-QUH-woo,reference,6,yes,none
+1689,yëzhëshadu,structured,adj,/jə.ʒə.ˈʃa.du/,yuh-zhuh-SHAH-doo,reference,6,yes,none
+1690,zapatëpo,quantitative,adj,/za.pa.ˈtə.po/,zah-pah-TUH-poh,reference,6,yes,none
+1691,zaronigë,pressure cooking,n,/za.ɾo.ˈni.ɡə/,zah-roh-NEE-guh,reference,6,yes,none
+1692,zatosigi,forensic,adj,/za.to.ˈsi.ɡi/,zah-toh-SEE-gee,reference,6,yes,none
+1693,zazhihi,executive,adj,/za.ˈʒi.hi/,zah-ZHEE-hee,reference,6,yes,none
+1694,zekhukho,livestock,n,/ze.ˈxu.xo/,zeh-KHOO-khoh,reference,6,yes,none
+1695,zenelëye,controlled,adj,/ze.ne.ˈlə.je/,zeh-neh-LUH-yeh,reference,6,yes,none
+1696,zenezayu,minor,n,/ze.ne.ˈza.ju/,zeh-neh-ZAH-yoo,reference,6,yes,none
+1697,zeroma,pollination,n,/ze.ˈɾo.ma/,zeh-ROH-mah,reference,6,yes,none
+1698,zerëzhika,seedling,n,/ze.ɾə.ˈʒi.ka/,zeh-ruh-ZHEE-kah,reference,6,yes,none
+1699,zhakiki,fertilizer,n,/ʒa.ˈki.ki/,zhah-KEE-kee,reference,6,yes,none
+1700,zhaweza,unionized,adj,/ʒa.ˈwe.za/,zhah-WEH-zah,reference,6,yes,none
+1701,zhezëshungi,mangrove,n,/ʒe.zə.ˈʃu.ŋi/,zheh-zuh-SHOO-ngee,reference,6,yes,none
+1702,zhikhana,improvisational,adj,/ʒi.ˈxa.na/,zhee-KHAH-nah,reference,6,yes,none
+1703,zhimuna,focus,n,/ʒi.ˈmu.na/,zhee-MOO-nah,reference,6,yes,none
+1704,zhingudiyë,blending,n,/ʒi.ŋu.ˈdi.jə/,zhee-ngoo-DEE-yuh,reference,6,yes,none
+1705,zhokhilazi,managerial,adj,/ʒo.xi.ˈla.zi/,zhoh-khee-LAH-zee,reference,6,yes,none
+1706,zhongibiyë,communicable,adj,/ʒo.ŋi.ˈbi.jə/,zhoh-ngee-BEE-yuh,reference,6,yes,none
+1707,zhozominge,probabilistic,adj,/ʒo.zo.ˈmi.ŋe/,zhoh-zoh-MEE-ngeh,reference,6,yes,none
+1708,zhudëbozhu,sculptural,adj,/ʒu.də.ˈbo.ʒu/,zhoo-duh-BOH-zhoo,reference,6,yes,none
+1709,zhukoku,agentic,adj,/ʒu.ˈko.ku/,zhoo-KOH-koo,reference,6,yes,none
+1710,zhuwëki,current,adj,/ʒu.ˈwə.ki/,zhoo-WUH-kee,reference,6,yes,none
+1711,zhëtushu,voluntary,adj,/ʒə.ˈtu.ʃu/,zhuh-TOO-shoo,reference,6,yes,none
+1712,zhëzhima,deciduous,adj,/ʒə.ˈʒi.ma/,zhuh-ZHEE-mah,reference,6,yes,none
+1713,ziqatu,navigational,adj,/zi.ˈqa.tu/,zee-QAH-too,reference,6,yes,none
+1714,ziqehe,artistic,adj,/zi.ˈqe.he/,zee-QEH-heh,reference,6,yes,none
+1715,zokesule,analogical,adj,/zo.ke.ˈsu.le/,zoh-keh-SOO-leh,reference,6,yes,none
+1716,zoqëyi,fuzz,n,/zo.ˈqə.ji/,zoh-QUH-yee,reference,6,yes,none
+1717,zuhëqë,counterfactual,adj,/zu.ˈhə.qə/,zoo-HUH-quh,reference,6,yes,none
+1718,zukinge,action,n,/zu.ˈki.ŋe/,zoo-KEE-ngeh,reference,6,yes,none
+1719,zurulu,fault,n,/zu.ˈɾu.lu/,zoo-ROO-loo,reference,6,yes,none
+1720,zuyakha,collective,adj,/zu.ˈja.xa/,zoo-YAH-khah,reference,6,yes,none
+1721,zëpiqe,unscheduled,adj,/zə.ˈpi.qe/,zuh-PEE-qeh,reference,6,yes,none
+1722,zëqedahu,high voltage,n,/zə.qe.ˈda.hu/,zuh-qeh-DAH-hoo,reference,6,yes,none
+1723,bewëmë,reduced motion,n,/be.ˈwə.mə/,beh-WUH-muh,reference,5,yes,none
+1724,dekudë,field,n,/de.ˈku.də/,deh-KOO-duh,reference,5,yes,none
+1725,dilasi,hardware-backed,adj,/di.ˈla.si/,dee-LAH-see,reference,5,yes,none
+1726,dopawo,watershed,n,/do.ˈpa.wo/,doh-PAH-woh,reference,5,yes,none
+1727,dugadë,renewal,adj,/du.ˈɡa.də/,doo-GAH-duh,reference,5,yes,none
+1728,dumëbazha,mesh,n,/du.mə.ˈba.ʒa/,doo-muh-BAH-zhah,reference,5,yes,none
+1729,gemusasha,puzzle,n,/ɡe.mu.ˈsa.ʃa/,geh-moo-SAH-shah,reference,5,yes,none
+1730,gubapa,mental health,n,/ɡu.ˈba.pa/,goo-BAH-pah,reference,5,yes,none
+1731,gëdezhi,release,n,/ɡə.ˈde.ʒi/,guh-DEH-zhee,reference,5,yes,none
+1732,hakëhi,grid,n,/ha.ˈkə.hi/,hah-KUH-hee,reference,5,yes,none
+1733,kaziyungo,woven,n,/ka.zi.ˈju.ŋo/,kah-zee-YOO-ngoh,reference,5,yes,none
+1734,korage,informed,adj,/ko.ˈɾa.ɡe/,koh-RAH-geh,reference,5,yes,none
+1735,kukhezhunga,judicial,adj,/ku.xe.ˈʒu.ŋa/,koo-kheh-ZHOO-ngah,reference,5,yes,none
+1736,kutu,disinformation,n,/ˈku.tu/,KOO-too,reference,5,yes,none
+1737,lunida,administrative,adj,/lu.ˈni.da/,loo-NEE-dah,reference,5,yes,none
+1738,mazelo,stratified,adj,/ma.ˈze.lo/,mah-ZEH-loh,reference,5,yes,none
+1739,muqiwi,moral,adj,/mu.ˈqi.wi/,moo-QEE-wee,reference,5,yes,none
+1740,qarëwosu,snapshot,n,/qa.ɾə.ˈwo.su/,qah-ruh-WOH-soo,reference,5,yes,none
+1741,qulidenë,crypto,n,/qu.li.ˈde.nə/,qoo-lee-DEH-nuh,reference,5,yes,none
+1742,qëlihëwi,editorial,adj,/qə.li.ˈhə.wi/,quh-lee-HUH-wee,reference,5,yes,none
+1743,sengëmo,inflation,n,/se.ˈŋə.mo/,seh-NGUH-moh,reference,5,yes,none
+1744,shamazu,advisory,n,/ʃa.ˈma.zu/,shah-MAH-zoo,reference,5,yes,none
+1745,shisanu,restorative,adj,/ʃi.ˈsa.nu/,shee-SAH-noo,reference,5,yes,none
+1746,shëliwaro,isolated; disconnected,adj,/ʃə.li.ˈwa.ɾo/,shuh-lee-WAH-roh,reference,5,yes,none
+1747,tabashupa,telehealth,n,/ta.ba.ˈʃu.pa/,tah-bah-SHOO-pah,reference,5,yes,none
+1748,wëqepë,crisis,n,/wə.ˈqe.pə/,wuh-QEH-puh,reference,5,yes,none
+1749,yishëbega,filtered,adj,/ji.ʃə.ˈbe.ɡa/,yee-shuh-BEH-gah,reference,5,yes,none
+1750,zekhuzha,mutation,n,/ze.ˈxu.ʒa/,zeh-KHOO-zhah,reference,5,yes,none
+1751,zhedinu,verbal,adj,/ʒe.ˈdi.nu/,zheh-DEE-noo,reference,5,yes,none
+1752,zhesuku,legislative,adj,/ʒe.ˈsu.ku/,zheh-SOO-koo,reference,5,yes,none
+1753,zhirana,content,adj,/ʒi.ˈɾa.na/,zhee-RAH-nah,reference,5,yes,none
+1754,zotewë,low latency,n,/zo.ˈte.wə/,zoh-TEH-wuh,reference,5,yes,none
+1755,bayesha,spoken,n,/ba.ˈje.ʃa/,bah-YEH-shah,reference,4,yes,none
+1756,dapomaza,incident,adj,/da.po.ˈma.za/,dah-poh-MAH-zah,reference,4,yes,none
+1757,hobishesë,sleep,n,/ho.bi.ˈʃe.sə/,hoh-bee-SHEH-suh,reference,4,yes,none
+1758,zhëla,seat; perch,n,/ˈʒə.la/,ZHUH-lah,reference,4,yes,none
+1759,qadeso,sensation,n,/qa.ˈde.so/,qah-DEH-soh,reference,4,yes,none
+1760,khuteka,variable,n,/xu.ˈte.ka/,khoo-TEH-kah,reference,4,yes,none
+1761,qurirë,residence,n,/qu.ˈɾi.ɾə/,qoo-REE-ruh,reference,4,yes,none
+1762,yushume,civil,n,/ju.ˈʃu.me/,yoo-SHOO-meh,reference,4,yes,none
+1763,sënaro,season; recurring annual period,n,/sə.ˈna.ɾo/,suh-NAH-roh,reference,3,yes,none
+1764,ngëmi,number; numerical symbol,n,/ˈŋə.mi/,NGUH-mee,reference,3,yes,none
+1765,yërawë,clock; timekeeping device,n,/jə.ˈɾa.wə/,yuh-RAH-wuh,reference,3,yes,none
+1766,noa,short; low,adj,/ˈno.a/,NOH-ah,reference,3,yes,none
+1767,waro,arm; foreleg,n,/ˈwa.ɾo/,WAH-roh,reference,2,yes,none
+1768,naroaro,room; chamber within a home,n,/na.ɾo.ˈa.ɾo/,nah-roh-AH-roh,reference,2,yes,none
+1769,kerasa,etiquette,n,/ke.ˈɾa.sa/,keh-RAH-sah,reference,2,yes,none
+1770,qizhëzha,treaty,n,/qi.ˈʒə.ʒa/,qee-ZHUH-zhah,reference,2,yes,none
+1771,khano,body; physical form,n,/ˈxa.no/,KHAH-noh,reference,2,yes,none
+1772,nama,table; flat work surface,n,/ˈna.ma/,NAH-mah,reference,2,yes,none
+1773,nëwima,meat,n,/nə.ˈwi.ma/,nuh-WEE-mah,reference,2,yes,none
+1774,zhaloshi,roar; powerful fire-voice,n,/ʒa.ˈlo.ʃi/,zhah-LOH-shee,reference,2,yes,none
+1775,ngëroa,wall; partition,n,/ŋə.ˈɾo.a/,nguh-ROH-ah,reference,2,yes,none
+1776,lunizo,tide,n,/lu.ˈni.zo/,loo-NEE-zoh,reference,2,yes,none
+1777,sewena,invoice,n,/se.ˈwe.na/,seh-WEH-nah,reference,2,yes,none
+1778,sesaso,fee,n,/se.ˈsa.so/,seh-SAH-soh,reference,2,yes,none
+1779,zoningo,area,n,/zo.ˈni.ŋo/,zoh-NEE-ngoh,reference,2,yes,none
+1780,pëyanga,fan,n,/pə.ˈja.ŋa/,puh-YAH-ngah,reference,2,yes,none
+1781,dengapa,fiction,n,/de.ˈŋa.pa/,deh-NGAH-pah,reference,2,yes,none
+1782,ngiqema,learning,n,/ŋi.ˈqe.ma/,ngee-QEH-mah,reference,2,yes,none
+1783,shëroki,code; encoded instruction,n,/ʃə.ˈɾo.ki/,shuh-ROH-kee,reference,2,yes,none
+1784,shënaro,nest; nesting structure,n,/ʃə.ˈna.ɾo/,shuh-NAH-roh,reference,2,yes,none
+1785,sungëpa,speed,n,/su.ˈŋə.pa/,soo-NGUH-pah,reference,2,yes,none
+1786,tëroa,distance,n,/tə.ˈɾo.a/,tuh-ROH-ah,reference,2,yes,none
+1787,zhisheqo,opinion,n,/ʒi.ˈʃe.qo/,zhee-SHEH-qoh,reference,2,yes,none
+1788,yuqoze,deep,adj,/ju.ˈqo.ze/,yoo-QOH-zeh,reference,2,yes,none
+1789,yëla,tall; high,adj,/ˈjə.la/,YUH-lah,reference,2,yes,none
+1790,zhalo,flame; fire; warmth,n,/ˈʒa.lo/,ZHAH-loh,reference,2,yes,none
+1791,gunëro,stroke,n,/ɡu.ˈnə.ɾo/,goo-NUH-roh,reference,1,yes,none
+1792,bereko,actuator,n,/be.ˈɾe.ko/,beh-REH-koh,reference,1,yes,none
+1793,beduyo,valve,n,/be.ˈdu.jo/,beh-DOO-yoh,reference,1,yes,none
+1794,bekazo,nail,n,/be.ˈka.zo/,beh-KAH-zoh,reference,1,yes,none
+1795,bengeha,factory,n,/be.ˈŋe.ha/,beh-NGEH-hah,reference,1,yes,none
+1796,bengakha,filter,n,/be.ˈŋa.xa/,beh-NGAH-khah,reference,1,yes,none
+1797,boluma,spam,n,/bo.ˈlu.ma/,boh-LOO-mah,reference,1,yes,none
+1798,borubo,email,n,/bo.ˈɾu.bo/,boh-ROO-boh,reference,1,yes,none
+1799,nashima,attachment; long-term emotional bond,n,/na.ˈʃi.ma/,nah-SHEE-mah,reference,1,yes,none
+1800,tëra,bond; social connection,n,/ˈtə.ɾa/,TUH-rah,reference,1,yes,none
+1801,daruwa,rock; stone,n,/da.ˈɾu.wa/,dah-ROO-wah,reference,1,yes,none
+1802,deduyo,pixel,n,/de.ˈdu.jo/,deh-DOO-yoh,reference,1,yes,none
+1803,pëmawa,critic,n,/pə.ˈma.wa/,puh-MAH-wah,reference,1,yes,none
+1804,dëra,guest,n,/ˈdə.ɾa/,DUH-rah,reference,1,yes,none
+1805,dërawa,dry,adj,/də.ˈɾa.wa/,duh-RAH-wah,reference,1,yes,none
+1806,dëro,frequency; recurrence,n,/ˈdə.ɾo/,DUH-roh,reference,1,yes,none
+1807,mëra,partner; beloved companion,n,/ˈmə.ɾa/,MUH-rah,reference,1,yes,none
+1808,pëpeto,companion,n,/pə.ˈpe.to/,puh-PEH-toh,reference,1,yes,none
+1809,gubiga,hospital,n,/ɡu.ˈbi.ɡa/,goo-BEE-gah,reference,1,yes,none
+1810,gishisho,hat,n,/ɡi.ˈʃi.ʃo/,gee-SHEE-shoh,reference,1,yes,none
+1811,gëlo,hard; firm to touch,adj,/ˈɡə.lo/,GUH-loh,reference,1,yes,none
+1812,gëra,back; behind,n,/ˈɡə.ɾa/,GUH-rah,reference,1,yes,none
+1813,kehimo,alliance,n,/ke.ˈhi.mo/,keh-HEE-moh,reference,1,yes,none
+1814,ketara,coalition,n,/ke.ˈta.ɾa/,keh-TAH-rah,reference,1,yes,none
+1815,zonëya,symmetry,n,/zo.ˈnə.ja/,zoh-NUH-yah,reference,1,yes,none
+1816,zoshongo,hypothesis,n,/zo.ˈʃo.ŋo/,zoh-SHOH-ngoh,reference,1,yes,none
+1817,kimari,fish; aquatic animal,n,/ki.ˈma.ɾi/,kee-MAH-ree,reference,1,yes,none
+1818,luhëza,sunset,n,/lu.ˈhə.za/,loo-HUH-zah,reference,1,yes,none
+1819,lukhela,sunrise,n,/lu.ˈxe.la/,loo-KHEH-lah,reference,1,yes,none
+1820,ngerë,hour; watch-period,n,/ˈŋe.ɾə/,NGEH-ruh,reference,1,yes,none
+1821,luwëba,midnight,n,/lu.ˈwə.ba/,loo-WUH-bah,reference,1,yes,none
+1822,shërawewa,change; transition,n,/ʃə.ɾa.ˈwe.wa/,shuh-rah-WEH-wah,reference,1,yes,none
+1823,nëkuzo,nutrient,n,/nə.ˈku.zo/,nuh-KOO-zoh,reference,1,yes,none
+1824,mëka,fruit,n,/ˈmə.ka/,MUH-kah,reference,1,yes,none
+1825,nëyëno,juice,n,/nə.ˈjə.no/,nuh-YUH-noh,reference,1,yes,none
+1826,mëlo,soft; yielding,adj,/ˈmə.lo/,MUH-loh,reference,1,yes,none
+1827,nëshoya,sugar,n,/nə.ˈʃo.ja/,nuh-SHOH-yah,reference,1,yes,none
+1828,mëraroa,brown,adj,/mə.ɾa.ˈɾo.a/,muh-rah-ROH-ah,reference,1,yes,none
+1829,shënaweho,sentence; complete utterance,n,/ʃə.na.ˈwe.ho/,shuh-nah-WEH-hoh,reference,1,yes,none
+1830,mësha,paw; hand,n,/ˈmə.ʃa/,MUH-shah,reference,1,yes,none
+1831,tëyika,towel,n,/tə.ˈji.ka/,tuh-YEE-kah,reference,1,yes,none
+1832,khukhilo,automation,n,/xu.ˈxi.lo/,khoo-KHEE-loh,reference,1,yes,none
+1833,nera,peace; tranquility,n,/ˈne.ɾa/,NEH-rah,reference,1,yes,none
+1834,ngaro,blood,n,/ˈŋa.ɾo/,NGAH-roh,reference,1,yes,none
+1835,pëngizha,counselor,n,/pə.ˈŋi.ʒa/,puh-NGEE-zhah,reference,1,yes,none
+1836,wudeya,day,n,/wu.ˈde.ja/,woo-DEH-yah,reference,1,yes,none
+1837,ngimuna,graduate,n,/ŋi.ˈmu.na/,ngee-MOO-nah,reference,1,yes,none
+1838,ngipaya,teaching,n,/ŋi.ˈpa.ja/,ngee-PAH-yah,reference,1,yes,none
+1839,zhërawo,entrance; doorway,n,/ʒə.ˈɾa.wo/,zhuh-RAH-woh,reference,1,yes,none
+1840,ngëma,worry; anxiety,n,/ˈŋə.ma/,NGUH-mah,reference,1,yes,none
+1841,gutupa,disorder,n,/ɡu.ˈtu.pa/,goo-TOO-pah,reference,1,yes,none
+1842,ngëroli,evidence; supporting observation,n,/ŋə.ˈɾo.li/,nguh-ROH-lee,reference,1,yes,none
+1843,ngëru,ice,n,/ˈŋə.ɾu/,NGUH-roo,reference,1,yes,none
+1844,tëzheka,shelf,n,/tə.ˈʒe.ka/,tuh-ZHEH-kah,reference,1,yes,none
+1845,nëziho,onion,n,/nə.ˈzi.ho/,nuh-ZEE-hoh,reference,1,yes,none
+1846,pibikha,virtue,n,/pi.ˈbi.xa/,pee-BEE-khah,reference,1,yes,none
+1847,pimilo,concept,n,/pi.ˈmi.lo/,pee-MEE-loh,reference,1,yes,none
+1848,pëgepa,contractor,n,/pə.ˈɡe.pa/,puh-GEH-pah,reference,1,yes,none
+1849,degepa,episode,n,/de.ˈɡe.pa/,deh-GEH-pah,reference,1,yes,none
+1850,pëtëlo,dependent,n,/pə.ˈtə.lo/,puh-TUH-loh,reference,1,yes,none
+1851,qakalo,hair,n,/qa.ˈka.lo/,qah-KAH-loh,reference,1,yes,none
+1852,qizhido,fraud,n,/qi.ˈʒi.do/,qee-ZHEE-doh,reference,1,yes,none
+1853,qëra,front; forward area,n,/ˈqə.ɾa/,QUH-rah,reference,1,yes,none
+1854,rawëra,wet; damp,adj,/ɾa.ˈwə.ɾa/,rah-WUH-rah,reference,1,yes,none
+1855,reruda,car,n,/ɾe.ˈɾu.da/,reh-ROO-dah,reference,1,yes,none
+1856,zengëza,organism,n,/ze.ˈŋə.za/,zeh-NGUH-zah,reference,1,yes,none
+1857,ruwa,host; one who welcomes,n,/ˈɾu.wa/,ROO-wah,reference,1,yes,none
+1858,seduzha,savings,n,/se.ˈdu.ʒa/,seh-DOO-zhah,reference,1,yes,none
+1859,seheda,revenue,n,/se.ˈhe.da/,seh-HEH-dah,reference,1,yes,none
+1860,senima,refund,n,/se.ˈni.ma/,seh-NEE-mah,reference,1,yes,none
+1861,shali,plate; tray,n,/ˈʃa.li/,SHAH-lee,reference,1,yes,none
+1862,delesho,actor,n,/de.ˈle.ʃo/,deh-LEH-shoh,reference,1,yes,none
+1863,sekuto,loan,n,/se.ˈku.to/,seh-KOO-toh,reference,1,yes,none
+1864,bebuho,switch,n,/be.ˈbu.ho/,beh-BOO-hoh,reference,1,yes,none
+1865,zotizha,logic,n,/zo.ˈti.ʒa/,zoh-TEE-zhah,reference,1,yes,none
+1866,ketoda,relationship,n,/ke.ˈto.da/,keh-TOH-dah,reference,1,yes,none
+1867,kehuma,permission,n,/ke.ˈhu.ma/,keh-HOO-mah,reference,1,yes,none
+1868,shima,book; written volume,n,/ˈʃi.ma/,SHEE-mah,reference,1,yes,none
+1869,subopa,microwave,n,/su.ˈbo.pa/,soo-BOH-pah,reference,1,yes,none
+1870,tëkuta,oven,n,/tə.ˈku.ta/,tuh-KOO-tah,reference,1,yes,none
+1871,beqego,engineering,n,/be.ˈqe.ɡo/,beh-QEH-goh,reference,1,yes,none
+1872,tëruya,sink,n,/tə.ˈɾu.ja/,tuh-ROO-yah,reference,1,yes,none
+1873,suqowa,magnet,n,/su.ˈqo.wa/,soo-QOH-wah,reference,1,yes,none
+1874,suqëda,freezing,n,/su.ˈqə.da/,soo-QUH-dah,reference,1,yes,none
+1875,pënaro,engine; power mechanism,n,/pə.ˈna.ɾo/,puh-NAH-roh,reference,1,yes,none
+1876,zopuro,circle,n,/zo.ˈpu.ɾo/,zoh-POO-roh,reference,1,yes,none
+1877,sëma,truth; accurate information,n,/ˈsə.ma/,SUH-mah,reference,1,yes,none
+1878,tikawa,screen; display,n,/ti.ˈka.wa/,tee-KAH-wah,reference,1,yes,none
+1879,tëshira,pantry,n,/tə.ˈʃi.ɾa/,tuh-SHEE-rah,reference,1,yes,none
+1880,tëtuno,freezer,n,/tə.ˈtu.no/,tuh-TOO-noh,reference,1,yes,none
+1881,tëtuzha,foundation,n,/tə.ˈtu.ʒa/,tuh-TOO-zhah,reference,1,yes,none
+1882,gishora,makeup,n,/ɡi.ˈʃo.ɾa/,gee-SHOH-rah,reference,1,yes,none
+1883,wuyiza,holiday,n,/wu.ˈji.za/,woo-YEE-zah,reference,1,yes,none
+1884,tëruda,floor,n,/tə.ˈɾu.da/,tuh-ROO-dah,reference,1,yes,none
+1885,wënawe,unknown; unfamiliar,adj,/wə.ˈna.we/,wuh-NAH-weh,reference,1,yes,none
+1886,gungena,healthcare,n,/ɡu.ˈŋe.na/,goo-NGEH-nah,reference,1,yes,none
+1887,yudëne,early,adj,/ju.ˈdə.ne/,yoo-DUH-neh,reference,1,yes,none
+1888,yuhabe,complex,adj,/ju.ˈha.be/,yoo-HAH-beh,reference,1,yes,none
+1889,yuhuyë,stable,adj,/ju.ˈhu.jə/,yoo-HOO-yuh,reference,1,yes,none
+1890,shënarë,version; release or variation,n,/ʃə.ˈna.ɾə/,shuh-NAH-ruh,reference,1,yes,none
+1891,yulengë,working,adj,/ju.ˈle.ŋə/,yoo-LEH-nguh,reference,1,yes,none
+1892,yupawe,upper,adj,/ju.ˈpa.we/,yoo-PAH-weh,reference,1,yes,none
+1893,nëquba,potato,n,/nə.ˈqu.ba/,nuh-QOO-bah,reference,1,yes,none
+1894,yurewe,sweet,adj,/ju.ˈɾe.we/,yoo-REH-weh,reference,1,yes,none
+1895,yushiwë,square,adj,/ju.ˈʃi.wə/,yoo-SHEE-wuh,reference,1,yes,none
+1896,yutazhe,random,adj,/ju.ˈta.ʒe/,yoo-TAH-zheh,reference,1,yes,none
+1897,yuwule,late,adj,/ju.ˈwu.le/,yoo-WOO-leh,reference,1,yes,none
+1898,yuzihë,circular,adj,/ju.ˈzi.hə/,yoo-ZEE-huh,reference,1,yes,none
+1899,yëno,idea; thought,n,/ˈjə.no/,YUH-noh,reference,1,yes,none
+1900,yëra,middle; center,n,/ˈjə.ɾa/,YUH-rah,reference,1,yes,none
+1901,shërawën,software error; bug,n,/ʃə.ˈɾa.wən/,shuh-RAH-wuhn,reference,1,yes,none
+1902,rërawa,wheel; rolling disk,n,/ɾə.ˈɾa.wa/,ruh-RAH-wah,reference,1,yes,none
+1903,zedëlo,cell,n,/ze.ˈdə.lo/,zeh-DUH-loh,reference,1,yes,none
+1904,gisiga,jacket,n,/ɡi.ˈsi.ɡa/,gee-SEE-gah,reference,1,yes,none
+1905,zeleho,life,n,/ze.ˈle.ho/,zeh-LEH-hoh,reference,1,yes,none
+1906,zeqëso,hatching,n,/ze.ˈqə.so/,zeh-QUH-soh,reference,1,yes,none
+1907,zeshaya,crab,n,/ze.ˈʃa.ja/,zeh-SHAH-yah,reference,1,yes,none
+1908,weyëto,department,n,/we.ˈjə.to/,weh-YUH-toh,reference,1,yes,none
+1909,zhigëko,confidence,n,/ʒi.ˈɡə.ko/,zhee-GUH-koh,reference,1,yes,none
+1910,wequna,poll,n,/we.ˈqu.na/,weh-QOO-nah,reference,1,yes,none
+1911,gikhongo,belt,n,/ɡi.ˈxo.ŋo/,gee-KHOH-ngoh,reference,1,yes,none
+1912,rezhowa,reservation,n,/ɾe.ˈʒo.wa/,reh-ZHOH-wah,reference,1,yes,none
+1913,zhëli,skin,n,/ˈʒə.li/,ZHUH-lee,reference,1,yes,none
+1914,zhënoho,false; incorrect,adj,/ʒə.ˈno.ho/,zhuh-NOH-hoh,reference,1,yes,none

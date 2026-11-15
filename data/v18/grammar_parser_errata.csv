@@ -1,0 +1,10 @@
+source_id,qaroshi,rule,decision,status
+S00019,hë ti khe-m shiri-te he?,wh-argument case suffix; grammar §36,reference-protected; do not replace with unmarked khe or discard as malformed,"parser erratum, not canonical change"
+S00099,hë ti khe-m tika he?,wh-argument case suffix; grammar §36,reference-protected; do not replace with unmarked khe or discard as malformed,"parser erratum, not canonical change"
+S00104,hë ti ruki qaro-m tika-te he?,wh-argument case suffix; grammar §36,reference-protected; do not replace with unmarked khe or discard as malformed,"parser erratum, not canonical change"
+S00003,hë ti haro he?,terminal question he,retain he in full independent questions,canonical grammar
+S00107,hë ti goro-ki he?,terminal question he,retain he in full independent questions,canonical grammar
+S00108,hë ti goro-ho he?,terminal question he,retain he in full independent questions,canonical grammar
+S00139,hë ti mahori he?,terminal question he,retain he in full independent questions,canonical grammar
+S00011,sen shë.,minimal reply,source full response can have resonance; bare shë/nu may be fragment,canonical grammar
+S00012,qor nu.,minimal reply,source full response can have resonance; bare shë/nu may be fragment,canonical grammar
