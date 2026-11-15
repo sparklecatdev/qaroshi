@@ -42,7 +42,7 @@
       <div class="side-group"><div class="side-heading">Grammar</div>${a('grammar','All grammar chapters')}${groups}</div>
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
-      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing & pronunciation')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
+      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing & pronunciation')}${a('guide/pronunciation','Pronunciation & IPA')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
       <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 4.1</strong><br>Reference available offline.</div>`;
   }
   sidebar.innerHTML=navMarkup();
@@ -377,11 +377,12 @@
     $('saveScript').addEventListener('click',()=>exportPNG($('scriptInput').value));
     setToc([{id:'converter',name:'Converter'},{id:'alphabet',name:'Alphabet'},{id:'orthography',name:'Conventions'}]);
   }
-  const TOP_PAGES = {'translation':'Translation guide','lexicography':'Dictionary conventions','phonology':'Writing & pronunciation','release':'Reference notes','roadmap':'Coverage & future work'};
+  const TOP_PAGES = {'translation':'Translation guide','lexicography':'Dictionary conventions','phonology':'Writing & pronunciation','pronunciation':'Pronunciation & IPA','release':'Reference notes','roadmap':'Coverage & future work'};
   function renderGuide(id){
     if(!D.guides[id]){renderMissing('Guide not found');return}
+    const notice=['pronunciation','release'].includes(id) ? '<p><strong>Site note:</strong> These 4.2 documents describe pronunciation features that are not yet available in this edition of the site.</p>' : '';
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Guides',TOP_PAGES[id]||id,'Qaroshi supporting documentation')}
-      <div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
+      ${notice}<div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
     enrichToc();
   }
   function renderAbout(){

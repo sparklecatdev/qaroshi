@@ -12,7 +12,7 @@ Standard syllables follow `(C)(r/l/w/y)V(C)` with common syllable-final `m,n,ng,
 
 The digraphs `sh`, `zh`, `kh`, `ng` are single native letters. Grapheme conversion therefore takes the longest matching letter first. Input `shazhakhng` is parsed `sh · a · zh · a · kh · ng`. A `sh` character is **not** an `s` followed by an `h` in standard Qaroshi orthography. The Romanized alphabet is therefore not a direct English-like character stream.
 
-Each glyph is included in `assets/glyphs/<romanized-letter>.png`; the full source chart is `assets/alphabet_reference.png`. The `tools/qaroshi.py render` and offline dictionary converter compose those bitmaps into lines of native writing. This is a faithful letter-image renderer, **not a Unicode font or an official set of assigned code points**. The images may be resized for display, but their crossing strokes and characteristic loops should remain recognizable. Punctuation and Arabic digits are allowed as technical overlay characters, not native letters.
+Each glyph is included in `assets/glyphs/<romanized-letter>.png`; the full source chart is `assets/alphabet_reference.png`. The the offline wiki script converter and offline dictionary converter compose those bitmaps into lines of native writing. This is a faithful letter-image renderer, **not a Unicode font or an official set of assigned code points**. The images may be resized for display, but their crossing strokes and characteristic loops should remain recognizable. Punctuation and Arabic digits are allowed as technical overlay characters, not native letters.
 
 ## Text encoding and transliteration
 
@@ -27,3 +27,7 @@ The correct sentence-initial Warm Hum marker is **`më`**, not `meë` or `mê`. 
 ## Priorities for native typography
 
 A reusable keyboard font/IME would require selecting consistent stroke geometry, glyph advance widths, kerning and ligature handling, and legally usable character mapping. Neither a font nor keyboard layout is bundled in Standard 2.0. The immediate goals are legible native sample writing, reversible glyph ID encoding, and testing the readability of handwritten ligatures.
+
+## Complete IPA lookup and sentence pronunciation
+
+The full sound-value table, stress and syllabification conventions, and examples are in **[Pronunciation and IPA](pronunciation.md)**. Every entry in `data/lexicon.csv` has `ipa` and `reading` fields; every row in `corpus/parallel_sentences.csv` has corresponding sentence fields. The offline wiki includes live IPA transcription in the native writing converter.

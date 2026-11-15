@@ -1,9 +1,9 @@
 # Using the Qaroshi Wiki
 
-Open `Qaroshi_Wiki.html` locally. It works without a server or network. The left sidebar provides the 70 grammar chapters, topic browser, dictionary, phrasebook and native script. The right table of contents jumps within articles.
+Open `Qaroshi_Wiki.html` in a browser. Browse words and chapters using the left sidebar, or search Qaroshi, English, or IPA values using the top search box.
 
-Use `/` to focus search. Search by Qaroshi spelling or English meaning. Select a dictionary entry for its definition, semantic domain, native handwritten spelling and related terms.
+Each dictionary word displays a broad IPA transcription and a Romanized stress guide. Each phrase has a full-sentence IPA line. Select **Writing system → Native script** to enter Romanized Qaroshi and immediately view both the handwritten glyphs and the IPA and stress guide.
 
-The script converter changes *Romanized Qaroshi into original glyphs* and can export the result as a PNG. It does not automatically translate English into Qaroshi.
+The right-hand rail provides anchors inside grammar and guide pages. Open **Pronunciation & IPA** from the sidebar for the full 26-letter chart and explanation of syllables. IPA and pronunciation are local computations, not streaming audio.
 
-Use the theme control for dark mode; on smaller screens, the sidebar opens from the menu button.
+The HTML file includes all glyphs, data, and scripts. It does not need an internet connection.

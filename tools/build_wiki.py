@@ -28,7 +28,7 @@ for file,edition in chapter_docs:
 chapters.sort(key=lambda r:r['number'])
 assert [c['number'] for c in chapters]==list(range(1,71)),[c['number'] for c in chapters]
 guides={}
-for name,path in [('translation','docs/translation.md'),('lexicography','docs/lexicography.md'),('phonology','docs/phonology_and_script.md'),('roadmap','docs/roadmap.md'),('release','docs/release_notes.md')]:
+for name,path in [('translation','docs/translation.md'),('lexicography','docs/lexicography.md'),('phonology','docs/phonology_and_script.md'),('pronunciation','docs/pronunciation.md'),('roadmap','docs/roadmap.md'),('release','docs/release_notes.md')]:
  guides[name]=markdown((ROOT/path).read_text(encoding='utf-8'))
 letters=('k','a','w','t','r','q','o','d','sh','z','u','ë','i','g','kh','zh','e','ng','h','b','p','m','s','n','y','l')
 glyphs={}

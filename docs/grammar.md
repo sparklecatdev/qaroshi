@@ -1,6 +1,6 @@
 # Qaroshi — Complete Grammar
 
-Unified Standard Reference 4.1
+Unified Standard Reference 4.2
 
 **70 integrated chapters · 26 native letters · 16 mandatory written resonance markers**
 
@@ -10,7 +10,7 @@ This is one continuous grammar reference. Chapter numbers are stable for wiki li
 
 Qaroshi has 26 distinct written letters: **k, a, w, t, r, q, o, d, sh, z, u, ë, i, g, kh, zh, e, ng, h, b, p, m, s, n, y, l**. This is their glyph order on the original letter chart. The standard Romanization uses two characters for **sh, zh, kh, ng**, but each one represents a *single native glyph*. The vowels are **a /a/, e /e/, i /i/, o /o/, u /u/, ë /ə/**. The six vowel qualities are not interchangeable: `mara` and `mëra` are different words.
 
-**Other notable sounds:** `q` is the back-of-mouth /q/; `kh` is /x/; `sh` is /ʃ/; `zh` is /ʒ/; `ng` is /ŋ/; `y` is /j/; `r` is /r/, commonly tapped or rolled. Most consonants sound as they do in a broad, careful Latin transcription. Stress normally falls on the penultimate syllable: **qa-RO-shi**, **NA-ro**, **LË-sha**. The demonstrative `dëna` is **DË-na**.
+**Other notable sounds:** `q` is the back-of-mouth /q/; `kh` is /x/; `sh` is /ʃ/; `zh` is /ʒ/; `ng` is /ŋ/; `y` is /j/; `r` is /ɾ/ in broad IPA (a tap; a deliberate roll [r] is also possible). Most consonants sound as they do in a broad, careful Latin transcription. Stress normally falls on the penultimate syllable: **qa-RO-shi**, **NA-ro**, **LË-sha**. The demonstrative `dëna` is **DË-na**.
 
 Ordinary syllables have shape **(C)(r/l/w/y)V(C)**. The common final consonants are `m, n, ng, r, l`; short grammatical particles, expressive words, and certain compounds allow additional final consonants (such as the register `rak`). In rapid speaking, identical vowels at a word boundary may coalesce, but written forms remain unchanged. No accent mark is used to indicate stress: the diaeresis in `ë` marks a *different vowel*.
 

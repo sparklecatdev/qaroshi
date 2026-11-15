@@ -1,7 +1,12 @@
-# Qaroshi Unified Standard Reference 4.1
+# Qaroshi Reference 4.2 · Pronunciation edition
 
-The 4.1 release brings the documented Qaroshi vocabulary and grammatical rules into one standard reference. It retains **11,878 dictionary entries**, **2,017 bilingual teaching sentences**, **70 grammar chapters**, **16 typed resonance registers**, and the **26 original native glyphs**.
+This release adds complete phonemic transcription without altering established lexical spellings, definitions, or grammar.
 
-The dictionary uses one canonical spelling and definition record per entry. Grammar chapters now form a single document. The website no longer divides entries by reference edition or editorial status; it presents one integrated dictionary, one phrasebook, and one grammar.
+- All **11,878 dictionary entries** now include `ipa` and `reading`.
+- All **2,017 example sentences** now include whole-sentence IPA and a stress-marked reading guide.
+- The 12,646-row English index and all supplementary pronoun, register, morpheme, and particle lists have corresponding annotations.
+- Every native glyph has a documented IPA sound value.
+- The wiki now displays phonetics in dictionary results, word articles, example rows/pages, grammar snippets, and the live script converter.
+- `tools/phonetics.py` and `data/pronunciation_rules.json` make the transcription system reproducible.
 
-Previous lexical headwords, definitions, example sentences, IDs and native glyphs are unchanged. This is editorial consolidation, not independent evidence of historical or natural speaker usage.
+The native 26-letter system, 16 obligatory resonance registers, and 70 grammar chapters are unchanged. IPA values are broad predictions under the standard pronunciation conventions, not recorded speaker data.
