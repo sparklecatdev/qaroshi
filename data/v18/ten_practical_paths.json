@@ -1,0 +1,322 @@
+[
+  {
+    "id": "P18-01",
+    "title": "Open safely",
+    "source_ids": [
+      "S00001",
+      "S00003",
+      "S00004",
+      "S00007"
+    ],
+    "answers": [
+      {
+        "english": "Hello, friend!",
+        "qaroshi": "zha ha, mara!",
+        "ipa": "/ʒa ha, ˈma.ɾa/"
+      },
+      {
+        "english": "Are you well?",
+        "qaroshi": "hë ti haro he?",
+        "ipa": "/hə ti ˈha.ɾo he/"
+      },
+      {
+        "english": "I am well.",
+        "qaroshi": "sen mi haro.",
+        "ipa": "/sen mi ˈha.ɾo/"
+      },
+      {
+        "english": "Goodbye.",
+        "qaroshi": "nëm përo.",
+        "ipa": "/nəm ˈpə.ɾo/"
+      }
+    ]
+  },
+  {
+    "id": "P18-02",
+    "title": "Set boundaries",
+    "source_ids": [
+      "S00139",
+      "S00138",
+      "S00140",
+      "S00007"
+    ],
+    "answers": [
+      {
+        "english": "Do you consent?",
+        "qaroshi": "hë ti mahori he?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/"
+      },
+      {
+        "english": "I do not consent.",
+        "qaroshi": "sen mi nu mahori.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/"
+      },
+      {
+        "english": "I have a boundary.",
+        "qaroshi": "qor mi noha-m hari.",
+        "ipa": "/qoɾ mi ˈno.ham ˈha.ɾi/"
+      },
+      {
+        "english": "Goodbye.",
+        "qaroshi": "nëm përo.",
+        "ipa": "/nəm ˈpə.ɾo/"
+      }
+    ]
+  },
+  {
+    "id": "P18-03",
+    "title": "Repair understanding",
+    "source_ids": [
+      "S00017",
+      "S00019",
+      "S00018",
+      "S00015"
+    ],
+    "answers": [
+      {
+        "english": "I don't understand.",
+        "qaroshi": "lën mi nu zhëmi.",
+        "ipa": "/lən mi nu ˈʒə.mi/"
+      },
+      {
+        "english": "What did you say?",
+        "qaroshi": "hë ti khe-m shiri-te he?",
+        "ipa": "/hə ti xem ʃi.ˈɾi.te he/"
+      },
+      {
+        "english": "Please speak slowly.",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/"
+      },
+      {
+        "english": "Thank you.",
+        "qaroshi": "hol mi ti-m holë.",
+        "ipa": "/hol mi tim ˈho.lə/"
+      }
+    ]
+  },
+  {
+    "id": "P18-04",
+    "title": "Distinguish ability",
+    "source_ids": [
+      "S00107",
+      "S00108",
+      "S00135",
+      "S00136"
+    ],
+    "answers": [
+      {
+        "english": "Can you fly?",
+        "qaroshi": "hë ti goro-ki he?",
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/"
+      },
+      {
+        "english": "May you fly?",
+        "qaroshi": "hë ti goro-ho he?",
+        "ipa": "/hə ti ɡo.ˈɾo.ho he/"
+      },
+      {
+        "english": "I will protect you.",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "ipa": "/qoɾ mi tim da.ˈɾu.ju/"
+      },
+      {
+        "english": "I must protect you.",
+        "qaroshi": "dal mi ti-m daru-du.",
+        "ipa": "/dal mi tim da.ˈɾu.du/"
+      }
+    ]
+  },
+  {
+    "id": "P18-05",
+    "title": "Describe evidence",
+    "source_ids": [
+      "S00095",
+      "S00096",
+      "S00097",
+      "S00112"
+    ],
+    "answers": [
+      {
+        "english": "They flew; I saw it.",
+        "qaroshi": "sen sa goro-te si.",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/"
+      },
+      {
+        "english": "They flew, according to a report.",
+        "qaroshi": "sen sa goro-te hu.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/"
+      },
+      {
+        "english": "They seem to have flown.",
+        "qaroshi": "zher sa goro-te ye.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.te je/"
+      },
+      {
+        "english": "I don't know.",
+        "qaroshi": "sen mi nu sëmi.",
+        "ipa": "/sen mi nu ˈsə.mi/"
+      }
+    ]
+  },
+  {
+    "id": "P18-06",
+    "title": "State physical needs",
+    "source_ids": [
+      "S00065",
+      "S00066",
+      "S00069",
+      "S00051"
+    ],
+    "answers": [
+      {
+        "english": "Are you hungry?",
+        "qaroshi": "hë ti shënahoho he?",
+        "ipa": "/hə ti ʃə.na.ˈho.ho he/"
+      },
+      {
+        "english": "I'm thirsty.",
+        "qaroshi": "sen mi këmëhoho.",
+        "ipa": "/sen mi kə.mə.ˈho.ho/"
+      },
+      {
+        "english": "I'm tired.",
+        "qaroshi": "sen mi shërohi.",
+        "ipa": "/sen mi ʃə.ˈɾo.hi/"
+      },
+      {
+        "english": "You can rest.",
+        "qaroshi": "nëm ti nëru-ki.",
+        "ipa": "/nəm ti nə.ˈɾu.ki/"
+      }
+    ]
+  },
+  {
+    "id": "P18-07",
+    "title": "Travel together",
+    "source_ids": [
+      "S00089",
+      "S00086",
+      "S00101",
+      "S00071"
+    ],
+    "answers": [
+      {
+        "english": "Where are you going?",
+        "qaroshi": "hë ti lona gura he?",
+        "ipa": "/hə ti ˈlo.na ˈɡu.ɾa he/"
+      },
+      {
+        "english": "I'm going toward home.",
+        "qaroshi": "sen mi naro-gu gura.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/"
+      },
+      {
+        "english": "When will you go?",
+        "qaroshi": "hë ti yeta gura-yu he?",
+        "ipa": "/hə ti ˈje.ta ɡu.ˈɾa.ju he/"
+      },
+      {
+        "english": "I will wait.",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/"
+      }
+    ]
+  },
+  {
+    "id": "P18-08",
+    "title": "Privacy and devices",
+    "source_ids": [
+      "S00124",
+      "S00125",
+      "S00126",
+      "S00127"
+    ],
+    "answers": [
+      {
+        "english": "I sent a message.",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/"
+      },
+      {
+        "english": "Did you see the message?",
+        "qaroshi": "hë ti shiwaro-m tika-te he?",
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ti.ˈka.te he/"
+      },
+      {
+        "english": "I won't share my password.",
+        "qaroshi": "sen mi kërawëmi-m nu shëmiwa-yu.",
+        "ipa": "/sen mi kə.ɾa.ˈwə.mim nu ʃə.mi.ˈwa.ju/"
+      },
+      {
+        "english": "This is private.",
+        "qaroshi": "qor dëna shënohi.",
+        "ipa": "/qoɾ ˈdə.na ʃə.ˈno.hi/"
+      }
+    ]
+  },
+  {
+    "id": "P18-09",
+    "title": "Care without assumptions",
+    "source_ids": [
+      "S00055",
+      "S00056",
+      "S00057",
+      "S00015"
+    ],
+    "answers": [
+      {
+        "english": "Please talk to me.",
+        "qaroshi": "më pëla ti mi-tu shiri ya.",
+        "ipa": "/mə ˈpə.la ti ˈmi.tu ˈʃi.ɾi ja/"
+      },
+      {
+        "english": "Are you worried?",
+        "qaroshi": "hë ti ngëmawe he?",
+        "ipa": "/hə ti ŋə.ˈma.we he/"
+      },
+      {
+        "english": "You aren't a burden.",
+        "qaroshi": "më ti nu ngëmawa.",
+        "ipa": "/mə ti nu ŋə.ˈma.wa/"
+      },
+      {
+        "english": "Thank you.",
+        "qaroshi": "hol mi ti-m holë.",
+        "ipa": "/hol mi tim ˈho.lə/"
+      }
+    ]
+  },
+  {
+    "id": "P18-10",
+    "title": "Language learning",
+    "source_ids": [
+      "S00013",
+      "S00014",
+      "S00017",
+      "S00118"
+    ],
+    "answers": [
+      {
+        "english": "Do you speak Qaroshi?",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/"
+      },
+      {
+        "english": "I am learning Qaroshi!",
+        "qaroshi": "zha mi qaroshi-m rëmi-se.",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ɾə.ˈmi.se/"
+      },
+      {
+        "english": "I don't understand.",
+        "qaroshi": "lën mi nu zhëmi.",
+        "ipa": "/lən mi nu ˈʒə.mi/"
+      },
+      {
+        "english": "I can speak Qaroshi!",
+        "qaroshi": "zha mi qaroshi-m shiri-ki!",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ʃi.ˈɾi.ki/"
+      }
+    ]
+  }
+]

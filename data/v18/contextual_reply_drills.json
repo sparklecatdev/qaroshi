@@ -1,0 +1,842 @@
+[
+  {
+    "id": "R18-001",
+    "title": "Feeling well",
+    "context": "A friend asks if you are well. You feel fine.",
+    "prompt_id": "S00003",
+    "prompt_q": "hë ti haro he?",
+    "prompt_en": "Are you well?",
+    "choices": [
+      {
+        "id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well."
+      },
+      {
+        "id": "S00005",
+        "qaroshi": "sen mi nu haro.",
+        "english": "I am not well."
+      },
+      {
+        "id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know."
+      }
+    ],
+    "correct_id": "S00004",
+    "reason": "State wellness with the positive predicate.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-002",
+    "title": "Feeling unwell",
+    "context": "A friend checks in. You are not doing well.",
+    "prompt_id": "S00003",
+    "prompt_q": "hë ti haro he?",
+    "prompt_en": "Are you well?",
+    "choices": [
+      {
+        "id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well."
+      },
+      {
+        "id": "S00005",
+        "qaroshi": "sen mi nu haro.",
+        "english": "I am not well."
+      },
+      {
+        "id": "S00042",
+        "qaroshi": "nëm mi nerawo.",
+        "english": "I feel peaceful."
+      }
+    ],
+    "correct_id": "S00005",
+    "reason": "Use overt negation to say you are not well.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-003",
+    "title": "Thirst",
+    "context": "You are thirsty; a friend asks about hunger. State the actual need.",
+    "prompt_id": "S00065",
+    "prompt_q": "hë ti shënahoho he?",
+    "prompt_en": "Are you hungry?",
+    "choices": [
+      {
+        "id": "S00066",
+        "qaroshi": "sen mi këmëhoho.",
+        "english": "I'm thirsty."
+      },
+      {
+        "id": "S00041",
+        "qaroshi": "zha mi merawo!",
+        "english": "I'm happy!"
+      },
+      {
+        "id": "S00067",
+        "qaroshi": "sen mi ngëruwa.",
+        "english": "I'm cold."
+      }
+    ],
+    "correct_id": "S00066",
+    "reason": "Thirst is distinct from hunger, joy and being cold.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-004",
+    "title": "Consent refusal",
+    "context": "Someone asks for consent. You do not give it.",
+    "prompt_id": "S00139",
+    "prompt_q": "hë ti mahori he?",
+    "prompt_en": "Do you consent?",
+    "choices": [
+      {
+        "id": "S00011",
+        "qaroshi": "sen shë.",
+        "english": "Yes."
+      },
+      {
+        "id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent."
+      },
+      {
+        "id": "S00031",
+        "qaroshi": "më mi ti-m mëlë.",
+        "english": "I like you."
+      }
+    ],
+    "correct_id": "S00138",
+    "reason": "An explicit negative consent statement overrides any positive resonance.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-005",
+    "title": "Consent inquiry",
+    "context": "You need to know whether someone agrees before proceeding.",
+    "prompt_id": "S00032",
+    "prompt_q": "hë mi ti-m mërali-ho he?",
+    "prompt_en": "May I hug you?",
+    "choices": [
+      {
+        "id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?"
+      },
+      {
+        "id": "S00135",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you."
+      },
+      {
+        "id": "S00034",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you."
+      }
+    ],
+    "correct_id": "S00139",
+    "reason": "Ask the other person whether they consent; do not infer from a promise.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-006",
+    "title": "Disagree gently",
+    "context": "Someone is asking whether you want to talk. You prefer not to.",
+    "prompt_id": "S00055",
+    "prompt_q": "më pëla ti mi-tu shiri ya.",
+    "prompt_en": "Please talk to me.",
+    "choices": [
+      {
+        "id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent."
+      },
+      {
+        "id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you."
+      },
+      {
+        "id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye."
+      }
+    ],
+    "correct_id": "S00138",
+    "reason": "The available negative-consent statement is explicit; this exercise tests refusal, not a script for every situation.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-007",
+    "title": "Help request",
+    "context": "Someone asks if you need help. You do need help urgently.",
+    "prompt_id": "S00152",
+    "prompt_q": "hë ti dëmiwa-m sharoni he?",
+    "prompt_en": "Do you need help?",
+    "choices": [
+      {
+        "id": "S00151",
+        "qaroshi": "khar mi dëmiwa-m sharoni.",
+        "english": "I need help!"
+      },
+      {
+        "id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well."
+      },
+      {
+        "id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night."
+      }
+    ],
+    "correct_id": "S00151",
+    "reason": "State your need for help; do not substitute a pleasant greeting.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-008",
+    "title": "Cannot understand",
+    "context": "Someone asks whether you speak Qaroshi. You do not understand the current utterance.",
+    "prompt_id": "S00013",
+    "prompt_q": "hë ti qaroshi-m shiri he?",
+    "prompt_en": "Do you speak Qaroshi?",
+    "choices": [
+      {
+        "id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand."
+      },
+      {
+        "id": "S00118",
+        "qaroshi": "zha mi qaroshi-m shiri-ki!",
+        "english": "I can speak Qaroshi!"
+      },
+      {
+        "id": "S00014",
+        "qaroshi": "zha mi qaroshi-m rëmi-se.",
+        "english": "I am learning Qaroshi!"
+      }
+    ],
+    "correct_id": "S00017",
+    "reason": "Say you do not understand; speaking ability is a separate question.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-009",
+    "title": "Slow speech",
+    "context": "A friend has not been understood because they spoke too quickly. Request slower speech.",
+    "prompt_id": "S00019",
+    "prompt_q": "hë ti khe-m shiri-te he?",
+    "prompt_en": "What did you say?",
+    "choices": [
+      {
+        "id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly."
+      },
+      {
+        "id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you."
+      },
+      {
+        "id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye."
+      }
+    ],
+    "correct_id": "S00018",
+    "reason": "This asks for a change in pace rather than ending the talk.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-010",
+    "title": "Apology",
+    "context": "You interrupted and want to apologize.",
+    "prompt_id": "S00019",
+    "prompt_q": "hë ti khe-m shiri-te he?",
+    "prompt_en": "What did you say?",
+    "choices": [
+      {
+        "id": "S00016",
+        "qaroshi": "sur mi përë.",
+        "english": "I'm sorry."
+      },
+      {
+        "id": "S00013",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?"
+      },
+      {
+        "id": "S00022",
+        "qaroshi": "zha ti lësha!",
+        "english": "You're cute!"
+      }
+    ],
+    "correct_id": "S00016",
+    "reason": "The apology is lexical; resonance alone does not apologize.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-011",
+    "title": "Ability question",
+    "context": "Someone asks if you can fly. You can.",
+    "prompt_id": "S00107",
+    "prompt_q": "hë ti goro-ki he?",
+    "prompt_en": "Can you fly?",
+    "choices": [
+      {
+        "id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!"
+      },
+      {
+        "id": "S00108",
+        "qaroshi": "hë ti goro-ho he?",
+        "english": "May you fly?"
+      },
+      {
+        "id": "S00136",
+        "qaroshi": "dal mi ti-m daru-du.",
+        "english": "I must protect you."
+      }
+    ],
+    "correct_id": "S00080",
+    "reason": "-ki expresses capacity, not permission or obligation.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-012",
+    "title": "Permission question",
+    "context": "You want to ask whether flying is permitted rather than possible.",
+    "prompt_id": "S00107",
+    "prompt_q": "hë ti goro-ki he?",
+    "prompt_en": "Can you fly?",
+    "choices": [
+      {
+        "id": "S00108",
+        "qaroshi": "hë ti goro-ho he?",
+        "english": "May you fly?"
+      },
+      {
+        "id": "S00101",
+        "qaroshi": "hë ti yeta gura-yu he?",
+        "english": "When will you go?"
+      },
+      {
+        "id": "S00081",
+        "qaroshi": "zha mi-wa goro ya!",
+        "english": "Fly with me!"
+      }
+    ],
+    "correct_id": "S00108",
+    "reason": "-ho explicitly asks about permission.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-013",
+    "title": "Seen versus reported",
+    "context": "You only learned an event from a report, not first hand.",
+    "prompt_id": "S00095",
+    "prompt_q": "sen sa goro-te si.",
+    "prompt_en": "They flew; I saw it.",
+    "choices": [
+      {
+        "id": "S00096",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, according to a report."
+      },
+      {
+        "id": "S00153",
+        "qaroshi": "sen mi qaro-m tika-te si.",
+        "english": "I saw a Nardoragon myself."
+      },
+      {
+        "id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!"
+      }
+    ],
+    "correct_id": "S00096",
+    "reason": "Use hu for reported knowledge; do not claim si without direct observation.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-014",
+    "title": "Uncertainty",
+    "context": "The conversation asks what happened; you do not know.",
+    "prompt_id": "S00019",
+    "prompt_q": "hë ti khe-m shiri-te he?",
+    "prompt_en": "What did you say?",
+    "choices": [
+      {
+        "id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know."
+      },
+      {
+        "id": "S00113",
+        "qaroshi": "sen sa haro do mi sëmi.",
+        "english": "I know they are safe."
+      },
+      {
+        "id": "S00114",
+        "qaroshi": "sen sa goro-yu do mi shërawë.",
+        "english": "I believe they will fly."
+      }
+    ],
+    "correct_id": "S00112",
+    "reason": "State lack of knowledge instead of upgrading belief to fact.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-015",
+    "title": "Keep password",
+    "context": "Someone wants your password; refuse to share.",
+    "prompt_id": "S00125",
+    "prompt_q": "hë ti shiwaro-m tika-te he?",
+    "prompt_en": "Did you see the message?",
+    "choices": [
+      {
+        "id": "S00126",
+        "qaroshi": "sen mi kërawëmi-m nu shëmiwa-yu.",
+        "english": "I won't share my password."
+      },
+      {
+        "id": "S00124",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english": "I sent a message."
+      },
+      {
+        "id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you."
+      }
+    ],
+    "correct_id": "S00126",
+    "reason": "Privacy and explicit nonsharing are different from sending an ordinary message.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-016",
+    "title": "Private material",
+    "context": "A friend asks whether a message is private. It is private.",
+    "prompt_id": "S00125",
+    "prompt_q": "hë ti shiwaro-m tika-te he?",
+    "prompt_en": "Did you see the message?",
+    "choices": [
+      {
+        "id": "S00127",
+        "qaroshi": "qor dëna shënohi.",
+        "english": "This is private."
+      },
+      {
+        "id": "S00124",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english": "I sent a message."
+      },
+      {
+        "id": "S00129",
+        "qaroshi": "sen mi shenaro-m rëgë-yu.",
+        "english": "I will repair the machine."
+      }
+    ],
+    "correct_id": "S00127",
+    "reason": "State the content is private.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-017",
+    "title": "Travel location",
+    "context": "Someone asks where you are headed. You are going toward home.",
+    "prompt_id": "S00089",
+    "prompt_q": "hë ti lona gura he?",
+    "prompt_en": "Where are you going?",
+    "choices": [
+      {
+        "id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home."
+      },
+      {
+        "id": "S00087",
+        "qaroshi": "sen mi naro-de gura.",
+        "english": "I'm leaving home."
+      },
+      {
+        "id": "S00100",
+        "qaroshi": "hë ti lona nëra he?",
+        "english": "Where do you stay?"
+      }
+    ],
+    "correct_id": "S00086",
+    "reason": "-gu marks direction toward home; -de marks from home.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-018",
+    "title": "Leaving home",
+    "context": "You are departing from home, not returning to it.",
+    "prompt_id": "S00089",
+    "prompt_q": "hë ti lona gura he?",
+    "prompt_en": "Where are you going?",
+    "choices": [
+      {
+        "id": "S00087",
+        "qaroshi": "sen mi naro-de gura.",
+        "english": "I'm leaving home."
+      },
+      {
+        "id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home."
+      },
+      {
+        "id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait."
+      }
+    ],
+    "correct_id": "S00087",
+    "reason": "Source -de expresses leaving home.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-019",
+    "title": "Danger nearby",
+    "context": "You realize a friend is walking toward a cliff; warn them.",
+    "prompt_id": "S00089",
+    "prompt_q": "hë ti lona gura he?",
+    "prompt_en": "Where are you going?",
+    "choices": [
+      {
+        "id": "S00090",
+        "qaroshi": "khar wëngaro-de gura ya!",
+        "english": "Get away from the cliff!"
+      },
+      {
+        "id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home."
+      },
+      {
+        "id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!"
+      }
+    ],
+    "correct_id": "S00090",
+    "reason": "Urgent warning is more appropriate than the earlier travel plan.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-020",
+    "title": "Time to rest",
+    "context": "A friend is exhausted and you want to say resting is possible.",
+    "prompt_id": "S00069",
+    "prompt_q": "sen mi shërohi.",
+    "prompt_en": "I'm tired.",
+    "choices": [
+      {
+        "id": "S00051",
+        "qaroshi": "nëm ti nëru-ki.",
+        "english": "You can rest."
+      },
+      {
+        "id": "S00034",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you."
+      },
+      {
+        "id": "S00016",
+        "qaroshi": "sur mi përë.",
+        "english": "I'm sorry."
+      }
+    ],
+    "correct_id": "S00051",
+    "reason": "Offer the option to rest; do not replace it with an unrelated promise.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-021",
+    "title": "Good night",
+    "context": "The discussion is ending at bedtime.",
+    "prompt_id": "S00059",
+    "prompt_q": "sen mi shërami-yu.",
+    "prompt_en": "I will sleep.",
+    "choices": [
+      {
+        "id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night."
+      },
+      {
+        "id": "S00001",
+        "qaroshi": "zha ha, mara!",
+        "english": "Hello, friend!"
+      },
+      {
+        "id": "S00121",
+        "qaroshi": "hë ti khe-m shiroli-se he?",
+        "english": "What are you writing?"
+      }
+    ],
+    "correct_id": "S00077",
+    "reason": "Use the documented night-time farewell.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-022",
+    "title": "Gratitude",
+    "context": "Someone taught you Qaroshi and you want to thank them specifically.",
+    "prompt_id": "S00119",
+    "prompt_q": "sen mi shëliro-se.",
+    "prompt_en": "I am reading.",
+    "choices": [
+      {
+        "id": "S00134",
+        "qaroshi": "hol ti mi-tu qaroshi-m yarëmi-te.",
+        "english": "Thanks for teaching me Qaroshi."
+      },
+      {
+        "id": "S00016",
+        "qaroshi": "sur mi përë.",
+        "english": "I'm sorry."
+      },
+      {
+        "id": "S00010",
+        "qaroshi": "sen mi-na lëru Qaro.",
+        "english": "My name is Qaro."
+      }
+    ],
+    "correct_id": "S00134",
+    "reason": "Use the teaching-specific gratitude form.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-023",
+    "title": "Future attempt",
+    "context": "You have not succeeded yet; commit to trying.",
+    "prompt_id": "S00053",
+    "prompt_q": "rëm mi shëruwi-te.",
+    "prompt_en": "I succeeded!",
+    "choices": [
+      {
+        "id": "S00052",
+        "qaroshi": "dal mi kërawë-yu.",
+        "english": "I will try."
+      },
+      {
+        "id": "S00114",
+        "qaroshi": "sen sa goro-yu do mi shërawë.",
+        "english": "I believe they will fly."
+      },
+      {
+        "id": "S00060",
+        "qaroshi": "sen mi shërami-te.",
+        "english": "I slept."
+      }
+    ],
+    "correct_id": "S00052",
+    "reason": "A future effort is distinct from a past success.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-024",
+    "title": "Evidence of flying",
+    "context": "You personally saw them fly.",
+    "prompt_id": "S00097",
+    "prompt_q": "zher sa goro-te ye.",
+    "prompt_en": "They seem to have flown.",
+    "choices": [
+      {
+        "id": "S00095",
+        "qaroshi": "sen sa goro-te si.",
+        "english": "They flew; I saw it."
+      },
+      {
+        "id": "S00096",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, according to a report."
+      },
+      {
+        "id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know."
+      }
+    ],
+    "correct_id": "S00095",
+    "reason": "si is direct observation.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-025",
+    "title": "Familial love",
+    "context": "You mean familial love, not romance.",
+    "prompt_id": "S00025",
+    "prompt_q": "lën mi ti-m mali.",
+    "prompt_en": "I love you romantically.",
+    "choices": [
+      {
+        "id": "S00026",
+        "qaroshi": "më mi ti-m lani.",
+        "english": "I love you as family."
+      },
+      {
+        "id": "S00024",
+        "qaroshi": "më mi ti-m nashi.",
+        "english": "I cherish you deeply."
+      },
+      {
+        "id": "S00031",
+        "qaroshi": "më mi ti-m mëlë.",
+        "english": "I like you."
+      }
+    ],
+    "correct_id": "S00026",
+    "reason": "Use the lexical predicate for familial love.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-026",
+    "title": "Record keeping",
+    "context": "You want to ask what a friend is writing.",
+    "prompt_id": "S00120",
+    "prompt_q": "sen mi shiroli-te.",
+    "prompt_en": "I wrote.",
+    "choices": [
+      {
+        "id": "S00121",
+        "qaroshi": "hë ti khe-m shiroli-se he?",
+        "english": "What are you writing?"
+      },
+      {
+        "id": "S00119",
+        "qaroshi": "sen mi shëliro-se.",
+        "english": "I am reading."
+      },
+      {
+        "id": "S00122",
+        "qaroshi": "sen mi shimarë-m shëliro.",
+        "english": "I read the dictionary."
+      }
+    ],
+    "correct_id": "S00121",
+    "reason": "A content question about writing needs the object question word.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-027",
+    "title": "Offer protection",
+    "context": "You wish to promise protection in the future, not describe existing ability.",
+    "prompt_id": "S00146",
+    "prompt_q": "hë naru haro he?",
+    "prompt_en": "Are we safe?",
+    "choices": [
+      {
+        "id": "S00135",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you."
+      },
+      {
+        "id": "S00136",
+        "qaroshi": "dal mi ti-m daru-du.",
+        "english": "I must protect you."
+      },
+      {
+        "id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!"
+      }
+    ],
+    "correct_id": "S00135",
+    "reason": "Future action differs from duty and ability.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-028",
+    "title": "Reluctant disclosure",
+    "context": "You have nothing verified to say about a rumor.",
+    "prompt_id": "S00096",
+    "prompt_q": "sen sa goro-te hu.",
+    "prompt_en": "They flew, according to a report.",
+    "choices": [
+      {
+        "id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know."
+      },
+      {
+        "id": "S00095",
+        "qaroshi": "sen sa goro-te si.",
+        "english": "They flew; I saw it."
+      },
+      {
+        "id": "S00153",
+        "qaroshi": "sen mi qaro-m tika-te si.",
+        "english": "I saw a Nardoragon myself."
+      }
+    ],
+    "correct_id": "S00112",
+    "reason": "Admit knowledge is absent rather than borrow the report as evidence.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-029",
+    "title": "Friendly farewell",
+    "context": "A conversation is over and the tone is gentle.",
+    "prompt_id": "S00015",
+    "prompt_q": "hol mi ti-m holë.",
+    "prompt_en": "Thank you.",
+    "choices": [
+      {
+        "id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye."
+      },
+      {
+        "id": "S00006",
+        "qaroshi": "zha roha, mara!",
+        "english": "Welcome, friend!"
+      },
+      {
+        "id": "S00009",
+        "qaroshi": "hë ti-na lëru khe he?",
+        "english": "What is your name?"
+      }
+    ],
+    "correct_id": "S00007",
+    "reason": "Close with a calm goodbye.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  },
+  {
+    "id": "R18-030",
+    "title": "Language practice",
+    "context": "You can speak Qaroshi and want to say so.",
+    "prompt_id": "S00013",
+    "prompt_q": "hë ti qaroshi-m shiri he?",
+    "prompt_en": "Do you speak Qaroshi?",
+    "choices": [
+      {
+        "id": "S00118",
+        "qaroshi": "zha mi qaroshi-m shiri-ki!",
+        "english": "I can speak Qaroshi!"
+      },
+      {
+        "id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand."
+      },
+      {
+        "id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know."
+      }
+    ],
+    "correct_id": "S00118",
+    "reason": "-ki means capacity to speak.",
+    "status": "editorial context-specific response drill based on exact reference sentences"
+  }
+]

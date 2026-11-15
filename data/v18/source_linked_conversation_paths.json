@@ -1,0 +1,2583 @@
+[
+  {
+    "id": "C18-001",
+    "title": "First meeting",
+    "domain": "greeting",
+    "context": "Two friends meet before a language lesson",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00001",
+        "qaroshi": "zha ha, mara!",
+        "english": "Hello, friend!",
+        "ipa": "/ʒa ha, ˈma.ɾa/",
+        "sound_out": "zhah hah, MAH-rah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00003",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well.",
+        "ipa": "/sen mi ˈha.ɾo/",
+        "sound_out": "sehn mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00013",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/",
+        "sound_out": "huh tee qah-ROH-sheem SHEE-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00014",
+        "qaroshi": "zha mi qaroshi-m rëmi-se.",
+        "english": "I am learning Qaroshi!",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ɾə.ˈmi.se/",
+        "sound_out": "zhah mee qah-ROH-sheem ruh-MEE-seh.",
+        "review_rules": "R14-009",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-002",
+    "title": "New acquaintance",
+    "domain": "greeting",
+    "context": "An introduction and a check on language knowledge",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00002",
+        "qaroshi": "nëm ha, mara.",
+        "english": "Hello, friend.",
+        "ipa": "/nəm ha, ˈma.ɾa/",
+        "sound_out": "nuhm hah, MAH-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00009",
+        "qaroshi": "hë ti-na lëru khe he?",
+        "english": "What is your name?",
+        "ipa": "/hə ˈti.na ˈlə.ɾu xe he/",
+        "sound_out": "huh TEE-nah LUH-roo kheh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00010",
+        "qaroshi": "sen mi-na lëru Qaro.",
+        "english": "My name is Qaro.",
+        "ipa": "/sen ˈmi.na ˈlə.ɾu ˈqa.ɾo/",
+        "sound_out": "sehn MEE-nah LUH-roo QAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00013",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/",
+        "sound_out": "huh tee qah-ROH-sheem SHEE-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00118",
+        "qaroshi": "zha mi qaroshi-m shiri-ki!",
+        "english": "I can speak Qaroshi!",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ʃi.ˈɾi.ki/",
+        "sound_out": "zhah mee qah-ROH-sheem shee-REE-kee!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-003",
+    "title": "Quiet welcome",
+    "domain": "greeting",
+    "context": "A guest prefers a low-key reception",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00006",
+        "qaroshi": "zha roha, mara!",
+        "english": "Welcome, friend!",
+        "ipa": "/ʒa ˈɾo.ha, ˈma.ɾa/",
+        "sound_out": "zhah ROH-hah, MAH-rah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00044",
+        "qaroshi": "lën mi lënowa.",
+        "english": "I'm feeling shy.",
+        "ipa": "/lən mi lə.ˈno.wa/",
+        "sound_out": "luhn mee luh-NOH-wah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00042",
+        "qaroshi": "nëm mi nerawo.",
+        "english": "I feel peaceful.",
+        "ipa": "/nəm mi ne.ˈɾa.wo/",
+        "sound_out": "nuhm mee neh-RAH-woh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-004",
+    "title": "Hard day",
+    "domain": "care",
+    "context": "Someone admits that their day is difficult",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00003",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00005",
+        "qaroshi": "sen mi nu haro.",
+        "english": "I am not well.",
+        "ipa": "/sen mi nu ˈha.ɾo/",
+        "sound_out": "sehn mee noo HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00055",
+        "qaroshi": "më pëla ti mi-tu shiri ya.",
+        "english": "Please talk to me.",
+        "ipa": "/mə ˈpə.la ti ˈmi.tu ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah tee MEE-too SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00047",
+        "qaroshi": "zher mi ngëmawe.",
+        "english": "I am worried.",
+        "ipa": "/ʒeɾ mi ŋə.ˈma.we/",
+        "sound_out": "zhehr mee nguh-MAH-weh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00051",
+        "qaroshi": "nëm ti nëru-ki.",
+        "english": "You can rest.",
+        "ipa": "/nəm ti nə.ˈɾu.ki/",
+        "sound_out": "nuhm tee nuh-ROO-kee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-005",
+    "title": "Feeling unsafe",
+    "domain": "safety",
+    "context": "Check on safety without making promises for someone else",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00146",
+        "qaroshi": "hë naru haro he?",
+        "english": "Are we safe?",
+        "ipa": "/hə ˈna.ɾu ˈha.ɾo he/",
+        "sound_out": "huh NAH-roo HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00144",
+        "qaroshi": "khar dëna naro khararo.",
+        "english": "This home is dangerous.",
+        "ipa": "/xaɾ ˈdə.na ˈna.ɾo xa.ˈɾa.ɾo/",
+        "sound_out": "khahr DUH-nah NAH-roh khah-RAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00151",
+        "qaroshi": "khar mi dëmiwa-m sharoni.",
+        "english": "I need help!",
+        "ipa": "/xaɾ mi də.ˈmi.wam ʃa.ˈɾo.ni/",
+        "sound_out": "khahr mee duh-MEE-wahm shah-ROH-nee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00152",
+        "qaroshi": "hë ti dëmiwa-m sharoni he?",
+        "english": "Do you need help?",
+        "ipa": "/hə ti də.ˈmi.wam ʃa.ˈɾo.ni he/",
+        "sound_out": "huh tee duh-MEE-wahm shah-ROH-nee heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-006",
+    "title": "Need a break",
+    "domain": "care",
+    "context": "A tired friend asks for rest",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00056",
+        "qaroshi": "hë ti ngëmawe he?",
+        "english": "Are you worried?",
+        "ipa": "/hə ti ŋə.ˈma.we he/",
+        "sound_out": "huh tee nguh-MAH-weh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00069",
+        "qaroshi": "sen mi shërohi.",
+        "english": "I'm tired.",
+        "ipa": "/sen mi ʃə.ˈɾo.hi/",
+        "sound_out": "sehn mee shuh-ROH-hee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00051",
+        "qaroshi": "nëm ti nëru-ki.",
+        "english": "You can rest.",
+        "ipa": "/nəm ti nə.ˈɾu.ki/",
+        "sound_out": "nuhm tee nuh-ROO-kee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/",
+        "sound_out": "sehn mee shuh-nah-ree-WOH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night.",
+        "ipa": "/nəm ˈja.mi ˈha.ɾo/",
+        "sound_out": "nuhm YAH-mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-007",
+    "title": "Morning check-in",
+    "domain": "care",
+    "context": "A short morning exchange about rest",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00003",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well.",
+        "ipa": "/sen mi ˈha.ɾo/",
+        "sound_out": "sehn mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00059",
+        "qaroshi": "sen mi shërami-yu.",
+        "english": "I will sleep.",
+        "ipa": "/sen mi ʃə.ɾa.ˈmi.ju/",
+        "sound_out": "sehn mee shuh-rah-MEE-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night.",
+        "ipa": "/nəm ˈja.mi ˈha.ɾo/",
+        "sound_out": "nuhm YAH-mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-008",
+    "title": "Calm down",
+    "domain": "care",
+    "context": "A supportive exchange without forcing intimacy",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00047",
+        "qaroshi": "zher mi ngëmawe.",
+        "english": "I am worried.",
+        "ipa": "/ʒeɾ mi ŋə.ˈma.we/",
+        "sound_out": "zhehr mee nguh-MAH-weh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00055",
+        "qaroshi": "më pëla ti mi-tu shiri ya.",
+        "english": "Please talk to me.",
+        "ipa": "/mə ˈpə.la ti ˈmi.tu ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah tee MEE-too SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00042",
+        "qaroshi": "nëm mi nerawo.",
+        "english": "I feel peaceful.",
+        "ipa": "/nəm mi ne.ˈɾa.wo/",
+        "sound_out": "nuhm mee neh-RAH-woh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00057",
+        "qaroshi": "më ti nu ngëmawa.",
+        "english": "You aren't a burden.",
+        "ipa": "/mə ti nu ŋə.ˈma.wa/",
+        "sound_out": "muh tee noo nguh-MAH-wah.",
+        "review_rules": "R14-006",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-009",
+    "title": "No assumptions",
+    "domain": "consent",
+    "context": "Ask rather than assume permission for physical affection",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00032",
+        "qaroshi": "hë mi ti-m mërali-ho he?",
+        "english": "May I hug you?",
+        "ipa": "/hə mi tim mə.ɾa.ˈli.ho he/",
+        "sound_out": "huh mee teem muh-rah-LEE-hoh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00055",
+        "qaroshi": "më pëla ti mi-tu shiri ya.",
+        "english": "Please talk to me.",
+        "ipa": "/mə ˈpə.la ti ˈmi.tu ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah tee MEE-too SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-010",
+    "title": "Ask consent",
+    "domain": "consent",
+    "context": "Consent is answered explicitly",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/",
+        "sound_out": "huh tee mah-HOH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00140",
+        "qaroshi": "qor mi noha-m hari.",
+        "english": "I have a boundary.",
+        "ipa": "/qoɾ mi ˈno.ham ˈha.ɾi/",
+        "sound_out": "qohr mee NOH-hahm HAH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-011",
+    "title": "Boundary setting",
+    "domain": "consent",
+    "context": "A friend states a boundary and the conversation stops",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/",
+        "sound_out": "huh tee mah-HOH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00140",
+        "qaroshi": "qor mi noha-m hari.",
+        "english": "I have a boundary.",
+        "ipa": "/qoɾ mi ˈno.ham ˈha.ɾi/",
+        "sound_out": "qohr mee NOH-hahm HAH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-012",
+    "title": "Permission to fly",
+    "domain": "consent",
+    "context": "Distinguish permission from capability",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00107",
+        "qaroshi": "hë ti goro-ki he?",
+        "english": "Can you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee goh-ROH-kee heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!",
+        "ipa": "/ʒa mi ɡo.ˈɾo.ki/",
+        "sound_out": "zhah mee goh-ROH-kee!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00108",
+        "qaroshi": "hë ti goro-ho he?",
+        "english": "May you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ho he/",
+        "sound_out": "huh tee goh-ROH-hoh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00150",
+        "qaroshi": "qor nu shiwari ya.",
+        "english": "Do not send it.",
+        "ipa": "/qoɾ nu ʃi.ˈwa.ɾi ja/",
+        "sound_out": "qohr noo shee-WAH-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-013",
+    "title": "Friendly invitation",
+    "domain": "consent",
+    "context": "An invitation does not erase the right to refuse",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00081",
+        "qaroshi": "zha mi-wa goro ya!",
+        "english": "Fly with me!",
+        "ipa": "/ʒa ˈmi.wa ˈɡo.ɾo ja/",
+        "sound_out": "zhah MEE-wah GOH-roh yah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/",
+        "sound_out": "huh tee mah-HOH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-014",
+    "title": "New language learner",
+    "domain": "learning",
+    "context": "A learner needs clear slower speech",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00013",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/",
+        "sound_out": "huh tee qah-ROH-sheem SHEE-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00014",
+        "qaroshi": "zha mi qaroshi-m rëmi-se.",
+        "english": "I am learning Qaroshi!",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ɾə.ˈmi.se/",
+        "sound_out": "zhah mee qah-ROH-sheem ruh-MEE-seh.",
+        "review_rules": "R14-009",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand.",
+        "ipa": "/lən mi nu ˈʒə.mi/",
+        "sound_out": "luhn mee noo ZHUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah nguh-LAH-weh SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-015",
+    "title": "Repair a mishearing",
+    "domain": "learning",
+    "context": "Ask the other person to repeat instead of pretending",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00019",
+        "qaroshi": "hë ti khe-m shiri-te he?",
+        "english": "What did you say?",
+        "ipa": "/hə ti xem ʃi.ˈɾi.te he/",
+        "sound_out": "huh tee khehm shee-REE-teh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand.",
+        "ipa": "/lən mi nu ˈʒə.mi/",
+        "sound_out": "luhn mee noo ZHUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah nguh-LAH-weh SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-016",
+    "title": "Studying words",
+    "domain": "learning",
+    "context": "Talk about dictionary use",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00119",
+        "qaroshi": "sen mi shëliro-se.",
+        "english": "I am reading.",
+        "ipa": "/sen mi ʃə.li.ˈɾo.se/",
+        "sound_out": "sehn mee shuh-lee-ROH-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00122",
+        "qaroshi": "sen mi shimarë-m shëliro.",
+        "english": "I read the dictionary.",
+        "ipa": "/sen mi ʃi.ˈma.ɾəm ʃə.ˈli.ɾo/",
+        "sound_out": "sehn mee shee-MAH-ruhm shuh-LEE-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00121",
+        "qaroshi": "hë ti khe-m shiroli-se he?",
+        "english": "What are you writing?",
+        "ipa": "/hə ti xem ʃi.ɾo.ˈli.se he/",
+        "sound_out": "huh tee khehm shee-roh-LEE-seh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know.",
+        "ipa": "/sen mi nu ˈsə.mi/",
+        "sound_out": "sehn mee noo SUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-017",
+    "title": "Begin translation",
+    "domain": "learning",
+    "context": "An uncertain translator asks about the original",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00133",
+        "qaroshi": "sen mi qaroshi-m shëroli-se.",
+        "english": "I'm translating Qaroshi.",
+        "ipa": "/sen mi qa.ˈɾo.ʃim ʃə.ɾo.ˈli.se/",
+        "sound_out": "sehn mee qah-ROH-sheem shuh-roh-LEE-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00121",
+        "qaroshi": "hë ti khe-m shiroli-se he?",
+        "english": "What are you writing?",
+        "ipa": "/hə ti xem ʃi.ɾo.ˈli.se he/",
+        "sound_out": "huh tee khehm shee-roh-LEE-seh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00117",
+        "qaroshi": "sen qaroshishërawëshi haro.",
+        "english": "Qaroshi grammar is good.",
+        "ipa": "/sen qa.ɾo.ʃi.ʃə.ɾa.ˈwə.ʃi ˈha.ɾo/",
+        "sound_out": "sehn qah-roh-shee-shuh-rah-WUH-shee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand.",
+        "ipa": "/lən mi nu ˈʒə.mi/",
+        "sound_out": "luhn mee noo ZHUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah nguh-LAH-weh SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-018",
+    "title": "In a lesson",
+    "domain": "learning",
+    "context": "Check questions in a teaching situation",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00115",
+        "qaroshi": "hë ti ti-na shëno-m hari he?",
+        "english": "Do you have a question?",
+        "ipa": "/hə ti ˈti.na ˈʃə.nom ˈha.ɾi he/",
+        "sound_out": "huh tee TEE-nah SHUH-nohm HAH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00116",
+        "qaroshi": "sen mi ti-na shëno-m përoa-yu.",
+        "english": "I'll answer your question.",
+        "ipa": "/sen mi ˈti.na ˈʃə.nom pə.ɾo.ˈa.ju/",
+        "sound_out": "sehn mee TEE-nah SHUH-nohm puh-roh-AH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00119",
+        "qaroshi": "sen mi shëliro-se.",
+        "english": "I am reading.",
+        "ipa": "/sen mi ʃə.li.ˈɾo.se/",
+        "sound_out": "sehn mee shuh-lee-ROH-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00134",
+        "qaroshi": "hol ti mi-tu qaroshi-m yarëmi-te.",
+        "english": "Thanks for teaching me Qaroshi.",
+        "ipa": "/hol ti ˈmi.tu qa.ˈɾo.ʃim ja.ɾə.ˈmi.te/",
+        "sound_out": "hohl tee MEE-too qah-ROH-sheem yah-ruh-MEE-teh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-019",
+    "title": "Can you speak?",
+    "domain": "learning",
+    "context": "Contrast skill and ongoing practice",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00013",
+        "qaroshi": "hë ti qaroshi-m shiri he?",
+        "english": "Do you speak Qaroshi?",
+        "ipa": "/hə ti qa.ˈɾo.ʃim ˈʃi.ɾi he/",
+        "sound_out": "huh tee qah-ROH-sheem SHEE-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00118",
+        "qaroshi": "zha mi qaroshi-m shiri-ki!",
+        "english": "I can speak Qaroshi!",
+        "ipa": "/ʒa mi qa.ˈɾo.ʃim ʃi.ˈɾi.ki/",
+        "sound_out": "zhah mee qah-ROH-sheem shee-REE-kee!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00119",
+        "qaroshi": "sen mi shëliro-se.",
+        "english": "I am reading.",
+        "ipa": "/sen mi ʃə.li.ˈɾo.se/",
+        "sound_out": "sehn mee shuh-lee-ROH-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00134",
+        "qaroshi": "hol ti mi-tu qaroshi-m yarëmi-te.",
+        "english": "Thanks for teaching me Qaroshi.",
+        "ipa": "/hol ti ˈmi.tu qa.ˈɾo.ʃim ja.ɾə.ˈmi.te/",
+        "sound_out": "hohl tee MEE-too qah-ROH-sheem yah-ruh-MEE-teh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-020",
+    "title": "Correct a claim",
+    "domain": "learning",
+    "context": "The speakers admit uncertainty about what happened",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00095",
+        "qaroshi": "sen sa goro-te si.",
+        "english": "They flew; I saw it.",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/",
+        "sound_out": "sehn sah goh-ROH-teh see.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00096",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00097",
+        "qaroshi": "zher sa goro-te ye.",
+        "english": "They seem to have flown.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.te je/",
+        "sound_out": "zhehr sah goh-ROH-teh yeh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know.",
+        "ipa": "/sen mi nu ˈsə.mi/",
+        "sound_out": "sehn mee noo SUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00019",
+        "qaroshi": "hë ti khe-m shiri-te he?",
+        "english": "What did you say?",
+        "ipa": "/hə ti xem ʃi.ˈɾi.te he/",
+        "sound_out": "huh tee khehm shee-REE-teh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-021",
+    "title": "Water break",
+    "domain": "daily",
+    "context": "Someone is thirsty after practicing",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00065",
+        "qaroshi": "hë ti shënahoho he?",
+        "english": "Are you hungry?",
+        "ipa": "/hə ti ʃə.na.ˈho.ho he/",
+        "sound_out": "huh tee shuh-nah-HOH-hoh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00066",
+        "qaroshi": "sen mi këmëhoho.",
+        "english": "I'm thirsty.",
+        "ipa": "/sen mi kə.mə.ˈho.ho/",
+        "sound_out": "sehn mee kuh-muh-HOH-hoh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00064",
+        "qaroshi": "sen mi kima-m këmë.",
+        "english": "I drink water.",
+        "ipa": "/sen mi ˈki.mam ˈkə.mə/",
+        "sound_out": "sehn mee KEE-mahm KUH-muh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-022",
+    "title": "At home",
+    "domain": "daily",
+    "context": "A visitor asks for basic needs",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00075",
+        "qaroshi": "hë zhërowë lona he?",
+        "english": "Where is the bathroom?",
+        "ipa": "/hə ʒə.ˈɾo.wə ˈlo.na he/",
+        "sound_out": "huh zhuh-ROH-wuh LOH-nah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00066",
+        "qaroshi": "sen mi këmëhoho.",
+        "english": "I'm thirsty.",
+        "ipa": "/sen mi kə.mə.ˈho.ho/",
+        "sound_out": "sehn mee kuh-muh-HOH-hoh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00064",
+        "qaroshi": "sen mi kima-m këmë.",
+        "english": "I drink water.",
+        "ipa": "/sen mi ˈki.mam ˈkə.mə/",
+        "sound_out": "sehn mee KEE-mahm KUH-muh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-023",
+    "title": "Bedtime",
+    "domain": "daily",
+    "context": "End a conversation respectfully",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00069",
+        "qaroshi": "sen mi shërohi.",
+        "english": "I'm tired.",
+        "ipa": "/sen mi ʃə.ˈɾo.hi/",
+        "sound_out": "sehn mee shuh-ROH-hee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00051",
+        "qaroshi": "nëm ti nëru-ki.",
+        "english": "You can rest.",
+        "ipa": "/nəm ti nə.ˈɾu.ki/",
+        "sound_out": "nuhm tee nuh-ROO-kee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00059",
+        "qaroshi": "sen mi shërami-yu.",
+        "english": "I will sleep.",
+        "ipa": "/sen mi ʃə.ɾa.ˈmi.ju/",
+        "sound_out": "sehn mee shuh-rah-MEE-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night.",
+        "ipa": "/nəm ˈja.mi ˈha.ɾo/",
+        "sound_out": "nuhm YAH-mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-024",
+    "title": "Too cold",
+    "domain": "daily",
+    "context": "Discuss basic comfort",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00067",
+        "qaroshi": "sen mi ngëruwa.",
+        "english": "I'm cold.",
+        "ipa": "/sen mi ŋə.ˈɾu.wa/",
+        "sound_out": "sehn mee nguh-ROO-wah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00068",
+        "qaroshi": "sen mi kërawoa.",
+        "english": "I'm pleasantly warm.",
+        "ipa": "/sen mi kə.ɾa.ˈwo.a/",
+        "sound_out": "sehn mee kuh-rah-WOH-ah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00042",
+        "qaroshi": "nëm mi nerawo.",
+        "english": "I feel peaceful.",
+        "ipa": "/nəm mi ne.ˈɾa.wo/",
+        "sound_out": "nuhm mee neh-RAH-woh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night.",
+        "ipa": "/nəm ˈja.mi ˈha.ɾo/",
+        "sound_out": "nuhm YAH-mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-025",
+    "title": "Getting ready",
+    "domain": "daily",
+    "context": "Preparing to go out",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/",
+        "sound_out": "sehn mee shuh-nah-ree-WOH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00078",
+        "qaroshi": "sen mi zhëroli-te.",
+        "english": "I got dressed.",
+        "ipa": "/sen mi ʒə.ɾo.ˈli.te/",
+        "sound_out": "sehn mee zhuh-roh-LEE-teh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-026",
+    "title": "Which direction?",
+    "domain": "travel",
+    "context": "A companion asks where someone is heading",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00089",
+        "qaroshi": "hë ti lona gura he?",
+        "english": "Where are you going?",
+        "ipa": "/hə ti ˈlo.na ˈɡu.ɾa he/",
+        "sound_out": "huh tee LOH-nah GOO-rah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00101",
+        "qaroshi": "hë ti yeta gura-yu he?",
+        "english": "When will you go?",
+        "ipa": "/hə ti ˈje.ta ɡu.ˈɾa.ju he/",
+        "sound_out": "huh tee YEH-tah goo-RAH-yoo heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/",
+        "sound_out": "sehn mee shuh-nah-ree-WOH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-027",
+    "title": "At the cliff",
+    "domain": "travel",
+    "context": "A warning interrupts a planned journey",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00089",
+        "qaroshi": "hë ti lona gura he?",
+        "english": "Where are you going?",
+        "ipa": "/hə ti ˈlo.na ˈɡu.ɾa he/",
+        "sound_out": "huh tee LOH-nah GOO-rah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00090",
+        "qaroshi": "khar wëngaro-de gura ya!",
+        "english": "Get away from the cliff!",
+        "ipa": "/xaɾ wə.ŋa.ˈɾo.de ˈɡu.ɾa ja/",
+        "sound_out": "khahr wuh-ngah-ROH-deh GOO-rah yah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00046",
+        "qaroshi": "khar mi kharo-m hari.",
+        "english": "I am afraid.",
+        "ipa": "/xaɾ mi ˈxa.ɾom ˈha.ɾi/",
+        "sound_out": "khahr mee KHAH-rohm HAH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00152",
+        "qaroshi": "hë ti dëmiwa-m sharoni he?",
+        "english": "Do you need help?",
+        "ipa": "/hə ti də.ˈmi.wam ʃa.ˈɾo.ni he/",
+        "sound_out": "huh tee duh-MEE-wahm shah-ROH-nee heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-028",
+    "title": "Travel by wing",
+    "domain": "travel",
+    "context": "Separate the ability to fly from the plan",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00107",
+        "qaroshi": "hë ti goro-ki he?",
+        "english": "Can you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee goh-ROH-kee heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!",
+        "ipa": "/ʒa mi ɡo.ˈɾo.ki/",
+        "sound_out": "zhah mee goh-ROH-kee!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00081",
+        "qaroshi": "zha mi-wa goro ya!",
+        "english": "Fly with me!",
+        "ipa": "/ʒa ˈmi.wa ˈɡo.ɾo ja/",
+        "sound_out": "zhah MEE-wah GOH-roh yah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-029",
+    "title": "Staying over",
+    "domain": "travel",
+    "context": "Find out where someone plans to stay",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00100",
+        "qaroshi": "hë ti lona nëra he?",
+        "english": "Where do you stay?",
+        "ipa": "/hə ti ˈlo.na ˈnə.ɾa he/",
+        "sound_out": "huh tee LOH-nah NUH-rah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00086",
+        "qaroshi": "sen mi naro-gu gura.",
+        "english": "I'm going toward home.",
+        "ipa": "/sen mi na.ˈɾo.ɡu ˈɡu.ɾa/",
+        "sound_out": "sehn mee nah-ROH-goo GOO-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/",
+        "sound_out": "sehn mee shuh-nah-ree-WOH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-030",
+    "title": "The night sky",
+    "domain": "nature",
+    "context": "A peaceful exchange about stars and the sky",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00083",
+        "qaroshi": "nëm wena rëla.",
+        "english": "The sky is beautiful.",
+        "ipa": "/nəm ˈwe.na ˈɾə.la/",
+        "sound_out": "nuhm WEH-nah RUH-lah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00085",
+        "qaroshi": "sen naru sëra-ri-m wena-lo tika.",
+        "english": "We see stars in the sky.",
+        "ipa": "/sen ˈna.ɾu sə.ˈɾa.ɾim we.ˈna.lo ˈti.ka/",
+        "sound_out": "sehn NAH-roo suh-RAH-reem weh-NAH-loh TEE-kah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00094",
+        "qaroshi": "nëm sëra-ri yëli-se.",
+        "english": "The stars are shining.",
+        "ipa": "/nəm sə.ˈɾa.ɾi jə.ˈli.se/",
+        "sound_out": "nuhm suh-RAH-ree yuh-LEE-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00042",
+        "qaroshi": "nëm mi nerawo.",
+        "english": "I feel peaceful.",
+        "ipa": "/nəm mi ne.ˈɾa.wo/",
+        "sound_out": "nuhm mee neh-RAH-woh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-031",
+    "title": "Storm watch",
+    "domain": "nature",
+    "context": "A forecast and a safety check",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00093",
+        "qaroshi": "sen khuramo haro.",
+        "english": "The breeze is pleasant.",
+        "ipa": "/sen xu.ˈɾa.mo ˈha.ɾo/",
+        "sound_out": "sehn khoo-RAH-moh HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00092",
+        "qaroshi": "yë yela yënawë-se.",
+        "english": "The moon is rising!",
+        "ipa": "/jə ˈje.la jə.na.ˈwə.se/",
+        "sound_out": "yuh YEH-lah yuh-nah-WUH-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00146",
+        "qaroshi": "hë naru haro he?",
+        "english": "Are we safe?",
+        "ipa": "/hə ˈna.ɾu ˈha.ɾo he/",
+        "sound_out": "huh NAH-roo HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00090",
+        "qaroshi": "khar wëngaro-de gura ya!",
+        "english": "Get away from the cliff!",
+        "ipa": "/xaɾ wə.ŋa.ˈɾo.de ˈɡu.ɾa ja/",
+        "sound_out": "khahr wuh-ngah-ROH-deh GOO-rah yah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-032",
+    "title": "Flying together",
+    "domain": "nature",
+    "context": "A friend explains ability and companionship",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00107",
+        "qaroshi": "hë ti goro-ki he?",
+        "english": "Can you fly?",
+        "ipa": "/hə ti ɡo.ˈɾo.ki he/",
+        "sound_out": "huh tee goh-ROH-kee heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00080",
+        "qaroshi": "zha mi goro-ki!",
+        "english": "I can fly!",
+        "ipa": "/ʒa mi ɡo.ˈɾo.ki/",
+        "sound_out": "zhah mee goh-ROH-kee!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00081",
+        "qaroshi": "zha mi-wa goro ya!",
+        "english": "Fly with me!",
+        "ipa": "/ʒa ˈmi.wa ˈɡo.ɾo ja/",
+        "sound_out": "zhah MEE-wah GOH-roh yah!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00084",
+        "qaroshi": "yë ti-na banu-ri shëngaro.",
+        "english": "Your wings sparkle!",
+        "ipa": "/jə ˈti.na ba.ˈnu.ɾi ʃə.ˈŋa.ɾo/",
+        "sound_out": "yuh TEE-nah bah-NOO-ree shuh-NGAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-033",
+    "title": "After the flight",
+    "domain": "nature",
+    "context": "Discuss what was directly observed",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00095",
+        "qaroshi": "sen sa goro-te si.",
+        "english": "They flew; I saw it.",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/",
+        "sound_out": "sehn sah goh-ROH-teh see.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00096",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00097",
+        "qaroshi": "zher sa goro-te ye.",
+        "english": "They seem to have flown.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.te je/",
+        "sound_out": "zhehr sah goh-ROH-teh yeh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know.",
+        "ipa": "/sen mi nu ˈsə.mi/",
+        "sound_out": "sehn mee noo SUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-034",
+    "title": "Message privacy",
+    "domain": "online",
+    "context": "Do not casually disclose secrets",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00124",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english": "I sent a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00125",
+        "qaroshi": "hë ti shiwaro-m tika-te he?",
+        "english": "Did you see the message?",
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ti.ˈka.te he/",
+        "sound_out": "huh tee shee-WAH-rohm tee-KAH-teh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00126",
+        "qaroshi": "sen mi kërawëmi-m nu shëmiwa-yu.",
+        "english": "I won't share my password.",
+        "ipa": "/sen mi kə.ɾa.ˈwə.mim nu ʃə.mi.ˈwa.ju/",
+        "sound_out": "sehn mee kuh-rah-WUH-meem noo shuh-mee-WAH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00127",
+        "qaroshi": "qor dëna shënohi.",
+        "english": "This is private.",
+        "ipa": "/qoɾ ˈdə.na ʃə.ˈno.hi/",
+        "sound_out": "qohr DUH-nah shuh-NOH-hee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-035",
+    "title": "Troubleshooting",
+    "domain": "online",
+    "context": "A broken device and an offer to repair it",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00128",
+        "qaroshi": "sen shenaro shëmoa.",
+        "english": "The machine is broken.",
+        "ipa": "/sen ʃe.ˈna.ɾo ʃə.ˈmo.a/",
+        "sound_out": "sehn sheh-NAH-roh shuh-MOH-ah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00129",
+        "qaroshi": "sen mi shenaro-m rëgë-yu.",
+        "english": "I will repair the machine.",
+        "ipa": "/sen mi ʃe.ˈna.ɾom ɾə.ˈɡə.ju/",
+        "sound_out": "sehn mee sheh-NAH-rohm ruh-GUH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00130",
+        "qaroshi": "hë dëna shërawëlon lona he?",
+        "english": "Where is this file?",
+        "ipa": "/hə ˈdə.na ʃə.ɾa.ˈwə.lon ˈlo.na he/",
+        "sound_out": "huh DUH-nah shuh-rah-WUH-lohn LOH-nah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00115",
+        "qaroshi": "hë ti ti-na shëno-m hari he?",
+        "english": "Do you have a question?",
+        "ipa": "/hə ti ˈti.na ˈʃə.nom ˈha.ɾi he/",
+        "sound_out": "huh tee TEE-nah SHUH-nohm HAH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-036",
+    "title": "Read the message",
+    "domain": "online",
+    "context": "Check whether a message was actually read",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00124",
+        "qaroshi": "sen mi shiwaro-m shiwari-te.",
+        "english": "I sent a message.",
+        "ipa": "/sen mi ʃi.ˈwa.ɾom ʃi.wa.ˈɾi.te/",
+        "sound_out": "sehn mee shee-WAH-rohm shee-wah-REE-teh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00125",
+        "qaroshi": "hë ti shiwaro-m tika-te he?",
+        "english": "Did you see the message?",
+        "ipa": "/hə ti ʃi.ˈwa.ɾom ti.ˈka.te he/",
+        "sound_out": "huh tee shee-WAH-rohm tee-KAH-teh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00019",
+        "qaroshi": "hë ti khe-m shiri-te he?",
+        "english": "What did you say?",
+        "ipa": "/hə ti xem ʃi.ˈɾi.te he/",
+        "sound_out": "huh tee khehm shee-REE-teh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know.",
+        "ipa": "/sen mi nu ˈsə.mi/",
+        "sound_out": "sehn mee noo SUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-037",
+    "title": "Online boundaries",
+    "domain": "online",
+    "context": "A person declines to share confidential material",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00126",
+        "qaroshi": "sen mi kërawëmi-m nu shëmiwa-yu.",
+        "english": "I won't share my password.",
+        "ipa": "/sen mi kə.ɾa.ˈwə.mim nu ʃə.mi.ˈwa.ju/",
+        "sound_out": "sehn mee kuh-rah-WUH-meem noo shuh-mee-WAH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00127",
+        "qaroshi": "qor dëna shënohi.",
+        "english": "This is private.",
+        "ipa": "/qoɾ ˈdə.na ʃə.ˈno.hi/",
+        "sound_out": "qohr DUH-nah shuh-NOH-hee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-038",
+    "title": "At the festival",
+    "domain": "arts",
+    "context": "Friends discuss cultural activities",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00182",
+        "qaroshi": "sen mi morushira-m shiri.",
+        "english": "I tell a story.",
+        "ipa": "/sen mi mo.ɾu.ˈʃi.ɾam ˈʃi.ɾi/",
+        "sound_out": "sehn mee moh-roo-SHEE-rahm SHEE-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00183",
+        "qaroshi": "zha naru dëmaro-lo rëmo.",
+        "english": "We celebrate at the festival.",
+        "ipa": "/ʒa ˈna.ɾu də.ma.ˈɾo.lo ˈɾə.mo/",
+        "sound_out": "zhah NAH-roo duh-mah-ROH-loh RUH-moh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00184",
+        "qaroshi": "nëm shirawe rëla.",
+        "english": "The melody is beautiful.",
+        "ipa": "/nəm ʃi.ˈɾa.we ˈɾə.la/",
+        "sound_out": "nuhm shee-RAH-weh RUH-lah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00186",
+        "qaroshi": "zha naru rënali.",
+        "english": "We dance together.",
+        "ipa": "/ʒa ˈna.ɾu ɾə.ˈna.li/",
+        "sound_out": "zhah NAH-roo ruh-NAH-lee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-039",
+    "title": "Singing and dancing",
+    "domain": "arts",
+    "context": "Appreciate performance and shared effort",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00185",
+        "qaroshi": "zha sa shirali-se!",
+        "english": "They are singing!",
+        "ipa": "/ʒa sa ʃi.ɾa.ˈli.se/",
+        "sound_out": "zhah sah shee-rah-LEE-seh!",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00184",
+        "qaroshi": "nëm shirawe rëla.",
+        "english": "The melody is beautiful.",
+        "ipa": "/nəm ʃi.ˈɾa.we ˈɾə.la/",
+        "sound_out": "nuhm shee-RAH-weh RUH-lah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00186",
+        "qaroshi": "zha naru rënali.",
+        "english": "We dance together.",
+        "ipa": "/ʒa ˈna.ɾu ɾə.ˈna.li/",
+        "sound_out": "zhah NAH-roo ruh-NAH-lee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-040",
+    "title": "Story time",
+    "domain": "arts",
+    "context": "A learner reads and tells a story",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00182",
+        "qaroshi": "sen mi morushira-m shiri.",
+        "english": "I tell a story.",
+        "ipa": "/sen mi mo.ɾu.ˈʃi.ɾam ˈʃi.ɾi/",
+        "sound_out": "sehn mee moh-roo-SHEE-rahm SHEE-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00119",
+        "qaroshi": "sen mi shëliro-se.",
+        "english": "I am reading.",
+        "ipa": "/sen mi ʃə.li.ˈɾo.se/",
+        "sound_out": "sehn mee shuh-lee-ROH-seh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00121",
+        "qaroshi": "hë ti khe-m shiroli-se he?",
+        "english": "What are you writing?",
+        "ipa": "/hə ti xem ʃi.ɾo.ˈli.se he/",
+        "sound_out": "huh tee khehm shee-roh-LEE-seh heh?",
+        "review_rules": "R14-003",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-041",
+    "title": "Different kinds of love",
+    "domain": "care",
+    "context": "Warmth, family, and romance are not interchangeable",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00031",
+        "qaroshi": "më mi ti-m mëlë.",
+        "english": "I like you.",
+        "ipa": "/mə mi tim ˈmə.lə/",
+        "sound_out": "muh mee teem MUH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00025",
+        "qaroshi": "lën mi ti-m mali.",
+        "english": "I love you romantically.",
+        "ipa": "/lən mi tim ˈma.li/",
+        "sound_out": "luhn mee teem MAH-lee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00026",
+        "qaroshi": "më mi ti-m lani.",
+        "english": "I love you as family.",
+        "ipa": "/mə mi tim ˈla.ni/",
+        "sound_out": "muh mee teem LAH-nee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00032",
+        "qaroshi": "hë mi ti-m mërali-ho he?",
+        "english": "May I hug you?",
+        "ipa": "/hə mi tim mə.ɾa.ˈli.ho he/",
+        "sound_out": "huh mee teem muh-rah-LEE-hoh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/",
+        "sound_out": "huh tee mah-HOH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-042",
+    "title": "Mistake and apology",
+    "domain": "care",
+    "context": "Repair an upset conversation",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00016",
+        "qaroshi": "sur mi përë.",
+        "english": "I'm sorry.",
+        "ipa": "/suɾ mi ˈpə.ɾə/",
+        "sound_out": "soor mee PUH-ruh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00017",
+        "qaroshi": "lën mi nu zhëmi.",
+        "english": "I don't understand.",
+        "ipa": "/lən mi nu ˈʒə.mi/",
+        "sound_out": "luhn mee noo ZHUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah nguh-LAH-weh SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-043",
+    "title": "Goodbye with respect",
+    "domain": "greeting",
+    "context": "A gentle closing after discussion",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00008",
+        "qaroshi": "më përo, mara-lë.",
+        "english": "Goodbye, dear friend.",
+        "ipa": "/mə ˈpə.ɾo, ma.ˈɾa.lə/",
+        "sound_out": "muh PUH-roh, mah-RAH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-044",
+    "title": "Protection or promise?",
+    "domain": "safety",
+    "context": "Distinguish a promise from a requirement",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00135",
+        "qaroshi": "qor mi ti-m daru-yu.",
+        "english": "I will protect you.",
+        "ipa": "/qoɾ mi tim da.ˈɾu.ju/",
+        "sound_out": "qohr mee teem dah-ROO-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00136",
+        "qaroshi": "dal mi ti-m daru-du.",
+        "english": "I must protect you.",
+        "ipa": "/dal mi tim da.ˈɾu.du/",
+        "sound_out": "dahl mee teem dah-ROO-doo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00137",
+        "qaroshi": "qor mi namu-m shënawi.",
+        "english": "I promise.",
+        "ipa": "/qoɾ mi ˈna.mum ʃə.ˈna.wi/",
+        "sound_out": "qohr mee NAH-moom shuh-NAH-wee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-045",
+    "title": "No pressure to answer",
+    "domain": "consent",
+    "context": "Consent and explicit refusal",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00139",
+        "qaroshi": "hë ti mahori he?",
+        "english": "Do you consent?",
+        "ipa": "/hə ti ma.ˈho.ɾi he/",
+        "sound_out": "huh tee mah-HOH-ree heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00138",
+        "qaroshi": "sen mi nu mahori.",
+        "english": "I do not consent.",
+        "ipa": "/sen mi nu ma.ˈho.ɾi/",
+        "sound_out": "sehn mee noo mah-HOH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00140",
+        "qaroshi": "qor mi noha-m hari.",
+        "english": "I have a boundary.",
+        "ipa": "/qoɾ mi ˈno.ham ˈha.ɾi/",
+        "sound_out": "qohr mee NOH-hahm HAH-ree.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-046",
+    "title": "Unknown information",
+    "domain": "learning",
+    "context": "Do not present reported evidence as observation",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00095",
+        "qaroshi": "sen sa goro-te si.",
+        "english": "They flew; I saw it.",
+        "ipa": "/sen sa ɡo.ˈɾo.te si/",
+        "sound_out": "sehn sah goh-ROH-teh see.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00096",
+        "qaroshi": "sen sa goro-te hu.",
+        "english": "They flew, according to a report.",
+        "ipa": "/sen sa ɡo.ˈɾo.te hu/",
+        "sound_out": "sehn sah goh-ROH-teh hoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00097",
+        "qaroshi": "zher sa goro-te ye.",
+        "english": "They seem to have flown.",
+        "ipa": "/ʒeɾ sa ɡo.ˈɾo.te je/",
+        "sound_out": "zhehr sah goh-ROH-teh yeh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00112",
+        "qaroshi": "sen mi nu sëmi.",
+        "english": "I don't know.",
+        "ipa": "/sen mi nu ˈsə.mi/",
+        "sound_out": "sehn mee noo SUH-mee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-047",
+    "title": "Questions in sequence",
+    "domain": "learning",
+    "context": "Learn location, time, manner and reason",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00100",
+        "qaroshi": "hë ti lona nëra he?",
+        "english": "Where do you stay?",
+        "ipa": "/hə ti ˈlo.na ˈnə.ɾa he/",
+        "sound_out": "huh tee LOH-nah NUH-rah heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00101",
+        "qaroshi": "hë ti yeta gura-yu he?",
+        "english": "When will you go?",
+        "ipa": "/hə ti ˈje.ta ɡu.ˈɾa.ju he/",
+        "sound_out": "huh tee YEH-tah goo-RAH-yoo heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00102",
+        "qaroshi": "hë ti shoro nëru he?",
+        "english": "Why are you resting?",
+        "ipa": "/hə ti ˈʃo.ɾo ˈnə.ɾu he/",
+        "sound_out": "huh tee SHOH-roh NUH-roo heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00103",
+        "qaroshi": "hë ti hara goro he?",
+        "english": "How do you fly?",
+        "ipa": "/hə ti ˈha.ɾa ˈɡo.ɾo he/",
+        "sound_out": "huh tee HAH-rah GOH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00018",
+        "qaroshi": "më pëla ngëlawe shiri ya.",
+        "english": "Please speak slowly.",
+        "ipa": "/mə ˈpə.la ŋə.ˈla.we ˈʃi.ɾi ja/",
+        "sound_out": "muh PUH-lah nguh-LAH-weh SHEE-ree yah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-048",
+    "title": "Small talk",
+    "domain": "greeting",
+    "context": "Greet, ask, answer, and leave",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00002",
+        "qaroshi": "nëm ha, mara.",
+        "english": "Hello, friend.",
+        "ipa": "/nəm ha, ˈma.ɾa/",
+        "sound_out": "nuhm hah, MAH-rah.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00003",
+        "qaroshi": "hë ti haro he?",
+        "english": "Are you well?",
+        "ipa": "/hə ti ˈha.ɾo he/",
+        "sound_out": "huh tee HAH-roh heh?",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00004",
+        "qaroshi": "sen mi haro.",
+        "english": "I am well.",
+        "ipa": "/sen mi ˈha.ɾo/",
+        "sound_out": "sehn mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00015",
+        "qaroshi": "hol mi ti-m holë.",
+        "english": "Thank you.",
+        "ipa": "/hol mi tim ˈho.lə/",
+        "sound_out": "hohl mee teem HOH-luh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00007",
+        "qaroshi": "nëm përo.",
+        "english": "Goodbye.",
+        "ipa": "/nəm ˈpə.ɾo/",
+        "sound_out": "nuhm PUH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  },
+  {
+    "id": "C18-049",
+    "title": "A rest decision",
+    "domain": "care",
+    "context": "A quiet agreement to take time alone",
+    "provenance": "editorial teaching scenario assembled from documented phrases; not an observed conversation",
+    "turns": [
+      {
+        "speaker": "A",
+        "reference_id": "S00069",
+        "qaroshi": "sen mi shërohi.",
+        "english": "I'm tired.",
+        "ipa": "/sen mi ʃə.ˈɾo.hi/",
+        "sound_out": "sehn mee shuh-ROH-hee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00051",
+        "qaroshi": "nëm ti nëru-ki.",
+        "english": "You can rest.",
+        "ipa": "/nəm ti nə.ˈɾu.ki/",
+        "sound_out": "nuhm tee nuh-ROO-kee.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "A",
+        "reference_id": "S00071",
+        "qaroshi": "sen mi shënariwo-yu.",
+        "english": "I will wait.",
+        "ipa": "/sen mi ʃə.na.ɾi.ˈwo.ju/",
+        "sound_out": "sehn mee shuh-nah-ree-WOH-yoo.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      },
+      {
+        "speaker": "B",
+        "reference_id": "S00077",
+        "qaroshi": "nëm yami haro.",
+        "english": "Good night.",
+        "ipa": "/nəm ˈja.mi ˈha.ɾo/",
+        "sound_out": "nuhm YAH-mee HAH-roh.",
+        "review_rules": "",
+        "provenance": "exact documented bilingual reference phrase; scenario ordering editorial"
+      }
+    ]
+  }
+]

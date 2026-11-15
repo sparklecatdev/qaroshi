@@ -1,0 +1,38 @@
+{
+  "release": "18.0+19.0",
+  "canonical_dictionary": 30000,
+  "canonical_examples": 4383,
+  "source_anchored_dialogue_scenarios": 49,
+  "scenario_turns": 214,
+  "distinct_source_phrase_ids_in_scenarios": 93,
+  "editorial_contrasts": 32,
+  "pragmatic_grammar_rules": 24,
+  "structured_practice_paths": 10,
+  "parser_errata": 9,
+  "contextual_reply_drills": 30,
+  "pronunciation_readings": 93,
+  "semantics_candidate_proposals": 3817,
+  "manual_review_records": 65,
+  "review_tiers": {
+    "deferred_unreviewed": 1789,
+    "machine_priority_unapproved": 1963,
+    "trial_only": 44,
+    "blocked_false_friend": 12,
+    "semantic_hold": 9
+  },
+  "unapproved_root_dossiers": 8,
+  "root_curriculum_entries": 1914,
+  "ultimate_productive_roots": 1820,
+  "compound_coverage_by_learned_roots": {
+    "120": 0,
+    "200": 722,
+    "400": 3301,
+    "600": 5497,
+    "1000": 8401,
+    "1200": 9798,
+    "1914": 13379
+  },
+  "canonical_words_added_or_replaced": 0,
+  "release_policy": "pedagogical usage layer; source-aligned teaching only; no spontaneous-speaker claims",
+  "outside_changes_policy": "all v18/19 files are in new versioned paths; existing source files remain untouched"
+}

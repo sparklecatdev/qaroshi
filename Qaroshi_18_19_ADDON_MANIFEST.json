@@ -1,0 +1,29 @@
+{
+  "release": "Qaroshi 18.0+19.0 combined / navigation 1.1",
+  "policy": "additive-only; no replacement to upstream existing paths",
+  "files": {
+    "Qaroshi_18_19_Living_Language_Studio.html": "08531faa297c44e8cbad7339fa3619178438403b549be1118974f4f9ffb1deeb",
+    "README_18_19_START_HERE.md": "5da5da4ffabe56b5d8db43a226d881e1b20a31a2e978bef550816e204aec10e1",
+    "RELEASE_18_19_NOTES.md": "5751837d2e7b2b8b0dac394ea62a5c3525e0f8368da0126a04c44a81486bee70",
+    "data/v18/contextual_reply_drills.json": "0e90682355aedb19f9c286a01742b19377a490eac20552205860bfcc0ebafb8b",
+    "data/v18/grammar_parser_errata.csv": "25739a75e1b923c567deae6a3a76fee4b5cebe870a8e2cfc81bde32e61cd4a12",
+    "data/v18/meaning_contrasts.csv": "48eada2d1e75a27a6f056ddf304520caf9c7d044dbe5fc9c63c57999f324f91c",
+    "data/v18/pragmatic_register_rules.csv": "9ca3a396c33cc87318cdd95b21d2569aca88bd220deefb93fd6cff358ca950fd",
+    "data/v18/pronunciation_reading_93.csv": "1e41ec6162fe6c89a64b456f4aab5dbbea26caa811326dbaa7ffd9573840bc2c",
+    "data/v18/source_linked_conversation_paths.json": "bfcc5b1b643338118fc6cc5d5d59f2f4c1ac38183363ba4c7e225c7aed2defad",
+    "data/v18/ten_practical_paths.json": "d59245863444fca58b37c467c238dd4031b343b7b28b21e1ddfec8e60967d01e",
+    "data/v18_19_manifest.json": "4e8133fc85654c404d45ef42d7346f77989e4d94d9d9b0c975f3ee1b67aa8b6a",
+    "data/v18_19_navigation_checks.json": "6fb67abbf5318251082a545573bf9d4be8b95befbfba975561b05e8262335b9e",
+    "data/v19/interpretation_trials.csv": "08000919e7bcf97123f93cbb9100fb49654c16ff1679ffe51a7c103192475bf3",
+    "data/v19/productive_root_curriculum.csv": "49c4c34dd77296b0e4711ca8e6055cc853eff3a532ffaacb2507803433bff1af",
+    "data/v19/reviewed_and_screened_3817.csv": "6b0a0412b8dc051486a52ac1d06f7fba0c43a89e577c3e955488fefa684cc017",
+    "data/v19/unapproved_root_dossiers.csv": "dd511ec36e197d6b08ddd80547cbf82c7ad85bd340eded2c571d8df2694d73da",
+    "docs/18_19_NAVIGATION_MAP.md": "684225b8249738472ef13d9d48ca3014a84727dbd785573f19e9bfe9884ff50a",
+    "tests/test_v18_19_living_language.py": "0b9ecdf075f474489525ec153debd5889663832f352d18f4a46215a37bf13243",
+    "tools/v18_19/app_template.html": "34c71bb8a0032d18f6b0d022b508c51a4b24c2d12dd65ce8f24e3d21972b18bd",
+    "tools/v18_19/browser_smoke.py": "3a2b5d51c8a66ee1546c64436eedaed254c23a14e6df87323a68cf890ce2c078",
+    "tools/v18_19/build_release.py": "d4f7adc99534192c1d650c110f0afdacc3de5f48993a10511314538d7197db08",
+    "tools/v18_19/content.py": "9e409eaefd715bb336e77d68b7296079a8738bca868be32177a17aaa3341c93f",
+    "tools/v18_19/interaction_cases.py": "46f425d25b0dfc87bde8bdafcfba60cec47011707e7c011362bd221d7b232bcb"
+  }
+}
