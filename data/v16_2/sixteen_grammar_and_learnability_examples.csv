@@ -1,0 +1,17 @@
+index,topic,qaroshi,english,comment,source_status
+0,Known lexical base,banu,wing,The lexical meaning must be learned; grammar cannot infer it from the spelling.,canonical example or explicitly labeled proposal
+1,Transparent candidate,banuqamago,wing joint,Proposed modifier banu + head qamago; not a synonym until review.,canonical example or explicitly labeled proposal
+2,Direct-object case,banu-m,wing as object,"Case suffix -m is grammatical, not a new dictionary entry.",canonical example or explicitly labeled proposal
+3,Locative case,naro-lo,at home,Case -lo marks location; do not infer the base meaning from the suffix.,canonical example or explicitly labeled proposal
+4,Comitative case,ti-wa,with you,"Case -wa encodes accompaniment, not an English pronoun substitution.",canonical example or explicitly labeled proposal
+5,Plural after base,mara-ri,friends,Nominal plural -ri is productive.,canonical example or explicitly labeled proposal
+6,Verb past,goro-te,flew,Past -te attaches to a known verb.,canonical example or explicitly labeled proposal
+7,Verb permission,goro-ho,may fly,Permission -ho is not ability -ki.,canonical example or explicitly labeled proposal
+8,Verb ability,goro-ki,can fly,Ability -ki differs from permission.,canonical example or explicitly labeled proposal
+9,Verb habitual,goro-në,flies habitually,"The habitual ending is aspect, not a new lexeme.",canonical example or explicitly labeled proposal
+10,Causative,goro-ru,cause to fly,"Causative marks changed valency, not a new root.",canonical example or explicitly labeled proposal
+11,Instrument,dëmi-këlë,helping instrument,Only an exploratory productive derivation: application and semantic suitability require review.,canonical example or explicitly labeled proposal
+12,Event noun,rekesi-rëma,cycling occurrence,"Event nominalizer, not a confirmed generic noun for cycle.",canonical example or explicitly labeled proposal
+13,Resonance register,sen mi kima-m këmë.,I drink water.,Every complete sentence requires an initial resonance marker.,canonical example or explicitly labeled proposal
+14,SOV sentence,sen naru qaroshi-m shiri.,We speak Qaroshi.,The direct object precedes the verb in ordinary clauses.,canonical example or explicitly labeled proposal
+15,Adjective order,sen ti haro.,You are well.,Adjective predication does not require present-tense copula.,canonical example or explicitly labeled proposal
