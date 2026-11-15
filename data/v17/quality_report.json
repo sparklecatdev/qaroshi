@@ -1,0 +1,48 @@
+{
+  "version": "17.0 editorial practice kit",
+  "manifest": {
+    "phrase_count": 656,
+    "original_phrasebook": 190,
+    "living_speech": 106,
+    "other_topical": 360,
+    "mission_count": 32,
+    "lesson_count": 10,
+    "builder_fixtures": 390,
+    "core_roots": 120,
+    "resonance_count": 16,
+    "glyph_count": 26,
+    "qa_review_rows": 92,
+    "categories": {
+      "Greetings": 14,
+      "Other useful reference": 126,
+      "Learning and clarification": 85,
+      "Feelings and care": 57,
+      "Social and plans": 29,
+      "Arts and culture": 19,
+      "Safety and consent": 60,
+      "Nature and Nardoragons": 41,
+      "Health and access": 51,
+      "Food and home": 52,
+      "Work and learning": 27,
+      "Directions and travel": 33,
+      "Messages and privacy": 36,
+      "Money and shopping": 26
+    },
+    "limit": "controlled reference examples and editorial dialogues; no spontaneous speakers, not unrestricted translation"
+  },
+  "review_rule_occurrences": {
+    "R14-003": 3,
+    "R14-006": 2,
+    "R14-007": 5,
+    "R14-009": 1,
+    "R14-010": 10,
+    "R14-015": 71,
+    "R14-016": 5
+  },
+  "source_preservation": "29 baseline SHA-256 checked by tests; no canonical files mutated",
+  "misalignment_guard": "All 656 phrases are byte-for-byte aligned to matching reference IDs; 32 scenes use exact prior editorial turns",
+  "source_status": "Controlled teaching/reference, not speaker-attested",
+  "interface_browser_checks": 52,
+  "python_suite_total_in_development": 1029,
+  "python_suite_skipped": 1
+}

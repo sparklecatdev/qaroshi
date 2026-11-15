@@ -156,7 +156,7 @@
     }).join('');
     const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
     return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
+      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_17_Everyday_Communicator.html">Everyday communicator</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
       <div class="side-group"><div class="side-heading">Learn Qaroshi</div>
       ${a('learn','Learning library')}
       ${a('guide/getting_started','Start here')}
@@ -170,7 +170,7 @@
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
       <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/living','Living speech, profanity & intimacy')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Release 14</strong><br>Reference available offline.</div>`;
+      <div class="side-divider"></div><div class="sidebar-footer">Qaroshi reference<br><strong>Release 17</strong></div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -224,13 +224,14 @@
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · RELEASE 14</div>
+        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · RELEASE 17</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
         <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
       </section>
       <div class="quick-grid">
         <a class="quick-card" href="#assistant"><span class="arrow">›</span><strong>AI assistant</strong><small>Ask questions or translate</small></a>
+        <a class="quick-card" href="Qaroshi_17_Everyday_Communicator.html"><span class="arrow">›</span><strong>Everyday communicator</strong><small>Practice phrases, dialogues and sentence building</small></a>
         <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Look up any word with IPA, sound-out and letter-by-letter pronunciation</small></a>
         <a class="quick-card learning-quick" href="#learn"><span class="arrow">›</span><strong>Learning library</strong><small>16 lessons, step-by-step guides and practice answers</small></a>
         <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar</strong><small>Read rules, examples and suffixes</small></a>
@@ -244,7 +245,7 @@
       ${glyphHTML('më ti lësha.',{large:true})}
       <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
       <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all ${C.length} grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Qaroshi Release 14 · Reference available offline · <a href="#guide/release">Reference notes</a></div></article>`;
+      <div class="foot">Qaroshi Release 17 · <a href="#guide/release">Reference notes</a></div></article>`;
     setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
   }
   let assistantIndex;
@@ -583,7 +584,7 @@
   function renderGuide(id){
     if(!D.guides[id]){renderMissing('Guide not found');return}
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Guides',studyBy.get(id)?.title || TOP_PAGES[id] || id,studyBy.has(id)?'Deep learning guide · Worked examples, IPA, and active practice':'Qaroshi supporting documentation')}
-      <div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
+      <div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Reference guide from the Qaroshi source documents.</div></article>`;
     enrichToc();
   }
   function renderAbout(){
@@ -592,7 +593,7 @@
       <h2 id="unity">One standard</h2><p>The dictionary contains ${count(W.length)} distinct entries, the phrasebook ${count(P.length)} examples, and the grammar ${C.length} numbered chapters. The complete dictionary is available from a single index.</p>
       <h2 id="preservation">Original native writing</h2><p>The 26 original glyphs remain available in the script guide and Romanization-to-glyph converter.</p>
       <h2 id="limits">What the tools do</h2><p>Dictionary search uses meanings and spellings; it is not a complete machine translation engine. The glyph converter renders Romanized Qaroshi as native handwritten letters. Example sentences are teaching material rather than a measurement of spontaneous spoken frequency.</p>
-      <div class="foot">The reference works offline. The AI assistant requires an internet connection and an OpenRouter API key.</div></article>`;
+      <div class="foot">The AI assistant requires an OpenRouter API key.</div></article>`;
     setToc([{id:'unity',name:'Unified standard'},{id:'preservation',name:'Native writing'},{id:'limits',name:'Tools'}]);
   }
   function renderSearch(route){

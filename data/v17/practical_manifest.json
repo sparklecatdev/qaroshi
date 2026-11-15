@@ -1,0 +1,30 @@
+{
+  "phrase_count": 656,
+  "original_phrasebook": 190,
+  "living_speech": 106,
+  "other_topical": 360,
+  "mission_count": 32,
+  "lesson_count": 10,
+  "builder_fixtures": 390,
+  "core_roots": 120,
+  "resonance_count": 16,
+  "glyph_count": 26,
+  "qa_review_rows": 92,
+  "categories": {
+    "Greetings": 14,
+    "Other useful reference": 126,
+    "Learning and clarification": 85,
+    "Feelings and care": 57,
+    "Social and plans": 29,
+    "Arts and culture": 19,
+    "Safety and consent": 60,
+    "Nature and Nardoragons": 41,
+    "Health and access": 51,
+    "Food and home": 52,
+    "Work and learning": 27,
+    "Directions and travel": 33,
+    "Messages and privacy": 36,
+    "Money and shopping": 26
+  },
+  "limit": "controlled reference examples and editorial dialogues; no spontaneous speakers, not unrestricted translation"
+}

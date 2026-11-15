@@ -1,0 +1,3122 @@
+[
+ {
+  "qaroshi": "sen mi goro.",
+  "verb": "goro",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi goro-ki he?",
+  "verb": "goro",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi goro-ho.",
+  "verb": "goro",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi goro-te.",
+  "verb": "goro",
+  "subject": "mi",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi goro-yu he?",
+  "verb": "goro",
+  "subject": "mi",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti goro.",
+  "verb": "goro",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti goro-ki.",
+  "verb": "goro",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë ti goro-ho he?",
+  "verb": "goro",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti goro-te.",
+  "verb": "goro",
+  "subject": "ti",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti goro-yu.",
+  "verb": "goro",
+  "subject": "ti",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa goro he?",
+  "verb": "goro",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa goro-ki.",
+  "verb": "goro",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa goro-ho.",
+  "verb": "goro",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa goro-te he?",
+  "verb": "goro",
+  "subject": "sa",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa goro-yu.",
+  "verb": "goro",
+  "subject": "sa",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru goro.",
+  "verb": "goro",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru goro-ki he?",
+  "verb": "goro",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru goro-ho.",
+  "verb": "goro",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru goro-te.",
+  "verb": "goro",
+  "subject": "naru",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru goro-yu he?",
+  "verb": "goro",
+  "subject": "naru",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi nëru.",
+  "verb": "nëru",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi nëru-ki.",
+  "verb": "nëru",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi nëru-ho he?",
+  "verb": "nëru",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi nëru-te.",
+  "verb": "nëru",
+  "subject": "mi",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi nëru-yu.",
+  "verb": "nëru",
+  "subject": "mi",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti nëru he?",
+  "verb": "nëru",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti nëru-ki.",
+  "verb": "nëru",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti nëru-ho.",
+  "verb": "nëru",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti nëru-te he?",
+  "verb": "nëru",
+  "subject": "ti",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti nëru-yu.",
+  "verb": "nëru",
+  "subject": "ti",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa nëru.",
+  "verb": "nëru",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa nëru-ki he?",
+  "verb": "nëru",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa nëru-ho.",
+  "verb": "nëru",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa nëru-te.",
+  "verb": "nëru",
+  "subject": "sa",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa nëru-yu he?",
+  "verb": "nëru",
+  "subject": "sa",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru nëru.",
+  "verb": "nëru",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru nëru-ki.",
+  "verb": "nëru",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru nëru-ho he?",
+  "verb": "nëru",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru nëru-te.",
+  "verb": "nëru",
+  "subject": "naru",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru nëru-yu.",
+  "verb": "nëru",
+  "subject": "naru",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi nëra he?",
+  "verb": "nëra",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi nëra-ki.",
+  "verb": "nëra",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi nëra-ho.",
+  "verb": "nëra",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë mi nëra-te he?",
+  "verb": "nëra",
+  "subject": "mi",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi nëra-yu.",
+  "verb": "nëra",
+  "subject": "mi",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti nëra.",
+  "verb": "nëra",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti nëra-ki he?",
+  "verb": "nëra",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti nëra-ho.",
+  "verb": "nëra",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti nëra-te.",
+  "verb": "nëra",
+  "subject": "ti",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti nëra-yu he?",
+  "verb": "nëra",
+  "subject": "ti",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa nëra.",
+  "verb": "nëra",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa nëra-ki.",
+  "verb": "nëra",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa nëra-ho he?",
+  "verb": "nëra",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa nëra-te.",
+  "verb": "nëra",
+  "subject": "sa",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa nëra-yu.",
+  "verb": "nëra",
+  "subject": "sa",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru nëra he?",
+  "verb": "nëra",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru nëra-ki.",
+  "verb": "nëra",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru nëra-ho.",
+  "verb": "nëra",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru nëra-te he?",
+  "verb": "nëra",
+  "subject": "naru",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru nëra-yu.",
+  "verb": "nëra",
+  "subject": "naru",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi gura.",
+  "verb": "gura",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi gura-ki he?",
+  "verb": "gura",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi gura-ho.",
+  "verb": "gura",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi gura-te.",
+  "verb": "gura",
+  "subject": "mi",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi gura-yu he?",
+  "verb": "gura",
+  "subject": "mi",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti gura.",
+  "verb": "gura",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti gura-ki.",
+  "verb": "gura",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë ti gura-ho he?",
+  "verb": "gura",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti gura-te.",
+  "verb": "gura",
+  "subject": "ti",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti gura-yu.",
+  "verb": "gura",
+  "subject": "ti",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa gura he?",
+  "verb": "gura",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa gura-ki.",
+  "verb": "gura",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa gura-ho.",
+  "verb": "gura",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa gura-te he?",
+  "verb": "gura",
+  "subject": "sa",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa gura-yu.",
+  "verb": "gura",
+  "subject": "sa",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru gura.",
+  "verb": "gura",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru gura-ki he?",
+  "verb": "gura",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru gura-ho.",
+  "verb": "gura",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru gura-te.",
+  "verb": "gura",
+  "subject": "naru",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru gura-yu he?",
+  "verb": "gura",
+  "subject": "naru",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi rëmi.",
+  "verb": "rëmi",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi rëmi-ki.",
+  "verb": "rëmi",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi rëmi-ho he?",
+  "verb": "rëmi",
+  "subject": "mi",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi rëmi-te.",
+  "verb": "rëmi",
+  "subject": "mi",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi rëmi-yu.",
+  "verb": "rëmi",
+  "subject": "mi",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti rëmi he?",
+  "verb": "rëmi",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti rëmi-ki.",
+  "verb": "rëmi",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti rëmi-ho.",
+  "verb": "rëmi",
+  "subject": "ti",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti rëmi-te he?",
+  "verb": "rëmi",
+  "subject": "ti",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti rëmi-yu.",
+  "verb": "rëmi",
+  "subject": "ti",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa rëmi.",
+  "verb": "rëmi",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa rëmi-ki he?",
+  "verb": "rëmi",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa rëmi-ho.",
+  "verb": "rëmi",
+  "subject": "sa",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa rëmi-te.",
+  "verb": "rëmi",
+  "subject": "sa",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa rëmi-yu he?",
+  "verb": "rëmi",
+  "subject": "sa",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru rëmi.",
+  "verb": "rëmi",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru rëmi-ki.",
+  "verb": "rëmi",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru rëmi-ho he?",
+  "verb": "rëmi",
+  "subject": "naru",
+  "object": "",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru rëmi-te.",
+  "verb": "rëmi",
+  "subject": "naru",
+  "object": "",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru rëmi-yu.",
+  "verb": "rëmi",
+  "subject": "naru",
+  "object": "",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi kima-m këmë he?",
+  "verb": "këmë",
+  "subject": "mi",
+  "object": "kima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi kima-m këmë-ki.",
+  "verb": "këmë",
+  "subject": "mi",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi kima-m këmë-ho.",
+  "verb": "këmë",
+  "subject": "mi",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë mi kima-m këmë-te he?",
+  "verb": "këmë",
+  "subject": "mi",
+  "object": "kima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi kima-m këmë-yu.",
+  "verb": "këmë",
+  "subject": "mi",
+  "object": "kima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti kima-m këmë.",
+  "verb": "këmë",
+  "subject": "ti",
+  "object": "kima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti kima-m këmë-ki he?",
+  "verb": "këmë",
+  "subject": "ti",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti kima-m këmë-ho.",
+  "verb": "këmë",
+  "subject": "ti",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti kima-m këmë-te.",
+  "verb": "këmë",
+  "subject": "ti",
+  "object": "kima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti kima-m këmë-yu he?",
+  "verb": "këmë",
+  "subject": "ti",
+  "object": "kima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa kima-m këmë.",
+  "verb": "këmë",
+  "subject": "sa",
+  "object": "kima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa kima-m këmë-ki.",
+  "verb": "këmë",
+  "subject": "sa",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa kima-m këmë-ho he?",
+  "verb": "këmë",
+  "subject": "sa",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa kima-m këmë-te.",
+  "verb": "këmë",
+  "subject": "sa",
+  "object": "kima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa kima-m këmë-yu.",
+  "verb": "këmë",
+  "subject": "sa",
+  "object": "kima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru kima-m këmë he?",
+  "verb": "këmë",
+  "subject": "naru",
+  "object": "kima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru kima-m këmë-ki.",
+  "verb": "këmë",
+  "subject": "naru",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru kima-m këmë-ho.",
+  "verb": "këmë",
+  "subject": "naru",
+  "object": "kima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru kima-m këmë-te he?",
+  "verb": "këmë",
+  "subject": "naru",
+  "object": "kima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru kima-m këmë-yu.",
+  "verb": "këmë",
+  "subject": "naru",
+  "object": "kima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shima-m shëliro.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shima-m shëliro-ki he?",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi shima-m shëliro-ho.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi shima-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shima-m shëliro-yu he?",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shëliro.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shëliro-ki.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi shiwaro-m shëliro-ho he?",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shëliro-yu.",
+  "verb": "shëliro",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shima-m shëliro he?",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shima-m shëliro-ki.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti shima-m shëliro-ho.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti shima-m shëliro-te he?",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shima-m shëliro-yu.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shëliro.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shiwaro-m shëliro-ki he?",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shëliro-ho.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shiwaro-m shëliro-yu he?",
+  "verb": "shëliro",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m shëliro.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m shëliro-ki.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa shima-m shëliro-ho he?",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa shima-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m shëliro-yu.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shëliro he?",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shëliro-ki.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shëliro-ho.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shëliro-te he?",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shëliro-yu.",
+  "verb": "shëliro",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shima-m shëliro.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shima-m shëliro-ki he?",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru shima-m shëliro-ho.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru shima-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shima-m shëliro-yu he?",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shëliro.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shëliro-ki.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru shiwaro-m shëliro-ho he?",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shëliro-te.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shëliro-yu.",
+  "verb": "shëliro",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi sëra-m tika he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "sëra",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sëra-m tika-ki.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi sëra-m tika-ho.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë mi sëra-m tika-te he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "sëra",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sëra-m tika-yu.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "sëra",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi qaro-m tika.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "qaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi qaro-m tika-ki he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi qaro-m tika-ho.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi qaro-m tika-te.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "qaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi qaro-m tika-yu he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "qaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi naro-m tika.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "naro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi naro-m tika-ki.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi naro-m tika-ho he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi naro-m tika-te.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "naro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi naro-m tika-yu.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "naro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shima-m tika he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shima-m tika-ki.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi shima-m tika-ho.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë mi shima-m tika-te he?",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shima-m tika-yu.",
+  "verb": "tika",
+  "subject": "mi",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti sëra-m tika.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "sëra",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sëra-m tika-ki he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti sëra-m tika-ho.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti sëra-m tika-te.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "sëra",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sëra-m tika-yu he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "sëra",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti qaro-m tika.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "qaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti qaro-m tika-ki.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë ti qaro-m tika-ho he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti qaro-m tika-te.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "qaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti qaro-m tika-yu.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "qaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti naro-m tika he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "naro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti naro-m tika-ki.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti naro-m tika-ho.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti naro-m tika-te he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "naro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti naro-m tika-yu.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "naro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shima-m tika.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shima-m tika-ki he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti shima-m tika-ho.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti shima-m tika-te.",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shima-m tika-yu he?",
+  "verb": "tika",
+  "subject": "ti",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa sëra-m tika.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "sëra",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa sëra-m tika-ki.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa sëra-m tika-ho he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa sëra-m tika-te.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "sëra",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa sëra-m tika-yu.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "sëra",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa qaro-m tika he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "qaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa qaro-m tika-ki.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa qaro-m tika-ho.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa qaro-m tika-te he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "qaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa qaro-m tika-yu.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "qaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa naro-m tika.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "naro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa naro-m tika-ki he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa naro-m tika-ho.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa naro-m tika-te.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "naro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa naro-m tika-yu he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "naro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m tika.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m tika-ki.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa shima-m tika-ho he?",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa shima-m tika-te.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shima-m tika-yu.",
+  "verb": "tika",
+  "subject": "sa",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru sëra-m tika he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "sëra",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sëra-m tika-ki.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru sëra-m tika-ho.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "sëra",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru sëra-m tika-te he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "sëra",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sëra-m tika-yu.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "sëra",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru qaro-m tika.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "qaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru qaro-m tika-ki he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru qaro-m tika-ho.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "qaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru qaro-m tika-te.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "qaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru qaro-m tika-yu he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "qaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru naro-m tika.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "naro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru naro-m tika-ki.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru naro-m tika-ho he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "naro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru naro-m tika-te.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "naro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru naro-m tika-yu.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "naro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shima-m tika he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shima-m tika-ki.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru shima-m tika-ho.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru shima-m tika-te he?",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shima-m tika-yu.",
+  "verb": "tika",
+  "subject": "naru",
+  "object": "shima",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiwari.",
+  "verb": "shiwari",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shiwaro-m shiwari-ki he?",
+  "verb": "shiwari",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiwari-ho.",
+  "verb": "shiwari",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiwari-te.",
+  "verb": "shiwari",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shiwaro-m shiwari-yu he?",
+  "verb": "shiwari",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiwari.",
+  "verb": "shiwari",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiwari-ki.",
+  "verb": "shiwari",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë ti shiwaro-m shiwari-ho he?",
+  "verb": "shiwari",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiwari-te.",
+  "verb": "shiwari",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiwari-yu.",
+  "verb": "shiwari",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shiwari he?",
+  "verb": "shiwari",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiwari-ki.",
+  "verb": "shiwari",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiwari-ho.",
+  "verb": "shiwari",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shiwari-te he?",
+  "verb": "shiwari",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiwari-yu.",
+  "verb": "shiwari",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiwari.",
+  "verb": "shiwari",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shiwaro-m shiwari-ki he?",
+  "verb": "shiwari",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiwari-ho.",
+  "verb": "shiwari",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiwari-te.",
+  "verb": "shiwari",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shiwaro-m shiwari-yu he?",
+  "verb": "shiwari",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shina-m shiroli.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shina",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shina-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi shina-m shiroli-ho he?",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi shina-m shiroli-te.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shina",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shina-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shina",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi shiwaro-m shiroli he?",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiroli-ho.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë mi shiwaro-m shiroli-te he?",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi shiwaro-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "mi",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shina-m shiroli.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shina",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shina-m shiroli-ki he?",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti shina-m shiroli-ho.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti shina-m shiroli-te.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shina",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti shina-m shiroli-yu he?",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shina",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiroli.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë ti shiwaro-m shiroli-ho he?",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiroli-te.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti shiwaro-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "ti",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa shina-m shiroli he?",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shina",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shina-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa shina-m shiroli-ho.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa shina-m shiroli-te he?",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shina",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shina-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shina",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiroli.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shiroli-ki he?",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiroli-ho.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa shiwaro-m shiroli-te.",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa shiwaro-m shiroli-yu he?",
+  "verb": "shiroli",
+  "subject": "sa",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shina-m shiroli.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shina",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shina-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru shina-m shiroli-ho he?",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shina",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru shina-m shiroli-te.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shina",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shina-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shina",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru shiwaro-m shiroli he?",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiroli-ki.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiroli-ho.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru shiwaro-m shiroli-te he?",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru shiwaro-m shiroli-yu.",
+  "verb": "shiroli",
+  "subject": "naru",
+  "object": "shiwaro",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi ti-m daru.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi ti-m daru-ki he?",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi ti-m daru-ho.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi ti-m daru-te.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi ti-m daru-yu he?",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m daru.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m daru-ki.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi sa-m daru-ho he?",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi sa-m daru-te.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m daru-yu.",
+  "verb": "daru",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti mi-m daru he?",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti mi-m daru-ki.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti mi-m daru-ho.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti mi-m daru-te he?",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti mi-m daru-yu.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti sa-m daru.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sa-m daru-ki he?",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti sa-m daru-ho.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti sa-m daru-te.",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sa-m daru-yu he?",
+  "verb": "daru",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m daru.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m daru-ki.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa mi-m daru-ho he?",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa mi-m daru-te.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m daru-yu.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa ti-m daru he?",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa ti-m daru-ki.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa ti-m daru-ho.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa ti-m daru-te he?",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa ti-m daru-yu.",
+  "verb": "daru",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru mi-m daru.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru mi-m daru-ki he?",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru mi-m daru-ho.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru mi-m daru-te.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru mi-m daru-yu he?",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m daru.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m daru-ki.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru ti-m daru-ho he?",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru ti-m daru-te.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m daru-yu.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru sa-m daru he?",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sa-m daru-ki.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru sa-m daru-ho.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru sa-m daru-te he?",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sa-m daru-yu.",
+  "verb": "daru",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi ti-m dëmi.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi ti-m dëmi-ki he?",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen mi ti-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi ti-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë mi ti-m dëmi-yu he?",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m dëmi.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë mi sa-m dëmi-ho he?",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen mi sa-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen mi sa-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "mi",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti mi-m dëmi he?",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti mi-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti mi-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë ti mi-m dëmi-te he?",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti mi-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen ti sa-m dëmi.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sa-m dëmi-ki he?",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen ti sa-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen ti sa-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë ti sa-m dëmi-yu he?",
+  "verb": "dëmi",
+  "subject": "ti",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m dëmi.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë sa mi-m dëmi-ho he?",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen sa mi-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa mi-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë sa ti-m dëmi he?",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa ti-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen sa ti-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë sa ti-m dëmi-te he?",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen sa ti-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "sa",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru mi-m dëmi.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru mi-m dëmi-ki he?",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru mi-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru mi-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru mi-m dëmi-yu he?",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "mi",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m dëmi.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "hë naru ti-m dëmi-ho he?",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "sen naru ti-m dëmi-te.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru ti-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "ti",
+  "tense": "-yu",
+  "modal": ""
+ },
+ {
+  "qaroshi": "hë naru sa-m dëmi he?",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sa-m dëmi-ki.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ki"
+ },
+ {
+  "qaroshi": "sen naru sa-m dëmi-ho.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "",
+  "modal": "-ho"
+ },
+ {
+  "qaroshi": "hë naru sa-m dëmi-te he?",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "-te",
+  "modal": ""
+ },
+ {
+  "qaroshi": "sen naru sa-m dëmi-yu.",
+  "verb": "dëmi",
+  "subject": "naru",
+  "object": "sa",
+  "tense": "-yu",
+  "modal": ""
+ }
+]

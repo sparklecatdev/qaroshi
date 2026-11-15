@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Start talking",
+    "category": "Greetings",
+    "phrases": [
+      {
+        "id": "S00001",
+        "qr": "zha ha, mara!",
+        "en": "Hello, friend!"
+      },
+      {
+        "id": "S00003",
+        "qr": "hë ti haro he?",
+        "en": "Are you well?"
+      },
+      {
+        "id": "S00004",
+        "qr": "sen mi haro.",
+        "en": "I am well."
+      },
+      {
+        "id": "S00015",
+        "qr": "hol mi ti-m holë.",
+        "en": "Thank you."
+      },
+      {
+        "id": "S00007",
+        "qr": "nëm përo.",
+        "en": "Goodbye."
+      }
+    ]
+  },
+  {
+    "name": "Ask for clarification",
+    "category": "Learning and clarification",
+    "phrases": [
+      {
+        "id": "S00013",
+        "qr": "hë ti qaroshi-m shiri he?",
+        "en": "Do you speak Qaroshi?"
+      },
+      {
+        "id": "S00017",
+        "qr": "lën mi nu zhëmi.",
+        "en": "I don't understand."
+      },
+      {
+        "id": "S00018",
+        "qr": "më pëla ngëlawe shiri ya.",
+        "en": "Please speak slowly."
+      },
+      {
+        "id": "S00019",
+        "qr": "hë ti khe-m shiri-te he?",
+        "en": "What did you say?"
+      },
+      {
+        "id": "S00112",
+        "qr": "sen mi nu sëmi.",
+        "en": "I don't know."
+      }
+    ]
+  },
+  {
+    "name": "Care and safety",
+    "category": "Safety and consent",
+    "phrases": [
+      {
+        "id": "S00138",
+        "qr": "sen mi nu mahori.",
+        "en": "I do not consent."
+      },
+      {
+        "id": "S00139",
+        "qr": "hë ti mahori he?",
+        "en": "Do you consent?"
+      },
+      {
+        "id": "S00140",
+        "qr": "qor mi noha-m hari.",
+        "en": "I have a boundary."
+      },
+      {
+        "id": "S00151",
+        "qr": "khar mi dëmiwa-m sharoni.",
+        "en": "I need help!"
+      },
+      {
+        "id": "S00152",
+        "qr": "hë ti dëmiwa-m sharoni he?",
+        "en": "Do you need help?"
+      }
+    ]
+  },
+  {
+    "name": "Daily needs",
+    "category": "Food and home",
+    "phrases": [
+      {
+        "id": "S00064",
+        "qr": "sen mi kima-m këmë.",
+        "en": "I drink water."
+      },
+      {
+        "id": "S00065",
+        "qr": "hë ti shënahoho he?",
+        "en": "Are you hungry?"
+      },
+      {
+        "id": "S00066",
+        "qr": "sen mi këmëhoho.",
+        "en": "I'm thirsty."
+      },
+      {
+        "id": "S00069",
+        "qr": "sen mi shërohi.",
+        "en": "I'm tired."
+      },
+      {
+        "id": "S00075",
+        "qr": "hë zhërowë lona he?",
+        "en": "Where is the bathroom?"
+      }
+    ]
+  },
+  {
+    "name": "Questions and travel",
+    "category": "Directions and travel",
+    "phrases": [
+      {
+        "id": "S00086",
+        "qr": "sen mi naro-gu gura.",
+        "en": "I'm going toward home."
+      },
+      {
+        "id": "S00089",
+        "qr": "hë ti lona gura he?",
+        "en": "Where are you going?"
+      },
+      {
+        "id": "S00100",
+        "qr": "hë ti lona nëra he?",
+        "en": "Where do you stay?"
+      },
+      {
+        "id": "S00101",
+        "qr": "hë ti yeta gura-yu he?",
+        "en": "When will you go?"
+      },
+      {
+        "id": "S00090",
+        "qr": "khar wëngaro-de gura ya!",
+        "en": "Get away from the cliff!"
+      }
+    ]
+  },
+  {
+    "name": "Connect and respect",
+    "category": "Feelings and care",
+    "phrases": [
+      {
+        "id": "S00031",
+        "qr": "më mi ti-m mëlë.",
+        "en": "I like you."
+      },
+      {
+        "id": "S00032",
+        "qr": "hë mi ti-m mërali-ho he?",
+        "en": "May I hug you?"
+      },
+      {
+        "id": "S00046",
+        "qr": "khar mi kharo-m hari.",
+        "en": "I am afraid."
+      },
+      {
+        "id": "S00055",
+        "qr": "më pëla ti mi-tu shiri ya.",
+        "en": "Please talk to me."
+      },
+      {
+        "id": "S00057",
+        "qr": "më ti nu ngëmawa.",
+        "en": "You aren't a burden."
+      }
+    ]
+  },
+  {
+    "name": "Make plans",
+    "category": "Social and plans",
+    "phrases": [
+      {
+        "id": "S00071",
+        "qr": "sen mi shënariwo-yu.",
+        "en": "I will wait."
+      },
+      {
+        "id": "S00034",
+        "qr": "qor mi ti-m daru-yu.",
+        "en": "I will protect you."
+      },
+      {
+        "id": "S00052",
+        "qr": "dal mi kërawë-yu.",
+        "en": "I will try."
+      },
+      {
+        "id": "S00148",
+        "qr": "dal mi kërawë-yu.",
+        "en": "I will try."
+      },
+      {
+        "id": "S00150",
+        "qr": "qor nu shiwari ya.",
+        "en": "Do not send it."
+      }
+    ]
+  },
+  {
+    "name": "Online messages",
+    "category": "Messages and privacy",
+    "phrases": [
+      {
+        "id": "S00124",
+        "qr": "sen mi shiwaro-m shiwari-te.",
+        "en": "I sent a message."
+      },
+      {
+        "id": "S00125",
+        "qr": "hë ti shiwaro-m tika-te he?",
+        "en": "Did you see the message?"
+      },
+      {
+        "id": "S00126",
+        "qr": "sen mi kërawëmi-m nu shëmiwa-yu.",
+        "en": "I won't share my password."
+      },
+      {
+        "id": "S00127",
+        "qr": "qor dëna shënohi.",
+        "en": "This is private."
+      },
+      {
+        "id": "S00130",
+        "qr": "hë dëna shërawëlon lona he?",
+        "en": "Where is this file?"
+      }
+    ]
+  },
+  {
+    "name": "Distinguish truth claims",
+    "category": "Learning and clarification",
+    "phrases": [
+      {
+        "id": "S00095",
+        "qr": "sen sa goro-te si.",
+        "en": "They flew; I saw it."
+      },
+      {
+        "id": "S00096",
+        "qr": "sen sa goro-te hu.",
+        "en": "They flew, according to a report."
+      },
+      {
+        "id": "S00097",
+        "qr": "zher sa goro-te ye.",
+        "en": "They seem to have flown."
+      },
+      {
+        "id": "S00112",
+        "qr": "sen mi nu sëmi.",
+        "en": "I don't know."
+      },
+      {
+        "id": "S00114",
+        "qr": "sen sa goro-yu do mi shërawë.",
+        "en": "I believe they will fly."
+      }
+    ]
+  },
+  {
+    "name": "Talk about learning",
+    "category": "Learning and clarification",
+    "phrases": [
+      {
+        "id": "S00118",
+        "qr": "zha mi qaroshi-m shiri-ki!",
+        "en": "I can speak Qaroshi!"
+      },
+      {
+        "id": "S00119",
+        "qr": "sen mi shëliro-se.",
+        "en": "I am reading."
+      },
+      {
+        "id": "S00121",
+        "qr": "hë ti khe-m shiroli-se he?",
+        "en": "What are you writing?"
+      },
+      {
+        "id": "S00122",
+        "qr": "sen mi shimarë-m shëliro.",
+        "en": "I read the dictionary."
+      },
+      {
+        "id": "S00134",
+        "qr": "hol ti mi-tu qaroshi-m yarëmi-te.",
+        "en": "Thanks for teaching me Qaroshi."
+      }
+    ]
+  }
+]

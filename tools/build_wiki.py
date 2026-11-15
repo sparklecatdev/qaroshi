@@ -59,8 +59,8 @@ css=(ROOT/'web/qaroshi.css').read_text(encoding='utf-8');js=(ROOT/'web/qaroshi.j
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, deep learning guides, exercises, and native handwritten alphabet entirely offline.">
-<title>Qaroshi Wiki · Unified Release 14</title>
+<meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, learning guides, exercises, and the native handwritten alphabet.">
+<title>Qaroshi Wiki · Release 17</title>
 <script>{theme_js}</script><style>{css}</style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
@@ -69,9 +69,9 @@ page=f'''<!doctype html>
 <button class="iconbtn" type="button" id="menuBtn" aria-controls="leftSidebar" aria-expanded="false" aria-label="Open sidebar">☰</button></div></header>
 <div class="backdrop" id="sideBackdrop" aria-hidden="true"></div>
 <div class="shell"><aside class="sidebar" id="leftSidebar" aria-label="Reference navigation"></aside>
-<main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the offline reference…</p></article></main>
+<main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the reference…</p></article></main>
 <nav class="right-rail" aria-label="On this page" id="pageToc"></nav></div>
-<noscript><p style="padding:2rem">This offline wiki requires JavaScript for navigation and search. The Markdown and CSV sources are provided in the full release package.</p></noscript>
+<noscript><p style="padding:2rem">This wiki requires JavaScript for navigation and search. The source documents are available in the repository.</p></noscript>
 <script type="application/json" id="wiki-data">{blob}</script><script>{js}</script>
 </body></html>'''
 for filename in ('index.html', 'Qaroshi_Wiki.html'):

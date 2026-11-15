@@ -42,7 +42,7 @@ class QaroshiFinalReference(unittest.TestCase):
   self.assertNotIn('phraseEdition',self.html);self.assertNotIn('w.review',self.html)
  def test_no_legacy_grammars(self):self.assertEqual(len(list((ROOT/'docs').glob('grammar*.md'))),1)
  def test_release_description(self):
-  self.assertIn('Unified Standard Reference 5.3',(ROOT/'README.md').read_text())
+  self.assertIn('Qaroshi Wiki · Release 17',(ROOT/'README.md').read_text())
  def test_sample_headwords(self):
   w={r['qaroshi']:r['english'] for r in self.words}
   for x in ['qaro','qaroshi','pëla','lësha','qor','sen','zha','womaro','riqosha']:
