@@ -81,8 +81,8 @@ body {font-size:15px;line-height:1.7;letter-spacing:-.003em;text-rendering:optim
 .sidebar {padding:25px 15px 45px 21px;background:var(--canvas);scrollbar-color:var(--accent-border) transparent}
 .side-heading {font-size:.67rem;letter-spacing:.15em;color:var(--muted);padding:5px 11px 8px}
 .side-group {margin-bottom:27px}
-.navlink {padding:7px 12px;border-radius:8px;transition:background .13s,color .13s}
-.navlink[aria-current="page"] {box-shadow:inset 3px 0 0 var(--link);background:var(--accent-bg);color:var(--link)}
+.navlink {padding:7px 12px;border-radius:4px;transition:background .13s,color .13s}
+.navlink[aria-current="page"] {background:var(--accent-bg);color:var(--link)}
 .sidebar summary {border-radius:8px}
 .sidebar-footer {line-height:1.8}
 .content {max-width:990px;padding:42px 50px 105px}

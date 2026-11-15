@@ -183,7 +183,9 @@
     for(const a of sidebar.querySelectorAll('a[data-page-link]')){
       const href=a.getAttribute('href').slice(1), h=href.split('?')[0];
       let on=false;
-      if(route.page==='word')on=h==='dictionary';
+      if(href.includes('?'))on=route.page===h && new URLSearchParams(href.split('?')[1]).get('domain')===route.query.get('domain');
+      else if(route.page==='dictionary' && route.query.has('domain'))on=false;
+      else if(route.page==='word')on=h==='dictionary';
       else if(route.page==='phrase')on=h==='phrases';
       else if(route.page==='grammar'&&route.id)on=h==='grammar/'+route.id;
       else on=h===route.page || (route.page==='guide' && h==='guide/'+route.id);
