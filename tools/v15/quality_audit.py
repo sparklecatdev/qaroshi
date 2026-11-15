@@ -24,9 +24,11 @@ for sentence,rs in groups.items():
 review.sort(key=lambda x:(-x['distinct_contextual_english_readings'],-x['number_of_occurrences'],x['qaroshi']))
 with (OUT/'cross_release_translation_variants.csv').open('w',encoding='utf8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=list(review[0]));w.writeheader();w.writerows(review)
+# New-release divergence independently counted, not conflated with earlier 115 v14 clusters.
 g2=collections.defaultdict(list)
 for x in NEW:g2[key(x['qaroshi'])].append(x)
 newdiv=[(q,len({key(r['english_contextual']) for r in rr}),len(rr)) for q,rr in g2.items() if len({key(r['english_contextual']) for r in rr})>1]
+# Unusual concentration of repeatedly used phrases is an editorial warning, not evidence of a defect.
 freq=collections.Counter(key(x['qaroshi']) for x in NEW)
 repeated=sum(n for n in freq.values() if n>1)
 report={'all_reviewable_editorial_lines':len(ALL), 'all_source_whitespace_tokens':sum(len(r['qaroshi'].split()) for r in ALL),
