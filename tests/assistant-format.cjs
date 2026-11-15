@@ -12,7 +12,7 @@ const saved = new Map();
 const storage = {getItem:k=>saved.get(k), setItem:(k,v)=>saved.set(k,v), removeItem:k=>saved.delete(k)};
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const context = {esc, localStorage:storage, $:id=>elements[id], main:{}, mkHeader:()=>'', setToc:()=>{},
-  assistantSources:()=>[], C:[], D:{guides:{}}, assistantDocument:()=>'',
+  assistantSources:()=>[], assistantRequest:async()=> '**Answer:** <img src=x onerror=alert(1)> [G02]', C:[], D:{guides:{}}, assistantDocument:()=>'',
   fetch:async()=>({ok:true,json:async()=>({choices:[{message:{content:'**Answer:** <img src=x onerror=alert(1)> [G02]'}}]})})};
 vm.createContext(context);
 vm.runInContext(code+'\nthis.format=assistantAnswerHTML; this.render=renderAssistant;', context);
