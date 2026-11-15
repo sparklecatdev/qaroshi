@@ -1,0 +1,234 @@
+[
+  {
+    "form": "-ri",
+    "category": "nominal",
+    "meaning": "plural",
+    "ipa": "/ɾi/",
+    "reading": "ri",
+    "sound_out": "ree"
+  },
+  {
+    "form": "-m",
+    "category": "case",
+    "meaning": "direct object",
+    "ipa": "/m/",
+    "reading": "m",
+    "sound_out": "m"
+  },
+  {
+    "form": "-na",
+    "category": "case",
+    "meaning": "genitive / belonging to",
+    "ipa": "/na/",
+    "reading": "na",
+    "sound_out": "nah"
+  },
+  {
+    "form": "-lo",
+    "category": "case",
+    "meaning": "locative",
+    "ipa": "/lo/",
+    "reading": "lo",
+    "sound_out": "loh"
+  },
+  {
+    "form": "-gu",
+    "category": "case",
+    "meaning": "allative toward",
+    "ipa": "/ɡu/",
+    "reading": "gu",
+    "sound_out": "goo"
+  },
+  {
+    "form": "-de",
+    "category": "case",
+    "meaning": "ablative from",
+    "ipa": "/de/",
+    "reading": "de",
+    "sound_out": "deh"
+  },
+  {
+    "form": "-wa",
+    "category": "case",
+    "meaning": "comitative with",
+    "ipa": "/wa/",
+    "reading": "wa",
+    "sound_out": "wah"
+  },
+  {
+    "form": "-tu",
+    "category": "case",
+    "meaning": "dative recipient",
+    "ipa": "/tu/",
+    "reading": "tu",
+    "sound_out": "too"
+  },
+  {
+    "form": "-shi",
+    "category": "case",
+    "meaning": "instrumental or passive agent",
+    "ipa": "/ʃi/",
+    "reading": "shi",
+    "sound_out": "shee"
+  },
+  {
+    "form": "-së",
+    "category": "discourse",
+    "meaning": "noun-topic marker",
+    "ipa": "/sə/",
+    "reading": "së",
+    "sound_out": "suh"
+  },
+  {
+    "form": "-lë",
+    "category": "derivation",
+    "meaning": "diminutive or affectionate",
+    "ipa": "/lə/",
+    "reading": "lë",
+    "sound_out": "luh"
+  },
+  {
+    "form": "-te",
+    "category": "tense",
+    "meaning": "past",
+    "ipa": "/te/",
+    "reading": "te",
+    "sound_out": "teh"
+  },
+  {
+    "form": "-yu",
+    "category": "tense",
+    "meaning": "future",
+    "ipa": "/ju/",
+    "reading": "yu",
+    "sound_out": "yoo"
+  },
+  {
+    "form": "-se",
+    "category": "aspect",
+    "meaning": "progressive ongoing",
+    "ipa": "/se/",
+    "reading": "se",
+    "sound_out": "seh"
+  },
+  {
+    "form": "-mo",
+    "category": "aspect",
+    "meaning": "completive",
+    "ipa": "/mo/",
+    "reading": "mo",
+    "sound_out": "moh"
+  },
+  {
+    "form": "-në",
+    "category": "aspect",
+    "meaning": "habitual",
+    "ipa": "/nə/",
+    "reading": "në",
+    "sound_out": "nuh"
+  },
+  {
+    "form": "-ki",
+    "category": "modality",
+    "meaning": "ability or potential",
+    "ipa": "/ki/",
+    "reading": "ki",
+    "sound_out": "kee"
+  },
+  {
+    "form": "-ho",
+    "category": "modality",
+    "meaning": "permission",
+    "ipa": "/ho/",
+    "reading": "ho",
+    "sound_out": "hoh"
+  },
+  {
+    "form": "-du",
+    "category": "modality",
+    "meaning": "necessity",
+    "ipa": "/du/",
+    "reading": "du",
+    "sound_out": "doo"
+  },
+  {
+    "form": "-la",
+    "category": "manner",
+    "meaning": "tender manner",
+    "ipa": "/la/",
+    "reading": "la",
+    "sound_out": "lah"
+  },
+  {
+    "form": "-ru",
+    "category": "voice",
+    "meaning": "causative",
+    "ipa": "/ɾu/",
+    "reading": "ru",
+    "sound_out": "roo"
+  },
+  {
+    "form": "-li",
+    "category": "voice",
+    "meaning": "passive",
+    "ipa": "/li/",
+    "reading": "li",
+    "sound_out": "lee"
+  },
+  {
+    "form": "-wo",
+    "category": "voice",
+    "meaning": "reciprocal",
+    "ipa": "/wo/",
+    "reading": "wo",
+    "sound_out": "woh"
+  },
+  {
+    "form": "-ne",
+    "category": "voice",
+    "meaning": "reflexive",
+    "ipa": "/ne/",
+    "reading": "ne",
+    "sound_out": "neh"
+  },
+  {
+    "form": "-nga",
+    "category": "case",
+    "meaning": "perlative, through or via",
+    "ipa": "/ŋa/",
+    "reading": "nga",
+    "sound_out": "ngah"
+  },
+  {
+    "form": "-wë",
+    "category": "derivation",
+    "meaning": "subtype or kind",
+    "ipa": "/wə/",
+    "reading": "wë",
+    "sound_out": "wuh"
+  },
+  {
+    "form": "-këlë",
+    "category": "derivation",
+    "meaning": "instrument",
+    "ipa": "/ˈkə.lə/",
+    "reading": "KË-lë",
+    "sound_out": "KUH-luh"
+  },
+  {
+    "form": "-rëma",
+    "category": "derivation",
+    "meaning": "occurrence of event",
+    "ipa": "/ˈɾə.ma/",
+    "reading": "RË-ma",
+    "sound_out": "RUH-mah"
+  },
+  {
+    "form": "-sharo",
+    "category": "derivation",
+    "meaning": "trained specialist",
+    "ipa": "/ˈʃa.ɾo/",
+    "reading": "SHA-ro",
+    "sound_out": "SHAH-roh"
+  }
+]

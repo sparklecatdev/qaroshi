@@ -3,30 +3,45 @@
     "form": "-nga",
     "category": "case",
     "meaning": "through; along; via a path",
-    "rule": "Optional perlative spatial case in same slot as -lo/-gu/-de"
+    "rule": "Optional perlative spatial case in same slot as -lo/-gu/-de",
+    "ipa": "/ŋa/",
+    "reading": "nga",
+    "sound_out": "ngah"
   },
   {
     "form": "-wë",
     "category": "derivation",
     "meaning": "a kind or class of a noun",
-    "rule": "Denotes taxonomic subtype; only on nouns"
+    "rule": "Denotes taxonomic subtype; only on nouns",
+    "ipa": "/wə/",
+    "reading": "wë",
+    "sound_out": "wuh"
   },
   {
     "form": "-këlë",
     "category": "derivation",
     "meaning": "a tool used for the base action",
-    "rule": "Instrument noun formed from a verb; not an inflection"
+    "rule": "Instrument noun formed from a verb; not an inflection",
+    "ipa": "/ˈkə.lə/",
+    "reading": "KË-lë",
+    "sound_out": "KUH-luh"
   },
   {
     "form": "-rëma",
     "category": "derivation",
     "meaning": "an occasion of the base event",
-    "rule": "Event token noun from an action root, distinguished from -ma action category"
+    "rule": "Event token noun from an action root, distinguished from -ma action category",
+    "ipa": "/ˈɾə.ma/",
+    "reading": "RË-ma",
+    "sound_out": "RUH-mah"
   },
   {
     "form": "-sharo",
     "category": "derivation",
     "meaning": "a practitioner or trained specialist",
-    "rule": "Role noun from a professional activity; contrast with general agent -mi"
+    "rule": "Role noun from a professional activity; contrast with general agent -mi",
+    "ipa": "/ˈʃa.ɾo/",
+    "reading": "SHA-ro",
+    "sound_out": "SHAH-roh"
   }
 ]

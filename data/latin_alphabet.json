@@ -1,0 +1,262 @@
+[
+  {
+    "latin_upper": "A",
+    "latin_lower": "a",
+    "english_name_us": "ay",
+    "english_name_ipa_us": "/eɪ/",
+    "qaroshi_romanization": "a",
+    "qaroshi_phoneme_ipa": "/a/",
+    "in_qaroshi": true,
+    "note": "Unlike English, Qaroshi a is always /a/."
+  },
+  {
+    "latin_upper": "B",
+    "latin_lower": "b",
+    "english_name_us": "bee",
+    "english_name_ipa_us": "/biː/",
+    "qaroshi_romanization": "b",
+    "qaroshi_phoneme_ipa": "/b/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "C",
+    "latin_lower": "c",
+    "english_name_us": "see",
+    "english_name_ipa_us": "/siː/",
+    "qaroshi_romanization": null,
+    "qaroshi_phoneme_ipa": null,
+    "in_qaroshi": false,
+    "note": "Not a Qaroshi Romanization letter. English c may represent /k/ or /s/; choose the intended sound, not a fixed c substitution."
+  },
+  {
+    "latin_upper": "D",
+    "latin_lower": "d",
+    "english_name_us": "dee",
+    "english_name_ipa_us": "/diː/",
+    "qaroshi_romanization": "d",
+    "qaroshi_phoneme_ipa": "/d/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "E",
+    "latin_lower": "e",
+    "english_name_us": "ee",
+    "english_name_ipa_us": "/iː/",
+    "qaroshi_romanization": "e",
+    "qaroshi_phoneme_ipa": "/e/",
+    "in_qaroshi": true,
+    "note": "English letter name /iː/ differs from Qaroshi e /e/."
+  },
+  {
+    "latin_upper": "F",
+    "latin_lower": "f",
+    "english_name_us": "eff",
+    "english_name_ipa_us": "/ɛf/",
+    "qaroshi_romanization": null,
+    "qaroshi_phoneme_ipa": null,
+    "in_qaroshi": false,
+    "note": "Qaroshi has no /f/ letter. Foreign words need phonetic adaptation or a retained Latin spelling."
+  },
+  {
+    "latin_upper": "G",
+    "latin_lower": "g",
+    "english_name_us": "jee",
+    "english_name_ipa_us": "/dʒiː/",
+    "qaroshi_romanization": "g",
+    "qaroshi_phoneme_ipa": "/ɡ/",
+    "in_qaroshi": true,
+    "note": "Qaroshi g is always /ɡ/, never English soft g /dʒ/."
+  },
+  {
+    "latin_upper": "H",
+    "latin_lower": "h",
+    "english_name_us": "aitch",
+    "english_name_ipa_us": "/eɪtʃ/",
+    "qaroshi_romanization": "h",
+    "qaroshi_phoneme_ipa": "/h/",
+    "in_qaroshi": true,
+    "note": "English letter name may also be haitch in some varieties."
+  },
+  {
+    "latin_upper": "I",
+    "latin_lower": "i",
+    "english_name_us": "eye",
+    "english_name_ipa_us": "/aɪ/",
+    "qaroshi_romanization": "i",
+    "qaroshi_phoneme_ipa": "/i/",
+    "in_qaroshi": true,
+    "note": "Qaroshi i is /i/, not /aɪ/."
+  },
+  {
+    "latin_upper": "J",
+    "latin_lower": "j",
+    "english_name_us": "jay",
+    "english_name_ipa_us": "/dʒeɪ/",
+    "qaroshi_romanization": null,
+    "qaroshi_phoneme_ipa": null,
+    "in_qaroshi": false,
+    "note": "Not used as a Qaroshi letter; Qaroshi y /j/ is the sound in yes, not English j /dʒ/."
+  },
+  {
+    "latin_upper": "K",
+    "latin_lower": "k",
+    "english_name_us": "kay",
+    "english_name_ipa_us": "/keɪ/",
+    "qaroshi_romanization": "k",
+    "qaroshi_phoneme_ipa": "/k/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "L",
+    "latin_lower": "l",
+    "english_name_us": "ell",
+    "english_name_ipa_us": "/ɛl/",
+    "qaroshi_romanization": "l",
+    "qaroshi_phoneme_ipa": "/l/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "M",
+    "latin_lower": "m",
+    "english_name_us": "em",
+    "english_name_ipa_us": "/ɛm/",
+    "qaroshi_romanization": "m",
+    "qaroshi_phoneme_ipa": "/m/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "N",
+    "latin_lower": "n",
+    "english_name_us": "en",
+    "english_name_ipa_us": "/ɛn/",
+    "qaroshi_romanization": "n",
+    "qaroshi_phoneme_ipa": "/n/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "O",
+    "latin_lower": "o",
+    "english_name_us": "oh",
+    "english_name_ipa_us": "/oʊ/",
+    "qaroshi_romanization": "o",
+    "qaroshi_phoneme_ipa": "/o/",
+    "in_qaroshi": true,
+    "note": "Qaroshi o /o/ is a steady monophthong, not American English /oʊ/."
+  },
+  {
+    "latin_upper": "P",
+    "latin_lower": "p",
+    "english_name_us": "pee",
+    "english_name_ipa_us": "/piː/",
+    "qaroshi_romanization": "p",
+    "qaroshi_phoneme_ipa": "/p/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "Q",
+    "latin_lower": "q",
+    "english_name_us": "cue",
+    "english_name_ipa_us": "/kjuː/",
+    "qaroshi_romanization": "q",
+    "qaroshi_phoneme_ipa": "/q/",
+    "in_qaroshi": true,
+    "note": "Qaroshi q is /q/, a voiceless uvular stop, not English /kw/ or /k/."
+  },
+  {
+    "latin_upper": "R",
+    "latin_lower": "r",
+    "english_name_us": "ar",
+    "english_name_ipa_us": "/ɑɹ/",
+    "qaroshi_romanization": "r",
+    "qaroshi_phoneme_ipa": "/ɾ/",
+    "in_qaroshi": true,
+    "note": "Qaroshi r is generally tapped /ɾ/, not American /ɹ/."
+  },
+  {
+    "latin_upper": "S",
+    "latin_lower": "s",
+    "english_name_us": "ess",
+    "english_name_ipa_us": "/ɛs/",
+    "qaroshi_romanization": "s",
+    "qaroshi_phoneme_ipa": "/s/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "T",
+    "latin_lower": "t",
+    "english_name_us": "tee",
+    "english_name_ipa_us": "/tiː/",
+    "qaroshi_romanization": "t",
+    "qaroshi_phoneme_ipa": "/t/",
+    "in_qaroshi": true,
+    "note": ""
+  },
+  {
+    "latin_upper": "U",
+    "latin_lower": "u",
+    "english_name_us": "you",
+    "english_name_ipa_us": "/juː/",
+    "qaroshi_romanization": "u",
+    "qaroshi_phoneme_ipa": "/u/",
+    "in_qaroshi": true,
+    "note": "Qaroshi u is /u/, without the /j/ onset of English letter U."
+  },
+  {
+    "latin_upper": "V",
+    "latin_lower": "v",
+    "english_name_us": "vee",
+    "english_name_ipa_us": "/viː/",
+    "qaroshi_romanization": null,
+    "qaroshi_phoneme_ipa": null,
+    "in_qaroshi": false,
+    "note": "Qaroshi has no native /v/ letter; loanword adaptation depends on the sound."
+  },
+  {
+    "latin_upper": "W",
+    "latin_lower": "w",
+    "english_name_us": "double-u",
+    "english_name_ipa_us": "/ˈdʌ.bəl.juː/",
+    "qaroshi_romanization": "w",
+    "qaroshi_phoneme_ipa": "/w/",
+    "in_qaroshi": true,
+    "note": "English name has three syllables in many accents; Qaroshi w = /w/."
+  },
+  {
+    "latin_upper": "X",
+    "latin_lower": "x",
+    "english_name_us": "ex",
+    "english_name_ipa_us": "/ɛks/",
+    "qaroshi_romanization": null,
+    "qaroshi_phoneme_ipa": null,
+    "in_qaroshi": false,
+    "note": "Not a single Qaroshi letter. English x often means /ks/ but is context-dependent."
+  },
+  {
+    "latin_upper": "Y",
+    "latin_lower": "y",
+    "english_name_us": "why",
+    "english_name_ipa_us": "/waɪ/",
+    "qaroshi_romanization": "y",
+    "qaroshi_phoneme_ipa": "/j/",
+    "in_qaroshi": true,
+    "note": "Qaroshi y represents /j/ like the start of yes; it is not a vowel in the native inventory."
+  },
+  {
+    "latin_upper": "Z",
+    "latin_lower": "z",
+    "english_name_us": "zee",
+    "english_name_ipa_us": "/ziː/",
+    "qaroshi_romanization": "z",
+    "qaroshi_phoneme_ipa": "/z/",
+    "in_qaroshi": true,
+    "note": "American English zee; British/Commonwealth zed /zɛd/."
+  }
+]

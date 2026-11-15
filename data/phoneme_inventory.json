@@ -1,0 +1,158 @@
+[
+  {
+    "glyph": "k",
+    "ipa": "/k/",
+    "reading": "k",
+    "is_vowel": false
+  },
+  {
+    "glyph": "a",
+    "ipa": "/a/",
+    "reading": "a",
+    "is_vowel": true
+  },
+  {
+    "glyph": "w",
+    "ipa": "/w/",
+    "reading": "w",
+    "is_vowel": false
+  },
+  {
+    "glyph": "t",
+    "ipa": "/t/",
+    "reading": "t",
+    "is_vowel": false
+  },
+  {
+    "glyph": "r",
+    "ipa": "/ɾ/",
+    "reading": "r",
+    "is_vowel": false
+  },
+  {
+    "glyph": "q",
+    "ipa": "/q/",
+    "reading": "q",
+    "is_vowel": false
+  },
+  {
+    "glyph": "o",
+    "ipa": "/o/",
+    "reading": "o",
+    "is_vowel": true
+  },
+  {
+    "glyph": "d",
+    "ipa": "/d/",
+    "reading": "d",
+    "is_vowel": false
+  },
+  {
+    "glyph": "sh",
+    "ipa": "/ʃ/",
+    "reading": "sh",
+    "is_vowel": false
+  },
+  {
+    "glyph": "z",
+    "ipa": "/z/",
+    "reading": "z",
+    "is_vowel": false
+  },
+  {
+    "glyph": "u",
+    "ipa": "/u/",
+    "reading": "u",
+    "is_vowel": true
+  },
+  {
+    "glyph": "ë",
+    "ipa": "/ə/",
+    "reading": "ë",
+    "is_vowel": true
+  },
+  {
+    "glyph": "i",
+    "ipa": "/i/",
+    "reading": "i",
+    "is_vowel": true
+  },
+  {
+    "glyph": "g",
+    "ipa": "/ɡ/",
+    "reading": "g",
+    "is_vowel": false
+  },
+  {
+    "glyph": "kh",
+    "ipa": "/x/",
+    "reading": "kh",
+    "is_vowel": false
+  },
+  {
+    "glyph": "zh",
+    "ipa": "/ʒ/",
+    "reading": "zh",
+    "is_vowel": false
+  },
+  {
+    "glyph": "e",
+    "ipa": "/e/",
+    "reading": "e",
+    "is_vowel": true
+  },
+  {
+    "glyph": "ng",
+    "ipa": "/ŋ/",
+    "reading": "ng",
+    "is_vowel": false
+  },
+  {
+    "glyph": "h",
+    "ipa": "/h/",
+    "reading": "h",
+    "is_vowel": false
+  },
+  {
+    "glyph": "b",
+    "ipa": "/b/",
+    "reading": "b",
+    "is_vowel": false
+  },
+  {
+    "glyph": "p",
+    "ipa": "/p/",
+    "reading": "p",
+    "is_vowel": false
+  },
+  {
+    "glyph": "m",
+    "ipa": "/m/",
+    "reading": "m",
+    "is_vowel": false
+  },
+  {
+    "glyph": "s",
+    "ipa": "/s/",
+    "reading": "s",
+    "is_vowel": false
+  },
+  {
+    "glyph": "n",
+    "ipa": "/n/",
+    "reading": "n",
+    "is_vowel": false
+  },
+  {
+    "glyph": "y",
+    "ipa": "/j/",
+    "reading": "y",
+    "is_vowel": false
+  },
+  {
+    "glyph": "l",
+    "ipa": "/l/",
+    "reading": "l",
+    "is_vowel": false
+  }
+]

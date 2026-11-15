@@ -3,96 +3,144 @@
     "marker": "më",
     "name": "Warm Hum",
     "meaning": "affection, tenderness, vulnerability",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/mə/",
+    "reading": "më",
+    "sound_out": "muh"
   },
   {
     "marker": "zha",
     "name": "Bright Trill",
     "meaning": "excitement, play, delight",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/ʒa/",
+    "reading": "zha",
+    "sound_out": "zhah"
   },
   {
     "marker": "qor",
     "name": "Deep Resonance",
     "meaning": "solemnity, promises, authority",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/qoɾ/",
+    "reading": "qor",
+    "sound_out": "qohr"
   },
   {
     "marker": "sen",
     "name": "Still Voice",
     "meaning": "neutral information",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/sen/",
+    "reading": "sen",
+    "sound_out": "sehn"
   },
   {
     "marker": "hë",
     "name": "Seeking Call",
     "meaning": "sincere inquiry, curiosity",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/hə/",
+    "reading": "hë",
+    "sound_out": "huh"
   },
   {
     "marker": "lën",
     "name": "Hidden Hum",
     "meaning": "shyness, bashfulness",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/lən/",
+    "reading": "lën",
+    "sound_out": "luhn"
   },
   {
     "marker": "sur",
     "name": "Falling Song",
     "meaning": "grief, sadness",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/suɾ/",
+    "reading": "sur",
+    "sound_out": "soor"
   },
   {
     "marker": "rak",
     "name": "Rough Growl",
     "meaning": "anger, defiance",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/ɾak/",
+    "reading": "rak",
+    "sound_out": "rahk"
   },
   {
     "marker": "khar",
     "name": "Sharp Cry",
     "meaning": "alarm, fear",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/xaɾ/",
+    "reading": "khar",
+    "sound_out": "khahr"
   },
   {
     "marker": "yë",
     "name": "Rising Echo",
     "meaning": "wonder, surprise",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/jə/",
+    "reading": "yë",
+    "sound_out": "yuh"
   },
   {
     "marker": "nëm",
     "name": "Quiet Breath",
     "meaning": "contentment, peace",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/nəm/",
+    "reading": "nëm",
+    "sound_out": "nuhm"
   },
   {
     "marker": "wen",
     "name": "Distant Call",
     "meaning": "longing",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/wen/",
+    "reading": "wen",
+    "sound_out": "wehn"
   },
   {
     "marker": "dal",
     "name": "Firm Pulse",
     "meaning": "determination, resolve",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/dal/",
+    "reading": "dal",
+    "sound_out": "dahl"
   },
   {
     "marker": "rëm",
     "name": "High Crest",
     "meaning": "pride, triumph",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/ɾəm/",
+    "reading": "rëm",
+    "sound_out": "ruhm"
   },
   {
     "marker": "hol",
     "name": "Open Heart",
     "meaning": "gratitude",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/hol/",
+    "reading": "hol",
+    "sound_out": "hohl"
   },
   {
     "marker": "zher",
     "name": "Broken Echo",
     "meaning": "doubt, suspicion",
-    "mandatory_sentence_initial": true
+    "mandatory_sentence_initial": true,
+    "ipa": "/ʒeɾ/",
+    "reading": "zher",
+    "sound_out": "zhehr"
   }
 ]

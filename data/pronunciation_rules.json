@@ -1,0 +1,30 @@
+{
+  "edition": "4.3.1",
+  "notation": "broad phonemic IPA in /slashes/",
+  "grapheme_count": 26,
+  "vowels": [
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    "ë"
+  ],
+  "digraph_graphemes": [
+    "sh",
+    "zh",
+    "kh",
+    "ng"
+  ],
+  "stress": "penultimate syllable for words of two or more syllables; monosyllables left unmarked",
+  "syllabification": "hiatus separated; maximize valid C(r/l/w/y) or single onset, all other intervocalic consonants assigned to prior coda",
+  "morphology": "written hyphens separate morphemes, not obligatory phonetic pauses",
+  "allophony": "r shown as /ɾ/; deliberate rolled [r] is also compatible",
+  "phonetic_status": "predictable reference pronunciations; no audio claims or speaker-attested narrow transcriptions",
+  "fields": {
+    "ipa": "phonemic transcription",
+    "reading": "capitalized stressed syllable in Roman letters",
+    "sound_out": "English-oriented approximate sound-out, capitalizing main-stress syllable"
+  },
+  "approximation_notice": "IPA is the precise reference; sound-out text approximates Qaroshi phonemes for English readers and does not mean English letter names"
+}

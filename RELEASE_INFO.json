@@ -1,20 +1,26 @@
 {
-  "standard": "Qaroshi Reference 4.1",
-  "release_state": "published reference",
-  "dictionary_entries": 11878,
-  "english_index_rows": 12646,
-  "sentences": 2017,
+  "standard": "Qaroshi Unified Standard Reference 5.0",
+  "version": "5.0",
+  "release_state": "unified standard",
+  "dictionary_entries": 16732,
+  "lexicon_new_standalone": 2122,
+  "lexicon_new_compounds": 2732,
+  "dictionary_entries_preserved": 11878,
+  "english_index_rows": 17500,
+  "sentences": 3077,
+  "new_sentences": 1060,
+  "sentences_preserved": 2017,
   "grammar_chapters": 70,
   "resonance_registers": 16,
   "native_letters": 26,
-  "semantic_domains": 97,
+  "semantic_domains": 132,
   "parts_of_speech": {
     "conj": 34,
-    "adv": 225,
-    "n": 7776,
-    "v": 2730,
+    "adv": 254,
+    "n": 11973,
+    "adj": 1175,
+    "v": 3151,
     "part": 82,
-    "adj": 968,
     "register": 16,
     "num": 9,
     "det": 11,
@@ -22,5 +28,16 @@
     "intj": 7,
     "qword": 9,
     "pron": 10
+  },
+  "pronunciation": {
+    "lexicon_entries": 16732,
+    "sentences": 3077,
+    "style": "broad IPA; stress-marked reading; English-style sound-out on dictionary entries and examples"
+  },
+  "interface": {
+    "self_contained": true,
+    "style": "reading-first, responsive wiki",
+    "offline": true,
+    "github_published": false
   }
 }

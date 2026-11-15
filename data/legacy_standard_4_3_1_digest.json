@@ -1,0 +1,7 @@
+{
+  "lexicon_previous_count": 11878,
+  "lexicon_previous_sha256": "b66f2f630cf7bdf4d012ae26c740227187b18a2f1a8c2e78a10ebf3e9a35344e",
+  "phrasebook_previous_count": 2017,
+  "phrasebook_previous_sha256": "4dc26c5ad380946d24f9149fbd5b4d3176f2c6363bec62870accdffb2a1b08ce",
+  "explanation": "Fingerprints computed on the exact JSON dictionaries and phrasebook of Unified Standard 4.3.1; the 5.0 tests compare unchanged rows in their original order and fields."
+}

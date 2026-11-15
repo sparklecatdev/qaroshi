@@ -1,9 +1,11 @@
-# Using the Qaroshi Wiki
+# Using the Qaroshi offline wiki
 
-Open `Qaroshi_Wiki.html` in a browser. Browse words and chapters using the left sidebar, or search Qaroshi, English, or IPA values using the top search box.
+Open `Qaroshi_Wiki.html` directly in a current browser. Nothing needs an account or network connection.
 
-Each dictionary word displays a broad IPA transcription and a Romanized stress guide. Each phrase has a full-sentence IPA line. Select **Writing system → Native script** to enter Romanized Qaroshi and immediately view both the handwritten glyphs and the IPA and stress guide.
+The left sidebar browses topics and 70 grammar chapters. The top search looks through dictionary definitions, grammar and sentence examples. Press `/` to focus search. Press Escape to close the mobile sidebar. Browse the Dictionary page for detailed filters; it searches English meanings and Qaroshi spelling, including unaccented search approximations such as `gero` → `gëro`.
 
-The right-hand rail provides anchors inside grammar and guide pages. Open **Pronunciation & IPA** from the sidebar for the full 26-letter chart and explanation of syllables. IPA and pronunciation are local computations, not streaming audio.
+Open a word to see its definition, prominent English-style sound-out, broad IPA, native script, grammatical metadata, example sentences, related terms, and clickable components (when it is a compound). Extended letter-by-letter pronunciation can be opened from a details control.
 
-The HTML file includes all glyphs, data, and scripts. It does not need an internet connection.
+The Native script page converts **Romanized Qaroshi into handwritten glyphs**, not English into Qaroshi; it can export PNG. The Latin A–Z guide describes English letter-name pronunciations separately from native Qaroshi phonemes. The moon/sun button switches appearance without connecting to a service.
+
+The CSV, JSON, and Markdown files in the package are suitable for editing or further linguistic analysis. Build the standalone HTML with `python tools/build_wiki.py` after changing reference files.

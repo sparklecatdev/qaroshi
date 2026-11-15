@@ -1,42 +1,72 @@
 [
   {
     "form": "mi",
-    "english": "I/me"
+    "english": "I/me",
+    "ipa": "/mi/",
+    "reading": "mi",
+    "sound_out": "mee"
   },
   {
     "form": "ti",
-    "english": "you (singular)"
+    "english": "you (singular)",
+    "ipa": "/ti/",
+    "reading": "ti",
+    "sound_out": "tee"
   },
   {
     "form": "sa",
-    "english": "they (singular)"
+    "english": "they (singular)",
+    "ipa": "/sa/",
+    "reading": "sa",
+    "sound_out": "sah"
   },
   {
     "form": "naru",
-    "english": "we (inclusive)"
+    "english": "we (inclusive)",
+    "ipa": "/ˈna.ɾu/",
+    "reading": "NA-ru",
+    "sound_out": "NAH-roo"
   },
   {
     "form": "muru",
-    "english": "we (exclusive)"
+    "english": "we (exclusive)",
+    "ipa": "/ˈmu.ɾu/",
+    "reading": "MU-ru",
+    "sound_out": "MOO-roo"
   },
   {
     "form": "tiri",
-    "english": "you (plural)"
+    "english": "you (plural)",
+    "ipa": "/ˈti.ɾi/",
+    "reading": "TI-ri",
+    "sound_out": "TEE-ree"
   },
   {
     "form": "sari",
-    "english": "they (plural)"
+    "english": "they (plural)",
+    "ipa": "/ˈsa.ɾi/",
+    "reading": "SA-ri",
+    "sound_out": "SAH-ree"
   },
   {
     "form": "miyo",
-    "english": "one/people generally"
+    "english": "one/people generally",
+    "ipa": "/ˈmi.jo/",
+    "reading": "MI-yo",
+    "sound_out": "MEE-yoh"
   },
   {
     "form": "yano",
-    "english": "someone"
+    "english": "someone",
+    "ipa": "/ˈja.no/",
+    "reading": "YA-no",
+    "sound_out": "YAH-noh"
   },
   {
     "form": "nura",
-    "english": "nobody"
+    "english": "nobody",
+    "ipa": "/ˈnu.ɾa/",
+    "reading": "NU-ra",
+    "sound_out": "NOO-rah"
   }
 ]

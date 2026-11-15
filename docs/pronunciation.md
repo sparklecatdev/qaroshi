@@ -1,13 +1,14 @@
 # Qaroshi pronunciation and IPA
 
-**Reference 4.2 · applies to the full dictionary and phrasebook**
+**Reference 4.3.1 · applies to every dictionary word and phrasebook entry**
 
-Every one of the 11,878 dictionary entries and 2,017 example sentences has two pronunciation fields:
+Every one of the 11,878 dictionary entries and 2,017 example sentences has three visible pronunciation fields:
 
 - **IPA**: a phonemic transcription between slashes, for example `qaroshi` **/qa.ˈɾo.ʃi/**. This is the sound-level reference, not an English approximation.
+- **English-style sound-out**: approximate phonetic spelling with the stressed syllable capitalized, for example `gëro` = **GUH-roh** and `qaroshi` = **qah-ROH-shee**. Approximate spellings are not substitutes for the precise IPA; e, o, q, kh, and tapped r require the letter-by-letter notes.
 - **Reading guide**: Romanized syllables separated by hyphens, with the stressed syllable in CAPITAL LETTERS, for example **qa-RO-shi**. A one-syllable word is not capitalized.
 
-The dictionary displays both fields, including on individual word pages. Core case, verb and derivational suffixes have matching pronunciation entries in `data/affixes.json`. The phrasebook displays full-sentence IPA, and the native-script converter generates both forms for typed Qaroshi. IPA is also shown beside identifiable Qaroshi examples in grammar articles. Both fields are searchable in the wiki.
+The dictionary displays all three fields, with the English sound-out first, and gives a Latin-sound breakdown beneath each individual word article. These are phoneme sounds, not English letter names. The dictionary displays pronunciation, including on individual word pages. Core case, verb and derivational suffixes have matching pronunciation entries in `data/affixes.json`. The phrasebook displays full-sentence IPA, and the native-script converter generates both forms for typed Qaroshi. IPA is also shown beside identifiable Qaroshi examples in grammar articles. Both fields are searchable in the wiki.
 
 ## The six vowels
 
@@ -103,3 +104,7 @@ The reference does not claim to capture speaking rate, pitch, individual vocal a
 - The reference currently has no native-speaker-validated exception lexicon for non-default stress. This can be added without changing the underlying spelling.
 - Programmatic transcription: `python tools/phonetics.py "më ti lësha."`; refresh the full dictionary fields via `python tools/add_pronunciations.py`.
 - The HTML wiki runs offline and transcribes typed Romanized text locally. No speech synthesis or audio service is required.
+
+## The ordinary Latin A–Z alphabet
+
+For **all 26 Latin letters**, American English letter names, their IPA, and the distinction from Qaroshi Romanization, see [Latin A–Z phonetics](latin_alphabet.md). The wiki includes an A–Z lookup and a tool to pronounce *spelled-out English letters*, not the natural pronunciation of full English words.

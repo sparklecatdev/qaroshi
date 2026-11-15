@@ -1,9 +1,32 @@
-/* Qaroshi Unified Standard Reference 4.1. */
+/* Qaroshi Unified Standard Reference 5.0. */
 (() => {
   'use strict';
   const D = JSON.parse(document.getElementById('wiki-data').textContent);
   const W = D.words, P = D.phrases, C = D.chapters, G = D.glyphs;
+  const PH = Object.fromEntries(D.phonemes.map(p => [p.glyph, p.ipa.slice(1,-1)]));
+  const VOWELS = new Set(['a','e','i','o','u','ë']);
+  const GLIDES = new Set(['r','l','w','y']);
+  const DIGRAPHS = new Set(['sh','zh','kh','ng']);
+  const AFFIXES = new Set(D.affixes.map(a => a.form));
   const wordBy = new Map(W.map(w => [w.qaroshi.toLowerCase(), w]));
+  const fold = s => String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const lexicalSearch = new Map(W.map(w => [w.id, fold([w.qaroshi,w.english,w.domain,w.sound_out].join(' '))]));
+  const domainBy = new Map();
+  W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
+  // A sentence mentions a headword only when it contains that token (or an
+  // inflected form with a hyphen), never because a short spelling is a substring.
+  const exampleByHeadword = new Map();
+  P.forEach(p=>{
+    const forms=new Set((p.qaroshi.toLowerCase().match(/[a-zë]+(?:-[a-zë]+)*/g)||[]).map(t=>{
+      if(wordBy.has(t))return t;
+      const base=t.split('-')[0];return wordBy.has(base)?base:t;
+    }));
+    forms.forEach(f=>{
+      if(!wordBy.has(f))return;
+      if(!exampleByHeadword.has(f))exampleByHeadword.set(f,[]);
+      exampleByHeadword.get(f).push(p);
+    });
+  });
   const phraseBy = new Map(P.map(p => [p.id, p]));
   const chapterBy = new Map(C.map(c => [c.id, c]));
   const $ = (id) => document.getElementById(id);
@@ -17,11 +40,104 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70]
   };
+  // Offline phonemic IPA and Romanized stress guide, matching tools/phonetics.py.
+  function phoneticGraphemes(text) {
+    const chars=Array.from(text.normalize('NFC').toLowerCase().replace(/-/g,''));
+    const result=[];
+    for(let i=0;i<chars.length;){
+      const pair=(chars[i]||'')+(chars[i+1]||'');
+      const g=DIGRAPHS.has(pair)?pair:chars[i];
+      if(!(g in PH))return null;
+      result.push(g);i+=g.length;
+    }
+    return result;
+  }
+  function phoneticSyllables(text){
+    const gs=phoneticGraphemes(text);if(!gs)return null;
+    const pos=gs.flatMap((g,i)=>VOWELS.has(g)?[i]:[]);
+    if(pos.length<2)return gs.length?[gs]:[];
+    let start=0;const syll=[];
+    for(let i=1;i<pos.length;i++){
+      const between=gs.slice(pos[i-1]+1,pos[i]);let onset;
+      if(!between.length)onset=0;
+      else if(between.length>=2&&GLIDES.has(between.at(-1))&&!GLIDES.has(between.at(-2)))onset=2;
+      else onset=1;
+      const split=pos[i]-onset;
+      syll.push(gs.slice(start,split));start=split;
+    }
+    syll.push(gs.slice(start));return syll;
+  }
+  function ipaWord(text){
+    const syll=phoneticSyllables(text);if(syll===null)return text;
+    return syll.map((s,i)=>(syll.length>1&&i===syll.length-2?'ˈ':'')+s.map(g=>PH[g]).join('')).join('.');
+  }
+  function readingWord(text){
+    const syll=phoneticSyllables(text);if(syll===null)return text;
+    return syll.map((s,i)=>{
+      const raw=s.join('');return syll.length>1&&i===syll.length-2?raw.toUpperCase():raw;
+    }).join('-');
+  }
+  // English-style reading cues are approximations; use the IPA for exact values.
+  const SOUND_OUT = {
+    a:'ah',e:'eh',i:'ee',o:'oh',u:'oo','ë':'uh',
+    b:'b',d:'d',g:'g',h:'h',k:'k',kh:'kh',l:'l',m:'m',n:'n',ng:'ng',
+    p:'p',q:'q',r:'r',s:'s',sh:'sh',t:'t',w:'w',y:'y',z:'z',zh:'zh'
+  };
+  const SOUND_NOTE = {
+    a:'open ah, as in father (but farther forward)',
+    e:'pure eh, with no final y glide',
+    i:'ee as in see',o:'pure oh, with no final w glide',u:'oo as in food',
+    'ë':'uh / schwa, as in about',
+    b:'b as in bed',d:'d as in day',g:'hard g as in go',h:'h as in hello',
+    k:'k as in kite',kh:'rough kh, as Scottish loch',l:'l as in light',
+    m:'m as in map',n:'n as in no',ng:'ng as in sing; do not add a g',
+    p:'p as in pen',q:'deep k articulated farther back; never English qu/kw',
+    r:'brief single tap of r (tongue touches ridge once)',s:'s as in sun',
+    sh:'sh as in ship',t:'t as in tea',w:'w as in we',y:'y as in yes',
+    z:'z as in zoo',zh:'zh as in measure'
+  };
+  function soundOutWord(text){
+    const syll=phoneticSyllables(text);if(syll===null)return text;
+    return syll.map((chunk,i)=>{
+      const s=chunk.map(c=>SOUND_OUT[c]).join('');
+      return syll.length>1&&i===syll.length-2?s.toUpperCase():s;
+    }).join('-');
+  }
+  function phoText(text,reader){
+    return String(text).normalize('NFC').replace(/[A-Za-zëË]+(?:-[A-Za-zëË]+)*/g,reader).replace(/\s+/g,' ').trim();
+  }
+  function ipaText(text){return '/'+phoText(String(text).replace(/[.!?…]/g,''),ipaWord)+'/'}
+  function readingText(text){return phoText(text,readingWord)}
+  function soundOutText(text){return phoText(text,soundOutWord)}
+  function pronunciation(w){return `<div class="pronunciation-panel" aria-label="Pronunciation">
+    <div class="sound-out-main"><span class="pron-label">Say it (English-style)</span><strong class="soundout-value">${esc(w.sound_out||soundOutText(w.qaroshi||''))}</strong></div>
+    <div><span class="pron-label">IPA (precise)</span><span class="ipa-value">${esc(w.ipa)}</span></div>
+    <div><span class="pron-label">Qaroshi syllables</span><span class="reading-value">${esc(w.reading)}</span></div>
+    <p class="pron-hint">CAPITALS show the stressed syllable. The sound-out is an English approximation; IPA gives the accurate sounds.</p></div>`}
+  function letterBreakdown(word){
+    const gs=phoneticGraphemes(word);
+    if(!gs)return '<p class="muted">No native Qaroshi letter-by-letter reading is available.</p>';
+    const body=`<div class="letter-sounds" role="list" aria-label="Qaroshi letters and their sounds">${gs.map(g=>`<div role="listitem" class="sound-token" title="${esc(SOUND_NOTE[g])}">
+      <strong>${esc(g)}</strong><span class="sound-token-ipa">/${esc(PH[g])}/</span><span class="sound-token-cue">${esc(SOUND_NOTE[g])}</span></div>`).join('')}</div>`;
+    return gs.length>9?`<details class="sound-detail"><summary>Show all ${gs.length} letter sounds</summary>${body}</details>`:body;
+  }
+  function inlineIPA(){
+    // Annotate clearly identified Qaroshi code-spans in grammar articles.
+    for(const elem of main.querySelectorAll('.doc-body code')){
+      if(elem.closest('pre'))continue;
+      const raw=elem.textContent.trim();
+      const norm=raw.toLowerCase();
+      if(raw.length>170||!raw||!(/^([A-Za-zëË -]+[.!?]?)$/.test(raw)))continue;
+      if(wordBy.has(norm.replace(/[.!?]$/,''))||AFFIXES.has(norm)||D.resonances.some(r=>norm.startsWith(r.marker+' '))){
+        elem.insertAdjacentHTML('afterend',`<span class="ipa-inline" title="${esc(readingText(raw))}">${esc(ipaText(raw))}</span>`);
+      }
+    }
+  }
   function notify(message) {
     const old = document.querySelector('.toast');if(old)old.remove();
     const el=document.createElement('div');el.className='toast';el.setAttribute('role','status');el.textContent=message;
@@ -38,12 +154,12 @@
     }).join('');
     const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
     return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}${a('assistant','AI assistant')}${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}</div>
+      ${a('home','Home')}${a('assistant','AI assistant')}${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
       <div class="side-group"><div class="side-heading">Grammar</div>${a('grammar','All grammar chapters')}${groups}</div>
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
-      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing & pronunciation')}${a('guide/pronunciation','Pronunciation & IPA')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 4.1</strong><br>Reference available offline.</div>`;
+      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
+      <div class="side-divider"></div><div class="sidebar-footer">Offline Qaroshi reference<br><strong>Unified Standard 5.0</strong><br>Reference available offline.</div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -92,23 +208,29 @@
     }).join('')}</div>`;
   }
   function renderHome(){
-    main.innerHTML=`<article class="readable"><div class="eyebrow">THE NARDORAGON LANGUAGE</div>
-      <h1 style="margin-top:10px">Qaroshi</h1><p class="lead">A living reference to Qaroshi vocabulary, grammar, and the original 26-symbol writing system. Browse the language as a wiki, look up a term, or read its grammar chapter by chapter.</p>
-      <div class="statsline"><span><b>${count(W.length)}</b> dictionary entries</span><span><b>${count(P.length)}</b> example sentences</span><span><b>70</b> grammar chapters</span><span><b>26</b> handwritten letters</span></div>
+    main.innerHTML=`<article class="readable">
+      <section class="home-hero" aria-label="Qaroshi introduction">
+        <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
+        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · STANDARD 5.0</div>
+        <h1>Qaroshi<span class="hero-dot">.</span></h1>
+        <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
+        <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
+      </section>
       <div class="quick-grid">
         <a class="quick-card" href="#assistant"><span class="arrow">›</span><strong>AI assistant</strong><small>Ask questions or translate</small></a>
-        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Look up Qaroshi or English words</small></a>
+        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Look up any word with IPA, sound-out and letter-by-letter pronunciation</small></a>
         <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar</strong><small>Read rules, examples and suffixes</small></a>
         <a class="quick-card" href="#phrases"><span class="arrow">›</span><strong>Phrasebook</strong><small>Read bilingual sentences</small></a>
         <a class="quick-card" href="#script"><span class="arrow">›</span><strong>Native writing</strong><small>Use the 26 handwritten characters</small></a>
+        <a class="quick-card" href="#latin"><span class="arrow">›</span><strong>Latin A–Z</strong><small>Letter names and IPA, plus Qaroshi sound values</small></a>
       </div><h2 id="fundamental">A sentence has a resonance</h2><p>Every complete Qaroshi sentence begins with a <a href="#grammar/02">written resonance marker</a>. The marker is mandatory even in casual text messages, and it expresses the speaker's stance without changing the sentence's literal words.</p>
-      <div class="quote"><strong class="roman">më ti lësha.</strong><span class="translation">You are cute. (Warm Hum: affection)</span></div>
-      <div class="quote"><strong class="roman">qor mi ti-m daru-yu.</strong><span class="translation">I will protect you. (Deep Resonance: a serious promise)</span></div>
+      <div class="quote"><strong class="roman">më ti lësha.</strong><span class="ipa-small">${esc(ipaText('më ti lësha.'))}</span><span class="translation">You are cute. (Warm Hum: affection)</span></div>
+      <div class="quote"><strong class="roman">qor mi ti-m daru-yu.</strong><span class="ipa-small">${esc(ipaText('qor mi ti-m daru-yu.'))}</span><span class="translation">I will protect you. (Deep Resonance: a serious promise)</span></div>
       <h2 id="original-writing">Written in its native alphabet</h2>
       ${glyphHTML('më ti lësha.',{large:true})}
       <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
       <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all 70 grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Qaroshi Unified Standard 4.1 · Offline and self-contained · <a href="#guide/release">Reference notes</a></div></article>`;
+      <div class="foot">Qaroshi Unified Standard 5.0 · Offline and self-contained · <a href="#guide/release">Reference notes</a></div></article>`;
     setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
   }
   let assistantIndex;
@@ -267,12 +389,12 @@
       <div class="entry-list" id="wordResults"></div><button id="wordsMore" class="button morebtn" type="button">Show more entries</button>
       <div class="foot">Search the unified Qaroshi dictionary by spelling, definition, or topic.</div></article>`;
     const update=()=>{
-      const q=state.dquery.normalize('NFC').trim().toLowerCase();
-      let list=W.filter(x=> (!state.domain||x.domain===state.domain) &&(!state.pos||x.pos===state.pos)&&(!q||x.qaroshi.toLowerCase().includes(q)||x.english.toLowerCase().includes(q)||x.domain.toLowerCase().includes(q)));
-      if(q){list=list.sort((a,b)=>((a.qaroshi===q)?-1:(b.qaroshi===q)?1:(a.qaroshi.startsWith(q)&&!b.qaroshi.startsWith(q))?-1:(!a.qaroshi.startsWith(q)&&b.qaroshi.startsWith(q))?1:a.qaroshi.localeCompare(b.qaroshi)))}
-      else list=list.sort((a,b)=>a.qaroshi.localeCompare(b.qaroshi));
+      const q=fold(state.dquery.trim());
+      let list=W.filter(x=> (!state.domain||x.domain===state.domain) &&(!state.pos||x.pos===state.pos)&&(!q||lexicalSearch.get(x.id).includes(q)||x.ipa.includes(q)));
+      const score=x=>{const word=fold(x.qaroshi),en=fold(x.english);return word===q?0:word.startsWith(q)?1:en===q?2:en.startsWith(q)?3:4};
+      if(q)list.sort((a,b)=>score(a)-score(b)||a.qaroshi.localeCompare(b.qaroshi));
       $('wordCount').textContent=`${count(list.length)} matching entries · ${count(Math.min(state.limit,list.length))} shown`;
-      $('wordResults').innerHTML=list.slice(0,state.limit).map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="word">${esc(w.qaroshi)}</span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matching entries. Try another spelling or remove a filter.</div>';
+      $('wordResults').innerHTML=list.slice(0,state.limit).map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matching entries. Try another spelling or remove a filter.</div>';
       $('wordsMore').hidden=list.length<=state.limit;
     };
     $('wordQuery').addEventListener('input',e=>{state.dquery=e.target.value;state.limit=70;update()});
@@ -284,27 +406,33 @@
   }
   function renderWord(value){
     const w=wordBy.get(value.toLowerCase());if(!w){renderMissing('Unknown dictionary entry');return}
-    const related=W.filter(x=>x.domain===w.domain && x.qaroshi!==w.qaroshi).slice(0,8);
-    const occurrences=P.filter(p=>p.qaroshi.includes(w.qaroshi)).slice(0,8);
+    const tokens=new Set(fold(w.english).split(/[^a-z]+/).filter(x=>x.length>3));
+    const related=(domainBy.get(w.domain)||[]).filter(x=>x.id!==w.id).map(x=>({x,n:fold(x.english).split(/[^a-z]+/).filter(t=>tokens.has(t)).length})).sort((a,b)=>b.n-a.n||a.x.qaroshi.localeCompare(b.x.qaroshi)).slice(0,8).map(v=>v.x);
+    const occurrences=(exampleByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,8);
     main.innerHTML=`<article class="readable">${mkHeader('Dictionary / '+w.domain,w.qaroshi,'Qaroshi headword · '+form(w.pos))}
       <div class="meta-row"><span class="pill">${esc(form(w.pos))}</span><span class="pill">${esc(w.id)}</span></div>
+      <h2 class="pron-section-heading" id="pronunciation">How to pronounce ${esc(w.qaroshi)}</h2>
+      ${pronunciation(w)}
+      <h3 id="letter-sounds-heading">Latin letters &amp; their Qaroshi sounds</h3>
+      ${letterBreakdown(w.qaroshi)}
+      <p class="muted small">These are <strong>sounds</strong>, not the English names of the letters. <a href="#latin">See the Latin A–Z reference</a>.</p>
       <div id="definition"><div class="eyebrow">Definition</div><div class="definition"><span class="number">1.</span> ${esc(w.english)}</div></div>
       <h2 id="native-lettering">Native lettering</h2>${glyphHTML(w.qaroshi,{large:true})}
       <div class="controls"><button class="button" id="copyWord">Copy Qaroshi</button><button class="button" id="copyLink">Copy word link</button><a class="button" href="#dictionary">Back to dictionary</a></div>
       <h2 id="lexical-details">Lexical details</h2>
       <div class="information"><label>Part of speech</label><span>${esc(form(w.pos))}</span></div>
       <div class="information"><label>Semantic domain</label><span><a href="#dictionary?domain=${enc(w.domain)}">${esc(w.domain)}</a></span></div>
-      ${w.components?`<div class="information"><label>Components</label><span>${esc(w.components)}</span></div>`:''}
+      ${w.components?`<div class="information"><label>Components</label><span>${w.components.split(' + ').map(part=>wordBy.has(part)?`<a href="#word/${enc(part)}">${esc(part)}</a>`:esc(part)).join(' + ')}</span></div>`:''}
       ${w.note?`<div class="note"><strong>Usage note</strong><p>${esc(w.note)}</p></div>`:''}
       <h2 id="examples">In example sentences</h2>
-      ${occurrences.length?occurrences.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><div class="english">${esc(p.english)}</div></a>`).join(''):'<p class="muted">There is no exact match in the example sentences yet.</p>'}
+      ${occurrences.length?occurrences.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><span class="ipa-small">${esc(p.sound_out)} · ${esc(p.ipa)}</span><div class="english">${esc(p.english)}</div></a>`).join(''):'<p class="muted">There is no exact match in the example sentences yet.</p>'}
       <h2 id="related">Related entries</h2>
       <p class="muted small">Other words in the same semantic domain; these are topical neighbors, not guaranteed synonyms.</p>
-      <div class="entry-list">${related.map(x=>`<a class="entry-row" href="#word/${enc(x.qaroshi)}"><span class="word">${esc(x.qaroshi)}</span><span class="def">${esc(x.english)}</span><span class="pos">${esc(form(x.pos))}</span></a>`).join('')}</div>
+      <div class="entry-list">${related.map(x=>`<a class="entry-row" href="#word/${enc(x.qaroshi)}"><span class="entry-word"><span class="word">${esc(x.qaroshi)}</span><small class="ipa-small">${esc(x.sound_out)} · ${esc(x.ipa)}</small></span><span class="def">${esc(x.english)}</span><span class="pos">${esc(form(x.pos))}</span></a>`).join('')}</div>
       <div class="foot">Permanent dictionary identifier: ${esc(w.id)}.</div></article>`;
     $('copyWord').addEventListener('click',()=>copy(w.qaroshi));
     $('copyLink').addEventListener('click',()=>copy(location.href));
-    setToc([{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'related',name:'Related entries'}]);
+    setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'related',name:'Related entries'}]);
   }
   function renderGrammarIndex(){
     const groups=Object.entries(bookMark).map(([name,range])=>`
@@ -318,12 +446,12 @@
   function renderChapter(id){
     const c=chapterBy.get(id);if(!c){renderMissing('Grammar chapter not found');return}
     const prev=C.find(x=>x.number===c.number-1),next=C.find(x=>x.number===c.number+1);
-    main.innerHTML=`<article class="readable">${mkHeader('Grammar / Chapter '+c.number,c.title,'Qaroshi unified grammar')}
+    main.innerHTML=`<article class="readable">${mkHeader('Grammar / Chapter '+c.number,c.title,'Qaroshi grammar')}
       <div class="doc-body" id="chapterBody">${c.html}</div><div class="divider"></div>
       <div class="controls" style="justify-content:space-between">${prev?`<a class="button" href="#grammar/${prev.id}">‹ ${esc(prev.number+'. '+prev.title)}</a>`:'<span></span>'}
       ${next?`<a class="button" href="#grammar/${next.id}">${esc(next.number+'. '+next.title)} ›</a>`:''}</div>
       <div class="foot">Chapter ${c.number} · Qaroshi standard grammar</div></article>`;
-    enrichToc();
+    inlineIPA();enrichToc();
   }
   function renderCategories(){
     const groups=Object.entries(D.domains).sort((a,b)=>a[0].localeCompare(b[0]));
@@ -340,9 +468,9 @@
       <div class="foot">These are deliberately controlled examples, not naturally sampled conversation or evidence of speaker frequency.</div></article>`;
     const apply=()=>{
       const q=state.pquery.toLowerCase().trim();
-      const list=P.filter(p=>(!q||p.qaroshi.toLowerCase().includes(q)||p.english.toLowerCase().includes(q)||p.domain.toLowerCase().includes(q)));
+      const list=P.filter(p=>(!q||p.qaroshi.toLowerCase().includes(q)||p.english.toLowerCase().includes(q)||p.ipa.includes(q)||p.sound_out.toLowerCase().includes(q)||p.domain.toLowerCase().includes(q)));
       $('phraseCount').textContent=`${count(list.length)} matches · ${count(Math.min(state.plimit,list.length))} shown`;
-      $('phraseResults').innerHTML=list.slice(0,state.plimit).map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><div class="english">${esc(p.english)}</div><div class="small">${esc(p.domain)}</div></a>`).join('')||'<div class="empty">No matching sentences.</div>';
+      $('phraseResults').innerHTML=list.slice(0,state.plimit).map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><span class="ipa-small">${esc(p.sound_out)} · ${esc(p.ipa)}</span><div class="english">${esc(p.english)}</div><div class="small">${esc(p.domain)}</div></a>`).join('')||'<div class="empty">No matching sentences.</div>';
       $('phrasesMore').hidden=state.plimit>=list.length;
     };
     $('phraseQuery').addEventListener('input',e=>{state.pquery=e.target.value;state.plimit=60;apply()});
@@ -352,37 +480,63 @@
   function renderPhrase(id){
     const p=phraseBy.get(id);if(!p){renderMissing('Example not found');return}
     main.innerHTML=`<article class="readable">${mkHeader('Phrasebook / '+p.domain,'Example '+p.id,'A controlled bilingual sentence with optional usage notes.')}
-      <h2 id="qaroshi-text">Qaroshi</h2><div class="quote"><strong class="roman">${esc(p.qaroshi)}</strong></div>
+      <h2 id="qaroshi-text">Qaroshi</h2><div class="quote"><strong class="roman">${esc(p.qaroshi)}</strong></div><h2 id="pronunciation">Pronunciation</h2>${pronunciation(p)}
       ${glyphHTML(p.qaroshi,{large:true})}<h2 id="english-text">English</h2><p class="definition">${esc(p.english)}</p>
       <h2 id="usage-text">Notes</h2><p>${esc(p.note||'No additional note.')}</p>
       <div class="information"><label>Domain</label><span>${esc(p.domain)}</span></div><div class="information"><label>Example type</label><span>${esc(p.pattern||'Controlled example')}</span></div>
       <div class="controls"><button class="button" id="copyPhrase">Copy Qaroshi</button><a class="button" href="#phrases">Back to phrasebook</a></div>
       <div class="foot">A teaching example, not a recording of natural spontaneous usage.</div></article>`;
     $('copyPhrase').addEventListener('click',()=>copy(p.qaroshi));
-    setToc([{id:'qaroshi-text',name:'Qaroshi'},{id:'english-text',name:'English'},{id:'usage-text',name:'Usage notes'}]);
+    setToc([{id:'qaroshi-text',name:'Qaroshi'},{id:'pronunciation',name:'Pronunciation'},{id:'english-text',name:'English'},{id:'usage-text',name:'Usage notes'}]);
+  }
+  function renderLatin(){
+    const rows=D.latin.map(x=>`<tr><th scope="row"><span class="latin-abc">${esc(x.latin_upper)}</span><small class="muted">${esc(x.latin_lower)}</small></th>
+      <td><strong>${esc(x.english_name_us)}</strong><span class="ipa-small">${esc(x.english_name_ipa_us)}</span></td>
+      <td>${x.in_qaroshi?`<code>${esc(x.qaroshi_romanization)}</code><span class="ipa-small">${esc(x.qaroshi_phoneme_ipa)}</span>`:'<span class="muted">Not assigned</span>'}</td>
+      <td>${esc(x.note||'')}</td></tr>`).join('');
+    main.innerHTML=`<article class="readable">${mkHeader('Writing / Pronunciation','Latin A–Z','All 26 Latin letters, their American English letter names, and their place (if any) in Qaroshi Romanization.')}
+      <div class="note"><strong>Two separate systems.</strong><p>The IPA for an English <em>letter name</em> is not the same as the Qaroshi <em>sound value</em> assigned to that written symbol. This is a spelling guide, not an English word pronunciation engine.</p></div>
+      <h2 id="latin-chart">Latin alphabet and IPA</h2><div class="latin-table-wrap"><table class="data-table latin-table"><thead><tr><th>Latin</th><th>English name / IPA</th><th>Qaroshi sound / IPA</th><th>Note</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <h2 id="spelling-tool">Spell Latin letters phonetically</h2><p>Enter ordinary A–Z text. The tool outputs American English letter names and their IPA, <strong>letter by letter</strong>. For natural English pronunciation, use an English dictionary instead.</p>
+      <label for="latinInput" class="eyebrow">Letters to spell</label><textarea class="converter-input" id="latinInput" spellcheck="false" aria-label="Text to spell as Latin letter names">Qaroshi</textarea>
+      <div class="pronunciation-panel" id="latinSpellingOutput" aria-live="polite"></div>
+      <h2 id="extra-letters">Qaroshi-specific Romanization</h2><p>Its 26 native glyphs correspond to <strong>21 standard Latin letters</strong> plus <code>ë</code>, <code>sh</code>, <code>zh</code>, <code>kh</code>, and <code>ng</code>. The letters <code>c</code>, <code>f</code>, <code>j</code>, <code>v</code>, and <code>x</code> have no native Qaroshi glyph.</p>
+      <table class="data-table"><thead><tr><th>Romanized</th><th>Sound IPA</th><th>Note</th></tr></thead><tbody>
+      <tr><td><code>ë</code></td><td>/ə/</td><td>Independent sixth vowel</td></tr><tr><td><code>sh</code></td><td>/ʃ/</td><td>One native glyph</td></tr><tr><td><code>zh</code></td><td>/ʒ/</td><td>One native glyph</td></tr><tr><td><code>kh</code></td><td>/x/</td><td>One native glyph</td></tr><tr><td><code>ng</code></td><td>/ŋ/</td><td>One native glyph</td></tr></tbody></table>
+      <p>For actual Qaroshi word sounds, see <a href="#guide/pronunciation">Qaroshi pronunciation and stress</a>, or the <a href="#dictionary">dictionary</a>. For the original handwritten letters, see the <a href="#script">native script converter</a>.</p>
+      <div class="foot">American English letter names are provided for A–Z. This page does not attempt to infer the pronunciation of arbitrary English words.</div></article>`;
+    const nameOf=Object.fromEntries(D.latin.map(x=>[x.latin_lower,x]));
+    const update=()=>{
+      const txt=$('latinInput').value;
+      const chars=Array.from(txt).filter(x=>/[A-Za-z]/.test(x));
+      const names=chars.map(ch=>nameOf[ch.toLowerCase()].english_name_us);
+      const ipa=chars.map(ch=>nameOf[ch.toLowerCase()].english_name_ipa_us.slice(1,-1));
+      $('latinSpellingOutput').innerHTML=`<div><span class="pron-label">Letter names</span><span class="reading-value">${esc(names.join(' · ')||'Enter A–Z letters')}</span></div><div><span class="pron-label">IPA</span><span class="ipa-value">${esc(ipa.length?'/'+ipa.join(' ')+'/':'—')}</span></div><div class="muted small">${chars.length} Latin letters · Nonletters ignored for letter-name spelling</div>`;
+    };
+    $('latinInput').addEventListener('input',update);update();
+    setToc([{id:'latin-chart',name:'A–Z chart'},{id:'spelling-tool',name:'Spell letters'},{id:'extra-letters',name:'Qaroshi-specific forms'}]);
   }
   function renderScript(){
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Writing system','Native script','A one-to-one alphabet of 26 handwritten glyphs, including four letters written as Romanized digraphs.')}
       <div class="note"><strong>What this tool does.</strong><p>Type Romanized Qaroshi to see the same letters in the native handwritten script. It is a letter converter, not an English-to-Qaroshi translator.</p></div>
       <h2 id="converter">Writing converter</h2><textarea id="scriptInput" class="converter-input" spellcheck="false" aria-label="Romanized Qaroshi text">më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.</textarea>
-      <div class="converter-result" id="converterResult"></div>
+      <div class="converter-result" id="converterResult"></div><div id="converterPronunciation" aria-live="polite"></div>
       <div class="controls"><button class="button primary" id="saveScript">Save PNG</button><button class="button" id="copyScript">Copy Romanized text</button><button class="button" id="resetScript">Restore example</button></div>
-      <h2 id="alphabet">The 26 letters</h2><div class="alphabet-grid">${D.letters.map((x,i)=>`<div class="alphabet-card"><img alt="Native handwritten ${esc(x)}" src="${G[x]}"><div class="letter">${String(i+1).padStart(2,'0')} · ${esc(x)}</div></div>`).join('')}</div>
-      <h2 id="orthography">Writing conventions</h2><p>The native alphabet is written from left to right. The Romanized sequences <code>sh</code>, <code>zh</code>, <code>kh</code>, and <code>ng</code> each represent one native letter. Teaching hyphens separate morphemes, not letters. Punctuation and decimal digits are supplemental technical marks.</p>
+      <h2 id="alphabet">The 26 letters</h2><div class="alphabet-grid">${D.letters.map((x,i)=>`<div class="alphabet-card"><img alt="Native handwritten ${esc(x)}" src="${G[x]}"><div class="letter">${String(i+1).padStart(2,'0')} · ${esc(x)}</div><div class="ipa-small">${esc(D.phonemes[i].ipa)}</div></div>`).join('')}</div>
+      <h2 id="orthography">Writing conventions</h2><p>For every ordinary Latin letter A–Z, see the <a href="#latin">Latin letter-name pronunciation guide</a>.</p><p>IPA shows each consonant and vowel precisely; the stress guide capitalizes the stressed syllable. See the <a href="#guide/pronunciation">full IPA guide</a>.</p><p>The native alphabet is written from left to right. The Romanized sequences <code>sh</code>, <code>zh</code>, <code>kh</code>, and <code>ng</code> each represent one native letter. Teaching hyphens separate morphemes, not letters. Punctuation and decimal digits are supplemental technical marks.</p>
       <p class="muted small">Unknown characters are displayed in an alert color rather than silently mapped to an unrelated native letter.</p></article>`;
-    const update=()=>{$('converterResult').innerHTML=glyphHTML($('scriptInput').value,{large:true})};
+    const update=()=>{const value=$('scriptInput').value;$('converterResult').innerHTML=glyphHTML(value,{large:true});$('converterPronunciation').innerHTML=pronunciation({ipa:ipaText(value),reading:readingText(value),sound_out:soundOutText(value)})};
     $('scriptInput').addEventListener('input',update);update();
     $('copyScript').addEventListener('click',()=>copy($('scriptInput').value));
     $('resetScript').addEventListener('click',()=>{$('scriptInput').value='më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.';update()});
     $('saveScript').addEventListener('click',()=>exportPNG($('scriptInput').value));
     setToc([{id:'converter',name:'Converter'},{id:'alphabet',name:'Alphabet'},{id:'orthography',name:'Conventions'}]);
   }
-  const TOP_PAGES = {'translation':'Translation guide','lexicography':'Dictionary conventions','phonology':'Writing & pronunciation','pronunciation':'Pronunciation & IPA','release':'Reference notes','roadmap':'Coverage & future work'};
+  const TOP_PAGES = {'translation':'Translation guide','lexicography':'Dictionary conventions','phonology':'Writing system','pronunciation':'Pronunciation & IPA','latin':'Latin A–Z pronunciation','release':'Reference notes','roadmap':'Coverage & future work'};
   function renderGuide(id){
     if(!D.guides[id]){renderMissing('Guide not found');return}
-    const notice=['pronunciation','release'].includes(id) ? '<p><strong>Site note:</strong> These 4.2 documents describe pronunciation features that are not yet available in this edition of the site.</p>' : '';
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Guides',TOP_PAGES[id]||id,'Qaroshi supporting documentation')}
-      ${notice}<div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
+      <div class="doc-body" id="guideBody">${D.guides[id]}</div><div class="foot">Self-contained excerpt bundled into this offline wiki. Full Markdown sources are in the ZIP.</div></article>`;
     enrichToc();
   }
   function renderAbout(){
@@ -395,17 +549,17 @@
     setToc([{id:'unity',name:'Unified standard'},{id:'preservation',name:'Native writing'},{id:'limits',name:'Tools'}]);
   }
   function renderSearch(route){
-    const q=(route.query.get('q')||'').trim().toLowerCase();
-    const words=W.filter(w=>w.qaroshi.toLowerCase().includes(q)||w.english.toLowerCase().includes(q)).slice(0,35);
-    const chapters=C.filter(c=>c.title.toLowerCase().includes(q)||c.plain.toLowerCase().includes(q)).slice(0,15);
-    const examples=P.filter(p=>p.qaroshi.toLowerCase().includes(q)||p.english.toLowerCase().includes(q)).slice(0,12);
+    const raw=(route.query.get('q')||'').trim(),q=fold(raw);
+    const words=q?W.filter(w=>lexicalSearch.get(w.id).includes(q)||w.ipa.includes(q)).slice(0,35):[];
+    const chapters=q?C.filter(c=>fold(c.title).includes(q)||fold(c.plain).includes(q)).slice(0,15):[];
+    const examples=q?P.filter(p=>fold(p.qaroshi).includes(q)||fold(p.english).includes(q)||p.ipa.includes(q)).slice(0,12):[];
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Search','Search results',q?`Results for “${q}” across words, grammar and examples.`:'Enter a search term in the bar above.')}
       <h2 id="searchWords">Dictionary <span class="muted small">(${words.length}${words.length===35?'+':''})</span></h2>
-      <div class="entry-list">${words.map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="word">${esc(w.qaroshi)}</span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<p class="muted">No matching words.</p>'}</div>
+      <div class="entry-list">${words.map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<p class="muted">No matching words.</p>'}</div>
       <h2 id="searchGrammar">Grammar chapters <span class="muted small">(${chapters.length}${chapters.length===15?'+':''})</span></h2>
       <ul class="section-list">${chapters.map(c=>`<li><a href="#grammar/${c.id}"><span class="ch-num">${c.number}.</span>${esc(c.title)}</a></li>`).join('')||'<li>No matching grammar chapters.</li>'}</ul>
       <h2 id="searchExamples">Examples <span class="muted small">(${examples.length}${examples.length===12?'+':''})</span></h2>
-      ${examples.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><div class="english">${esc(p.english)}</div></a>`).join('')||'<p class="muted">No matching examples.</p>'}
+      ${examples.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><span class="ipa-small">${esc(p.sound_out)} · ${esc(p.ipa)}</span><div class="english">${esc(p.english)}</div></a>`).join('')||'<p class="muted">No matching examples.</p>'}
       <div class="foot">Use the Dictionary tab for unlimited filtered lookup.</div></article>`;
     setToc([{id:'searchWords',name:'Words'},{id:'searchGrammar',name:'Grammar'},{id:'searchExamples',name:'Examples'}]);
   }
@@ -430,7 +584,8 @@
       case 'phrases':renderPhrases();break;
       case 'phrase':renderPhrase(route.id);break;
       case 'script':renderScript();break;
-      case 'guide':renderGuide(route.id);break;
+      case 'latin':renderLatin();break;
+      case 'guide':renderGuide(route.id);inlineIPA();break;
       case 'about':renderAbout();break;
       case 'search':renderSearch(route);break;
       default:renderMissing('This page does not exist.');

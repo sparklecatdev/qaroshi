@@ -1,20 +1,20 @@
 {
-  "standard": "Qaroshi Reference 4.1",
+  "standard": "Qaroshi Unified Standard 5.0",
   "release_state": "published reference",
-  "dictionary_entries": 11878,
-  "english_index_rows": 12646,
-  "sentences": 2017,
+  "dictionary_entries": 16732,
+  "english_index_rows": 17500,
+  "sentences": 3077,
   "grammar_chapters": 70,
   "resonance_registers": 16,
   "native_letters": 26,
-  "semantic_domains": 97,
+  "semantic_domains": 132,
   "parts_of_speech": {
     "conj": 34,
-    "adv": 225,
-    "n": 7776,
-    "v": 2730,
+    "adv": 254,
+    "n": 11973,
+    "adj": 1175,
+    "v": 3151,
     "part": 82,
-    "adj": 968,
     "register": 16,
     "num": 9,
     "det": 11,
@@ -22,5 +22,20 @@
     "intj": 7,
     "qword": 9,
     "pron": 10
+  },
+  "pronunciation_coverage": {
+    "lexicon": 16732,
+    "phrasebook": 3077,
+    "supplementary": {
+      "data/pronouns.json": 10,
+      "data/resonances.json": 16,
+      "data/morphemes.json": 5,
+      "data/grammatical_particles.json": 96
+    }
+  },
+  "version": "5.0",
+  "sound_out_coverage": {
+    "lexicon": 16732,
+    "phrasebook": 3077
   }
 }
