@@ -1,0 +1,53 @@
+{
+  "release": "Qaroshi Unified Standard 8.0",
+  "source_only_git_patch_files": [
+    "README_STANDARD_8.md",
+    "RELEASE_STANDARD_8.md",
+    "docs/standard_8/grammar.md",
+    "docs/standard_8/DECISIONS_AND_MIGRATION.md",
+    "docs/standard_8/REVIEW_PROTOCOL.md",
+    "tools/standard_8/build_standard.py",
+    "tools/standard_8/scope.py",
+    "tools/standard_8/validate_current.py",
+    "tools/standard_8/score_comprehension.py",
+    "tests/test_standard_8.py"
+  ],
+  "precomputed_files_in_download": [
+    "data/standard_8/blind_comprehension_prompts.csv",
+    "data/standard_8/complex_scope_examples.json",
+    "data/standard_8/compound_risk_register.csv",
+    "data/standard_8/dictionary_30001.csv.gz",
+    "data/standard_8/dictionary_enriched_30001.csv.gz",
+    "data/standard_8/formal_scope_truth_models.json",
+    "data/standard_8/lexical_decisions.csv",
+    "data/standard_8/release_manifest.json",
+    "data/standard_8/sealed_answer_key.csv",
+    "data/standard_8/source_backed_valency_probes.csv",
+    "data/standard_8/verb_audit_400.csv"
+  ],
+  "source_sha256": {
+    "README_STANDARD_8.md": "f23a9ae076ccff606d762100eb121a70f3a33c3525fcb78a5a6eac3bf9ac0fa5",
+    "RELEASE_STANDARD_8.md": "5268dbf4b12caf9cb4da234ce31de79e1b3fd05e4ed09f8a53163e13b24d2723",
+    "docs/standard_8/grammar.md": "7f695e6b792f847c976d4ed650678b6f12ed69abcd81c3bdb82399d371d125be",
+    "docs/standard_8/DECISIONS_AND_MIGRATION.md": "2b5e5b919e546373e339e923b79633cb7b65ed12bae1b1f89c933baa58be558a",
+    "docs/standard_8/REVIEW_PROTOCOL.md": "8616f5717e268f72a977bdc6a31c0c24cd0fc06270310561805436682317a8f6",
+    "tools/standard_8/build_standard.py": "372cceb1b0addbf8a644f3dcc9545f520c8c552cb13114359f290bd51007844d",
+    "tools/standard_8/scope.py": "e1cc5cbb494b01421965b4d1b23d70e8e865af043c7b891c4a8c25905351f957",
+    "tools/standard_8/validate_current.py": "10328d390599f5467217628ea93e90f2ee43dd69ba9cf2e34e07c8e1a9806aac",
+    "tools/standard_8/score_comprehension.py": "ce3f9d1140d03c83cc3cfe4e2cf3a241d5342e5ea42af43fa5f6937dc6c31894",
+    "tests/test_standard_8.py": "8529a8234849f6d2afaba092c3476f755d7fb6216e95c23186dd736131155f97"
+  },
+  "data_sha256": {
+    "data/standard_8/blind_comprehension_prompts.csv": "ca7ec9a23cd2736aee4f0936100801aa63edbf5c8c39c217b91399f2f74f1e1b",
+    "data/standard_8/complex_scope_examples.json": "2c2e0b682819a8777573304a1fcd40cfdf0fa87b855421dcf2837defb532358e",
+    "data/standard_8/compound_risk_register.csv": "76ed1d584336f2234bc6e1ae496cd27860632cc8230a1fd75377ca04edc10747",
+    "data/standard_8/dictionary_30001.csv.gz": "c380bbf79aa49822ccc31a542d1f1432ca808390fc78e4a24f5e89e1f21e4742",
+    "data/standard_8/dictionary_enriched_30001.csv.gz": "88be8d5926a5c40c0bd51ff89941971a2146416f4aff26062dd86bfa072dcb50",
+    "data/standard_8/formal_scope_truth_models.json": "801b40de0b51eaf14df368298e6e7ed033db57deacdcd681677c370193047366",
+    "data/standard_8/lexical_decisions.csv": "623e6349d441bd978176f8e1444207dfbc3c3da0586031159c56ab57729e4132",
+    "data/standard_8/release_manifest.json": "d5d9c0f1b59ab238a5e9d9a74bb208876fa2bbb8ab877c34f5bc180b5ded3b8e",
+    "data/standard_8/sealed_answer_key.csv": "1f3eecc1ddd20a745e31952e52724417722b3b6d81061efaa02d680f44f140e4",
+    "data/standard_8/source_backed_valency_probes.csv": "c811f0b44feddd699f33f6754c501309275df5d21ff9cb85dcc240779e684442",
+    "data/standard_8/verb_audit_400.csv": "468e653ab01b818660e128cdafb74cbd07a6b421b06861a6085bf694e6922304"
+  }
+}

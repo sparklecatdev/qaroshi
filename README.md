@@ -2,11 +2,11 @@
 
 **A language reference, a living documentation project, and a suite of offline-first learning tools.**
 
-**[Explore all the current tools](explore.html)** · **[Open the Wiki](index.html)** · **[Read the grammar](docs/grammar.md)** · **[How editorial evidence works](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
+**[Unified Standard 8.0 grammar](docs/standard_8/grammar.md)** · **[Current edition guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Historical 7.0 Wiki](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
 
 ## Start here
 
-The **underlying language is Unified Standard Reference 7.0**: 30,000 canonical lexical entries, 4,383 controlled bilingual examples, 90 grammar chapters, 16 obligatory written resonance markers, and 26 original glyphs. The current **teaching-tool development series reaches release 23**. These are different version numbers, not competing dictionaries.
+The **current normative language edition is Unified Standard 8.0**: [one consolidated 90-chapter grammar](docs/standard_8/grammar.md), **30,001 editioned lexical entries**, explicit passive agency `-za`, and quantified scope with `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through release 23. This language revision does not claim recorded independent speaker use.
 
 | Goal | Recommended tool | What it really does |
 | --- | --- | --- |
@@ -18,6 +18,10 @@ The **underlying language is Unified Standard Reference 7.0**: 30,000 canonical 
 | Follow the original foundations course | [Qaroshi Academy](Qaroshi_Academy.html) | Sixteen foundation lessons and review games |
 
 Older research utilities and corpus-generation experiments are preserved, but appear in the separate **historical/research** section of [Explore](explore.html). They are not the recommended entry point.
+
+## Standard 8.0 · Current language edition
+
+The [full consolidated grammar](docs/standard_8/grammar.md), [edition guide](README_STANDARD_8.md), and [source-based decision register](docs/standard_8/DECISIONS_AND_MIGRATION.md) are the **current normative language references**. The new dictionary is generated from the preserved 7.0 lexicon and the adopted `nëgëra` overlay via `python tools/standard_8/build_standard.py`. The current enriched dictionary includes per-entry sense and verb-role notes; it is not another fabricated 30,000-word expansion. See [release notes](RELEASE_STANDARD_8.md) and the [independent comprehension protocol](docs/standard_8/REVIEW_PROTOCOL.md).
 
 ## Language amendments 24–27 · grammar and lexical meaning
 
