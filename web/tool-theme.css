@@ -1,0 +1,44 @@
+/* Shared wiki palette for standalone tools. */
+html[data-theme="light"], html[data-theme="light"] body {
+  color-scheme: light;
+  --bg:#fff; --paper:#fff; --alt:#f0ecfa; --primary-soft:#f0ecfa; --bg2:#f5f6f9; --surface:#fff; --surface2:#f5f6f9; --lilac:#6247ad; --panel:#fff; --panel2:#f5f6f9;
+  --text:#252833; --ink:#252833; --muted:#677181; --sub:#677181;
+  --line:#e2e5eb; --border:#e2e5eb; --stroke:#e2e5eb; --edge:#e2e5eb;
+  --primary:#6247ad; --accent:#6247ad; --acc:#6247ad; --mint:#6247ad; --lav:#6247ad;
+  --wash:#f0ecfa; --soft:#f0ecfa; --tint:#f5f6f9;
+}
+html[data-theme="dark"], html[data-theme="dark"] body {
+  color-scheme: dark;
+  --bg:#17191f; --paper:#1c1f27; --alt:#292338; --primary-soft:#292338; --bg2:#191b26; --surface:#191b26; --surface2:#222332; --lilac:#c1b0ff; --panel:#191b26; --panel2:#222332;
+  --text:#e7e6ef; --ink:#e7e6ef; --muted:#a5adc0; --sub:#a5adc0;
+  --line:#343645; --border:#343645; --stroke:#343645; --edge:#343645;
+  --primary:#c1b0ff; --accent:#c1b0ff; --acc:#c1b0ff; --mint:#c1b0ff; --lav:#c1b0ff;
+  --wash:#29233e; --soft:#29233e; --tint:#222332;
+}
+body { background:var(--bg); color:var(--text); }
+.qaroshi-tool-bar { display:flex; justify-content:space-between; align-items:center; gap:1rem; min-height:48px; padding:8px clamp(14px, 3vw, 28px); background:var(--panel); border-bottom:1px solid var(--line); color:var(--text); font:600 13px/1.4 system-ui,sans-serif; }
+.qaroshi-tool-bar a { color:var(--primary); text-decoration:none; }
+.qaroshi-tool-bar label { display:flex; align-items:center; gap:8px; color:var(--muted); }
+.qaroshi-tool-bar select { width:auto; max-width:none; padding:5px 8px; border:1px solid var(--line); border-radius:6px; background:var(--panel); color:var(--text); font:inherit; }
+/* The newest tools use fixed colors instead of palette variables. */
+.layout > aside, .app > .sidebar { background:var(--panel); border-color:var(--line); }
+.layout .panel, .layout .panel.soft, .layout .phrase, .layout .turn, .app .stat, .app .item, .app .root { background:var(--panel); border-color:var(--line); }
+.layout .bubble, .app .detail, .app .intro { background:var(--tint); color:var(--text); }
+.layout .lead, .layout .phrase .pron, .layout .hint { color:var(--muted); }
+.layout .phrase .qr, .layout .bigqr, .app .word, .app .arrow, .app code, .layout code { color:var(--text); }
+.layout input, .layout select, .layout textarea, .app .controls input, .app .controls select, .app .notearea { background:var(--panel); color:var(--text); border-color:var(--line); }
+.layout button, .app .btn { background:var(--panel); color:var(--text); border-color:var(--line); }
+.layout button:hover, .layout button.active, .layout .nav button.active, .app .nav button.active, .app .nav button:hover { background:var(--wash); color:var(--primary); border-color:var(--line); }
+.layout button.primary, .app .btn:not(.secondary) { background:var(--primary); color:var(--bg); border-color:var(--primary); }
+.layout .tag, .app .tag:not(.hold):not(.reject):not(.machine), .app .chip { background:var(--wash); color:var(--primary); border-color:var(--line); }
+.layout .logo mark { background:var(--wash); color:var(--primary); }
+
+/* Newer studios have their own fixed palettes. */
+html.qaroshi-new-tool { background:var(--bg); color:var(--text); }
+html.qaroshi-new-tool body { --fg:var(--text); --raised:var(--panel2); --hair:var(--line); --mute:var(--muted); --violet:var(--primary); background:var(--bg); color:var(--text); }
+html.qaroshi-new-tool .sidebar, html.qaroshi-new-tool .tabs { background:var(--panel); border-color:var(--line); box-shadow:none; }
+html.qaroshi-new-tool .paper, html.qaroshi-new-tool .card, html.qaroshi-new-tool .panel, html.qaroshi-new-tool .mini, html.qaroshi-new-tool .record, html.qaroshi-new-tool .stat, html.qaroshi-new-tool .item, html.qaroshi-new-tool .itemlink { background:var(--panel); color:var(--text); border-color:var(--line); }
+html.qaroshi-new-tool input, html.qaroshi-new-tool select, html.qaroshi-new-tool textarea, html.qaroshi-new-tool button { background:var(--panel); color:var(--text); border-color:var(--line); }
+html.qaroshi-new-tool button[aria-selected="true"], html.qaroshi-new-tool button.active, html.qaroshi-new-tool button.selected { background:var(--wash); color:var(--primary); }
+html.qaroshi-new-tool .word, html.qaroshi-new-tool .qr, html.qaroshi-new-tool .qaroshi { color:var(--text); }
+html.qaroshi-new-tool .ipa, html.qaroshi-new-tool .gloss, html.qaroshi-new-tool .muted { color:var(--muted); }

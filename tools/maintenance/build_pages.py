@@ -72,7 +72,16 @@ def stage(destination: Path):
             continue
         shutil.copyfile(file, destination/file.name)
     shutil.copyfile(current, destination/'index.html')
+    assets = destination/'web'
+    assets.mkdir(exist_ok=True)
+    for name in ('theme.js', 'tool-theme.js', 'tool-theme.css'):
+        shutil.copyfile(ROOT/'web'/name, assets/name)
+    theme_tags = b'<script src="web/theme.js"></script><link rel="stylesheet" href="web/tool-theme.css"><script defer src="web/tool-theme.js"></script>'
     for name, content in raw.items():
+        if b'web/tool-theme.css' not in content:
+            if b'</head>' not in content:
+                raise ValueError(f'Missing HTML head: {name}')
+            content = content.replace(b'</head>', theme_tags + b'</head>', 1)
         (destination/name).write_bytes(content)
     for metadata in ('CNAME', '.nojekyll'):
         if (ROOT/metadata).is_file():
