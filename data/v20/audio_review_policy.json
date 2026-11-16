@@ -1,0 +1,26 @@
+{
+  "version": "20.0",
+  "recording_status": "empty until a human explicitly records and consents",
+  "recommended_format": [
+    "audio/webm;codecs=opus",
+    "audio/ogg;codecs=opus",
+    "audio/mp4"
+  ],
+  "min_duration_seconds": 0.2,
+  "max_duration_seconds": 120.0,
+  "max_peak_dbfs": -0.2,
+  "quiet_peak_dbfs": -50.0,
+  "silent_rms_dbfs": -43.0,
+  "human_review_fields": [
+    "actual_word_matches_prompt",
+    "segmental_clarity",
+    "word_stress",
+    "intonation_appropriateness",
+    "background_noise",
+    "permission_to_share"
+  ],
+  "explicit_consent_required": true,
+  "default_storage": "local browser memory; download-only export; no remote upload",
+  "dialects": "unverified until independent recordings and observed linguistic differences exist",
+  "voice_models": "none; the studio contains no native TTS or invented reference audio"
+}

@@ -1,0 +1,538 @@
+[
+  {
+    "day": 1,
+    "name": "Vowel contrast",
+    "phoneme_focus": [
+      "k",
+      "a"
+    ],
+    "stress_drills": [
+      "ST20-001",
+      "ST20-002",
+      "ST20-003",
+      "ST20-004",
+      "ST20-005",
+      "ST20-006",
+      "ST20-007",
+      "ST20-008"
+    ],
+    "sound_contrasts": [
+      "MP20-001",
+      "MP20-002",
+      "MP20-003",
+      "MP20-004",
+      "MP20-005",
+      "MP20-006"
+    ],
+    "record_prompts": [
+      "RC20-0001",
+      "RC20-0002",
+      "RC20-0003",
+      "RC20-0004",
+      "RC20-0005",
+      "RC20-0006",
+      "RC20-0007",
+      "RC20-0008",
+      "RC20-0009",
+      "RC20-0010"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 2,
+    "name": "Back consonants",
+    "phoneme_focus": [
+      "w",
+      "t"
+    ],
+    "stress_drills": [
+      "ST20-009",
+      "ST20-010",
+      "ST20-011",
+      "ST20-012",
+      "ST20-013",
+      "ST20-014",
+      "ST20-015",
+      "ST20-016"
+    ],
+    "sound_contrasts": [
+      "MP20-007",
+      "MP20-008",
+      "MP20-009",
+      "MP20-010",
+      "MP20-011",
+      "MP20-012"
+    ],
+    "record_prompts": [
+      "RC20-0011",
+      "RC20-0012",
+      "RC20-0013",
+      "RC20-0014",
+      "RC20-0015",
+      "RC20-0016",
+      "RC20-0017",
+      "RC20-0018",
+      "RC20-0019",
+      "RC20-0020"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 3,
+    "name": "Digraphs",
+    "phoneme_focus": [
+      "r",
+      "q"
+    ],
+    "stress_drills": [
+      "ST20-017",
+      "ST20-018",
+      "ST20-019",
+      "ST20-020",
+      "ST20-021",
+      "ST20-022",
+      "ST20-023",
+      "ST20-024"
+    ],
+    "sound_contrasts": [
+      "MP20-013",
+      "MP20-014",
+      "MP20-015",
+      "MP20-016",
+      "MP20-017",
+      "MP20-018"
+    ],
+    "record_prompts": [
+      "RC20-0021",
+      "RC20-0022",
+      "RC20-0023",
+      "RC20-0024",
+      "RC20-0025",
+      "RC20-0026",
+      "RC20-0027",
+      "RC20-0028",
+      "RC20-0029",
+      "RC20-0030"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 4,
+    "name": "Syllabification",
+    "phoneme_focus": [
+      "o",
+      "d"
+    ],
+    "stress_drills": [
+      "ST20-025",
+      "ST20-026",
+      "ST20-027",
+      "ST20-028",
+      "ST20-029",
+      "ST20-030",
+      "ST20-031",
+      "ST20-032"
+    ],
+    "sound_contrasts": [
+      "MP20-019",
+      "MP20-020",
+      "MP20-021",
+      "MP20-022",
+      "MP20-023",
+      "MP20-024"
+    ],
+    "record_prompts": [
+      "RC20-0031",
+      "RC20-0032",
+      "RC20-0033",
+      "RC20-0034",
+      "RC20-0035",
+      "RC20-0036",
+      "RC20-0037",
+      "RC20-0038",
+      "RC20-0039",
+      "RC20-0040"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 5,
+    "name": "Stress and ë",
+    "phoneme_focus": [
+      "sh",
+      "z"
+    ],
+    "stress_drills": [
+      "ST20-033",
+      "ST20-034",
+      "ST20-035",
+      "ST20-036",
+      "ST20-037",
+      "ST20-038",
+      "ST20-039",
+      "ST20-040"
+    ],
+    "sound_contrasts": [
+      "MP20-025",
+      "MP20-026",
+      "MP20-027",
+      "MP20-028",
+      "MP20-029",
+      "MP20-030"
+    ],
+    "record_prompts": [
+      "RC20-0041",
+      "RC20-0042",
+      "RC20-0043",
+      "RC20-0044",
+      "RC20-0045",
+      "RC20-0046",
+      "RC20-0047",
+      "RC20-0048",
+      "RC20-0049",
+      "RC20-0050"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 6,
+    "name": "Vowel stability",
+    "phoneme_focus": [
+      "u",
+      "ë"
+    ],
+    "stress_drills": [
+      "ST20-041",
+      "ST20-042",
+      "ST20-043",
+      "ST20-044",
+      "ST20-045",
+      "ST20-046",
+      "ST20-047",
+      "ST20-048"
+    ],
+    "sound_contrasts": [
+      "MP20-031",
+      "MP20-032",
+      "MP20-033",
+      "MP20-034",
+      "MP20-035",
+      "MP20-036"
+    ],
+    "record_prompts": [
+      "RC20-0051",
+      "RC20-0052",
+      "RC20-0053",
+      "RC20-0054",
+      "RC20-0055",
+      "RC20-0056",
+      "RC20-0057",
+      "RC20-0058",
+      "RC20-0059",
+      "RC20-0060"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 7,
+    "name": "Case and suffixes",
+    "phoneme_focus": [
+      "i",
+      "g"
+    ],
+    "stress_drills": [
+      "ST20-049",
+      "ST20-050",
+      "ST20-051",
+      "ST20-052",
+      "ST20-053",
+      "ST20-054",
+      "ST20-055",
+      "ST20-056"
+    ],
+    "sound_contrasts": [
+      "MP20-037",
+      "MP20-038",
+      "MP20-039",
+      "MP20-040",
+      "MP20-041",
+      "MP20-042"
+    ],
+    "record_prompts": [
+      "RC20-0061",
+      "RC20-0062",
+      "RC20-0063",
+      "RC20-0064",
+      "RC20-0065",
+      "RC20-0066",
+      "RC20-0067",
+      "RC20-0068",
+      "RC20-0069",
+      "RC20-0070"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 8,
+    "name": "Requests and consent",
+    "phoneme_focus": [
+      "kh",
+      "zh"
+    ],
+    "stress_drills": [
+      "ST20-057",
+      "ST20-058",
+      "ST20-059",
+      "ST20-060",
+      "ST20-061",
+      "ST20-062",
+      "ST20-063",
+      "ST20-064"
+    ],
+    "sound_contrasts": [
+      "MP20-043",
+      "MP20-044",
+      "MP20-045",
+      "MP20-046",
+      "MP20-047",
+      "MP20-048"
+    ],
+    "record_prompts": [
+      "RC20-0071",
+      "RC20-0072",
+      "RC20-0073",
+      "RC20-0074",
+      "RC20-0075",
+      "RC20-0076",
+      "RC20-0077",
+      "RC20-0078",
+      "RC20-0079",
+      "RC20-0080"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 9,
+    "name": "Questions and answers",
+    "phoneme_focus": [
+      "e",
+      "ng"
+    ],
+    "stress_drills": [
+      "ST20-065",
+      "ST20-066",
+      "ST20-067",
+      "ST20-068",
+      "ST20-069",
+      "ST20-070",
+      "ST20-071",
+      "ST20-072"
+    ],
+    "sound_contrasts": [
+      "MP20-049",
+      "MP20-050",
+      "MP20-051",
+      "MP20-052",
+      "MP20-053",
+      "MP20-054"
+    ],
+    "record_prompts": [
+      "RC20-0081",
+      "RC20-0082",
+      "RC20-0083",
+      "RC20-0084",
+      "RC20-0085",
+      "RC20-0086",
+      "RC20-0087",
+      "RC20-0088",
+      "RC20-0089",
+      "RC20-0090"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 10,
+    "name": "Resonance delivery",
+    "phoneme_focus": [
+      "h",
+      "b"
+    ],
+    "stress_drills": [
+      "ST20-073",
+      "ST20-074",
+      "ST20-075",
+      "ST20-076",
+      "ST20-077",
+      "ST20-078",
+      "ST20-079",
+      "ST20-080"
+    ],
+    "sound_contrasts": [
+      "MP20-055",
+      "MP20-056",
+      "MP20-057",
+      "MP20-058",
+      "MP20-059",
+      "MP20-060"
+    ],
+    "record_prompts": [
+      "RC20-0091",
+      "RC20-0092",
+      "RC20-0093",
+      "RC20-0094",
+      "RC20-0095",
+      "RC20-0096",
+      "RC20-0097",
+      "RC20-0098",
+      "RC20-0099",
+      "RC20-0100"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 11,
+    "name": "Connected speech",
+    "phoneme_focus": [
+      "p",
+      "m"
+    ],
+    "stress_drills": [
+      "ST20-081",
+      "ST20-082",
+      "ST20-083",
+      "ST20-084",
+      "ST20-085",
+      "ST20-086",
+      "ST20-087",
+      "ST20-088"
+    ],
+    "sound_contrasts": [
+      "MP20-061",
+      "MP20-062",
+      "MP20-063",
+      "MP20-064",
+      "MP20-065",
+      "MP20-066"
+    ],
+    "record_prompts": [
+      "RC20-0101",
+      "RC20-0102",
+      "RC20-0103",
+      "RC20-0104",
+      "RC20-0105",
+      "RC20-0106",
+      "RC20-0107",
+      "RC20-0108",
+      "RC20-0109",
+      "RC20-0110"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 12,
+    "name": "Self-recording",
+    "phoneme_focus": [
+      "s",
+      "n"
+    ],
+    "stress_drills": [
+      "ST20-089",
+      "ST20-090",
+      "ST20-091",
+      "ST20-092",
+      "ST20-093",
+      "ST20-094",
+      "ST20-095",
+      "ST20-096"
+    ],
+    "sound_contrasts": [
+      "MP20-067",
+      "MP20-068",
+      "MP20-069",
+      "MP20-070",
+      "MP20-071",
+      "MP20-072"
+    ],
+    "record_prompts": [
+      "RC20-0111",
+      "RC20-0112",
+      "RC20-0113",
+      "RC20-0114",
+      "RC20-0115",
+      "RC20-0116",
+      "RC20-0117",
+      "RC20-0118",
+      "RC20-0119",
+      "RC20-0120"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 13,
+    "name": "Repair and clarity",
+    "phoneme_focus": [
+      "y",
+      "l"
+    ],
+    "stress_drills": [
+      "ST20-097",
+      "ST20-098",
+      "ST20-099",
+      "ST20-100",
+      "ST20-101",
+      "ST20-102",
+      "ST20-103",
+      "ST20-104"
+    ],
+    "sound_contrasts": [
+      "MP20-073",
+      "MP20-074",
+      "MP20-075",
+      "MP20-076",
+      "MP20-077",
+      "MP20-078"
+    ],
+    "record_prompts": [
+      "RC20-0121",
+      "RC20-0122",
+      "RC20-0123",
+      "RC20-0124",
+      "RC20-0125",
+      "RC20-0126",
+      "RC20-0127",
+      "RC20-0128",
+      "RC20-0129",
+      "RC20-0130"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  },
+  {
+    "day": 14,
+    "name": "Full interaction rehearsal",
+    "phoneme_focus": [],
+    "stress_drills": [
+      "ST20-105"
+    ],
+    "sound_contrasts": [
+      "MP20-079",
+      "MP20-080",
+      "MP20-081",
+      "MP20-082",
+      "MP20-083",
+      "MP20-084"
+    ],
+    "record_prompts": [
+      "RC20-0131",
+      "RC20-0132",
+      "RC20-0133",
+      "RC20-0134",
+      "RC20-0135",
+      "RC20-0136",
+      "RC20-0137",
+      "RC20-0138",
+      "RC20-0139",
+      "RC20-0140"
+    ],
+    "done_criterion": "Read and self-record selected examples, reflect on stress and segment accuracy; no automatic proficiency credential."
+  }
+]
