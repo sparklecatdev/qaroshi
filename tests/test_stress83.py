@@ -71,6 +71,14 @@ class Completion83(unittest.TestCase):
             self.assertEqual(r["normative_whole_word_gloss"],self.lex[r["word"]]["english"])
     def test_no_fake_human_testing(self):
         self.assertEqual(self.manifest["human_comprehension_participants"],0)
+    def test_integrated_8_3_grammar_contains_90_chapters_and_he_do(self):
+        import re
+        p=ROOT/"docs/standard_8/grammar_8_3.md"
+        content=p.read_text(encoding="utf8")
+        self.assertEqual(len(re.findall(r"^## [0-9]+\.", content, flags=re.M)),90)
+        self.assertIn("he do",content)
+        self.assertIn("qona",content)
+        self.assertIn("3,108",content)
     def test_source_integrity(self):
         frozen=json.loads((ROOT/"data/v14/baseline_sha256.json").read_text())["sha256"]
         self.assertEqual(len(frozen),29)
