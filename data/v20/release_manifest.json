@@ -1,0 +1,23 @@
+{
+  "release": "Qaroshi 20.0 Spoken Language & Pronunciation",
+  "status": "completed offline learner tools; no speaker corpus asserted",
+  "recording_prompts": 3000,
+  "documented_phrase_prompts": 656,
+  "canonical_word_prompts": 2344,
+  "phoneme_cards": 26,
+  "real_lexical_sound_pairs": 144,
+  "stress_drills": 105,
+  "resonance_prompts": 110,
+  "connected_speech_drills": 140,
+  "course_days": 14,
+  "canon_lexicon_count": 30000,
+  "existing_reference_sentences": 4383,
+  "canonical_changed": false,
+  "actual_audio_recordings_included": 0,
+  "speakers_approved": 0,
+  "phoneme_inventory_signature": "72ecb77b349c5159d1dd995e0f64b0fdc78ea19aeaec20c08d3180ab95f3d546",
+  "canonical_lexicon_sha256": "39cfe975107d052c6fad648956a83895edb51824279f344e28c467b8f3c3d940",
+  "longstanding_conventions": "26 symbols, penultimate stress, six vowel qualities, four native digraph letters; citation IPA not narrow phonetic acoustics",
+  "site_html_sha256": "41255fed6f8e94a386ee8b2b750a1f5cd024633a195f20cc19be7d0b93a38a25",
+  "site_html_bytes": 886469
+}
