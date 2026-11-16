@@ -2,7 +2,7 @@
 
 **Use this edition for new Qaroshi writing.** It consolidates the original 90 grammar chapters with the adopted 24–34 amendments, gives one 30,001-entry editioned dictionary, and adds precise decisions for verb arguments, compounds and two-quantifier scope.
 
-For later editorial additions, also consult [8.4 core verbs](docs/standard_8/AMENDMENT_8_4_CORE_VERBS.md), [8.5 attempted actions](docs/standard_8/AMENDMENT_8_5_ATTEMPT.md), and [8.6 everyday meanings and content clauses](docs/standard_8/AMENDMENT_8_6_EVERYDAY_MEANING.md). These additions are not independent evidence of speaker use.
+For later editorial additions, also consult [8.4 core verbs](docs/standard_8/AMENDMENT_8_4_CORE_VERBS.md), [8.5 attempted actions](docs/standard_8/AMENDMENT_8_5_ATTEMPT.md), [8.6 everyday meanings and content clauses](docs/standard_8/AMENDMENT_8_6_EVERYDAY_MEANING.md), and [8.7 productive everyday actions](docs/standard_8/AMENDMENT_8_7_PRODUCTIVE_ACTIONS.md). These additions are not independent evidence of speaker use.
 
 ## The authoritative reference
 
