@@ -6,7 +6,7 @@
 
 ## Start here
 
-The **current normative language edition is Unified Standard 8.0**: [one consolidated 90-chapter grammar](docs/standard_8/grammar.md), **30,001 editioned lexical entries**, explicit passive agency `-za`, and quantified scope with `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through 23. This language revision does not claim recorded independent speaker use.
+The **current normative language edition is Unified Standard 8.0**: [one consolidated 90-chapter grammar](docs/standard_8/grammar.md), **30,001 editioned lexical entries**, explicit passive agency `-za`, and quantified scope with `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through release 23. This language revision does not claim recorded independent speaker use.
 
 | Goal | Recommended tool | What it really does |
 | --- | --- | --- |
