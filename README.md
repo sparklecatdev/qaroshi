@@ -33,6 +33,10 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 8.2 candidate · Expressive completeness review
+
+[Read the 8.2 item-by-item language review](docs/standard_8/EXPRESSIVE_COMPLETENESS_8_2.md). Rebuild the 500 stress-test decisions, all 375 restricted verb audits, 1,125 valency review trials, the 3,108-compound triage, hundreds of Qaroshi grammatical minimal pairs, and four annotated connected practice readings with `make stress82`. **49 original stress prompts have unratified rule-based drafts; 451 still lack complete Qaroshi translations.** No independent comprehension or general valency approval is fabricated. Standard 8.0 plus the adopted 8.1 embedded-question clarification remains the normative language; 8.2 is an evidence-limited refinement candidate.
+
 ## Standard 8.1 · Adversarial language stress test
 
 **[Read the 500-sentence audit and 8.1 grammar amendment](README_STANDARD_8_1_STRESS.md)** · [Prioritized linguistic triage](docs/standard_8/STRESS_TEST_TRIAGE_8_1.md) · [Embedded-question rule](docs/standard_8/AMENDMENT_8_1_EMBEDDED_POLAR.md)
