@@ -217,6 +217,13 @@ def draft_for(case,lex):
         sem="source English metaphor has no established Qaroshi idiom or literal-equivalence evidence"
     elif domain=="technical_precision":
         sem="domain technical source, causal uncertainty, and predicate selection remain individually underdetermined"
+    if domain in {"time_motion","counterfactual_modal"}:
+        from extra_clauses import build_one
+        proposal, witnesses, caution = build_one(domain,idx,variant,lex)
+        if proposal:
+            ingredients=[(role,english,(qr,ident,"canonical dictionary indexing root"))
+                         for role,english,qr,ident in witnesses]
+            return proposal,"documented temporal/conditional connective with exact lexical roots",caution,"",ingredients
     return "","no complete source-licensed composition",sem or "requires manual semantic adjudication","",[]
 
 def build():
@@ -330,6 +337,7 @@ def build():
         "edition":"Qaroshi 8.3 candidate: completion-focused editorial evidence",
         "total_challenges":len(cases),
         "translation_status_counts":dict(lookup_stats),
+        "drafts_by_domain":{d:sum(1 for c in cases if c["domain"]==d and c["qaroshi_draft"]) for d in sorted({c["domain"] for c in cases})},
         "all_challenges_human_validated":False,
         "source_limited_verb_cases":len(frames),
         "new_general_verb_frames_licensed":0,
