@@ -18,6 +18,6 @@
   "phoneme_inventory_signature": "72ecb77b349c5159d1dd995e0f64b0fdc78ea19aeaec20c08d3180ab95f3d546",
   "canonical_lexicon_sha256": "39cfe975107d052c6fad648956a83895edb51824279f344e28c467b8f3c3d940",
   "longstanding_conventions": "26 symbols, penultimate stress, six vowel qualities, four native digraph letters; citation IPA not narrow phonetic acoustics",
-  "site_html_sha256": "41255fed6f8e94a386ee8b2b750a1f5cd024633a195f20cc19be7d0b93a38a25",
-  "site_html_bytes": 886469
+  "site_html_sha256": "559843d3f3889c56e9b8372ac4a957a1f6dc3b80919a04f0efe344184d76ed3c",
+  "site_html_bytes": 886464
 }
