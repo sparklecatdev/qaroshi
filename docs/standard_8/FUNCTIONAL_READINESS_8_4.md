@@ -2,6 +2,8 @@
 
 **Status:** implemented editorial grammar refinement and reproducible audit. **Not** a declaration of general fluency, an unlimited translator, native usage, or the completion of the entire language. The authoritative 8.0 grammar and adopted 8.1 embedded-question rule remain unchanged except for the **11 narrow active-sense frames adopted in the 8.4 overlay**. The 8.3 proposal grammar is still editorial. No historical word or glyph is replaced.
 
+For subsequent new writing, see the [8.5 attempted-action extension](AMENDMENT_8_5_ATTEMPT.md). The measurements below remain the 8.4 baseline.
+
 ## Changes made in this edition
 
 1. Explicit new active-sense valency for 11 existing common verbs, with required roles, authorized case slots, incompatible inferences and model examples. See [8.4 core verbs](AMENDMENT_8_4_CORE_VERBS.md) and the machine-readable overlay in `data/standard_8/valency_overlay_8_4.json`.
