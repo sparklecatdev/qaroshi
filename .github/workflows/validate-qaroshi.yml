@@ -18,5 +18,7 @@ jobs:
         run: python tools/maintenance/audit_repository.py --site
       - name: Build and report 8.3 linguistic coverage
         run: make stress83
+      - name: Build and report 8.4 functional readiness
+        run: make stress84
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q

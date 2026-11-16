@@ -33,6 +33,12 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 8.4 · Narrow productive core and functional-readiness evidence
+
+**[8.4 functional readiness and open gaps](docs/standard_8/FUNCTIONAL_READINESS_8_4.md)** · **[11 explicit core verb frames](docs/standard_8/AMENDMENT_8_4_CORE_VERBS.md)** · **[Qaroshi-only practice](docs/standard_8/QAROSHI_ONLY_PRACTICE_8_4.md)**
+
+This edition adopts **11 deliberately narrow active verb frames** for existing high-use words, adding to the 25 previously manually reviewed general frames. It provides a reproducible 500-case review queue (**96 provisional drafts, 404 without complete drafts**), 400 verb decision cards, 120 core-word meaning review cards, and 12 blind grammar contrasts. It **does not** certify broad translation, generalize the remaining 364 priority verb frames or fabricate any real comprehension scores. Run `make stress84`; the older Standard 8.0 grammar plus adopted 8.1 clarification still governs unaffected constructions.
+
 ## Standard 8.3 · Source-grounded expression and lexicography
 
 The [8.3 consolidated working grammar](docs/standard_8/grammar_8_3.md) includes the 8.1 embedded-polar interpretation and the current compound sense policy; historical 8.0 files remain intact. [Read the 8.3 coverage ledger](docs/standard_8/EXPRESSIVE_COVERAGE_8_3.md). Run `make stress83` to generate 500 item-specific translation proposals (only source-grounded drafts are filled), 375 restricted verb decisions, a 3,108-word canonical sense register, and a blind comprehension instrument with its answer key separate. **The edition is an editorial candidate, not independently measured fluency.**

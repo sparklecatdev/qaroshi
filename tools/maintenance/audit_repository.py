@@ -66,12 +66,31 @@ def audit(check_site=False):
     if source.exists():
         data=json.loads(source.read_text(encoding='utf-8'))
         mismatches=[]
+        # Historical release manifests stay immutable. Approved changes to a
+        # source template after its historical release require an exact,
+        # separately recorded Git blob identity, rather than a silent rehash.
+        overlay_path=ROOT/'docs/maintenance/APPROVED_SOURCE_OVERRIDES.json'
+        approved=json.loads(overlay_path.read_text(encoding='utf-8')) if overlay_path.exists() else {}
+        overridden=[]
         for rel,expected in data['files'].items():
             item=ROOT/rel
-            if not item.exists() or hashlib.sha256(item.read_bytes()).hexdigest()!=expected:
-                mismatches.append(rel)
+            if item.exists() and hashlib.sha256(item.read_bytes()).hexdigest()==expected:
+                continue
+            override=approved.get(rel)
+            if item.exists() and override and override.get('historical_sha256')==expected:
+                raw=item.read_bytes()
+                git_blob=hashlib.sha1(b'blob '+str(len(raw)).encode('ascii')+bytes([0])+raw).hexdigest()
+                if git_blob==override.get('approved_git_blob_sha1') and override.get('reason'):
+                    overridden.append(rel)
+                    continue
+            mismatches.append(rel)
+        orphaned=sorted(set(approved)-set(data['files']))
+        if orphaned:issues.append('Source overrides without archived manifest entries: '+', '.join(orphaned))
         if mismatches:issues.append('Current release source-manifest mismatches: '+', '.join(mismatches))
         checks['release_manifest_sha256_paths']=len(data['files'])
+        checks['approved_post_release_source_overrides']=len(overridden)
+        if overridden:
+            warnings.append('Explicitly approved post-release source changes (historical checksums retained): '+', '.join(overridden))
     else:
         warnings.append('Optional 21–23 release source-manifest missing')
     # Historic browser QA records are retained, not silently classified as junk.
