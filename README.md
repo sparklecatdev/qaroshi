@@ -19,6 +19,12 @@ The **underlying language is Unified Standard Reference 7.0**: 30,000 canonical 
 
 Older research utilities and corpus-generation experiments are preserved, but appear in the separate **historical/research** section of [Explore](explore.html). They are not the recommended entry point.
 
+## Language amendments 24–27 · grammar and lexical meaning
+
+The **[24–27 linguistic amendment](docs/language_reform_24_27.md)** changes the language itself: it adds **`-za` for an explicit passive actor** (distinguishing it from instrumental `-shi`), refines **22 senses of existing words** and **25 verb argument frames**, clarifies negation scope and short answer fragments, and sets stricter rules for compound formation. Historical `-shi` passive-agent sentences remain readable.
+
+The original 7.0 grammar and 29 hashed reference sources are frozen as historical baselines. The amendment takes precedence for new, precision-oriented writing without silently changing the 30,000 canonical spellings or promoting any of the 65 reviewed but unapproved replacement proposals. New validation lives in `tools/v24_27/validate.py`; older validators remain available for reproducing historical QA.
+
 ## Evidence and limitations
 
 - **Canonical:** spelling, written morphology, the reference grammar and original glyphs. Standardized documents do not imply naturally occurring community use.

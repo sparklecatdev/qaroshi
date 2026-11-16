@@ -8,6 +8,10 @@ Six vowels have the reference sound values `a /a/`, `e /e/`, `i /i/`, `o /o/`, `
 
 Standard syllables follow `(C)(r/l/w/y)V(C)` with common syllable-final `m,n,ng,r,l`. Short particles and expressive words permit other codas, including the register `rak`. Some consonant combinations arise where compound roots meet. Fast speech may contract identical adjacent vowels without changing spelling.
 
+## Morphological boundaries and compound pronunciation · amendment 27
+
+A root, a compound join and a grammatical suffix remain analytically separable, whether or not a speaker realizes a rapid-speech vowel coalescence. The **dictionary form never loses a vowel** because two component vowels happen to meet. The four official digraphs (`sh`, `zh`, `kh`, `ng`) are single graphemes in the established spelling, but **a learner must not infer compound components simply from an English-looking letter split**. Look up the documented compound decomposition and use hyphens or centered dots only in **teaching analyses** to expose a boundary. Those segmentation marks are not new native letters or alternate canonical spellings. The original 26-letter inventory and default penultimate citation stress are unchanged; no new mandatory assimilation or speaker-recorded allophone is claimed.
+
 ## One-to-one glyph mapping
 
 The digraphs `sh`, `zh`, `kh`, `ng` are single native letters. Grapheme conversion therefore takes the longest matching letter first. Input `shazhakhng` is parsed `sh · a · zh · a · kh · ng`. A `sh` character is **not** an `s` followed by an `h` in standard Qaroshi orthography. The Romanized alphabet is therefore not a direct English-like character stream.

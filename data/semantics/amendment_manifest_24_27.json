@@ -1,0 +1,28 @@
+{
+  "edition": "Qaroshi linguistic amendments 24–27",
+  "status": "normative addendum to frozen Standard 7.0, without renaming canonical words",
+  "new_graphemes": 0,
+  "new_case_suffixes": [
+    "-za:passive-agent"
+  ],
+  "updated_root_senses": 22,
+  "total_curated_sense_records": 48,
+  "curated_verb_frames": 25,
+  "reviewed_alternatives": 65,
+  "replacement_headwords_approved": 0,
+  "canonical_dictionary_entries_unchanged": 30000,
+  "canonical_reference_examples_unchanged": 4383,
+  "base_grammar_chapters_unchanged": 90,
+  "frozen_baseline_files_valid": 29,
+  "source_sha256": {
+    "data/semantics/curated_senses.json": "171de8dd5d8a2888d35700e56341b4a07b9cf7547223d53859d72599ac88ce1b",
+    "data/semantics/valency_frames.json": "301a0e6ab5423ae7006a4d45fb3691d3a044a89107df1e34753c81adee55f075",
+    "docs/lexicography.md": "393ea90f592a7eb16657340cbf5137e5ffe54eefcdfe8fcc7e77f7e3892e569b",
+    "docs/phonology_and_script.md": "d0dba36b6567a6b09612d0453b745178f83c2fe192d73cc745fdef834de7cce6",
+    "tools/fluency11/engine.py": "8338111cdab8cd01e505a5891409872c1227198a2b81ef8dabffd37022dd2f39",
+    "docs/language_reform_24_27.md": "1fcf4fe8c2a1651d2cac15c2a2bf74d79d1fd6e89eee6a59783de77572fe3b66",
+    "data/semantics/lexical_migration_decisions_24_27.csv": "a5cd39357ada8633cd974022ac4134be12100f94ed50c3768eecc15e6d4bef80",
+    "tools/v24_27/validate.py": "57f928798ad434b0a4abe6757241e001a7cf2cd24003992b0b701c6307053b72",
+    "tests/test_v24_27_language_reform.py": "2cc5f57cbc5fc6d77eb10779dd9bb1a925c7518cff4e273e7ac64c95ec14fb60"
+  }
+}

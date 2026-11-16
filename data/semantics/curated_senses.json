@@ -258,5 +258,225 @@
     "pos": "adjective",
     "construction": "qaro zaki",
     "status": "standard editorial sense description"
+  },
+  {
+    "id": "LS027",
+    "lemma": "mara",
+    "dict_id": "Q002272",
+    "sense": "trusted peer",
+    "definition": "Friendship or trusted companionship; does not by itself encode family membership, romance or a legal relationship.",
+    "pos": "noun",
+    "construction": "sen mi-na mara haro.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS028",
+    "lemma": "goro",
+    "dict_id": "Q001170",
+    "sense": "airborne motion",
+    "definition": "Move through air by flight; wing use may be expressed with -shi but is not required as a direct object.",
+    "pos": "verb",
+    "construction": "sen sa goro.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS029",
+    "lemma": "gura",
+    "dict_id": "Q001350",
+    "sense": "travel to a goal",
+    "definition": "Travel or go; a destination takes -gu, origin -de and location -lo, not direct-object -m.",
+    "pos": "verb",
+    "construction": "sen mi naro-gu gura.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS030",
+    "lemma": "nëra",
+    "dict_id": "Q003075",
+    "sense": "remain at a place",
+    "definition": "Continue being or staying; location may be marked -lo. Does not entail sleeping or recuperating.",
+    "pos": "verb",
+    "construction": "sen mi naro-lo nëra.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS031",
+    "lemma": "nëru",
+    "dict_id": "Q003084",
+    "sense": "rest from activity",
+    "definition": "Pause or recuperate; does not entail staying in a specific place or falling asleep.",
+    "pos": "verb",
+    "construction": "sen mi nëru.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS032",
+    "lemma": "wori",
+    "dict_id": "Q005346",
+    "sense": "exploration",
+    "definition": "Move or seek information in an unfamiliar area; not merely travel to an already chosen destination.",
+    "pos": "verb",
+    "construction": "sen sa wori.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS033",
+    "lemma": "tika",
+    "dict_id": "Q004927",
+    "sense": "perceptual encounter",
+    "definition": "See or notice a referent directly, without committing to knowing its identity or truth.",
+    "pos": "verb",
+    "construction": "sen mi qaro-m tika.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS034",
+    "lemma": "sëmi",
+    "dict_id": "Q004904",
+    "sense": "reliable knowledge",
+    "definition": "Have reliable knowledge or understanding of a proposition/object; not mere belief or hearsay.",
+    "pos": "verb",
+    "construction": "sen mi qaroshi-m sëmi.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS035",
+    "lemma": "këmë",
+    "dict_id": "Q001977",
+    "sense": "ingest liquid",
+    "definition": "Take a liquid by drinking; an -m object is normally a liquid, not a solid food.",
+    "pos": "verb",
+    "construction": "sen mi kima-m këmë.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS036",
+    "lemma": "shëma",
+    "dict_id": "Q004474",
+    "sense": "eat food",
+    "definition": "Consume food; drinking liquids normally takes këmë instead.",
+    "pos": "verb",
+    "construction": "sen mi shëma.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS037",
+    "lemma": "daru",
+    "dict_id": "Q000420",
+    "sense": "guard or shield",
+    "definition": "Undertake protection of the object; future forms describe intention/expectation and do not prove protection succeeded.",
+    "pos": "verb",
+    "construction": "sen mi naro-m daru.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS038",
+    "lemma": "pëli",
+    "dict_id": "Q003431",
+    "sense": "offer or give a theme",
+    "definition": "Act to give or present a theme (-m) to a recipient (-tu). Offers may be declined; completed transfer must be made clear in context.",
+    "pos": "verb",
+    "construction": "sen mi mara-tu kima-m pëli.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS039",
+    "lemma": "nashi",
+    "dict_id": "Q002339",
+    "sense": "deep cherishing",
+    "definition": "Care for or cherish someone deeply; does not by itself assert romantic or sexual attraction.",
+    "pos": "verb",
+    "construction": "më mi ti-m nashi.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS040",
+    "lemma": "mali",
+    "dict_id": "Q002271",
+    "sense": "romantic attachment",
+    "definition": "Feel romantic love for a person; not interchangeable with chosen-family care.",
+    "pos": "verb",
+    "construction": "më mi ti-m mali.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS041",
+    "lemma": "lani",
+    "dict_id": "Q002001",
+    "sense": "familial care",
+    "definition": "Express love or care grounded in family or kinship; neither a biological relation nor romantic feeling is automatically implied.",
+    "pos": "verb",
+    "construction": "më mi ti-m lani.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS042",
+    "lemma": "mahori",
+    "dict_id": "Q002269",
+    "sense": "affirmative voluntary consent",
+    "definition": "Consciously and freely agree. Silence, a warm resonance, absence of refusal or a request are not consent.",
+    "pos": "verb",
+    "construction": "sen mi mahori.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS043",
+    "lemma": "hari",
+    "dict_id": "Q001449",
+    "sense": "possess or have",
+    "definition": "Possess, have access to or hold the object in context; does not necessarily assert legal title.",
+    "pos": "verb",
+    "construction": "sen mi naro-m hari.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS044",
+    "lemma": "shëliro",
+    "dict_id": "Q004466",
+    "sense": "read inscription",
+    "definition": "Process written symbols or text; correct reading does not entail belief, comprehension or agreement.",
+    "pos": "verb",
+    "construction": "sen mi shima-m shëliro.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS045",
+    "lemma": "shiroli",
+    "dict_id": "Q004443",
+    "sense": "produce written text",
+    "definition": "Produce an inscription or text; does not entail publishing, delivering or sending it.",
+    "pos": "verb",
+    "construction": "sen mi shina-m shiroli.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS046",
+    "lemma": "përë",
+    "dict_id": "Q003484",
+    "sense": "express apology",
+    "definition": "Apologize by acknowledging an offense; does not automatically mean forgiveness, compensation or restitution.",
+    "pos": "verb",
+    "construction": "më mi përë.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS047",
+    "lemma": "zëru",
+    "dict_id": "Q006812",
+    "sense": "cease living",
+    "definition": "Die or cease biological life; figurative “end” meanings require explicit framing.",
+    "pos": "verb",
+    "construction": "sen sa zëru-te.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
+  },
+  {
+    "id": "LS048",
+    "lemma": "noa",
+    "dict_id": "Q002867",
+    "sense": "short or low physical measure",
+    "definition": "Short or physically low in a concrete dimension; cannot automatically be used for low bandwidth, low voltage or sensory impairment.",
+    "pos": "adjective",
+    "construction": "sen dëna qaro noa.",
+    "status": "normative semantic clarification 24-27; existing spelling retained"
   }
 ]

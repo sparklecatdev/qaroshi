@@ -9,7 +9,15 @@
     "roles": [],
     "selection_note": "airborne motion, not permission",
     "ipa": "/ˈɡo.ɾo/",
-    "sound_out": "GOH-roh"
+    "sound_out": "GOH-roh",
+    "required_roles": [
+      "subject:flyer"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF002",
@@ -21,7 +29,19 @@
     "roles": [],
     "selection_note": "source/goal cases may be expressed",
     "ipa": "/ˈɡu.ɾa/",
-    "sound_out": "GOO-rah"
+    "sound_out": "GOO-rah",
+    "required_roles": [
+      "subject:traveler"
+    ],
+    "licensed_optional_roles": [
+      "goal:-gu",
+      "source:-de",
+      "location:-lo"
+    ],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF003",
@@ -33,7 +53,17 @@
     "roles": [],
     "selection_note": "state continuing at a place",
     "ipa": "/ˈnə.ɾa/",
-    "sound_out": "NUH-rah"
+    "sound_out": "NUH-rah",
+    "required_roles": [
+      "subject:stayer"
+    ],
+    "licensed_optional_roles": [
+      "location:-lo"
+    ],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF004",
@@ -45,7 +75,17 @@
     "roles": [],
     "selection_note": "not equivalent to staying in place",
     "ipa": "/ˈnə.ɾu/",
-    "sound_out": "NUH-roo"
+    "sound_out": "NUH-roo",
+    "required_roles": [
+      "subject:rester"
+    ],
+    "licensed_optional_roles": [
+      "location:-lo"
+    ],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF005",
@@ -57,7 +97,18 @@
     "roles": [],
     "selection_note": "does not require a particular game",
     "ipa": "/ˈɾa.wo/",
-    "sound_out": "RAH-woh"
+    "sound_out": "RAH-woh",
+    "required_roles": [
+      "subject:player"
+    ],
+    "licensed_optional_roles": [
+      "location:-lo",
+      "comitative:-wa"
+    ],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF006",
@@ -69,7 +120,19 @@
     "roles": [],
     "selection_note": "exploration is not merely directed travel",
     "ipa": "/ˈwo.ɾi/",
-    "sound_out": "WOH-ree"
+    "sound_out": "WOH-ree",
+    "required_roles": [
+      "subject:explorer"
+    ],
+    "licensed_optional_roles": [
+      "goal:-gu",
+      "location:-lo",
+      "source:-de"
+    ],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF007",
@@ -81,7 +144,17 @@
     "roles": [],
     "selection_note": "not necessarily intend an action",
     "ipa": "/ˈɡə.ma/",
-    "sound_out": "GUH-mah"
+    "sound_out": "GUH-mah",
+    "required_roles": [
+      "subject:dreamer"
+    ],
+    "licensed_optional_roles": [
+      "content:do"
+    ],
+    "disallowed_inferences": [
+      "object:-m without licensed dream content"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF008",
@@ -95,7 +168,18 @@
     ],
     "selection_note": "content optional; speaking not necessarily informing",
     "ipa": "/ˈʃi.ɾi/",
-    "sound_out": "SHEE-ree"
+    "sound_out": "SHEE-ree",
+    "required_roles": [
+      "subject:speaker"
+    ],
+    "licensed_optional_roles": [
+      "recipient:-tu",
+      "content:do"
+    ],
+    "disallowed_inferences": [
+      "required object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF009",
@@ -109,7 +193,16 @@
     ],
     "selection_note": "not equivalent to knowing or believing",
     "ipa": "/ˈti.ka/",
-    "sound_out": "TEE-kah"
+    "sound_out": "TEE-kah",
+    "required_roles": [
+      "subject:perceiver",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "recipient:-tu as sight target"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF010",
@@ -123,7 +216,18 @@
     ],
     "selection_note": "future protection is a commitment, not success",
     "ipa": "/ˈda.ɾu/",
-    "sound_out": "DAH-roo"
+    "sound_out": "DAH-roo",
+    "required_roles": [
+      "subject:protector",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [
+      "instrument:-shi"
+    ],
+    "disallowed_inferences": [
+      "recipient:-tu as protected target"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF011",
@@ -137,7 +241,16 @@
     ],
     "selection_note": "not inherently romantic or sexual",
     "ipa": "/ˈna.ʃi/",
-    "sound_out": "NAH-shee"
+    "sound_out": "NAH-shee",
+    "required_roles": [
+      "subject:carer",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "relationship type inferred from resonance"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF012",
@@ -151,7 +264,16 @@
     ],
     "selection_note": "romance distinct from nurturing kinship",
     "ipa": "/ˈma.li/",
-    "sound_out": "MAH-lee"
+    "sound_out": "MAH-lee",
+    "required_roles": [
+      "subject:romantic experiencer",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "romance inferred from nashi"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF013",
@@ -165,7 +287,16 @@
     ],
     "selection_note": "kinship stance distinct from romantic love",
     "ipa": "/ˈla.ni/",
-    "sound_out": "LAH-nee"
+    "sound_out": "LAH-nee",
+    "required_roles": [
+      "subject:familial experiencer",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "romance inferred from lani"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF014",
@@ -179,7 +310,16 @@
     ],
     "selection_note": "object is normally a liquid",
     "ipa": "/ˈkə.mə/",
-    "sound_out": "KUH-muh"
+    "sound_out": "KUH-muh",
+    "required_roles": [
+      "subject:drinker",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "non-liquid object without metaphor"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF015",
@@ -193,7 +333,16 @@
     ],
     "selection_note": "not automatically drink",
     "ipa": "/ˈʃə.ma/",
-    "sound_out": "SHUH-mah"
+    "sound_out": "SHUH-mah",
+    "required_roles": [
+      "subject:eater",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "liquid as ordinary meal"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF016",
@@ -207,7 +356,16 @@
     ],
     "selection_note": "does not entail comprehension",
     "ipa": "/ʃə.ˈli.ɾo/",
-    "sound_out": "shuh-LEE-roh"
+    "sound_out": "shuh-LEE-roh",
+    "required_roles": [
+      "subject:reader",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "automatic comprehension"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF017",
@@ -221,7 +379,18 @@
     ],
     "selection_note": "not synonymous with speaking",
     "ipa": "/ʃi.ˈɾo.li/",
-    "sound_out": "shee-ROH-lee"
+    "sound_out": "shee-ROH-lee",
+    "required_roles": [
+      "subject:writer",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [
+      "instrument:-shi"
+    ],
+    "disallowed_inferences": [
+      "automatic delivery to recipient"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF018",
@@ -236,7 +405,18 @@
     ],
     "selection_note": "knowledge not mere hearsay",
     "ipa": "/ˈsə.mi/",
-    "sound_out": "SUH-mee"
+    "sound_out": "SUH-mee",
+    "required_roles": [
+      "subject:knower",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [
+      "content:do"
+    ],
+    "disallowed_inferences": [
+      "report as direct knowledge"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF019",
@@ -250,7 +430,16 @@
     ],
     "selection_note": "possession need not imply legal title in every context",
     "ipa": "/ˈha.ɾi/",
-    "sound_out": "HAH-ree"
+    "sound_out": "HAH-ree",
+    "required_roles": [
+      "subject:holder",
+      "object:-m"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "automatic legal ownership"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF020",
@@ -265,7 +454,18 @@
     ],
     "selection_note": "transfer distinguishes recipient and object",
     "ipa": "/ˈpə.li/",
-    "sound_out": "PUH-lee"
+    "sound_out": "PUH-lee",
+    "required_roles": [
+      "subject:giver",
+      "object:-m",
+      "recipient:-tu"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "recipient as object:-m",
+      "completed transfer from offer alone"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF021",
@@ -279,7 +479,18 @@
     ],
     "selection_note": "asking does not assert an answer",
     "ipa": "/ʃa.ˈɾo.a/",
-    "sound_out": "shah-ROH-ah"
+    "sound_out": "shah-ROH-ah",
+    "required_roles": [
+      "subject:asker"
+    ],
+    "licensed_optional_roles": [
+      "content:do",
+      "recipient:-tu"
+    ],
+    "disallowed_inferences": [
+      "assent from inquiry"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF022",
@@ -293,7 +504,18 @@
     ],
     "selection_note": "answer may be a refusal or uncertainty",
     "ipa": "/pə.ˈɾo.a/",
-    "sound_out": "puh-ROH-ah"
+    "sound_out": "puh-ROH-ah",
+    "required_roles": [
+      "subject:responder"
+    ],
+    "licensed_optional_roles": [
+      "content:do",
+      "recipient:-tu"
+    ],
+    "disallowed_inferences": [
+      "answer implies agreement"
+    ],
+    "passive_agent_case": "-za for -li; legacy -shi allowed only with ambiguity note"
   },
   {
     "id": "VF023",
@@ -305,7 +527,17 @@
     "roles": [],
     "selection_note": "must remain voluntary; not inferred from tone",
     "ipa": "/ma.ˈho.ɾi/",
-    "sound_out": "mah-HOH-ree"
+    "sound_out": "mah-HOH-ree",
+    "required_roles": [
+      "subject:consenter"
+    ],
+    "licensed_optional_roles": [
+      "content:do"
+    ],
+    "disallowed_inferences": [
+      "inferred consent from silence"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF024",
@@ -317,7 +549,15 @@
     "roles": [],
     "selection_note": "literal cessation of life; metaphoric readings marked",
     "ipa": "/ˈzə.ɾu/",
-    "sound_out": "ZUH-roo"
+    "sound_out": "ZUH-roo",
+    "required_roles": [
+      "subject:living being"
+    ],
+    "licensed_optional_roles": [],
+    "disallowed_inferences": [
+      "object:-m"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   },
   {
     "id": "VF025",
@@ -329,6 +569,16 @@
     "roles": [],
     "selection_note": "apology is not automatic restitution",
     "ipa": "/ˈpə.ɾə/",
-    "sound_out": "PUH-ruh"
+    "sound_out": "PUH-ruh",
+    "required_roles": [
+      "subject:apologizer"
+    ],
+    "licensed_optional_roles": [
+      "recipient:-tu"
+    ],
+    "disallowed_inferences": [
+      "apology implies forgiveness"
+    ],
+    "passive_agent_case": "not applicable to intransitive sense"
   }
 ]
