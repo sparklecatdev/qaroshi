@@ -300,7 +300,7 @@ def build():
 
     # Scoreable independent comprehension exercises: participants cannot
     # invent data by merely running the generator.
-    questions,answer=[]
+    questions,answer=[],[]
     for c in cases:
         if not c["qaroshi_draft"]:continue
         idx=len(questions)+1
