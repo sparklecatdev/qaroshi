@@ -50,6 +50,17 @@ class Stress82Review(unittest.TestCase):
     def test_every_case_has_target_specific_reason(self):
         self.assertTrue(all(r["source_grammar_feature"] and r["target_semantic_structure"] and
             r["required_next_adjudication"] for r in self.cases))
+    def test_lexical_witnesses_are_real_headword_ids(self):
+        canon={r["qaroshi"]:r for r in read("data/lexicon.csv")}
+        for case in self.cases:
+            for x in json.loads(case["lexical_candidate_witnesses_json"]):
+                self.assertEqual(canon[x["qaroshi_root"]]["id"],x["canonical_id"])
+                self.assertIn("NOT adjudicated",x["meaning_status"])
+    def test_no_automatic_word_sense_approval(self):
+        for case in self.cases:
+            self.assertIn(case["coverage"],{
+                "limited_normative_composition_unratified",
+                "no_complete_Qaroshi_translation_yet"})
     def test_375_exact_verbs(self):
         self.assertEqual(len(self.verbs),375)
         self.assertEqual(len({r["lemma"] for r in self.verbs}),375)

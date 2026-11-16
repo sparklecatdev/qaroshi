@@ -30,7 +30,7 @@ The generator writes these deterministic files in data/stress82:
 
 ## A · Translation coverage: all 500 cases adjudicated as to current evidence
 
-Each item records its English proposition, target semantics, uncertainty, source-grounded draft or abstention, and next review action. Of the 500, **49 have source-backed compositional drafts** and **451 do not yet have complete Qaroshi translations**. The former are not independently back-translated or human-validated, and the latter cannot be called grammatical impossibilities. English targets are not independent readbacks. A completion claim would require a new Qaroshi draft, checked sense/argument licensing, and a meaning recovery test for each outstanding item.
+Each item records its English proposition, target semantics, uncertainty, source-grounded draft or abstention, **candidate lexemes linked to real canonical dictionary IDs when an English indexing gloss matches**, and next review action. A matched English gloss is only a lookup suggestion: it is not evidence that the Qaroshi sense or verb frame is licensed in that sentence. Of the 500, **49 have source-backed compositional drafts** and **451 do not yet have complete Qaroshi translations**. The former are not independently back-translated or human-validated, and the latter cannot be called grammatical impossibilities. English targets are not independent readbacks. A completion claim would require a new Qaroshi draft, checked sense/argument licensing, and a meaning recovery test for each outstanding item.
 
 ## B · Verb behavior: 375 individually assessed records, not 375 blanket permissions
 

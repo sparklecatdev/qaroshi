@@ -158,6 +158,41 @@ def build(output=OUT):
     assert len(by_id) == 500
     corpus = {r["id"]: r for r in csvread(ROOT / "corpus/parallel_sentences.csv")}
     words = {r["qaroshi"]: r for r in csvread(ROOT / "data/lexicon.csv")}
+    # Search only exact canonical English glossary senses. These are lexical
+    # suggestions, not permission to substitute an unrelated homonym.
+    gloss_index = defaultdict(list)
+    for lex in words.values():
+        for sense in lex["english"].split(";"):
+            term = re.sub(r"\([^)]*\)", "", sense.lower()).strip(" .!?")
+            if term and 1 <= len(term.split()) <= 4 and len(term) >= 3:
+                gloss_index[term].append(lex)
+    for key in gloss_index:
+        gloss_index[key].sort(key=lambda z: (z["pos"] not in ("n","v","adj"), z["qaroshi"]))
+    stop = {"the","a","an","is","are","was","were","to","in","at","of","from","for",
+            "that","which","as","it","had","have","has","not","did","does","do",
+            "would","could","should","will","there","if","when","than","but",
+            "every","some","no","this","these","those","they","their","our",
+            "i","you","me","my","with","into","because","until","before",
+            "after","while","then","already","someone","everyone"}
+    def lexical_candidates(sentence):
+        english_words = re.findall(r"[a-z]+(?:-[a-z]+)?", sentence.lower())
+        found = []
+        used = set()
+        for size in (3,2,1):
+            for i in range(len(english_words) - size + 1):
+                phrase = " ".join(english_words[i:i+size])
+                if phrase in stop or not phrase or all(x in stop for x in english_words[i:i+size]):
+                    continue
+                exact = gloss_index.get(phrase, [])
+                for lex in exact[:2]:
+                    key = (phrase, lex["qaroshi"])
+                    if key in used:continue
+                    used.add(key)
+                    found.append({"english_phrase":phrase,"qaroshi_root":lex["qaroshi"],
+                                  "canonical_id":lex["id"],"source_pos":lex["pos"],
+                                  "meaning_status":"exact English indexing gloss; contextual use NOT adjudicated"})
+                if len(found) >= 14:return found[:14]
+        return found
     frame = csvread(ROOT / "data/standard_8/verb_audit_400.csv")
     restricted = [r for r in frame if not r["general_frame_review"].startswith("yes")]
     assert len(frame) == 400 and len(restricted) == 375
@@ -189,6 +224,7 @@ def build(output=OUT):
             "target_semantic_structure": required,
             "qaroshi_draft": draft,
             "draft_lexical_witness": old["draft_basis"],
+            "lexical_candidate_witnesses_json": json.dumps(lexical_candidates(c["english"]), ensure_ascii=False, separators=(",", ":")),
             "restricted_structural_readback": (parsed.get("logical_form") if parsed and parsed.get("interpretable") else ""),
             "complete_backtranslation_independently_checked": "no",
             "coverage": coverage,
