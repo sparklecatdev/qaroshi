@@ -1,0 +1,322 @@
+[
+  {
+    "id": "FX001",
+    "qaroshi": "nëm banu nëra.",
+    "literal_english": "The wing rests.",
+    "accepted_editorial_literary_interpretation": "Choose to wait instead of acting immediately.",
+    "interpretive_domain": "deliberation",
+    "restriction": "resisting premature action",
+    "context": "A pilot voluntarily postpones a flight.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX002",
+    "qaroshi": "qor zhalo nu zëru.",
+    "literal_english": "The fire does not die.",
+    "accepted_editorial_literary_interpretation": "A commitment or hope persists despite difficulty.",
+    "interpretive_domain": "commitment",
+    "restriction": "enduring intention, not literal immortality",
+    "context": "A speaker promises to continue an effort.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX003",
+    "qaroshi": "wen mi sëra-m tika.",
+    "literal_english": "I see the star.",
+    "accepted_editorial_literary_interpretation": "I am aware of an important distant goal.",
+    "interpretive_domain": "aspiration",
+    "restriction": "distant goal is salient",
+    "context": "Someone talks about a dream they cannot yet reach.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX004",
+    "qaroshi": "sen naro nu goro.",
+    "literal_english": "The home does not fly.",
+    "accepted_editorial_literary_interpretation": "Stability requires staying grounded.",
+    "interpretive_domain": "stability",
+    "restriction": "choose not to chase every distraction",
+    "context": "A traveler is reminded of familiar support.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX005",
+    "qaroshi": "më mi mara-m daru.",
+    "literal_english": "I protect my friend.",
+    "accepted_editorial_literary_interpretation": "I stand by my friend during difficulty.",
+    "interpretive_domain": "loyalty",
+    "restriction": "stand beside a friend",
+    "context": "A friend offers moral support.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX006",
+    "qaroshi": "zha mi banu-shi goro.",
+    "literal_english": "I fly with wings.",
+    "accepted_editorial_literary_interpretation": "I act with confidence in my own abilities.",
+    "interpretive_domain": "confidence",
+    "restriction": "wing imagery must not denote literal ability",
+    "context": "A playful celebration of independence.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX007",
+    "qaroshi": "sen mi shiro-m shëliro.",
+    "literal_english": "I read the poem.",
+    "accepted_editorial_literary_interpretation": "I look beyond the obvious words for meaning.",
+    "interpretive_domain": "reflection",
+    "restriction": "read beyond the words",
+    "context": "A reader studies someone else’s feelings.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX008",
+    "qaroshi": "nëm mi naro-lo nëra.",
+    "literal_english": "I remain at home.",
+    "accepted_editorial_literary_interpretation": "I choose familiarity or emotional safety.",
+    "interpretive_domain": "belonging",
+    "restriction": "seek shelter or familiarity",
+    "context": "A speaker declines a risky adventure.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX009",
+    "qaroshi": "sur mi-na shi nu shiri.",
+    "literal_english": "My voice does not speak.",
+    "accepted_editorial_literary_interpretation": "I cannot bring myself to express what I feel.",
+    "interpretive_domain": "grief",
+    "restriction": "suppressed feelings rather than physical silence",
+    "context": "A grieving narrator describes being silent.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX010",
+    "qaroshi": "dal mi goro-yu.",
+    "literal_english": "I will fly.",
+    "accepted_editorial_literary_interpretation": "I will attempt something courageous.",
+    "interpretive_domain": "courage",
+    "restriction": "future effort is not guaranteed success",
+    "context": "A hatchling decides to take on a challenge.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX011",
+    "qaroshi": "zher mi sëra-m nu tika.",
+    "literal_english": "I do not see the star.",
+    "accepted_editorial_literary_interpretation": "I have lost sight of my goal.",
+    "interpretive_domain": "lost_focus",
+    "restriction": "goal no longer salient",
+    "context": "A speaker is uncertain about direction.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX012",
+    "qaroshi": "nëm mi kima-m këmë.",
+    "literal_english": "I drink water.",
+    "accepted_editorial_literary_interpretation": "I regain balance through a small basic act.",
+    "interpretive_domain": "grounding",
+    "restriction": "small task restores emotional balance",
+    "context": "A speaker settles after an argument.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX013",
+    "qaroshi": "qor mi naro-m daru-yu.",
+    "literal_english": "I will protect the home.",
+    "accepted_editorial_literary_interpretation": "I will defend our shared place or community.",
+    "interpretive_domain": "community",
+    "restriction": "protect collective belonging",
+    "context": "A solemn pledge before change.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX014",
+    "qaroshi": "më mi ti-m nashi.",
+    "literal_english": "I cherish you.",
+    "accepted_editorial_literary_interpretation": "I value our bond in action, not just words.",
+    "interpretive_domain": "care",
+    "restriction": "cherishing does not automatically entail romance",
+    "context": "A partner reassures someone.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX015",
+    "qaroshi": "wen mi naro-gu gura-yu.",
+    "literal_english": "I will go toward home.",
+    "accepted_editorial_literary_interpretation": "I yearn for a place of belonging.",
+    "interpretive_domain": "belonging",
+    "restriction": "desire for home",
+    "context": "A traveler thinks of loved ones.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX016",
+    "qaroshi": "sen kima nu shiri.",
+    "literal_english": "The water does not speak.",
+    "accepted_editorial_literary_interpretation": "Silence is not evidence that nothing is happening.",
+    "interpretive_domain": "evidence",
+    "restriction": "silence is not proof of absence",
+    "context": "A narrator observes a deceptively quiet river.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX017",
+    "qaroshi": "zha mi shira-m shiroli.",
+    "literal_english": "I write a song.",
+    "accepted_editorial_literary_interpretation": "I turn an experience into shared art.",
+    "interpretive_domain": "creativity",
+    "restriction": "transform experience into writing",
+    "context": "A performer processes an event.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX018",
+    "qaroshi": "qor mi sëna nëra-yu.",
+    "literal_english": "I will always remain.",
+    "accepted_editorial_literary_interpretation": "I intend lasting loyalty.",
+    "interpretive_domain": "loyalty",
+    "restriction": "intent is not a legal obligation",
+    "context": "A solemn personal pledge.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX019",
+    "qaroshi": "sen mi-na naro haro.",
+    "literal_english": "My home is safe.",
+    "accepted_editorial_literary_interpretation": "I have a place where I feel accepted.",
+    "interpretive_domain": "safety",
+    "restriction": "feeling accepted",
+    "context": "A speaker describes belonging.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX020",
+    "qaroshi": "lën mi-na shi nu shiri.",
+    "literal_english": "My voice does not speak.",
+    "accepted_editorial_literary_interpretation": "I am shy about voicing my feeling.",
+    "interpretive_domain": "shyness",
+    "restriction": "reluctance to confess",
+    "context": "A hesitant confession.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX021",
+    "qaroshi": "rak mi naro-de gura-yu.",
+    "literal_english": "I will go away from home.",
+    "accepted_editorial_literary_interpretation": "I refuse to remain under present conditions.",
+    "interpretive_domain": "defiance",
+    "restriction": "leave intolerable conditions",
+    "context": "A defiant declaration.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX022",
+    "qaroshi": "hol mi ti-m tika.",
+    "literal_english": "I see you.",
+    "accepted_editorial_literary_interpretation": "I acknowledge your presence or effort.",
+    "interpretive_domain": "recognition",
+    "restriction": "acknowledge another person",
+    "context": "One person thanks another for help.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX023",
+    "qaroshi": "më mi banu-m daru.",
+    "literal_english": "I protect my wing.",
+    "accepted_editorial_literary_interpretation": "I care for the capacity that lets me act.",
+    "interpretive_domain": "self_care",
+    "restriction": "protect the means of acting",
+    "context": "A speaker rests after overwork.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX024",
+    "qaroshi": "nëm mi goro-te-mo.",
+    "literal_english": "I finished flying.",
+    "accepted_editorial_literary_interpretation": "I have reached the end of one effort.",
+    "interpretive_domain": "completion",
+    "restriction": "end of effort",
+    "context": "Reflection after completing a project.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX025",
+    "qaroshi": "yë mi-na naro haro!",
+    "literal_english": "My home is safe!",
+    "accepted_editorial_literary_interpretation": "I have discovered unexpected safety.",
+    "interpretive_domain": "discovery",
+    "restriction": "unexpected safe place",
+    "context": "A surprised return from danger.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX026",
+    "qaroshi": "sen sëra nu zëru.",
+    "literal_english": "The star does not die.",
+    "accepted_editorial_literary_interpretation": "A distant ideal outlasts temporary setbacks.",
+    "interpretive_domain": "hope",
+    "restriction": "longer timescale of aspirations",
+    "context": "A narrator reflects on a long ambition.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX027",
+    "qaroshi": "zha naru goro-yu!",
+    "literal_english": "We will fly!",
+    "accepted_editorial_literary_interpretation": "Our group is ready to try together.",
+    "interpretive_domain": "collaboration",
+    "restriction": "collective planned effort",
+    "context": "Inclusive team celebration.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX028",
+    "qaroshi": "wen mi mara-m tika-yu.",
+    "literal_english": "I will see my friend.",
+    "accepted_editorial_literary_interpretation": "I look forward to a reunion.",
+    "interpretive_domain": "longing",
+    "restriction": "anticipated reunion",
+    "context": "Friends are separated.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX029",
+    "qaroshi": "qor mi nu nëra-yu.",
+    "literal_english": "I will not remain.",
+    "accepted_editorial_literary_interpretation": "I commit to change a difficult situation.",
+    "interpretive_domain": "change",
+    "restriction": "refuse to remain in current state",
+    "context": "A solemn decision to move on.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX030",
+    "qaroshi": "nëm mi nu shiri.",
+    "literal_english": "I do not speak.",
+    "accepted_editorial_literary_interpretation": "I choose listening over immediate reaction.",
+    "interpretive_domain": "restraint",
+    "restriction": "choose not to speak immediately",
+    "context": "A speaker avoids escalating an argument.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX031",
+    "qaroshi": "hë mi shoro wori he?",
+    "literal_english": "Why do I explore?",
+    "accepted_editorial_literary_interpretation": "I am searching for what matters to me.",
+    "interpretive_domain": "inquiry",
+    "restriction": "search for purpose",
+    "context": "A reflective question during travel.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  },
+  {
+    "id": "FX032",
+    "qaroshi": "më mi ti-wa nëra.",
+    "literal_english": "I stay with you.",
+    "accepted_editorial_literary_interpretation": "I offer companionship through difficulty.",
+    "interpretive_domain": "companionship",
+    "restriction": "offered presence without coercion",
+    "context": "A comfort statement.",
+    "status": "editorial literary convention in reference material, not independent oral attestation"
+  }
+]

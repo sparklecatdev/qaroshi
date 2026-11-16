@@ -1,0 +1,182 @@
+[
+  {
+    "id": "D31-01",
+    "topic": "complete_sentence",
+    "rule": "All written independent finite assertions and direct questions retain exactly one initial resonance",
+    "preferred_or_documented_example": "sen mi haro.",
+    "contrast_or_omission": "mi haro.",
+    "scope_note": "Required structure, even in informal chat",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-02",
+    "topic": "minimal_reply",
+    "rule": "An answer consisting only of shë/nu is a contextual fragment",
+    "preferred_or_documented_example": "shë",
+    "contrast_or_omission": "sen shë.",
+    "scope_note": "Both licensed; first fragment, second complete written response",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-03",
+    "topic": "subject_drop",
+    "rule": "Subject omission is licensed only if one immediately salient referent makes it uniquely recoverable",
+    "preferred_or_documented_example": "nëm përo.",
+    "contrast_or_omission": "nu daru.",
+    "scope_note": "Omission cannot be used to hide participants in consent-sensitive utterances",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-04",
+    "topic": "self_correction",
+    "rule": "dënaro repairs the current speaker’s earlier propositional claim, not a different person’s words",
+    "preferred_or_documented_example": "sen dënaro mi ti-m daru-yu.",
+    "contrast_or_omission": "qëlo mi ti-m daru-yu.",
+    "scope_note": "A correction requires the newly intended proposition",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-05",
+    "topic": "mishearing",
+    "rule": "qëlo signals a hearing repair; it does not itself retract the previous claim",
+    "preferred_or_documented_example": "hë qëlo ti haro he?",
+    "contrast_or_omission": "sen dënaro mi haro.",
+    "scope_note": "Keep mishearing separate from claim revision",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-06",
+    "topic": "silence",
+    "rule": "Unanswered invitation or request means no answer, never automatic agreement",
+    "preferred_or_documented_example": "hë ti haro he?",
+    "contrast_or_omission": "",
+    "scope_note": "Evidence cannot be inferred from silence",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-07",
+    "topic": "topic_shift",
+    "rule": "tëshi introduces a new topic only following initial resonance",
+    "preferred_or_documented_example": "sen tëshi mi haro.",
+    "contrast_or_omission": "tëshi sen mi haro.",
+    "scope_note": "One resonance initial remains obligatory",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-08",
+    "topic": "voluntary_request",
+    "rule": "pëshu makes refusal explicitly permissible without asserting agreement",
+    "preferred_or_documented_example": "më tëqoro ti mi-wa goro ya.",
+    "contrast_or_omission": "më ti mi-wa goro.",
+    "scope_note": "Social stance and content are separate",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-09",
+    "topic": "rumor",
+    "rule": "hu reports information; it does not establish eyewitness truth",
+    "preferred_or_documented_example": "sen sa goro-te hu.",
+    "contrast_or_omission": "sen sa goro-te si.",
+    "scope_note": "Use source distinctions deliberately",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-10",
+    "topic": "paraphrase",
+    "rule": "wëlëmi is paraphrase; qëhano is verbatim quote; never stack on the same span",
+    "preferred_or_documented_example": "sen wëlëmi mi ti-m nashi.",
+    "contrast_or_omission": "sen qëhano wëlëmi mi ti-m nashi.",
+    "scope_note": "Quoted complete clauses still need their own resonance",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-11",
+    "topic": "referent_switch",
+    "rule": "Repeat noun or use name when two possible people could be sa",
+    "preferred_or_documented_example": "sen sa haro.",
+    "contrast_or_omission": "",
+    "scope_note": "Anaphora must have one salient candidate",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-12",
+    "topic": "politeness",
+    "rule": "hë requests information, pëla expresses politeness; resonance cannot assert consent",
+    "preferred_or_documented_example": "më pëla ngëlawe shiri ya.",
+    "contrast_or_omission": "",
+    "scope_note": "A pleasant attitude is not authorization",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-13",
+    "topic": "ellipsis",
+    "rule": "A short label or answer can omit recoverable structure; a full finite clause cannot drop its resonance",
+    "preferred_or_documented_example": "nu",
+    "contrast_or_omission": "nu haro.",
+    "scope_note": "Distinguish fragment from incomplete sentence",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-14",
+    "topic": "repair_in_turn",
+    "rule": "After an explicit correction, quote the earlier form only as superseded",
+    "preferred_or_documented_example": "sen dënaro mi ti-m daru-yu.",
+    "contrast_or_omission": "",
+    "scope_note": "Cannot silently rewrite earlier speaker turn",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-15",
+    "topic": "conditional_promise",
+    "rule": "An invitation, promise and obligation must remain lexically distinct",
+    "preferred_or_documented_example": "qor mi ti-m daru-yu.",
+    "contrast_or_omission": "dal mi ti-m daru-du.",
+    "scope_note": "Future and duty do not imply each other",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-16",
+    "topic": "register_switch",
+    "rule": "To change resonance, close the independent sentence and begin a new marked one",
+    "preferred_or_documented_example": "sen mi haro. zha mi goro-yu!",
+    "contrast_or_omission": "sen mi haro zha mi goro-yu.",
+    "scope_note": "No mid-sentence marker stacking",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-17",
+    "topic": "negative_answer",
+    "rule": "Bare nu is a fragment, not a complete denial of arbitrary preceding content",
+    "preferred_or_documented_example": "nu",
+    "contrast_or_omission": "sen mi nu haro.",
+    "scope_note": "Use full statement to make the negated proposition clear",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-18",
+    "topic": "uncertain_assertion",
+    "rule": "shurëmi leaves content unresolved; absence of evidence is not affirmative proof",
+    "preferred_or_documented_example": "zher shurëmi sa haro.",
+    "contrast_or_omission": "sen sa haro si.",
+    "scope_note": "Do not upgrade stance to evidence",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-19",
+    "topic": "group_pronouns",
+    "rule": "naru includes listener, muru excludes; not interchangeable for commitments",
+    "preferred_or_documented_example": "sen naru qaroshi-m shiri.",
+    "contrast_or_omission": "",
+    "scope_note": "Choose group membership intentionally",
+    "status": "normative usage clarification; no new inflection"
+  },
+  {
+    "id": "D31-20",
+    "topic": "rhetorical_question",
+    "rule": "Rhetorical question frame marks no expected literal answer",
+    "preferred_or_documented_example": "hë yëhano ti haro he?",
+    "contrast_or_omission": "hë ti haro he?",
+    "scope_note": "Do not infer interrogative force solely from punctuation",
+    "status": "normative usage clarification; no new inflection"
+  }
+]

@@ -25,6 +25,10 @@ The **[24–27 linguistic amendment](docs/language_reform_24_27.md)** changes th
 
 The original 7.0 grammar and 29 hashed reference sources are frozen as historical baselines. The amendment takes precedence for new, precision-oriented writing without silently changing the 30,000 canonical spellings or promoting any of the 65 reviewed but unapproved replacement proposals. New validation lives in `tools/v24_27/validate.py`; older validators remain available for reproducing historical QA.
 
+## Qaroshi 28–34 · Functional language revision
+
+This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
+
 ## Evidence and limitations
 
 - **Canonical:** spelling, written morphology, the reference grammar and original glyphs. Standardized documents do not imply naturally occurring community use.
