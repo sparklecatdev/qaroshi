@@ -79,7 +79,7 @@ def audit(check_site=False):
             override=approved.get(rel)
             if item.exists() and override and override.get('historical_sha256')==expected:
                 raw=item.read_bytes()
-                git_blob=hashlib.sha1(b'blob '+str(len(raw)).encode('ascii')+b'\\0'+raw).hexdigest()
+                git_blob=hashlib.sha1(b'blob '+str(len(raw)).encode('ascii')+bytes([0])+raw).hexdigest()
                 if git_blob==override.get('approved_git_blob_sha1') and override.get('reason'):
                     overridden.append(rel)
                     continue
