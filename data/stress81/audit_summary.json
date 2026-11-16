@@ -1,0 +1,53 @@
+{
+  "edition": "Qaroshi Standard 8.1 stress audit",
+  "scope": "English-to-Qaroshi *tool coverage*, not proof of language nonexpressibility",
+  "challenges": 500,
+  "distinct_scenario_families": 100,
+  "domains": 10,
+  "novel_vs_all_covered_source_english": true,
+  "positive_known_source_controls": 30,
+  "positive_controls_passed": 30,
+  "translator_results": {
+    "abstained": 500
+  },
+  "editorial_rule_based_drafts": 49,
+  "remaining_without_documented_draft": 451,
+  "draft_status": "Constructed from current adopted rules and source lexemes; NOT source-attested or peer-reviewed translations",
+  "by_domain": {
+    "counterfactual_modal": {
+      "abstained": 50
+    },
+    "daily": {
+      "abstained": 50
+    },
+    "embedding_reference": {
+      "abstained": 50
+    },
+    "evidentiality": {
+      "abstained": 50
+    },
+    "narrative_figures": {
+      "abstained": 50
+    },
+    "quantifier_logic": {
+      "abstained": 50
+    },
+    "social_consent": {
+      "abstained": 50
+    },
+    "technical_precision": {
+      "abstained": 50
+    },
+    "time_motion": {
+      "abstained": 50
+    },
+    "voice_valency": {
+      "abstained": 50
+    }
+  },
+  "automatically_verified_semantic_equivalence": 0,
+  "independent_human_comprehension_participants": 0,
+  "identified_documentation_gap": "Indirect yes/no complement he/do segmentation and matrix-vs-embedded negation not fully specified in current chapter 73",
+  "remedial_rule": "Standard 8.1 amendment: he before do = embedded polar operator; he at end = direct matrix question",
+  "remaining_work": "Independent adjudication for verb frames, lexical selection, nested reference and naturalness"
+}

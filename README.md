@@ -33,6 +33,12 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 8.1 · Adversarial language stress test
+
+**[Read the 500-sentence audit and 8.1 grammar amendment](README_STANDARD_8_1_STRESS.md)** · [Prioritized linguistic triage](docs/standard_8/STRESS_TEST_TRIAGE_8_1.md) · [Embedded-question rule](docs/standard_8/AMENDMENT_8_1_EMBEDDED_POLAR.md)
+
+A controlled adversarial set of **500 previously unindexed English prompts** (100 semantic scenarios × five transformations, ten domains) exposed a critical limit of the existing English→Qaroshi software: **500/500 abstentions**, while 30/30 source-lookup controls passed. **49** prompts now have narrowly source-grounded compositional drafts; the other **451** are not falsely labeled solved. A new adopted rule establishes `he do` for embedded *whether* questions and keeps inner and outer `nu` scopes separate. No native-speaker or unrestricted-translation success is claimed; original dictionaries and grammar sources remain preserved.
+
 ## Evidence and limitations
 
 - **Canonical:** spelling, written morphology, the reference grammar and original glyphs. Standardized documents do not imply naturally occurring community use.

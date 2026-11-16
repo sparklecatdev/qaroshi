@@ -1,0 +1,31 @@
+source_id,english,qaroshi,status,retrieval_pass
+S00003,Are you well?,hë ti haro he?,"exact documented source match, context-sensitive",yes
+S00004,I am well.,sen mi haro.,"exact documented source match, context-sensitive",yes
+S00005,I am not well.,sen mi nu haro.,"exact documented source match, context-sensitive",yes
+S00008,"Goodbye, dear friend.","më përo, mara-lë.","exact documented source match, context-sensitive",yes
+S00009,What is your name?,hë ti-na lëru khe he?,"exact documented source match, context-sensitive",yes
+S00010,My name is Qaro.,sen mi-na lëru Qaro.,"exact documented source match, context-sensitive",yes
+S00013,Do you speak Qaroshi?,hë ti qaroshi-m shiri he?,"exact documented source match, context-sensitive",yes
+S00014,I am learning Qaroshi!,sen mi qaroshi-m rëmi.,"exact documented source match, context-sensitive",yes
+S00017,I don't understand.,lën mi nu zhëmi.,"exact documented source match, context-sensitive",yes
+S00018,Please speak slowly.,më pëla ngëlawe shiri ya.,"exact documented source match, context-sensitive",yes
+S00019,What did you say?,hë ti khe-m shiri-te he?,"exact documented source match, context-sensitive",yes
+S00021,You are cute.,më ti lësha.,"exact documented source match, context-sensitive",yes
+S00024,I cherish you deeply.,më mi ti-m nashi.,"exact documented source match, context-sensitive",yes
+S00025,I love you romantically.,lën mi ti-m mali.,"exact documented source match, context-sensitive",yes
+S00026,I love you as family.,më mi ti-m lani.,"exact documented source match, context-sensitive",yes
+S00027,I miss you.,wen mi ti-m wënoa.,"exact documented source match, context-sensitive",yes
+S00028,I miss you all the time.,wen mi ti-m sëna wënoa.,"exact documented source match, context-sensitive",yes
+S00030,My heart belongs to you.,më mi-na sharuwa ti-tu shënawo.,"exact documented source match, context-sensitive",yes
+S00031,I like you.,më mi ti-m mëlë.,"exact documented source match, context-sensitive",yes
+S00032,May I hug you?,hë mi ti-m mërali-ho he?,"exact documented source match, context-sensitive",yes
+S00033,Please stay with me.,më pëla mi-wa nëra ya.,"exact documented source match, context-sensitive",yes
+S00034,I will protect you.,qor mi ti-m daru-yu.,"exact documented source match, context-sensitive",yes
+S00035,"Please never die, so you can stay with me forever.","më pëla, ti sëna nu zëru ya, ko ti mi-wa sëna nëra-ki.","exact documented source match, context-sensitive",yes
+S00036,I remember your face.,lën mi ti-na meri-m këmiro.,"exact documented source match, context-sensitive",yes
+S00037,Your wings are beautiful.,më ti-na banu-ri rëla.,"exact documented source match, context-sensitive",yes
+S00038,I hope you stay.,wen ti nëra do mi rënawë.,"exact documented source match, context-sensitive",yes
+S00039,Please don't forget me.,më pëla mi-m nu ngëmiro ya.,"exact documented source match, context-sensitive",yes
+S00040,"You helped me, thank you.",hol ti mi-m dëmi-te.,"exact documented source match, context-sensitive",yes
+S00042,I feel peaceful.,nëm mi nerawo.,"exact documented source match, context-sensitive",yes
+S00044,I'm feeling shy.,lën mi lënowa.,"exact documented source match, context-sensitive",yes
