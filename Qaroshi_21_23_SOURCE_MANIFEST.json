@@ -1,0 +1,31 @@
+{
+  "release": "Qaroshi 21.0/22.0/23.0",
+  "status": "additive self-contained source and packaged data",
+  "files": {
+    "Qaroshi_21_23_Translation_Immersion_Academy.html.bz2": "8675bd62aa4590312424fc4d804d2091377d838df8e5acbb1cdab55d73a0286b",
+    "Qaroshi_21_23_Precomputed_Data.zip": "c341037e60668bff24ce6bf9b1ab44392c2f543e0ac88e2be59d48927a3afdc9",
+    "README_21_23_START_HERE.md": "18281ccea81cae238d8684817f1a57ee043b5ffd2cf2f147bc85855e4fda3896",
+    "RELEASE_21_23_NOTES.md": "72a840e562653da2e129932309951ba370b01c16371f398bb6fa3566baafc7d6",
+    "docs/v21_23/INDEPENDENT_VALIDATION_PROTOCOL.md": "c4b12561a9b698718b9c3da3fe4d7d004def2909c62e9d1e301af186defcf650",
+    "tools/v21_23/translator.py": "37181ddb34cd08b12929d1fb1645f626690c04eabf0159102cb6ee176833e56c",
+    "tools/v21_23/build_release.py": "19945d1493bb9a1f6a49da715fb59cc5c5e1893669095670c38464fbb2005bb1",
+    "tools/v21_23/app_template.html": "f68d7b0c8c9fe54fbe24e5cb0eb25d051f89c81e616b7e650ee9db5fbd52a157",
+    "tools/v21_23/browser_smoke.py": "20db8398be07a95766f4870308fd79b002c29a9877ec5f27cfcc3edb9e4a6514",
+    "tools/v21_23/restore_artifacts.py": "a99e8c9c9d47a37df434572353013861e037bd9dd058e6eed4cce5c6f03f5527",
+    "tests/test_v21_23_translation_immersion.py": "b957a4ac01ab7b2bcad9cda55b8a79cd53e481897c2dd638b44ba0aeeeb8d643"
+  },
+  "site_sha256": "64c67186f91e05c12648078769616b5c611d51584a5fc0c1054398d009266c2e",
+  "site_size": 5732121,
+  "precomputed_files": [
+    "data/v21/translation_reference_index.json",
+    "data/v21/editorial_discrepancy_ledger_103.json",
+    "data/v21/reference_translation_audit.json",
+    "data/v22/graded_editorial_readers_108.json",
+    "data/v23/source_matching_quizzes.json",
+    "data/v23/twelve_lesson_learning_path.json",
+    "data/v23/independent_review_blank_template.csv",
+    "data/v23/browser_checks.json",
+    "data/v21_23_release_manifest.json"
+  ],
+  "validation": "1095 Python tests (one font skip), 63 Chromium desktop/mobile checks; clean extraction pending"
+}
