@@ -1,0 +1,25 @@
+{
+  "release": "Qaroshi Standard 8.1 500-sentence adversarial stress audit",
+  "historic_source_sha256_unchanged": 29,
+  "scenario_families": 100,
+  "challenge_prompts": 500,
+  "translation_tool_abstained": 500,
+  "known_source_control_retrievals_passed": 30,
+  "normative_compositional_drafts": 49,
+  "human_reviewed_challenge_translations": 0,
+  "all_new_files_sha256": {
+    "README_STANDARD_8_1_STRESS.md": "f7c874fa375e90c873997cb1009cd20773e145b245d855eb1f155d991b672a9b",
+    "docs/standard_8/AMENDMENT_8_1_EMBEDDED_POLAR.md": "7ca220d7f50affd33f7094deaabff9f9b14d4ffdfd583c9d0563bf44a4eb47be",
+    "docs/standard_8/STRESS_TEST_TRIAGE_8_1.md": "ef0f1d1620f66a12dc46b35e066ba08fb545b7a519dd6474f6e57a4a3e646c0c",
+    "tools/stress81/scenarios.py": "c7dccbe6221f04dabbf3f9daef9c60f810bdb0049dc07d01f6f082b2f0c6f70a",
+    "tools/stress81/run_audit.py": "801d86ff4534accc585546a97233ad4e956e10a51f8f563737ee0ceef133c4b1",
+    "tools/stress81/quantifier_composition.py": "7a4b73587be56c0596cbb25acc72da8e33d35a4ab4fb2b685f5fc2ba21f6aa33",
+    "tools/stress81/embedded_question.py": "9059acafd12ba654feb453bd23c2f44e51f1f99abcc2d87622db1dcab0f3178d",
+    "tests/test_stress81.py": "660844b02ecd828db8fd83ea090dab636bcb35c63014207cf3bae206a0d0695b",
+    "data/stress81/challenges_500.csv": "3ada1be63c0ebf94edf1944c5db27d528b0063b91957fda098ced271d11560c2",
+    "data/stress81/audit_results_500.csv": "441538b1fa5ce3775ae98210c65436762a3b4872b733c90cc395e300cf515c01",
+    "data/stress81/positive_controls_30.csv": "215654c06054a80977d4a855c72139330c8b8a73cc8a00c233e9c8fee8887cc9",
+    "data/stress81/audit_summary.json": "330d0c89dec1e9a514820cfc80c98eb6bacb9b562fe779313b374c28e6b3aedd"
+  },
+  "status": "Adopted embedded-polar clause boundary rule + conservative evidence audit; zero new headword spellings"
+}
