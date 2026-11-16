@@ -1,4 +1,4 @@
-/* Qaroshi Unified Reference, release 14. */
+/* Qaroshi Wiki source · canonical reference 7.0; companion teaching tools through 23. */
 (() => {
   'use strict';
   const D = JSON.parse(document.getElementById('wiki-data').textContent);
@@ -156,7 +156,7 @@
     }).join('');
     const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
     return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_17_Everyday_Communicator.html">Everyday communicator</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
+      ${a('home','Home')}<a class="navlink" href="explore.html">Explore all tools · current 23</a><a class="navlink" href="Qaroshi_21_23_Translation_Immersion_Academy.html">Translation & immersion</a><a class="navlink" href="Qaroshi_20_Speech_Studio.html">Spoken language</a><a class="navlink" href="Qaroshi_18_19_Living_Language_Studio.html">Conversation & roots</a>${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_17_Everyday_Communicator.html">Everyday communicator</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
       <div class="side-group"><div class="side-heading">More tools</div>
       <details class="chapter-group"><summary>Corpus and research tools</summary><div class="nested">
         <a class="navlink" href="Qaroshi_15_Expanded_Corpus_Library.html">Expanded corpus library</a>
@@ -183,7 +183,7 @@
       <div class="side-group"><div class="side-heading">Popular topics</div>
       ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
       <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/living','Living speech, profanity & intimacy')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Qaroshi reference<br><strong>Release 17</strong></div>`;
+      <div class="side-divider"></div><div class="sidebar-footer">Canonical reference 7.0<br><strong>Learning tools through 23</strong></div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -237,20 +237,21 @@
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">NARDORAGON LANGUAGE REFERENCE · RELEASE 17</div>
+        <div class="eyebrow">QAROSHI LANGUAGE REFERENCE · STANDARD 7.0</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
         <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
       </section>
+      <div class="release-direction"><div class="eyebrow">Find the right tool</div><h2>Choose your next step</h2><p>The dictionary is the stable reference. For practical use, take the source-backed reading course, try pronunciation, or explore conversation. <a href="explore.html">Browse every edition and historical archive</a>.</p></div>
       <div class="quick-grid">
-        <a class="quick-card" href="#assistant"><span class="arrow">›</span><strong>AI assistant</strong><small>Ask questions or translate</small></a>
-        <a class="quick-card" href="Qaroshi_17_Everyday_Communicator.html"><span class="arrow">›</span><strong>Everyday communicator</strong><small>Practice phrases, dialogues and sentence building</small></a>
-        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Look up any word with IPA, sound-out and letter-by-letter pronunciation</small></a>
-        <a class="quick-card learning-quick" href="#learn"><span class="arrow">›</span><strong>Learning library</strong><small>16 lessons, step-by-step guides and practice answers</small></a>
-        <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar</strong><small>Read rules, examples and suffixes</small></a>
-        <a class="quick-card" href="#phrases"><span class="arrow">›</span><strong>Phrasebook</strong><small>Read bilingual sentences</small></a>
-        <a class="quick-card" href="#script"><span class="arrow">›</span><strong>Native writing</strong><small>Use the 26 handwritten characters</small></a>
-        <a class="quick-card" href="#latin"><span class="arrow">›</span><strong>Latin A–Z</strong><small>Letter names and IPA, plus Qaroshi sound values</small></a>
+        <a class="quick-card" href="Qaroshi_21_23_Translation_Immersion_Academy.html"><span class="arrow">›</span><strong>Translate & read · 21–23</strong><small>Source-linked lookups, editorial readings and learning checks</small></a>
+        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Explore the 30,000 canonical words and related examples</small></a>
+        <a class="quick-card" href="Qaroshi_20_Speech_Studio.html"><span class="arrow">›</span><strong>Speak & listen · 20</strong><small>Phonetic drills and private recording tools</small></a>
+        <a class="quick-card" href="Qaroshi_18_19_Living_Language_Studio.html"><span class="arrow">›</span><strong>Conversation & roots · 18–19</strong><small>Contextual exchanges, meanings and documented word building</small></a>
+        <a class="quick-card" href="Qaroshi_17_Everyday_Communicator.html"><span class="arrow">›</span><strong>Everyday phrases · 17</strong><small>Greetings, practical situations and a guided sentence builder</small></a>
+        <a class="quick-card learning-quick" href="Qaroshi_Academy.html"><span class="arrow">›</span><strong>Foundation lessons</strong><small>Sixteen guided lessons, study guides and games</small></a>
+        <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar & writing</strong><small>All 90 grammar chapters, resonance markers and script</small></a>
+        <a class="quick-card" href="explore.html"><span class="arrow">›</span><strong>All tools & history</strong><small>Current apps first; research editions kept organized</small></a>
       </div><h2 id="fundamental">A sentence has a resonance</h2><p>Every complete Qaroshi sentence begins with a <a href="#grammar/02">written resonance marker</a>. The marker is mandatory even in casual text messages, and it expresses the speaker's stance without changing the sentence's literal words.</p>
       <div class="quote"><strong class="roman">më ti lësha.</strong><span class="ipa-small">${esc(ipaText('më ti lësha.'))}</span><span class="translation">You are cute. (Warm Hum: affection)</span></div>
       <div class="quote"><strong class="roman">qor mi ti-m daru-yu.</strong><span class="ipa-small">${esc(ipaText('qor mi ti-m daru-yu.'))}</span><span class="translation">I will protect you. (Deep Resonance: a serious promise)</span></div>
@@ -258,7 +259,7 @@
       ${glyphHTML('më ti lësha.',{large:true})}
       <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
       <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all ${C.length} grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Qaroshi Release 17 · <a href="#guide/release">Reference notes</a></div></article>`;
+      <div class="foot">Canonical reference 7.0 · <a href="explore.html">Current teaching tools through 23</a> · <a href="#guide/release">Historical reference notes</a></div></article>`;
     setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
   }
   let assistantIndex;

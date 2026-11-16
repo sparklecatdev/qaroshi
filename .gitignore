@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 *.log
 *.tmp
+_site/
+data/quality_browser_report.json
+Qaroshi_Quality_Explore_*.png

@@ -11,7 +11,7 @@
     "tools/v21_23/build_release.py": "19945d1493bb9a1f6a49da715fb59cc5c5e1893669095670c38464fbb2005bb1",
     "tools/v21_23/app_template.html": "f68d7b0c8c9fe54fbe24e5cb0eb25d051f89c81e616b7e650ee9db5fbd52a157",
     "tools/v21_23/browser_smoke.py": "20db8398be07a95766f4870308fd79b002c29a9877ec5f27cfcc3edb9e4a6514",
-    "tools/v21_23/restore_artifacts.py": "a99e8c9c9d47a37df434572353013861e037bd9dd058e6eed4cce5c6f03f5527",
+    "tools/v21_23/restore_artifacts.py": "2a3731a58465e070317b8c6eeb9a77258cd9a1b5e2c9a1afaa935e9a7530e91b",
     "tests/test_v21_23_translation_immersion.py": "b957a4ac01ab7b2bcad9cda55b8a79cd53e481897c2dd638b44ba0aeeeb8d643"
   },
   "site_sha256": "64c67186f91e05c12648078769616b5c611d51584a5fc0c1054398d009266c2e",
@@ -27,5 +27,5 @@
     "data/v23/browser_checks.json",
     "data/v21_23_release_manifest.json"
   ],
-  "validation": "1095 Python tests (one font skip), 63 Chromium desktop/mobile checks; clean extraction pending"
+  "validation": "Source-aligned local test suites and clean archive restoration verified; live CI verification is independent"
 }

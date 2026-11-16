@@ -4,7 +4,7 @@ The practical goal is to go from **finding an exact expression** to **reading co
 
 ## Start
 
-Open `Qaroshi_21_23_Translation_Immersion_Academy.html` in a modern browser. This single file contains all the data required for its interface and works offline. On a phone, all six sections appear in an accessible two-row navigation layout. Click highlighted words anywhere to follow links to the canonical dictionary. Use Ctrl+K / Cmd+K for global search.
+Open `Qaroshi_21_23_Translation_Immersion_Academy.html` in a modern browser. This single file contains all the data required for its interface and works offline. **In a Git checkout**, first run `python tools/v21_23/restore_artifacts.py` to restore the standalone HTML and precomputed data from the committed compressed archives. GitHub Pages publishes the already-restored HTML as a normal link. On a phone, all six sections appear in an accessible two-row navigation layout. Click highlighted words anywhere to follow links to the canonical dictionary. Use Ctrl+K / Cmd+K for global search.
 
 ### 21.0 Translation & Meaning
 
