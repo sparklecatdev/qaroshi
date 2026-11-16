@@ -1,0 +1,21 @@
+[
+  {
+    "lemma": "nëgëra",
+    "pos": "det",
+    "meaning": "not every; not all members of a specified nonempty group",
+    "logical_form": "∃x∈D ¬P(x)",
+    "grammar_class": "quantifier",
+    "position": "immediately precedes quantified noun phrase",
+    "contrast": "ngënao D nu P = ∀x∈D ¬P(x); shërano D P = ∃x∈D P(x)",
+    "scope": "restricts only the quantified nominal subject in a simple distributive clause",
+    "count_domain": "presupposes at least one member of the relevant domain; asserts at least one counterexample",
+    "frozen_lexicon_compatibility": "post-7.0 lexical overlay, not a replacement for an existing canonical ID",
+    "adopted": "normative in amendment 30; unrecorded in historical 7.0 files",
+    "example": "sen nëgëra qaro goro.",
+    "translation": "Not every Nardoragon flies (at least one does not).",
+    "ipa": "/nə.ˈɡə.ɾa/",
+    "reading": "në-GË-ra",
+    "source_id": "Q28D001",
+    "written_glyph_count": 6
+  }
+]

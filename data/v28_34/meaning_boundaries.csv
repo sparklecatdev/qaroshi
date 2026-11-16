@@ -1,0 +1,31 @@
+id,left,left_gloss,right,right_gloss,semantic_boundary,status
+S28-001,nashi,love deeply; cherish; care for,mali,feel romantic love for,cherish deeply vs romantic love,editorial normative boundary: not a claim of natural-speaker frequency
+S28-002,nashi,love deeply; cherish; care for,lani,love as family; nurture kinship,cherish deeply vs familial caring,editorial normative boundary: not a claim of natural-speaker frequency
+S28-003,mali,feel romantic love for,lani,love as family; nurture kinship,romantic love vs familial care,editorial normative boundary: not a claim of natural-speaker frequency
+S28-004,tika,see; notice,sëmi,know; possess reliable knowledge,see/perceive vs know,editorial normative boundary: not a claim of natural-speaker frequency
+S28-005,shëliro,read; interpret written words,zhëmi,understand; comprehend,read text vs understand meaning,editorial normative boundary: not a claim of natural-speaker frequency
+S28-006,goro,fly; move through the air,gura,go; travel away,fly vs travel,editorial normative boundary: not a claim of natural-speaker frequency
+S28-007,nëra,stay; remain,nëru,rest; pause from activity,stay/remain vs rest,editorial normative boundary: not a claim of natural-speaker frequency
+S28-008,pëli,give; offer,hari,have; possess; hold ownership of,transfer a theme to a recipient vs possess,editorial normative boundary: not a claim of natural-speaker frequency
+S28-009,këmë,drink; consume liquid,shëma,eat; consume food,drink liquid vs eat food,editorial normative boundary: not a claim of natural-speaker frequency
+S28-010,sharoa,ask; request information,shiri,speak; say words,ask vs speak generally,editorial normative boundary: not a claim of natural-speaker frequency
+S28-011,pëla,please; courteous appeal,pëlë,if it is acceptable; respectfully please,ordinary politeness vs deferential request,editorial normative boundary: not a claim of natural-speaker frequency
+S28-012,si,directly witnessed evidence,hu,reported evidence; heard from others,direct observation vs reported information,editorial normative boundary: not a claim of natural-speaker frequency
+S28-013,hu,reported evidence; heard from others,ye,inferred or probable evidence,report vs inference,editorial normative boundary: not a claim of natural-speaker frequency
+S28-014,ngënao,every; each without exception,shërano,some; an unspecified amount,all vs some,editorial normative boundary: not a claim of natural-speaker frequency
+S28-015,ngënao,every; each without exception,nëgëra,not every; not all members of a specified nonempty group,universal vs not universal,editorial normative boundary: not a claim of natural-speaker frequency
+S28-016,ngëshi,only; exclusively,tëmiri,even (unexpected member),only vs even,editorial normative boundary: not a claim of natural-speaker frequency
+S28-017,zhoro,still continuing,mënoro,not yet,still ongoing vs not yet,editorial normative boundary: not a claim of natural-speaker frequency
+S28-018,mënoro,not yet,nësha,no longer,not yet vs no longer,editorial normative boundary: not a claim of natural-speaker frequency
+S28-019,wë,if; on condition that,wënu,"if, contrary to fact",real possibility vs contrary-to-fact condition,editorial normative boundary: not a claim of natural-speaker frequency
+S28-020,dasha,even if,shoru,unless,even if vs unless,editorial normative boundary: not a claim of natural-speaker frequency
+S28-021,qor,deep resonance: solemnity; authority; promises,sen,still voice: neutral; informative,solemn resonance vs neutral,editorial normative boundary: not a claim of natural-speaker frequency
+S28-022,më,warm hum: affection; comfort; vulnerability,zha,bright trill: playfulness; excitement; delight,warm resonance vs playful,editorial normative boundary: not a claim of natural-speaker frequency
+S28-023,naru,we; us (including listener),muru,we; us (excluding listener),we inclusive vs exclusive,editorial normative boundary: not a claim of natural-speaker frequency
+S28-024,tiri,you all; you (plural),ti,you (singular),plural you vs singular,editorial normative boundary: not a claim of natural-speaker frequency
+S28-025,gëwëmi,except for; excluding,ngëshi,only; exclusively,except for vs only,editorial normative boundary: not a claim of natural-speaker frequency
+S28-026,rëno,none; not any,ngëra,all; every,none vs all,editorial normative boundary: not a claim of natural-speaker frequency
+S28-027,nashu,"as a single group, collectively",nëzha,each individually; distributive each,collective vs distributive,editorial normative boundary: not a claim of natural-speaker frequency
+S28-028,rëshi,contrastively focused constituent,ngëshi,only; exclusively,focus vs exclusivity,editorial normative boundary: not a claim of natural-speaker frequency
+S28-029,këra,only; exclusively,ngëshi,only; exclusively,adverb exclusively vs focus particle,editorial normative boundary: not a claim of natural-speaker frequency
+S28-030,tëmiri,even (unexpected member),yara,even; unexpectedly also,even focused participant vs discourse unexpected also,editorial normative boundary: not a claim of natural-speaker frequency
