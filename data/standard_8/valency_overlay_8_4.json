@@ -1,0 +1,192 @@
+[
+  {
+    "id": "V84-001",
+    "lemma": "rëgë",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "repair; restore function to an existing damaged or nonfunctional thing",
+    "required_roles": [
+      "subject:repairer",
+      "object:-m (thing being repaired)"
+    ],
+    "licensed_optional_roles": [
+      "instrument:-shi"
+    ],
+    "excluded_inferences": "The repair action does not entail success unless completion or result is explicitly stated.",
+    "model_sentence": "sen mi naro-m rëgë.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-002",
+    "lemma": "shiwari",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "send or transmit a message or movable item",
+    "required_roles": [
+      "subject:sender",
+      "object:-m (message or item)"
+    ],
+    "licensed_optional_roles": [
+      "recipient:-tu"
+    ],
+    "excluded_inferences": "Sending does not assert receipt, reading, or agreement.",
+    "model_sentence": "sen mi mara-tu kima-m shiwari.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-003",
+    "lemma": "shërami",
+    "frame": "V0",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "sleep",
+    "required_roles": [
+      "subject:sleeper"
+    ],
+    "licensed_optional_roles": [
+      "location:-lo"
+    ],
+    "excluded_inferences": "Sleep is not the same as resting; the sense does not take a direct object.",
+    "model_sentence": "sen mi shërami.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-004",
+    "lemma": "rëmi",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "learn a language, topic, or skill",
+    "required_roles": [
+      "subject:learner",
+      "object:-m (subject learned)"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "Learning does not by itself imply expertise or completed mastery.",
+    "model_sentence": "sen mi qaroshi-m rëmi.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-005",
+    "lemma": "shirali",
+    "frame": "V0",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "sing or perform vocally",
+    "required_roles": [
+      "subject:singer"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "A song-title/theme as a direct object is not licensed in this sense without a distinct reviewed frame.",
+    "model_sentence": "sen mi shirali.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-006",
+    "lemma": "pënari",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "use or employ a resource for a purpose",
+    "required_roles": [
+      "subject:user",
+      "object:-m (thing used)"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "Using is not owning, creating, or successfully achieving a purpose.",
+    "model_sentence": "sen mi kima-m pënari.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-007",
+    "lemma": "wënoa",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "miss or long for someone absent",
+    "required_roles": [
+      "subject:experiencer",
+      "object:-m (missed individual)"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "Missing someone does not automatically assert romance.",
+    "model_sentence": "wen mi ti-m wënoa.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-008",
+    "lemma": "kërawë",
+    "frame": "V0",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "try or make an attempt, with the action unspecified",
+    "required_roles": [
+      "subject:attempter"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "Attempting is not succeeding; no unspecified infinitival or do-complement frame is granted.",
+    "model_sentence": "sen mi kërawë.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-009",
+    "lemma": "yëli",
+    "frame": "V0",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "shine or emit visible light",
+    "required_roles": [
+      "subject:light-emitting entity"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "A literal glowing entity is not automatically a person or a metaphor for happiness.",
+    "model_sentence": "sen sa yëli.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-010",
+    "lemma": "sharoni",
+    "frame": "V1",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "need or require a thing",
+    "required_roles": [
+      "subject:needer",
+      "object:-m (needed thing)"
+    ],
+    "licensed_optional_roles": [],
+    "excluded_inferences": "Need does not entail legal obligation; do not infer -du modality.",
+    "model_sentence": "sen mi kima-m sharoni.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  },
+  {
+    "id": "V84-011",
+    "lemma": "eri",
+    "frame": "V0",
+    "norm_status": "adopted_editorial_8_4",
+    "sense": "exist or be present",
+    "required_roles": [
+      "subject:existing entity"
+    ],
+    "licensed_optional_roles": [
+      "location:-lo"
+    ],
+    "excluded_inferences": "Existence is not interchangeable with every copula or possessive reading.",
+    "model_sentence": "sen sa eri.",
+    "source_edition": "7.0 lexicon; Standard 8.4 editorial valency definition",
+    "voice_policy": "Only active finite sense licensed; passive/causative require a separate explicit frame.",
+    "human_observed": false
+  }
+]
