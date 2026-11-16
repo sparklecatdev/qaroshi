@@ -1,5 +1,5 @@
 {
-  "checks": 62,
+  "checks": 70,
   "passed": true,
   "items": [
     "desktop headline statistics",
@@ -63,6 +63,14 @@
     "mobile 3000 queue paged selection",
     "mobile next prompt direct filter",
     "mobile authenticity boundary",
-    "mobile no JavaScript page errors []"
+    "mobile no JavaScript page errors []",
+    "mock recorder start enabled",
+    "mock session take retained",
+    "mock audio download ready",
+    "mock metadata filename",
+    "mock audio filename",
+    "next prompt correct sequential ID",
+    "mock recording discard",
+    "mock recorder no JS errors: []"
   ]
 }

@@ -82,6 +82,39 @@ with sync_playwright() as p:
   page.locator('[data-tab="home"]').click()
   page.screenshot(path=str(ROOT/('Qaroshi_20_Mobile_Preview.png' if width<500 else 'Qaroshi_20_Desktop_Preview.png')),full_page=False)
   page.close()
+ # A simulated recorder validates control flow, downloads, session memory and the
+ # advance-to-next-prompt logic without pretending fake audio is human speech.
+ page=browser.new_page(accept_downloads=True)
+ err=[];page.on('pageerror',lambda e:err.append(str(e)))
+ page.set_content(HTML,wait_until='domcontentloaded',timeout=90000)
+ page.evaluate('''() => {
+ Object.defineProperty(navigator,'mediaDevices',{configurable:true,value:{getUserMedia:async()=>({getTracks:()=>[{stop:()=>{}}]})}});
+ class MockRecorder {
+ static isTypeSupported(){return true}
+ constructor(){this.state='inactive';this.mimeType='audio/webm'}
+ start(){this.state='recording'}
+ stop(){this.state='inactive';this.ondataavailable?.({data:new Blob([new Uint8Array(2400)],{type:'audio/webm'})});this.onstop?.()}
+ }
+ window.MediaRecorder=MockRecorder;
+ }''')
+ page.locator('[data-tab="recorder"]').click()
+ page.locator('#recordConsent').check()
+ page.locator('#recordStart').click()
+ ck(page.locator('#recordStop').is_enabled(),'mock recorder start enabled')
+ page.wait_for_timeout(380)
+ page.locator('#recordStop').click()
+ ck('Recorded during this visit: 1' in page.locator('#savedTakes').inner_text(),'mock session take retained')
+ ck(page.locator('#downloadAudio').is_enabled(),'mock audio download ready')
+ with page.expect_download() as result:page.locator('#downloadMeta').click()
+ ck(result.value.suggested_filename=='RC20-0001.json','mock metadata filename')
+ with page.expect_download() as result:page.locator('#downloadAudio').click()
+ ck(result.value.suggested_filename=='RC20-0001.webm','mock audio filename')
+ page.locator('#nextTask').click()
+ ck(page.locator('#taskSelect').input_value()=='RC20-0002','next prompt correct sequential ID')
+ page.locator('#deleteAudio').click()
+ ck('Recorded during this visit: 0' in page.locator('#savedTakes').inner_text(),'mock recording discard')
+ ck(not err,'mock recorder no JS errors: '+str(err[:2]))
+ page.close()
  browser.close()
 (ROOT/'data/v20/browser_report.json').write_text(json.dumps({'checks':len(checks),'passed':True,'items':checks},indent=2),encoding='utf8')
 print('Passed',len(checks),'offline desktop and mobile browser checks')
