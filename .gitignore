@@ -13,3 +13,5 @@ Qaroshi_Quality_Explore_*.png
 /data/standard_8/
 # Reproducible, source-grounded Qaroshi 8.2 report outputs
 /data/stress82/
+# Generated Qaroshi 8.3 evidence outputs
+/data/stress83/
