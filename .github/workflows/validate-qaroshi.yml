@@ -20,5 +20,7 @@ jobs:
         run: make stress83
       - name: Build and report 8.4 functional readiness
         run: make stress84
+      - name: Check 8.6 editorial challenge subset
+        run: python tools/stress86/benchmark.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q

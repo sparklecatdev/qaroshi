@@ -1,0 +1,80 @@
+[
+  {
+    "id": "QS81-0001",
+    "target": "The cook washed the bowl.",
+    "qaroshi": "sen nënugo gëla-m shëmiroli-te.",
+    "verb": "shëmiroli",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "nënugo",
+    "subject_id": "Q003030",
+    "object": "gëla",
+    "object_id": "Q001433",
+    "mode": "affirmative"
+  },
+  {
+    "id": "QS81-0002",
+    "target": "The cook did not wash the bowl.",
+    "qaroshi": "sen nënugo gëla-m nu shëmiroli-te.",
+    "verb": "shëmiroli",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "nënugo",
+    "subject_id": "Q003030",
+    "object": "gëla",
+    "object_id": "Q001433",
+    "mode": "negative"
+  },
+  {
+    "id": "QS81-0003",
+    "target": "Did the cook wash the bowl?",
+    "qaroshi": "hë nënugo gëla-m shëmiroli-te he?",
+    "verb": "shëmiroli",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "nënugo",
+    "subject_id": "Q003030",
+    "object": "gëla",
+    "object_id": "Q001433",
+    "mode": "question"
+  },
+  {
+    "id": "QS81-0006",
+    "target": "The neighbor closed the gate.",
+    "qaroshi": "sen shuna tëzhoza-m shëliroa-te.",
+    "verb": "shëliroa",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "shuna",
+    "subject_id": "Q004455",
+    "object": "tëzhoza",
+    "object_id": "Q005196",
+    "mode": "affirmative"
+  },
+  {
+    "id": "QS81-0007",
+    "target": "The neighbor did not close the gate.",
+    "qaroshi": "sen shuna tëzhoza-m nu shëliroa-te.",
+    "verb": "shëliroa",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "shuna",
+    "subject_id": "Q004455",
+    "object": "tëzhoza",
+    "object_id": "Q005196",
+    "mode": "negative"
+  },
+  {
+    "id": "QS81-0008",
+    "target": "Did the neighbor close the gate?",
+    "qaroshi": "hë shuna tëzhoza-m shëliroa-te he?",
+    "verb": "shëliroa",
+    "status": "editorial_candidate_not_independently_verified",
+    "notes": "Past tense locates the event; it does not by itself mark completion. A question asks rather than asserts.",
+    "subject": "shuna",
+    "subject_id": "Q004455",
+    "object": "tëzhoza",
+    "object_id": "Q005196",
+    "mode": "question"
+  }
+]
