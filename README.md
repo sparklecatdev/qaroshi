@@ -1,11 +1,54 @@
-# Qaroshi Wiki · Release 17
+# Qaroshi
 
-The Qaroshi website includes a 30,000-entry dictionary, 4,383 examples, 90 grammar chapters, an Academy, an everyday communicator, and historical corpus and research tools. The practical examples are editorial material, not speaker-attested. See the [release notes](RELEASE_17_NOTES.md).
+**A language reference, a living documentation project, and a suite of offline-first learning tools.**
 
-The AI assistant requires an OpenRouter API key, saved in the browser.
+**[Explore all the current tools](explore.html)** · **[Open the Wiki](index.html)** · **[Read the grammar](docs/grammar.md)** · **[How editorial evidence works](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
 
-To rebuild the GitHub Pages site, install Pillow and Mistune, then run:
+## Start here
 
-```sh
+The **underlying language is Unified Standard Reference 7.0**: 30,000 canonical lexical entries, 4,383 controlled bilingual examples, 90 grammar chapters, 16 obligatory written resonance markers, and 26 original glyphs. The current **teaching-tool development series reaches release 23**. These are different version numbers, not competing dictionaries.
+
+| Goal | Recommended tool | What it really does |
+| --- | --- | --- |
+| Look up a word or rule | [Qaroshi Wiki](index.html) | Canonical lexical and grammatical reference |
+| Translate a documented phrase, read, and review | [Translation & Immersion Academy (21–23)](Qaroshi_21_23_Translation_Immersion_Academy.html) | Source-aligned reference lookup and graded editorial reading, not unrestricted translation |
+| Practice pronunciation or record yourself | [Spoken Language Studio (20)](Qaroshi_20_Speech_Studio.html) | Text sound guides, drills and private local recording tools; no speaker recordings supplied |
+| Practice conversational grammar and roots | [Living Language Studio (18–19)](Qaroshi_18_19_Living_Language_Studio.html) | Source-linked scenarios, pronunciation, word relationships and unapproved root proposals |
+| Learn useful phrases | [Everyday Communicator (17)](Qaroshi_17_Everyday_Communicator.html) | 656 controlled teaching expressions, topic search and restricted composition |
+| Follow the original foundations course | [Qaroshi Academy](Qaroshi_Academy.html) | Sixteen foundation lessons and review games |
+
+Older research utilities and corpus-generation experiments are preserved, but appear in the separate **historical/research** section of [Explore](explore.html). They are not the recommended entry point.
+
+## Evidence and limitations
+
+- **Canonical:** spelling, written morphology, the reference grammar and original glyphs. Standardized documents do not imply naturally occurring community use.
+- **Editorial:** example dialogues, translations, idioms and connected readings. Much of the corpus is procedurally generated or derived from controlled templates, so size is not a reliable measure of distinct conversational coverage.
+- **Provisional:** alternative transparent compounds, candidate roots and semantic review records. They are **not** adopted into the dictionary without independent review.
+- **Not yet established:** independently attested natural usage, native-speaker pronunciation, regional dialect frequencies, external learner fluency scores, and open-domain translation accuracy. A text IPA guide or local voice recording interface is not an authoritative speech corpus.
+
+The Wiki includes an **optional AI assistant** that uses an external OpenRouter service when you explicitly configure it with your own API key. The offline dictionary, learning tools and static reference do not require that integration. Treat credentials and personal review notes as private; check individual app settings before sharing a browser or exporting local data.
+
+## Build and test
+
+Python 3.10+ and the dependencies in `requirements.txt` are required for the Wiki and Academy builders.
+
+```bash
+python -m pip install -r requirements.txt
 make build
+python tools/maintenance/build_pages.py --check
+python -m unittest discover -s tests -q
 ```
+
+To stage the curated GitHub Pages output locally:
+
+```bash
+python tools/maintenance/build_pages.py
+```
+
+This builds `_site/` from published HTML applications only, restoring v18–23 compressed standalone pages with checksum verification. It excludes raw corpora, source code, archived test reports, local logs and intermediate data **from the public website**, while leaving all historical source files in Git. The developer source is still available for audit and reproducibility.
+
+You can also regenerate the individual releases using `tools/v18_19/build_release.py`, `tools/v20/build_release.py`, or `tools/v21_23/build_release.py`. Some source builders intentionally retain old numbered reference names: these are historical snapshots, **not the latest release status**. `RELEASE_INFO.json` describes the earlier unified 7.0 reference; `data/site_catalog.json` identifies the current public tool collection.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [COMMUNITY_REVIEW.md](COMMUNITY_REVIEW.md). Changes to the canonical lexicon or grammar require explicit review and preservation checks. New speaker or learner evidence must be consented and described accurately, without invented attestations.

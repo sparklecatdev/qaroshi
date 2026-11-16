@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build one self-contained, offline wiki HTML for Qaroshi Unified Release 14.
+"""Build the self-contained Qaroshi 7.0 reference Wiki, linked to teaching tools through 23.
 
 The page is self-contained: assets, dictionary, corpus, metadata and reference
 chapters are embedded. No requests, CDN or service worker are needed.
