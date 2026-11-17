@@ -436,32 +436,38 @@
   }
   function renderDictionary(route){
     if(route.query.has('domain'))state.domain=route.query.get('domain')||'';
+    if(route.query.has('q'))state.dquery=route.query.get('q')||'';
     const domainOptions=groupedTopics().map(g=>`<optgroup label="${esc(g.name)}">${g.items.map(item=>`<option value="${esc(item.domain)}" ${state.domain===item.domain?'selected':''}>${esc(item.domain)}</option>`).join('')}</optgroup>`).join('');
     const pose=['n','v','adj','adv','part','conj','det','pron','post','register','qword','intj'];
-    main.innerHTML=`<article>${mkHeader('Reference / Dictionary','Dictionary',`Search ${count(W.length)} entries by English meaning or Romanized Qaroshi. Select a word to open its article.`)}
-      <div class="controls">
-        <input class="field search" id="wordQuery" type="search" placeholder="Find a word or meaning…" aria-label="Search words" value="${esc(state.dquery)}">
-        <select class="field select" id="wordDomain" aria-label="Filter by topic"><option value="">All topics</option>${domainOptions}</select>
-        <select class="field select" id="wordPos" aria-label="Filter by part of speech"><option value="">All word classes</option>${pose.map(p=>`<option value="${p}" ${state.pos===p?'selected':''}>${esc(form(p))}</option>`).join('')}</select>
-      </div><div class="meta-row"><span id="wordCount" aria-live="polite"></span><button class="button" id="resetFilters" type="button">Clear filters</button></div>
+    main.innerHTML=`<article class="readable">${mkHeader('Reference / Dictionary','Find a Qaroshi word',`Search ${count(W.length)} entries by spelling, English gloss, compound or topic. Exact matches and useful word bases appear first.`)}
+      <div class="dictionary-searchbar"><label for="wordQuery" class="sr-only">Search Qaroshi spellings or English meanings</label>
+      <input class="field search" id="wordQuery" type="search" placeholder="Try a word, meaning or compound…" autocomplete="off" aria-label="Search words" value="${esc(state.dquery)}">
+      <button class="button" id="resetFilters" type="button">Clear</button></div>
+      <details class="dictionary-filters" id="dictionaryAdvanced" ${state.domain||state.pos?'open':''}>
+        <summary>Filter by subject or word class ${state.domain||state.pos?'· active':''}</summary>
+        <div class="controls">
+          <label for="wordDomain">Topic</label><select class="field select" id="wordDomain" aria-label="Filter by topic"><option value="">All topics</option>${domainOptions}</select>
+          <label for="wordPos">Word class</label><select class="field select" id="wordPos" aria-label="Filter by part of speech"><option value="">All word classes</option>${pose.map(p=>`<option value="${p}" ${state.pos===p?'selected':''}>${esc(form(p))}</option>`).join('')}</select>
+        </div></details>
+      <p class="muted small">Search understands multiple words and matches the complete gloss before loose topic or spelling fragments. Spelling ignores accents for lookup but preserves canonical Qaroshi in results.</p>
+      <div class="meta-row"><span id="wordCount" aria-live="polite"></span><a class="button" href="#categories">Browse all topic groups</a>
+        <a class="button" href="#practice">Practice the dictionary</a></div>
       <div class="entry-list" id="wordResults"></div><button id="wordsMore" class="button morebtn" type="button">Show more entries</button>
-      <div class="foot">Search the unified Qaroshi dictionary by spelling, definition, or topic.</div></article>`;
+      <div class="foot">Similar English glosses are browsing leads, not automatically synonyms. Word family links are based on explicitly recorded lexical components.</div></article>`;
     const update=()=>{
-      const q=fold(state.dquery.trim());
-      let list=W.filter(x=> (!state.domain||x.domain===state.domain) &&(!state.pos||x.pos===state.pos)&&(!q||lexicalSearch.get(x.id).includes(q)||x.ipa.includes(q)));
-      const score=x=>{const word=fold(x.qaroshi),en=fold(x.english);return word===q?0:word.startsWith(q)?1:en===q?2:en.startsWith(q)?3:4};
-      if(q)list.sort((a,b)=>score(a)-score(b)||a.qaroshi.localeCompare(b.qaroshi));
-      $('wordCount').textContent=`${count(list.length)} matching entries · ${count(Math.min(state.limit,list.length))} shown`;
-      $('wordResults').innerHTML=list.slice(0,state.limit).map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matching entries. Try another spelling or remove a filter.</div>';
-      $('wordsMore').hidden=list.length<=state.limit;
+      const result=discovery.find(state.dquery,{domain:state.domain,pos:state.pos,limit:state.limit});
+      $('wordCount').textContent=`${count(result.total)} matching entries · ${count(result.results.length)} shown`;
+      $('wordResults').innerHTML=result.results.map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matches. Try fewer search terms, a different spelling or clear the filters.</div>';
+      $('wordsMore').hidden=result.total<=state.limit;
     };
-    $('wordQuery').addEventListener('input',e=>{state.dquery=e.target.value;state.limit=70;update()});
+    $('wordQuery').addEventListener('input',e=>{state.dquery=e.target.value;state.limit=60;update()});
     for(const [id,key] of [['wordDomain','domain'],['wordPos','pos']])
-      $(id).addEventListener('change',e=>{state[key]=e.target.value;state.limit=70;update()});
-    $('wordsMore').addEventListener('click',()=>{state.limit+=70;update()});
-    $('resetFilters').addEventListener('click',()=>{state.dquery='';state.pos='';state.domain='';state.limit=70;renderDictionary({query:new URLSearchParams()})});
+      $(id).addEventListener('change',e=>{state[key]=e.target.value;state.limit=60;update()});
+    $('wordsMore').addEventListener('click',()=>{state.limit+=60;update()});
+    $('resetFilters').addEventListener('click',()=>{state.dquery='';state.pos='';state.domain='';state.limit=60;renderDictionary({query:new URLSearchParams()})});
     update();setToc([{id:'wordResults',name:'Search results'}]);
   }
+
   function renderWord(value){
     const w=wordBy.get(value.toLowerCase());if(!w){renderMissing('Unknown dictionary entry');return}
     const tokens=new Set(fold(w.english).split(/[^a-z]+/).filter(x=>x.length>3));
