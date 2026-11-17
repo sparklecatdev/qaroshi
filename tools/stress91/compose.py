@@ -149,7 +149,7 @@ def overlay_witnesses(candidate, lexemes):
     A surface token may carry a case ending (-m/-shi/-lo), or a finite
     inflection. A rejected proposal never contributes a lexical witness.
     """
-    tokens=re.findall(r"[^\\s,.;?!«»]+",candidate)
+    tokens=re.findall(r"[^\s,.;?!«»]+",candidate)
     return [entry["id"] for entry in lexemes
             if entry.get("status")!="not_adopted"
             and any(token==entry["form"] or token.startswith(entry["form"]+"-")
