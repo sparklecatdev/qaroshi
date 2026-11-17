@@ -16,7 +16,7 @@
     const v=typeof x==='string'?x:x.value,label=typeof x==='string'?x:x.label;
     return '<option value="'+E(v)+'"'+(value===v?' selected':'')+'>'+E(label)+'</option>';
   }).join('')}
-  function mountGrammar(host,data){
+  function mountGrammar(host,data,options={}){
     const g=root.QaroshiGrammar.createGrammar(data.grammarLicenses,data.grammarFrames);
     const spec=g.spec;
     const example='sen mi mara-m tika-te.';
@@ -50,7 +50,7 @@
         {value:'unknown_whether',label:"I don't know whether"},
         {value:'si',label:'I witnessed this'}, {value:'ye',label:'I inferred this'}, {value:'hu',label:'Reported evidence'}])+
       field('Connect another action','relation',[{value:'single',label:'One action'},...Object.entries(meanings).map(([value,label])=>({value,label}))])+
-      '</div><div class="lab-event-stack">'+event('A','tika')+event('B','këmë')+'</div>'+
+      '</div><div class="lab-event-stack">'+event('A',(options.verb&&spec.verb_overrides[options.verb])?options.verb:'tika')+event('B','këmë')+'</div>'+
       '<button class="button primary" type="submit">Compose Qaroshi</button></form>'+
       '<div class="lab-result" id="labComposeResult" role="status" aria-live="polite"><p class="muted">Your composed sentence will appear here.</p></div></section>'+
       '<section id="labInspect" class="lab-section" role="tabpanel" aria-labelledby="labTabInspect" hidden>'+
