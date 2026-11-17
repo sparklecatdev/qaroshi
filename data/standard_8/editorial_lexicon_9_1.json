@@ -645,12 +645,12 @@
       "id": "X91-054",
       "form": "rëpeshë",
       "pos": "adj",
-      "gloss": "greater than expected in length",
-      "derivation": "new comparative quality",
+      "gloss": "shorter than expected in duration",
+      "derivation": "new strict comparative quality, specifically shorter than expected",
       "source_ids": [
         "Q002867"
       ],
-      "definition": "A song's duration is shorter than baseline expectation (strictly comparative)",
+      "definition": "Relative duration of an event is less than an anticipated comparison length; no exact number or baseline duration is asserted.",
       "independently_attested": false
     },
     {
