@@ -33,19 +33,43 @@ def build(out):
             if len(t["qaroshi"].split())<3 or len(t["english"])<10:continue
             prior=dialogue["turns"][idx-1]["qaroshi"] if idx else ""
             pools[dialogue["source"]].append((dialogue,idx,t,prior))
-    picks=[]
-    for pool in pools.values():
-        rng.shuffle(pool);used=collections.Counter()
+    # Stratify by *source family*, then by distinct scene (up to 3 turns)
+    # so the instrument cannot accidentally become a one-scene paraphrase
+    # exercise. Any source shortfall is recorded in the manifest, not hidden.
+    source_keys=sorted(pools)
+    if len(source_keys)<2:raise ValueError("Two distinct editorial provenance families required")
+    filtered={}
+    for origin in source_keys:
+        pool=pools[origin]
+        rng.shuffle(pool)
+        used=collections.Counter()
+        filtered[origin]=[]
         for item in pool:
             if used[item[0]["id"]]>=3:continue
-            used[item[0]["id"]]+=1;picks.append(item)
-    rng.shuffle(picks)
-    unique=set();selected=[]
-    for d,i,t,prior in picks:
-        key=(t["qaroshi"].casefold(),prior.casefold())
-        if key in unique:continue
-        unique.add(key);selected.append((d,i,t,prior))
-        if len(selected)==N_ITEMS:break
+            used[item[0]["id"]]+=1
+            filtered[origin].append(item)
+    target=N_ITEMS//len(source_keys)
+    selected=[];seen=set();residual=[]
+    def take(item):
+        d,i,t,prior=item
+        signature=(t["qaroshi"].casefold(),prior.casefold())
+        if signature in seen:return False
+        seen.add(signature);selected.append(item)
+        return True
+    for origin in source_keys:
+        taken=0
+        for item in filtered[origin]:
+            if taken>=target:
+                residual.append(item)
+            elif take(item):
+                taken+=1
+        if taken<target:
+            # Scarcity is handled by a later fallback, but never fabricated.
+            pass
+    rng.shuffle(residual)
+    for item in residual:
+        if len(selected)>=N_ITEMS:break
+        take(item)
     if len(selected)!=N_ITEMS:raise ValueError("Insufficient independent trial prompts")
     reader=[];key=[];empty=[]
     for i,(d,idx,t,prior) in enumerate(selected,1):
@@ -113,6 +137,8 @@ def score(path):
         if row["semantic_rating"] not in VALID:raise ValueError("Rating must be one of "+str(VALID))
         if row["reader_confirmed_no_key_access"] not in ("yes","no","unsure"):
             raise ValueError("Key-access declaration must be yes/no/unsure")
+        if row["reader_anonymous_code"]==row["adjudicator_anonymous_code"]:
+            raise ValueError("Reader cannot adjudicate their own blind interpretation")
         pair=(row["reader_anonymous_code"],id_)
         if pair in seen:raise ValueError("Duplicate reader item "+repr(pair))
         seen.add(pair);respondents[row["reader_anonymous_code"]].append(row)
