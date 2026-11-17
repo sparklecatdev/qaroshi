@@ -582,7 +582,7 @@
 
   // Preserve all original domain links but show a calmer browse hierarchy.
   const topicGroups=[
-    ['Everyday & people',/(home|domestic|cooking|food|textile|clothing|relationship|emotion|kinship|classroom|education|recreation|sport|conversation|society|social|family|child|time|calendar|daily|leisure|community|travel|work)/i],
+    ['Everyday & people',/(home|domestic|cooking|food|textile|clothing|relationship|emotion|kinship|classroom|education|recreation|sport|conversation|society|social|family|child|time|calendar|daily|leisure|community|travel|\bwork(?:place|force)?\b)/i],
     ['Flight & Nardoragons',/(nardoragon|roost|wing|flight|aerial|aviation|aircraft|glide)/i],
     ['Nature & environment',/(agricultur|soil|forest|botan|animal|ocean|waterway|geolog|climat|ecolog|weather|environment|natural|plant|disaster|earth|river|biology|wildlife)/i],
     ['Science & health',/(science|physics|chemic|astronom|space|statistic|math|logic|research|laborator|experiment|clinical|diagnos|medical|health|pharmac|nutrition|epidemiol|instrument|measurement)/i],
