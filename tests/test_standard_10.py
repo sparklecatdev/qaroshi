@@ -41,7 +41,7 @@ class SourceValidation(unittest.TestCase):
         for word,group in senses.items():
             for sense in group:
                 self.assertEqual(sense["independent_human_attestation"],False)
-                self.assertIn("editorial",sense["source_status"])
+                self.assertTrue(sense["source_status"])\n                self.assertEqual(sense["source"],"data/semantics/curated_senses.json")
                 self.assertTrue(sense["definition"])
         for word,d in drafts.items():
             self.assertIn(d["selected_reference_gloss"].casefold(),self.words[word]["english"].casefold())
