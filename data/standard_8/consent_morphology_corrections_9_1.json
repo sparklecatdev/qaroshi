@@ -1,0 +1,19 @@
+{
+  "edition": "9.1",
+  "type": "versioned_existing_editorial_candidate_correction",
+  "case_ids": [
+    "QS81-0105",
+    "QS81-0110",
+    "QS81-0115",
+    "QS81-0120",
+    "QS81-0125",
+    "QS81-0135",
+    "QS81-0140",
+    "QS81-0150"
+  ],
+  "original_bad_sequence": "-ki-te",
+  "corrected_sequence": "-te-ki",
+  "reason": "The 8.0 canonical root-voice-tense-aspect-modal ordering requires tense (-te) before dynamic ability (-ki). Earlier 9.0 consent-revocation action-opportunity forms placed ability before tense, which is structurally noncanonical.",
+  "immutability": "The original source remains in the frozen 9.0 generated ledger and is copied to prior_9_0_candidate in the new 9.1 ledger; only a labeled editorial 9.1 view is corrected.",
+  "human_attested": false
+}
