@@ -82,8 +82,11 @@ class Grammar:
                 raise GrammarError("Unknown canonical frame")
             if "subject" not in rule or "patient" not in rule:
                 raise GrammarError("Missing required selectional role classes")
-            if (frame["frame"]=="V0") != (not rule["patient"]):
-                raise GrammarError("V0/V1 mismatch")
+            required_object="object:-m" in frame["required_roles"]
+            if frame["frame"]=="V0" and rule["patient"]:
+                raise GrammarError("V0 may not accept object")
+            if required_object and not rule["patient"]:
+                raise GrammarError("Missing required V1/V2 object-license class")
             if frame["frame"]=="V2" and "recipient" not in rule:
                 raise GrammarError("V2 cannot omit recipient selection")
         self.resonances=set(spec["allowed_resonances"])
@@ -103,7 +106,7 @@ class Grammar:
             raise GrammarError("Unknown or unreviewed verb/sense")
         frame=self.curated[a.verb]["frame"]
         self.noun(a.actor,"subject",a.verb)
-        if frame in ("V1","V2") and not a.patient:
+        if "object:-m" in self.curated[a.verb]["required_roles"] and not a.patient:
             raise GrammarError("Missing required patient")
         if frame=="V0" and a.patient:
             raise GrammarError("Intransitive verb given an object")
