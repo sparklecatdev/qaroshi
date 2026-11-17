@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Qaroshi 9.1: editorially complete 500-case challenge composition.
 
-This is additive to Standard 9.0 and NEVER rewrites the 318 earlier editorial
-candidates. Semantic signatures are editorial claims, NOT independent reader
+This is additive to Standard 9.0 and preserves all 318 earlier source forms
+in the historical ledger. Eight noncanonical past+ability forms are explicitly
+repaired in this versioned view, with their prior forms retained. Semantic signatures are editorial claims, NOT independent reader
 judgments. Each newly added challenge retains explicit participants, content,
 tense, polarity, source evidence, and limitation notes.
 """
