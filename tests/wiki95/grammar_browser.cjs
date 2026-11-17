@@ -56,7 +56,7 @@ const invalid=[
   'sen mi mara-tu kima-m pëli-ki-te.','sen mi kima-m pëli-te.',
   'sen mi kima-m mara-tu pëli-te.','sen kima ti-m tika-te.',
   'sen mi kima-m shëma-te.','sen mi mara-m tika-te-te.',
-  'sen mi mara-m tika-li-te',
+  'sen mi mara-m tika-li-te.',
   'sen mi mara-m tika-te do yano mi-tu shiri-te ye.',
   'sen mi mara-m tika-yu-te.','sen mi mara-m mara-m tika-te.',
   'sen mi mara-m nope-te.','mi mara-m tika-te.'
