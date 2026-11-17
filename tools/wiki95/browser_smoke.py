@@ -216,7 +216,7 @@ with sync_playwright() as play:
         page.wait_for_timeout(100)
         check(page.locator(".editorial-entry").count()>=1,label+": priority lexical source review is searchable")
         check(page.locator(".editorial-entry h2").first.inner_text()=="mara",label+": exact queried headword ranks before partial gloss matches")
-        page.locator('.editorial-entry [data-review-field="comment"]').fill("Please inspect the source before changing a definition")
+        page.locator('.editorial-entry [data-review-field="comment"]').first.fill("Please inspect the source before changing a definition")
         check("1 editorial proposal" in page.locator("#editorialSaved").inner_text(),label+": notes remain local until export")
         with page.expect_download() as editorial_download:
             page.locator("#editorialDownload").click()
