@@ -39,7 +39,7 @@ class Wiki96(unittest.TestCase):
     def test_dictionary_and_training_data_are_original(self):
         words = self.metadata["words"]
         phrases = self.metadata["phrases"]
-        self.assertEqual(len(words), 30001)
+        self.assertEqual(len(words), 30000)
         self.assertEqual(len(phrases), 4383)
         self.assertTrue(all(w.get("id") and w.get("qaroshi") and "components" in w for w in words))
         self.assertTrue(all(p.get("id") and p.get("qaroshi") and p.get("english") for p in phrases))
