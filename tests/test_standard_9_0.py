@@ -169,6 +169,13 @@ class Standard90(unittest.TestCase):
                 id_=f"QS81-{300+(f['family']-1)*5+variant:04d}"
                 row=self.cases[id_]
                 q=mcompose(f,variant)
+                if id_=="QS81-0336":
+                    # This older editorial counterfactual was already drafted.
+                    # We must not silently rewrite it to match a new template.
+                    self.assertEqual(row["qaroshi_full_candidate"],
+                                     self.previous[id_]["qaroshi_full_candidate"])
+                    self.assertEqual(row["edition_9_0_witness_ids"],"")
+                    continue
                 self.assertEqual(q,row["qaroshi_full_candidate"])
                 self.assertEqual(row["candidate_status"],"9_0_past_counterfactual_or_barrier_modality_editorial")
                 signature=json.loads(row["edition_9_0_semantic_signature_json"])
@@ -194,7 +201,7 @@ class Standard90(unittest.TestCase):
                     self.assertTrue(q.endswith(f["action"]+"-yu."))
                     self.assertTrue(signature["generic_barrier_change_not_necessarily_relief"])
                 arr.append(q)
-            self.assertEqual(len(set(arr)),5)
+            self.assertEqual(len(set(arr)),4 if f['family']==8 else 5)
 
     def test_old_cases_stay_unfilled_unless_specific_new_9_0_license(self):
         allowed=set(proposals())
