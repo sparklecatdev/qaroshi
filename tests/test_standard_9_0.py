@@ -154,6 +154,48 @@ class Standard90(unittest.TestCase):
                     self.assertEqual(qr.count("sen "),2)
                     self.assertNotIn("nu "+f["unsupported"].split()[-1]+".",qr)
 
+    def test_modal_ability_permission_obligation_and_open_counterfactuals_are_distinct(self):
+        from tools.stress90.modals import compose as mcompose
+        from tools.stress81.scenarios import COUNTER
+        frames=read("modal_barrier_frames_9_0.json")
+        self.assertEqual({f["family"] for f in frames},{1,4,8})
+        for f in frames:
+            self.assertEqual(f["action"].split()[0],f["who"])
+            self.assertTrue(COUNTER[f["family"]-1][0].startswith("the "))
+            for id_ in set(f["action_ids"]+f["barrier_ids"]+f["consequent_ids"]):
+                self.assertIn(id_,self.lex,(f["id"],id_))
+            arr=[]
+            for variant in range(1,6):
+                id_=f"QS81-{300+(f['family']-1)*5+variant:04d}"
+                row=self.cases[id_]
+                q=mcompose(f,variant)
+                self.assertEqual(q,row["qaroshi_full_candidate"])
+                self.assertEqual(row["candidate_status"],"9_0_past_counterfactual_or_barrier_modality_editorial")
+                signature=json.loads(row["edition_9_0_semantic_signature_json"])
+                self.assertFalse(signature["actual_action_asserted"])
+                self.assertFalse(signature["actual_consequent_asserted"])
+                self.assertFalse(signature["permission_from_ability"])
+                self.assertFalse(signature["ability_from_permission"])
+                self.assertFalse(signature["action_occurrence_from_obligation"])
+                self.assertEqual(signature["barrier_asserted_current_world"],variant in (2,3,4))
+                self.assertFalse(signature["barrier_change_asserted_current_world"])
+                if variant==1:
+                    self.assertTrue(q.startswith("sen wënu "))
+                    self.assertTrue(q.endswith(" qinë."))
+                elif variant==2:
+                    self.assertIn("-te-ki nao ",q)
+                elif variant==3:
+                    self.assertIn("-te-ho uro ",q)
+                elif variant==4:
+                    self.assertIn("-te-du dëshu ",q)
+                elif variant==5:
+                    self.assertTrue(q.startswith("sen wë "))
+                    self.assertIn(" do shërawewa eri-yu, ",q)
+                    self.assertTrue(q.endswith(f["action"]+"-yu."))
+                    self.assertTrue(signature["generic_barrier_change_not_necessarily_relief"])
+                arr.append(q)
+            self.assertEqual(len(set(arr)),5)
+
     def test_old_cases_stay_unfilled_unless_specific_new_9_0_license(self):
         allowed=set(proposals())
         self.assertEqual(allowed,{id_ for id_,r in self.cases.items() if r["edition_9_0_witness_ids"]})
