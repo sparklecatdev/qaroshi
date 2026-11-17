@@ -149,5 +149,27 @@ jobs:
             data/stress92/editorial_action_queue.csv
             data/stress92/semantic_review_summary.json
           retention-days: 30
+      - name: Run 9.3 typed generalized grammar AST roundtrip benchmark
+        run: python tools/grammar93/benchmark.py
+      - name: Complete 9.4 source semantic records for all 500 challenges
+        run: python tools/semantic94/complete.py
+      - name: Upload new 9.3 AST grammar benchmark
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-93-generalized-grammar
+          path: |
+            data/stress93/grammar_stress.csv
+            data/stress93/summary.json
+          retention-days: 30
+      - name: Upload 9.4 source-intent semantic audit and 190 legacy records
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-94-all-500-semantic-annotation
+          path: |
+            data/stress94/source_semantic_requirements_500.csv
+            data/stress94/legacy_190_backfilled.csv
+            data/stress94/independent_comprehension_review_queue.csv
+            data/stress94/summary.json
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
