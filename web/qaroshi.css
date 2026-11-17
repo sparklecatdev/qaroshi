@@ -425,3 +425,8 @@ a.word-chip-link:hover{border-color:var(--accent-border);background:var(--hover)
   .word-example{padding:13px 14px}
   .word-citation .information{grid-template-columns:1fr;gap:0}
 }
+
+.word-component-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:9px;margin:13px 0}
+.word-component-card{display:flex;flex-direction:column;gap:5px;border:1px solid var(--border);border-radius:9px;padding:12px 14px;background:var(--canvas);min-width:0}
+.word-component-card strong{display:block;font:650 .91rem/1.5 ui-monospace,monospace;overflow-wrap:anywhere}
+.word-component-card span{color:var(--muted);font-size:.81rem;line-height:1.5;overflow-wrap:anywhere}
