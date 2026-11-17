@@ -8,6 +8,14 @@ The sidebar keeps five primary tasks visible: **Overview**, **Dictionary**, **Wr
 
 Use the upper search to find dictionary words, examples or chapter text. Press `/` to focus the search. Use `#dictionary` for full lexical search, or `#categories` to browse a small set of subject groups. Expanding an area reveals the original topic labels. Typing a topic name searches across all areas. Historic links such as `#word/gëro`, `#grammar/02` and `#dictionary?domain=...` remain valid.
 
+## Source-linked conversation uses and actual editorial review (10.1)
+
+Each dictionary page can now show a separate **This word in conversation** section. These lines come from existing editorial scenes with their source labels and speaker turns intact. They are not new source-corpus attestations; original teaching sentences still appear separately.
+
+The [editorial review desk](index.html#editorial) lets language editors review all 800 highest-priority lexemes, inspect prior definitions, meaning boundaries, original teaching examples and candidate cards, record what needs checking, and export local-only proposals. It never changes authoritative meanings or marks approval.
+
+An independent [blind-reader study](index.html#validation) uses a separate offline learner-only HTML file generated with `tools/standard10/reader_html.py`. People provide anonymous first-pass paraphrases without seeing the English editorial key. A facilitator then uses `tools/standard10/adjudicate.py` to prepare a private, still-unrated worksheet for a separate human adjudicator. No results are fabricated, and no participant information is uploaded by the Wiki.
+
 ## Semantic definitions, conversations and controlled examples in Standard 10
 
 The Dictionary's **Definition and sense notes** section now separates previously authored core descriptions and restrictions from inherited normative/editorial polysemy, the 800-word prioritized evidence inventory, and unreviewed candidate cards. A selected English translation word is NOT automatically another Qaroshi sense. The candidate cards remain collapsed and visibly unreviewed.
