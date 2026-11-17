@@ -34,5 +34,7 @@ jobs:
             data/stress88/case_evidence_500.csv
             data/stress88/summary.json
           retention-days: 30
+      - name: Diagnose source senses for unresolved challenges
+        run: python tools/stress89/probe.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
