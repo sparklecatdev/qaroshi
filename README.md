@@ -33,6 +33,17 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 9.3 + 9.4 · Typed grammar engine and complete semantic-intent ledger
+
+**[9.3 executable grammar](docs/standard_9_3/EXECUTABLE_GRAMMAR.md)** introduces a reusable source-licensed AST parser and composer, not another fixed 500-sentence substitution table. It reads **all 25 reviewed V0/V1/V2 verbs**, validates ten narrow participant noun forms and their permitted actor, patient and recipient roles, then composes ordered tense/aspect/modal morphology, negative predicates, questions, reports, evidence and clause links. The benchmark exercises **12,360 distinct parsed/generated sentence structures** in a passing CI run. Unknown verb senses, unlicensed argument types, and arbitrary passives are rejected rather than freely translated. To try it:
+
+    python -m tools.grammar93.cli parse 'sen mi mara-m tika-te.'
+    python tools/grammar93/benchmark.py
+
+**[9.4 source semantic consistency](docs/standard_9_4/SEMANTIC_INTENT_LEDGER.md)** resolves the **documentation** gap for the 190 older proposals that lacked modern structured semantic requirements. It constructs source-intent records from the *original frozen English scenario definitions* for **all 500** stress cases, preserving 310 existing structured signatures, original Qaroshi drafts and the explicit 9.2 counterfactual repair. It exports a 190-case backfill and a full 500-case independent-review queue. **Source-based intent is not equivalent to a verified Qaroshi meaning**: zero human backtranslations, independent comprehension ratings or unrestricted linguistic competence are claimed.
+
+Run `make stress94` to reproduce the full 9.3 parser benchmark and 9.4 source-meaning ledger, or `python -m unittest discover -s tests -q` for regression tests. The [consolidated Standard 9.2 reference](docs/standard_9_2/grammar.md) remains the current editorial grammar; the new executable grammar is a *bounded implementation*, not a replacement normative chapter.
+
 ## Standard 9.2 · Consolidated grammar and independent structural verification
 
 The [single **consolidated current editorial grammar**](docs/standard_9_2/grammar.md) includes all 90 inherited chapters and **ten complete editioned amendments**, with one explicit precedence table for disputed morphology, participant roles, question embedding, negation, consent, time boundaries, technical inference, and figurative scope. Historical references and source hashes are unchanged. Source-based reproducibility is enforced by `python tools/stress92/build_grammar.py --check`.
