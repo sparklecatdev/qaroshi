@@ -1,0 +1,834 @@
+{
+  "edition": "9.1-editorial-overlay",
+  "status": "editorial proposals pending independent comprehension",
+  "immutable_source_lexicon": true,
+  "entries": [
+    {
+      "id": "X91-001",
+      "form": "tëzhida-mi",
+      "pos": "n",
+      "gloss": "gardener",
+      "derivation": "tëzhida (garden) + -mi role participant",
+      "source_ids": [
+        "Q005190"
+      ],
+      "definition": "Narrow occupational agent who cares for plants or works in gardens",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-002",
+      "form": "lëngazho-sharo",
+      "pos": "n",
+      "gloss": "baker",
+      "derivation": "lëngazho (bake bread) + -sharo trained specialist",
+      "source_ids": [
+        "Q5001323"
+      ],
+      "definition": "Bakes bread professionally; not one baking event",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-003",
+      "form": "qëmogë-mi",
+      "pos": "n",
+      "gloss": "shopkeeper",
+      "derivation": "qëmogë (market) + -mi role participant",
+      "source_ids": [
+        "Q60000892"
+      ],
+      "definition": "Retail shop seller/keeper, not the whole market",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-004",
+      "form": "rewunu-mi",
+      "pos": "n",
+      "gloss": "traveler",
+      "derivation": "rewunu (travel) + -mi traveler",
+      "source_ids": [
+        "Q004080"
+      ],
+      "definition": "Individual traveling, not just a passenger on a specified vehicle",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-005",
+      "form": "tërawa-mi",
+      "pos": "n",
+      "gloss": "climber",
+      "derivation": "tërawa (climb) + -mi agent",
+      "source_ids": [
+        "Q005103"
+      ],
+      "definition": "Person climbing to a summit",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-006",
+      "form": "relomo-gura-mi",
+      "pos": "n",
+      "gloss": "cyclist",
+      "derivation": "relomo (bicycle) + gura (travel) + -mi",
+      "source_ids": [
+        "Q003966"
+      ],
+      "definition": "Human who travels by bicycle; not a bicycle",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-007",
+      "form": "taroa-gura-mi",
+      "pos": "n",
+      "gloss": "hiker",
+      "derivation": "taroa (route/path) + gura (travel) + -mi",
+      "source_ids": [
+        "Q004920"
+      ],
+      "definition": "Hiker walking a trail, not an arbitrary traveler",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-008",
+      "form": "luringi-dëno",
+      "pos": "n",
+      "gloss": "camp site",
+      "derivation": "luringi (camp outdoors) + -dëno place",
+      "source_ids": [
+        "Q002155"
+      ],
+      "definition": "Place where these hikers camp, not the act of camping",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-009",
+      "form": "rengëna-shiwari-mi",
+      "pos": "n",
+      "gloss": "dispatcher",
+      "derivation": "rengëna (address) + shiwari (send) + -mi",
+      "source_ids": [
+        "Q003999",
+        "Q004444"
+      ],
+      "definition": "Worker who dispatches an address to emergency vehicles",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-010",
+      "form": "kharo-shënaroa",
+      "pos": "n",
+      "gloss": "audible alarm signal",
+      "derivation": "kharo (alarm) + shënaroa (signal)",
+      "source_ids": [
+        "Q001621",
+        "Q004517"
+      ],
+      "definition": "Sounding emergency alarm, not fear emotion",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-011",
+      "form": "shënu-tëbila",
+      "pos": "n",
+      "gloss": "streetlight",
+      "derivation": "shënu (road) + tëbila (light bulb)",
+      "source_ids": [
+        "Q004543",
+        "Q004937"
+      ],
+      "definition": "Roadside fixed streetlamp",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-012",
+      "form": "goro-këlë",
+      "pos": "n",
+      "gloss": "aircraft",
+      "derivation": "goro (fly) + -këlë instrument",
+      "source_ids": [
+        "Q000952"
+      ],
+      "definition": "Aircraft transporting a pilot; the technical tool is a flying vehicle",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-013",
+      "form": "gëru-yëla",
+      "pos": "n",
+      "gloss": "summit",
+      "derivation": "gëru (mountain) + yëla (high)",
+      "source_ids": [
+        "Q001446"
+      ],
+      "definition": "Highest accessible point of a mountain, not any high mountain",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-014",
+      "form": "zapoha-kidishitë",
+      "pos": "n",
+      "gloss": "reference instrument",
+      "derivation": "zapoha (reference) + kidishitë (instrument)",
+      "source_ids": [
+        "Q60000570",
+        "Q60000064"
+      ],
+      "definition": "Calibrated device used to reference a measurement",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-015",
+      "form": "tëwërano",
+      "pos": "n",
+      "gloss": "paint roller",
+      "derivation": "new dedicated object root",
+      "source_ids": [
+        "Q000439"
+      ],
+      "definition": "Cylindrical applicator for paint on a surface, not a brush",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-016",
+      "form": "ngëpëzu",
+      "pos": "n",
+      "gloss": "wooden peg",
+      "derivation": "new dedicated object root",
+      "source_ids": [
+        "Q002264"
+      ],
+      "definition": "Short wooden dowel/peg used to assemble furniture",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-017",
+      "form": "gëngora",
+      "pos": "n",
+      "gloss": "bell",
+      "derivation": "new sound-instrument root",
+      "source_ids": [],
+      "definition": "Physical signaling bell that can be struck to ring",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-018",
+      "form": "shëngaru",
+      "pos": "v",
+      "gloss": "sound a bell",
+      "derivation": "dedicated action from gëngora",
+      "source_ids": [],
+      "definition": "Actor makes an instrument bell ring; V1 bell patient",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-019",
+      "form": "zësharo",
+      "pos": "adj",
+      "gloss": "last/final in an ordered sequence",
+      "derivation": "new ordinal-limit adjective",
+      "source_ids": [],
+      "definition": "Last page, verse, or song in an ordered sequence; not merely recent",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-020",
+      "form": "zhëyaro",
+      "pos": "adj",
+      "gloss": "missing from its expected place",
+      "derivation": "new missing-object predicate",
+      "source_ids": [],
+      "definition": "An item normally expected in a collection is absent; not physically lost necessarily",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-021",
+      "form": "sëdëno",
+      "pos": "v",
+      "gloss": "complain",
+      "derivation": "new V0 speech act",
+      "source_ids": [
+        "Q53000180"
+      ],
+      "definition": "Express dissatisfaction, without necessarily using rude language",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-022",
+      "form": "shëntaku",
+      "pos": "v",
+      "gloss": "conceal a physical object",
+      "derivation": "new V1 object-concealment verb",
+      "source_ids": [
+        "Q002355"
+      ],
+      "definition": "Put an item out of sight; not emotional suppression",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-023",
+      "form": "këshëru",
+      "pos": "v",
+      "gloss": "crack a physical structure",
+      "derivation": "new V0 inchoative structural-fracture verb",
+      "source_ids": [
+        "Q004921"
+      ],
+      "definition": "Structure develops a crack, without implying collapse",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-024",
+      "form": "shëwarono",
+      "pos": "v",
+      "gloss": "exhibit or display a portrait",
+      "derivation": "new V1 showing verb",
+      "source_ids": [
+        "Q000694"
+      ],
+      "definition": "Make artwork visibly available, not a public online post",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-025",
+      "form": "yëruwa",
+      "pos": "adj",
+      "gloss": "spare, reserved for possible use",
+      "derivation": "new inventory-state adjective",
+      "source_ids": [
+        "Q001438"
+      ],
+      "definition": "Available extra bed, not a replacement part",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-026",
+      "form": "shëzaro",
+      "pos": "adj",
+      "gloss": "colored or pigmented",
+      "derivation": "new quality adjective",
+      "source_ids": [
+        "Q005537"
+      ],
+      "definition": "Visible pigment coloration, not one specific hue",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-027",
+      "form": "punushu-zhëmiwa",
+      "pos": "v",
+      "gloss": "burn or scorch food",
+      "derivation": "punushu (fire) + zhëmiwa (ruin)",
+      "source_ids": [
+        "Q5002016",
+        "Q006561"
+      ],
+      "definition": "Damage bread with heat/fire, distinct from toast it",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-028",
+      "form": "shënawë-dëno",
+      "pos": "n",
+      "gloss": "entrance point",
+      "derivation": "shënawë (enter) + -dëno place",
+      "source_ids": [
+        "Q004531"
+      ],
+      "definition": "Location used as an entrance",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-029",
+      "form": "këna-taroa",
+      "pos": "n",
+      "gloss": "travel direction",
+      "derivation": "këna (inside) + taroa (route)",
+      "source_ids": [
+        "Q004920"
+      ],
+      "definition": "Navigational route/direction instructions",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-030",
+      "form": "shënoho-qano",
+      "pos": "n",
+      "gloss": "confidentiality record",
+      "derivation": "shënoho (secret) + role noun",
+      "source_ids": [
+        "Q004542"
+      ],
+      "definition": "Confidential note (provisional)",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-031",
+      "form": "shiroli-shëlë",
+      "pos": "n",
+      "gloss": "written letter/correspondence",
+      "derivation": "shiroli (write) + shilë (letter sign)",
+      "source_ids": [
+        "Q004443",
+        "Q004425"
+      ],
+      "definition": "Correspondence letter, not a single grapheme",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-032",
+      "form": "tëpoqa",
+      "pos": "n",
+      "gloss": "wooden material",
+      "derivation": "new material noun",
+      "source_ids": [
+        "Q002264"
+      ],
+      "definition": "Wood as substance used to make pegs",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-033",
+      "form": "zëmaro",
+      "pos": "adj",
+      "gloss": "gold-hued, metallic yellow",
+      "derivation": "new color adjective",
+      "source_ids": [
+        "Q005537"
+      ],
+      "definition": "Gold color rather than merely any yellow",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-034",
+      "form": "shëzabo",
+      "pos": "v",
+      "gloss": "knock audibly against a door",
+      "derivation": "new contact-impact verb",
+      "source_ids": [
+        "Q003866"
+      ],
+      "definition": "Repeated knocking sound, not a request for admission",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-035",
+      "form": "gëzëmu",
+      "pos": "v",
+      "gloss": "signal visually/make visible",
+      "derivation": "new V1 frame",
+      "source_ids": [
+        "Q004931"
+      ],
+      "definition": "Picture showing a person or geographical object",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-036",
+      "form": "shëqano",
+      "pos": "v",
+      "gloss": "remove a page or verse",
+      "derivation": "new V1 detach/remove verb",
+      "source_ids": [
+        "Q004430"
+      ],
+      "definition": "Remove a document page or omit a lyrical verse",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-037",
+      "form": "yëzanu",
+      "pos": "v",
+      "gloss": "cause confusion in hearers/readers",
+      "derivation": "new V1 cognitive-effect verb",
+      "source_ids": [
+        "Q006525"
+      ],
+      "definition": "Make an audience uncertain which story referent is which",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-038",
+      "form": "tëpuwo",
+      "pos": "n",
+      "gloss": "narrative character",
+      "derivation": "new role noun",
+      "source_ids": [
+        "Q002291"
+      ],
+      "definition": "Fictional person in a story, not a writing glyph",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-039",
+      "form": "bëzënu",
+      "pos": "n",
+      "gloss": "brain function / cognition",
+      "derivation": "new technical role noun",
+      "source_ids": [
+        "Q003609"
+      ],
+      "definition": "Brain of a living being, not neural state of building",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-040",
+      "form": "punushu-shi",
+      "pos": "n",
+      "gloss": "flame light",
+      "derivation": "punushu (fire) with nounized light",
+      "source_ids": [
+        "Q5002016"
+      ],
+      "definition": "Luminous emission of an active fire, not a burning surface",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-041",
+      "form": "sëzaro",
+      "pos": "adj",
+      "gloss": "damaged/nonfunctional",
+      "derivation": "new quality adjective",
+      "source_ids": [
+        "Q000119"
+      ],
+      "definition": "Physical object faulty or damaged; not morally wrong",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-042",
+      "form": "tëroshë",
+      "pos": "adj",
+      "gloss": "too strong for safe passage",
+      "derivation": "new threshold adjective",
+      "source_ids": [
+        "Q006009"
+      ],
+      "definition": "Water current exceeds safe navigation threshold",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-043",
+      "form": "wëharono",
+      "pos": "adj",
+      "gloss": "sold out, none available",
+      "derivation": "new retail availability adjective",
+      "source_ids": [
+        "Q003997"
+      ],
+      "definition": "Tickets completely unavailable for purchase, not merely scarce",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-044",
+      "form": "rëwësha",
+      "pos": "n",
+      "gloss": "radar equipment",
+      "derivation": "new remote-sensing noun",
+      "source_ids": [
+        "Q000091"
+      ],
+      "definition": "Radar apparatus used by pilots to detect storms",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-045",
+      "form": "tëpasho",
+      "pos": "n",
+      "gloss": "power supply/electricity",
+      "derivation": "new technical noun",
+      "source_ids": [
+        "Q005990"
+      ],
+      "definition": "Supply of electric power to a concert venue",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-046",
+      "form": "nëzhëra",
+      "pos": "adj",
+      "gloss": "beyond repair / damaged",
+      "derivation": "new state adjective",
+      "source_ids": [
+        "Q000119"
+      ],
+      "definition": "Damaged item not necessarily unusable",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-047",
+      "form": "yëwaro",
+      "pos": "adv",
+      "gloss": "earlier than the alternative time",
+      "derivation": "new relative-time adverb",
+      "source_ids": [
+        "Q004924"
+      ],
+      "definition": "Earlier/sooner compared with another scenario",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-048",
+      "form": "wëzëru",
+      "pos": "adv",
+      "gloss": "for a longer duration",
+      "derivation": "new comparative-duration adverb",
+      "source_ids": [
+        "Q004924"
+      ],
+      "definition": "Longer duration compared with counterpart outcome",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-049",
+      "form": "rëpëra",
+      "pos": "adj",
+      "gloss": "safe/without danger",
+      "derivation": "new derived quality",
+      "source_ids": [
+        "Q002874"
+      ],
+      "definition": "Safe manner or state of movement, not a guarantee of safety",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-050",
+      "form": "zënaro",
+      "pos": "n",
+      "gloss": "human owner/custodian",
+      "derivation": "new possession-role noun",
+      "source_ids": [
+        "Q004410"
+      ],
+      "definition": "One who owns or controls a referent, not a task owner",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-051",
+      "form": "rëzawo",
+      "pos": "n",
+      "gloss": "object's named sender",
+      "derivation": "new dispatch-role noun",
+      "source_ids": [
+        "Q004444"
+      ],
+      "definition": "Human/entity from which a correspondence letter originated",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-052",
+      "form": "gëwarë",
+      "pos": "adj",
+      "gloss": "precisely identical",
+      "derivation": "new identity-comparison adjective",
+      "source_ids": [
+        "Q005955"
+      ],
+      "definition": "Identical names across two distinct fictional characters",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-053",
+      "form": "tëwëda",
+      "pos": "n",
+      "gloss": "an arbitrary record detail",
+      "derivation": "new information-part noun",
+      "source_ids": [
+        "Q5002052"
+      ],
+      "definition": "Specific information detail, not an entire document",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-054",
+      "form": "rëpeshë",
+      "pos": "adj",
+      "gloss": "greater than expected in length",
+      "derivation": "new comparative quality",
+      "source_ids": [
+        "Q002867"
+      ],
+      "definition": "A song's duration is shorter than baseline expectation (strictly comparative)",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-055",
+      "form": "wëzëya",
+      "pos": "adj",
+      "gloss": "physically damaged",
+      "derivation": "new property adjective",
+      "source_ids": [
+        "Q60000089"
+      ],
+      "definition": "Damaged envelope/book/roots; not an abstract bad claim",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-056",
+      "form": "gëwëru",
+      "pos": "n",
+      "gloss": "woodland/tree roots",
+      "derivation": "new botanical noun",
+      "source_ids": [
+        "Q002264"
+      ],
+      "definition": "Physical plant roots that support a tree, distinct from lexical roots",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-057",
+      "form": "zëropo",
+      "pos": "n",
+      "gloss": "rescue shelter",
+      "derivation": "new specialized place noun",
+      "source_ids": [
+        "Q004956"
+      ],
+      "definition": "Emergency shelter receiving people in need",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-058",
+      "form": "tësaro-ma",
+      "pos": "n",
+      "gloss": "a formal proof or demonstration",
+      "derivation": "new event noun",
+      "source_ids": [
+        "Q006763"
+      ],
+      "definition": "Proof treated as object of understanding",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-059",
+      "form": "gëwaro",
+      "pos": "n",
+      "gloss": "water current",
+      "derivation": "new hydrological noun",
+      "source_ids": [
+        "Q002130"
+      ],
+      "definition": "Flowing sea current resisting a ship",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-060",
+      "form": "pënaro-m",
+      "pos": "n",
+      "gloss": "engine (object form only)",
+      "derivation": "pënaro engine",
+      "source_ids": [
+        "Q003451"
+      ],
+      "definition": "No new root; included to record specific case use",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-061",
+      "form": "tëpokhë",
+      "pos": "v",
+      "gloss": "read a route/timetable",
+      "derivation": "new V1 interpretation frame",
+      "source_ids": [
+        "Q004466"
+      ],
+      "definition": "Read and comprehend directions to travel",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-062",
+      "form": "nëzaro",
+      "pos": "v",
+      "gloss": "cease electrical charging",
+      "derivation": "new V0 charging stop event",
+      "source_ids": [
+        "Q000057"
+      ],
+      "definition": "Charging operation stops without proving fault",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-063",
+      "form": "shëlëno",
+      "pos": "adj",
+      "gloss": "defective charger",
+      "derivation": "new device-state adjective",
+      "source_ids": [
+        "Q5001681"
+      ],
+      "definition": "Charger faulty, not automatically established by battery overheating",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-064",
+      "form": "bëkaro",
+      "pos": "v",
+      "gloss": "attack a server",
+      "derivation": "new V1 cyberattack verb",
+      "source_ids": [
+        "Q001924"
+      ],
+      "definition": "Hostile attempt to compromise computer server, not generic connection loss",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-065",
+      "form": "nëkaro",
+      "pos": "v",
+      "gloss": "exclude noise as explanatory cause",
+      "derivation": "new V1 science verb",
+      "source_ids": [
+        "Q001508",
+        "Q004462"
+      ],
+      "definition": "Rule out a noise hypothesis after controlled measurement",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-066",
+      "form": "wëlawaro",
+      "pos": "n",
+      "gloss": "extraterrestrial civilization",
+      "derivation": "new compound lexicalized noun",
+      "source_ids": [
+        "Q005252"
+      ],
+      "definition": "Technologically communicating society beyond Earth, not merely foreign person",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-067",
+      "form": "tësoru",
+      "pos": "adj",
+      "gloss": "legally void / without legal force",
+      "derivation": "new legal quality adjective",
+      "source_ids": [
+        "Q003743"
+      ],
+      "definition": "Contract legally unenforceable/void; does not follow from missing signature alone",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-068",
+      "form": "tëworo",
+      "pos": "v",
+      "gloss": "rotate encryption/access keys",
+      "derivation": "new V1 key-rotation verb",
+      "source_ids": [
+        "Q5000130"
+      ],
+      "definition": "Rekey access credentials rather than physically spinning a lock",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-069",
+      "form": "wësharo",
+      "pos": "n",
+      "gloss": "cold/clean room",
+      "derivation": "new technical noun",
+      "source_ids": [
+        "Q002333"
+      ],
+      "definition": "Unspecified room, spare reserved context",
+      "independently_attested": false
+    }
+  ]
+}
