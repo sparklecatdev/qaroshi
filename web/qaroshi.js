@@ -168,6 +168,7 @@
         ${a('latin','Latin pronunciation')}${a('guide/pronunciation','Pronunciation & IPA')}
         ${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}
         ${a('guide/phonology','Writing system')}
+        ${a('guide/living','Living speech & usage')}
         <a class="navlink" href="Qaroshi_Academy.html">Foundations Academy</a>
         </div></details></div><div class="side-group">
       <details class="chapter-group"><summary>Specialist tools & archives</summary><div class="nested">
