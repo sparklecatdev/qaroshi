@@ -75,5 +75,10 @@
   "original_english_count": 500,
   "original_editorial_draft_count": 500,
   "external_human_comprehension_observations": 0,
-  "frozen_source_modified": false
+  "frozen_source_modified": false,
+  "semantic_repair_manifest": "data/standard_9_2/semantic_repairs.json",
+  "new_9_2_versioned_repair_ids": [
+    "QS81-0336"
+  ],
+  "previous_9_1_originals_preserved": 500
 }
