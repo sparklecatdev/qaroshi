@@ -15,6 +15,12 @@ const words=new Map(data.words.map(w=>[w.qaroshi.toLowerCase(),w]));
 const source=global.QaroshiUsage.sourceIndex(data.phrases,words,data.affixes);
 const turns=data.standard10.dialogues.flatMap(d=>d.turns);
 const connected=global.QaroshiUsage.sourceIndex(turns,words,data.affixes);
+const originalTurns=data.standard10.dialogues.filter(d=>d.id.startsWith('original11/')).flatMap(d=>d.turns);
+const recombinedTurns=data.standard10.dialogues.filter(d=>d.id.startsWith('source18/')).flatMap(d=>d.turns);
+const originalSceneIndex=global.QaroshiUsage.sourceIndex(originalTurns,words,data.affixes);
+const recombinedSceneIndex=global.QaroshiUsage.sourceIndex(recombinedTurns,words,data.affixes);
+const anyDocumentedIndex=new Set([...source.keys(),...originalSceneIndex.keys(),...recombinedSceneIndex.keys()]);
+
 const s=data.standard10;
 const candidate=data.words.map(w=>{
  const rootWord=!w.components,pr=s.priorities[w.qaroshi],prof=s.profiles[w.qaroshi],senses=s.senses[w.qaroshi]||[];
@@ -54,6 +60,12 @@ const summary={
  headwords_with_exact_original_corpus_use:source.size,
  headwords_without_original_corpus_use:data.words.length-source.size,
  lexemes_with_connected_editorial_turn_use:connected.size,
+ headwords_in_individually_scripted_editorial_scenes:originalSceneIndex.size,
+ headwords_in_recombined_reference_scenes:recombinedSceneIndex.size,
+ headwords_with_any_original_sentence_or_editorial_scene: anyDocumentedIndex.size,
+ headwords_without_any_recorded_sentence_or_editorial_scene: data.words.length-anyDocumentedIndex.size,
+ source_evidence_separation: 'Original parallel corpus, independently scripted editorial scenes, and recombined reference paths are three distinct evidence classes, none spontaneous fluent-speaker attestation.',
+
  editorial_conversation_turns:turns.length,
  original_source_priority_index: Object.keys(s.priorities).length,
  queued_for_review:rows.length,

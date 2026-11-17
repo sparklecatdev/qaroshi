@@ -49,6 +49,12 @@ For the full procedures, evidence classes and commands, see [Standard 10 documen
     python -m unittest discover -s tests -q
     make build
 
+## Standard 10.1 · Human-study field kit and source-led editorial review
+
+**[Existing Standard 10](docs/standard_10/README.md)** already brings distinct editorial senses, source-labeled connected conversations, and controlled drills into the Wiki. The follow-up adds a [priority editorial desk](index.html#editorial) for all **800 indexed high-use words**, and connects complete-source dialogue occurrences directly to headword pages without relabeling them as attested native speech.
+
+For the planned 80-item comprehension study, [the offline learner-only generator](tools/standard10/reader_html.py) writes a standalone HTML form containing no English answer key or network dependencies. Participants must supply their interpretations voluntarily; the [private adjudication worksheet tool](tools/standard10/adjudicate.py) only joins exported first-pass responses with the separately held key and leaves human ratings blank. None of this is a completed independent human study.
+
 ## Wiki 9.7 · Meaning-first word guides for every canonical entry
 
 The dictionary now acts as a **source-grounded mini-lesson for each of the 30,000 base entries**. Open `index.html#word/mara`, `index.html#word/goro`, or any result from [Dictionary](index.html#dictionary). Each page starts with the **English gloss**, word class, phonetic IPA/sound-out and topic, then provides:

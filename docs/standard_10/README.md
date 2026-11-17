@@ -66,6 +66,39 @@ Run from repository root:
 
 The scorer command requires human-supplied answers and adjudicator ratings; without those, it raises an error. GitHub Actions uploads the reader sheet and key as **different artifacts**, retaining the warning about public visibility.
 
+## Standard 10.1: Source contexts, editorial workbench and actual field-study tooling
+
+**New Wiki paths:**
+
+- `#word/mara`: separate **This word in conversation** section, drawn only from exact-matched words or documented suffix forms in original scripted dialogue turns and source-recombined conversation paths. These are **not** counted as examples from the original 4,383-sentence reference corpus, independent attestation or real spontaneous conversations. Each links to its scene, speakers and original text.
+- `#editorial`: a local-only review desk for the **800 priority lexical entries**. Search by lemma, gloss and topic; filter missing individual definitions, missing original-corpus examples, existing curated senses, or unreviewed candidate cards. View inherited source meanings, selection constraints and examples before writing editor notes. Download notes in a clearly **UNREVIEWED_EDITORIAL_PROPOSAL_NOT_APPROVED** JSON file. The exported notes change no lexeme and do not count as an independently conducted review. You can also open `#editorial?word=mara` from a priority dictionary entry.
+- `#validation`: a documented no-English-key standalone participant study, instead of merely printing a CSV and expecting readers to edit it by hand.
+
+**Generate the reader-only offline study:**
+
+```sh
+python tools/standard10/trial.py --build --out trial-export
+python tools/standard10/reader_html.py --reader trial-export/learner_blind_items.csv --out trial-export/learner_experiment.html
+```
+
+Distribute **only** `learner_experiment.html` to eligible consenting participants. The HTML contains all 80 Qaroshi-only targets and previous Qaroshi context, but **no facilitator English target, semantic verdict, score, network request, browser storage or telemetry**. It requires consent and a locally chosen anonymous code. Respondents write their own first-pass interpretation and roles/scope uncertainty, then export a private CSV. It never marks correctness or reopens the answer key.
+
+**Private human adjudication after collection:**
+
+```sh
+python tools/standard10/adjudicate.py \
+  --responses reader01.csv reader02.csv \
+  --key trial-export/facilitator_english_key.csv \
+  --out private_adjudicator_worksheet.csv
+# A separate consenting human adjudicator fills adjudicator_anonymous_code,
+# semantic_rating and adjudicator_notes in the private worksheet.
+python tools/standard10/trial.py --score private_human_completed_worksheet.csv --out private_report.json
+```
+
+The adjudication prepper **never** generates a semantic verdict. It validates the original 80 IDs, consent disclosure fields, uncertainty, distinct reader+item response pairs and supplied answer key, and leaves every judgment blank. The existing scorer refuses unrated forms. **Do not upload respondent CSVs, combined worksheets or identifying information to public GitHub.** In particular, the English facilitator answer key is public repository material; you must control its distribution and document prior participant exposure. With zero independent participants, zero human comprehension/attestation results remain the only honest outcome. The Study may be functionally *ready* without being *completed*.
+
+Run `python -m unittest tests.test_standard_10_1 -q`, `make build` and the browser tests to reproduce the safety and data-provenance checks. CI creates the standalone HTML as part of the learner-only artifact, with the answer key in a **separate**, explicitly not-secret artifact.
+
 ## What can and cannot be called complete
 
 **Completed in Standard 10:** the existing sense/proposal inventory is usable in the Wiki; all original editorial conversations and existing mechanical drills are discoverable; actual dictionary entries link through source word forms; independent-reader distribution and honest scoring have executable tooling and tests; provenance boundaries are visible.
