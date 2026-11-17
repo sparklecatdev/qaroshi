@@ -28,3 +28,63 @@ for cat,terms in TERMS.items():
         # Curb noisy matches and avoid false semantic parity.
         picks=[{"id":r["id"],"q":r["qaroshi"],"pos":r["pos"],"en":r["english"][:95]} for r in hits[:4]]
         print("TERM",cat,term,json.dumps(picks,ensure_ascii=False))
+
+
+EXACT = {
+    "voice":("n","voice"),
+    "bell":("n","bell"),
+    "measurement":("n","measurement"),
+    "tourist":("n","tourist"),
+    "visitor":("n","visitor"),
+    "doors":("n","door"),
+    "door":("n","door"),
+    "fog":("n","fog"),
+    "ferry":("n","ferry"),
+    "passenger":("n","passenger"),
+    "photograph":("n","photograph"),
+    "participant":("n","participant"),
+    "host":("n","host"),
+    "sky":("n","sky"),
+    "animal":("n","animal"),
+    "boundary":("n","boundary"),
+    "key":("n","key"),
+    "guest":("n","guest"),
+    "garden":("n","garden"),
+    "ship":("n","ship"),
+    "river":("n","river"),
+    "become":("v","become"),
+    "ring a bell":("v","ring"),
+    "sound a bell":("v","sound"),
+    "make a sound":("v","sound"),
+    "change a story":("v","change"),
+    "change":("v","change"),
+    "inspect a bridge":("v","inspect"),
+    "inspect":("v","inspect"),
+    "restart":("v","restart"),
+    "recognize":("v","recognize"),
+    "repeat":("v","repeat"),
+    "visit":("v","visit"),
+    "enter":("v","enter"),
+    "open":("v","open"),
+    "cross":("v","cross"),
+    "return":("v","return"),
+    "stop":("v","stop"),
+    "end":("v","end"),
+    "disappear":("v","disappear"),
+    "claim":("v","claim"),
+    "report":("v","report"),
+    "say":("v","say"),
+    "infer":("v","infer"),
+    "believe":("v","believe"),
+    "know":("v","know"),
+    "use":("v","use"),
+    "wait":("v","wait"),
+}
+for name,(pos,q) in EXACT.items():
+    term=re.compile(r"\b"+re.escape(q)+r"\b", re.I)
+    hits=[r for r in lex.lex if r["pos"]==pos and term.search(r["english"])]
+    hits.sort(key=lambda r:(
+        not (r["english"].lower()==name or r["english"].lower()==q),
+        not (r["english"].lower().split(";")[0]==name),
+        len(r["english"]),r["id"]))
+    print("EXACT",name,json.dumps([{"id":r["id"],"q":r["qaroshi"],"en":r["english"],"type":r["type"]} for r in hits[:7]],ensure_ascii=False))
