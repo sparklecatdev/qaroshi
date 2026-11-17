@@ -19,3 +19,6 @@ Qaroshi_Quality_Explore_*.png
 # Standard 10 reviewer protocol: keep generated keys and completed human data out of public source control.
 data/standard10/review_pack/
 data/standard10/private_*/
+
+# Generated research queues derived from the current source Wiki, never canonical language data.
+data/standard10/generated/
