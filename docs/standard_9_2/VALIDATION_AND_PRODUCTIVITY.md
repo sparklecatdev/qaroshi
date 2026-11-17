@@ -40,6 +40,8 @@ It writes **500 item-specific** rows to the review CSV and an accompanying human
 | Independent interpretation | A person who did not see the target English independently paraphrased Qaroshi | No invented respondents |
 | Unrestricted conversational competence | Speakers spontaneously compose, understand and repair novel conversation | Not established by this release |
 
+**A new 9.2 source-preserving repair:** The audit also identified \`QS81-0336\`, whose inherited counterfactual sentence used \`wënu\` but omitted the explicit result marker \`qinë\`. Current 9.2 writing now reads \`sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te qinë.\` while the 9.1 original remains unchanged and is stored in \`prior_9_1_editorial_candidate\`. The [repair manifest](../../data/standard_9_2/semantic_repairs.json) and regression tests prove the exact edit. This is a **bounded structural repair**, not independently proven semantic equivalence. The 9.2 audit also exports a versioned \`corrected_editorial_500.csv\` view.
+
 The earlier simple audit flagged eight inherited \`-ki-te\` forms and the 9.1 versioned view corrected them to \`-te-ki\`. The 9.2 checker keeps testing that exact ordering on all 500 strings. It does not overwrite any 8.0–9.1 source or silently rewrite unrelated existing drafts.
 
 ## 3. New held-out compositional productivity benchmark
