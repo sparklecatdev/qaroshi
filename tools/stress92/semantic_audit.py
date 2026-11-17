@@ -44,6 +44,62 @@ OPEN_RESONANCE={"sen","hë","qor","më","zha","rak","wen","zher","rëm","hol","n
 CASE_MORPH=re.compile(r"-(?:ki|ho|du)-te\b")
 REPEATED_CASE=re.compile(r"-(?:m|tu|za|shi|lo|gu|de)-(?:m|tu|za|shi|lo|gu|de)\b")
 
+def semantic_commitments(domain:str,variant:int)->dict[str,bool]:
+    """Truth-condition expectations independently read from English variants.
+
+    This does not establish real speaker understanding; it detects internal
+    disagreement between stored editorial semantics and source feature scope.
+    Absent older metadata is a review risk, not automatically a false reading.
+    """
+    v=variant
+    return {
+       "daily":{
+           "actual_positive_event_asserted":v==1,
+           "negated_event_asserted":v==2,
+           "polar_question":v==3,
+           "third_party_report_not_narrator_verified":v==4,
+           "counterfactual_not_actual_outcome":v==5,
+       },
+       "time_motion":{
+           "positive_main_event_asserted":v!=5,
+           "matrix_question":v==5,
+           "unasserted_causation":True,
+       },
+       "social_consent":{
+           "action_occurred_asserted":False,
+           "target_action_occurred_asserted":False,
+           "permission_not_inferred_from_silence":True,
+           "permission_granted_by_silence":False,
+       },
+       "quantifier_logic":{},
+       "evidentiality":{
+           "alternative_explicitly_negated":False,
+           "matrix_polar_knowledge_negated":v==4,
+       },
+       "embedding_reference":{
+           "truth_of_matrix_event_asserted":v in (1,5),
+           "relative_gap_belongs_to_head":True,
+       },
+       "counterfactual_modal":{
+           "actual_action_asserted":False,
+           "actual_consequent_asserted":False,
+           "permission_from_ability":False,
+           "ability_from_permission":False,
+           "action_occurrence_from_obligation":False,
+       },
+       "voice_valency":{
+           "instrument_is_agent":False,
+       },
+       "narrative_figures":{
+           "metaphor_asserted_real_world":False,
+       },
+       "technical_precision":{
+           "proposition_asserted_by_main_speaker":v==5,
+           "unsupported_q_asserted_false":False,
+       },
+    }[domain]
+
+
 def outside_quote_segments(q:str)->list[str]:
     """Ignore punctuation and full sentences inside «quoted material»."""
     outer=[]
@@ -152,6 +208,16 @@ def check(row:dict,base:dict,canonical:dict,lexical_overlay:dict)->dict:
         except json.JSONDecodeError:blockers.append("Malformed editorial semantic signature")
     else:
         warnings.append("No modern structured semantic signature: legacy editorial review needed")
+    checked_truth_fields=0
+    for field,expected in semantic_commitments(domain,variant).items():
+        if field in parsed:
+            checked_truth_fields+=1
+            if parsed[field] is not expected:
+                blockers.append(
+                    f"Editorial semantic signature contradicts original {feature} truth condition: {field}"
+                )
+    if parsed and checked_truth_fields==0:
+        warnings.append("Structured signature has no independently comparable truth-condition field")
     for role in ("actor","patient","instrument","head"):
         value=parsed.get(role)
         if isinstance(value,str) and value and role!="head":
@@ -167,6 +233,7 @@ def check(row:dict,base:dict,canonical:dict,lexical_overlay:dict)->dict:
         "case_id":row["id"],"domain":domain,"variant":variant,"source_feature":feature,
         "english_target":row["english"],"qaroshi_proposal":q,
         "editorial_origin":row["candidate_status"],
+        "formal_signature_fields_checked":checked_truth_fields,
         "prior_9_1_proposal":row.get("prior_9_1_editorial_candidate",q),
         "9_2_versioned_correction_reason":row.get("9_2_correction_reason",""),
         "blocking_form_issues":json.dumps(sorted(set(blockers)),ensure_ascii=False),
@@ -212,6 +279,8 @@ def run()->dict:
        "versioned_9_2_grammatical_corrections":len(repairs),
        "versioned_correction_case_ids":[r["case_id"] for r in repairs],
        "checked_for_speech_act_by_domain":500,
+       "editorial_semantic_fields_cross_checked":sum(x["formal_signature_fields_checked"] for x in report),
+       "candidate_rows_with_semantic_field_cross_checks":sum(x["formal_signature_fields_checked"]>0 for x in report),
        "structural_blockers":len(blocked),
        "structural_blocker_case_ids":[x["case_id"] for x in blocked],
        "structural_blocker_details":[{"case_id":x["case_id"],"english":x["english_target"],"candidate":x["qaroshi_proposal"],"issues":json.loads(x["blocking_form_issues"])} for x in blocked[:20]],
