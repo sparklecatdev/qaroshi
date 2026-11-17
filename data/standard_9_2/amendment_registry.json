@@ -1,0 +1,79 @@
+{
+  "edition": "9.2",
+  "title": "Qaroshi unified editorial grammar",
+  "status": "current compiled editorial reference; not independent human ratification",
+  "core_normative": "docs/standard_8/grammar.md",
+  "adopted_core": [
+    "8.0 core 90 chapters",
+    "8.1 embedded he do with local nu scope"
+  ],
+  "editorial_extension_status": "source/sense-bound, not independently speaker-attested",
+  "source_precedence": "9.2 current-decision table > explicitly documented later exact-scope amendment > 8.0 core for unaffected constructions; avoid conflicts by reporting as editorial limitations",
+  "source_paths": [
+    {
+      "edition": "8.1",
+      "path": "docs/standard_8/AMENDMENT_8_1_EMBEDDED_POLAR.md",
+      "kind": "adopted"
+    },
+    {
+      "edition": "8.4",
+      "path": "docs/standard_8/AMENDMENT_8_4_CORE_VERBS.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.5",
+      "path": "docs/standard_8/AMENDMENT_8_5_ATTEMPT.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.6",
+      "path": "docs/standard_8/AMENDMENT_8_6_EVERYDAY_MEANING.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.7",
+      "path": "docs/standard_8/AMENDMENT_8_7_PRODUCTIVE_ACTIONS.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.8A",
+      "path": "docs/standard_8/AMENDMENT_8_8_SEMANTIC_PRODUCTIVITY.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.8B",
+      "path": "docs/standard_8/AMENDMENT_8_8_TEMPORAL_SCOPE.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "8.9",
+      "path": "docs/standard_8/AMENDMENT_8_9_EVENT_COMPOSITION.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "9.0",
+      "path": "docs/standard_8/AMENDMENT_9_0_PRODUCTIVE_SEMANTICS.md",
+      "kind": "restricted editorial"
+    },
+    {
+      "edition": "9.1",
+      "path": "docs/standard_8/AMENDMENT_9_1_COMPLETE_EDITORIAL_CHALLENGES.md",
+      "kind": "restricted editorial"
+    }
+  ],
+  "conflict_ids": [
+    "QS81-0105",
+    "QS81-0110",
+    "QS81-0115",
+    "QS81-0120",
+    "QS81-0125",
+    "QS81-0135",
+    "QS81-0140",
+    "QS81-0150"
+  ],
+  "rejected_lexical_status": "not_adopted",
+  "original_english_count": 500,
+  "original_editorial_draft_count": 500,
+  "external_human_comprehension_observations": 0,
+  "frozen_source_modified": false
+}
