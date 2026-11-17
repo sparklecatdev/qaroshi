@@ -47,21 +47,17 @@
     }
     return indexed;
   }
-  // Return an escaped, annotated span at an EXACT morphology boundary. This
-  // routine accepts a previously vetted headword and cannot alter the source.
-  function highlight(text,lemma){
-    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-    const escaped=escape(text),words=plain(text).match(/[a-zë]+(?:-[a-zë]+)*/gi)||[];
-    // Use original text tokenization to preserve punctuation and case.
-    const tokens=plain(text).split(/([A-Za-zëË]+(?:-[A-Za-zëË]+)*)/g);
-    return tokens.map(part=>{
-      if(!part || !/^[A-Za-zëË]+(?:-[A-Za-zëË]+)*$/.test(part))return escape(part);
-      const word=exact(part),name=exact(lemma);
-      if(word===name||word.startsWith(name+'-')){
-        const remainder=word.slice(name.length);
-        if(!remainder||remainder.split('-').slice(1).every(t=>SUFFIX_FORMS.has('-'+t)))
-          return '<mark class="lexical-highlight">'+escape(part)+'</mark>';
-      }
+  // Highlight only a token that resolves to THIS complete dictionary lemma.
+  // Thus qaro is not incorrectly highlighted inside another compound root.
+  function highlight(text,lemma,byWord,affixes){
+    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const allowed=new Set([...SUFFIX_FORMS,...(affixes||[]).map(x=>x.form)]);
+    const parts=plain(text).split(/([A-Za-zëË]+(?:-[A-Za-zëË]+)*)/g);
+    return parts.map(part=>{
+      if(!part||!/^[A-Za-zëË]+(?:-[A-Za-zëË]+)*$/.test(part))return escape(part);
+      const resolved=resolveToken(part,byWord,allowed);
+      if(resolved&&resolved.headword===exact(lemma))
+        return '<mark class="lexical-highlight">'+escape(part)+'</mark>';
       return escape(part);
     }).join('');
   }
