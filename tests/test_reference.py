@@ -161,9 +161,10 @@ class DictionaryPronunciationPatch(unittest.TestCase):
   self.assertEqual(sound_out_text('sen mi-na gëro dërawa.'),'sehn MEE-nah GUH-roh duh-RAH-wah.')
  def test_word_details_prominent(self):
   js=(ROOT/'web/qaroshi.js').read_text(encoding='utf-8')
-  self.assertIn('How to pronounce ${esc(w.qaroshi)}',js)
+  self.assertIn('class="word-lead-pron"',js)
+  self.assertIn('pronunciation(w)',js)
   self.assertIn('Say it (English-style)',js)
-  self.assertIn('Latin letters &amp; their Qaroshi sounds',js)
+  self.assertIn('Writing and pronunciation details',js)
   self.assertIn('letterBreakdown(w.qaroshi)',js)
  def test_script_converter_and_phrasebook(self):
   js=(ROOT/'web/qaroshi.js').read_text(encoding='utf-8')
