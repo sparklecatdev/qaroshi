@@ -358,7 +358,9 @@
         "Q004542"
       ],
       "definition": "Confidential note (provisional)",
-      "independently_attested": false
+      "independently_attested": false,
+      "status": "not_adopted",
+      "exclusion_reason": "Malformed or unneeded lexical entry; do not treat as 9.1 root. Retained as rejected proposal for audit."
     },
     {
       "id": "X91-031",
@@ -479,7 +481,9 @@
         "Q5002016"
       ],
       "definition": "Luminous emission of an active fire, not a burning surface",
-      "independently_attested": false
+      "independently_attested": false,
+      "status": "not_adopted",
+      "exclusion_reason": "Malformed or unneeded lexical entry; do not treat as 9.1 root. Retained as rejected proposal for audit."
     },
     {
       "id": "X91-041",
@@ -695,7 +699,9 @@
         "Q006763"
       ],
       "definition": "Proof treated as object of understanding",
-      "independently_attested": false
+      "independently_attested": false,
+      "status": "not_adopted",
+      "exclusion_reason": "Malformed or unneeded lexical entry; do not treat as 9.1 root. Retained as rejected proposal for audit."
     },
     {
       "id": "X91-059",
@@ -719,7 +725,9 @@
         "Q003451"
       ],
       "definition": "No new root; included to record specific case use",
-      "independently_attested": false
+      "independently_attested": false,
+      "status": "not_adopted",
+      "exclusion_reason": "Malformed or unneeded lexical entry; do not treat as 9.1 root. Retained as rejected proposal for audit."
     },
     {
       "id": "X91-061",
@@ -828,6 +836,227 @@
         "Q002333"
       ],
       "definition": "Unspecified room, spare reserved context",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-070",
+      "form": "tëweshë",
+      "pos": "n",
+      "gloss": "steel, strong iron alloy",
+      "derivation": "new industrial material noun",
+      "source_ids": [
+        "Q005145"
+      ],
+      "definition": "Steel as material of a lock",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-071",
+      "form": "shira-sëli",
+      "pos": "n",
+      "gloss": "choir",
+      "derivation": "shira (song) + sëli (group)",
+      "source_ids": [
+        "Q004434",
+        "Q004898"
+      ],
+      "definition": "Coordinated group rehearsing/performing song",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-072",
+      "form": "shiralë",
+      "pos": "v",
+      "gloss": "play or perform music",
+      "derivation": "new music performance root",
+      "source_ids": [
+        "Q004434"
+      ],
+      "definition": "Musician/conductor actively performing music; may cease",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-073",
+      "form": "tëhulo-marao",
+      "pos": "n",
+      "gloss": "courtyard",
+      "derivation": "tëhulo (house) + marao (vicinity)",
+      "source_ids": [
+        "Q004978",
+        "Q002274"
+      ],
+      "definition": "Outdoor courtyard adjacent to an inhabited building",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-074",
+      "form": "nohowa-bekega",
+      "pos": "n",
+      "gloss": "safety circuit",
+      "derivation": "nohowa (safety) + bekega (circuit)",
+      "source_ids": [
+        "Q002874",
+        "Q000057"
+      ],
+      "definition": "Electrical circuit for cutting power to prevent hazards",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-075",
+      "form": "wena-këzapu",
+      "pos": "n",
+      "gloss": "astronomical structure",
+      "derivation": "wena (sky) + këzapu (structure)",
+      "source_ids": [
+        "Q005252",
+        "Q60000266"
+      ],
+      "definition": "Celestial object/structure vulnerable to physical destruction (literal reading only)",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-076",
+      "form": "shëzaro-tënubo",
+      "pos": "n",
+      "gloss": "pigmented ceramic tile",
+      "derivation": "shëzaro (colored) + tënubo (tile)",
+      "source_ids": [
+        "Q005072"
+      ],
+      "definition": "Colored ceramic wall tile",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-077",
+      "form": "tëpoqa-ngëpëzu",
+      "pos": "n",
+      "gloss": "wooden peg",
+      "derivation": "tëpoqa (wood) + ngëpëzu (peg)",
+      "source_ids": [
+        "Q002264"
+      ],
+      "definition": "Short wooden dowel / peg used for joining boards",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-078",
+      "form": "deruqi-sharo",
+      "pos": "n",
+      "gloss": "musical conductor",
+      "derivation": "deruqi (rehearse music) + -sharo professional",
+      "source_ids": [
+        "Q000631"
+      ],
+      "definition": "Music director leading performance, not rail conductor",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-079",
+      "form": "shiwari-nëro",
+      "pos": "n",
+      "gloss": "parcel",
+      "derivation": "shiwari (send) + -nëro result noun",
+      "source_ids": [
+        "Q004444"
+      ],
+      "definition": "Physical item sent for delivery, not a spoken message",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-080",
+      "form": "rëzuso-shënami",
+      "pos": "v",
+      "gloss": "miss a stage cue",
+      "derivation": "stage cue + lose/misplace",
+      "source_ids": [
+        "Q4L4C7BF0D69666",
+        "Q004510"
+      ],
+      "definition": "Fail to act at the stage cue, not mislay a physical object",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-081",
+      "form": "tëpasho-këzapu",
+      "pos": "n",
+      "gloss": "electric power system",
+      "derivation": "tëpasho (electricity) + këzapu structure",
+      "source_ids": [
+        "Q60000266"
+      ],
+      "definition": "Electrical power system supplying a venue",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-082",
+      "form": "yëli-ma",
+      "pos": "n",
+      "gloss": "light emission",
+      "derivation": "yëli (shine/glow) + -ma event noun",
+      "source_ids": [
+        "Q005979"
+      ],
+      "definition": "An instance of illumination, as distinct from an electrical lamp",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-083",
+      "form": "zaki-rë",
+      "pos": "n",
+      "gloss": "strength degree",
+      "derivation": "zaki (strong) + -rë quality noun",
+      "source_ids": [
+        "Q006009"
+      ],
+      "definition": "Intensity or strength of a quantity",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-084",
+      "form": "lira-rë",
+      "pos": "n",
+      "gloss": "narrowness",
+      "derivation": "lira (narrow) + -rë quality noun",
+      "source_ids": [
+        "Q002009"
+      ],
+      "definition": "Quality or degree of narrow width",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-085",
+      "form": "ngaroa-rë",
+      "pos": "n",
+      "gloss": "heaviness",
+      "derivation": "ngaroa (heavy) + -rë quality noun",
+      "source_ids": [
+        "Q002351"
+      ],
+      "definition": "Degree of heaviness, including rain intensity",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-086",
+      "form": "rëmëra-mi",
+      "pos": "n",
+      "gloss": "measuring agent",
+      "derivation": "rëmëra (measure) + -mi",
+      "source_ids": [
+        "Q004157"
+      ],
+      "definition": "Person who makes a measurement",
+      "independently_attested": false
+    },
+    {
+      "id": "X91-087",
+      "form": "wëruwa",
+      "pos": "adj",
+      "gloss": "strongly damaged / severe harm",
+      "derivation": "new descriptive property",
+      "source_ids": [
+        "Q60000089"
+      ],
+      "definition": "Severe damage to roots or a device, not minor imperfection",
       "independently_attested": false
     }
   ]
