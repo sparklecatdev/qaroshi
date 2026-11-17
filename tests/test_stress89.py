@@ -46,6 +46,75 @@ class Standard89(unittest.TestCase):
             self.assertEqual(item["human_backtranslation"],"not performed")
             self.assertEqual(item["independently_semantically_verified"],"no")
 
+    def test_social_consent_three_scopes_for_eight_individual_action_frames(self):
+        from tools.stress89.compose import consent_action
+        from tools.stress81.scenarios import SOCIAL
+        frames=source("consent_action_frames_8_9.json")
+        self.assertEqual(len(frames),8)
+        self.assertEqual(len({x["family"] for x in frames}),8)
+        self.assertEqual({x["family"] for x in frames},{1,2,3,4,5,7,8,10})
+        for frame in frames:
+            with self.subTest(frame=frame["id"]):
+                actor_english,other_english,action_english=SOCIAL[frame["family"]-1]
+                self.assertTrue(actor_english.startswith("the "))
+                self.assertTrue(other_english.startswith("the "))
+                self.assertEqual(frame["licensed_variants"],[1,2,3])
+                self.assertFalse(frame["human_attested"])
+                if frame.get("actor_id"):
+                    self.assertEqual(self.lex[frame["actor_id"]]["qaroshi"],frame["actor"])
+                    self.assertEqual(self.lex[frame["actor_id"]]["pos"],"n")
+                else:
+                    self.assertEqual(frame["actor"],frame["actor_base"]+"-sharo")
+                    self.assertEqual(self.lex[frame["actor_base_id"]]["qaroshi"],frame["actor_base"])
+                    self.assertEqual(self.lex[frame["actor_base_id"]]["pos"],"v")
+                self.assertEqual(self.lex[frame["other_id"]]["qaroshi"],frame["other"])
+                for ident in frame["action_ids"]:
+                    self.assertIn(ident,self.lex)
+                for variant in (1,2,3):
+                    itemid=f"QS81-{100+(frame['family']-1)*5+variant:04d}"
+                    row=self.cases[itemid]
+                    qr=consent_action(frame,variant)
+                    self.assertEqual(row["qaroshi_full_candidate"],qr)
+                    self.assertEqual(row["candidate_status"],"8_9_licensed_permission_request_or_refusal_editorial")
+                    signature=json.loads(row["edition_8_9_semantic_signature_json"])
+                    self.assertEqual(signature["question_actor"],frame["actor"])
+                    self.assertEqual(signature["permission_addressee"],frame["other"])
+                    self.assertFalse(signature["action_already_performed"])
+                    self.assertFalse(signature["permission_granted_or_inferred"])
+                    self.assertTrue(signature["negative_reply_did_not_assert_action_failure"])
+                    if variant==1:
+                        self.assertIn("-ho he do",qr)
+                        self.assertIn(frame["other"]+"-tu sharoa-te",qr)
+                        self.assertEqual(signature["kind"],"asked_permission")
+                    elif variant==2:
+                        self.assertIn("yaro ",qr)
+                        self.assertIn("toru «nu.» shiri-te.",qr)
+                        self.assertEqual(signature["kind"],"explicit_negative_reply")
+                    else:
+                        self.assertIn(" do "+frame["actor"]+" "+frame["other"]+"-tu pëli-te nao ",qr)
+                        self.assertTrue(qr.endswith(frame["other"]+" noharo-te."))
+                        self.assertEqual(signature["kind"],"offered_action_then_refused")
+                for variant in (4,5):
+                    itemid=f"QS81-{100+(frame['family']-1)*5+variant:04d}"
+                    self.assertEqual(self.cases[itemid]["qaroshi_full_candidate"],"")
+        for family in (6,9):
+            for variant in (1,2,3,4,5):
+                key=f"QS81-{100+(family-1)*5+variant:04d}"
+                self.assertEqual(self.cases[key]["qaroshi_full_candidate"],"")
+
+    def test_social_roles_are_not_interchangeable(self):
+        from tools.stress89.compose import consent_action
+        frames=source("consent_action_frames_8_9.json")
+        for f in frames:
+            original=consent_action(f,1)
+            swap={**f,"actor":f["other"],"other":f["actor"]}
+            self.assertNotEqual(original,consent_action(swap,1))
+            self.assertNotIn(" toru «nu.»",original)
+            self.assertTrue(consent_action(f,2).endswith("toru «nu.» shiri-te."))
+            self.assertNotIn(" noharo-te.",original)
+            self.assertEqual(self.cases[
+                f"QS81-{100+(f['family']-1)*5+1:04d}"]["human_backtranslation"],"not performed")
+
     def test_evidential_event_lexical_source_ids(self):
         self.assertEqual(len(self.evidential),5)
         for p in self.evidential:
