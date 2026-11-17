@@ -1,0 +1,154 @@
+[
+  {
+    "family": 3,
+    "actor": "shimi",
+    "actor_id": "Q004428",
+    "patient": "karoa zhëyaro-m",
+    "verb": "zhëmiro",
+    "verb_id": "Q006559",
+    "consequence": "yarao naroaro-m rëliwa-te",
+    "ids": [
+      "Q001465",
+      "Q005548",
+      "Q002333",
+      "Q004143"
+    ],
+    "note": "The adjective zhëyaro is newly defined as physically missing; the teacher and student are different agents, and the teacher opens a room only in the projected consequent.",
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "family": 4,
+    "actor": "tëzhida-mi",
+    "actor_id": "X91-001",
+    "patient": "zerëzhika-ri-tu kima-m",
+    "verb": "pëli",
+    "verb_id": "Q003431",
+    "consequence": "maru-ri shëmaro nëra-te",
+    "ids": [
+      "Q60000101",
+      "Q001955",
+      "Q002277",
+      "Q004480"
+    ],
+    "note": "Watering a seedling means giving water to plural seedlings; staying green has a duration-state persistence reading in a counterfactual.",
+    "variants": [
+      5
+    ]
+  },
+  {
+    "family": 5,
+    "actor": "pëyingo",
+    "actor_id": "Q003512",
+    "patient": "kidishitë-m",
+    "verb": "rewoti",
+    "verb_id": "Q004079",
+    "consequence": "rezina yëwaro wërawë-te",
+    "ids": [
+      "Q60000064",
+      "Q004112",
+      "Q005532"
+    ],
+    "note": "Rewoti extends from packing luggage to packing an instrument for a trip; yëwaro means earlier than the actual comparison schedule, not just early morning.",
+    "variants": [
+      5
+    ]
+  },
+  {
+    "family": 6,
+    "actor": "lëngazho-sharo",
+    "actor_id": "X91-002",
+    "patient": "nëpoqo-m",
+    "verb": "punushu-zhëmiwa",
+    "verb_id": "X91-027",
+    "consequence": "pëkuyo-ri sëdëno-te",
+    "ids": [
+      "Q003043",
+      "Q003425"
+    ],
+    "note": "Scorching bread is accidental/physical thermal damage, not toasting. Generic complaint does not encode rudely speaking.",
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "family": 7,
+    "actor": "rezhago",
+    "actor_id": "Q004096",
+    "patient": "këna-taroa-m",
+    "verb": "ngëmiro",
+    "verb_id": "Q002838",
+    "consequence": "rezina wëzëru nëra-te",
+    "ids": [
+      "Q004112"
+    ],
+    "note": "Travel instructions are forgotten, and the hypothetical trip lasts longer than expected; does not assert actual delay.",
+    "variants": [
+      5
+    ]
+  },
+  {
+    "family": 8,
+    "actor": "taru",
+    "actor_id": "Q004922",
+    "patient": "ngibeko-m",
+    "verb": "shëntaku",
+    "verb_id": "X91-022",
+    "consequence": "shara-ri taru zërë ngibeko-m yarëro-te",
+    "ids": [
+      "Q002355",
+      "Q004410",
+      "Q005557"
+    ],
+    "note": "Other persons exclude the child who concealed the notebook; they search for that same notebook.",
+    "variants": [
+      5
+    ]
+  },
+  {
+    "family": 9,
+    "actor": "qëmogë-mi",
+    "actor_id": "X91-003",
+    "patient": "setola-ri-m",
+    "verb": "rëmë",
+    "verb_id": "Q004156",
+    "consequence": "ngedësëyu qakekhu-te",
+    "ids": [
+      "Q004340",
+      "Q60000855",
+      "Q003555"
+    ],
+    "note": "Coins are counted and the cash register would balance; no exact monetary equality or denomination invented.",
+    "variants": [
+      5
+    ]
+  },
+  {
+    "family": 10,
+    "actor": "rewunu-mi",
+    "actor_id": "X91-004",
+    "patient": "renguqa-m",
+    "verb": "shënami",
+    "verb_id": "Q004510",
+    "consequence": "rekhena rewunu-mi-tu khupodu-m sharoa-te",
+    "ids": [
+      "Q003997",
+      "Q003940",
+      "Q60000125",
+      "Q004414"
+    ],
+    "note": "Ticket loss is separate from being denied travel; the inspector's identification request follows only in the counterfactual.",
+    "variants": [
+      5
+    ]
+  }
+]
