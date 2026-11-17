@@ -41,6 +41,18 @@ def evidence(event,variant):
         4:f"sen {p} he do mi nu sëmi.",
     }[variant]
 
+def consent_action(frame,variant):
+    """Independently distinguish requesting permission, refusing and declining an offer."""
+    actor,other,action=frame["actor"],frame["other"],frame["action"]
+    question=f"{actor} {action}-ho he do {actor} {other}-tu sharoa-te"
+    if variant==1:
+        return f"sen {question}."
+    if variant==2:
+        return f"sen yaro {question}, {other} toru «nu.» shiri-te."
+    if variant==3:
+        return f"sen {actor} {action} do {actor} {other}-tu pëli-te nao {other} noharo-te."
+    raise ValueError("Consent scenario variant lacks an editorially licensed structure")
+
 def build():
     build88()
     base=rows(ROOT/"data/stress88/case_evidence_500.csv")
@@ -48,11 +60,14 @@ def build():
     byid={x["id"]:x for x in examples}
     assert len(base)==len(byid)==500
     assert sum(bool(x["qaroshi_full_candidate"]) for x in base)==135
+    social=readjson("consent_action_frames_8_9.json")
     events=readjson("evidential_propositions_8_9.json")
     nonassertions=readjson("epistemic_nonassertions_8_9.json")
     motion=readjson("motion_frames_8_9.json")
     misc=readjson("conditional_and_voice_8_9.json")
     assert len(events)==5 and len(motion)==3
+    socialmap={x["family"]:x for x in social}
+    assert len(socialmap)==8 and len(social)==8
     eventmap={x["family"]:x for x in events}
     nonassertionmap={x["family"]:x for x in nonassertions}
     motionmap={x["family"]:x for x in motion}
@@ -77,6 +92,19 @@ def build():
         label=None
         boundary=None
         semantic_signature=None
+        if domain=="social_consent" and fam in socialmap and variant in (1,2,3):
+            sf=socialmap[fam]
+            candidate=consent_action(sf,variant)
+            witness=[sf["actor_id"],sf.get("actor_base_id"),sf["other_id"],*sf["action_ids"],sf["id"]]
+            label="8_9_licensed_permission_request_or_refusal_editorial"
+            boundary=sf["boundary"]
+            semantic_signature={
+                "question_actor":sf["actor"],"permission_addressee":sf["other"],
+                "requested_action":sf["action"],"action_already_performed":False,
+                "permission_granted_or_inferred":False,
+                "kind":"asked_permission" if variant==1 else
+                       ("explicit_negative_reply" if variant==2 else "offered_action_then_refused"),
+                "negative_reply_did_not_assert_action_failure":True}
         if domain=="evidentiality" and fam in eventmap and variant in (1,2,3,4):
             ev=eventmap[fam]
             candidate=evidence(ev,variant)
