@@ -29,6 +29,18 @@
       exampleByHeadword.get(f).push(p);
     });
   });
+  // Editorial semantic cases are linked only when an exact canonical token
+  // or known inflected base occurs. They are NOT independent comprehension data.
+  const caseByHeadword = new Map();
+  (D.semanticCases||[]).forEach(c=>{
+    const words=new Set((String(c.qaroshi).toLowerCase().match(/[a-zë]+(?:-[a-zë]+)*/g)||[])
+      .map(t=>wordBy.has(t)?t:(wordBy.has(t.split('-')[0])?t.split('-')[0]:null))
+      .filter(Boolean));
+    for(const form of words){
+      if(!caseByHeadword.has(form))caseByHeadword.set(form,[]);
+      caseByHeadword.get(form).push(c);
+    }
+  });
   const phraseBy = new Map(P.map(p => [p.id, p]));
   const chapterBy = new Map(C.map(c => [c.id, c]));
   const $ = (id) => document.getElementById(id);
@@ -474,6 +486,7 @@
     const neighbors=graph.neighbors;
     const glossMatches=graph.sameGloss;
     const occurrences=(exampleByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,8);
+    const caseOccurrences=(caseByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
     main.innerHTML=`<article class="readable">${mkHeader('Dictionary / '+w.domain,w.qaroshi,'Qaroshi headword · '+form(w.pos))}
       <div class="meta-row"><span class="pill">${esc(form(w.pos))}</span><span class="pill">${esc(w.id)}</span></div>
       <h2 class="pron-section-heading" id="pronunciation">How to pronounce ${esc(w.qaroshi)}</h2>
@@ -494,6 +507,9 @@
       <h2 id="examples">In example sentences</h2>
       ${occurrences.length?occurrences.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><span class="ipa-small">${esc(p.sound_out)} · ${esc(p.ipa)}</span><div class="english">${esc(p.english)}</div></a>`).join(''):'<p class="muted">There is no exact match in the example sentences yet.</p>'}
 
+      ${caseOccurrences.length?`<h2 id="semanticExamples">Editorial meaning cases</h2>
+      <p class="muted small">The original English target is shown for context. These source-linked Qaroshi drafts are not independently verified translations.</p>
+      <div class="entry-list">${caseOccurrences.map(c=>`<a class="phrase-item" href="#case/${enc(c.id)}"><strong>${esc(c.qaroshi)}</strong><span class="small muted">${esc(c.id)} · ${esc(c.english)}</span></a>`).join('')}</div>`:''}
       <h2 id="family">Word family</h2>
       <p class="muted small">Connections here are based on the <strong>recorded component field</strong>, not on guesses from overlapping spelling.</p>
       ${graph.parts.length?`<p>Built from: ${graph.parts.map(part=>part.entry?`<a href="#word/${enc(part.entry.qaroshi)}"><strong>${esc(part.form)}</strong></a>`:`<span class="muted">${esc(part.form)}</span>`).join(' + ')}</p>`:'<p class="muted">No component breakdown is recorded for this headword.</p>'}
@@ -508,7 +524,7 @@
       <div class="foot">Permanent dictionary identifier: ${esc(w.id)}.</div></article>`;
     $('copyWord').addEventListener('click',()=>copy(w.qaroshi));
     $('copyLink').addEventListener('click',()=>copy(location.href));
-    setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'family',name:'Word family'},{id:'related',name:'Related meanings'}]);
+    setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'semanticExamples',name:'Editorial cases'},{id:'family',name:'Word family'},{id:'related',name:'Related meanings'}]);
   }
 
   function renderCurrentStandard(){
