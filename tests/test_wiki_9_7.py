@@ -58,7 +58,7 @@ class RichLexicalGuides(unittest.TestCase):
 
     def test_no_auto_invented_sentences_or_unverified_synonyms(self):
         self.assertIn("not invented complete Qaroshi sentences",self.js)
-        self.assertIn("not independently verified translations",self.js)
+        self.assertIn("not independent human usage evidence",self.js)
         self.assertIn("No exact use in the source sentence collection yet",self.js)
         self.assertIn("not necessarily interchangeable synonyms",self.js)
         self.assertIn("not verified synonyms or antonyms",self.js)
