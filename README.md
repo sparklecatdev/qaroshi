@@ -33,6 +33,21 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Wiki 9.7 · Meaning-first word guides for every canonical entry
+
+The dictionary now acts as a **source-grounded mini-lesson for each of the 30,000 base entries**. Open `index.html#word/mara`, `index.html#word/goro`, or any result from [Dictionary](index.html#dictionary). Each page starts with the **English gloss**, word class, phonetic IPA/sound-out and topic, then provides:
+
+- **How to use the word:** a grammatical explanation and ordinary placement based on the documented part of speech. The guide links directly to a canonical grammar chapter and detailed Academy-style topic guide.
+- **Source-specific meaning guidance:** use the actual pronunciation, optional lexicon note, exact grammatical-particle position, special resonance intention or one of the reviewed 25 valency/selection frames when that information exists. Neither English glosses nor shared topics are treated as verified synonyms.
+- **Useful patterns and forms:** noun cases, pronoun cases, verb tense/aspect and safe adjective examples use visibly **schematic placeholders** or individual morphological forms, **not invented fluent sentences**. Only grammatically documented slots are illustrated; context and selection restrictions still apply.
+- **The word in context:** pull real source-sentence text only when the full headword appears exactly or with a known inflection. Highlight the surface form, show its recorded English gloss, IPA, case/tense suffix labels where known, original example ID and link. When none of the 4,383 source teaching sentences contain that word, say so explicitly rather than inventing a translation. The 500 editorial challenge cases are shown separately as unverified proposals.
+- **Meaningful word families:** break recorded compounds into **linked components with their own English meanings**, show reverse compounds that explicitly cite the word, and keep same-English-gloss entries separate from merely topical neighbors.
+- **Writing and next steps:** display the native original glyphs, collapsible letter sounds, source identifiers, and one-click word practice or the licensed sentence workshop where available.
+
+The Wiki remains a **single offline HTML artifact** with no runtime API for entry help. The 9.7 renderer does not alter dictionary meanings, canonical baselines, language grammar or old routes. The 30,000-word software completeness test, honest corpus-example coverage report, exact morphology-aware source-link test, and desktop/mobile browser checks run in CI.
+
+**Important:** a word having a detailed usage guide does *not* mean there is a verified sentence for that word, an independently approved definition, or confirmed independent human comprehension. Those evidence gaps are visible rather than silently hidden.
+
 ## Wiki 9.6 · Dictionary discovery and private practice
 
 The **main Wiki**, including the offline HTML download, now provides the most-used discovery and study flows together. Use [Dictionary](index.html#dictionary), [Practice studio](index.html#practice), [Learn](index.html#learn), [Topics](index.html#categories), or the original [Sentence workshop](index.html#workshop). No new user account, external service, or change to canonical language sources is required.
