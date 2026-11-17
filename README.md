@@ -33,6 +33,22 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 10.0 · Meaning, connected conversation and independent-reader readiness
+
+**The Wiki now unifies existing source-anchored definitions, conversations, drills and real study preparation.** The [current word guide](index.html#dictionary) includes a sense atlas when prior sources document one; [Conversations](index.html#conversations) presents the 49 separately authored editorial scenes plus existing source-linked scenario reconstructions; [Controlled drills](index.html#drills) exposes 1,572 preexisting roundtrip pairs with explicit mechanical/editorial status; and [Independent comprehension](index.html#validation) explains the reproducible 80-item blinded-reader protocol.
+
+Every source layer remains different. Individually written core profiles and earlier normative/editorial sense clarifications are displayed with their inherited status. The priority 800-word index is a lexical evidence and review inventory, **not 800 newly ratified meanings**. The 5,000 legacy candidate sense/example cards remain **unreviewed**, shown only inside explicit disclosures, never passed off as established polysemy or human-attested examples. Existing 30,000 dictionary entries, 4,383 reference sentences and historic contributor material are unchanged.
+
+The independent human trial workflow generates a Qaroshi-only reader sheet, separately distributed facilitator key, empty response/adjudication sheet and a conservative scorer. **No human reader or independent meaning validation is invented or claimed.** The code does not auto-score free human meaning interpretations.
+
+For the full procedures, evidence classes and commands, see [Standard 10 documentation](docs/standard_10/README.md). Reproduce with:
+
+    python tools/standard10/resources.py --summary
+    python tools/standard10/trial.py --build --out data/standard10/review_pack
+    node tests/standard10/ui.cjs
+    python -m unittest discover -s tests -q
+    make build
+
 ## Wiki 9.7 · Meaning-first word guides for every canonical entry
 
 The dictionary now acts as a **source-grounded mini-lesson for each of the 30,000 base entries**. Open `index.html#word/mara`, `index.html#word/goro`, or any result from [Dictionary](index.html#dictionary). Each page starts with the **English gloss**, word class, phonetic IPA/sound-out and topic, then provides:
