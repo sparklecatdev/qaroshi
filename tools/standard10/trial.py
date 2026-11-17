@@ -86,7 +86,7 @@ def build(out):
 No participants, responses or independent outcomes are created by these scripts.
 
 1. Recruit volunteers who did not author or previously read the source scenes. Obtain consent and assign anonymous codes without putting names, handles or raw chats in the public repository.
-2. Distribute ONLY learner_blind_items.csv, with the full facilitator_english_key.csv withheld from readers. The key is NOT cryptographically sealed, especially if visible in public GitHub Actions.
+2. Distribute ONLY learner_blind_items.csv, with the full facilitator_english_key.csv withheld from readers. The key is not cryptographically sealed, especially if visible in public GitHub Actions.
 3. Randomize reading order across people. First collect a free English paraphrase, actor and participant identifications, negation, certainty, evidence source, permission vs ability, and a confidence/uncertainty rating. Accept 'cannot determine' rather than forcing guesses.
 4. Retain first-pass responses. A second human adjudicator compares them with the source English key, noting ambiguity and any questionable original editorial gloss. Record one of meaning_preserved, partial, incorrect, cannot_determine plus reasons. Do not use edit distance as semantic proof.
 5. Separate independently recruited reading from self-study after browsing the Wiki. Check whether readers accessed the key and report this limitation.
