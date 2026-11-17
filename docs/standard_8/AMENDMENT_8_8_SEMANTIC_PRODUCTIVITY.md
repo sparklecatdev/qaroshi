@@ -94,6 +94,12 @@ The 8.8 output expects **135 complete editorial candidate strings** (96 previous
 
 **Human comprehension results: zero.** The proposed candidates may still need sense disambiguation or correction. The other 365 challenges remain open. The existence of formal tests shows consistency with the editorial specification, not full natural-language proficiency or truth-conditional equivalence measured by independent readers.
 
+## 6. Exact-pattern semantic scope checker
+
+The machine-readable validator `tools/stress88/scope.py` is a **restricted exact-pattern scope interpreter** for the new 8.8 examples. It preserves actor/patient distinction, specialized recipient vs direct-object roles, passive agent `-za` vs instrument `-shi`, matrix question versus assertion, and assertion of *telling that P* versus assertion of P. For one edited example, it rejects a string rather than projecting arbitrary meanings onto a familiar affix sequence.
+
+Try `python -m tools.stress88.scope "sen taru ngibeko-m zhiseti-te."`. The output is **not** a general Qaroshi parse, a proof of English equivalence, or independent reader testimony. Exact mismatch results are deliberately reported as outside this specific checker, not ungrammatical.
+
 ## Reproduction and integrity
 
 ```sh
