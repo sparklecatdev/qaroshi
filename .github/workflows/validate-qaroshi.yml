@@ -60,5 +60,7 @@ jobs:
           name: qaroshi-89-reviewer-key-135
           path: data/stress89/separate_answer_key_135.csv
           retention-days: 30
+      - name: Inspect canonical glosses for remaining expression systems
+        run: python tools/stress90/diagnose_glosses.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
