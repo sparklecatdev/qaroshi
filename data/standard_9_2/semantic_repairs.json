@@ -1,0 +1,18 @@
+{
+  "edition": "9.2",
+  "purpose": "Explicitly correct one inherited counterfactual-result marker while preserving the full historical 9.1 surface",
+  "model_author_only": true,
+  "independently_speaker_verified": false,
+  "corrections": [
+    {
+      "case_id": "QS81-0336",
+      "english_target": "If the mechanic had repaired the engine, the vehicle would have started.",
+      "previous_9_1": "sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te.",
+      "current_9_2": "sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te qinë.",
+      "reason": "The exact inherited 8.3 draft marks the antecedent with wënu but omits the explicit counterfactual-result scope particle qinë required by the adopted 8.0 Chapter 21 construction and all 9.0–9.1 modal families. Adding qinë distinguishes a merely projected consequence from a past actual statement.",
+      "core_grammatical_source": "docs/standard_8/grammar.md#21-real-conditionals-counterfactuals-concessions-wishes",
+      "scope_limit": "The past potential result is not an asserted actual vehicle start; this is an editorial correction, not an independent human translation."
+    }
+  ],
+  "old_originals_preserved": true
+}
