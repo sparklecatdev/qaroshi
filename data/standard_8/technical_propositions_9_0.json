@@ -1,0 +1,108 @@
+[
+  {
+    "id": "TEC90-01",
+    "family": 1,
+    "english_claim": "the battery overheated",
+    "p": "yëngaro khudëzhi-te",
+    "p_ids": [
+      "Q005990",
+      "Q001659"
+    ],
+    "recommendation": null,
+    "recommendation_ids": [],
+    "unsupported": null,
+    "unsupported_ids": [],
+    "decision": "Overheat is a V0 physical-temperature event; nothing in the bare English target asserts damage or defective charging.",
+    "risk": "The safety circuit and charger-specific senses remain unlicensed; only reporting, second observer recording and unverified possibility are drafted."
+  },
+  {
+    "id": "TEC90-05",
+    "family": 5,
+    "english_claim": "the encrypted file was copied",
+    "p": "shërawëlon qebiya khuziqu-li-te",
+    "p_ids": [
+      "Q004586",
+      "Q5002069",
+      "Q001937"
+    ],
+    "recommendation": "karoa-ri pagasaya-li-du",
+    "recommendation_ids": [
+      "Q001465",
+      "Q5000130"
+    ],
+    "unsupported": "shërawëlon-na saderene khungëtu-li-te",
+    "unsupported_ids": [
+      "Q5002052",
+      "Q001764"
+    ],
+    "decision": "License passive copying of an encrypted digital file, generic access key rotation as passive obligation, and a passive file-content decryption proposition. Copied encrypted bytes do not prove plaintext exposure.",
+    "risk": "Encrypted form does not imply decrypted contents; matrix blocked-proof scope must not assert decryption."
+  },
+  {
+    "id": "TEC90-07",
+    "family": 7,
+    "english_claim": "the patient record contained an error",
+    "p": "yunulëdigëki gikëpëkhi-m hari-te",
+    "p_ids": [
+      "Q60010624",
+      "Q60000431"
+    ],
+    "recommendation": "pësheha shaneyeki-m shërawëhe-du",
+    "recommendation_ids": [
+      "Q003487",
+      "Q60000383",
+      "Q004576"
+    ],
+    "unsupported": "pëngipo zhërawëna",
+    "unsupported_ids": [
+      "Q003457",
+      "Q006575"
+    ],
+    "decision": "License 'record contains error' through have-V1, clinical doctor to verify record source, and patient predicate dishonest. Mistakes in a record cannot establish that the patient lied.",
+    "risk": "Patient record need not be authored by the patient; no authorship or intent is inferred."
+  },
+  {
+    "id": "TEC90-08",
+    "family": 8,
+    "english_claim": "the bridge inspection revealed corrosion",
+    "p": "tarowaqumokima begëzha-m ziwushi-te",
+    "p_ids": [
+      "Q004921",
+      "Q5001714",
+      "Q000048",
+      "Q53001214"
+    ],
+    "recommendation": "pëhezho-ri këzapu-m qumoki-du",
+    "recommendation_ids": [
+      "Q003410",
+      "Q60000266",
+      "Q5001714"
+    ],
+    "unsupported": "tarowa luraru-yu",
+    "unsupported_ids": [
+      "Q002151"
+    ],
+    "decision": "Use transparent qumoki-ma event noun for inspection of bridge, one V1 physical corrosion revelation, and a narrowly broadened engineering structural-assessment use of qumoki. Structural collapse is a new explicitly typed reading of 'collapse as rock'.",
+    "risk": "Detecting corrosion is not a proof of inevitable collapse; the follow-up assessment is recommended, not claimed to have occurred."
+  },
+  {
+    "id": "TEC90-10",
+    "family": 10,
+    "english_claim": "the contract lacked a signature",
+    "p": "qilazo qizhepo-m nu hari-te",
+    "p_ids": [
+      "Q003743",
+      "Q003842"
+    ],
+    "recommendation": "qilazo-na pëlomo-ri neqëwi-m sharoa-du",
+    "recommendation_ids": [
+      "Q003435",
+      "Q60000746",
+      "Q004414"
+    ],
+    "unsupported": null,
+    "unsupported_ids": [],
+    "decision": "Legal contract not possessing a legal signature; contractual participants should request clarification, without inferring legal nullity.",
+    "risk": "An unsigned agreement is not automatically void; the unknown legal conclusion remains without draft."
+  }
+]
