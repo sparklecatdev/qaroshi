@@ -238,6 +238,9 @@ def build():
     assert sum(bool(x["qaroshi_full_candidate"]) for x in parent)==318
     english={r["id"]:r["english"] for r in source}
     entries=proposals()
+    correction=read("consent_morphology_corrections_9_1.json")
+    repairs=set(correction["case_ids"])
+    assert len(repairs)==8 and not repairs.intersection(entries)
     out=[]
     for record in parent:
         id_=record["id"]
@@ -247,6 +250,16 @@ def build():
         row["edition_9_1_semantic_signature_json"]=""
         row["edition_9_1_source_ids"]=""
         row["edition_9_1_editorial_scope_warning"]=""
+        row["edition_9_1_inherited_morphology_repair_reason"]=""
+        if id_ in repairs:
+            old=row["qaroshi_full_candidate"]
+            source_form=correction["original_bad_sequence"]
+            new_form=correction["corrected_sequence"]
+            assert old and old.count(source_form)==1,(id_,old)
+            row["qaroshi_full_candidate"]=old.replace(source_form,new_form,1)
+            row["edition_9_1_inherited_morphology_repair_reason"]=correction["reason"]
+            row["editorial_scope_warning"]=str(row["editorial_scope_warning"])+(
+                " | Corrected noncanonical past-ability suffix order; original 9.0 form preserved in prior_9_0_candidate.")
         if id_ in entries:
             assert not row["qaroshi_full_candidate"],("Historical draft collision",id_)
             item=entries[id_]
@@ -266,6 +279,7 @@ def build():
     assert sum(bool(x["qaroshi_full_candidate"]) for x in out)==500
     assert {x["id"] for x in out if x["edition_9_1_source_ids"]}==set(entries)
     assert all(x["prior_9_0_candidate"]==p["qaroshi_full_candidate"] for x,p in zip(out,parent))
+    assert {x["id"] for x in out if x["edition_9_1_inherited_morphology_repair_reason"]}==repairs
     OUT.mkdir(parents=True,exist_ok=True)
     write_csv(OUT/"case_evidence_500.csv",out)
     report={
@@ -273,6 +287,10 @@ def build():
         "frozen_english_challenges":500,
         "inherited_9_0_draft_count":318,
         "new_9_1_draft_count":182,
+        "inherited_drafts_preserved_verbatim_in_current_9_1_view":310,
+        "inherited_9_0_drafts_explicitly_morphologically_repaired":len(repairs),
+        "inherited_repair_ids":sorted(repairs),
+        "all_318_previous_forms_preserved_in_prior_9_0_candidate":True,
         "all_full_editorial_candidate_strings":500,
         "no_complete_editorial_draft":0,
         "new_editorial_drafts_by_domain":dict(sorted(Counter(x["domain"] for x in entries.values()).items())),
