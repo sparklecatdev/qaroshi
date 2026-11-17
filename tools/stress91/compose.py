@@ -181,6 +181,14 @@ def proposals():
                 elif domain=="time_motion":candidate=motion(frame,variant)
                 elif domain=="social_consent":
                     candidate=consent_action(frame,variant) if variant in (1,2,3) else consent90(frame,variant)
+                    if variant==5:
+                        # In the authoritative 8.0 morphology tense precedes
+                        # modality: ROOT-te-ki, never ROOT-ki-te. Earlier
+                        # editorial drafts are retained for separate review.
+                        wrong=f"{frame['action']}-ki-te"
+                        right=f"{frame['action']}-te-ki"
+                        assert wrong in candidate
+                        candidate=candidate.replace(wrong,right)
                 elif domain=="evidentiality":
                     candidate=evidential(frame,variant) if variant in (1,2,3,4) else negated_matrix_claim(frame)
                 elif domain=="embedding_reference":candidate=relative90(frame,variant)
