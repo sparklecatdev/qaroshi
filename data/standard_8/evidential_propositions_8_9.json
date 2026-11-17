@@ -24,7 +24,7 @@
     "verb": "shëruwawe",
     "verb_id": "Q004626",
     "patient": "morushira",
-    "patient_id": null,
+    "patient_id": "Q002291",
     "clause": "pëqukho pëqukho-na morushira-m shëruwawe-te",
     "frame": "V1_possessor_coreference",
     "sense": "witness alters that same witness's account",
