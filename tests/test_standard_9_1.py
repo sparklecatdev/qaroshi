@@ -47,8 +47,13 @@ class Standard91(unittest.TestCase):
             self.assertEqual(r["external_comprehension"],"not performed")
             self.assertTrue(r["qaroshi_full_candidate"])
             if self.previous[id_]["qaroshi_full_candidate"]:
-                self.assertEqual(r["qaroshi_full_candidate"],
-                                 self.previous[id_]["qaroshi_full_candidate"])
+                parent=self.previous[id_]["qaroshi_full_candidate"]
+                if r["edition_9_1_inherited_morphology_repair_reason"]:
+                    self.assertEqual(r["qaroshi_full_candidate"],
+                                     parent.replace("-ki-te","-te-ki",1))
+                    self.assertIn("-te-ki",r["qaroshi_full_candidate"])
+                else:
+                    self.assertEqual(r["qaroshi_full_candidate"],parent)
                 self.assertEqual(r["edition_9_1_source_ids"],"")
                 self.assertEqual(r["candidate_status"],self.previous[id_]["candidate_status"])
             else:
@@ -59,6 +64,25 @@ class Standard91(unittest.TestCase):
                 sig=json.loads(r["edition_9_1_semantic_signature_json"])
                 self.assertEqual(sig["independent_reader_count"],0)
                 self.assertEqual(sig["status"],"editorial, not independently attested")
+
+    def test_all_eight_historical_morphology_corrections_are_versioned_and_archived(self):
+        correction=json.loads((STD/"consent_morphology_corrections_9_1.json").read_text(encoding="utf8"))
+        target=set(correction["case_ids"])
+        self.assertEqual(len(target),8)
+        repaired={id_ for id_,row in self.ledger.items()
+                  if row["edition_9_1_inherited_morphology_repair_reason"]}
+        self.assertEqual(repaired,target)
+        self.assertEqual(self.report["inherited_9_0_drafts_explicitly_morphologically_repaired"],8)
+        self.assertEqual(self.report["inherited_drafts_preserved_verbatim_in_current_9_1_view"],310)
+        self.assertTrue(self.report["all_318_previous_forms_preserved_in_prior_9_0_candidate"])
+        for id_ in target:
+            source=self.previous[id_]["qaroshi_full_candidate"]
+            present=self.ledger[id_]["qaroshi_full_candidate"]
+            self.assertIn("-ki-te",source)
+            self.assertNotIn("-ki-te",present)
+            self.assertEqual(present,source.replace("-ki-te","-te-ki",1))
+            self.assertEqual(self.ledger[id_]["prior_9_0_candidate"],source)
+            self.assertFalse(correction["human_attested"])
 
     def test_canonical_and_9_1_source_ids_exist_and_were_not_invented(self):
         self.assertEqual(self.lexoverlay["immutable_source_lexicon"],True)
