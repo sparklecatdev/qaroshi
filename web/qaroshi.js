@@ -13,6 +13,7 @@
   const wordBy = new Map(W.map(w => [w.qaroshi.toLowerCase(), w]));
   const fold = s => String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const discovery = window.QaroshiDiscovery.createIndex(W);
+  const ST10 = window.Qaroshi10.create(D);
   const domainBy = new Map();
   W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
   // Live, morphology-aware indexes. A sentence is linked to a word only if
@@ -33,7 +34,7 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', conversations:'Conversations', conversation:'Conversation', drills:'Controlled drills', validation:'Independent comprehension', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
@@ -151,6 +152,10 @@
       </div><div class="side-group"><div class="side-heading">Reference</div>
       ${a('standard','Current grammar · 9.2')}${a('grammar','90 grammar chapters')}
       ${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}
+      <details class="chapter-group"><summary>Conversations & research</summary><div class="nested">
+        ${a('conversations','Read conversations')}${a('drills','Controlled sentence drills')}
+        ${a('validation','Independent comprehension testing')}
+      </div></details>
       <details class="chapter-group"><summary>Grammar chapter index</summary><div class="nested">${chapterLinks}</div></details>
       </div><div class="side-group"><details class="chapter-group">
         <summary>Lessons, guides & pronunciation</summary><div class="nested">
@@ -230,7 +235,7 @@
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">QAROSHI · CURRENT EDITORIAL REFERENCE 9.2–9.4</div>
+        <div class="eyebrow">QAROSHI · LANGUAGE, DICTIONARY & LEARNING · STANDARD 10</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
         <p class="lead">Look up a word, learn a rule or build a sentence. The new grammar workshop and meaning library work right in your browser.</p>
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${C.length}</b> grammar chapters</span><span><b>25</b> reviewed grammar verbs</span><span><b>500</b> editorial meaning cases</span></div>
@@ -243,6 +248,7 @@
         <a class="quick-card" href="#categories"><span class="arrow">›</span><strong>Browse subjects</strong><small>Grouped topics instead of hundreds of links</small></a>
         <a class="quick-card" href="#practice"><span class="arrow">›</span><strong>Practice Qaroshi</strong><small>Private word and sentence recall cards from the source corpus</small></a>
       </div>
+      <div class="note"><strong>Learn language in context:</strong> Read <a href="#conversations">connected Qaroshi conversations</a>, open <a href="#drills">1,500+ controlled sentence drills</a>, or inspect <a href="#validation">the independent-comprehension protocol</a>. Editorial translations are visible as teaching aids, not human-attested evidence.</div>
       <div class="note"><strong>Reference status:</strong> the 8.0 grammar remains the inherited normative core; later rules include source-bound editorial decisions. The interactive grammar covers a reviewed subset, and the 500 proposed translations lack independent reader validation.</div>
       <h2 id="fundamental">Start with a sentence</h2>
       <p>Qaroshi opens independent sentences with a resonance marker, keeps roles explicit, and puts predicates near the end. Explore <a href="#grammar/02">resonance</a>, <a href="#grammar/06">case roles</a> or the <a href="#workshop">sentence workshop</a>.</p>
@@ -419,6 +425,7 @@
       <li>Study the <a href="#guide/nouns_cases">noun cases</a>, <a href="#guide/verb_workshop">verb endings</a> and <a href="#guide/resonance_mastery">resonance registers</a>.</li>
       <li>Complete lessons 9–16, then check the <a href="#guide/sentence_atlas">sentence atlas</a> and <a href="#guide/workbook">practice workbook</a>.</li></ol>
       <div class="note"><strong>Practice in the Wiki.</strong> After reading a lesson, use the <a href="#practice">offline flashcards</a> to review actual dictionary words and source teaching sentences, or the <a href="#workshop">sentence workshop</a> for the reviewed grammar subset.</div>
+      <div class="note"><strong>Connected practice:</strong> <a href="#conversations">Read full conversations</a>, <a href="#drills">inspect controlled practice pairs</a>, and <a href="#validation">learn how real reader validation works</a>.</div>
       <h2 id="featured">Core study resources</h2><div class="learning-grid">${lead.map(entry).join('')}</div>
       <h2 id="deep">Deep-dive guides</h2><p class="muted">Each guide explains a topic in context and includes reference IPA, worked examples, independent practice, and a revealable answer key.</p>
       <div class="learning-grid">${rest.map(entry).join('')}</div>
@@ -536,6 +543,7 @@
           <a href="#guide/${enc(u.guide)}">${esc(studyBy.get(u.guide)?.title||'step-by-step guide')}</a>.</p>
       </section>
 
+      ${ST10.sensesHTML(w)}
       <section id="examples" class="word-examples">
         <div class="word-section-title"><div><span class="word-section-kicker">Actual source text</span>
           <h2>This word in context</h2></div><span class="word-section-counter">${occurrences.length} examples shown</span></div>
@@ -602,12 +610,24 @@
       const target=document.getElementById(x.dataset.wordJump);
       if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
     }));
-    setToc([{id:'definition',name:'Meaning'},{id:'usage',name:'How to use it'},
+    setToc([{id:'definition',name:'Meaning'},{id:'usage',name:'How to use it'},{id:'sense-details',name:'Sense distinctions'},
       {id:'examples',name:'Source examples'},{id:'family',name:'Word family'},
       {id:'related',name:'Nearby meanings'},{id:'pronunciation',name:'Pronunciation'},
       {id:'lexical-details',name:'Sources'}]);
   }
 
+  function renderConversations(){
+    ST10.dialogueIndex(main);setToc([]);
+  }
+  function renderConversation(id){
+    ST10.conversation(main,id);setToc([]);
+  }
+  function renderDrills(){
+    ST10.drillLibrary(main);setToc([]);
+  }
+  function renderValidation(){
+    ST10.validation(main);setToc([]);
+  }
   function renderCurrentStandard(){
     const addenda=D.grammarAddenda||[];
     main.innerHTML=`<article class="readable">
@@ -836,6 +856,10 @@
       case 'standard':renderCurrentStandard();break;
       case 'learn':renderLearn();break;
       case 'practice':renderPractice(route);break;
+      case 'conversations':renderConversations();break;
+      case 'conversation':renderConversation(route.id);break;
+      case 'drills':renderDrills();break;
+      case 'validation':renderValidation();break;
       case 'dictionary':renderDictionary(route);break;
       case 'word':renderWord(route.id);break;
       case 'grammar':route.id?renderChapter(route.id):renderGrammarIndex();break;
