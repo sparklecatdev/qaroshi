@@ -12,6 +12,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
+      - name: Check Wiki browser JavaScript syntax and grammar parity
+        run: |
+          node --check web/grammar_live.js
+          node --check web/wiki_lab.js
+          node --check web/qaroshi.js
+          node tests/wiki95/grammar_browser.cjs
       - name: Build site
         run: make build
       - name: Check curated site and release integrity
