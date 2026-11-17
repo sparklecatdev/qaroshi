@@ -20,5 +20,5 @@ for domain,series in [
     ("quantifier_logic",sc.LOGIC),("evidentiality",sc.EVIDENCE),
     ("embedding_reference",sc.EMBED),("counterfactual_modal",sc.COUNTER),
     ("voice_valency",sc.VALENCY),("narrative_figures",sc.NARRATIVE),("technical_precision",sc.TECH)]:
-    ids=sorted({int(r["scenario_family"].split("-")[-1]) for r in missing if r["domain"]==domain})
+    ids=sorted({(int(r["id"].split("-")[-1])-1)//5 % 10 + 1 for r in missing if r["domain"]==domain})
     print("REMAINING_FAMILIES",domain,ids)
