@@ -145,6 +145,7 @@ jobs:
           name: qaroshi-92-semantic-audit-500
           path: |
             data/stress92/semantic_review_500.csv
+            data/stress92/corrected_editorial_500.csv
             data/stress92/editorial_action_queue.csv
             data/stress92/semantic_review_summary.json
           retention-days: 30
