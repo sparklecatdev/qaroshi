@@ -103,7 +103,27 @@ jobs:
             data/stress91/case_evidence_500.csv
             data/stress91/summary.json
           retention-days: 30
-      - name: Inspect source root identity for new 9.1 frames
-        run: python tools/stress91/inspect_exact.py
+      - name: Audit all 500 full editorial drafts and prepare blind comprehension packets
+        run: python tools/stress91/audit.py
+      - name: Upload 9.1 formal audit and meaning limitations
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-91-formal-review-500
+          path: |
+            data/stress91/formal_review_500.csv
+            data/stress91/review_summary.json
+          retention-days: 30
+      - name: Upload Qaroshi-only blind reading prompts with no English originals
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-91-blind-prompts-500
+          path: data/stress91/blind_qaroshi_500.csv
+          retention-days: 30
+      - name: Upload separate blind-test reviewer answer key
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-91-private-english-key-500
+          path: data/stress91/private_reviewer_english_key_500.csv
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
