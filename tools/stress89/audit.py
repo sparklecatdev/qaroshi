@@ -12,12 +12,14 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+import sys
+
+ROOT=Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path: sys.path.insert(0,str(ROOT))
 
 from tools.stress88.compose import run as build_88, rows
 from tools.stress88.scope import scope as restricted_scope
-from tools.stress81.quantifier_composition import compose as quantifier_compose
 
-ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/"data/stress89"
 
 def write(path,records):
