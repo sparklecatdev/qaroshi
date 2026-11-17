@@ -37,7 +37,7 @@ class Wiki10(unittest.TestCase):
    self.assertIn('UNREVIEWED',proposal['status'])
    self.assertEqual(proposal['independent_human_attestation'],False)
   self.assertIn('No separately reviewed sense definition',self.stdjs)
-  self.assertIn('not a new approved sense',self.stdjs.lower())
+  self.assertIn('not an approved additional sense',self.stdjs.lower())
  def test_routes_and_interactive_render(self):
   for label in ["case 'conversations'","case 'conversation'","case 'drills'","case 'validation'"]:
    self.assertIn(label,self.js)
