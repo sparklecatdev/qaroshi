@@ -7,7 +7,7 @@ judgments. Each newly added challenge retains explicit participants, content,
 tense, polarity, source evidence, and limitation notes.
 """
 from __future__ import annotations
-import csv,json,sys
+import csv,json,sys,re
 from pathlib import Path
 from collections import Counter,defaultdict
 ROOT=Path(__file__).resolve().parents[2]
@@ -143,8 +143,21 @@ def collect_ids(f,variant):
         if f.get(key):ids.append(f[key])
     return [i for i in dict.fromkeys(ids) if i]
 
+def overlay_witnesses(candidate, lexemes):
+    """Include actual 9.1 word uses in the evidence trail, not just frame metadata.
+
+    A surface token may carry a case ending (-m/-shi/-lo), or a finite
+    inflection. A rejected proposal never contributes a lexical witness.
+    """
+    tokens=re.findall(r"[^\\s,.;?!«»]+",candidate)
+    return [entry["id"] for entry in lexemes
+            if entry.get("status")!="not_adopted"
+            and any(token==entry["form"] or token.startswith(entry["form"]+"-")
+                    for token in tokens)]
+
 def proposals():
     entries={}
+    overlay=read("editorial_lexicon_9_1.json")["entries"]
     old_relative={f["family"]:f for f in read("relative_frames_9_0.json")}
     old_literary={f["family"]:f for f in read("literary_frames_9_0.json")}
     old_technical={f["family"]:f for f in read("technical_propositions_9_0.json")}
@@ -206,7 +219,8 @@ def proposals():
                     "frame":frame,
                     "semantic_signature_json":json.dumps(signature(domain,frame,variant,candidate),
                                                           ensure_ascii=False,sort_keys=True),
-                    "source_ids":collect_ids(draft,variant),
+                    "source_ids":list(dict.fromkeys(
+                        collect_ids(draft,variant)+overlay_witnesses(candidate,overlay))),
                     "scope_warning":str(draft.get("note") or draft.get("boundary") or
                                        draft.get("editorial_sense") or draft.get("decision") or
                                        draft.get("semantic") or "Explicit source-specific editorial roles")
