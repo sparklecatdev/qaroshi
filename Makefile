@@ -1,4 +1,4 @@
-.PHONY: build test standard8 stress82 stress83 stress84 stress89 stress88 stress90 stress91 stress92
+.PHONY: build test standard8 stress82 stress83 stress84 stress89 stress88 stress90 stress91 stress92 stress93 stress94
 standard8:
 	python tools/standard_8/build_standard.py
 stress82: standard8
@@ -20,6 +20,10 @@ stress92: stress91
 	python tools/stress92/build_grammar.py --check
 	python tools/stress92/heldout.py
 	python tools/stress92/semantic_audit.py
+stress93: stress92
+	python tools/grammar93/benchmark.py
+stress94: stress93
+	python tools/semantic94/complete.py
 stress88: stress84
 	python tools/stress88/compose.py
 build: standard8
