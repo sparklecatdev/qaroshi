@@ -116,7 +116,10 @@
         "Q004184"
       ],
       "lexical_decision": "Parcel as dispatched item; return-shipper V1 passive, not animate V0 came back",
-      "boundary": "Refusing to claim a parcel was returned does not deny return or assert the parcel was delivered."
+      "boundary": "Refusing to claim a parcel was returned does not deny return or assert the parcel was delivered.",
+      "variants": [
+        5
+      ]
     },
     {
       "id": "NA91-09",
@@ -129,7 +132,10 @@
         "Q004600"
       ],
       "lexical_decision": "Musical performance conductor as professional; stop-playing music event as nominalized performance, not finished concert",
-      "boundary": "Not claiming a conductor stopped playing says nothing about whether it continued."
+      "boundary": "Not claiming a conductor stopped playing says nothing about whether it continued.",
+      "variants": [
+        5
+      ]
     },
     {
       "id": "NA91-10",
@@ -142,7 +148,10 @@
         "Q004439"
       ],
       "lexical_decision": "Sensor perception means detect movement through instrument; does not imply a human visually saw anything",
-      "boundary": "Declined claim does not negate detection nor prove a false sensor."
+      "boundary": "Declined claim does not negate detection nor prove a false sensor.",
+      "variants": [
+        5
+      ]
     }
   ]
 }
