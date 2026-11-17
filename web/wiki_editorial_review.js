@@ -23,7 +23,7 @@ function create(data){
  const controlled=(data.phrases||[]);
  const indexed=root.QaroshiUsage.sourceIndex(controlled,
    new Map((data.words||[]).map(w=>[w.qaroshi.toLowerCase(),w])),data.affixes||[]);
- function mount(host){
+ function mount(host,options={}){
    const notes=new Map();
    let shown=20,filtered=[],active='';
    host.innerHTML='<article class="readable editorial-workbench">'+
@@ -49,6 +49,7 @@ function create(data){
      '<p>Review an example by checking its lemma, intended argument roles, grammatical form, semantic restriction and source license. Exported notes are <strong>unverified suggestions</strong>; no option in this workbench certifies meanings, claims independent participants, or automatically edits the lexicon.</p>'+
      '<p>For independent readers, see the <a href="#validation">trial protocol</a>. For connected contexts, see <a href="#conversations">source-labeled conversation scenes</a>.</p></details></article>';
    const $=id=>host.querySelector('#'+id);
+   if(options.word)$('editorialQuery').value=String(options.word);
    const note=x=>notes.get(x)||{verdict:'',definition:'',restriction:'',contrast:'',example_id:'',comment:''};
    function saveVisible(){
      for(const form of active){
