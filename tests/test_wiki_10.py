@@ -52,6 +52,18 @@ class Wiki10(unittest.TestCase):
   self.assertIn('facilitator_english_key.csv', (ROOT/'tools/standard10/trial.py').read_text(encoding='utf8'))
   self.assertNotIn('fetch(',self.stdjs)
   self.assertNotIn('localStorage',self.stdjs)
+ def test_original_example_gap_is_measured_not_synthetic(self):
+  path=ROOT/'data/standard10/generated/coverage_gap_report.json'
+  data=json.loads(path.read_text(encoding='utf8'))
+  self.assertEqual(data['source_dictionary_entries'],30000)
+  self.assertEqual(data['original_bilingual_teaching_sentences'],4383)
+  self.assertEqual(data['headwords_with_exact_original_corpus_use']+data['headwords_without_original_corpus_use'],30000)
+  self.assertGreater(data['headwords_without_original_corpus_use'],20000)
+  self.assertEqual(data['original_source_priority_index'],800)
+  self.assertEqual(data['queued_for_review'],1000)
+  self.assertEqual(data['reviewers_recorded'],0)
+  self.assertEqual(data['automatic_proficiency_certification'],False)
+
  def test_browser_module_senses_provenance_regression(self):
   proc=subprocess.run(['node','tests/standard10/ui.cjs'],cwd=ROOT,capture_output=True,text=True,timeout=40)
   self.assertEqual(proc.returncode,0,proc.stderr[:3500])
