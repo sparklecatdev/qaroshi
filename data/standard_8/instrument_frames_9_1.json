@@ -1,0 +1,75 @@
+[
+  {
+    "id": "INS91-03",
+    "family": 3,
+    "actor": "tëzhida-mi",
+    "patient": "tëgaba",
+    "verb": "debokhu",
+    "instrument": "tëwërano",
+    "ids": [
+      "Q004954",
+      "Q000439"
+    ],
+    "semantic": "A gardener physically paints the fence using a paint roller, not a paintbrush or an electronic roller."
+  },
+  {
+    "id": "INS91-04",
+    "family": 4,
+    "actor": "pëyuzha",
+    "patient": "bengeka",
+    "verb": "bekedu",
+    "instrument": "zapoha-kidishitë",
+    "ids": [
+      "Q003515",
+      "Q000091",
+      "Q000056",
+      "Q60000570",
+      "Q60000064"
+    ],
+    "semantic": "A technician calibrates a sensor using a reference measurement device, distinct from the calibrated sensor itself."
+  },
+  {
+    "id": "INS91-05",
+    "family": 5,
+    "actor": "pëkhëba",
+    "patient": "ngëroa",
+    "verb": "tëmengi",
+    "instrument": "shëzaro-tënubo-ri",
+    "ids": [
+      "Q003417",
+      "Q002858",
+      "Q005024",
+      "Q005072"
+    ],
+    "semantic": "An artist decorates a wall with several pigmented ceramic tiles. Tiles are physical materials, not actors."
+  },
+  {
+    "id": "INS91-08",
+    "family": 8,
+    "actor": "tëdiru-sharo",
+    "patient": "nama",
+    "verb": "tëdiru",
+    "instrument": "tëpoqa-ngëpëzu-ri",
+    "ids": [
+      "Q004949",
+      "Q002329",
+      "Q002264"
+    ],
+    "semantic": "Carpenter assembles wooden table with several wooden pegs; pegs are instruments, not patient/agent."
+  },
+  {
+    "id": "INS91-10",
+    "family": 10,
+    "actor": "zashëzhena",
+    "patient": "raro",
+    "verb": "tëdiyu",
+    "instrument": "tëweshë-tësizha",
+    "ids": [
+      "Q60000716",
+      "Q003866",
+      "Q004950",
+      "Q005145"
+    ],
+    "semantic": "Worker secures door with steel lock, not just a keyed lock of unknown material."
+  }
+]
