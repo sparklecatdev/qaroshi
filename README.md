@@ -2,7 +2,7 @@
 
 **A language reference, a living documentation project, and a suite of offline-first learning tools.**
 
-**[Current consolidated 9.2 editorial grammar](docs/standard_9_2/grammar.md)** · **[9.2 validation and productivity report](docs/standard_9_2/VALIDATION_AND_PRODUCTIVITY.md)** · **[Preserved 8.0 core grammar](docs/standard_8/grammar.md)** · **[Historical 8.0 guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Historical 7.0 Wiki](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
+**[Current consolidated 9.2 editorial grammar](docs/standard_9_2/grammar.md)** · **[9.2 validation and productivity report](docs/standard_9_2/VALIDATION_AND_PRODUCTIVITY.md)** · **[Preserved 8.0 core grammar](docs/standard_8/grammar.md)** · **[Historical 8.0 guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Interactive Wiki, current editorial grammar 9.2–9.4](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
 
 ## Start here
 
@@ -32,6 +32,17 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 ## Qaroshi 28–34 · Functional language revision
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
+
+## Wiki 9.5 · Integrated grammar and calmer navigation
+
+**The Wiki is now the everyday entry point for Standard 9.2–9.4.** Rebuild with `make build`, then open `Qaroshi_Wiki.html` offline or visit the GitHub Pages `index.html` route. No Python installation or external account is needed to use the integrated features:
+
+- **[Sentence workshop](index.html#workshop):** source-licensed, browser-side Qaroshi 9.3 grammar parser and visual composer. It exposes the 25 reviewed verbs, 10 explicitly licensed noun forms, cases, tense/aspect/modal, negation, reported events, questions and two-event relations. It declines unsupported expressions rather than inventing a translation.
+- **[Meaning & examples](index.html#cases):** all **500** original editorial candidate sentences, the intended original English and typed 9.4 semantic requirements. You can filter by domain and search across sentence content; individual cases retain `#case/QS81-xxxx` deep links. No independent human equivalence is asserted.
+- **[Current grammar](index.html#standard):** all 90 chapters now use the preserved 8.0 normative source rather than the older 7.0 Wiki copy; the current 9.2 rule precedence and ten full editioned amendments are accessible behind collapsible sections, with source links.
+- **[Browse topics](index.html#categories):** previously overwhelming hundreds of semantic domains are grouped into a handful of collapsible subject areas. Search reveals exact original domains, and `#dictionary?domain=...` links continue to work. Older specialist apps and all individual grammar chapters remain available behind optional navigation sections instead of cluttering the main sidebar.
+
+The source build embeds the 9.3 grammar licenses and the 9.4 source case ledger in its standalone HTML and validates against canonical data. The browser does **not** implement every normative rule or all 30,001 dictionary senses; it is a bounded tested tool. An original-English semantic requirements record is still not a speaker-comprehension result.
 
 ## Standard 9.3 + 9.4 · Typed grammar engine and complete semantic-intent ledger
 
