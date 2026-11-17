@@ -103,5 +103,7 @@ jobs:
             data/stress91/case_evidence_500.csv
             data/stress91/summary.json
           retention-days: 30
+      - name: Inspect source root identity for new 9.1 frames
+        run: python tools/stress91/inspect_exact.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
