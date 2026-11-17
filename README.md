@@ -33,6 +33,16 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Wiki 9.6 · Dictionary discovery and private practice
+
+The **main Wiki**, including the offline HTML download, now provides the most-used discovery and study flows together. Use [Dictionary](index.html#dictionary), [Practice studio](index.html#practice), [Learn](index.html#learn), [Topics](index.html#categories), or the original [Sentence workshop](index.html#workshop). No new user account, external service, or change to canonical language sources is required.
+
+**Dictionary improvements:** accent-insensitive multiword lookup ranks exact Qaroshi headwords and full English glosses above fragments and broad categories; the topic/POS filters are collapsed until needed. Word articles link directly to their **recorded lexical components** and **reverse compounds** (forms genuinely listing that source component), with optional neighbors using shared definition keywords. **English gloss matches are labeled as such, not asserted as interchangeable synonyms; antonyms aren't fabricated** without lexical evidence. The word page links directly to a source-linked practice card and, for reviewed verbs, the licensed grammar workshop.
+
+**Learning inside the Wiki:** `#practice` offers local flashcards from canonical dictionary entries or original parallel teaching sentences with either English-to-Qaroshi or Qaroshi-to-English recall, reveal-on-demand editorial answers, IPA/sound-out cues, and a private self-assessment. No scores leave the device, and these are **study aids**, not independently scored comprehension tests. The original Academy, speech studio and older specialist tools remain available as archives rather than disappearing.
+
+**Reproduce and test:** `make build`, `node tests/wiki96/discovery_practice.cjs`, and `python tools/wiki95/browser_smoke.py` (Playwright/Chromium installed). The full CI also tests old deep links, existing grammar tools, desktop/mobile navigation, and source integrity.
+
 ## Wiki 9.5 · Integrated grammar and calmer navigation
 
 **The Wiki is now the everyday entry point for Standard 9.2–9.4.** Rebuild with `make build`, then open `Qaroshi_Wiki.html` offline or visit the GitHub Pages `index.html` route. No Python installation or external account is needed to use the integrated features:
