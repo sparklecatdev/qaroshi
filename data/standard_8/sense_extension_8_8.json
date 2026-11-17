@@ -1,5 +1,25 @@
 [
   {
+    "id": "E88-004",
+    "family": 4,
+    "actor": "tëzhida-mi",
+    "actor_id": null,
+    "actor_base": "tëzhida",
+    "actor_base_id": "Q005190",
+    "verb": "pëli",
+    "verb_id": null,
+    "patient": "zerëzhika",
+    "patient_id": "Q60000101",
+    "theme": "kima",
+    "theme_id": null,
+    "license": "specialized V2 water-giving: subject garden caretaker, recipient seedlings-tu, theme water-m, predicate pëli",
+    "actor_semantics": "gardener in this garden-care profession sense",
+    "verb_semantics": "water seedlings by transferring water to them",
+    "patient_semantics": "seedlings",
+    "lexical_source_gloss": "give; transfer",
+    "boundary": "Watering entails water being applied to seedlings but does not guarantee sufficient irrigation or plant survival. This is a specialized editorial recipient use of pëli."
+  },
+  {
     "id": "E88-001",
     "family": 5,
     "actor": "pëyingo",
@@ -32,19 +52,38 @@
     "boundary": "The old emotional-concealment use is not erased. Concealing a notebook does not guarantee nobody discovers it."
   },
   {
+    "id": "E88-005",
+    "family": 9,
+    "actor": "sebenga",
+    "actor_id": "Q004192",
+    "verb": "rëmë",
+    "verb_id": "Q004156",
+    "patient": "setola",
+    "patient_id": "Q004340",
+    "patient_surface": "setola-ri",
+    "license": "V1 coin-counting object frame; retail shopkeeper context for merchant",
+    "actor_semantics": "retail shopkeeper (narrowed sense of merchant)",
+    "verb_semantics": "count the coins",
+    "patient_semantics": "plural coins",
+    "lexical_source_gloss": "count, without named object in older V0 source",
+    "boundary": "Counting coins does not establish correct total or register balance; ordinary untransitive rëmë remains allowed."
+  },
+  {
     "id": "E88-003",
     "family": 10,
     "actor": "gura-mi",
     "actor_id": null,
+    "actor_base": "gura",
+    "actor_base_id": null,
     "verb": "shënami",
     "verb_id": "Q004510",
     "patient": "renguqa",
     "patient_id": "Q003997",
-    "actor_semantics": "traveler (productive gura + -mi agent)",
+    "license": "new 8.8 general ticket-credential sense of historical transport-ticket noun",
+    "actor_semantics": "traveler (productive -mi role)",
     "verb_semantics": "lose or misplace",
-    "patient_semantics": "transport ticket (contextual specialization)",
-    "lexical_source_gloss": "lose",
-    "license": "active V1 loss of a transport ticket; derived traveler agent",
-    "boundary": "The English challenge says ticket without type; this candidate assumes a transport ticket in a travel scenario and is NOT truth-condition exact without that context. This entry is a constrained paraphrase, not a verified full translation."
+    "patient_semantics": "ticket as access/travel credential, editorial polysemy",
+    "lexical_source_gloss": "lose; historical renguqa transport ticket",
+    "boundary": "This is a new editorial broadening of renguqa to ticket credentials; the earlier transport-ticket sense remains available. It does not denote a fine/citation unless separately established."
   }
 ]
