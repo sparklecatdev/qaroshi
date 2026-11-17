@@ -556,9 +556,11 @@
           <h2>Word family & components</h2></div>
           <a href="#guide/dictionary_compounding">How compounds work</a></div>
         <p class="muted small">These links come from <strong>explicitly recorded lexical components</strong>, not guesses based on overlapping spelling.</p>
-        ${graph.parts.length?`<p><strong>Built from:</strong> ${graph.parts.map(part=>part.entry?
-          `<a href="#word/${enc(part.entry.qaroshi)}"><strong>${esc(part.form)}</strong></a>`:
-          `<span class="muted">${esc(part.form)}</span>`).join(' + ')}</p>`:
+        ${graph.parts.length?`<div class="word-component-grid">${graph.parts.map(part=>`<div class="word-component-card">
+          ${part.entry?`<a href="#word/${enc(part.entry.qaroshi)}"><strong>${esc(part.form)}</strong></a>
+            <span>${esc(part.entry.english)}</span>`:
+            `<strong>${esc(part.form)}</strong><span class="muted">No exact canonical component headword found</span>`}
+          </div>`).join('')}</div><p class="muted small">The recorded compound means <strong>${esc(w.english)}</strong>. Its components may help explain its formation, but the whole entry’s meaning is not necessarily a literal sum.</p>`:
           '<p class="muted small">No component breakdown is recorded for this headword.</p>'}
         ${graph.compounds.length?`<h3>Words built using this one <small class="muted">(${count(graph.compoundTotal)} recorded)</small></h3>
           <div class="word-family-links">${graph.compounds.slice(0,16).map(x=>`<a href="#word/${enc(x.qaroshi)}"><strong>${esc(x.qaroshi)}</strong><small>${esc(x.english)}</small></a>`).join('')}</div>
