@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:sys.path.insert(0,str(ROOT))
 from tools.stress89.compose import build as build89,rows
 from tools.stress90.consent import compose as consent_compose,semantic_record as consent_semantics
 from tools.stress90.relatives import compose as relative_compose,semantics as relative_semantics
+from tools.stress90.technical import compose as technical_compose,semantics as technical_semantics
 
 STD=ROOT/"data/standard_8"
 OUT=ROOT/"data/stress90"
@@ -32,7 +33,8 @@ def save(path,records):
 def proposals():
     consent=read("consent_action_frames_8_9.json")
     relative=read("relative_frames_9_0.json")
-    assert len(consent)==8 and len(relative)==5
+    technical=read("technical_propositions_9_0.json")
+    assert len(consent)==8 and len(relative)==5 and len(technical)==5
     seen={}
     for frame in consent:
         for variant in (4,5):
@@ -64,6 +66,22 @@ def proposals():
                     (" | "+frame["conditional_sense"] if variant==4 else
                      " | "+frame["causal_sense"] if variant==5 else ""),
                 license="New 9.0 source-specific reference-gap+scope combination"
+            )
+    for frame in technical:
+        for variant in range(1,6):
+            candidate=technical_compose(frame,variant)
+            if candidate is None:continue
+            id_=f"QS81-{450+(frame['family']-1)*5+variant:04d}"
+            assert id_ not in seen
+            witness=[*frame["p_ids"],*(frame["recommendation_ids"] if variant==4 else []),
+                     *(frame["unsupported_ids"] if variant==5 else []),frame["id"],"TEC90"]
+            seen[id_]=dict(
+                candidate=candidate,
+                status="9_0_technical_reporting_unverified_possibility_or_nonentailment",
+                witness=" | ".join(str(x) for x in witness),
+                semantics=technical_semantics(frame,variant),
+                caveat=frame["decision"]+" | "+frame["risk"],
+                license="Technical source+proposition scope, modal recommendation and proof-insufficiency"
             )
     return seen
 
