@@ -1,0 +1,74 @@
+[
+  {
+    "id": "MOD90-01",
+    "family": 1,
+    "who": "rikanga",
+    "action": "rikanga shilë-m selëyu",
+    "barrier": "rengëna nu shëliro-li-te-ki",
+    "consequence": "bokenu-mi shënawëho-m përoa",
+    "action_ids": [
+      "Q3L9FDD818E9DF6",
+      "Q004425",
+      "Q004271"
+    ],
+    "barrier_ids": [
+      "Q003999",
+      "Q004466"
+    ],
+    "consequent_ids": [
+      "Q000231",
+      "Q004532",
+      "Q003481"
+    ],
+    "semantic_decision": "Couriers can deliver epistolary shilë (new clearly documented polysemy distinct from written character); unreadable address is inability to read the address via the negated passive dynamic potential; bokenu-mi is the recipient of a communication who can reply.",
+    "boundary": "This does not assert the courier delivered the letter, that an unreadable address was deciphered, or that an actual recipient replied."
+  },
+  {
+    "id": "MOD90-04",
+    "family": 4,
+    "who": "shimi",
+    "action": "shimi zorula-m zosuqi",
+    "barrier": "zorula-na khuteka-ri nu eri-te",
+    "consequence": "shimisëli zotenga-m zhëmi",
+    "action_ids": [
+      "Q004428",
+      "Q006728",
+      "Q006759"
+    ],
+    "barrier_ids": [
+      "Q001866",
+      "Q000953"
+    ],
+    "consequent_ids": [
+      "Q004898",
+      "Q006763",
+      "Q006558"
+    ],
+    "semantic_decision": "Group of students shimi+sëli refers to classroom cohort; variable arguments of the equation are absent; the past counterfactual concerns a solved equation and subsequent proof comprehension.",
+    "boundary": "An unavailable variable does not remove a student's general ability to solve equations. The modal contrast intentionally preserves ability, permission and necessity as different claims."
+  },
+  {
+    "id": "MOD90-08",
+    "family": 8,
+    "who": "regaro",
+    "action": "regaro pënaro-m rëgë",
+    "barrier": "berupo shënoawe nu eri-te",
+    "consequence": "yarowe wërawë",
+    "action_ids": [
+      "Q003911",
+      "Q003451",
+      "Q004135"
+    ],
+    "barrier_ids": [
+      "Q000138",
+      "Q004538",
+      "Q000953"
+    ],
+    "consequent_ids": [
+      "Q005553",
+      "Q005532"
+    ],
+    "semantic_decision": "Mechanical component berupo gains a broad repair-required part sense alongside historical spare part; correctly matching component is absent. Vehicle start is an inanimate inchoative frame.",
+    "boundary": "Repair doesn't entail successful engine operation in the real world; the projected vehicle start is only a counterfactual result."
+  }
+]
