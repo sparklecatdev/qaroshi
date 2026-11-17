@@ -81,7 +81,7 @@ def source_doc_html(path):
         if relative.startswith('..') or relative.startswith('/'):
             raise ValueError('Source link traverses outside the repository: '+source)
         return 'href="https://github.com/sparklecatdev/qaroshi/blob/main/'+relative+(('#'+fragment) if sep else '')+'"'
-    return re.sub(r'href="((?:\\.\\./|\\./)[^"]+)"',fix,rendered)
+    return re.sub(r'href="((?:\.\./|\./)[^"]+)"',fix,rendered)
 
 editions=json.loads((ROOT/'data/standard_9_2/amendment_registry.json').read_text(encoding='utf-8'))
 grammar_addenda=[]
