@@ -1,0 +1,175 @@
+[
+  {
+    "id": "REL90-01",
+    "family": 1,
+    "head": "shara",
+    "head_id": "Q004410",
+    "head_gap_role": "relative_subject",
+    "relative_clause": "terayaro bobala-m shiwari-te sha",
+    "matrix_event": "ëna lukhela wërawë-te, terayaro bobala-m shiwari-te sha shara dëru-te",
+    "english_event": "person who called yesterday left before sunrise",
+    "source_ids": [
+      "Q004925",
+      "Q000192",
+      "Q004444",
+      "Q004410",
+      "Q002068",
+      "Q005532",
+      "Q000952"
+    ],
+    "lexical_decisions": [
+      "Voice call noun bobala sent by shiwari encodes placing a voice call, not just exchanging text.",
+      "The explicit sunrise-begin event anchors the earlier-than relation.",
+      "The subject gap of relative clause is filled by shara; the embedded relative is not another speaker."
+    ],
+    "conditional_consequence": "kheriniyu yuwule wërawë-yu",
+    "consequence_source_ids": [
+      "Q60000697",
+      "Q005903",
+      "Q005532"
+    ],
+    "conditional_sense": "meeting begins late; new late manner use for yuwule with inchoative start",
+    "reason": "tëdabo shëroawo wëri-te-mo",
+    "reason_ids": [
+      "Q004944",
+      "Q004610",
+      "Q005533"
+    ],
+    "causal_sense": "office had become closed before the departure; not every office is a public business",
+    "human_attested": false
+  },
+  {
+    "id": "REL90-04",
+    "family": 4,
+    "head": "shenaro",
+    "head_id": "Q004418",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "pëhezho rëgë-te sha",
+    "matrix_event": "pëhezho rëgë-te sha shenaro aru shërawëro-te",
+    "english_event": "machine repaired by engineer stopped working again",
+    "source_ids": [
+      "Q003410",
+      "Q004135",
+      "Q004418",
+      "Q000003",
+      "Q004600"
+    ],
+    "lexical_decisions": [
+      "The gap is the machine repaired, not the engineer.",
+      "Inanimate machine shërawëro gains specialized cease-operating sense, not merely stop moving.",
+      "Repeated event aru modifies stopped-functioning."
+    ],
+    "conditional_consequence": "luzhoyeri tëbeha-m bezhori-yu",
+    "consequence_source_ids": [
+      "Q60000320",
+      "Q004936",
+      "Q000182"
+    ],
+    "conditional_sense": "team inspect electrical wiring, licensed new machinery-inspection object subtype",
+    "reason": null,
+    "reason_ids": [],
+    "causal_sense": null,
+    "human_attested": false
+  },
+  {
+    "id": "REL90-05",
+    "family": 5,
+    "head": "zemobo",
+    "head_id": "Q006122",
+    "head_gap_role": "relative_subject",
+    "relative_clause": "relomo-mi-m taro-te sha",
+    "matrix_event": "relomo-mi-m taro-te sha zemobo tarowa marao-lo shënariwo-te",
+    "english_event": "dog following cyclist waited near bridge",
+    "source_ids": [
+      "Q003966",
+      "Q004919",
+      "Q006122",
+      "Q004921",
+      "Q002274",
+      "Q004515"
+    ],
+    "lexical_decisions": [
+      "Cyclist is licensed occupation/person-role relomo-mi, not the bicycle itself.",
+      "tarowa marao-lo selects vicinity of bridge, not location literally inside it.",
+      "The dog is the subject gap in followed-the-cyclist."
+    ],
+    "conditional_consequence": null,
+    "consequence_source_ids": [],
+    "conditional_sense": null,
+    "reason": "shënu ngërawëro eri-te",
+    "reason_ids": [
+      "Q004543",
+      "Q002856",
+      "Q000953"
+    ],
+    "causal_sense": "the road was busy; no assertion that traffic injured the dog",
+    "human_attested": false
+  },
+  {
+    "id": "REL90-08",
+    "family": 8,
+    "head": "shiwaro",
+    "head_id": "Q004445",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "bohona bokhenu-te sha",
+    "matrix_event": "ëna bohona shiwaro-m bokhenu-te, bohona bokhenu-te sha shiwaro shiwari-li-te-mo",
+    "english_event": "message deleted by moderator had already been forwarded",
+    "source_ids": [
+      "Q000221",
+      "Q004445",
+      "Q000240",
+      "Q004444"
+    ],
+    "lexical_decisions": [
+      "The message is object gap of the deletion relative.",
+      "Forwarded means previously retransmitted, editorial narrow sense of shiwari; the preposed ëna clause marks forwarding before deletion.",
+      "The passive forwarded message does not identify or invent an actor."
+    ],
+    "conditional_consequence": null,
+    "consequence_source_ids": [],
+    "conditional_sense": null,
+    "reason": "shiwaro saderene kunipapa-m wemongu-te",
+    "reason_ids": [
+      "Q5002052",
+      "Q5001946",
+      "Q005249"
+    ],
+    "causal_sense": "message disclosed private data; message as source of disclosure, not an identified human author",
+    "human_attested": false
+  },
+  {
+    "id": "REL90-09",
+    "family": 9,
+    "head": "shërawoho",
+    "head_id": "Q004574",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "pëngipo sharoa-te sha",
+    "matrix_event": "pëngipo sharoa-te sha shërawoho yumahe",
+    "english_event": "medicine requested by patient was unavailable",
+    "source_ids": [
+      "Q003457",
+      "Q004414",
+      "Q004574",
+      "Q005710"
+    ],
+    "lexical_decisions": [
+      "Restricted patient request of specific treatment substance, not generic information request.",
+      "The relative gap is the medicine, not the patient.",
+      "The main state is unavailability and not permanent prohibition."
+    ],
+    "conditional_consequence": "pësheha larëno shërawoho-m shërawiwo-yu",
+    "consequence_source_ids": [
+      "Q003487",
+      "Q002008",
+      "Q004571"
+    ],
+    "conditional_sense": "doctor would propose an alternative medicinal substance, not necessarily approve its use",
+    "reason": "sehungo wupezu-li-te-mo",
+    "reason_ids": [
+      "Q004237",
+      "Q005430"
+    ],
+    "causal_sense": "shipment delayed; passive without agent does not identify who caused delay",
+    "human_attested": false
+  }
+]
