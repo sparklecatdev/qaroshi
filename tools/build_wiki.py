@@ -67,14 +67,30 @@ for case in semantic_rows:
 licenses=json.loads((ROOT/'data/standard_9_3/grammar_licenses.json').read_text(encoding='utf-8'))
 frames=json.loads((ROOT/'data/semantics/valency_frames.json').read_text(encoding='utf-8'))
 assert len(licenses['verb_overrides'])==25 and len(frames)==25
+def source_doc_html(path):
+    # The public Pages site intentionally does not expose raw data/Markdown.
+    # Redirect source document relative links to their actual GitHub files;
+    # keep anchors/external links unmodified. The offline text itself remains.
+    from posixpath import normpath
+    rendered=markdown(path.read_text(encoding='utf-8'))
+    parent=path.parent.relative_to(ROOT).as_posix()
+    def fix(match):
+        source=match.group(1)
+        target,sep,fragment=source.partition('#')
+        relative=normpath(parent+'/'+target)
+        if relative.startswith('..') or relative.startswith('/'):
+            raise ValueError('Source link traverses outside the repository: '+source)
+        return 'href="https://github.com/sparklecatdev/qaroshi/blob/main/'+relative+(('#'+fragment) if sep else '')+'"'
+    return re.sub(r'href="((?:\\.\\./|\\./)[^"]+)"',fix,rendered)
+
 editions=json.loads((ROOT/'data/standard_9_2/amendment_registry.json').read_text(encoding='utf-8'))
 grammar_addenda=[]
 for entry in editions['source_paths']:
     path=ROOT/entry['path']
     grammar_addenda.append({'edition':entry['edition'],'kind':entry['kind'],
         'title':(path.read_text(encoding='utf-8').splitlines()[0]).lstrip('# ').strip(),
-        'html':markdown(path.read_text(encoding='utf-8'))})
-current_grammar_intro=markdown((ROOT/'docs/standard_9_2/FRONT_MATTER.md').read_text(encoding='utf-8'))
+        'html':source_doc_html(path)})
+current_grammar_intro=source_doc_html(ROOT/'docs/standard_9_2/FRONT_MATTER.md')
 domains=dict(sorted(Counter(w['domain'] for w in words).items()))
 public_words=[{k:r[k] for k in ['id','qaroshi','pos','english','domain','components','note','ipa','reading','sound_out']} for r in words]
 public_sentences=[{k:r[k] for k in ['id','domain','qaroshi','english','note','pattern','ipa','reading','sound_out']} for r in sentences]
