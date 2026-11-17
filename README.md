@@ -2,11 +2,11 @@
 
 **A language reference, a living documentation project, and a suite of offline-first learning tools.**
 
-**[Unified Standard 8.0 grammar](docs/standard_8/grammar.md)** · **[Current edition guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Historical 7.0 Wiki](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
+**[Current consolidated 9.2 editorial grammar](docs/standard_9_2/grammar.md)** · **[9.2 validation and productivity report](docs/standard_9_2/VALIDATION_AND_PRODUCTIVITY.md)** · **[Preserved 8.0 core grammar](docs/standard_8/grammar.md)** · **[Historical 8.0 guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Historical 7.0 Wiki](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
 
 ## Start here
 
-The **current normative language edition is Unified Standard 8.0**: [one consolidated 90-chapter grammar](docs/standard_8/grammar.md), **30,001 editioned lexical entries**, explicit passive agency `-za`, and quantified scope with `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through release 23. This language revision does not claim recorded independent speaker use.
+The **current single-entry editorial writing reference is Standard 9.2**: [the complete consolidated grammar](docs/standard_9_2/grammar.md), containing the original 90-chapter Standard 8.0 normative core and all documented 8.1–9.1 amendments. **Standard 8.0 remains the inherited normative baseline**; newer source/sense-specific additions are explicitly labeled editorial, not independently attested. The dictionary contains **30,001 editioned lexical entries**, with precise passive agency `-za` and quantifier scope using `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through release 23. This language revision does not claim recorded independent speaker use.
 
 | Goal | Recommended tool | What it really does |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ The **current normative language edition is Unified Standard 8.0**: [one consoli
 
 Older research utilities and corpus-generation experiments are preserved, but appear in the separate **historical/research** section of [Explore](explore.html). They are not the recommended entry point.
 
-## Standard 8.0 · Current language edition
+## Standard 8.0 · Preserved normative core (historical edition)
 
 The [full consolidated grammar](docs/standard_8/grammar.md), [edition guide](README_STANDARD_8.md), and [source-based decision register](docs/standard_8/DECISIONS_AND_MIGRATION.md) are the **current normative language references**. The new dictionary is generated from the preserved 7.0 lexicon and the adopted `nëgëra` overlay via `python tools/standard_8/build_standard.py`. The current enriched dictionary includes per-entry sense and verb-role notes; it is not another fabricated 30,000-word expansion. See [release notes](RELEASE_STANDARD_8.md) and the [independent comprehension protocol](docs/standard_8/REVIEW_PROTOCOL.md).
 
@@ -32,6 +32,14 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 ## Qaroshi 28–34 · Functional language revision
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
+
+## Standard 9.2 · Consolidated grammar and independent structural verification
+
+The [single **consolidated current editorial grammar**](docs/standard_9_2/grammar.md) includes all 90 inherited chapters and **ten complete editioned amendments**, with one explicit precedence table for disputed morphology, participant roles, question embedding, negation, consent, time boundaries, technical inference, and figurative scope. Historical references and source hashes are unchanged. Source-based reproducibility is enforced by `python tools/stress92/build_grammar.py --check`.
+
+**Two separate audits, not a fabricated human validation score:** `make stress92` checks all 500 previous editorial proposals against their source speech-act requirements and lexical IDs, while independently generating **450 new cross-family two-event compositions** with a separate bounded parser and mutation tests. The new suite uses 90 unseen event pairings and contrasts after/before/overlap, reported-after and polar-before. The review lists all formal findings explicitly and makes one **versioned counterfactual-scope correction** (QS81-0336: missing `qinë`), preserving the complete 9.1 original ledger. These tests **do not certify** that a reader who has not seen English can interpret the sentences; no external reader comprehension data has been collected.
+
+For scope, methodology and human-research readiness see [9.2 Validation & Productivity](docs/standard_9_2/VALIDATION_AND_PRODUCTIVITY.md). The old 9.1 500-draft benchmark stays intact and independently reproducible.
 
 ## Standard 9.1 · Original 500-challenge editorial draft completion
 

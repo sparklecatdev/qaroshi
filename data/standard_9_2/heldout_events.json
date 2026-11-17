@@ -1,0 +1,79 @@
+{
+  "suite": "H92",
+  "purpose": "Novel cross-family temporal, interrogative, and report-scope combinations, not an independent human-comprehension test",
+  "license": "Only exact source-linked event propositions from the existing 9.1 motion families may be recombined with previously adopted general clause connectives.",
+  "notes": "Pair each main event with a boundary event from a DIFFERENT source family; no pairing occurs in the original fixed 500 challenges. The English labels are independently written and are not derived from the original benchmark's English case strings.",
+  "events": [
+    {
+      "family": 1,
+      "main_past": "the courier crossed the river",
+      "main_bare": "the courier cross the river",
+      "endpoint_past": "the storm ended"
+    },
+    {
+      "family": 2,
+      "main_past": "the passengers boarded the ferry",
+      "main_bare": "the passengers board the ferry",
+      "endpoint_past": "the fog cleared"
+    },
+    {
+      "family": 3,
+      "main_past": "the climber reached the summit",
+      "main_bare": "the climber reach the summit",
+      "endpoint_past": "the wind grew stronger"
+    },
+    {
+      "family": 4,
+      "main_past": "the ambulance left the station",
+      "main_bare": "the ambulance leave the station",
+      "endpoint_past": "the alarm stopped"
+    },
+    {
+      "family": 5,
+      "main_past": "the bicycles passed the market",
+      "main_bare": "the bicycles pass the market",
+      "endpoint_past": "the streetlights switched on"
+    },
+    {
+      "family": 6,
+      "main_past": "the pilot landed the aircraft",
+      "main_bare": "the pilot land the aircraft",
+      "endpoint_past": "the rain grew heavier"
+    },
+    {
+      "family": 7,
+      "main_past": "the tourists entered the museum",
+      "main_bare": "the tourists enter the museum",
+      "endpoint_past": "the exhibition began"
+    },
+    {
+      "family": 8,
+      "main_past": "the hikers returned to camp",
+      "main_bare": "the hikers return to camp",
+      "endpoint_past": "the campfire was lit"
+    },
+    {
+      "family": 9,
+      "main_past": "the train stopped at the platform",
+      "main_bare": "the train stop at the platform",
+      "endpoint_past": "the crossing reopened"
+    },
+    {
+      "family": 10,
+      "main_past": "the rescue team approached the cliff",
+      "main_bare": "the rescue team approach the cliff",
+      "endpoint_past": "the tide rose"
+    }
+  ],
+  "relations": [
+    "after",
+    "before",
+    "when",
+    "reported_after",
+    "question_before"
+  ],
+  "expected_pairs": 90,
+  "expected_sentences": 450,
+  "human_speaker_responses": 0,
+  "editorial_english_label_authority": "independent manually authored gloss for each 9.1 source event, not externally attested"
+}

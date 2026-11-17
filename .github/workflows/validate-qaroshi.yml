@@ -125,5 +125,29 @@ jobs:
           name: qaroshi-91-private-english-key-500
           path: data/stress91/private_reviewer_english_key_500.csv
           retention-days: 30
+      - name: Check one reproducible Standard 9.2 consolidated grammar
+        run: python tools/stress92/build_grammar.py --check
+      - name: Run 450 genuinely new cross-family composition challenges
+        run: python tools/stress92/heldout.py
+      - name: Audit all 500 existing proposals for source, role and truth-condition operators
+        run: python tools/stress92/semantic_audit.py
+      - name: Upload 9.2 unseen cross-family 450-case semantic stress
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-92-heldout-450
+          path: |
+            data/stress92/unseen_compositions_450.csv
+            data/stress92/unseen_summary.json
+          retention-days: 30
+      - name: Upload 9.2 full 500-case structural and semantic review
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-92-semantic-audit-500
+          path: |
+            data/stress92/semantic_review_500.csv
+            data/stress92/corrected_editorial_500.csv
+            data/stress92/editorial_action_queue.csv
+            data/stress92/semantic_review_summary.json
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
