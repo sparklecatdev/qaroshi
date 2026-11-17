@@ -235,8 +235,10 @@ class QaroshiFifthEdition(unittest.TestCase):
   self.assertIn('class="home-hero"',(ROOT/'web/qaroshi.js').read_text())
  def test_dictionary_search_accent_insensitivity(self):
   js=(ROOT/'web/qaroshi.js').read_text()
-  self.assertIn("normalize('NFD')",js)
-  self.assertIn('lexicalSearch',js)
+  discovery=(ROOT/'web/wiki_discovery.js').read_text()
+  self.assertIn("normalize('NFD')",discovery)
+  self.assertIn('QaroshiDiscovery.createIndex',js)
+  self.assertIn('englishTokens',discovery)
  def test_examples_use_exact_token_index(self):
   js=(ROOT/'web/qaroshi.js').read_text()
   self.assertIn('exampleByHeadword',js)
