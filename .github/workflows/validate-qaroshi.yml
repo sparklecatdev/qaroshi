@@ -60,5 +60,38 @@ jobs:
           name: qaroshi-89-reviewer-key-135
           path: data/stress89/separate_answer_key_135.csv
           retention-days: 30
+      - name: Build 9.0 semantic compositions for unresolved challenges
+        run: python tools/stress90/compose.py
+      - name: Upload 9.0 case-by-case editorial evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-90-500-case-evidence
+          path: |
+            data/stress90/case_evidence_500.csv
+            data/stress90/summary.json
+          retention-days: 30
+      - name: Audit inherited 190 drafts and prepare 9.0 blind reading
+        run: python tools/stress90/audit.py
+      - name: Upload 9.0 independent formal review and unresolved case list
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-90-editorial-review
+          path: |
+            data/stress90/formal_review_500.csv
+            data/stress90/unresolved_cases.csv
+            data/stress90/audit_summary.json
+          retention-days: 30
+      - name: Upload blind prompts with no English answer
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-90-blind-prompts
+          path: data/stress90/blind_qaroshi_only.csv
+          retention-days: 30
+      - name: Upload separate reviewer answer key
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-90-reviewer-key
+          path: data/stress90/private_english_answer_key.csv
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q

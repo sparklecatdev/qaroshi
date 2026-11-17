@@ -1,0 +1,147 @@
+[
+  {
+    "id": "LIT90-02",
+    "family": 2,
+    "metaphor": "the forest kept its secrets",
+    "p": "wëru wëru-na shënoho-ri-m gëzhezha-te",
+    "interpretation": "shirimi shiwaro-m nu wemongu-te",
+    "literal": "wëru-na lëruwa-ri tëmiro-ma-m hari-te",
+    "source_ids": [
+      "Q005535",
+      "Q004542",
+      "Q53001284"
+    ],
+    "interpretation_ids": [
+      "Q004439",
+      "Q004445",
+      "Q005249"
+    ],
+    "literal_ids": [
+      "Q002264",
+      "Q005030"
+    ],
+    "editorial_sense": "A forest poetically keeps secret information; this is an inanimate-actor personification of gëzhezha. A storyteller withholding information is a possible literary gloss, not a verified stock idiom.",
+    "no_world_entailment": "No trees are said to have thoughts in the actual world."
+  },
+  {
+    "id": "LIT90-03",
+    "family": 3,
+    "metaphor": "the clock argued with the silence",
+    "p": "yërawë shësaro-wa shëmoni-te",
+    "interpretation": "shësaro yuwëze",
+    "literal": "yërawë shiri-te",
+    "source_ids": [
+      "Q006001",
+      "Q004630",
+      "Q004502"
+    ],
+    "interpretation_ids": [
+      "Q005912"
+    ],
+    "literal_ids": [
+      "Q004438"
+    ],
+    "editorial_sense": "Personify clock as disputant and silence as comitative interlocutor; tense quiet atmosphere can be the suggested interpretation.",
+    "no_world_entailment": "No literal audible speech by a clock is asserted."
+  },
+  {
+    "id": "LIT90-04",
+    "family": 4,
+    "metaphor": "the river carried a thousand memories",
+    "p": "kimaro moru-ri-m zhu zhewawa dë zhewa zhu zhe zhu qaruwo-te",
+    "interpretation": "moru-ri kimaro-wa gërawoa-li-te",
+    "literal": "kimaro shara-na moru-ri-m hari-te",
+    "source_ids": [
+      "Q001961",
+      "Q002287",
+      "Q003628",
+      "Q006295"
+    ],
+    "interpretation_ids": [
+      "Q001443"
+    ],
+    "literal_ids": [
+      "Q004410"
+    ],
+    "editorial_sense": "Exactly one thousand decimal memories expressed as 4×216+3×36+4×6+4 in written base-six place terms; new metaphorical transport of memories by a river.",
+    "no_world_entailment": "River water is not said to possess human memory in the physical world."
+  },
+  {
+    "id": "LIT90-05",
+    "family": 5,
+    "metaphor": "the town held its breath",
+    "p": "rurara qawuyi-te",
+    "interpretation": "rurara-na shara-no dëkazasë-m hari-te",
+    "literal": "rurara-na shara-ri qawuyi-te",
+    "source_ids": [
+      "Q004130",
+      "Q003663"
+    ],
+    "interpretation_ids": [
+      "Q004410",
+      "Q5000304"
+    ],
+    "literal_ids": [
+      "Q003663"
+    ],
+    "editorial_sense": "The town as collective metonym holds its breath; the figurative sense refers to collective anticipation, not the residents literally suspending respiration.",
+    "no_world_entailment": "Neither widespread cessation of breathing nor death is implied."
+  },
+  {
+    "id": "LIT90-06",
+    "family": 6,
+    "metaphor": "the mountain refused to move",
+    "p": "gëru shëruwaro do noharo-te",
+    "interpretation": "gëru shëruwaro do shërawëmi-te",
+    "literal": "gëru shëruwaro do noharo-te",
+    "source_ids": [
+      "Q001446",
+      "Q004625",
+      "Q002872"
+    ],
+    "interpretation_ids": [
+      "Q004589"
+    ],
+    "literal_ids": [
+      "Q002872"
+    ],
+    "editorial_sense": "Mountain personification uses a refusal-to-move content frame; the mountain merely appears unwilling to move to the reader, no agency or volition is established.",
+    "no_world_entailment": "Rock literally making a conscious resistance decision is not asserted."
+  },
+  {
+    "id": "LIT90-07",
+    "family": 7,
+    "metaphor": "the old house remembered every winter",
+    "p": "tëhulo morë ngënao luqekha-m këmiro-te",
+    "interpretation": null,
+    "literal": null,
+    "source_ids": [
+      "Q004978",
+      "Q002293",
+      "Q002142",
+      "Q001973"
+    ],
+    "interpretation_ids": [],
+    "literal_ids": [],
+    "editorial_sense": "Old house is a personified subject of remembering. ngënao distributes over every winter, not the house itself.",
+    "no_world_entailment": "No house is said to be sentient."
+  },
+  {
+    "id": "LIT90-09",
+    "family": 9,
+    "metaphor": "the road forgot its travelers",
+    "p": "shënu gura-mi-ri-m ngëmiro-te",
+    "interpretation": null,
+    "literal": "shënu moru-m ngëmiro-te",
+    "source_ids": [
+      "Q004543",
+      "Q002838"
+    ],
+    "interpretation_ids": [],
+    "literal_ids": [
+      "Q002287"
+    ],
+    "editorial_sense": "A traveled road personified as forgetting people who traveled it. gura-mi-ri explicitly refers to traveling people; road is not an animate memory-holder.",
+    "no_world_entailment": "Neither literal pavement amnesia nor lost official records is implied."
+  }
+]
