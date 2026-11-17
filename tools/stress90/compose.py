@@ -16,6 +16,7 @@ from tools.stress89.compose import build as build89,rows
 from tools.stress90.consent import compose as consent_compose,semantic_record as consent_semantics
 from tools.stress90.relatives import compose as relative_compose,semantics as relative_semantics
 from tools.stress90.technical import compose as technical_compose,semantics as technical_semantics
+from tools.stress90.modals import compose as modal_compose,semantics as modal_semantics
 
 STD=ROOT/"data/standard_8"
 OUT=ROOT/"data/stress90"
@@ -34,7 +35,8 @@ def proposals():
     consent=read("consent_action_frames_8_9.json")
     relative=read("relative_frames_9_0.json")
     technical=read("technical_propositions_9_0.json")
-    assert len(consent)==8 and len(relative)==5 and len(technical)==5
+    modal=read("modal_barrier_frames_9_0.json")
+    assert len(consent)==8 and len(relative)==5 and len(technical)==5 and len(modal)==3
     seen={}
     for frame in consent:
         for variant in (4,5):
@@ -66,6 +68,21 @@ def proposals():
                     (" | "+frame["conditional_sense"] if variant==4 else
                      " | "+frame["causal_sense"] if variant==5 else ""),
                 license="New 9.0 source-specific reference-gap+scope combination"
+            )
+    for frame in modal:
+        for variant in range(1,6):
+            candidate=modal_compose(frame,variant)
+            id_=f"QS81-{300+(frame['family']-1)*5+variant:04d}"
+            assert id_ not in seen
+            source=[*frame["action_ids"],*frame["barrier_ids"],
+                    *(frame["consequent_ids"] if variant==1 else []),frame["id"],"MOD90"]
+            seen[id_]=dict(
+                candidate=candidate,
+                status="9_0_past_counterfactual_or_barrier_modality_editorial",
+                witness=" | ".join(str(x) for x in source),
+                semantics=modal_semantics(frame,variant),
+                caveat=frame["semantic_decision"]+" | "+frame["boundary"],
+                license="9.0 modals and conditional scope; no action or result automatically actual"
             )
     for frame in technical:
         for variant in range(1,6):
