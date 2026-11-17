@@ -153,6 +153,8 @@ class Standard91(unittest.TestCase):
                 if v==5:
                     self.assertIn(" maho-m hëzhohe-te.",qr)
                     self.assertIn(" maho-m keleyu-te.",qr)
+                    self.assertIn(f["action"]+"-te-ki",qr)
+                    self.assertNotIn("-ki-te",qr)
 
     def test_evidence_source_identity_and_matrix_nonassertion(self):
         cases=json.loads((STD/"evidential_frames_9_1.json").read_text(encoding="utf8"))
