@@ -79,6 +79,30 @@ class Standard91(unittest.TestCase):
         self.assertEqual(len(self.overlay),len({x["form"] for x in self.overlay.values()}))
         self.assertTrue(all(" " not in x["form"] for x in self.overlay.values()))
 
+    def test_new_editorial_forms_do_not_silently_replace_legacy_headwords(self):
+        historical={r["qaroshi"]:r for r in self.canon.values()}
+        adopted=[x for x in self.overlay.values() if x.get("status")!="not_adopted"]
+        clashes=[(x["id"],x["form"],historical[x["form"]]["id"])
+                 for x in adopted if x["form"] in historical]
+        self.assertEqual(clashes,[],
+            "Review and explicitly adjudicate a source-sense collision rather than quietly shadowing a historical headword")
+
+    def test_exact_source_ids_match_lemma_or_documented_derivational_base(self):
+        files=("daily_frames_9_1.json","consent_frames_9_1.json",
+               "evidential_frames_9_1.json","relative_frames_9_1.json")
+        for name in files:
+            data=json.loads((STD/name).read_text(encoding="utf8"))
+            if isinstance(data,dict):data=data["events"]+data["nonassertions"]
+            for f in data:
+                for lemma,idkey in (("actor","actor_id"),("other","other_id"),
+                                    ("head","head_id"),("verb","verb_id")):
+                    if not f.get(idkey) or not f.get(lemma):continue
+                    ident=f[idkey]
+                    source=self.canon[ident]["qaroshi"] if ident.startswith("Q") else self.overlay[ident]["form"]
+                    form=f[lemma]
+                    self.assertTrue(form==source or form.startswith(source+"-"),
+                                    (name,f.get("id"),lemma,ident,source,form))
+
     def test_new_editorial_lexemes_are_not_silently_renamed_or_attested(self):
         forms={x["form"] for x in self.overlay.values() if x.get("status")!="not_adopted"}
         self.assertIn("gëngora",forms)
