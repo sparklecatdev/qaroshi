@@ -10,7 +10,10 @@
       "Q004954",
       "Q000439"
     ],
-    "semantic": "A gardener physically paints the fence using a paint roller, not a paintbrush or an electronic roller."
+    "semantic": "A gardener physically paints the fence using a paint roller, not a paintbrush or an electronic roller.",
+    "variants": [
+      3
+    ]
   },
   {
     "id": "INS91-04",
@@ -26,7 +29,10 @@
       "Q60000570",
       "Q60000064"
     ],
-    "semantic": "A technician calibrates a sensor using a reference measurement device, distinct from the calibrated sensor itself."
+    "semantic": "A technician calibrates a sensor using a reference measurement device, distinct from the calibrated sensor itself.",
+    "variants": [
+      3
+    ]
   },
   {
     "id": "INS91-05",
@@ -41,7 +47,10 @@
       "Q005024",
       "Q005072"
     ],
-    "semantic": "An artist decorates a wall with several pigmented ceramic tiles. Tiles are physical materials, not actors."
+    "semantic": "An artist decorates a wall with several pigmented ceramic tiles. Tiles are physical materials, not actors.",
+    "variants": [
+      3
+    ]
   },
   {
     "id": "INS91-08",
@@ -55,7 +64,10 @@
       "Q002329",
       "Q002264"
     ],
-    "semantic": "Carpenter assembles wooden table with several wooden pegs; pegs are instruments, not patient/agent."
+    "semantic": "Carpenter assembles wooden table with several wooden pegs; pegs are instruments, not patient/agent.",
+    "variants": [
+      3
+    ]
   },
   {
     "id": "INS91-10",
@@ -70,6 +82,9 @@
       "Q004950",
       "Q005145"
     ],
-    "semantic": "Worker secures door with steel lock, not just a keyed lock of unknown material."
+    "semantic": "Worker secures door with steel lock, not just a keyed lock of unknown material.",
+    "variants": [
+      3
+    ]
   }
 ]
