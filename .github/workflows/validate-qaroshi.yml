@@ -26,5 +26,13 @@ jobs:
         run: python tools/stress87/benchmark.py
       - name: Build 8.8 item-level semantic evidence
         run: python tools/stress88/compose.py
+      - name: Upload 8.8 item-level review evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-88-review-ledger
+          path: |
+            data/stress88/case_evidence_500.csv
+            data/stress88/summary.json
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
