@@ -1,0 +1,148 @@
+{
+  "events": [
+    {
+      "id": "EV91-03",
+      "family": 3,
+      "clause": "weru tera shëroawa eri-te",
+      "actor": "weru",
+      "actor_id": "Q005295",
+      "verb": "eri",
+      "verb_id": "Q000953",
+      "patient": null,
+      "patient_id": null,
+      "source_ids": [
+        "Q004923",
+        "Q004608"
+      ],
+      "variants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boundary": "Already modifies the pre-existing open state; no person is inferred to have opened the window."
+    },
+    {
+      "id": "EV91-04",
+      "family": 4,
+      "clause": "khëluyonë khimë-na gëra-lo nu tika-li-te-mo",
+      "actor": "khëluyonë",
+      "actor_id": "Q60000187",
+      "verb": "tika",
+      "verb_id": "Q004439",
+      "patient": "khimë",
+      "patient_id": "Q001632",
+      "source_ids": [
+        "Q001439"
+      ],
+      "variants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boundary": "Visual disappearance behind cloud means becoming not visible; no actual physical destruction or disappearance from the sky is asserted."
+    },
+    {
+      "id": "EV91-07",
+      "family": 7,
+      "clause": "shiwari-nëro terayaro-lo yurë-te",
+      "actor": "shiwari-nëro",
+      "actor_id": "Q004444",
+      "verb": "yurë",
+      "verb_id": "Q005823",
+      "patient": null,
+      "patient_id": null,
+      "source_ids": [
+        "Q004925"
+      ],
+      "variants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boundary": "The sent-item derivation is a postal parcel; yesterday is an exact past-day temporal role, not a location."
+    },
+    {
+      "id": "EV91-08",
+      "family": 8,
+      "clause": "tarowa nëzhokho-lo këshëru-te",
+      "actor": "tarowa",
+      "actor_id": "Q004921",
+      "verb": "këshëru",
+      "verb_id": "X91-023",
+      "patient": null,
+      "patient_id": null,
+      "source_ids": [
+        "Q60000898"
+      ],
+      "variants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boundary": "Bridge developed a crack overnight; not necessarily collapse or unsafe for use."
+    },
+    {
+      "id": "EV91-09",
+      "family": 9,
+      "clause": "dezuto rëzuso-m shënami-te",
+      "actor": "dezuto",
+      "actor_id": "Q000747",
+      "verb": "shënami",
+      "verb_id": "Q004510",
+      "patient": "rëzuso",
+      "patient_id": "Q4L4C7BF0D69666",
+      "source_ids": [],
+      "variants": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boundary": "Missed a stage cue is a narrow performance timing failure, not mislaid a physical object or suffered memory loss."
+    }
+  ],
+  "nonassertions": [
+    {
+      "id": "NA91-07",
+      "family": 7,
+      "alternative": "the parcel was returned",
+      "event_clause": "shiwari-nëro rëru-li-te",
+      "source_ids": [
+        "Q004444",
+        "Q004184"
+      ],
+      "lexical_decision": "Parcel as dispatched item; return-shipper V1 passive, not animate V0 came back",
+      "boundary": "Refusing to claim a parcel was returned does not deny return or assert the parcel was delivered."
+    },
+    {
+      "id": "NA91-09",
+      "family": 9,
+      "alternative": "the conductor stopped playing",
+      "event_clause": "deruqi-sharo shira-m shiralë-na shërawëro-te",
+      "source_ids": [
+        "Q000631",
+        "Q004434",
+        "Q004600"
+      ],
+      "lexical_decision": "Musical performance conductor as professional; stop-playing music event as nominalized performance, not finished concert",
+      "boundary": "Not claiming a conductor stopped playing says nothing about whether it continued."
+    },
+    {
+      "id": "NA91-10",
+      "family": 10,
+      "alternative": "the sensor detected movement",
+      "event_clause": "bengeka qepigongë-m tika-te",
+      "source_ids": [
+        "Q000091",
+        "Q60000049",
+        "Q004439"
+      ],
+      "lexical_decision": "Sensor perception means detect movement through instrument; does not imply a human visually saw anything",
+      "boundary": "Declined claim does not negate detection nor prove a false sensor."
+    }
+  ]
+}
