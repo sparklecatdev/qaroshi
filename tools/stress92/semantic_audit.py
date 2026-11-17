@@ -38,7 +38,7 @@ FEATURES={
 "narrative_figures":["fictional_metaphor","literal_quote","poetic_suggestion","deny_literal_claim","mistaken_then_corrected"],
 "technical_precision":["report_says_p","second_observer_recorded_p","possibly_unverified","if_p_then_should","p_not_sufficient_proof_of_q"],
 }
-assert len(FEATURES)==9
+assert len(FEATURES)==10
 OPEN_RESONANCE={"sen","hë","qor","më","zha","rak","wen","zher","rëm","hol","nëm","dal","sur","khar","lën","yë"}
 CASE_MORPH=re.compile(r"-(?:ki|ho|du)-te\b")
 REPEATED_CASE=re.compile(r"-(?:m|tu|za|shi|lo|gu|de)-(?:m|tu|za|shi|lo|gu|de)\b")
