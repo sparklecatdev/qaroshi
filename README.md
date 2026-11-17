@@ -33,6 +33,12 @@ The original 7.0 grammar and 29 hashed reference sources are frozen as historica
 
 This phase changes the **language standard**, not the website: see the [28–34 normative amendment](docs/language_reform_28_34.md) and [start-here guide](README_28_34_START_HERE.md). It adds the **`nëgëra` determiner for “not all”** with formally defined scope; gives 30 exact lexical contrasts, an 800-entry source-linked learning index, 400 verb-frame records (25 fully reviewed, 108 individually source-licensed exemplars, 267 provisional), 20 conversational usage rules, a structural audit of all 13,379 canonical compounds, and a classified register of 32 existing literary conventions. **No old word spelling or ID is replaced.** The frozen 30,000-word Standard 7.0 reference plus one post-7.0 function-word overlay gives an effective **28–34 edition lexicon of 30,001**; this is a constructed-language design decision, not native usage attestation.
 
+## Standard 8.8 · More semantic productivity (editorial)
+
+The **[8.8 meaning and grammar amendment](docs/standard_8/AMENDMENT_8_8_SEMANTIC_PRODUCTIVITY.md)** defines two precise physical-action senses for existing verbs, five explicit passive/actor/instrument licensing sets, a source-to-recipient frame for “I was told that P,” and a fully articulated noun-focus-plus-present-time construction. It adds **nine** new full editorial proposals to the existing adversarial set and audits the semantic requirements of **all 500** challenging English sentences. Earlier lexical spellings and frozen reference sources are unchanged.
+
+Run `make stress88` to regenerate the honest 500-case ledger. This is not complete translation: the resulting **105 candidate strings are unverified**, **395 cases remain without a full candidate**, and independent comprehension results remain **zero**. Contextually narrowed alternatives are recorded but never counted as exact translations.
+
 ## Standard 8.4 · Narrow productive core and functional-readiness evidence
 
 **[8.4 functional readiness and open gaps](docs/standard_8/FUNCTIONAL_READINESS_8_4.md)** · **[11 explicit core verb frames](docs/standard_8/AMENDMENT_8_4_CORE_VERBS.md)** · **[Qaroshi-only practice](docs/standard_8/QAROSHI_ONLY_PRACTICE_8_4.md)**
