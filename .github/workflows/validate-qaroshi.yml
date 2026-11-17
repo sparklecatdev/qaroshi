@@ -29,6 +29,16 @@ jobs:
         run: python tools/standard10/resources.py --summary
       - name: Build site
         run: make build
+      - name: Report missing original example and sense evidence for 1000 prioritized words
+        run: node tools/standard10/gap_report.cjs --out data/standard10/generated
+      - name: Upload prioritized lexical semantic/usage review queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-10-1000-lexical-review-gap
+          path: |
+            data/standard10/generated/priority_1000_editorial_review_queue.csv
+            data/standard10/generated/coverage_gap_report.json
+          retention-days: 30
       - name: Prepare 80-item separate blind-reader experiment files
         run: python tools/standard10/trial.py --build --out data/standard10/review_pack
       - name: Upload Qaroshi-only learner stimuli with no answer key
