@@ -50,7 +50,7 @@
   // Highlight only a token that resolves to THIS complete dictionary lemma.
   // Thus qaro is not incorrectly highlighted inside another compound root.
   function highlight(text,lemma,byWord,affixes){
-    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     const allowed=new Set([...SUFFIX_FORMS,...(affixes||[]).map(x=>x.form)]);
     const parts=plain(text).split(/([A-Za-zëË]+(?:-[A-Za-zëË]+)*)/g);
     return parts.map(part=>{
