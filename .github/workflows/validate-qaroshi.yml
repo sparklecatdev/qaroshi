@@ -19,12 +19,34 @@ jobs:
           node --check web/wiki_discovery.js
           node --check web/wiki_practice.js
           node --check web/wiki_usage.js
+          node --check web/wiki_standard10.js
           node --check web/qaroshi.js
+          node tests/standard10/ui.cjs
           node tests/wiki95/grammar_browser.cjs
           node tests/wiki96/discovery_practice.cjs
           node tests/wiki97/usage_guides.cjs
+      - name: Audit source-grounded Standard 10 sense and conversation inventory
+        run: python tools/standard10/resources.py --summary
       - name: Build site
         run: make build
+      - name: Prepare 80-item separate blind-reader experiment files
+        run: python tools/standard10/trial.py --build --out data/standard10/review_pack
+      - name: Upload Qaroshi-only learner stimuli with no answer key
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-10-human-study-learner-only
+          path: |
+            data/standard10/review_pack/learner_blind_items.csv
+            data/standard10/review_pack/empty_response_and_adjudication.csv
+            data/standard10/review_pack/PROTOCOL.md
+            data/standard10/review_pack/manifest.json
+          retention-days: 30
+      - name: Upload facilitator source-English keys in a separate artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-10-editorial-key-NOT-secret
+          path: data/standard10/review_pack/facilitator_english_key.csv
+          retention-days: 30
       - name: Audit 30,000 word guides and source example coverage
         run: node tests/wiki97/coverage_all.cjs
       - name: Check curated site and release integrity
