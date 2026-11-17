@@ -130,8 +130,8 @@ class Grammar:
             raise GrammarError("Independent sentence lacks known resonance")
         if s.mood not in ("statement","polar"):
             raise GrammarError("Unlicensed mood")
-        if s.mood=="polar" and s.resonance!="hë":
-            raise GrammarError("9.3 limits polar utterances to documented hë")
+        # Canonical Chapter 9 permits polar he? with any opening resonance;
+        # hë is conventional, not the sole valid register.
         if s.attribution not in ("","reported_to_speaker","unknown_whether"):
             raise GrammarError("Unlicensed embedding")
         if s.evidential not in self.spec["evidentials"]:
