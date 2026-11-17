@@ -16,6 +16,75 @@
     "risk": "The safety circuit and charger-specific senses remain unlicensed; only reporting, second observer recording and unverified possibility are drafted."
   },
   {
+    "id": "TEC90-02",
+    "family": 2,
+    "english_claim": "the audit log was incomplete",
+    "p": "gosekheyibengapa shënaroho",
+    "p_ids": [
+      "Q60000297",
+      "Q5002002",
+      "Q004519"
+    ],
+    "recommendation": "piqewu-mi larëno digëki-m sharoa-du",
+    "recommendation_ids": [
+      "Q003319",
+      "Q002008",
+      "Q5001990",
+      "Q004414"
+    ],
+    "unsupported": "khungenëse ngëroli-m khungëgu-te",
+    "unsupported_ids": [
+      "Q60000268",
+      "Q002861",
+      "Q001761"
+    ],
+    "decision": "Audit-log transparent compound audit+log, evidence-examiner as investigating practitioner, and explicit additional recorded item as object of request. Deletion of evidence uses new medium-neutral destruction/removal sense of historic digital-file deletion root.",
+    "risk": "An incomplete log does not establish deliberate deletion or intentional suppression; do not assert operator misconduct."
+  },
+  {
+    "id": "TEC90-03",
+    "family": 3,
+    "english_claim": "the network connection dropped",
+    "p": "shiwenatuzhonga boqapi-te",
+    "p_ids": [
+      "Q004447",
+      "Q5002046",
+      "Q000317"
+    ],
+    "recommendation": "pëbego shiwenatuzhonga-m qëtidi-yu-du",
+    "recommendation_ids": [
+      "Q003395",
+      "Q4L68B89894EAD3"
+    ],
+    "unsupported": null,
+    "unsupported_ids": [],
+    "decision": "A network connection can terminate intransitively without asserting which device acted; new extension of disconnect-from-network root. A client may retry a connection, not only a protocol request; future necessity marks later retry.",
+    "risk": "Dropping a connection is not evidence that the server was attacked. The attack-origin case remains unfilled."
+  },
+  {
+    "id": "TEC90-04",
+    "family": 4,
+    "english_claim": "the laboratory sample was contaminated",
+    "p": "sugewarozhubë yungewe",
+    "p_ids": [
+      "Q004669",
+      "Q60000123",
+      "Q005737"
+    ],
+    "recommendation": "sukhado wuzëwu-li-du",
+    "recommendation_ids": [
+      "Q004701",
+      "Q005504"
+    ],
+    "unsupported": "zoshongo zhënoho",
+    "unsupported_ids": [
+      "Q006749",
+      "Q006566"
+    ],
+    "decision": "A contaminated laboratory sample is an adjective state, not a proof that the hypothesis is false; a scientific experiment can be repeated using a newly licensed passive experiment patient.",
+    "risk": "The proposed repetition is an obligation/conditional recommendation, never an observed action."
+  },
+  {
     "id": "TEC90-05",
     "family": 5,
     "english_claim": "the encrypted file was copied",
@@ -37,6 +106,30 @@
     ],
     "decision": "License passive copying of an encrypted digital file, generic access key rotation as passive obligation, and a passive file-content decryption proposition. Copied encrypted bytes do not prove plaintext exposure.",
     "risk": "Encrypted form does not imply decrypted contents; matrix blocked-proof scope must not assert decryption."
+  },
+  {
+    "id": "TEC90-06",
+    "family": 6,
+    "english_claim": "the temperature sensor drifted",
+    "p": "sudoyabengeka-na rëmëra shëruwawe-te-se",
+    "p_ids": [
+      "Q004658",
+      "Q000091",
+      "Q004157",
+      "Q004626"
+    ],
+    "recommendation": "rëmëra bekedu-li-du",
+    "recommendation_ids": [
+      "Q000056"
+    ],
+    "unsupported": "rëwuze yuyeyë shëmoa",
+    "unsupported_ids": [
+      "Q5002042",
+      "Q005917",
+      "Q004500"
+    ],
+    "decision": "A temperature-sensing device's measured-value relation changes gradually (drift) without specifying direction; rëmëra gains restricted abstract calibration-patient use. Permanently damaged equipment uses shëmoa in a new general damage sense rather than only nonfunctionality.",
+    "risk": "Drift is not identical to incorrect reading and does not prove permanent physical damage."
   },
   {
     "id": "TEC90-07",
@@ -84,6 +177,24 @@
     ],
     "decision": "Use transparent qumoki-ma event noun for inspection of bridge, one V1 physical corrosion revelation, and a narrowly broadened engineering structural-assessment use of qumoki. Structural collapse is a new explicitly typed reading of 'collapse as rock'.",
     "risk": "Detecting corrosion is not a proof of inevitable collapse; the follow-up assessment is recommended, not claimed to have occurred."
+  },
+  {
+    "id": "TEC90-09",
+    "family": 9,
+    "english_claim": "the telescope recorded a faint signal",
+    "p": "suzaqo shënaroa yusise-m khunikhu-te",
+    "p_ids": [
+      "Q004870",
+      "Q004517",
+      "Q005863",
+      "Q001766"
+    ],
+    "recommendation": null,
+    "recommendation_ids": [],
+    "unsupported": null,
+    "unsupported_ids": [],
+    "decision": "A telescope archived a weak (faint) signal; new scientific measurement recording sense of archive. This does not imply source identification, nor any extraterrestrial origin.",
+    "risk": "Rule-out-noise recommendations and alien-origin entailment are not rendered without established exact lexical logic."
   },
   {
     "id": "TEC90-10",
