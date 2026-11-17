@@ -12,7 +12,7 @@
   const AFFIXES = new Set(D.affixes.map(a => a.form));
   const wordBy = new Map(W.map(w => [w.qaroshi.toLowerCase(), w]));
   const fold = s => String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  const lexicalSearch = new Map(W.map(w => [w.id, fold([w.qaroshi,w.english,w.domain,w.sound_out].join(' '))]));
+  const discovery = window.QaroshiDiscovery.createIndex(W);
   const domainBy = new Map();
   W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
   // A sentence mentions a headword only when it contains that token (or an
@@ -29,6 +29,18 @@
       exampleByHeadword.get(f).push(p);
     });
   });
+  // Editorial semantic cases are linked only when an exact canonical token
+  // or known inflected base occurs. They are NOT independent comprehension data.
+  const caseByHeadword = new Map();
+  (D.semanticCases||[]).forEach(c=>{
+    const words=new Set((String(c.qaroshi).toLowerCase().match(/[a-zë]+(?:-[a-zë]+)*/g)||[])
+      .map(t=>wordBy.has(t)?t:(wordBy.has(t.split('-')[0])?t.split('-')[0]:null))
+      .filter(Boolean));
+    for(const form of words){
+      if(!caseByHeadword.has(form))caseByHeadword.set(form,[]);
+      caseByHeadword.get(form).push(c);
+    }
+  });
   const phraseBy = new Map(P.map(p => [p.id, p]));
   const chapterBy = new Map(C.map(c => [c.id, c]));
   const $ = (id) => document.getElementById(id);
@@ -42,7 +54,7 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', learn:'Learning library', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
@@ -156,7 +168,7 @@
     }).join('');
     return `<div class="side-group"><div class="side-heading">Get started</div>
       ${a('home','Overview')}${a('dictionary','Dictionary')}
-      ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('cases','Meaning & examples')}
+      ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('practice','Practice words & phrases')}${a('cases','Meaning & examples')}
       </div><div class="side-group"><div class="side-heading">Reference</div>
       ${a('standard','Current grammar · 9.2')}${a('grammar','90 grammar chapters')}
       ${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}
@@ -250,7 +262,7 @@
         <a class="quick-card" href="#learn"><span class="arrow">›</span><strong>Start learning</strong><small>Guided lessons, examples and practice</small></a>
         <a class="quick-card" href="#standard"><span class="arrow">›</span><strong>Read the current grammar</strong><small>90 chapters plus recent source-linked rules</small></a>
         <a class="quick-card" href="#categories"><span class="arrow">›</span><strong>Browse subjects</strong><small>Grouped topics instead of hundreds of links</small></a>
-        <a class="quick-card" href="#cases"><span class="arrow">›</span><strong>Explore meaning cases</strong><small>500 proposed sentences with transparent review status</small></a>
+        <a class="quick-card" href="#practice"><span class="arrow">›</span><strong>Practice Qaroshi</strong><small>Private word and sentence recall cards from the source corpus</small></a>
       </div>
       <div class="note"><strong>Reference status:</strong> the 8.0 grammar remains the inherited normative core; later rules include source-bound editorial decisions. The interactive grammar covers a reviewed subset, and the 500 proposed translations lack independent reader validation.</div>
       <h2 id="fundamental">Start with a sentence</h2>
@@ -407,6 +419,10 @@
       finally{submit.disabled=false}
     });
   }
+  function renderPractice(route){
+    window.QaroshiPractice.mount(main,D,{word:route.query.get('word')||''});
+    setToc([]);
+  }
   function renderLearn(){
     const featured=['getting_started','graded_course','sentence_atlas','workbook'];
     const lead=featured.map(id=>studyBy.get(id)).filter(Boolean);
@@ -423,6 +439,7 @@
       <li>Complete lessons 1–8 in the <a href="#guide/graded_course">guided course</a>.</li>
       <li>Study the <a href="#guide/nouns_cases">noun cases</a>, <a href="#guide/verb_workshop">verb endings</a> and <a href="#guide/resonance_mastery">resonance registers</a>.</li>
       <li>Complete lessons 9–16, then check the <a href="#guide/sentence_atlas">sentence atlas</a> and <a href="#guide/workbook">practice workbook</a>.</li></ol>
+      <div class="note"><strong>Practice in the Wiki.</strong> After reading a lesson, use the <a href="#practice">offline flashcards</a> to review actual dictionary words and source teaching sentences, or the <a href="#workshop">sentence workshop</a> for the reviewed grammar subset.</div>
       <h2 id="featured">Core study resources</h2><div class="learning-grid">${lead.map(entry).join('')}</div>
       <h2 id="deep">Deep-dive guides</h2><p class="muted">Each guide explains a topic in context and includes reference IPA, worked examples, independent practice, and a revealable answer key.</p>
       <div class="learning-grid">${rest.map(entry).join('')}</div>
@@ -431,37 +448,45 @@
   }
   function renderDictionary(route){
     if(route.query.has('domain'))state.domain=route.query.get('domain')||'';
+    if(route.query.has('q'))state.dquery=route.query.get('q')||'';
     const domainOptions=groupedTopics().map(g=>`<optgroup label="${esc(g.name)}">${g.items.map(item=>`<option value="${esc(item.domain)}" ${state.domain===item.domain?'selected':''}>${esc(item.domain)}</option>`).join('')}</optgroup>`).join('');
     const pose=['n','v','adj','adv','part','conj','det','pron','post','register','qword','intj'];
-    main.innerHTML=`<article>${mkHeader('Reference / Dictionary','Dictionary',`Search ${count(W.length)} entries by English meaning or Romanized Qaroshi. Select a word to open its article.`)}
-      <div class="controls">
-        <input class="field search" id="wordQuery" type="search" placeholder="Find a word or meaning…" aria-label="Search words" value="${esc(state.dquery)}">
-        <select class="field select" id="wordDomain" aria-label="Filter by topic"><option value="">All topics</option>${domainOptions}</select>
-        <select class="field select" id="wordPos" aria-label="Filter by part of speech"><option value="">All word classes</option>${pose.map(p=>`<option value="${p}" ${state.pos===p?'selected':''}>${esc(form(p))}</option>`).join('')}</select>
-      </div><div class="meta-row"><span id="wordCount" aria-live="polite"></span><button class="button" id="resetFilters" type="button">Clear filters</button></div>
+    main.innerHTML=`<article class="readable">${mkHeader('Reference / Dictionary','Find a Qaroshi word',`Search ${count(W.length)} entries by spelling, English gloss, compound or topic. Exact matches and useful word bases appear first.`)}
+      <div class="dictionary-searchbar"><label for="wordQuery" class="sr-only">Search Qaroshi spellings or English meanings</label>
+      <input class="field search" id="wordQuery" type="search" placeholder="Try a word, meaning or compound…" autocomplete="off" aria-label="Search words" value="${esc(state.dquery)}">
+      <button class="button" id="resetFilters" type="button">Clear</button></div>
+      <details class="dictionary-filters" id="dictionaryAdvanced" ${state.domain||state.pos?'open':''}>
+        <summary>Filter by subject or word class ${state.domain||state.pos?'· active':''}</summary>
+        <div class="controls">
+          <label for="wordDomain">Topic</label><select class="field select" id="wordDomain" aria-label="Filter by topic"><option value="">All topics</option>${domainOptions}</select>
+          <label for="wordPos">Word class</label><select class="field select" id="wordPos" aria-label="Filter by part of speech"><option value="">All word classes</option>${pose.map(p=>`<option value="${p}" ${state.pos===p?'selected':''}>${esc(form(p))}</option>`).join('')}</select>
+        </div></details>
+      <p class="muted small">Search understands multiple words and matches the complete gloss before loose topic or spelling fragments. Spelling ignores accents for lookup but preserves canonical Qaroshi in results.</p>
+      <div class="meta-row"><span id="wordCount" aria-live="polite"></span><a class="button" href="#categories">Browse all topic groups</a>
+        <a class="button" href="#practice">Practice the dictionary</a></div>
       <div class="entry-list" id="wordResults"></div><button id="wordsMore" class="button morebtn" type="button">Show more entries</button>
-      <div class="foot">Search the unified Qaroshi dictionary by spelling, definition, or topic.</div></article>`;
+      <div class="foot">Similar English glosses are browsing leads, not automatically synonyms. Word family links are based on explicitly recorded lexical components.</div></article>`;
     const update=()=>{
-      const q=fold(state.dquery.trim());
-      let list=W.filter(x=> (!state.domain||x.domain===state.domain) &&(!state.pos||x.pos===state.pos)&&(!q||lexicalSearch.get(x.id).includes(q)||x.ipa.includes(q)));
-      const score=x=>{const word=fold(x.qaroshi),en=fold(x.english);return word===q?0:word.startsWith(q)?1:en===q?2:en.startsWith(q)?3:4};
-      if(q)list.sort((a,b)=>score(a)-score(b)||a.qaroshi.localeCompare(b.qaroshi));
-      $('wordCount').textContent=`${count(list.length)} matching entries · ${count(Math.min(state.limit,list.length))} shown`;
-      $('wordResults').innerHTML=list.slice(0,state.limit).map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matching entries. Try another spelling or remove a filter.</div>';
-      $('wordsMore').hidden=list.length<=state.limit;
+      const result=discovery.find(state.dquery,{domain:state.domain,pos:state.pos,limit:state.limit});
+      $('wordCount').textContent=`${count(result.total)} matching entries · ${count(result.results.length)} shown`;
+      $('wordResults').innerHTML=result.results.map(w=>`<a class="entry-row" href="#word/${enc(w.qaroshi)}"><span class="entry-word"><span class="word">${esc(w.qaroshi)}</span><small class="ipa-small">${esc(w.sound_out)} · ${esc(w.ipa)}</small></span><span class="def">${esc(w.english)}</span><span class="pos">${esc(form(w.pos))}</span></a>`).join('')||'<div class="empty">No matches. Try fewer search terms, a different spelling or clear the filters.</div>';
+      $('wordsMore').hidden=result.total<=state.limit;
     };
-    $('wordQuery').addEventListener('input',e=>{state.dquery=e.target.value;state.limit=70;update()});
+    $('wordQuery').addEventListener('input',e=>{state.dquery=e.target.value;state.limit=60;update()});
     for(const [id,key] of [['wordDomain','domain'],['wordPos','pos']])
-      $(id).addEventListener('change',e=>{state[key]=e.target.value;state.limit=70;update()});
-    $('wordsMore').addEventListener('click',()=>{state.limit+=70;update()});
-    $('resetFilters').addEventListener('click',()=>{state.dquery='';state.pos='';state.domain='';state.limit=70;renderDictionary({query:new URLSearchParams()})});
+      $(id).addEventListener('change',e=>{state[key]=e.target.value;state.limit=60;update()});
+    $('wordsMore').addEventListener('click',()=>{state.limit+=60;update()});
+    $('resetFilters').addEventListener('click',()=>{state.dquery='';state.pos='';state.domain='';state.limit=60;renderDictionary({query:new URLSearchParams()})});
     update();setToc([{id:'wordResults',name:'Search results'}]);
   }
+
   function renderWord(value){
     const w=wordBy.get(value.toLowerCase());if(!w){renderMissing('Unknown dictionary entry');return}
-    const tokens=new Set(fold(w.english).split(/[^a-z]+/).filter(x=>x.length>3));
-    const related=(domainBy.get(w.domain)||[]).filter(x=>x.id!==w.id).map(x=>({x,n:fold(x.english).split(/[^a-z]+/).filter(t=>tokens.has(t)).length})).sort((a,b)=>b.n-a.n||a.x.qaroshi.localeCompare(b.x.qaroshi)).slice(0,8).map(v=>v.x);
+    const graph=discovery.related(w.qaroshi);
+    const neighbors=graph.neighbors;
+    const glossMatches=graph.sameGloss;
     const occurrences=(exampleByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,8);
+    const caseOccurrences=(caseByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
     main.innerHTML=`<article class="readable">${mkHeader('Dictionary / '+w.domain,w.qaroshi,'Qaroshi headword · '+form(w.pos))}
       <div class="meta-row"><span class="pill">${esc(form(w.pos))}</span><span class="pill">${esc(w.id)}</span></div>
       <h2 class="pron-section-heading" id="pronunciation">How to pronounce ${esc(w.qaroshi)}</h2>
@@ -471,22 +496,35 @@
       <p class="muted small">These are <strong>sounds</strong>, not the English names of the letters. <a href="#latin">See the Latin A–Z reference</a>.</p>
       <div id="definition"><div class="eyebrow">Definition</div><div class="definition"><span class="number">1.</span> ${esc(w.english)}</div></div>
       ${D.grammarLicenses?.verb_overrides?.[w.qaroshi]?`<p class="word-workshop"><a class="button primary" href="#workshop?verb=${enc(w.qaroshi)}">Practice ${esc(w.qaroshi)} in the sentence workshop</a></p>`:``}
+      <p><a class="button" href="#practice?word=${enc(w.qaroshi)}">Study this word with flashcards</a></p>
       <h2 id="native-lettering">Native lettering</h2>${glyphHTML(w.qaroshi,{large:true})}
       <div class="controls"><button class="button" id="copyWord">Copy Qaroshi</button><button class="button" id="copyLink">Copy word link</button><a class="button" href="#dictionary">Back to dictionary</a></div>
       <h2 id="lexical-details">Lexical details</h2>
       <div class="information"><label>Part of speech</label><span>${esc(form(w.pos))}</span></div>
       <div class="information"><label>Semantic domain</label><span><a href="#dictionary?domain=${enc(w.domain)}">${esc(w.domain)}</a></span></div>
-      ${w.components?`<div class="information"><label>Components</label><span>${w.components.split(' + ').map(part=>wordBy.has(part)?`<a href="#word/${enc(part)}">${esc(part)}</a>`:esc(part)).join(' + ')}</span></div>`:''}
+      ${graph.parts.length?`<div class="information"><label>Recorded components</label><span>${graph.parts.map(part=>part.entry?`<a href="#word/${enc(part.entry.qaroshi)}">${esc(part.form)}</a>`:`<span class="muted" title="No exact dictionary headword">${esc(part.form)}</span>`).join(' + ')}</span></div>`:''}
       ${w.note?`<div class="note"><strong>Usage note</strong><p>${esc(w.note)}</p></div>`:''}
       <h2 id="examples">In example sentences</h2>
       ${occurrences.length?occurrences.map(p=>`<a class="phrase-item" href="#phrase/${enc(p.id)}"><strong>${esc(p.qaroshi)}</strong><span class="ipa-small">${esc(p.sound_out)} · ${esc(p.ipa)}</span><div class="english">${esc(p.english)}</div></a>`).join(''):'<p class="muted">There is no exact match in the example sentences yet.</p>'}
-      <h2 id="related">Related entries</h2>
-      <p class="muted small">Other words in the same semantic domain; these are topical neighbors, not guaranteed synonyms.</p>
-      <div class="entry-list">${related.map(x=>`<a class="entry-row" href="#word/${enc(x.qaroshi)}"><span class="entry-word"><span class="word">${esc(x.qaroshi)}</span><small class="ipa-small">${esc(x.sound_out)} · ${esc(x.ipa)}</small></span><span class="def">${esc(x.english)}</span><span class="pos">${esc(form(x.pos))}</span></a>`).join('')}</div>
+
+      ${caseOccurrences.length?`<h2 id="semanticExamples">Editorial meaning cases</h2>
+      <p class="muted small">The original English target is shown for context. These source-linked Qaroshi drafts are not independently verified translations.</p>
+      <div class="entry-list">${caseOccurrences.map(c=>`<a class="phrase-item" href="#case/${enc(c.id)}"><strong>${esc(c.qaroshi)}</strong><span class="small muted">${esc(c.id)} · ${esc(c.english)}</span></a>`).join('')}</div>`:''}
+      <h2 id="family">Word family</h2>
+      <p class="muted small">Connections here are based on the <strong>recorded component field</strong>, not on guesses from overlapping spelling.</p>
+      ${graph.parts.length?`<p>Built from: ${graph.parts.map(part=>part.entry?`<a href="#word/${enc(part.entry.qaroshi)}"><strong>${esc(part.form)}</strong></a>`:`<span class="muted">${esc(part.form)}</span>`).join(' + ')}</p>`:'<p class="muted">No component breakdown is recorded for this headword.</p>'}
+      ${graph.compounds.length?`<h3>Compounds using this word <small class="muted">(${count(graph.compoundTotal)} linked entries)</small></h3>
+      <div class="word-family-links">${graph.compounds.slice(0,16).map(x=>`<a href="#word/${enc(x.qaroshi)}"><strong>${esc(x.qaroshi)}</strong><small>${esc(x.english)}</small></a>`).join('')}</div>
+      ${graph.compoundTotal>16?`<p class="small"><a href="#dictionary?q=${enc(w.qaroshi)}">Search more words using this component</a></p>`:''}`:'<p class="muted">No recorded compounds use this word as a component.</p>'}
+      <h2 id="related">Meanings & topical neighbors</h2>
+      ${glossMatches.length?`<h3>Matching English gloss</h3><p class="muted small">These entries have the same editorial English gloss. They are <strong>not necessarily interchangeable synonyms</strong>.</p>
+      <div class="entry-list">${glossMatches.slice(0,8).map(x=>`<a class="entry-row" href="#word/${enc(x.qaroshi)}"><span class="entry-word"><span class="word">${esc(x.qaroshi)}</span></span><span class="def">${esc(x.english)}</span><span class="pos">${esc(form(x.pos))}</span></a>`).join('')}</div>`:''}
+      <h3>Nearby topics</h3><p class="muted small">Shared domain and definition words, <strong>not verified synonyms or antonyms</strong>. Opposite-meaning relationships require their own evidence and are not inferred from English labels.</p>
+      <div class="entry-list">${neighbors.map(x=>`<a class="entry-row" href="#word/${enc(x.qaroshi)}"><span class="entry-word"><span class="word">${esc(x.qaroshi)}</span><small class="ipa-small">${esc(x.sound_out)} · ${esc(x.ipa)}</small></span><span class="def">${esc(x.english)}</span><span class="pos">${esc(form(x.pos))}</span></a>`).join('')||'<p class="muted">No closely related topic entries found from the documented glosses.</p>'}</div>
       <div class="foot">Permanent dictionary identifier: ${esc(w.id)}.</div></article>`;
     $('copyWord').addEventListener('click',()=>copy(w.qaroshi));
     $('copyLink').addEventListener('click',()=>copy(location.href));
-    setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'related',name:'Related entries'}]);
+    setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'semanticExamples',name:'Editorial cases'},{id:'family',name:'Word family'},{id:'related',name:'Related meanings'}]);
   }
 
   function renderCurrentStandard(){
@@ -544,7 +582,7 @@
 
   // Preserve all original domain links but show a calmer browse hierarchy.
   const topicGroups=[
-    ['Everyday & people',/(home|domestic|cooking|food|textile|clothing|relationship|emotion|kinship|classroom|education|recreation|sport|conversation|society|social|family|child|time|calendar|daily|leisure|community|travel|work)/i],
+    ['Everyday & people',/(home|domestic|cooking|food|textile|clothing|relationship|emotion|kinship|classroom|education|recreation|sport|conversation|society|social|family|child|time|calendar|daily|leisure|community|travel|\bwork(?:place|force)?\b)/i],
     ['Flight & Nardoragons',/(nardoragon|roost|wing|flight|aerial|aviation|aircraft|glide)/i],
     ['Nature & environment',/(agricultur|soil|forest|botan|animal|ocean|waterway|geolog|climat|ecolog|weather|environment|natural|plant|disaster|earth|river|biology|wildlife)/i],
     ['Science & health',/(science|physics|chemic|astronom|space|statistic|math|logic|research|laborator|experiment|clinical|diagnos|medical|health|pharmac|nutrition|epidemiol|instrument|measurement)/i],
@@ -683,7 +721,7 @@
   }
   function renderSearch(route){
     const raw=(route.query.get('q')||'').trim(),q=fold(raw);
-    const words=q?W.filter(w=>lexicalSearch.get(w.id).includes(q)||w.ipa.includes(q)).slice(0,35):[];
+    const words=q?discovery.find(raw,{limit:35}).results:[];
     const chapters=q?C.filter(c=>fold(c.title).includes(q)||fold(c.plain).includes(q)).slice(0,15):[];
     const examples=q?P.filter(p=>fold(p.qaroshi).includes(q)||fold(p.english).includes(q)||p.ipa.includes(q)).slice(0,12):[];
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Search','Search results',q?`Results for “${q}” across words, grammar and examples.`:'Enter a search term in the bar above.')}
@@ -716,6 +754,7 @@
       case 'case':renderCaseLibrary(route.id);break;
       case 'standard':renderCurrentStandard();break;
       case 'learn':renderLearn();break;
+      case 'practice':renderPractice(route);break;
       case 'dictionary':renderDictionary(route);break;
       case 'word':renderWord(route.id);break;
       case 'grammar':route.id?renderChapter(route.id):renderGrammarIndex();break;

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the self-contained Qaroshi 7.0 reference Wiki, linked to teaching tools through 23.
+"""Build the self-contained current Qaroshi Wiki with integrated discovery and practice tools.
 
 The page is self-contained: assets, dictionary, corpus, metadata and reference
 chapters are embedded. No requests, CDN or service worker are needed.
@@ -108,11 +108,13 @@ blob=json.dumps(metadata,ensure_ascii=False,separators=(',',':')).replace('<','\
 css=(ROOT/'web/qaroshi.css').read_text(encoding='utf-8');js=(ROOT/'web/qaroshi.js').read_text(encoding='utf-8');theme_js=(ROOT/'web/theme.js').read_text(encoding='utf-8')
 grammar_js=(ROOT/'web/grammar_live.js').read_text(encoding='utf-8')
 lab_js=(ROOT/'web/wiki_lab.js').read_text(encoding='utf-8')
+discovery_js=(ROOT/'web/wiki_discovery.js').read_text(encoding='utf-8')
+practice_js=(ROOT/'web/wiki_practice.js').read_text(encoding='utf-8')
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, learning guides, exercises, and the native handwritten alphabet.">
-<title>Qaroshi Wiki · Current 9.2 reference & 9.3 grammar tools</title>
+<title>Qaroshi Wiki · Dictionary, grammar, lessons and practice</title>
 <script>{theme_js}</script><style>{css}</style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
@@ -124,7 +126,7 @@ page=f'''<!doctype html>
 <main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the reference…</p></article></main>
 <nav class="right-rail" aria-label="On this page" id="pageToc"></nav></div>
 <noscript><p style="padding:2rem">This wiki requires JavaScript for navigation and search. The source documents are available in the repository.</p></noscript>
-<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{js}</script>
+<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{js}</script>
 </body></html>'''
 for filename in ('index.html', 'Qaroshi_Wiki.html'):
  (ROOT/filename).write_text(page,encoding='utf-8')

@@ -16,8 +16,11 @@ jobs:
         run: |
           node --check web/grammar_live.js
           node --check web/wiki_lab.js
+          node --check web/wiki_discovery.js
+          node --check web/wiki_practice.js
           node --check web/qaroshi.js
           node tests/wiki95/grammar_browser.cjs
+          node tests/wiki96/discovery_practice.cjs
       - name: Build site
         run: make build
       - name: Check curated site and release integrity

@@ -1,23 +1,191 @@
 {
   "edition": "23",
-  "reference_standard": "7.0",
-  "description": "A research-grade, offline-first Qaroshi language reference and its evolving teaching tools. Historical tools remain archived for reproducibility.",
+  "reference_standard": "8.0 normative core; 9.2–9.6 editorial tools",
+  "description": "Offline-first Qaroshi Wiki with a ranked dictionary, connected word families, original-meaning reviews, source-licensed grammar and private study. Historical specialized apps remain archived.",
   "highlights": [
-    {"label": "Canonical entries", "value": "30,000"},
-    {"label": "Controlled examples", "value": "4,383"},
-    {"label": "Grammar chapters", "value": "90"},
-    {"label": "Resonance markers", "value": "16"}
+    {
+      "label": "Canonical entries",
+      "value": "30,000"
+    },
+    {
+      "label": "Controlled examples",
+      "value": "4,383"
+    },
+    {
+      "label": "Grammar chapters",
+      "value": "90"
+    },
+    {
+      "label": "Resonance markers",
+      "value": "16"
+    }
   ],
   "apps": [
-    {"id": "translate", "name": "Translation & Immersion Academy", "edition": "21–23", "href": "Qaroshi_21_23_Translation_Immersion_Academy.html", "category": "Learn", "featured": true, "note": "Source-backed translation lookup, curated reading and recognition exercises", "tags": ["translator", "reading", "quiz", "meaning", "comprehension", "study"]},
-    {"id": "wiki", "name": "Qaroshi Wiki", "edition": "Reference 7.0", "href": "index.html", "category": "Reference", "featured": true, "note": "The full canonical dictionary, written grammar, examples and native writing", "tags": ["dictionary", "grammar", "resonance", "glyph", "ipa", "definition", "search"]},
-    {"id": "speech", "name": "Spoken Language Studio", "edition": "20", "href": "Qaroshi_20_Speech_Studio.html", "category": "Speak", "featured": true, "note": "Phonemes, stress, real-word sound contrasts and private recording practice", "tags": ["pronunciation", "recording", "microphone", "phonetics", "audio", "speech"]},
-    {"id": "conversation", "name": "Living Language Studio", "edition": "18–19", "href": "Qaroshi_18_19_Living_Language_Studio.html", "category": "Learn", "featured": true, "note": "Conversational grammar, root learning, word connections and practice", "tags": ["conversation", "phrases", "grammar", "roots", "compounds", "study"]},
-    {"id": "everyday", "name": "Everyday Communicator", "edition": "17", "href": "Qaroshi_17_Everyday_Communicator.html", "category": "Learn", "featured": true, "note": "Everyday phrases, guided situations and a limited sentence composer", "tags": ["phrasebook", "greetings", "chat", "lesson", "dictionary"]},
-    {"id": "academy", "name": "Foundations Academy", "edition": "Reference 7.0", "href": "Qaroshi_Academy.html", "category": "Learn", "featured": false, "note": "Sixteen guided lessons and foundational dictionary practice", "tags": ["beginner", "lesson", "flashcards", "games", "exercises"]},
-    {"id": "root-review", "name": "Root Standardization Review", "edition": "16.2", "href": "Qaroshi_16_2_Root_Standardization_Studio.html", "category": "Research", "featured": false, "note": "Editorial decisions and unapproved compound or root alternatives", "tags": ["roots", "review", "false friends", "editorial", "lexical"]},
-    {"id": "semantic-atlas", "name": "Semantic Atlas", "edition": "16", "href": "Qaroshi_16_Semantic_Atlas.html", "category": "Research", "featured": false, "note": "Sense records, semantic domains, idiom proposals and evidence notes", "tags": ["meaning", "lexicon", "domain", "sense", "collocation"]},
-    {"id": "corpus", "name": "Expanded Corpus Library", "edition": "15.1", "href": "Qaroshi_15_Expanded_Corpus_Library.html", "category": "Archive", "featured": false, "note": "Historical generated and editorial corpus with quantitative quality caveats", "tags": ["archive", "corpus", "prose", "dialogue", "history"]},
-    {"id": "semantic-workbench", "name": "Semantic Workbench", "edition": "14", "href": "Qaroshi_14_Semantic_Workbench.html", "category": "Archive", "featured": false, "note": "Earlier grammar and translation consistency-audit tools", "tags": ["archive", "grammar", "review", "translation"]}
+    {
+      "id": "translate",
+      "name": "Translation & Immersion Academy",
+      "edition": "21–23",
+      "href": "Qaroshi_21_23_Translation_Immersion_Academy.html",
+      "category": "Learn",
+      "featured": true,
+      "note": "Source-backed translation lookup, curated reading and recognition exercises",
+      "tags": [
+        "translator",
+        "reading",
+        "quiz",
+        "meaning",
+        "comprehension",
+        "study"
+      ]
+    },
+    {
+      "id": "wiki",
+      "name": "Qaroshi Wiki: Dictionary & Practice",
+      "edition": "Wiki 9.6",
+      "href": "index.html",
+      "category": "Reference",
+      "featured": true,
+      "note": "Current editorial grammar, source-linked compounds, ranked dictionary search, built-in private flashcards and sentence workshop",
+      "tags": [
+        "dictionary",
+        "search",
+        "word families",
+        "compound",
+        "practice",
+        "grammar",
+        "native script",
+        "pronunciation",
+        "sources"
+      ]
+    },
+    {
+      "id": "speech",
+      "name": "Spoken Language Studio",
+      "edition": "20",
+      "href": "Qaroshi_20_Speech_Studio.html",
+      "category": "Speak",
+      "featured": true,
+      "note": "Phonemes, stress, real-word sound contrasts and private recording practice",
+      "tags": [
+        "pronunciation",
+        "recording",
+        "microphone",
+        "phonetics",
+        "audio",
+        "speech"
+      ]
+    },
+    {
+      "id": "conversation",
+      "name": "Living Language Studio",
+      "edition": "18–19",
+      "href": "Qaroshi_18_19_Living_Language_Studio.html",
+      "category": "Learn",
+      "featured": true,
+      "note": "Conversational grammar, root learning, word connections and practice",
+      "tags": [
+        "conversation",
+        "phrases",
+        "grammar",
+        "roots",
+        "compounds",
+        "study"
+      ]
+    },
+    {
+      "id": "everyday",
+      "name": "Everyday Communicator",
+      "edition": "17",
+      "href": "Qaroshi_17_Everyday_Communicator.html",
+      "category": "Learn",
+      "featured": true,
+      "note": "Everyday phrases, guided situations and a limited sentence composer",
+      "tags": [
+        "phrasebook",
+        "greetings",
+        "chat",
+        "lesson",
+        "dictionary"
+      ]
+    },
+    {
+      "id": "academy",
+      "name": "Foundations Academy",
+      "edition": "Reference 7.0",
+      "href": "Qaroshi_Academy.html",
+      "category": "Learn",
+      "featured": false,
+      "note": "Archived standalone 16-lesson Academy; current Wiki now embeds lessons and source-linked private recall practice",
+      "tags": [
+        "beginner",
+        "lesson",
+        "flashcards",
+        "games",
+        "exercises"
+      ]
+    },
+    {
+      "id": "root-review",
+      "name": "Root Standardization Review",
+      "edition": "16.2",
+      "href": "Qaroshi_16_2_Root_Standardization_Studio.html",
+      "category": "Research",
+      "featured": false,
+      "note": "Editorial decisions and unapproved compound or root alternatives",
+      "tags": [
+        "roots",
+        "review",
+        "false friends",
+        "editorial",
+        "lexical"
+      ]
+    },
+    {
+      "id": "semantic-atlas",
+      "name": "Semantic Atlas",
+      "edition": "16",
+      "href": "Qaroshi_16_Semantic_Atlas.html",
+      "category": "Research",
+      "featured": false,
+      "note": "Sense records, semantic domains, idiom proposals and evidence notes",
+      "tags": [
+        "meaning",
+        "lexicon",
+        "domain",
+        "sense",
+        "collocation"
+      ]
+    },
+    {
+      "id": "corpus",
+      "name": "Expanded Corpus Library",
+      "edition": "15.1",
+      "href": "Qaroshi_15_Expanded_Corpus_Library.html",
+      "category": "Archive",
+      "featured": false,
+      "note": "Historical generated and editorial corpus with quantitative quality caveats",
+      "tags": [
+        "archive",
+        "corpus",
+        "prose",
+        "dialogue",
+        "history"
+      ]
+    },
+    {
+      "id": "semantic-workbench",
+      "name": "Semantic Workbench",
+      "edition": "14",
+      "href": "Qaroshi_14_Semantic_Workbench.html",
+      "category": "Archive",
+      "featured": false,
+      "note": "Earlier grammar and translation consistency-audit tools",
+      "tags": [
+        "archive",
+        "grammar",
+        "review",
+        "translation"
+      ]
+    }
   ]
 }
