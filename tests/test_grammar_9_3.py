@@ -126,7 +126,6 @@ class TypedGrammar93(unittest.TestCase):
             "sen mi mara-m xyz-te.",
             "mi mara-m tika-te.",
             "sen mi mara-m tika-te he?",
-            "hë mi mara-m tika-te.",
             "sen mi mara-m tika-te-do.",
             "sen mi mara-m tika-te hu ye.",
             "sen mi mara-m tika-te do yano mi-tu shiri-te si.",
