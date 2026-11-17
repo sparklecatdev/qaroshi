@@ -170,6 +170,10 @@ def proposals():
                 assert frame["family"]==draft["family"]
             if domain=="technical_precision":
                 frame={**old_technical[draft["family"]],**draft}
+            # A short editorial family identifier is distinct from canonical
+            # lexicon IDs and remains stable if source frames lack a row ID.
+            frame={**frame,"id":frame.get("id") or
+                   ("ED91-"+domain.upper()+"-"+str(frame["family"]).zfill(2))}
             for variant in draft["variants"]:
                 id_=challenge_id(domain,frame["family"],variant)
                 assert id_ not in entries,("Duplicate 9.1 proposal",id_)
