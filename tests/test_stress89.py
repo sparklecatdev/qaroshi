@@ -180,6 +180,23 @@ class Standard89(unittest.TestCase):
                             x["true_translation_certified"]=="no" for x in review))
         self.assertEqual({r["id"] for r in public},{r["id"] for r in private})
 
+    def test_original_135_review_flags_are_not_hidden_or_counted_as_verified(self):
+        statuses=self.audit["candidate_structural_review_statuses"]
+        self.assertEqual(statuses["review_flagged"],3)
+        self.assertEqual(statuses["exact_8_8_structural_model_match_not_semantic_verification"],61)
+        self.assertEqual(statuses["limited_quantifier_rule_check_without_external_comprehension"],49)
+        self.assertEqual(statuses["form_only_not_independently_semantically_checked"],22)
+        original_reviews=rows(ROOT/"data/stress89/all_candidate_form_audit_500.csv")
+        flags={r["id"] for r in original_reviews if r["formal_review"]=="review_flagged"}
+        self.assertEqual(flags,{"QS81-0202","QS81-0222","QS81-0227"})
+        for id_ in flags:
+            before=self.old[id_]["qaroshi_full_candidate"]
+            after=self.cases[id_]["qaroshi_full_candidate"]
+            self.assertNotEqual(before,after)
+            self.assertIn("do yano mi-tu shiri-te",after)
+            self.assertNotIn("do yano mi-tu shiri-te",before)
+            self.assertEqual(self.cases[id_]["independently_semantically_verified"],"no")
+
     def test_every_new_source_witness_has_a_real_dictionary_id(self):
         # Editorial decision IDs are namespaced and are not dictionary lemmas.
         for item in self.cases.values():
