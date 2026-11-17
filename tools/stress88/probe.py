@@ -35,6 +35,24 @@ def main():
     print("ORIGINAL_8_3_DRAFT_COUNT",sum(bool(r["qaroshi_draft"]) for r in proposals))
     for domain,items in inv.items():
         print(domain.upper(),json.dumps(items,ensure_ascii=False))
+    wanted = {
+        "gardener":"n", "water":"v", "pack":"v", "baker":"n", "burn":"v",
+        "hide":"v", "shopkeeper":"n", "traveler":"n", "ticket":"n",
+        "clean":"v", "brush":"n", "archivist":"n", "copy":"v",
+        "carpenter":"n", "secure":"v", "colored tiles":"n", "roller":"n",
+        "reference device":"n", "wooden pegs":"n", "hose":"n",
+        "steel lock":"n", "courier":"n", "cross":"v", "board":"v",
+        "climber":"n", "reach":"v", "leave":"v", "pass":"v",
+        "tourists":"n", "hikers":"n", "rescue team":"n", "missing":"adj","key":"n",
+    }
+    for needle,pos in wanted.items():
+        matches=[]
+        for x in lex.lex:
+            gloss=x["english"].lower()
+            if x["pos"]==pos and needle in gloss:
+                matches.append({"qr":x["qaroshi"],"id":x["id"],"gloss":x["english"][:95]})
+        matches=sorted(matches,key=lambda x:(len(x["gloss"]),x["id"]))[:6]
+        print("ALTERNATIVES",needle,pos,json.dumps(matches,ensure_ascii=False))
     by=Counter((r["domain"],bool(r["qaroshi_draft"])) for r in proposals)
     print("BASELINE_BY_DOMAIN",json.dumps({f"{a}:{b}":n for (a,b),n in by.items()},sort_keys=True))
 
