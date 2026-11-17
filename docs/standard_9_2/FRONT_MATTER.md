@@ -29,6 +29,10 @@
 
 Previous 9.0 drafts **QS81-0105, -0110, -0115, -0120, -0125, -0135, -0140, -0150** put \`-ki\` before past \`-te\`. The 9.1 working view corrected precisely those strings to \`-te-ki\` and preserved the historical originals in \`prior_9_0_candidate\`. Never copy \`-ki-te\` from an archived example as normative 9.2 morphology. [Source decision](../../data/standard_8/consent_morphology_corrections_9_1.json).
 
+### New 9.2 correction: counterfactual consequence marker
+
+The independent structural audit found one inherited 8.3/9.1 sentence, **QS81-0336**, with a proper past counterfactual antecedent but an unmarked result. Its original archival wording was \`sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te.\`. The current **9.2 editorial view** is \`sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te qinë.\`. This follows Chapter 21's explicit \`qinë\` result marker and preserves the earlier source string byte-for-byte in the \`prior_9_1_editorial_candidate\` field. See [versioned repair decision](../../data/standard_9_2/semantic_repairs.json). This is a **structural correction**, not independent attestation of the entire sentence's meaning.
+
 ### Scope of claims, what is still missing
 
 The 9.1 stress generator produces **500/500 editorial draft strings** for a fixed original English test. It does **not** prove that 500 meanings are faithfully and idiomatically expressed by unrelated humans, or that arbitrary novel combinations are licensed. The independent 9.2 semantic audit records structure and evidence coverage separately from human semantic equivalence. The independent held-out *software* stress suite tests new lexical-event **pairs**; it is a bounded compositional model, not a general grammar parser, a translator, or a human blind comprehension study. **Number of independently collected human backtranslations: 0.**
