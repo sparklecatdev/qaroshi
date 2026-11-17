@@ -18,6 +18,7 @@ ROOT=Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:sys.path.insert(0,str(ROOT))
 from tools.stress91.compose import build as build91,rows
 from tools.stress92.heldout import write,OUT
+from tools.stress92.repairs import apply as apply_versioned_repairs
 
 CORE=ROOT/"data/stress81/challenges_500.csv"
 PRIOR=ROOT/"data/stress91/case_evidence_500.csv"
@@ -166,6 +167,8 @@ def check(row:dict,base:dict,canonical:dict,lexical_overlay:dict)->dict:
         "case_id":row["id"],"domain":domain,"variant":variant,"source_feature":feature,
         "english_target":row["english"],"qaroshi_proposal":q,
         "editorial_origin":row["candidate_status"],
+        "prior_9_1_proposal":row.get("prior_9_1_editorial_candidate",q),
+        "9_2_versioned_correction_reason":row.get("9_2_correction_reason",""),
         "blocking_form_issues":json.dumps(sorted(set(blockers)),ensure_ascii=False),
         "nonblocking_review_risks":json.dumps(sorted(set(warnings)),ensure_ascii=False),
         "structural_status":"blocked_review" if blockers else "bounded_form_checks_passed",
@@ -180,8 +183,9 @@ def check(row:dict,base:dict,canonical:dict,lexical_overlay:dict)->dict:
 def run()->dict:
     build91()
     original={r["id"]:r for r in rows(CORE)}
-    current=rows(PRIOR)
-    assert len(current)==len(original)==500
+    prior=rows(PRIOR)
+    current,repairs=apply_versioned_repairs(prior)
+    assert len(current)==len(prior)==len(original)==500
     with CANON.open(newline="",encoding="utf8") as file:
         canonical={r["id"]:r for r in csv.DictReader(file)}
     overlay={r["id"]:r for r in json.loads(OVERLAY.read_text(encoding="utf8"))["entries"]}
@@ -192,6 +196,7 @@ def run()->dict:
     for x in report:
         for warning in json.loads(x["nonblocking_review_risks"]):
             by_risk[warning]+=1
+    write(OUT/"corrected_editorial_500.csv",current)
     write(OUT/"semantic_review_500.csv",report)
     write(OUT/"editorial_action_queue.csv",[{
         "case_id":x["case_id"],"domain":x["domain"],
@@ -203,6 +208,9 @@ def run()->dict:
        "scope":"bounded independent structural audit; not independent human semantics",
        "original_cases":500,
        "full_existing_editorial_drafts":500,
+       "all_9_1_originals_preserved":500,
+       "versioned_9_2_grammatical_corrections":len(repairs),
+       "versioned_correction_case_ids":[r["case_id"] for r in repairs],
        "checked_for_speech_act_by_domain":500,
        "structural_blockers":len(blocked),
        "structural_blocker_case_ids":[x["case_id"] for x in blocked],
