@@ -34,8 +34,6 @@ jobs:
             data/stress88/case_evidence_500.csv
             data/stress88/summary.json
           retention-days: 30
-      - name: Inspect source vocabulary for permission challenges
-        run: python tools/stress89/probe_social.py
       - name: Build 8.9 full-item semantic compositions
         run: python tools/stress89/compose.py
       - name: Audit inherited 135 candidates and generate blind review
