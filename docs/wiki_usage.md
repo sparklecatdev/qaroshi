@@ -8,6 +8,14 @@ The sidebar keeps five primary tasks visible: **Overview**, **Dictionary**, **Wr
 
 Use the upper search to find dictionary words, examples or chapter text. Press `/` to focus the search. Use `#dictionary` for full lexical search, or `#categories` to browse a small set of subject groups. Expanding an area reveals the original topic labels. Typing a topic name searches across all areas. Historic links such as `#word/gëro`, `#grammar/02` and `#dictionary?domain=...` remain valid.
 
+## Full dictionary entries: meaning, structure and real context
+
+Every word page now opens with the **recorded meaning first**, followed immediately by pronunciation, semantic class, and a **How to use this word** explanation tied to its part of speech and the actual grammar. For common word classes the page gives safe grammatical templates and shows regular word forms (cases, tense, and similar). These are clearly labeled **illustrations, not independently attested complete sentences**.
+
+The **This word in context** section shows source teaching examples when the whole headword or its licensed suffix form occurs. The word is highlighted, the suffixes are explained, and you can open the original parallel sentence. For words without a recorded example, the page says so and directs readers to the relevant documented sentence patterns. Editorial challenge proposals remain in an expandable, distinctly marked section.
+
+Compounds now show their **real component headwords and their individual definitions**, not just a formula. The whole compound keeps its own source gloss rather than assuming the English result is a literal sum. Word articles link to source-specific particle rules, resonance meanings, 25 reviewed valency frames, lessons, flashcards, and the original 26-glyph native alphabet where relevant.
+
 ## Ranked dictionary search and source-linked word families
 
 The **Dictionary** now ranks complete Qaroshi spellings and English definitions before partial matches. Multiple words are treated as a combined query, not an indiscriminate list of anything containing one common word. Topic and part-of-speech filters are available under a collapsed disclosure. Searches ignore accents while always displaying exact canonical spelling.
