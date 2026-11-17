@@ -1,26 +1,35 @@
-# Using the Qaroshi offline wiki
+# Using the current Qaroshi Wiki (9.5)
 
-Open `Qaroshi_Wiki.html` directly in a current browser. Nothing needs an account or network connection.
+Open `Qaroshi_Wiki.html` locally, or use the public `index.html` page. The Wiki is a **self-contained, offline-first** reference; its core dictionary, current grammar, interactive workshop and semantic case explorer need no account or network.
 
-The left sidebar browses topics and 70 grammar chapters. The top search looks through dictionary definitions, grammar and sentence examples. Press `/` to focus search. Press Escape to close the mobile sidebar. Browse the Dictionary page for detailed filters; it searches English meanings and Qaroshi spelling, including unaccented search approximations such as `gero` → `gëro`.
+## Where to start
 
-Open a word to see its definition, prominent English-style sound-out, broad IPA, native script, grammatical metadata, example sentences, related terms, and clickable components (when it is a compound). Extended letter-by-letter pronunciation can be opened from a details control.
+The sidebar keeps five primary tasks visible: **Overview**, **Dictionary**, **Write & inspect sentences**, **Learn Qaroshi**, and **Meaning & examples**. The current grammar, topics, phrasebook and native script are immediately below. All individual chapters, deep topic guides, older research workbenches and teaching apps are available in collapsed sections, not removed.
 
-The Native script page converts **Romanized Qaroshi into handwritten glyphs**, not English into Qaroshi; it can export PNG. The Latin A–Z guide describes English letter-name pronunciations separately from native Qaroshi phonemes. The moon/sun button switches appearance without connecting to a service.
+Use the upper search to find dictionary words, examples or chapter text. Press `/` to focus the search. Use `#dictionary` for full lexical search, or `#categories` to browse a small set of subject groups. Expanding an area reveals the original topic labels. Typing a topic name searches across all areas. Historic links such as `#word/gëro`, `#grammar/02` and `#dictionary?domain=...` remain valid.
 
-The CSV, JSON, and Markdown files in the package are suitable for editing or further linguistic analysis. Build the standalone HTML with `python tools/build_wiki.py` after changing reference files.
+## The new browser sentence workshop
 
+Open `#workshop`. The **Build a sentence** tab offers guided verb/subject/role selectors, tense, aspect, modality, negation, resonance, and optional second events. A chosen verb reveals only licensed object or recipient types. Press **Compose Qaroshi** to generate and examine the exact grammatical structure. Select **Inspect Qaroshi** to parse an existing sentence in the reviewed subset and see who did what, role markers, evidence source, conditional status, and whether the matrix event is asserted.
 
-## Learning in the wiki, not just looking up words
+The workshop implements **25 source-reviewed verb frames and 10 explicitly typed noun forms**, based on the same 9.3 licenses as the Python reference engine. It intentionally rejects unknown words, unlicensed object types, noncanonical suffix ordering and other unsupported constructions. **A rejection does not imply the broader language cannot express the sentence.** No AI model, API key or server round trip is used for workshop parsing.
 
-The **Learn Qaroshi** sidebar section contains a staged sixteen-lesson course, sixteen topic manuals, twenty-one worked sentence parses, and a practice workbook. The best order is to begin with Start here and the Pronunciation laboratory, complete lessons 1–8, read the Nouns/Cases and Verb workshop guides, complete lessons 9–16, and finish with the workbook. Every practice answer is tied to an existing sentence in the canonical phrasebook, so a learner can inspect its original context and pronunciation on the corresponding phrase page.
+## Current grammar and semantic cases
 
-The **Grammar** section remains normative: opening a grammar chapter now also shows links to relevant deeper guides. The **Dictionary** remains the reference for exact lexemes, suffix-like spellings, and Romanized pronunciation, and the original glyph converter is the place to check native writing. The deep guides explain and teach the standard; they do not add a second competing grammar.
+Open `#standard` for the current 9.2 conflict-resolution guide and ten full 8.1–9.1 amendment documents, with all 90 original normative chapters linked through `#grammar`. The original sources remain available through the GitHub repository.
 
-### How to self-test
+Open `#cases` for **all 500** source-grounded editorial challenge proposals. Search by QS81 case ID, original English, proposed Qaroshi or domain. Each record has a stable individual link, e.g. `#case/QS81-0336`, and shows the current 9.2 corrected editorial draft where applicable. Source English roles are visible as intended meanings. **These are not independently verified translations.** A language learner can try reading the Qaroshi first and compare their interpretation to the source, but that is not a certified human-study result.
 
-Hide the English column in a course lesson and translate Qaroshi from its IPA and written text. Next hide Qaroshi and reconstruct the entire sentence from English. Check the first resonance, each case suffix, predicate suffix, negation, and final `he` or `ya` before opening the answer key. The workbook's diagnosis questions contain deliberately **incorrect** forms for editing practice, which should not be copied as normal Qaroshi sentences.
+## Pronunciation and archive
 
-### Finding your place on mobile
+Open a word for English-style sound-out, IPA, native glyphs, source definition, compound components and related words. The **Native script** page converts Romanized Qaroshi to the original glyphs, not English to Qaroshi, and supports image export. The Academy, spoken-language studio, translation immersion tools and older releases remain accessible through the collapsed sidebar's specialist section and `explore.html`.
 
-Open the menu button at the upper right. The same learning and grammar links are present in the mobile sidebar, and the sidebar closes after navigation. Long lesson tables are scrollable within their reading section where necessary; the page itself should not become wider than the viewport. The `/#learn` view is the index for all training materials and is readable offline.
+## Reproduce the Wiki
+
+```sh
+make build
+node tests/wiki95/grammar_browser.cjs
+python -m unittest tests.test_wiki_9_5 -v
+```
+
+All source language files and historical release HTML remain intact. The 9.5 build assembles live 9.3 browser licenses and source 9.4 semantic records into the self-contained Wiki; the site publication step does **not** expose raw datasets.

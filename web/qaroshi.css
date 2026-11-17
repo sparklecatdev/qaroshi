@@ -224,3 +224,82 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
 .release-direction h2{margin:5px 0 6px;font-size:1.35rem}
 .release-direction p{margin:7px 0}
 @media(max-width:570px){.release-direction{padding:16px}}
+
+
+/* Wiki 9.5: focused navigation, collapsible categories and browser tools. */
+.sidebar{padding-top:18px}.sidebar .side-group{margin-bottom:13px}
+.sidebar details.chapter-group{margin:0 0 5px}
+.sidebar summary{font-weight:560}
+.sidebar .side-heading{margin-top:7px}
+.sidebar .side-footer,.sidebar .sidebar-footer{line-height:1.8}
+.lab-page .article-header,.case-page .article-header{margin-bottom:18px}
+.lab-notice{padding:14px 17px;border:1px solid var(--accent-border);background:var(--accent-bg);border-radius:10px;line-height:1.55;font-size:.91rem;margin:16px 0 22px}
+.lab-tabs{display:flex;gap:8px;margin:24px 0 18px;border-bottom:1px solid var(--border)}
+.lab-tabs button{border:0;background:none;padding:12px 15px;color:var(--muted);font-weight:650;border-bottom:3px solid transparent;cursor:pointer}
+.lab-tabs button[aria-selected="true"]{color:var(--link);border-bottom-color:var(--link)}
+.lab-tabs button:hover{background:var(--hover)}
+.lab-section>p{margin-top:0}
+.lab-general{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:14px 0}
+.lab-field{display:flex;flex-direction:column;gap:5px;min-width:0;font-size:.85rem;font-weight:580}
+.lab-field .field{width:100%;height:43px;font-size:.89rem}
+.lab-event-stack{display:grid;gap:15px;margin:15px 0 19px}
+.lab-event{min-width:0;margin:0;padding:17px 18px 19px;border:1px solid var(--border);border-radius:12px;background:var(--canvas)}
+.lab-event legend{font-size:1rem;font-weight:750;padding:0 9px}
+.lab-event-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 17px}
+.lab-check{display:flex;align-items:center;gap:9px;font-size:.88rem;grid-column:1/-1}
+.lab-check input{width:18px;height:18px;accent-color:var(--link)}
+.lab-input{width:100%;padding:13px;border:1px solid var(--border);border-radius:10px;background:var(--canvas);resize:vertical;font-family:ui-monospace,monospace;font-size:.95rem;line-height:1.6;min-height:125px}
+.lab-result{margin:19px 0 15px;min-height:65px}
+.lab-output{border:1px solid var(--accent-border);border-radius:12px;background:var(--panel);padding:17px 20px}
+.lab-output-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px}
+.lab-output-head strong{font-size:1rem;overflow-wrap:anywhere}
+.lab-output>p{margin:10px 0}
+.lab-actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:13px}
+.lab-roles{border:1px solid var(--border);background:var(--canvas);border-radius:9px;padding:12px}
+.lab-roles h3{margin:0 0 10px;font-size:.95rem}
+.lab-roles dl,.case-roles{margin:0}
+.lab-roles dl>div,.case-roles>div{display:flex;gap:12px;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--border);padding:6px 0}
+.lab-roles dl>div:last-child,.case-roles>div:last-child{border-bottom:0}
+.lab-roles dt,.case-roles dt{color:var(--muted);font-size:.82rem}
+.lab-roles dd,.case-roles dd{margin:0;font-family:ui-monospace,monospace;font-size:.86rem;text-align:right;overflow-wrap:anywhere}
+.lab-error{border-left:3px solid #ba5353;padding:10px 13px;background:var(--canvas);border-radius:3px;font-size:.91rem}
+.lab-caveat{color:var(--muted);font-size:.82rem;line-height:1.6;border-top:1px solid var(--border);padding-top:13px}
+.lab-help{margin:27px 0;border:1px solid var(--border);border-radius:10px;padding:9px 14px}
+.lab-help summary{cursor:pointer;font-weight:650;padding:6px 0}
+.lab-help[open]{background:var(--canvas)}
+.case-list{display:grid;gap:9px;margin:16px 0 20px}
+.case-item{display:flex;flex-direction:column;gap:6px;border:1px solid var(--border);background:var(--panel);padding:13px 16px;border-radius:10px;color:var(--text);text-decoration:none}
+.case-item:hover{border-color:var(--accent-border);background:var(--hover);text-decoration:none;color:var(--text)}
+.case-item .case-label{font-size:.75rem;color:var(--muted);font-weight:650}
+.case-item strong{font:600 .94rem/1.55 ui-monospace,monospace;color:var(--link);overflow-wrap:anywhere}
+.case-item>span:last-child{font-size:.87rem;line-height:1.45;color:var(--muted)}
+.case-page .quote{overflow-wrap:anywhere}
+.case-roles{border:1px solid var(--border);border-radius:9px;padding:10px 15px;margin:12px 0}
+.topic-search{display:block;width:100%;height:44px;margin:18px 0 10px}
+.topic-groups{display:grid;gap:11px;margin:15px 0 23px}
+.topic-group{border:1px solid var(--border);background:var(--panel);border-radius:11px;overflow:hidden}
+.topic-group>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;padding:15px 18px}
+.topic-group>summary:hover{background:var(--hover)}
+.topic-group>summary strong{font-size:.97rem}
+.topic-group>summary span{font-size:.79rem;color:var(--muted);white-space:nowrap}
+.topic-group[open]>summary{background:var(--canvas);border-bottom:1px solid var(--border)}
+.topic-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:12px;gap:4px}
+.topic-links a{display:flex;align-items:baseline;justify-content:space-between;gap:13px;border-radius:7px;padding:8px 10px;text-decoration:none;color:var(--text);font-size:.84rem;line-height:1.35}
+.topic-links a:hover{background:var(--hover);color:var(--link)}
+.topic-links small{color:var(--muted);font-size:.71rem;white-space:nowrap}
+.standard-addenda{display:grid;gap:10px;margin:18px 0}
+.standard-addendum{border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.standard-addendum summary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px;cursor:pointer;background:var(--canvas)}
+.standard-addendum summary:hover{background:var(--hover)}
+.standard-addendum summary small{color:var(--muted);white-space:nowrap}
+.standard-addendum>.doc-body{padding:12px 19px 22px;overflow-wrap:anywhere}
+.current-standard{overflow-wrap:anywhere}
+.current-standard table,.standard-addendum table{display:block;overflow-x:auto}
+.lab-page [hidden],.case-page [hidden],.topic-groups [hidden]{display:none!important}
+@media(max-width:680px){
+  .lab-general,.lab-event-controls,.topic-links{grid-template-columns:1fr}
+  .lab-event{padding:13px}
+  .topic-group>summary,.standard-addendum summary{align-items:flex-start;flex-wrap:wrap}
+  .topic-group>summary span{white-space:normal}
+  .lab-output{padding:13px}
+}
