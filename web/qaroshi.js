@@ -14,6 +14,7 @@
   const fold = s => String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const discovery = window.QaroshiDiscovery.createIndex(W);
   const ST10 = window.Qaroshi10.create(D);
+  const EDITORIAL=window.QaroshiEditorial.create(D);
   const domainBy = new Map();
   W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
   // Live, morphology-aware indexes. A sentence is linked to a word only if
@@ -43,7 +44,7 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', conversations:'Conversations', conversation:'Conversation', drills:'Controlled drills', validation:'Independent comprehension', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', conversations:'Conversations', conversation:'Conversation', drills:'Controlled drills', validation:'Independent comprehension', editorial:'Editorial review desk', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
@@ -164,6 +165,7 @@
       <details class="chapter-group"><summary>Conversations & research</summary><div class="nested">
         ${a('conversations','Read conversations')}${a('drills','Controlled sentence drills')}
         ${a('validation','Independent comprehension testing')}
+        ${a('editorial','Review priority word senses')}
       </div></details>
       <details class="chapter-group"><summary>Grammar chapter index</summary><div class="nested">${chapterLinks}</div></details>
       </div><div class="side-group"><details class="chapter-group">
@@ -484,6 +486,7 @@
     const caseOccurrences=(caseByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
     const dialogueOccurrences=(dialogueByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
     const gramLink='#grammar/'+u.chapter;
+    const editorialPriority=D.standard10.priorities?.[w.qaroshi];
     const affixByForm=new Map(D.affixes.map(x=>[x.form,x]));
     const suffInfo=x=>affixByForm.get(x)?.meaning||'reference grammar ending';
     const examples=occurrences.map(({sentence:p,surface,suffixes})=>`
@@ -626,6 +629,7 @@
         <div class="information"><label>Semantic topic</label><span><a href="#dictionary?domain=${enc(w.domain)}">${esc(w.domain)}</a></span></div>
         <div class="information"><label>Meaning status</label><span>Canonical editorial English gloss; no external comprehension claim</span></div>
         ${w.components?`<div class="information"><label>Components</label><span>${esc(w.components)}</span></div>`:''}
+        ${editorialPriority?`<p class="muted small">Priority lexical review item #${esc(editorialPriority.rank)}. This is an editorial queue, not a certification of the definition.</p><a class="button" href="#editorial?word=${enc(w.qaroshi)}">Inspect documented sense evidence or propose corrections</a>`:''}
         <div class="word-bottom-nav"><a class="button" href="#dictionary">Back to dictionary</a>
           <a class="button" href="#practice?word=${enc(w.qaroshi)}">Practice this word</a>
           <a class="button" href="#guide/dictionary_compounding">Dictionary conventions</a></div>
@@ -654,6 +658,9 @@
   }
   function renderValidation(){
     ST10.validation(main);setToc([]);
+  }
+  function renderEditorial(route){
+    EDITORIAL.mount(main,{word:route.query.get('word')||''});setToc([]);
   }
   function renderCurrentStandard(){
     const addenda=D.grammarAddenda||[];
@@ -887,6 +894,7 @@
       case 'conversation':renderConversation(route.id);break;
       case 'drills':renderDrills();break;
       case 'validation':renderValidation();break;
+      case 'editorial':renderEditorial(route);break;
       case 'dictionary':renderDictionary(route);break;
       case 'word':renderWord(route.id);break;
       case 'grammar':route.id?renderChapter(route.id):renderGrammarIndex();break;
