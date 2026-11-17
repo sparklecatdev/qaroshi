@@ -36,6 +36,11 @@ def flags(row,source_lex,overlay_lex):
         if witness.startswith("X91-") and (witness not in overlay_lex or
                 overlay_lex[witness].get("status")=="not_adopted"):
             issues.append("invalid 9.1 lexical overlay source "+witness)
+    # Explicitly flag an inherited editorial morphology that puts a modal
+    # before tense. Preserve inherited strings for traceability, and do not
+    # mistake 'no basic flag' for independent semantic correctness.
+    if re.search(r"-(?:ki|ho|du)-te\\b",q):
+        issues.append("Modal precedes tense; authoritative order is root-voice-tense-aspect-modal")
     d=row["domain"];v=int(row["variant"])
     if d=="time_motion" and v==4:
         if not (q.startswith("sen torëne ") and ". sen ana " in q and " nu " in q):
