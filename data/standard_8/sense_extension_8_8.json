@@ -1,0 +1,50 @@
+[
+  {
+    "id": "E88-001",
+    "family": 5,
+    "actor": "pëyingo",
+    "actor_id": "Q003512",
+    "verb": "rewoti",
+    "verb_id": "Q004079",
+    "patient": "kidishitë",
+    "patient_id": "Q60000064",
+    "actor_semantics": "musician",
+    "verb_semantics": "pack for transport",
+    "patient_semantics": "musical instrument in this scenario",
+    "lexical_source_gloss": "pack luggage",
+    "license": "active V1 for packing an instrument for travel",
+    "boundary": "Packing does not mean completing the trip or transporting the instrument. Prior travel-luggage meaning remains unchanged."
+  },
+  {
+    "id": "E88-002",
+    "family": 8,
+    "actor": "taru",
+    "actor_id": "Q004922",
+    "verb": "zhiseti",
+    "verb_id": "Q006472",
+    "patient": "ngibeko",
+    "patient_id": "Q002355",
+    "actor_semantics": "child",
+    "verb_semantics": "conceal a tangible object",
+    "patient_semantics": "notebook",
+    "lexical_source_gloss": "hide a feeling",
+    "license": "active V1 physical concealing of a notebook",
+    "boundary": "The old emotional-concealment use is not erased. Concealing a notebook does not guarantee nobody discovers it."
+  },
+  {
+    "id": "E88-003",
+    "family": 10,
+    "actor": "gura-mi",
+    "actor_id": null,
+    "verb": "shënami",
+    "verb_id": "Q004510",
+    "patient": "renguqa",
+    "patient_id": "Q003997",
+    "actor_semantics": "traveler (productive gura + -mi agent)",
+    "verb_semantics": "lose or misplace",
+    "patient_semantics": "transport ticket (contextual specialization)",
+    "lexical_source_gloss": "lose",
+    "license": "active V1 loss of a transport ticket; derived traveler agent",
+    "boundary": "The English challenge says ticket without type; this candidate assumes a transport ticket in a travel scenario and is NOT truth-condition exact without that context. This entry is a constrained paraphrase, not a verified full translation."
+  }
+]
