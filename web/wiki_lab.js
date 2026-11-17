@@ -162,7 +162,7 @@
       $('labTabInspect').setAttribute('aria-selected',String(!isBuild));
       (isBuild?$('labTabBuild'):$('labTabInspect')).focus();
     }));
-    host.addEventListener('click',e=>{
+    host.querySelector('.lab-page').addEventListener('click',e=>{
       const b=e.target.closest('[data-copy-qaroshi]');if(!b)return;
       const value=b.dataset.copyQaroshi;
       if(navigator.clipboard?.writeText)navigator.clipboard.writeText(value).then(()=>b.textContent='Copied').catch(()=>{b.textContent='Select the text to copy';});
