@@ -49,11 +49,14 @@ def build():
     assert len(base)==len(byid)==500
     assert sum(bool(x["qaroshi_full_candidate"]) for x in base)==135
     events=readjson("evidential_propositions_8_9.json")
+    nonassertions=readjson("epistemic_nonassertions_8_9.json")
     motion=readjson("motion_frames_8_9.json")
     misc=readjson("conditional_and_voice_8_9.json")
     assert len(events)==5 and len(motion)==3
     eventmap={x["family"]:x for x in events}
+    nonassertionmap={x["family"]:x for x in nonassertions}
     motionmap={x["family"]:x for x in motion}
+    assert len(nonassertionmap)==7
     assert len(eventmap)==5 and len(motionmap)==3
     cfmap={x["daily_family"]:x for x in misc["counterfactuals"]}
     carpenter=misc["additional_voice"]
@@ -87,6 +90,19 @@ def build():
                      ("speaker_inference" if variant==3 else "unknown_polar_content")),
                 "matrix_polar_knowledge_negated":variant==4,
                 "embedded_event_entailed":False if variant in (2,4) else None}
+        if domain=="evidentiality" and variant==5 and fam in nonassertionmap:
+            n=nonassertionmap[fam]
+            candidate=f"sen {n['event_clause']} do mi nu shërawëhu."
+            witness=n["source_ids"]+[n["id"]]
+            label="8_9_explicit_negative_claim_scope_editorial"
+            boundary=n["boundary"]
+            semantic_signature={
+                "underlying_english_alternative":n["alternative"],
+                "matrix_reporting_negated":True,
+                "embedded_event_asserted":False,
+                "embedded_event_negated":False,
+                "claim_act_asserted":False,
+                "speaker_position_on_event_truth":"unspecified"}
         if domain=="time_motion" and fam in motionmap:
             mo=motionmap[fam]
             candidate=mo["candidates"].get(str(variant))
