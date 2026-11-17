@@ -75,6 +75,29 @@ class Standard89(unittest.TestCase):
                     self.assertTrue(generated.endswith(" he do mi nu sëmi."))
                     self.assertFalse(sig["embedded_event_entailed"])
 
+    def test_no_report_is_not_report_of_a_negative(self):
+        from tools.stress81.scenarios import EVIDENCE
+        items=source("epistemic_nonassertions_8_9.json")
+        self.assertEqual(len(items),7)
+        for entry in items:
+            self.assertEqual(entry["alternative"],EVIDENCE[entry["family"]-1][1])
+            for ident in entry["source_ids"]:
+                self.assertIn(ident,self.lex)
+            id_=f"QS81-{200+(entry['family']-1)*5+5:04d}"
+            row=self.cases[id_]
+            text=row["qaroshi_full_candidate"]
+            self.assertEqual(text,f"sen {entry['event_clause']} do mi nu shërawëhu.")
+            self.assertEqual(row["candidate_status"],"8_9_explicit_negative_claim_scope_editorial")
+            self.assertNotIn("nu "+entry["event_clause"].split()[-1],text)
+            signature=json.loads(row["edition_8_9_semantic_signature_json"])
+            self.assertTrue(signature["matrix_reporting_negated"])
+            self.assertFalse(signature["embedded_event_asserted"])
+            self.assertFalse(signature["embedded_event_negated"])
+            self.assertEqual(signature["speaker_position_on_event_truth"],"unspecified")
+        roots={(r["qaroshi"],r["pos"]) for r in self.lex.values()}
+        self.assertIn(("naroaro","n"),roots)
+        self.assertIn(("gura","v"),roots)
+
     def test_temporal_roles_and_real_question_scope(self):
         self.assertEqual(len(self.temporal),3)
         for f in self.temporal:
