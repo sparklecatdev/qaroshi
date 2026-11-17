@@ -124,7 +124,10 @@
       3
     ],
     "human_attested": false,
-    "editorial_speech_rules": "8.1 embedded he do request; direct quoted negative fragment nu.; 8.9 content-clause action proposal followed by intransitive decline"
+    "editorial_speech_rules": "8.1 embedded he do request; direct quoted negative fragment nu.; 8.9 content-clause action proposal followed by intransitive decline",
+    "actor_base": "guqaki",
+    "actor_base_id": "Q001335",
+    "actor_derivation": "-sharo trained medical practitioner"
   },
   {
     "id": "SC89-07",
@@ -157,7 +160,7 @@
     "action": "ririsëmorushi-m khungëmi",
     "action_ids": [
       "Q5004370",
-      "Q001?"
+      "Q001763"
     ],
     "boundary": "Retain an audio recording for future access; this is distinct from capturing a new recording.",
     "licensed_variants": [
