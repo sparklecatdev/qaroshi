@@ -1,0 +1,387 @@
+{
+  "edition": "9.3",
+  "label": "bounded compositional Qaroshi parser and renderer, not unrestricted competence",
+  "source_valency": "data/semantics/valency_frames.json",
+  "licensing": "Only listed lexical argument classes and documented valency verbs are accepted. No global English gloss substitution. V2 requires object and recipient. Passive not generally licensed; a separate exact overlay would be needed.",
+  "nouns": [
+    {
+      "form": "mi",
+      "class": "person",
+      "gloss": "I",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "ti",
+      "class": "person",
+      "gloss": "you",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "sa",
+      "class": "person",
+      "gloss": "they (singular/contextual)",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "mara",
+      "class": "person",
+      "gloss": "friend",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "qaro",
+      "class": "flyer",
+      "gloss": "nardoragon",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "kima",
+      "class": "liquid",
+      "gloss": "water",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "shima",
+      "class": "document",
+      "gloss": "book",
+      "citation": "8.0 chapter 72"
+    },
+    {
+      "form": "shilë",
+      "class": "symbol",
+      "gloss": "written sign",
+      "citation": "8.0 chapter 17"
+    },
+    {
+      "form": "nëpoqo",
+      "class": "food",
+      "gloss": "bread",
+      "citation": "8.8 editorial lexeme"
+    },
+    {
+      "form": "naro",
+      "class": "place",
+      "gloss": "home",
+      "citation": "8.0 chapter 17"
+    }
+  ],
+  "verb_overrides": {
+    "goro": {
+      "subject": [
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "fly",
+      "note": "Nardoragon subject only for this limited test, not proof humans cannot fly"
+    },
+    "gura": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "goal": [
+        "place"
+      ],
+      "sense": "travel"
+    },
+    "nëra": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "location": [
+        "place"
+      ],
+      "sense": "stay"
+    },
+    "nëru": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "location": [
+        "place"
+      ],
+      "sense": "rest"
+    },
+    "rawo": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "play"
+    },
+    "wori": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "wander"
+    },
+    "gëma": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "dream"
+    },
+    "shiri": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "recipient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "speak"
+    },
+    "tika": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "person",
+        "flyer",
+        "document"
+      ],
+      "sense": "see"
+    },
+    "daru": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "protect"
+    },
+    "nashi": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "care for"
+    },
+    "mali": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "romantically love",
+      "note": "Independent relationship reading, never inferred from nashi"
+    },
+    "lani": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "familially love",
+      "note": "Never infer romance"
+    },
+    "këmë": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "liquid"
+      ],
+      "sense": "drink"
+    },
+    "shëma": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "food"
+      ],
+      "sense": "eat"
+    },
+    "shëliro": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "document",
+        "symbol"
+      ],
+      "sense": "read"
+    },
+    "shiroli": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "symbol"
+      ],
+      "sense": "write"
+    },
+    "sëmi": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "document",
+        "symbol"
+      ],
+      "sense": "know item; no content-do generalization"
+    },
+    "hari": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "document",
+        "symbol",
+        "food",
+        "liquid"
+      ],
+      "sense": "have/hold, not necessarily own"
+    },
+    "pëli": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [
+        "liquid"
+      ],
+      "recipient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "give water to person; not offer alone"
+    },
+    "sharoa": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "recipient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "ask without implying yes"
+    },
+    "përoa": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "recipient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "respond without implying agreement"
+    },
+    "mahori": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "consent; never inferred from silence"
+    },
+    "zëru": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "sense": "die"
+    },
+    "përë": {
+      "subject": [
+        "person",
+        "flyer"
+      ],
+      "patient": [],
+      "recipient": [
+        "person",
+        "flyer"
+      ],
+      "sense": "apologize; not auto-forgiven"
+    }
+  },
+  "allowed_resonances": [
+    "sen",
+    "hë",
+    "më",
+    "qor",
+    "zha",
+    "rak",
+    "wen",
+    "zher",
+    "rëm",
+    "hol",
+    "nëm",
+    "dal",
+    "sur",
+    "khar",
+    "lën",
+    "yë"
+  ],
+  "tense_suffixes": [
+    "",
+    "te",
+    "yu"
+  ],
+  "aspect_suffixes": [
+    "",
+    "se",
+    "mo",
+    "në"
+  ],
+  "modal_suffixes": [
+    "",
+    "ki",
+    "ho",
+    "du"
+  ],
+  "evidentials": [
+    "",
+    "si",
+    "hu",
+    "ye"
+  ],
+  "scope_ops": [
+    "after",
+    "before",
+    "when",
+    "report",
+    "unknown",
+    "if",
+    "counterfactual"
+  ],
+  "grammar_status": "9.3 editorial bounded syntax prototype, no unrestricted valency nor speaker attestation"
+}
