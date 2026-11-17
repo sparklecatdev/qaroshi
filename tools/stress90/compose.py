@@ -17,6 +17,7 @@ from tools.stress90.consent import compose as consent_compose,semantic_record as
 from tools.stress90.relatives import compose as relative_compose,semantics as relative_semantics
 from tools.stress90.technical import compose as technical_compose,semantics as technical_semantics
 from tools.stress90.modals import compose as modal_compose,semantics as modal_semantics
+from tools.stress90.literary import compose as literary_compose,semantics as literary_semantics
 
 STD=ROOT/"data/standard_8"
 OUT=ROOT/"data/stress90"
@@ -36,7 +37,8 @@ def proposals():
     relative=read("relative_frames_9_0.json")
     technical=read("technical_propositions_9_0.json")
     modal=read("modal_barrier_frames_9_0.json")
-    assert len(consent)==8 and len(relative)==5 and len(technical)==10 and len(modal)==3
+    literary=read("literary_frames_9_0.json")
+    assert len(consent)==8 and len(relative)==5 and len(technical)==10 and len(modal)==3 and len(literary)==7
     seen={}
     for frame in consent:
         for variant in (4,5):
@@ -87,6 +89,23 @@ def proposals():
                 semantics=modal_semantics(frame,variant),
                 caveat=frame["semantic_decision"]+" | "+frame["boundary"],
                 license="9.0 modals and conditional scope; no action or result automatically actual"
+            )
+    for frame in literary:
+        for variant in range(1,6):
+            candidate=literary_compose(frame,variant)
+            if candidate is None: continue
+            id_=f"QS81-{400+(frame['family']-1)*5+variant:04d}"
+            assert id_ not in seen
+            sources=[*frame["source_ids"],*(
+                  frame["interpretation_ids"] if variant==3 else
+                  frame["literal_ids"] if variant==4 else []),frame["id"],"LIT90"]
+            seen[id_]=dict(
+                candidate=candidate,
+                status="9_0_fiction_metaphor_attribution_and_literal_nonassertion",
+                witness=" | ".join(str(x) for x in sources),
+                semantics=literary_semantics(frame,variant),
+                caveat=frame["editorial_sense"]+" "+frame["no_world_entailment"],
+                license="Explicit literary metaphor, quotation, non-literal interpretation and temporally corrected reading"
             )
     for frame in technical:
         for variant in range(1,6):
