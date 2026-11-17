@@ -1,7 +1,7 @@
 {
   "edition": "23",
   "reference_standard": "8.0 normative core; 9.2–9.6 editorial tools",
-  "description": "Offline-first Qaroshi reference with complete source-bound word usage guides, precise dictionary search, original examples, reviewed grammar and private practice. Historical specialist apps remain available.",
+  "description": "Offline-first Qaroshi reference with original word meanings, source evidence, connected editorial conversations, controlled practice and independent human-comprehension study instructions. Historical specialist apps are preserved.",
   "highlights": [
     {
       "label": "Canonical entries",
@@ -40,23 +40,23 @@
     },
     {
       "id": "wiki",
-      "name": "Qaroshi Wiki: Meanings, Word Guides & Practice",
-      "edition": "Wiki 9.7",
+      "name": "Qaroshi Wiki: Meanings, Conversation & Learning",
+      "edition": "Standard 10 Wiki",
       "href": "index.html",
       "category": "Reference",
       "featured": true,
-      "note": "Every canonical word has meaning, grammatical placement, relevant morphology and source-linked context; actual example sentences are shown when recorded, with honest gaps.",
+      "note": "Sense distinctions with source provenance, 49 original editorial dialogues plus source-linked scenes, 1,572 controlled drills, independent reader trial guidance, dictionary and grammar.",
       "tags": [
         "dictionary",
-        "word meanings",
-        "examples",
-        "usage",
+        "meaning",
+        "conversation",
+        "dialogue",
+        "word senses",
+        "example sentences",
         "grammar",
-        "compounds",
-        "word families",
-        "phonetics",
-        "practice",
-        "learning"
+        "learning",
+        "review",
+        "language"
       ]
     },
     {

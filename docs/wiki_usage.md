@@ -8,6 +8,16 @@ The sidebar keeps five primary tasks visible: **Overview**, **Dictionary**, **Wr
 
 Use the upper search to find dictionary words, examples or chapter text. Press `/` to focus the search. Use `#dictionary` for full lexical search, or `#categories` to browse a small set of subject groups. Expanding an area reveals the original topic labels. Typing a topic name searches across all areas. Historic links such as `#word/gëro`, `#grammar/02` and `#dictionary?domain=...` remain valid.
 
+## Semantic definitions, conversations and controlled examples in Standard 10
+
+The Dictionary's **Definition and sense notes** section now separates previously authored core descriptions and restrictions from inherited normative/editorial polysemy, the 800-word prioritized evidence inventory, and unreviewed candidate cards. A selected English translation word is NOT automatically another Qaroshi sense. The candidate cards remain collapsed and visibly unreviewed.
+
+Open **Conversations** at #conversations to browse connected editorial dialogues. Each scene tells you the situation and shows speaker turns in Qaroshi, with optional English reveal. Words link directly to full dictionary guides. **Original editorial** scenes and **source phrase recombinations** are distinguished, and neither is presented as observed spontaneous conversation or independent native usage. A literal English parser gloss, where one was recorded, is shown separately from the contextual editorial English.
+
+Open **Controlled drills** at #drills for preexisting 1,572 generated/roundtripped practice sentences. Reveal answers, switch input language, and search common expressions. These are NOT independently checked translations. Prefer the canonical phrasebook for original controlled examples.
+
+Open **Independent comprehension** at #validation to learn how to run an actual blind human-reading study. The 80-item prompt generation, facilitator answer key and response/scoring tools live in the repository and are kept separate in CI artifacts. There have been **zero independent human validations** so far; the Wiki does not expose participant tracking or make fake research claims. See [the Standard 10 reference](../docs/standard_10/README.md) for study procedures.
+
 ## Full dictionary entries: meaning, structure and real context
 
 Every word page now opens with the **recorded meaning first**, followed immediately by pronunciation, semantic class, and a **How to use this word** explanation tied to its part of speech and the actual grammar. For common word classes the page gives safe grammatical templates and shows regular word forms (cases, tense, and similar). These are clearly labeled **illustrations, not independently attested complete sentences**.

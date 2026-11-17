@@ -430,3 +430,63 @@ a.word-chip-link:hover{border-color:var(--accent-border);background:var(--hover)
 .word-component-card{display:flex;flex-direction:column;gap:5px;border:1px solid var(--border);border-radius:9px;padding:12px 14px;background:var(--canvas);min-width:0}
 .word-component-card strong{display:block;font:650 .91rem/1.5 ui-monospace,monospace;overflow-wrap:anywhere}
 .word-component-card span{color:var(--muted);font-size:.81rem;line-height:1.5;overflow-wrap:anywhere}
+
+
+/* Standard 10: source-grounded senses, conversation reader and controlled drills */
+.std10-senses{border-top:1px solid var(--border);margin-top:12px}
+.std10-senses .word-section-title{margin-bottom:12px}
+.std10-profile{background:var(--canvas);border:1px solid var(--accent-border);border-radius:11px;padding:17px 19px;margin:15px 0}
+.std10-profile>strong,.std10-sense strong{font-size:.93rem}
+.std10-profile p{font-size:.9rem;line-height:1.65;margin:10px 0}
+.std10-profile small,.std10-sense small{display:block;font-size:.74rem;color:var(--muted);line-height:1.55}
+.std10-example-editor{border-top:1px solid var(--border);padding-top:11px}
+.std10-example-editor code{overflow-wrap:anywhere;white-space:normal}
+.std10-sense-list{display:grid;gap:10px;margin:15px 0}
+.std10-sense{display:flex;align-items:flex-start;gap:12px;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px 16px}
+.std10-sense-number{border-radius:8px;background:var(--canvas);font-size:.8rem;color:var(--muted);min-width:26px;padding:4px 7px;text-align:center}
+.std10-sense p{font-size:.88rem;margin:7px 0;line-height:1.65}
+.std10-construction{margin:9px 0;color:var(--muted);font-size:.83rem}
+.std10-priority,.std10-proposal{border:1px solid var(--border);border-radius:10px;margin:15px 0;padding:12px 15px}
+.std10-priority summary,.std10-proposal summary{cursor:pointer;font-size:.88rem;font-weight:650}
+.std10-proposal{border-style:dashed}
+.std10-priority[open],.std10-proposal[open]{background:var(--canvas)}
+.std10-proposal p,.std10-priority p{font-size:.86rem;line-height:1.6}
+.std10-proposal code{white-space:normal;overflow-wrap:anywhere}
+.std10-proposal small,.std10-priority small{font-size:.73rem;color:var(--muted)}
+.std10-no-sense{padding:13px 15px;border-left:3px solid var(--border);color:var(--muted);font-size:.85rem;line-height:1.65}
+.std10-dialogue-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:18px 0 23px}
+.std10-dialogue-card{display:flex;flex-direction:column;gap:8px;padding:15px 17px;border:1px solid var(--border);border-radius:11px;background:var(--panel);color:var(--text);text-decoration:none;line-height:1.5;min-width:0}
+.std10-dialogue-card:hover{background:var(--hover);border-color:var(--accent-border);color:var(--text);text-decoration:none}
+.std10-dialogue-card strong{font-size:1rem;overflow-wrap:anywhere}
+.std10-dialogue-card span:last-child{color:var(--muted);font-size:.84rem}
+.std10-dialogue-kind{font-size:.72rem;color:var(--link);font-weight:650}
+.std10-conversation-actions{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:19px 0}
+.std10-conversation-actions span{margin-left:8px}
+.std10-turns{display:flex;flex-direction:column;gap:14px;margin:20px 0}
+.std10-turn{background:var(--panel);border:1px solid var(--border);border-radius:13px;padding:17px 20px;max-width:95%;align-self:flex-start;min-width:0;overflow-wrap:anywhere}
+.std10-turn:nth-child(even){background:var(--canvas);align-self:flex-end}
+.std10-speaker{font-size:.73rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:750;margin-bottom:8px}
+.std10-qaroshi{font:600 1.05rem/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}
+.std10-lex{color:var(--link);border-bottom:1px dotted var(--accent-border);text-decoration:none}
+.std10-lex:hover{text-decoration:underline}
+.std10-turn-reveal{margin-top:10px}
+.std10-turn-reveal .button{padding:7px 11px;font-size:.77rem}
+.std10-english{padding-top:12px;margin-top:12px;border-top:1px solid var(--border)}
+.std10-english p{font-size:.88rem;line-height:1.6;margin:7px 0}
+.std10-english p strong{font-size:.8rem}
+.std10-drill-list{display:grid;gap:11px;margin:18px 0 22px}
+.std10-drill{padding:15px 18px;border:1px solid var(--border);border-radius:11px;background:var(--panel)}
+.std10-drill-id{font-size:.75rem;color:var(--muted)}
+.std10-drill-prompt{margin:11px 0 13px;font:600 .97rem/1.7 ui-monospace,monospace;overflow-wrap:anywhere}
+.std10-drill-answer{border-top:1px solid var(--border);margin-top:12px;padding-top:11px;line-height:1.65;overflow-wrap:anywhere}
+.std10-drill-answer p{margin:8px 0;font-size:.89rem}
+.std10-validation pre.code{display:block;overflow-x:auto;border:1px solid var(--border);background:var(--canvas);border-radius:9px;padding:14px;white-space:pre;max-width:100%}
+.std10-validation ol{padding-left:23px;line-height:1.8}
+.std10-validation li{margin:7px 0}
+.std10-validation .case-roles{margin:18px 0}
+@media(max-width:760px){
+ .std10-dialogue-list{grid-template-columns:1fr}
+ .std10-turn{max-width:100%;padding:14px 15px}
+ .std10-profile{padding:14px}
+ .std10-conversation-actions .button{flex:1}
+}

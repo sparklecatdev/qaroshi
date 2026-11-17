@@ -49,6 +49,7 @@ for c in letters:
 import sys
 sys.path.insert(0,str(ROOT))
 from tools.semantic94.complete import build as build_semantic_94
+from tools.standard10.resources import assemble as assemble_standard10
 build_semantic_94()
 semantic_rows=readcsv(ROOT/'data/stress94/source_semantic_requirements_500.csv')
 assert len(semantic_rows)==500
@@ -103,7 +104,7 @@ metadata={'words':public_words,'phrases':public_sentences,'chapters':chapters,'g
           'grammaticalParticles':json.loads((ROOT/'data/grammatical_particles.json').read_text(encoding='utf-8')),
           'affixes':json.loads((ROOT/'data/affixes.json').read_text(encoding='utf-8')),
           'grammarLicenses':licenses,'grammarFrames':frames,
-          'semanticCases':semantic_cases,'currentGrammarIntro':current_grammar_intro,
+          'semanticCases':semantic_cases,'standard10':assemble_standard10(),'currentGrammarIntro':current_grammar_intro,
           'grammarAddenda':grammar_addenda,
           'counts':{'dictionary':len(words),'phrasebook':len(sentences),'grammar':len(chapters),'letters':len(letters)}}
 blob=json.dumps(metadata,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e')
@@ -113,11 +114,12 @@ lab_js=(ROOT/'web/wiki_lab.js').read_text(encoding='utf-8')
 discovery_js=(ROOT/'web/wiki_discovery.js').read_text(encoding='utf-8')
 practice_js=(ROOT/'web/wiki_practice.js').read_text(encoding='utf-8')
 usage_js=(ROOT/'web/wiki_usage.js').read_text(encoding='utf-8')
+std10_js=(ROOT/'web/wiki_standard10.js').read_text(encoding='utf-8')
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark"><meta name="description" content="Qaroshi, the Nardoragon language: browse grammar, dictionary, learning guides, exercises, and the native handwritten alphabet.">
-<title>Qaroshi Wiki · Words, meanings, usage, grammar and practice</title>
+<title>Qaroshi Wiki · Meanings, conversations, grammar and practice</title>
 <script>{theme_js}</script><style>{css}</style></head><body>
 <header class="topbar"><a class="brand" href="#home" aria-label="Qaroshi home"><span class="brand-mark" aria-hidden="true">Q</span><span>Qaroshi <span class="light">Wiki</span></span></a>
 <div class="toolbar"><form class="top-search" id="topSearchForm" role="search"><label class="sr-only" for="topSearch">Search Qaroshi</label><span class="search-ico" aria-hidden="true">⌕</span>
@@ -129,7 +131,7 @@ page=f'''<!doctype html>
 <main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the reference…</p></article></main>
 <nav class="right-rail" aria-label="On this page" id="pageToc"></nav></div>
 <noscript><p style="padding:2rem">This wiki requires JavaScript for navigation and search. The source documents are available in the repository.</p></noscript>
-<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{js}</script>
+<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{std10_js}</script><script>{js}</script>
 </body></html>'''
 for filename in ('index.html', 'Qaroshi_Wiki.html'):
  (ROOT/filename).write_text(page,encoding='utf-8')
