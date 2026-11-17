@@ -73,6 +73,10 @@ def proposals():
         for variant in range(1,6):
             candidate=modal_compose(frame,variant)
             id_=f"QS81-{300+(frame['family']-1)*5+variant:04d}"
+            # QS81-0336 already has a historical 8.3 candidate. Do not
+            # overwrite or count it as new merely because a second form exists.
+            if id_=="QS81-0336":
+                continue
             assert id_ not in seen
             source=[*frame["action_ids"],*frame["barrier_ids"],
                     *(frame["consequent_ids"] if variant==1 else []),frame["id"],"MOD90"]
