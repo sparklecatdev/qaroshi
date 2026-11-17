@@ -20,51 +20,61 @@ Here `P` contains an overt subject and licensed predicate, `yano` is **an unspec
 
 This is an editorially defined construction for `yano` as indefinite source and `mi-tu` as recipient. A different speaker, addressee, embedded question, negative report, or nested quotation requires its own review. No automatic promotion of all forms of `shiri` is implied.
 
-## 2. Two new everyday action senses, neither replacing the old meaning
+## 2. Five newly licensed everyday senses and professional roles
 
-The earlier lexical roots remain fixed. Only these new, explicitly recorded active V1 senses are added:
+Existing canonical spellings and historical senses remain unchanged. These are deliberately adopted **editorial constructions** with the following exact senses and role limitations. A historical specialized sense does not automatically license these extensions: the new usage is explicitly stated here.
 
-| Root | Historical source | New **narrow** active sense | Word/role examples |
-| --- | --- | --- | --- |
-| `rewoti` (Q004079) | pack luggage | pack a musical instrument for transport | `pëyingo` (musician, Q003512), `kidishitë` (instrument, Q60000064) |
-| `zhiseti` (Q006472) | hide a feeling | conceal a physical notebook | `taru` (child, Q004922), `ngibeko` (notebook, Q002355) |
+| English scenario | Existing root(s) used | New narrowly declared meaning |
+| --- | --- | --- |
+| Musician packs an instrument | `rewoti` (Q004079), `pëyingo`, `kidishitë` | `rewoti` (historically “pack luggage”) may take a musical instrument as the item packed for transport |
+| Gardener waters seedlings | `tëzhida` (garden), `pëli` (give), `zerëzhika` (seedlings), `kima` (water) | `tëzhida-mi` is a gardener professionally tending a garden; the *recipient* seedlings take `-tu`, actual water transferred takes `-m`, followed by `pëli` |
+| Child hides notebook | `zhiseti` (Q006472), `taru`, `ngibeko` | `zhiseti` (historically “hide a feeling”) newly licenses concealment of a physical notebook |
+| Shopkeeper counts coins | `sebenga` (merchant), `rëmë` (count), `setola` (coin) | New retail-shopkeeper reading of `sebenga`; `rëmë` gains V1 coin-counting, with plural `setola-ri-m` |
+| Traveler loses ticket | `gura` (travel), `shënami` (lose), `renguqa` (historically transport ticket) | `gura-mi` derives traveler; `renguqa` gains an editorial broad **ticket-credential** sense (entry, service or transport ticket), leaving its transport-specific sense intact |
 
-**No** passive, causative, broad object substitution, forced outcome, or generic “hide everything” sense is added. Present, past, future, local negation, and matrix polar questioning continue to use inherited syntax, with the overt object marked `-m`.
+The `-mi` occupation derivation follows the productive action/role morphology already defined in the consolidated grammar. It does not mean every person associated with a garden is automatically professionally employed as a gardener; that is the **new narrowed occupational sense** in this construction. The `-sharo` derivation below identifies a trained practitioner or specialist of a verb-root activity.
 
-Examples:
+Examples in new 8.8 usage:
 
-| English meaning | New Qaroshi composition |
+| English target | Full Qaroshi editorial candidate |
 | --- | --- |
 | The musician packed the instrument. | `sen pëyingo kidishitë-m rewoti-te.` |
-| The musician did not pack the instrument. | `sen pëyingo kidishitë-m nu rewoti-te.` |
-| Did the musician pack the instrument? | `hë pëyingo kidishitë-m rewoti-te he?` |
+| The gardener watered the seedlings. | `sen tëzhida-mi zerëzhika-tu kima-m pëli-te.` |
 | The child hid the notebook. | `sen taru ngibeko-m zhiseti-te.` |
-| The child did not hide the notebook. | `sen taru ngibeko-m nu zhiseti-te.` |
-| Did the child hide the notebook? | `hë taru ngibeko-m zhiseti-te he?` |
+| The shopkeeper counted the coins. | `sen sebenga setola-ri-m rëmë-te.` |
+| The traveler lost the ticket. | `sen gura-mi renguqa-m shënami-te.` |
 
-The *transport ticket* example `gura-mi renguqa-m shënami-te` is **not accepted as an exact full translation** of “The traveler lost the ticket.” `gura-mi` is a transparent role derivative meaning traveler, but `renguqa` means **transport ticket**, a subtype of unspecified ticket. This difference is tracked as a contextual-only paraphrase, never counted as a solved target.
+Negative versions put `nu` immediately before the predicate. Questions use initial question resonance and the matrix `he?`. An indirect report of one of these propositions uses the *full source+recipient* construction in section 1 and does not assert that proposition is true. No passive or causative for these five action senses is licensed here.
 
-## 3. Narrow passive and instrument permissions
+**Semantic limits:** “water” is an event of delivering actual water to seedlings, not a promise that they thrive; “count” does not imply correct total; “hide” does not guarantee permanent invisibility; “pack” does not imply arrival. The new ticket-credential sense is a **language design decision**, not a claim that every historical use of `renguqa` already meant every kind of ticket. If “ticket” means a police citation rather than access or service credential, the translation needs a separate sense.
 
-The older overlays did not authorize generic passives for every verb/object pair. This edition authorizes **exactly five selected** active/passive pairs, using independently source-indexed existing roots and attested dictionary IDs (see `data/standard_8/valency_overlay_8_8.json`). This is a new editorial licensing decision, not an observation of spontaneous usage.
+## 3. Nine exact passive and instrument licenses
 
-| Active root | Actor class | Patient class | Physical instrument if licensed |
+The earlier standard requires a verb-specific voice license, not generic `-li` for every verb. This edition adopts **nine specified active/passive roles**. It establishes new lexical-sense and participant-class rules. Individual English sentence challenges can be composed only when all the roles really are the ones shown here.
+
+| Root | Licensed actor | Licensed patient | Licensed instrument (if any) |
 | --- | --- | --- | --- |
-| `rëgë` (repair) | `regaro` mechanic | `pënaro` engine | `bebëyo` wrench |
-| `bekedu` (calibrate) | `pëyuzha` technician | `bengeka` sensor | not specified |
-| `tëmengi` (decorate) | `pëkhëba` artist | `ngëroa` wall | not specified |
-| `shëruwawe` (alter) | `gizuwa` tailor | `gikhoto` coat | `gibika` needle |
-| `shëmiroli` (wash) | `rezhago` driver | `yarowe` vehicle | not specified |
+| `rëgë` repair | `regaro` mechanic | `pënaro` engine | `bebëyo` wrench |
+| `ngigoyi` clean an appliance | `nëbihu-sharo` baker | `tëkuta` oven | `gëruza` cleaning brush |
+| `debokhu` paint | `tëzhida-mi` gardener | `tëgaba` fence | *no particular roller licensed* |
+| `bekedu` calibrate | `pëyuzha` technician | `bengeka` sensor | not specified |
+| `tëmengi` decorate | `pëkhëba` artist | `ngëroa` wall | not specified |
+| `khuziqu` copy a document | `khunikhu-sharo` archivist | `zonësongi` document | `khukhodo` scanner |
+| `shëruwawe` alter | `gizuwa` tailor | `gikhoto` coat | `gibika` needle |
+| `shëmiroli` wash | `rezhago` driver | `yarowe` vehicle | *no particular hose licensed* |
+| `pasizo` secure | `zashëzhena` worker | `raro` door | *no particular steel lock licensed* |
 
-For each exact pair:
+Professional actors are derived only where justified: `nëbihu` (bake) + `-sharo` (specialist) for baker, and `khunikhu` (archive) + `-sharo` for archivist. The garden role above uses a separately declared occupational sense. A `-sharo` derivation is not an assertion about a particular individual's qualifications.
 
-* Active `sen ACTOR PATIENT-m VERB-te.` asserts a past action.
-* Passive `sen PATIENT ACTOR-za VERB-li-te.` promotes the patient and names the actual actor with `-za`.
-* Instrumented active `sen ACTOR PATIENT-m INSTRUMENT-shi VERB-te.` is licensed **only if an instrument is listed**. `-shi` is **never** the passive agent.
-* Negation `sen ACTOR PATIENT-m nu VERB-te.` denies the past action.
-* Passive question `hë PATIENT ACTOR-za VERB-li-te he?` queries that event.
+For each exact role set the grammar now permits:
 
-A past repaired engine does not entail that the engine works now. An altered coat does not entail a particular size; a calibrated sensor does not prove that later readings are accurate. The code checks exact listed noun roots, and will not accept a generic “repair a person” or a “decorate with a wrench” merely because the affixes are well formed.
+* `sen ACTOR PATIENT-m VERB-te.` Active past action.
+* `sen PATIENT ACTOR-za VERB-li-te.` Passive with the actual actor identified. **`-za` is the agent, not `-shi`.**
+* `sen ACTOR PATIENT-m INSTRUMENT-shi VERB-te.` Active action performed with an explicitly licensed physical tool **only when listed**.
+* `sen ACTOR PATIENT-m nu VERB-te.` Negative past assertion, not proof of attempted action.
+* `hë PATIENT ACTOR-za VERB-li-te he?` Passive polar question with the agent inside question scope.
+
+The instrument in the English stress prompts is often more specific than the root available in the historical lexicon. Unsupported instrument versions are therefore **not counted**: a “painting implement” is not necessarily a roller, and a “fastening tool” is not necessarily a steel lock. Likewise, securing a door via `pasizo` does not prove it is locked, and cleaning an oven does not establish sterilization. Prior unrelated patient classes are not silently generalized.
 
 ## 4. Closing the focus-plus-now exception
 
@@ -80,9 +90,9 @@ Meaning: **Only this Nardoragon is well right now.**
 
 For each of the ten original semantic domains, the generator now records a separate five-way list of **required meaning components** (reported sources, chronological ordering, permission vs ability, counterfactual result, patient vs instrument, metaphor vs literal assertion, scientific inference, etc.). Every one of the 500 prompts gets a row, whether or not a candidate exists. Source gaps are never hidden by truncating an English clause.
 
-The 8.8 output expects **105 complete editorial candidate strings** (96 previously proposed plus nine new) and **395 without any complete draft**. The 22 previously drafted selected voice/valency examples receive an explicit *narrow* voice/selectional licensing record, but this does **not** increase the distinct-sentence count. The three revised inherited reported-information drafts retain their historical provenance. Four contextually narrowed “ticket” paraphrases are deliberately excluded.
+The 8.8 output expects **135 complete editorial candidate strings** (96 previously proposed plus 39 new) and **365 without any complete draft**. The 22 previously drafted selected voice/valency examples receive a new narrow explicit role license and **18 additional voice/valency candidates** cover previously undrafted challenges. The three revised inherited reported-information candidates retain their historical provenance. New everyday senses add 20 full editorial candidates and the present-time quantifier composition adds one. This is additive candidate coverage, not a reader-rated validity score.
 
-**Human comprehension results: zero.** The proposed candidates may still need sense disambiguation or correction. The other 395 challenges remain open. The existence of formal tests shows consistency with the editorial specification, not full natural-language proficiency or truth-conditional equivalence measured by independent readers.
+**Human comprehension results: zero.** The proposed candidates may still need sense disambiguation or correction. The other 365 challenges remain open. The existence of formal tests shows consistency with the editorial specification, not full natural-language proficiency or truth-conditional equivalence measured by independent readers.
 
 ## Reproduction and integrity
 
