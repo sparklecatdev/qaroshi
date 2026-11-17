@@ -1,0 +1,203 @@
+[
+  {
+    "id": "MOD91-02",
+    "family": 2,
+    "who": "rewunu-mi",
+    "action": "rewunu-mi rekëra yudëne-m reruki",
+    "barrier": "renguqa-ri wëharono eri-te",
+    "consequence": "hëgoro luzhuso eri-te, rewunu-mi yurë",
+    "action_ids": [
+      "Q003953",
+      "Q005608",
+      "Q004032"
+    ],
+    "barrier_ids": [
+      "Q003997"
+    ],
+    "consequent_ids": [
+      "Q002242",
+      "Q005823"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "By noon is a completion deadline hëgoro, not simply arrival at noon. Ticket sold-out status changing need not restore ticket availability."
+  },
+  {
+    "id": "MOD91-03",
+    "family": 3,
+    "who": "tëzhida-mi",
+    "action": "tëzhida-mi lëruwa-m daru",
+    "barrier": "lëruwa-na gëwëru-ri zaki-rë-lo wëzëya eri-te",
+    "consequence": "tëhulo-marao lupaba yëla-rë-m hari",
+    "action_ids": [
+      "Q002264",
+      "Q000420"
+    ],
+    "barrier_ids": [
+      "Q006009"
+    ],
+    "consequent_ids": [
+      "Q004978",
+      "Q002274",
+      "Q002133"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Rescuing a tree is a narrow protection sense. Tree root damage is severe; courtyard shade is greater than without saving the tree; projected shade is not an actual outcome."
+  },
+  {
+    "id": "MOD91-05",
+    "family": 5,
+    "who": "pëleya",
+    "action": "pëleya lushënga-m zhishilu",
+    "barrier": "rëwësha yumahe eri-te",
+    "consequence": "reyëzho-ri yëwaro rezini",
+    "action_ids": [
+      "Q003429",
+      "Q002187",
+      "Q006479"
+    ],
+    "barrier_ids": [
+      "Q005710"
+    ],
+    "consequent_ids": [
+      "Q004094",
+      "Q004113"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Avoidance of a storm does not imply a safer trajectory; passenger landing is a metonymic collective disembarkation via aircraft landing."
+  },
+  {
+    "id": "MOD91-06",
+    "family": 6,
+    "who": "pëzhoza",
+    "action": "pëzhoza shima wëzëya-m bekhewu",
+    "barrier": "dehiku nu yurë-te",
+    "consequence": "pëyeno-ri ngitësha-m zhëmiro",
+    "action_ids": [
+      "Q003518",
+      "Q004426",
+      "Q000062"
+    ],
+    "barrier_ids": [
+      "Q60000529",
+      "Q005823"
+    ],
+    "consequent_ids": [
+      "Q003509",
+      "Q002571",
+      "Q006559"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Replacing a damaged book is a new whole-item replacement sense; replacement item had not arrived, distinct from inability to find the chapter."
+  },
+  {
+    "id": "MOD91-07",
+    "family": 7,
+    "who": "pëyingo",
+    "action": "pëyingo detogo-m rërawëmi",
+    "barrier": "tëpasho mëraliwo-te",
+    "consequence": "pëpuko shira zësharo-m ronaro",
+    "action_ids": [
+      "Q003512",
+      "Q000681",
+      "Q004182"
+    ],
+    "barrier_ids": [
+      "Q002310"
+    ],
+    "consequent_ids": [
+      "Q003466",
+      "Q004434",
+      "Q004125"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Electric power failure is not a proof no concert could continue acoustically; last song means final sequence item."
+  },
+  {
+    "id": "MOD91-09",
+    "family": 9,
+    "who": "pëpuwo",
+    "action": "pëpuwo tëgaka-m rëliwa",
+    "barrier": "karoa-ri shënami-li-te",
+    "consequence": "dëra-ri rëpëra tëgaka-gu shënawë",
+    "action_ids": [
+      "Q003468",
+      "Q004956",
+      "Q004143"
+    ],
+    "barrier_ids": [
+      "Q001465",
+      "Q004510"
+    ],
+    "consequent_ids": [
+      "Q000939",
+      "Q004531"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Keys were misplaced as a passive event. Safe entry is a projected outcome, not entailed by opening alone."
+  },
+  {
+    "id": "MOD91-10",
+    "family": 10,
+    "who": "remaqo",
+    "action": "remaqo luzosha-gu yurë",
+    "barrier": "gëwaro tëroshë eri-te",
+    "consequence": "rezhuko yëwaro nëru",
+    "action_ids": [
+      "Q003968",
+      "Q002249",
+      "Q005823"
+    ],
+    "barrier_ids": [
+      "Q002130",
+      "Q006009"
+    ],
+    "consequent_ids": [
+      "Q004109",
+      "Q003084"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "boundary": "Captain reaching island does not imply the entire crew rested; early rest is projected only. Current too strong is an actual counterfactual obstacle."
+  }
+]

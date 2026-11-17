@@ -1,0 +1,229 @@
+[
+  {
+    "family": 1,
+    "main": "rikanga kimaro-m lurezhu-te",
+    "after": "tarowa qumoki-li-te",
+    "before": "lushënga wuzhagi-te",
+    "ids": [
+      "Q3L9FDD818E9DF6",
+      "Q001961",
+      "Q002153",
+      "Q004921",
+      "Q5001714",
+      "Q002187",
+      "Q005492"
+    ],
+    "variants": [
+      4
+    ],
+    "note": "Storm ending is the until endpoint; crossing is asserted later, not just implied."
+  },
+  {
+    "family": 2,
+    "main": "reyëzho-ri repaba-m reqopu-te",
+    "after": "remaqo gëngora-m shëngaru-te",
+    "before": "shëraza lukhoshu-te",
+    "ids": [
+      "Q004094",
+      "Q004012",
+      "Q004020",
+      "Q003968",
+      "Q004605",
+      "Q002076"
+    ],
+    "variants": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "note": "Bell is a physical sounding instrument; the captain causes it to ring. Already drafted before-fog sentence remains unchanged."
+  },
+  {
+    "family": 3,
+    "main": "tërawa-mi gëru-yëla-gu yurë-te",
+    "after": "teshishi taroa-m shërawëhe-te",
+    "before": "khura zaki-rë-m wënarë-te",
+    "ids": [
+      "Q005103",
+      "Q001446",
+      "Q005823",
+      "Q5001985",
+      "Q004920",
+      "Q004576",
+      "Q001812",
+      "Q006009",
+      "Q005518"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Climber reaches mountain summit; guide checks route. Greater wind strength is a scalar physical intensification, not wind created."
+  },
+  {
+    "family": 4,
+    "main": "gukhaya pagaze-de dëru-te",
+    "after": "rengëna-shiwari-mi rengëna-m shërawëhe-te",
+    "before": "kharo-shënaroa shërawëro-te",
+    "ids": [
+      "Q001253",
+      "Q60000062",
+      "Q000952",
+      "Q003999",
+      "Q004576",
+      "Q001621",
+      "Q004517",
+      "Q004600"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Ambulance leaves station, dispatcher independently confirms address, an audible alarm ceases."
+  },
+  {
+    "family": 5,
+    "main": "relomo-ri qëmogë-nga retibu-te",
+    "after": "shënu lira-rë-gu shëruwawe-te",
+    "before": "shënu-tëbila-ri tëkoti-li-te",
+    "ids": [
+      "Q003966",
+      "Q60000892",
+      "Q004066",
+      "Q004543",
+      "Q002009",
+      "Q004626",
+      "Q004937",
+      "Q005001"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Bicycles go past market (new path-via frame) while road becomes narrower; streetlights switch on without an asserted human agent."
+  },
+  {
+    "family": 6,
+    "main": "pëleya goro-këlë-m rezini-te",
+    "after": "remëzo-na tëbila-ri shërawëmi-te",
+    "before": "kimazu ngaroa-rë-gu shëruwawe-te",
+    "ids": [
+      "Q003429",
+      "Q004113",
+      "Q003984",
+      "Q004937",
+      "Q004589",
+      "Q001964",
+      "Q002351",
+      "Q004626"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Pilot lands aircraft; runway lights appear; rain changes to higher intensity. Do not infer safe landing."
+  },
+  {
+    "family": 7,
+    "main": "pësënga-ri deneka-gu shënawë-te",
+    "after": "raro-ri rëliwa-te",
+    "before": "deyega wërawë-te",
+    "ids": [
+      "Q003496",
+      "Q000559",
+      "Q004531",
+      "Q003866",
+      "Q004143",
+      "Q000709",
+      "Q005532"
+    ],
+    "variants": [
+      4
+    ],
+    "note": "Tourists enter museum only after exhibition begins; no permission from opening doors asserted."
+  },
+  {
+    "family": 8,
+    "main": "taroa-gura-mi-ri luringi-dëno-gu rëru-te",
+    "after": "luhëza wërawë-te",
+    "before": "punushu suzhami-li-te",
+    "ids": [
+      "Q004920",
+      "Q002155",
+      "Q004184",
+      "Q002057",
+      "Q005532",
+      "Q5002016",
+      "Q004877"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Hikers return to the previously established campsite; sunset begins and fire is ignited. No attribution of the lighter."
+  },
+  {
+    "family": 9,
+    "main": "rekëra deteyela-lo shërawëro-te",
+    "after": "shënaroa shëruwawe-te",
+    "before": "reyibo aru rëliwa-te",
+    "ids": [
+      "Q003953",
+      "Q5002056",
+      "Q004600",
+      "Q004517",
+      "Q004626",
+      "Q004086",
+      "Q000003",
+      "Q004143"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Train stops at station platform, railway signal changes, crossing reopens; reopening does not entail trains can pass safely."
+  },
+  {
+    "family": 10,
+    "main": "tekoka wëngaro-gu wërai-te",
+    "after": "shiroa shirongo-m shiwari-te",
+    "before": "lunizo yënawë-te",
+    "ids": [
+      "Q3L6AE05AC405C9",
+      "Q005523",
+      "Q005530",
+      "Q004441",
+      "Q5002006",
+      "Q004444",
+      "Q002130",
+      "Q005989"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Rescue team approaches cliff, radio sends warning, tide rises independently. No causal claim."
+  }
+]

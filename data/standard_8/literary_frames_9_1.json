@@ -1,0 +1,126 @@
+[
+  {
+    "id": "LIT91-01",
+    "family": 1,
+    "p": "wena zësharo yëli-ma-m qashiyi-te",
+    "interpretation": "luhëza yurë-te",
+    "literal": "wena-këzapu zhëmiwa-te",
+    "source_ids": [
+      "Q005252",
+      "Q005979",
+      "Q003642"
+    ],
+    "interpretation_ids": [
+      "Q002057",
+      "Q005823"
+    ],
+    "literal_ids": [
+      "Q60000266",
+      "Q006561"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "editorial_sense": "Personified sky swallowing its final light is a poetic sunset image, not physical destruction of astronomical bodies.",
+    "no_world_entailment": "No literal astronomical destruction is asserted; interpretations are editorial not attested idioms."
+  },
+  {
+    "id": "LIT91-07",
+    "family": 7,
+    "use_existing_9_0_frame": true,
+    "interpretation": "tëhulo morë-na mahobë morura-de shëruwawe-te",
+    "literal": "tëhulo qapipo-m hari-te",
+    "source_ids": [
+      "Q004978",
+      "Q002293",
+      "Q60000061",
+      "Q002289",
+      "Q004626",
+      "Q003609"
+    ],
+    "variants": [
+      3,
+      4
+    ],
+    "editorial_sense": "Old house remembered winters: historical atmosphere shaped by past events, not a house with a brain.",
+    "no_world_entailment": "No biological memory organ in a building asserted."
+  },
+  {
+    "id": "LIT91-08",
+    "family": 8,
+    "p": "lushënga raro-m shëzabo-te",
+    "interpretation": "khura ara kimazu zhërawo-m shëzabo-te",
+    "literal": "lushënga pëla sharoa-te",
+    "source_ids": [
+      "Q002187",
+      "Q003866"
+    ],
+    "interpretation_ids": [
+      "Q001812",
+      "Q001964",
+      "Q006573"
+    ],
+    "literal_ids": [
+      "Q004414"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "editorial_sense": "Storm knocking at door describes rain/wind hitting entry rather than meteorology making a polite request.",
+    "no_world_entailment": "No conscious weather trying to be admitted."
+  },
+  {
+    "id": "LIT91-09",
+    "family": 9,
+    "use_existing_9_0_frame": true,
+    "interpretation": "shënu kezëgi-li-te ara shara-ri shënu-na morura-m ngëmiro-te",
+    "source_ids": [
+      "Q004543",
+      "Q001611",
+      "Q004410",
+      "Q002289",
+      "Q002838"
+    ],
+    "variants": [
+      3
+    ],
+    "editorial_sense": "Forgotten traveler road connotes abandoned trails and history people forgot.",
+    "no_world_entailment": "Pavement is not conscious."
+  },
+  {
+    "id": "LIT91-10",
+    "family": 10,
+    "p": "punushu naroaro-m zëmaro-gu debokhu-te",
+    "interpretation": "punushu-na yëli-ma kërawoa zëmaro",
+    "literal": "zhalo debokhu-këlë-shi naroaro-m debokhu-te",
+    "source_ids": [
+      "Q5002016",
+      "Q002333",
+      "Q000439"
+    ],
+    "interpretation_ids": [
+      "Q005979",
+      "Q001991"
+    ],
+    "literal_ids": [
+      "Q006275"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "editorial_sense": "Fire painting a room gold poetically describes warm golden illumination, not use of paint.",
+    "no_world_entailment": "No flames with a literal paintbrush are asserted."
+  }
+]

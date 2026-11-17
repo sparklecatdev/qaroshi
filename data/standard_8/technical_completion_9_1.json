@@ -1,0 +1,64 @@
+[
+  {
+    "id": "TEC91-01",
+    "family": 1,
+    "recommendation": "nohowa-bekega yëngaro-m nëzaro-du",
+    "recommendation_ids": [
+      "Q002874",
+      "Q000057",
+      "Q005990"
+    ],
+    "unsupported": "zekëzhegi shëlëno",
+    "unsupported_ids": [
+      "Q5001681"
+    ],
+    "variants": [
+      4,
+      5
+    ],
+    "decision": "Electrical safety circuit should stop charging the hot battery. A charger being defective remains an explicitly unsupported alternative explanation; do not claim it actually failed."
+  },
+  {
+    "id": "TEC91-03",
+    "family": 3,
+    "unsupported": "khuzhaso bëkaro-li-te",
+    "unsupported_ids": [
+      "Q001924"
+    ],
+    "variants": [
+      5
+    ],
+    "decision": "A dropped network connection is insufficient to prove the server suffered a cyberattack; a cyberattack remains logically possible but unasserted."
+  },
+  {
+    "id": "TEC91-09",
+    "family": 9,
+    "recommendation": "subali-mi-ri shëlawe-m nëkaro-du",
+    "recommendation_ids": [
+      "Q004462"
+    ],
+    "unsupported": "shënaroa wëlawaro-de yurë-te",
+    "unsupported_ids": [
+      "Q004517",
+      "Q005823"
+    ],
+    "variants": [
+      4,
+      5
+    ],
+    "decision": "Researchers should rule out instrumental noise as an alternate explanation; a signal from an extraterrestrial civilization is not established by a faint telescope detection."
+  },
+  {
+    "id": "TEC91-10",
+    "family": 10,
+    "unsupported": "qilazo dulete tësoru eri-te",
+    "unsupported_ids": [
+      "Q003743",
+      "Q000806"
+    ],
+    "variants": [
+      5
+    ],
+    "decision": "A contract being unsigned cannot alone demonstrate that it becomes automatically void; jurisdictional law and other validity requirements are not inferred."
+  }
+]

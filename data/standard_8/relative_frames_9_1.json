@@ -1,0 +1,179 @@
+[
+  {
+    "id": "REL91-02",
+    "family": 2,
+    "head": "shima",
+    "head_id": "Q004426",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "shimi sezhoshi-te sha",
+    "matrix_event": "shimi sezhoshi-te sha shima shima-na shimo zësharo-m nu hari-te",
+    "conditional_consequence": "pëzhoza tëzheka-ri-m qumoki-yu",
+    "reason": "yano shima-na shimo zësharo-m shëqano-te",
+    "source_ids": [
+      "Q004428",
+      "Q004389",
+      "Q004430",
+      "Q003518",
+      "Q005187",
+      "Q5001714"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "The final page belongs to the specific borrowed book. In the cause someone removed that last page, with source yano not inferred to be the student."
+  },
+  {
+    "id": "REL91-03",
+    "family": 3,
+    "head": "shiroli-shëlë",
+    "head_id": "X91-031",
+    "head_gap_role": "relative_subject",
+    "relative_clause": "lëru-m nu hari-te ara yurë-te sha",
+    "matrix_event": "lëru-m nu hari-te ara yurë-te sha shiroli-shëlë shirongo-m hari-te",
+    "conditional_consequence": "naru rëzawo-tu shiwaro-m shiwari-yu",
+    "reason": "shiroli-shëlë-na rihaga wëzëya eri-te",
+    "source_ids": [
+      "Q002263",
+      "Q005823",
+      "Q5002006",
+      "Q004445",
+      "Q004444",
+      "Q53001406"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Arrival and namelessness both restrict the same correspondence-letter head. Its contents are warning, the proposed response contacts the letter's sender."
+  },
+  {
+    "id": "REL91-04",
+    "family": 4,
+    "use_existing_9_0_frame": true,
+    "reason": "beyawa sëzaro eri-te",
+    "source_ids": [
+      "Q000170"
+    ],
+    "variants": [
+      5
+    ],
+    "note": "Replacement part was faulty; this is not an independent assumption of why all repairs fail."
+  },
+  {
+    "id": "REL91-05",
+    "family": 5,
+    "use_existing_9_0_frame": true,
+    "conditional_consequence": "zemobo-na zënaro zemobo-m yarëro-yu",
+    "source_ids": [
+      "Q006122",
+      "Q005557"
+    ],
+    "variants": [
+      4
+    ],
+    "note": "Owner of the same dog would come looking for that dog, not for the cyclist or bridge."
+  },
+  {
+    "id": "REL91-06",
+    "family": 6,
+    "head": "shira",
+    "head_id": "Q004434",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "shira-sëli deruqi-te sha",
+    "matrix_event": "shira-sëli deruqi-te sha shira rëpeshë eri-te",
+    "conditional_consequence": "detogo yëwaro rërawëmi-yu",
+    "reason": "shira-na khabake ka shëqano-li-te",
+    "source_ids": [
+      "Q004898",
+      "Q000631",
+      "Q000681",
+      "Q004182",
+      "Q5001460"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Choir rehearsed song as object-gap; song duration was shorter than expected, not simply short. One of the song's verses omitted causally."
+  },
+  {
+    "id": "REL91-07",
+    "family": 7,
+    "head": "tikashë",
+    "head_id": "Q004931",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "rewunu-mi shëmiroa-te sha",
+    "matrix_event": "rewunu-mi shëmiroa-te sha tikashë gëru ngëmoa-m gëzëmu-te",
+    "conditional_consequence": "tëkaro ngizuwi-li-yu-du",
+    "reason": "khudibo-na yërawë ngëmoa eri-te",
+    "source_ids": [
+      "Q004491",
+      "Q001446",
+      "Q002841",
+      "Q004984",
+      "Q002618",
+      "Q001651",
+      "Q006001"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Saved photograph depicts wrong mountain; map correction is an obligation only if antecedent holds; camera clock is faulty reason."
+  },
+  {
+    "id": "REL91-08",
+    "family": 8,
+    "use_existing_9_0_frame": true,
+    "conditional_consequence": "sëli ngadonerë-m hari-yu-du",
+    "source_ids": [
+      "Q004898",
+      "Q60000589"
+    ],
+    "variants": [
+      4
+    ],
+    "note": "Group has a need for an explanation if previously-forwarded message was deleted; no actual request is asserted."
+  },
+  {
+    "id": "REL91-10",
+    "family": 10,
+    "head": "morushira",
+    "head_id": "Q002291",
+    "head_gap_role": "relative_patient",
+    "relative_clause": "taru-ri yëmiro-te sha",
+    "matrix_event": "taru-ri yëmiro-te sha morushira pëzhato-ri-m yëzanu-te",
+    "conditional_consequence": "yarao tëwëda-ri-m sharoa-yu",
+    "reason": "tëpuwo-ri po-na lëru-ri yuzhëte eri-te",
+    "source_ids": [
+      "Q004922",
+      "Q005984",
+      "Q003516",
+      "Q005548",
+      "Q004414",
+      "Q002263",
+      "Q005955"
+    ],
+    "variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "The children invented the story, and that story confused adults. The cause is two different fictional characters with identical names."
+  }
+]
