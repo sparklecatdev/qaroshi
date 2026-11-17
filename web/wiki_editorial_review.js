@@ -111,6 +111,11 @@ function create(data){
        if(filter==='draft'&&!draft)return false;
        return !query||[w.qaroshi,w.english,w.domain].some(x=>norm(x).includes(query));
      });
+     // Exact queried lemma comes first even when other glosses or compound
+     // names contain the same substring; then retain original priority order.
+     if(query)filtered.sort((a,b)=>
+       (norm(a.word.qaroshi)===query?-1:0)-(norm(b.word.qaroshi)===query?-1:0)||
+       a.meta.rank-b.meta.rank);
      const visible=filtered.slice(0,shown);
      active=visible.map(x=>x.word.qaroshi);
      $('editorialCount').textContent=N(filtered.length)+' prioritized entries match · '+N(visible.length)+' displayed';
