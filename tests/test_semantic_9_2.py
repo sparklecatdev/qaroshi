@@ -27,6 +27,8 @@ class SemanticAudit92(unittest.TestCase):
         self.assertEqual(summary["original_cases"],500)
         self.assertEqual(summary["full_existing_editorial_drafts"],500)
         self.assertEqual(summary["checked_for_speech_act_by_domain"],500)
+        self.assertGreater(summary["editorial_semantic_fields_cross_checked"],400)
+        self.assertGreater(summary["candidate_rows_with_semantic_field_cross_checks"],150)
         self.assertEqual(summary["unresolved_editorial_equivalence"],500)
         self.assertEqual(summary["structural_blockers"],0)
         self.assertEqual(summary["all_9_1_originals_preserved"],500)
@@ -111,6 +113,17 @@ class SemanticAudit92(unittest.TestCase):
         self.assertEqual(got["structural_status"],"blocked_review")
         self.assertTrue(any("Missing expected semantic operator" in x
                         for x in json.loads(got["blocking_form_issues"])))
+        # A semantically positive new declaration cannot quietly carry
+        # metadata declaring its central event unasserted.
+        x=dict(self.ledger["QS81-0011"])
+        sig=json.loads(x["edition_9_1_semantic_signature_json"])
+        self.assertTrue(sig["actual_positive_event_asserted"])
+        sig["actual_positive_event_asserted"]=False
+        x["edition_9_1_semantic_signature_json"]=json.dumps(sig)
+        got=check(x,self.original["QS81-0011"],canon,overlay)
+        self.assertEqual(got["structural_status"],"blocked_review")
+        self.assertTrue(any("Editorial semantic signature contradicts" in m
+                            for m in json.loads(got["blocking_form_issues"])))
         # Reverse modal ordering in a known permission-withdrawal case.
         x=dict(self.ledger[id_])
         self.assertIn("-te-ki",x["qaroshi_full_candidate"])
