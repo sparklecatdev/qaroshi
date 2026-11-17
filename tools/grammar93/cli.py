@@ -28,8 +28,11 @@ def atom_or_link(obj:dict):
             raise GrammarError("Malformed atom JSON: "+str(err)) from err
     if tag=="link":
         try:
-            return Link(obj["relation"],atom_or_link(obj["first"]),
-                        atom_or_link(obj["second"]))
+            first=atom_or_link(obj["first"])
+            second=atom_or_link(obj["second"])
+            if not isinstance(first,Atom) or not isinstance(second,Atom):
+                raise GrammarError("Nested link AST is outside the bounded 9.3 parser")
+            return Link(obj["relation"],first,second)
         except (KeyError,TypeError) as err:
             raise GrammarError("Malformed link JSON: "+str(err)) from err
     raise GrammarError("Proposition must have explicit type atom or link")
