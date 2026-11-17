@@ -28,6 +28,10 @@ class SemanticAudit92(unittest.TestCase):
         self.assertEqual(summary["full_existing_editorial_drafts"],500)
         self.assertEqual(summary["checked_for_speech_act_by_domain"],500)
         self.assertEqual(summary["unresolved_editorial_equivalence"],500)
+        self.assertEqual(summary["structural_blockers"],0)
+        self.assertEqual(summary["all_9_1_originals_preserved"],500)
+        self.assertEqual(summary["versioned_9_2_grammatical_corrections"],1)
+        self.assertEqual(summary["versioned_correction_case_ids"],["QS81-0336"])
         self.assertEqual(summary["human_backtranslations_collected"],0)
         self.assertEqual(summary["independent_semantic_truth_condition_ratings"],0)
         self.assertEqual(summary["humans_who_used_qaroshi_without_english"],0)
@@ -44,7 +48,14 @@ class SemanticAudit92(unittest.TestCase):
             with self.subTest(row=row["case_id"]):
                 id_=row["case_id"]
                 self.assertEqual(row["english_target"],self.original[id_]["english"])
-                self.assertEqual(row["qaroshi_proposal"],self.ledger[id_]["qaroshi_full_candidate"])
+                inherited=self.ledger[id_]["qaroshi_full_candidate"]
+                if id_=="QS81-0336":
+                    self.assertEqual(row["qaroshi_proposal"],inherited[:-1]+" qinë.")
+                    self.assertTrue(row["9_2_versioned_correction_reason"])
+                else:
+                    self.assertEqual(row["qaroshi_proposal"],inherited)
+                    self.assertFalse(row["9_2_versioned_correction_reason"])
+                self.assertEqual(row["prior_9_1_proposal"],inherited)
                 self.assertEqual(row["source_feature"],
                                  FEATURES[row["domain"]][int(row["variant"])-1])
                 self.assertEqual(row["certified_translation"],"no")
@@ -55,6 +66,16 @@ class SemanticAudit92(unittest.TestCase):
                 self.assertTrue(row["editorial_origin"])
                 self.assertIn(row["structural_status"],
                               ("bounded_form_checks_passed","blocked_review"))
+
+    def test_counterfactual_scope_bug_corrected_with_immutable_old_string(self):
+        current={r["case_id"]:r for r in self.review}["QS81-0336"]
+        old=self.ledger["QS81-0336"]["qaroshi_full_candidate"]
+        self.assertEqual(old,"sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te.")
+        self.assertEqual(current["qaroshi_proposal"],old[:-1]+" qinë.")
+        self.assertEqual(current["prior_9_1_proposal"],old)
+        self.assertIn("counterfactual",current["9_2_versioned_correction_reason"])
+        self.assertEqual(current["structural_status"],"bounded_form_checks_passed")
+        self.assertEqual(current["certified_translation"],"no")
 
     def test_errors_become_visible_action_items_not_automatic_fake_translations(self):
         self.assertEqual({r["case_id"] for r in self.queue},
