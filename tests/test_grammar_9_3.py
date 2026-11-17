@@ -102,8 +102,11 @@ class TypedGrammar93(unittest.TestCase):
             self.assertEqual(self.g.parse(surface),s)
         # The word-final he is a question marker; initial hë remains
         # an opening resonance and cannot substitute for it.
-        with self.assertRaises(GrammarError):
-            self.g.parse("hë mi mara-m tika-te.")
+        # The initial hë is a resonance, not a substitute for terminal he:
+        # hë without final he? is a marked declaration, not a polar question.
+        declared=self.g.parse("hë mi mara-m tika-te.")
+        self.assertEqual(declared.mood,"statement")
+        self.assertEqual(self.g.semantic_view(declared)["speech_act"],"assertion")
 
     def test_source_goal_location_and_comitative_are_typed_not_interchangeable(self):
         traveling=Atom("mi","gura",goal="naro",source="naro",location="naro",tense="te")
