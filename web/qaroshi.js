@@ -1,4 +1,4 @@
-/* Qaroshi Wiki source · canonical reference 7.0; companion teaching tools through 23. */
+/* Qaroshi Wiki 9.5: current editorial grammar, 9.3 bounded workshop and 9.4 semantic cases. */
 (() => {
   'use strict';
   const D = JSON.parse(document.getElementById('wiki-data').textContent);
@@ -200,9 +200,10 @@
       else if(route.page==='dictionary' && route.query.has('domain'))on=false;
       else if(route.page==='word')on=h==='dictionary';
       else if(route.page==='phrase')on=h==='phrases';
+      else if(route.page==='case')on=h==='cases';
       else if(route.page==='grammar'&&route.id)on=h==='grammar/'+route.id;
       else on=h===route.page || (route.page==='guide' && h==='guide/'+route.id);
-      if(on){a.setAttribute('aria-current','page');const group=a.closest('details');if(group)group.open=true;}
+      if(on){a.setAttribute('aria-current','page');for(let group=a.closest('details');group;group=group.parentElement?.closest('details'))group.open=true;}
       else a.removeAttribute('aria-current');
     }
   }
@@ -469,6 +470,7 @@
       ${letterBreakdown(w.qaroshi)}
       <p class="muted small">These are <strong>sounds</strong>, not the English names of the letters. <a href="#latin">See the Latin A–Z reference</a>.</p>
       <div id="definition"><div class="eyebrow">Definition</div><div class="definition"><span class="number">1.</span> ${esc(w.english)}</div></div>
+      ${D.grammarLicenses?.verb_overrides?.[w.qaroshi]?`<p class="word-workshop"><a class="button primary" href="#workshop?verb=${enc(w.qaroshi)}">Practice ${esc(w.qaroshi)} in the sentence workshop</a></p>`:``}
       <h2 id="native-lettering">Native lettering</h2>${glyphHTML(w.qaroshi,{large:true})}
       <div class="controls"><button class="button" id="copyWord">Copy Qaroshi</button><button class="button" id="copyLink">Copy word link</button><a class="button" href="#dictionary">Back to dictionary</a></div>
       <h2 id="lexical-details">Lexical details</h2>
@@ -506,8 +508,8 @@
     </article>`;
     setToc([{id:'standardIntroduction',name:'Current decisions'},{id:'standardAddenda',name:'Amendments'}]);
   }
-  function renderWorkshop(){
-    window.QaroshiWikiLab.mountGrammar(main,D);
+  function renderWorkshop(route){
+    window.QaroshiWikiLab.mountGrammar(main,D,{verb:route?.query?.get('verb')||''});
     setToc([]);
   }
   function renderCaseLibrary(id){
@@ -519,7 +521,7 @@
       <h2 id="${name}">${esc(name[0].toUpperCase()+name.slice(1))} · chapters ${range[0]}–${range[1]}</h2>
       <ul class="section-list">${C.filter(c=>c.number>=range[0]&&c.number<=range[1]).map(c=>`<li><a href="#grammar/${c.id}"><span class="ch-num">${c.number}.</span>${esc(c.title)}</a></li>`).join('')}</ul>`).join('');
     main.innerHTML=`<article class="readable">${mkHeader('Reference / Grammar','Qaroshi grammar',`Browse all ${C.length} grammar chapters in order. Every chapter opens as a separate wiki article.`)}
-      <div class="note"><strong>Sentence rule.</strong><p>Exactly one written resonance marker opens every independent sentence; subordinate clauses inherit it. 4.0 adds optional discourse particles, not additional mandatory resonance types.</p></div>
+      <div class="note"><strong>Current reference.</strong><p>These 90 chapters are the Standard 8.0 normative core. See <a href="#standard">the current 9.2 editorial reference</a> for later source-linked refinements, explicit rule precedence and documented exceptions.</p></div>
       ${groups}<div class="foot">All ${C.length} chapters belong to the same unified grammar. <a href="#learn">Study them with guided examples and answer keys.</a></div></article>`;
     setToc(Object.keys(bookMark).map(name=>({id:name,name:name[0].toUpperCase()+name.slice(1)})));
   }
@@ -675,7 +677,8 @@
       <h2 id="unity">One standard</h2><p>The dictionary contains ${count(W.length)} distinct entries, the phrasebook ${count(P.length)} examples, and the grammar ${C.length} numbered chapters. The complete dictionary is available from a single index.</p>
       <h2 id="preservation">Original native writing</h2><p>The 26 original glyphs remain available in the script guide and Romanization-to-glyph converter.</p>
       <h2 id="limits">What the tools do</h2><p>Dictionary search uses meanings and spellings; it is not a complete machine translation engine. The glyph converter renders Romanized Qaroshi as native handwritten letters. Example sentences are teaching material rather than a measurement of spontaneous spoken frequency.</p>
-      <div class="foot">The AI assistant requires an OpenRouter API key.</div></article>`;
+      <p>The 9.3 sentence workshop runs entirely in-browser on a limited source-reviewed grammar of 25 verbs and ten noun forms. The 9.4 meaning cases expose 500 editorial candidates and source meanings, but have zero independently validated comprehension results. The optional AI assistant requires an external OpenRouter API key and is not part of the offline grammar validator.</p>
+      <div class="foot"><a href="#standard">Current grammar</a> · <a href="#workshop">Sentence workshop</a> · <a href="#cases">Meaning review cases</a></div></article>`;
     setToc([{id:'unity',name:'Unified standard'},{id:'preservation',name:'Native writing'},{id:'limits',name:'Tools'}]);
   }
   function renderSearch(route){
@@ -708,7 +711,7 @@
     switch(route.page){
       case 'home':renderHome();break;
       case 'assistant':renderAssistant();break;
-      case 'workshop':renderWorkshop();break;
+      case 'workshop':renderWorkshop(route);break;
       case 'cases':renderCaseLibrary('');break;
       case 'case':renderCaseLibrary(route.id);break;
       case 'standard':renderCurrentStandard();break;
