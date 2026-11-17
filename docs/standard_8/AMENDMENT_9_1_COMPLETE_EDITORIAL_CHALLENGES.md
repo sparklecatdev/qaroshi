@@ -2,7 +2,7 @@
 
 **Status: editorial addendum, not human-attested language proficiency.** This extension documents exact new language decisions for the 182 previously undrafted English adversarial items. It does not replace the frozen Standard 7.0 corpus or the 8.0 canonical dictionary and grammar, and it does not retroactively make the earlier 318 candidates independently correct.
 
-The five original variants of each of 100 scenarios, including awkwardly written original English prompts, remain unchanged in `tools/stress81/scenarios.py`. The new `tools/stress91/compose.py` runs the full historical chain, preserves every previous edition's completed draft byte-for-byte, then supplies full candidate strings **only** for the previous 182 empty entries. The corresponding vocabulary, role choices, selectional restrictions and truth-condition decisions are all versioned under `data/standard_8/*_9_1.json`.
+The five original variants of each of 100 scenarios, including awkwardly written original English prompts, remain unchanged in `tools/stress81/scenarios.py`. The new `tools/stress91/compose.py` runs the full historical chain, preserves every previous edition's completed draft in its versioned **source ledger**, and supplies full candidates for the previous 182 empty entries. In the 9.1 view, **310 inherited drafts remain byte-for-byte unchanged** and **8 inherited consent drafts receive an explicitly recorded tense/modality correction**; every original remains in `prior_9_0_candidate` and the immutable 9.0 results. The corresponding vocabulary, role choices, selectional restrictions and truth-condition decisions are all versioned under `data/standard_8/*_9_1.json`.
 
 ## 1. Eventive negation and the English "not until" construction
 
@@ -88,13 +88,17 @@ The final six technical proposals explicitly cover a safety circuit stopping bat
 
 For a technical conclusion, an expression `P do ngëshi zhëwëra, Q do zotenga nu eri` rejects *P alone being sufficient proof of Q*. It **never** asserts that Q is false or impossible. Similarly, `if P, action-du` gives a *conditional recommendation*, not proof the recommendation was followed. No claims of specific legal enforceability or scientific confirmation are made from an English sentence that lacks those facts.
 
-## 8. Benchmark and independent-validation obligations
+## 8. Versioned repair of eight inherited suffix-order mistakes
+
+The expanded formal review found eight pre-existing 9.0 consent-revocation candidates with **`-ki-te`** (“ability, then past”), which contradicts the Standard 8.0 verb ordering **root–voice–tense–aspect–modal**. The 9.1 active-view spelling is **`-te-ki`** (“past, then potential ability”), for `QS81-0105`, `0110`, `0115`, `0120`, `0125`, `0135`, `0140`, and `0150`. The exact original forms are preserved in `prior_9_0_candidate` and the unmodified 9.0 source ledger. This is a **versioned editorial correction**, not a native-speaker attestation. The complete replacement rule, rationale, and eight precise affected case IDs are recorded in `consent_morphology_corrections_9_1.json`, and regression tests verify both the old and corrected versions. It does **not** add eight new English challenges or inflate the 500/500 draft count.
+
+## 9. Benchmark and independent-validation obligations
 
 The **500/500** number, once the 9.1 builder passes, counts only **complete editorial candidate strings** with source-bound grammatical decisions. It is **not** a passing comprehension score, a certified translation score, or evidence of active everyday fluency. There are zero independent readers, zero human backtranslations and zero independently certified meanings at the time of this edition.
 
 The release builds:
 
-- `data/stress91/case_evidence_500.csv`: one row per unchanged English prompt with every inherited proposed string preserved, a new draft only where previously absent, source links and explicit meaning limits;
+- `data/stress91/case_evidence_500.csv`: one row per unchanged English prompt, each inherited form preserved in `prior_9_0_candidate`, all 182 previously empty cases filled, and the 8 revised inherited forms identified with an explicit morphology correction reason;
 - `data/stress91/formal_review_500.csv`: case-level basic formal flags, English requirements and editorial status;
 - `data/stress91/blind_qaroshi_500.csv`: **Qaroshi-only** reading stimuli with no English answers;
 - `data/stress91/private_reviewer_english_key_500.csv`: separate original English and a component-based scoring rubric;
