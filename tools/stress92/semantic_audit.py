@@ -206,6 +206,7 @@ def run()->dict:
        "checked_for_speech_act_by_domain":500,
        "structural_blockers":len(blocked),
        "structural_blocker_case_ids":[x["case_id"] for x in blocked],
+       "structural_blocker_details":[{"case_id":x["case_id"],"english":x["english_target"],"candidate":x["qaroshi_proposal"],"issues":json.loads(x["blocking_form_issues"])} for x in blocked[:20]],
        "blockers_by_domain":dict(sorted(bydomain.items())),
        "unresolved_editorial_equivalence":500,
        "human_backtranslations_collected":0,
