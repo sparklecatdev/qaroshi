@@ -67,7 +67,7 @@ class Wiki96(unittest.TestCase):
         self.assertIn("Qaroshi_Academy.html", self.js)
         self.assertIn("Qaroshi_20_Speech_Studio.html", self.js)
         self.assertIn("Qaroshi_21_23_Translation_Immersion_Academy.html", self.js)
-        self.assertIn("source teaching corpus", self.practice.lower())
+        self.assertIn("original teaching corpus", self.practice.lower())
         self.assertIn("private", self.practice.lower())
 
     def test_node_pure_behavior_and_rejects_fake_synonyms(self):
