@@ -203,6 +203,52 @@ class Standard90(unittest.TestCase):
                 arr.append(q)
             self.assertEqual(len(set(arr)),4 if f['family']==8 else 5)
 
+    def test_fiction_attribution_and_metaphor_do_not_assert_literal_world(self):
+        from tools.stress90.literary import compose as lcompose
+        from tools.stress81.scenarios import NARRATIVE
+        frames=read("literary_frames_9_0.json")
+        self.assertEqual(len(frames),7)
+        self.assertEqual({x["family"] for x in frames},{2,3,4,5,6,7,9})
+        self.assertEqual(4*216+3*36+4*6+4,1000)
+        for f in frames:
+            self.assertEqual(f["metaphor"],NARRATIVE[f["family"]-1][0])
+            self.assertTrue(f["editorial_sense"])
+            self.assertTrue(f["no_world_entailment"])
+            for id_ in set(f["source_ids"]+f["interpretation_ids"]+f["literal_ids"]):
+                self.assertIn(id_,self.lex,(f["id"],id_))
+            for variant in range(1,6):
+                id_=f"QS81-{400+(f['family']-1)*5+variant:04d}"
+                q=lcompose(f,variant)
+                row=self.cases[id_]
+                self.assertEqual(row["qaroshi_full_candidate"],q or "")
+                if not q:continue
+                self.assertEqual(row["candidate_status"],"9_0_fiction_metaphor_attribution_and_literal_nonassertion")
+                sig=json.loads(row["edition_9_0_semantic_signature_json"])
+                self.assertFalse(sig["metaphor_asserted_real_world"])
+                self.assertTrue(sig["source_not_a_traditional_idiom_claim"])
+                self.assertEqual(sig["quoted_full_sentence"],"sen "+f["p"]+".")
+                if variant==1:
+                    self.assertEqual(q,"sen gëmano "+f["p"]+".")
+                elif variant==2:
+                    self.assertIn("shirimi toru «sen "+f["p"]+".» shiroli-te.",q)
+                elif variant==3:
+                    self.assertIn("deshemu-mi toru «sen "+f["p"]+".»",q)
+                    self.assertTrue(q.endswith(" do shërawiwo-te."))
+                    self.assertTrue(sig["interpretation_suggested_not_literal"])
+                elif variant==4:
+                    self.assertIn("shënaweho toru «sen "+f["p"]+".»",q)
+                    self.assertTrue(q.endswith(" do nu shërawëhu-te."))
+                    self.assertTrue(sig["literal_world_entailment_denied"])
+                elif variant==5:
+                    self.assertTrue(sig["reader_initially_treated_as_literal"])
+                    self.assertTrue(sig["reader_later_corrected_that_reading"])
+                    self.assertIn(" gëmodo shëliro-te. sen ana ",q)
+                    self.assertTrue(q.endswith("pëyeno zhiqomo-m peziholë-te."))
+        for family in (1,8,10):
+            for variant in range(1,6):
+                id_=f"QS81-{400+(family-1)*5+variant:04d}"
+                self.assertEqual(self.cases[id_]["qaroshi_full_candidate"],"")
+
     def test_old_cases_stay_unfilled_unless_specific_new_9_0_license(self):
         allowed=set(proposals())
         self.assertEqual(allowed,{id_ for id_,r in self.cases.items() if r["edition_9_0_witness_ids"]})
