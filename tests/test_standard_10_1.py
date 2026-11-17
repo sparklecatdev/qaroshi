@@ -101,6 +101,18 @@ class SourceEvidence(unittest.TestCase):
         self.assertIn("Read the scene", self.wiki)
         self.assertEqual(self.data["manifest"]["independent_human_attestations"], 0)
 
+    def test_coverage_distinguishes_original_sentences_and_editorial_recombination(self):
+        report = json.loads((ROOT / "data/standard10/generated/coverage_gap_report.json")
+                            .read_text(encoding="utf-8"))
+        self.assertGreater(report["headwords_in_individually_scripted_editorial_scenes"], 0)
+        self.assertGreater(report["headwords_in_recombined_reference_scenes"], 0)
+        self.assertGreaterEqual(report["headwords_with_any_original_sentence_or_editorial_scene"],
+                                report["headwords_with_exact_original_corpus_use"])
+        self.assertEqual(report["headwords_with_any_original_sentence_or_editorial_scene"] +
+                         report["headwords_without_any_recorded_sentence_or_editorial_scene"], 30000)
+        self.assertIn("none spontaneous fluent-speaker attestation",
+                      report["source_evidence_separation"])
+
     def test_review_workbench_is_provisional_with_no_auto_approval(self):
         self.assertEqual(len(self.data["priorities"]), 800)
         self.assertIn("QaroshiEditorial.create(D)", self.wiki)
