@@ -429,7 +429,7 @@
   }
   function renderDictionary(route){
     if(route.query.has('domain'))state.domain=route.query.get('domain')||'';
-    const domainOptions=Object.keys(D.domains).sort((a,b)=>a.localeCompare(b)).map(x=>`<option value="${esc(x)}" ${state.domain===x?'selected':''}>${esc(x)}</option>`).join('');
+    const domainOptions=groupedTopics().map(g=>`<optgroup label="${esc(g.name)}">${g.items.map(item=>`<option value="${esc(item.domain)}" ${state.domain===item.domain?'selected':''}>${esc(item.domain)}</option>`).join('')}</optgroup>`).join('');
     const pose=['n','v','adj','adv','part','conj','det','pron','post','register','qword','intj'];
     main.innerHTML=`<article>${mkHeader('Reference / Dictionary','Dictionary',`Search ${count(W.length)} entries by English meaning or Romanized Qaroshi. Select a word to open its article.`)}
       <div class="controls">
@@ -485,6 +485,34 @@
     $('copyLink').addEventListener('click',()=>copy(location.href));
     setToc([{id:'pronunciation',name:'How to say it'},{id:'letter-sounds-heading',name:'Letter sounds'},{id:'definition',name:'Definition'},{id:'native-lettering',name:'Native lettering'},{id:'lexical-details',name:'Lexical details'},{id:'examples',name:'Examples'},{id:'related',name:'Related entries'}]);
   }
+
+  function renderCurrentStandard(){
+    const addenda=D.grammarAddenda||[];
+    main.innerHTML=`<article class="readable">
+      ${mkHeader('Reference / Current standard','Current Qaroshi grammar','90 normative core chapters plus later source-linked editorial amendments.')}
+      <div class="note">Standard 8.0 remains the normative core; some later grammar and lexeme decisions are restricted editorial licenses. The workshop runs the source-reviewed subset only.</div>
+      <div class="controls"><a class="button primary" href="#workshop">Try the sentence workshop</a>
+        <a class="button" href="#grammar">Browse 90 chapters</a>
+        <a class="button" href="#cases">Explore meaning cases</a></div>
+      <div class="doc-body current-standard" id="standardIntroduction">${D.currentGrammarIntro||''}</div>
+      <h2 id="standardAddenda">Later grammar amendments</h2><p class="muted">Open an edition only when needed. Original source wording is retained, including the historical examples.</p>
+      <div class="standard-addenda">
+      ${addenda.map(a=>`<details class="standard-addendum"><summary>
+        <span><strong>Standard ${esc(a.edition)}</strong> · ${esc(a.title)}</span>
+        <small>${esc(a.kind)}</small></summary><div class="doc-body">${a.html}</div>
+      </details>`).join('')}</div>
+      <div class="foot">For historical source files, see the linked <a href="https://github.com/sparklecatdev/qaroshi/tree/main/docs/standard_8" target="_blank" rel="noopener">GitHub language reference</a>. The current Wiki tools run offline.</div>
+    </article>`;
+    setToc([{id:'standardIntroduction',name:'Current decisions'},{id:'standardAddenda',name:'Amendments'}]);
+  }
+  function renderWorkshop(){
+    window.QaroshiWikiLab.mountGrammar(main,D);
+    setToc([]);
+  }
+  function renderCaseLibrary(id){
+    window.QaroshiWikiLab.renderCases(main,D,id);
+    setToc([]);
+  }
   function renderGrammarIndex(){
     const groups=Object.entries(bookMark).map(([name,range])=>`
       <h2 id="${name}">${esc(name[0].toUpperCase()+name.slice(1))} · chapters ${range[0]}–${range[1]}</h2>
@@ -510,12 +538,56 @@
       <div class="foot">Chapter ${c.number} · Qaroshi standard grammar</div></article>`;
     inlineIPA();enrichToc();
   }
+
+  // Preserve all original domain links but show a calmer browse hierarchy.
+  const topicGroups=[
+    ['Everyday & people',/(home|domestic|cooking|food|textile|clothing|relationship|emotion|kinship|classroom|education|recreation|sport|conversation|society|social|family|child|time|calendar|daily|leisure|community|travel|work)/i],
+    ['Flight & Nardoragons',/(nardoragon|roost|wing|flight|aerial|aviation|aircraft|glide)/i],
+    ['Nature & environment',/(agricultur|soil|forest|botan|animal|ocean|waterway|geolog|climat|ecolog|weather|environment|natural|plant|disaster|earth|river|biology|wildlife)/i],
+    ['Science & health',/(science|physics|chemic|astronom|space|statistic|math|logic|research|laborator|experiment|clinical|diagnos|medical|health|pharmac|nutrition|epidemiol|instrument|measurement)/i],
+    ['Technology & design',/(software|computer|computing|robot|crypto|cyber|hardware|device|data|information|network|digital|internet|interface|design|visualiz|graphics|engineering|electronic|system|architecture|construction)/i],
+    ['Culture, language & arts',/(music|audio|photograph|visual media|film|broadcast|liter|journalis|media|language|sociolinguis|linguistic|art|story|poetry|writing|library|archive|religion|philosoph|ethics|communication)/i],
+    ['Society & services',/(finance|econom|bank|payment|market|public|urban|transport|humanitarian|law|legal|rights|safety|government|policy|peace|conflict|history|profession|planning|civic|trade)/i],
+    ['More specialized topics',/.*/]
+  ];
+  function groupedTopics(){
+    const groups=topicGroups.map(([name])=>({name,items:[],words:0}));
+    for(const [domain,n] of Object.entries(D.domains).sort((a,b)=>a[0].localeCompare(b[0]))){
+      const index=Math.max(0,topicGroups.findIndex(([,matcher])=>matcher.test(domain)));
+      groups[index].items.push({domain,n});groups[index].words+=n;
+    }
+    return groups.filter(g=>g.items.length);
+  }
   function renderCategories(){
-    const groups=Object.entries(D.domains).sort((a,b)=>a[0].localeCompare(b[0]));
-    main.innerHTML=`<article class="readable">${mkHeader('Dictionary / Browse','Topics',`${groups.length} named semantic domains, from everyday conversation to science and Nardoragon flight culture.`)}
-      <div class="category-grid">${groups.map(([domain,n])=>`<a href="#dictionary?domain=${enc(domain)}"><span>${esc(domain)}</span><span class="count">${count(n)} ›</span></a>`).join('')}</div>
-      <div class="note"><strong>Browse versus lookup.</strong><p>Topics are editorial categories. They are not necessarily families of related word roots or guarantees of shared etymology.</p></div></article>`;
-    setToc([]);
+    const groups=groupedTopics();
+    main.innerHTML=`<article class="readable">
+      ${mkHeader('Dictionary / Topics','Browse by subject',Object.keys(D.domains).length+' original dictionary domains, organized into '+groups.length+' browse areas.')}
+      <p class="muted">Open an area to see its subjects, or search the exact topic name. All original links still work.</p>
+      <label for="topicQuery" class="sr-only">Find a dictionary topic</label>
+      <input id="topicQuery" class="field search topic-search" type="search" placeholder="Find a topic, such as music, ocean or design…" autocomplete="off">
+      <p id="topicStatus" class="muted small" aria-live="polite"></p>
+      <div class="topic-groups" id="topicGroups">
+      ${groups.map(g=>`<details class="topic-group" data-topic-group>
+        <summary><strong>${esc(g.name)}</strong><span>${g.items.length} topics · ${count(g.words)} entries</span></summary>
+        <div class="topic-links">${g.items.map(x=>`<a data-topic-name="${esc(fold(x.domain))}" href="#dictionary?domain=${enc(x.domain)}">
+          <span>${esc(x.domain)}</span><small>${count(x.n)} words</small></a>`).join('')}</div>
+      </details>`).join('')}</div>
+      <div class="note"><strong>Topics help you browse.</strong> These editorial labels are not claims of synonyms or shared roots. For a specific word, <a href="#dictionary">search the dictionary</a>.</div></article>`;
+    const input=$('topicQuery'),details=[...main.querySelectorAll('[data-topic-group]')];
+    function apply(){
+      const q=fold(input.value.trim());let matches=0;
+      for(const group of details){
+        const links=[...group.querySelectorAll('[data-topic-name]')];
+        const found=links.filter(link=>link.dataset.topicName.includes(q));
+        links.forEach(link=>link.hidden=!!q&&!found.includes(link));
+        group.hidden=!!q&&found.length===0;
+        if(q&&found.length)group.open=true;
+        matches+=found.length;
+      }
+      $('topicStatus').textContent=q?count(matches)+' matching topics':groups.length+' subject groups · open one to browse';
+    }
+    input.addEventListener('input',apply);apply();
+    setToc([{id:'topicGroups',name:'Browse subjects'}]);
   }
   function renderPhrases(){
     main.innerHTML=`<article>${mkHeader('Reference / Phrasebook','Example sentences',`${count(P.length)} bilingual teaching examples. Search English or Qaroshi.`)}
@@ -635,6 +707,10 @@
     switch(route.page){
       case 'home':renderHome();break;
       case 'assistant':renderAssistant();break;
+      case 'workshop':renderWorkshop();break;
+      case 'cases':renderCaseLibrary('');break;
+      case 'case':renderCaseLibrary(route.id);break;
+      case 'standard':renderCurrentStandard();break;
       case 'learn':renderLearn();break;
       case 'dictionary':renderDictionary(route);break;
       case 'word':renderWord(route.id);break;
