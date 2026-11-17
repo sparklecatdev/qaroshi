@@ -8,6 +8,18 @@ The sidebar keeps five primary tasks visible: **Overview**, **Dictionary**, **Wr
 
 Use the upper search to find dictionary words, examples or chapter text. Press `/` to focus the search. Use `#dictionary` for full lexical search, or `#categories` to browse a small set of subject groups. Expanding an area reveals the original topic labels. Typing a topic name searches across all areas. Historic links such as `#word/gëro`, `#grammar/02` and `#dictionary?domain=...` remain valid.
 
+## Ranked dictionary search and source-linked word families
+
+The **Dictionary** now ranks complete Qaroshi spellings and English definitions before partial matches. Multiple words are treated as a combined query, not an indiscriminate list of anything containing one common word. Topic and part-of-speech filters are available under a collapsed disclosure. Searches ignore accents while always displaying exact canonical spelling.
+
+Each word page explains recorded component words, links to compounds that explicitly cite it as a component, and distinguishes **matching English glosses** from **topically neighboring entries**. These relationships do not prove interchangeability or supply an antonym database; unsupported synonym/antonym assertions are intentionally omitted. A word also links straight to practice or the source-reviewed sentence workshop when applicable.
+
+## Study words and sentences without leaving the Wiki
+
+Open `#practice` or use **Practice words & phrases** from the sidebar. Review source dictionary cards, or switch to source teaching-sentence cards. Choose the recall direction, reveal the editorial answer, and mark whether you recalled it. The exercise shows IPA and approximate sound-out values when available. Progress lasts only for the current page session; it is not stored or transmitted.
+
+Open any dictionary entry and choose **Study this word with flashcards** to put that headword first in a focused session. This is voluntary self-practice, **not** human-certified translation accuracy or a blind comprehension study. For detailed pronunciation and native glyph conversion, continue to the built-in `#latin`, `#script`, `#guide/pronunciation` pages.
+
 ## The new browser sentence workshop
 
 Open `#workshop`. The **Build a sentence** tab offers guided verb/subject/role selectors, tense, aspect, modality, negation, resonance, and optional second events. A chosen verb reveals only licensed object or recipient types. Press **Compose Qaroshi** to generate and examine the exact grammatical structure. Select **Inspect Qaroshi** to parse an existing sentence in the reviewed subset and see who did what, role markers, evidence source, conditional status, and whether the matrix event is asserted.
