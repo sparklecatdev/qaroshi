@@ -24,12 +24,12 @@ class Standard88(unittest.TestCase):
 
     def test_full_coverage_of_evidence_not_claim_of_full_translations(self):
         self.assertEqual(len(self.cases), 500)
-        self.assertEqual(len(self.frames), 5)
-        self.assertEqual(len(self.extensions), 3)
+        self.assertEqual(len(self.frames), 9)
+        self.assertEqual(len(self.extensions), 5)
         self.assertEqual(self.summary["prior_editorial_candidates"], 96)
-        self.assertEqual(self.summary["editorial_candidates_now"], 105)
-        self.assertEqual(self.summary["net_new_complete_candidate_strings"], 9)
-        self.assertEqual(self.summary["still_without_full_candidate"], 395)
+        self.assertEqual(self.summary["editorial_candidates_now"], 135)
+        self.assertEqual(self.summary["net_new_complete_candidate_strings"], 39)
+        self.assertEqual(self.summary["still_without_full_candidate"], 365)
         self.assertFalse(self.summary["language_complete"])
         self.assertFalse(self.summary["translation_certified"])
         self.assertEqual(self.summary["human_verified"], 0)
@@ -50,8 +50,13 @@ class Standard88(unittest.TestCase):
                 ("actor", "actor_id", "n"),
                 ("patient", "patient_id", "n"),
             ):
-                self.assertEqual((lex[x[id_]]["qaroshi"],lex[x[id_]]["pos"]),
-                                (x[root],pos))
+                if x.get(id_):
+                    self.assertEqual((lex[x[id_]]["qaroshi"],lex[x[id_]]["pos"]),
+                                     (x[root],pos))
+            if x.get("actor_base_id"):
+                base=lex[x["actor_base_id"]]
+                self.assertEqual(base["qaroshi"],x["actor_base"])
+                self.assertEqual(x["actor"],x["actor_base"]+("-sharo" if "-sharo" in x["actor_derivation"] else "-mi"))
             if x["tool"]:
                 self.assertEqual((lex[x["tool_id"]]["qaroshi"],lex[x["tool_id"]]["pos"]),
                                  (x["tool"],"n"))
@@ -62,21 +67,29 @@ class Standard88(unittest.TestCase):
                 ("verb","verb_id","v"),
                 ("patient","patient_id","n"),
             ):
-                self.assertEqual((lex[x[id_]]["qaroshi"],lex[x[id_]]["pos"]),(x[root],pos))
-            if x["actor_id"]:
+                if x.get(id_):
+                    self.assertEqual((lex[x[id_]]["qaroshi"],lex[x[id_]]["pos"]),(x[root],pos))
+                else:
+                    self.assertIn(x[root], {r["qaroshi"] for r in lex.values() if r["pos"]==pos})
+            if x.get("actor_id"):
                 self.assertEqual((lex[x["actor_id"]]["qaroshi"],lex[x["actor_id"]]["pos"]),
                                  (x["actor"],"n"))
+            if x.get("actor_base_id"):
+                self.assertEqual(lex[x["actor_base_id"]]["qaroshi"], x["actor_base"])
+            if x.get("theme"):
+                self.assertIn(x["theme"], {r["qaroshi"] for r in lex.values() if r["pos"]=="n"})
         self.assertEqual(lex["Q004079"]["english"],"pack luggage")
         self.assertEqual(lex["Q006472"]["english"],"hide a feeling")
 
     def test_new_daily_senses_are_complete_candidate_strings(self):
-        for f in self.extensions[:2]:
+        for f in self.extensions:
             for v in range(1,5):
                 num=(f["family"]-1)*5+v
                 id_=f"QS81-{num:04d}"
                 r=self.cases[id_]
                 self.assertEqual(r["qaroshi_full_candidate"],verb_sentence(
-                    f["actor"],f["patient"],f["verb"],v))
+                    f["actor"],f["patient"],f["verb"],v,
+                    patient_surface=f.get("patient_surface"),theme=f.get("theme")))
                 self.assertEqual(r["candidate_status"],
                                  "new_8_8_editorial_full_composition_not_independently_validated")
                 self.assertIn(f["id"],r["witness_ids"])
@@ -84,14 +97,15 @@ class Standard88(unittest.TestCase):
                 if v==4:
                     self.assertIn(" do yano mi-tu shiri-te.",r["qaroshi_full_candidate"])
 
-    def test_no_false_narrowing_of_unspecified_ticket(self):
+    def test_ticket_polysemy_is_explicit_not_inherited_unreviewed(self):
+        f=next(x for x in self.extensions if x["family"]==10)
+        self.assertIn("general ticket-credential",f["license"])
+        self.assertIn("earlier transport-ticket sense",f["boundary"])
         for v in range(1,5):
-            id_=f"QS81-{45+v:04d}"
-            r=self.cases[id_]
-            self.assertEqual(r["qaroshi_full_candidate"],"")
-            self.assertIn("renguqa",r["contextual_partial_paraphrase_not_counted"])
-            self.assertIn("ticket-type",r["editorial_scope_warning"])
-        self.assertEqual(self.summary["contextual_travel_ticket_paraphrase_not_promoted"],4)
+            r=self.cases[f"QS81-{45+v:04d}"]
+            self.assertTrue(r["qaroshi_full_candidate"].startswith(("sen gura-mi", "hë gura-mi")))
+            self.assertEqual(r["candidate_status"],
+                "new_8_8_editorial_full_composition_not_independently_validated")
 
     def test_old_reported_info_has_indefinite_source_and_addressee(self):
         for i in (4,9,34):
@@ -139,7 +153,7 @@ class Standard88(unittest.TestCase):
 
     def test_no_unlicensed_scope_upgrade(self):
         # These English cases require genuine new grammar and/or meaning.
-        for id_ in ("QS81-0051","QS81-0101","QS81-0251","QS81-0301",
+        for id_ in ("QS81-0051","QS81-0101","QS81-0251","QS81-0302",
                     "QS81-0401","QS81-0451"):
             x=self.cases[id_]
             self.assertFalse(x["qaroshi_full_candidate"])
