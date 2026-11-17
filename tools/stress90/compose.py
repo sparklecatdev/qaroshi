@@ -36,7 +36,7 @@ def proposals():
     relative=read("relative_frames_9_0.json")
     technical=read("technical_propositions_9_0.json")
     modal=read("modal_barrier_frames_9_0.json")
-    assert len(consent)==8 and len(relative)==5 and len(technical)==5 and len(modal)==3
+    assert len(consent)==8 and len(relative)==5 and len(technical)==10 and len(modal)==3
     seen={}
     for frame in consent:
         for variant in (4,5):
