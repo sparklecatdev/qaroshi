@@ -18,11 +18,15 @@ jobs:
           node --check web/wiki_lab.js
           node --check web/wiki_discovery.js
           node --check web/wiki_practice.js
+          node --check web/wiki_usage.js
           node --check web/qaroshi.js
           node tests/wiki95/grammar_browser.cjs
           node tests/wiki96/discovery_practice.cjs
+          node tests/wiki97/usage_guides.cjs
       - name: Build site
         run: make build
+      - name: Audit 30,000 word guides and source example coverage
+        run: node tests/wiki97/coverage_all.cjs
       - name: Check curated site and release integrity
         run: python tools/maintenance/audit_repository.py --site
       - name: Build and report 8.3 linguistic coverage

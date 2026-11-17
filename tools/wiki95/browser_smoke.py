@@ -82,8 +82,8 @@ with sync_playwright() as play:
         check(page.locator("#wordQuery").count()==1,label+": dictionary route intact")
         page.evaluate("location.hash='#word/daru'")
         page.wait_for_timeout(110)
-        check(page.locator('.word-workshop a[href="#workshop?verb=daru"]').count()==1,label+": reviewed verb links to workshop")
-        page.locator('.word-workshop a[href="#workshop?verb=daru"]').click()
+        check(page.locator('main a[href="#workshop?verb=daru"]').count()==1,label+": reviewed verb links to workshop")
+        page.locator('main a[href="#workshop?verb=daru"]').click()
         page.wait_for_timeout(120)
         check(page.locator('[data-field="A-verb"]').input_value()=='daru',label+": dictionary deep link preselects reviewed verb")
         # Wiki 9.6: first-party discovery and practice routes.
@@ -97,9 +97,10 @@ with sync_playwright() as play:
         page.wait_for_timeout(110)
         check(page.locator("#family").count()==1,label+": word family section")
         check(page.locator("#related").count()==1,label+": meaning-neighbor section")
-        check("not verified synonyms or antonyms" in page.locator("main").inner_text(),label+": semantic relations not invented")
-        check(page.locator('a[href="#practice?word=kima"]').count()==1,label+": word-linked flashcard route")
-        page.locator('a[href="#practice?word=kima"]').click()
+        page.locator(".word-neighbors").evaluate("(el)=>el.open=true")
+        check("not verified synonyms or antonyms" in page.locator(".word-neighbors").inner_text(),label+": semantic relations not invented")
+        check(page.locator('a[href="#practice?word=kima"]').count()>=1,label+": word-linked flashcard route")
+        page.locator('a[href="#practice?word=kima"]').first.click()
         page.wait_for_timeout(120)
         check(page.locator("#practiceCard").count()==1,label+": embedded offline practice card")
         check(page.locator(".practice-prompt").inner_text().strip().lower()=='kima',label+": source headword preselected")
@@ -112,6 +113,53 @@ with sync_playwright() as play:
         card_text=page.locator("#practiceCard .practice-eyebrow").text_content() or ""
         check("Teaching example" in card_text,label+": original corpus card active; mode="+page.locator("#practiceMode").input_value()+" raw="+repr(card_text[:200]))
         check(not external,label+": practice and lookup require no network")
+        # Wiki 9.7: full dictionary article mini lessons across source word classes.
+        source=page.locator("#wiki-data").evaluate("(node)=>JSON.parse(node.textContent)")
+        word_forms={x["qaroshi"]:x for x in source["words"]}
+        by_kind={}
+        for word in source["words"]:
+            by_kind.setdefault(word["pos"],word)
+        for kind in ["n","v","adj","adv","conj","part","pron","post","det","register","qword"]:
+            word=by_kind.get(kind)
+            if word is None:
+                continue
+            page.evaluate("location.hash='#word/'+encodeURIComponent("+json.dumps(word["qaroshi"],ensure_ascii=False)+")")
+            page.wait_for_timeout(80)
+            check(page.locator(".word-guide").count()==1,label+": "+kind+" word page")
+            check(page.locator("#definition p").count()==1,label+": "+kind+" meaning layout")
+            check(page.locator(".word-gloss p").inner_text()==word["english"],label+": "+kind+" canonical meaning")
+            check(page.locator("#usage .word-usage-definition").count()==1,label+": "+kind+" usage guidance")
+            check(page.locator("#examples").count()==1,label+": "+kind+" examples or honest absence")
+            check(page.locator("#family").count()==1,label+": "+kind+" word family")
+            check(page.locator("#pronunciation .word-phonemes").count()==1,label+": "+kind+" letter sounds available")
+        page.evaluate("location.hash='#word/goro'")
+        page.wait_for_timeout(120)
+        check(page.locator(".word-verb-frame").count()==1,label+": source-reviewed verb valency and semantic boundary")
+        page.evaluate("location.hash='#word/sen'")
+        page.wait_for_timeout(110)
+        check("Still Voice" in page.locator("#usage").inner_text(),label+": source-backed resonance interpretation")
+        compound=next((x for x in source["words"] if x["components"] and " + " in x["components"]),None)
+        if compound:
+            page.evaluate("location.hash='#word/'+encodeURIComponent("+json.dumps(compound["qaroshi"],ensure_ascii=False)+")")
+            page.wait_for_timeout(120)
+            check(page.locator(".word-component-card").count()>=2,label+": component senses expanded inline")
+        # At least one genuinely observed word must show the original corpus
+        # phrase highlighted and explain its exact inflected/citation form.
+        import re
+        sample=None
+        for phrase in source["phrases"][:250]:
+            for token in re.findall(r"[A-Za-zëË]+(?:-[A-Za-zëË]+)*",phrase["qaroshi"]):
+                if token.lower() in word_forms:
+                    sample=token.lower()
+                    break
+            if sample: break
+        check(sample is not None,label+": source corpus contains actual headword tokens")
+        page.evaluate("location.hash='#word/'+encodeURIComponent("+json.dumps(sample,ensure_ascii=False)+")")
+        page.wait_for_timeout(130)
+        check(page.locator(".word-example .lexical-highlight").count()>=1,label+": exact source use highlighted")
+        check(page.locator(".word-example .word-example-analysis").count()>=1,label+": surface form described")
+        check("Source example" in page.locator(".word-example-source").first.inner_text(),label+": real example provenance")
+        check("not an independently tested" in page.locator(".word-header").inner_text(),label+": editorial-gloss limitations visible")
         check(not errors,label+": zero browser script exceptions "+repr(errors[:2]))
         check(not external,label+": no network calls by default "+repr(external[:2]))
         check(page.evaluate("document.documentElement.scrollWidth<=window.innerWidth+4"),label+": no mobile or desktop horizontal overflow")

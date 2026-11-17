@@ -47,7 +47,7 @@ class Wiki96(unittest.TestCase):
         self.assertEqual({s["review_status"] for s in self.metadata["semanticCases"]}, {"unadjudicated"})
 
     def test_word_family_has_grounded_components_and_honest_gloss_status(self):
-        self.assertIn("recorded component field", self.js)
+        self.assertIn("explicitly recorded lexical components", self.js)
         self.assertIn("graph.parts", self.js)
         self.assertIn("graph.compounds", self.js)
         self.assertIn("not necessarily interchangeable synonyms", self.js)

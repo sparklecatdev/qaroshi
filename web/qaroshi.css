@@ -343,3 +343,90 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
   .practice-actions button{min-width:0;flex:1}
   .dictionary-filters .controls{display:grid;grid-template-columns:1fr}
 }
+
+
+/* Wiki 9.7 lexical articles: meaning-first, source-referenced mini lessons. */
+.word-guide{font-size:.96rem}
+.word-guide section[id],.word-guide #definition{scroll-margin-top:94px}
+.word-back{display:flex;gap:9px;align-items:center;font-size:.82rem;color:var(--muted);margin-bottom:17px;overflow-wrap:anywhere}
+.word-header{padding:4px 0 25px;border-bottom:1px solid var(--border)}
+.word-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}
+.word-title-row h1{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:-.045em;font-size:clamp(2rem,5vw,3rem);overflow-wrap:anywhere;max-width:100%;margin:0 0 13px}
+.word-title-actions{display:flex;gap:6px;flex-shrink:0}
+.word-title-actions button{padding:6px 10px;font-size:.76rem}
+.word-gloss{margin:5px 0 18px}
+.word-definition-label,.word-section-kicker{display:block;text-transform:uppercase;letter-spacing:.095em;font-size:.72rem;font-weight:750;color:var(--muted);line-height:1.4}
+.word-gloss p{font-size:clamp(1.2rem,2.6vw,1.52rem);font-weight:610;line-height:1.42;margin:6px 0}
+.word-chipline{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 19px}
+.word-chip{font-size:.76rem;color:var(--text);font-weight:650;padding:3px 10px;border:1px solid var(--border);border-radius:20px;background:var(--canvas)}
+.word-chip.subtle{color:var(--muted);font-weight:450}
+a.word-chip-link:hover{border-color:var(--accent-border);background:var(--hover);text-decoration:none}
+.word-lead-pron .pronunciation-panel{margin:10px 0;max-width:100%}
+.word-source-line{font-size:.78rem;color:var(--muted);line-height:1.65}
+.word-primary-actions{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 3px}
+.word-primary-actions .button{min-height:39px;display:inline-flex;align-items:center}
+.word-guide section{padding:7px 0 21px;border-bottom:1px solid var(--border)}
+.word-section-title{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:10px 0 15px}
+.word-section-title h2{margin:4px 0 0}
+.word-section-title>a{font-size:.78rem;line-height:1.5;text-align:right;flex-shrink:0}
+.word-section-counter{font-size:.76rem;color:var(--muted);white-space:nowrap}
+.word-usage-definition{font-size:1rem;line-height:1.8}
+.word-usage-placement,.word-specific-rule,.word-verb-frame{border:1px solid var(--border);padding:14px 17px;border-radius:10px;margin:14px 0}
+.word-usage-placement{background:var(--canvas)}
+.word-usage-placement>strong,.word-specific-rule>strong,.word-verb-frame>strong{font-size:.88rem}
+.word-usage-placement p,.word-specific-rule p,.word-verb-frame p{margin:7px 0;line-height:1.65;font-size:.9rem}
+.word-specific-rule small{font-size:.75rem;color:var(--muted)}
+.word-verb-frame{background:var(--panel)}
+.word-verb-roles{display:grid;gap:7px;margin:10px 0;font-size:.83rem}
+.word-verb-roles b{display:inline-block;min-width:75px;color:var(--muted)}
+.word-templates h3,.word-forms h3{margin:25px 0 7px}
+.word-template{display:grid;gap:6px;align-items:start;padding:10px 0;border-bottom:1px solid var(--border)}
+.word-template:last-child{border-bottom:none}
+.word-template code{display:block;max-width:100%;overflow-wrap:anywhere;padding:9px 12px;border-radius:8px;border:1px solid var(--border);background:var(--canvas);font-size:.88rem;line-height:1.6}
+.word-template span{font-size:.79rem;color:var(--muted)}
+.word-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:13px 0}
+.word-form{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border:1px solid var(--border);border-radius:9px;background:var(--panel)}
+.word-form code{font-size:.9rem;overflow-wrap:anywhere;white-space:normal;background:transparent;padding:0;color:var(--link)}
+.word-form span{font-size:.84rem;font-weight:630}
+.word-form small{font-size:.74rem;color:var(--muted)}
+.word-learn-links{padding-top:9px;font-size:.87rem}
+.word-example-list{display:grid;gap:12px;margin:18px 0}
+.word-example{border:1px solid var(--border);border-radius:11px;padding:15px 18px;background:var(--panel)}
+.word-example-top{display:flex;gap:11px;flex-wrap:wrap;justify-content:space-between;color:var(--muted);font-size:.75rem}
+.word-example-source{font-weight:650}
+.word-example-qaroshi{font:650 1.01rem/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;margin:12px 0 6px}
+.lexical-highlight{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:4px;color:var(--text);padding:2px 3px;box-decoration-break:clone}
+.word-example-english{margin:4px 0 8px;font-size:.9rem}
+.word-example-pron{font-size:.78rem;color:var(--muted);overflow-wrap:anywhere}
+.word-example-analysis{border-top:1px solid var(--border);margin-top:12px;padding-top:9px;color:var(--muted);font-size:.78rem;line-height:1.75}
+.word-example-analysis strong{color:var(--text)}
+.word-example-analysis code{font-size:.79rem;white-space:nowrap}
+.word-example-note{font-size:.79rem;color:var(--muted)}
+.word-example-empty{margin:16px 0;padding:18px 20px;border:1px dashed var(--border);border-radius:10px;background:var(--canvas)}
+.word-example-empty strong{font-size:.92rem}
+.word-example-empty p{font-size:.84rem;line-height:1.7;margin:8px 0}
+.word-editorial-cases,.word-neighbors,.word-phonemes{border:1px solid var(--border);border-radius:10px;padding:12px 15px;margin:16px 0}
+.word-editorial-cases>summary,.word-neighbors>summary,.word-phonemes>summary{cursor:pointer;font-weight:650;font-size:.89rem}
+.word-editorial-cases summary small,.word-neighbors summary small{color:var(--muted)}
+.word-editorial-cases[open],.word-neighbors[open],.word-phonemes[open]{background:var(--canvas)}
+.word-family>p{font-size:.89rem;line-height:1.7}
+.word-citation .information{grid-template-columns:135px minmax(0,1fr);gap:12px}
+.word-bottom-nav{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0}
+.word-writing .glyphbox{margin:10px 0}
+.word-writing #letter-sounds-heading{margin-top:16px}
+.word-related>h2,.word-writing>h2,.word-citation>h2{margin-top:13px}
+@media(max-width:700px){
+  .word-title-row{flex-direction:column;align-items:flex-start;gap:3px}
+  .word-title-actions{order:2}
+  .word-primary-actions .button{flex:1}
+  .word-form-grid{grid-template-columns:1fr}
+  .word-section-title{align-items:start;flex-wrap:wrap}
+  .word-section-title>a{text-align:left}
+  .word-example{padding:13px 14px}
+  .word-citation .information{grid-template-columns:1fr;gap:0}
+}
+
+.word-component-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:9px;margin:13px 0}
+.word-component-card{display:flex;flex-direction:column;gap:5px;border:1px solid var(--border);border-radius:9px;padding:12px 14px;background:var(--canvas);min-width:0}
+.word-component-card strong{display:block;font:650 .91rem/1.5 ui-monospace,monospace;overflow-wrap:anywhere}
+.word-component-card span{color:var(--muted);font-size:.81rem;line-height:1.5;overflow-wrap:anywhere}
