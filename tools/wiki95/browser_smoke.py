@@ -82,8 +82,8 @@ with sync_playwright() as play:
         check(page.locator("#wordQuery").count()==1,label+": dictionary route intact")
         page.evaluate("location.hash='#word/daru'")
         page.wait_for_timeout(110)
-        check(page.locator('.word-workshop a[href="#workshop?verb=daru"]').count()==1,label+": reviewed verb links to workshop")
-        page.locator('.word-workshop a[href="#workshop?verb=daru"]').click()
+        check(page.locator('main a[href="#workshop?verb=daru"]').count()==1,label+": reviewed verb links to workshop")
+        page.locator('main a[href="#workshop?verb=daru"]').click()
         page.wait_for_timeout(120)
         check(page.locator('[data-field="A-verb"]').input_value()=='daru',label+": dictionary deep link preselects reviewed verb")
         # Wiki 9.6: first-party discovery and practice routes.
