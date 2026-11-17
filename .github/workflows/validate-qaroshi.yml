@@ -24,7 +24,7 @@ jobs:
         run: python tools/stress86/benchmark.py
       - name: Check 8.7 restricted structural patterns
         run: python tools/stress87/benchmark.py
-      - name: Trace unresolved 8.8 composition source roots
-        run: python tools/stress88/probe.py
+      - name: Build 8.8 item-level semantic evidence
+        run: python tools/stress88/compose.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
