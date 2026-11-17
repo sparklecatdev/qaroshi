@@ -30,6 +30,7 @@
     }
     function checkAtom(a){
       if(!a || typeof a!=='object' || Array.isArray(a))throw new GrammarError('Expected an action');
+      if(a.type && a.type!=='atom')throw new GrammarError('Unknown action node type');
       const rule=licenses[a.verb],frame=frames.get(a.verb);
       if(!rule || !frame)throw new GrammarError('Verb or sense is not reviewed: '+(a.verb||'none'));
       noun(a.actor,'subject',a.verb);
@@ -45,7 +46,7 @@
         if(!allowedValues.includes(a[key]||''))throw new GrammarError('Invalid '+key+' suffix');
       }
       for(const key of Object.keys(a)){
-        if(!['actor','verb',...ORDER,'tense','aspect','modal','negated'].includes(key))
+        if(!['type','actor','verb',...ORDER,'tense','aspect','modal','negated'].includes(key))
           throw new GrammarError('Unsupported action field: '+key);
       }
     }
