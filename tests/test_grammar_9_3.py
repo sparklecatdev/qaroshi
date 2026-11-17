@@ -148,6 +148,24 @@ class TypedGrammar93(unittest.TestCase):
             with self.assertRaises(GrammarError):
                 self.g.render(Sentence(candidate))
 
+    def test_cli_safely_roundtrips_json_and_rejects_nested_unlicensed_links(self):
+        from tools.grammar93.cli import from_dict,to_dict,atom_or_link
+        a=Atom("mi","tika",patient="mara",tense="te")
+        s=Sentence(a)
+        self.assertEqual(from_dict(to_dict(s)),s)
+        link=Sentence(Link("after",a,Atom("ti","këmë",patient="kima",tense="te")))
+        self.assertEqual(from_dict(to_dict(link)),link)
+        with self.assertRaises(GrammarError):
+            atom_or_link({
+                "type":"link","relation":"after",
+                "first":{"type":"link","relation":"after",
+                    "first":{"type":"atom","actor":"mi","verb":"gura"},
+                    "second":{"type":"atom","actor":"ti","verb":"nëra"}},
+                "second":{"type":"atom","actor":"mi","verb":"goro"}
+            })
+        with self.assertRaises(GrammarError):
+            self.g.render(from_dict({"proposition":{"type":"atom","actor":"mi","verb":"imaginary"}}))
+
     def test_can_parse_licensed_case_order_but_refuses_noncanonical_written_order(self):
         s="sen mi mara-tu kima-m pëli-te."
         self.assertEqual(self.g.parse(s).proposition.recipient,"mara")
