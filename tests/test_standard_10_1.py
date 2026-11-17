@@ -115,5 +115,55 @@ class SourceEvidence(unittest.TestCase):
         self.assertIn("adjudicator", self.std.lower())
 
 
+class PrivateAdjudication(unittest.TestCase):
+    def test_multiple_readers_are_joined_without_manufacturing_ratings(self):
+        from tools.standard10.adjudicate import combine
+        from tools.standard10.trial import score
+        with tempfile.TemporaryDirectory() as folder:
+            d = Path(folder)
+            build_trial(d)
+            fields = ["item_id", "reader_anonymous_code", "first_pass_english_paraphrase",
+                      "actor_object_scope_notes", "uncertainty_0_to_3",
+                      "reader_confirmed_no_key_access"]
+            a = d / "reader-A.csv"
+            b = d / "reader-B.csv"
+            def write(path, participant):
+                with path.open("w", newline="", encoding="utf8") as fh:
+                    w = csv.DictWriter(fh, fieldnames=fields)
+                    w.writeheader()
+                    w.writerow(dict(item_id="BL10-001",
+                                    reader_anonymous_code=participant,
+                                    first_pass_english_paraphrase="cannot determine",
+                                    actor_object_scope_notes="unknown",
+                                    uncertainty_0_to_3="3",
+                                    reader_confirmed_no_key_access="no"))
+            write(a, "READER-001")
+            write(b, "READER-002")
+            out = d / "private-unrated.csv"
+            result = combine([a, b], d / "facilitator_english_key.csv", out)
+            self.assertEqual(result["private_unrated_reader_responses"], 2)
+            self.assertEqual(result["anonymous_reader_codes"], 2)
+            self.assertEqual(result["adjudications_supplied"], 0)
+            rows = list(csv.DictReader(out.open(encoding="utf8", newline="")))
+            self.assertEqual(len(rows), 2)
+            self.assertTrue(rows[0]["facilitator_contextual_editorial_english"])
+            self.assertFalse(rows[0]["semantic_rating"])
+            self.assertFalse(rows[0]["adjudicator_anonymous_code"])
+            with self.assertRaisesRegex(ValueError, "Incomplete human response"):
+                score(out)
+            with self.assertRaisesRegex(ValueError, "Duplicate participant"):
+                combine([a, a], d / "facilitator_english_key.csv", out)
+            with a.open("w", newline="", encoding="utf8") as fh:
+                writer = csv.DictWriter(fh, fieldnames=fields)
+                writer.writeheader()
+                writer.writerow(dict(item_id="BL10-999",
+                        reader_anonymous_code="READER-001",
+                        first_pass_english_paraphrase="something",
+                        actor_object_scope_notes="", uncertainty_0_to_3="2",
+                        reader_confirmed_no_key_access="no"))
+            with self.assertRaisesRegex(ValueError, "Unknown trial item"):
+                combine([a], d / "facilitator_english_key.csv", out)
+
+
 if __name__ == "__main__":
     unittest.main()
