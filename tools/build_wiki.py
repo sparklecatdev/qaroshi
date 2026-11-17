@@ -115,6 +115,7 @@ discovery_js=(ROOT/'web/wiki_discovery.js').read_text(encoding='utf-8')
 practice_js=(ROOT/'web/wiki_practice.js').read_text(encoding='utf-8')
 usage_js=(ROOT/'web/wiki_usage.js').read_text(encoding='utf-8')
 std10_js=(ROOT/'web/wiki_standard10.js').read_text(encoding='utf-8')
+review_js=(ROOT/'web/wiki_editorial_review.js').read_text(encoding='utf-8')
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -131,7 +132,7 @@ page=f'''<!doctype html>
 <main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the reference…</p></article></main>
 <nav class="right-rail" aria-label="On this page" id="pageToc"></nav></div>
 <noscript><p style="padding:2rem">This wiki requires JavaScript for navigation and search. The source documents are available in the repository.</p></noscript>
-<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{std10_js}</script><script>{js}</script>
+<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{std10_js}</script><script>{review_js}</script><script>{js}</script>
 </body></html>'''
 for filename in ('index.html', 'Qaroshi_Wiki.html'):
  (ROOT/filename).write_text(page,encoding='utf-8')
