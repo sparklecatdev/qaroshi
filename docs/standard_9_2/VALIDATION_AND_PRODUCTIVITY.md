@@ -40,9 +40,9 @@ It writes **500 item-specific** rows to the review CSV and an accompanying human
 | Independent interpretation | A person who did not see the target English independently paraphrased Qaroshi | No invented respondents |
 | Unrestricted conversational competence | Speakers spontaneously compose, understand and repair novel conversation | Not established by this release |
 
-**A new 9.2 source-preserving repair:** The audit also identified \`QS81-0336\`, whose inherited counterfactual sentence used \`wënu\` but omitted the explicit result marker \`qinë\`. Current 9.2 writing now reads \`sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te qinë.\` while the 9.1 original remains unchanged and is stored in \`prior_9_1_editorial_candidate\`. The [repair manifest](../../data/standard_9_2/semantic_repairs.json) and regression tests prove the exact edit. This is a **bounded structural repair**, not independently proven semantic equivalence. The 9.2 audit also exports a versioned \`corrected_editorial_500.csv\` view.
+**A new 9.2 source-preserving repair:** The audit also identified `QS81-0336`, whose inherited counterfactual sentence used `wënu` but omitted the explicit result marker `qinë`. Current 9.2 writing now reads `sen wënu regaro pënaro-m rëgë-te, yarowe wërawë-te qinë.` while the 9.1 original remains unchanged and is stored in `prior_9_1_editorial_candidate`. The [repair manifest](../../data/standard_9_2/semantic_repairs.json) and regression tests prove the exact edit. This is a **bounded structural repair**, not independently proven semantic equivalence. The 9.2 audit also exports a versioned `corrected_editorial_500.csv` view.
 
-The earlier simple audit flagged eight inherited \`-ki-te\` forms and the 9.1 versioned view corrected them to \`-te-ki\`. The 9.2 checker keeps testing that exact ordering on all 500 strings. It does not overwrite any 8.0–9.1 source or silently rewrite unrelated existing drafts.
+The earlier simple audit flagged eight inherited `-ki-te` forms and the 9.1 versioned view corrected them to `-te-ki`. The 9.2 checker keeps testing that exact ordering on all 500 strings. It does not overwrite any 8.0–9.1 source or silently rewrite unrelated existing drafts.
 
 ## 3. New held-out compositional productivity benchmark
 
@@ -53,13 +53,13 @@ Run:
 
 The 9.2 suite uses **ten independently documented Qaroshi event propositions** and **ten distinct endpoint propositions** from the 9.1 motion frames. Each main event is paired with each endpoint from a *different* scenario: **10 × 9 = 90 new event pairs**. Each pairing appears under five distinct independently authored English and Qaroshi contrastive conditions:
 
-1. Event B happened **after** event A (\`ana\`), with both asserted.
-2. Event A happened **before** event B (\`ëna\`), with both asserted.
-3. Event A occurred **when** event B occurred (\`yaro\`), with both asserted.
+1. Event B happened **after** event A (`ana`), with both asserted.
+2. Event A happened **before** event B (`ëna`), with both asserted.
+3. Event A occurred **when** event B occurred (`yaro`), with both asserted.
 4. **Someone told the speaker** event B followed event A. The report is an event; the underlying sequence is **not independently asserted**.
 5. A real **yes/no question** asks whether event A happened before B. Neither event is asserted by the question.
 
-This produces **450 unique cross-family full-sentence pairs**, none reusing an original English challenge or an original Qaroshi candidate string. Crucially, these are *combinations*, not 450 freshly invented dictionary words. A separately implemented, bounded **source-event parser** in \`tools/stress92/parse_temporal.py\` must recover the event identities, order, assertion, reported-source scope, and question scope from the generated surface Qaroshi.
+This produces **450 unique cross-family full-sentence pairs**, none reusing an original English challenge or an original Qaroshi candidate string. Crucially, these are *combinations*, not 450 freshly invented dictionary words. A separately implemented, bounded **source-event parser** in `tools/stress92/parse_temporal.py` must recover the event identities, order, assertion, reported-source scope, and question scope from the generated surface Qaroshi.
 
 The tests must also reject or reinterpret adversarial alterations: reversing temporal conjunctions; removing reporter attribution; confusing witnessed fact with report; changing an event's actor or object; stripping a question ending; changing a past verb into a future verb in a licensed past frame; or omitting the affirmative later event required by an English *not until* statement.
 
@@ -79,12 +79,12 @@ Ask readers for literal English paraphrases and annotate: (a) the actor and affe
     python -m unittest discover -s tests -q
     python tools/maintenance/audit_repository.py --site
 
-Expected local generated materials (all under ignored \`data/stress92/\`):
+Expected local generated materials (all under ignored `data/stress92/`):
 
-- \`semantic_review_500.csv\`: each original case, operator/source checks, independent-readable warnings and empty human fields.
-- \`editorial_action_queue.csv\`: one entry per proposed translation, including explicit high-priority blockers and empty adjudication slots.
-- \`semantic_review_summary.json\`: blocker counts and explicit independent-reader zeros.
-- \`unseen_compositions_450.csv\`: source IDs, original-independent English target, Qaroshi sentence and scoped formal semantics.
-- \`unseen_summary.json\`: new-pair counts and repeated warning against human validation claims.
+- `semantic_review_500.csv`: each original case, operator/source checks, independent-readable warnings and empty human fields.
+- `editorial_action_queue.csv`: one entry per proposed translation, including explicit high-priority blockers and empty adjudication slots.
+- `semantic_review_summary.json`: blocker counts and explicit independent-reader zeros.
+- `unseen_compositions_450.csv`: source IDs, original-independent English target, Qaroshi sentence and scoped formal semantics.
+- `unseen_summary.json`: new-pair counts and repeated warning against human validation claims.
 
 GitHub CI publishes the full two ledgers separately. Old 9.1 artifacts and frozen source hashes remain available. If a structural issue remains, classify and repair it in a **new versioned overlay**, preserving historical forms; never lower the bar by silently accepting a malformed sentence.
