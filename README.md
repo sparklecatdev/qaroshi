@@ -37,7 +37,7 @@ This phase changes the **language standard**, not the website: see the [28–34 
 
 [**Standard 9.1: language grammar, sense decisions and 500-case stress completion**](docs/standard_8/AMENDMENT_9_1_COMPLETE_EDITORIAL_CHALLENGES.md) adds exact 9.1 senses and rules for all **182** prior missing editorial draft challenges, spanning real-versus-negated-until event sequence, embedded relative reference, explicit non-consent and consent revocation, technical reports, metaphorical readings, and physical instrument use.
 
-`make stress91` reproduces **500/500 editorial candidate strings** while preserving all **318** previously drafted sentences and frozen baseline sources. Automated tests and a full 500-case formal audit accompany separated Qaroshi-only blind comprehension prompts and the English scoring key. This **is not 500 independently verified translations or proof of unrestricted fluency**: none of the meanings has independent human certification, and no external readers were tested.
+`make stress91` reproduces **500/500 editorial candidate strings**. All **318** earlier source drafts remain archived; the current 9.1 view keeps **310** verbatim and transparently repairs **8** noncanonical consent tense/modality forms, retaining their exact originals in `prior_9_0_candidate`. Frozen baseline sources are unchanged. Automated tests and a full 500-case formal audit accompany separated Qaroshi-only blind comprehension prompts and the English scoring key. This **is not 500 independently verified translations or proof of unrestricted fluency**: none of the meanings has independent human certification, and no external readers were tested.
 
 ## Standard 9.0 · Additional productive language grammar and comprehensibility evidence
 
