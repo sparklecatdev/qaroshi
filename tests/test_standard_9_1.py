@@ -79,6 +79,19 @@ class Standard91(unittest.TestCase):
         self.assertEqual(len(self.overlay),len({x["form"] for x in self.overlay.values()}))
         self.assertTrue(all(" " not in x["form"] for x in self.overlay.values()))
 
+    def test_every_9_1_lexical_token_is_traced_as_an_editorial_source(self):
+        from tools.stress91.compose import overlay_witnesses
+        adopted=[x for x in self.overlay.values() if x.get("status")!="not_adopted"]
+        for id_,draft in self.proposed.items():
+            row=self.ledger[id_]
+            used=set(overlay_witnesses(row["qaroshi_full_candidate"],adopted))
+            cited=set(row["edition_9_1_source_ids"].split(" | "))
+            self.assertTrue(used.issubset(cited),(id_,sorted(used-cited)))
+            self.assertTrue(all(self.overlay[x]["independently_attested"] is False for x in used))
+        for token in ("gëngora-m","shëwarono-te","gëru-yëla-gu","tëwërano-shi"):
+            hit=overlay_witnesses("sen "+token+".",adopted)
+            self.assertTrue(hit,(token,hit))
+
     def test_new_editorial_forms_do_not_silently_replace_legacy_headwords(self):
         historical={r["qaroshi"]:r for r in self.canon.values()}
         adopted=[x for x in self.overlay.values() if x.get("status")!="not_adopted"]
