@@ -83,7 +83,13 @@
       "goal": [
         "place"
       ],
-      "sense": "travel"
+      "sense": "travel",
+      "source": [
+        "place"
+      ],
+      "location": [
+        "place"
+      ]
     },
     "nëra": {
       "subject": [
@@ -113,7 +119,14 @@
         "flyer"
       ],
       "patient": [],
-      "sense": "play"
+      "sense": "play",
+      "location": [
+        "place"
+      ],
+      "comitative": [
+        "person",
+        "flyer"
+      ]
     },
     "wori": {
       "subject": [
@@ -121,7 +134,16 @@
         "flyer"
       ],
       "patient": [],
-      "sense": "wander"
+      "sense": "wander",
+      "goal": [
+        "place"
+      ],
+      "source": [
+        "place"
+      ],
+      "location": [
+        "place"
+      ]
     },
     "gëma": {
       "subject": [
