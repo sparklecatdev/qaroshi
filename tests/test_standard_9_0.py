@@ -116,7 +116,7 @@ class Standard90(unittest.TestCase):
         from tools.stress81.scenarios import TECH
         from tools.stress90.technical import compose as tcompose
         tech=read("technical_propositions_9_0.json")
-        self.assertEqual(len(tech),5)
+        self.assertEqual(len(tech),10)
         for f in tech:
             self.assertEqual(f["english_claim"],TECH[f["family"]-1][0])
             self.assertTrue(f["decision"])
