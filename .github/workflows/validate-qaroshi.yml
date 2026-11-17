@@ -93,5 +93,7 @@ jobs:
           name: qaroshi-90-reviewer-key
           path: data/stress90/private_english_answer_key.csv
           retention-days: 30
+      - name: Inspect remaining 9.0 challenges
+        run: python tools/stress91/diagnose_missing.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
