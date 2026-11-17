@@ -39,7 +39,7 @@ assert.equal(ui.counts.curatedEntries,1);
 assert.equal(ui.counts.proposals,1);
 const html=ui.sensesHTML(datum.words[0]);
 for(const expected of ['Trusted and enduring peer','mara-m','Not every stranger','LXP001','LS1',
-  'UNREVIEWED','independently unverified','Reference gloss','not independently','SC1']){
+  'UNREVIEWED','independently unverified','English dictionary gloss','independently unverified','SC1']){
  if(!html.toLowerCase().includes(expected.toLowerCase()))throw Error('Missing source status '+expected);
 }
 assert.equal(html.includes('<img'),false,'untrusted candidate must be HTML-escaped');
