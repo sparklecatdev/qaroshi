@@ -3,6 +3,7 @@
 import json,re,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT))
 sys.path.insert(0,str(ROOT/"tools/stress83"))
 from complete import Glosses
 from tools.stress81.scenarios import SOCIAL
