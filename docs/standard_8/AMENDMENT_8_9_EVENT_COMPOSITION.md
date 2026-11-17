@@ -67,7 +67,31 @@ The inherited 8.8 review identifies three specific source-reporting risks: `QS81
 
 These reviews are not independent human back-translations. **No participant has been recruited, scored, or claimed.** The answer key cannot be given to a blind respondent, and a reviewer should record literal English, grammatical roles, lexical disagreements, comprehension confidence and whether the original English entails anything absent from the Qaroshi.
 
-## VI. Release gate
+## VI. Consent, refusal, and offered-action content (8.9)
+
+Eight explicitly delimited everyday permission-action frames now extend the adopted question and speech forms. They are defined in [`consent_action_frames_8_9.json`](../../data/standard_8/consent_action_frames_8_9.json), with stable lexicon IDs, actor and recipient roles, and narrow action senses. **Consent is a meaningful action by the consenting party; an attempt to ask for permission is neither permission nor consent.**
+
+The three permitted constructions are:
+
+| Meaning | Restricted template | Truth conditions |
+| --- | --- | --- |
+| A asks B whether A may P | `sen A [OBJECT]-m VERB-ho he do A B-tu sharoa-te.` | The request occurred; no answer or permission asserted. `he` is the *embedded* polar operator immediately before `do` |
+| B explicitly refuses when A asks whether A may P | `sen yaro A [OBJECT]-m VERB-ho he do A B-tu sharoa-te, B toru «nu.» shiri-te.` | A permission request and B's explicit “no” occurred. The direct quoted `nu.` is a **fragment**, not a complete new sentence with an omitted resonance |
+| A offered to P and B declined | `sen A [OBJECT]-m VERB do A B-tu pëli-te nao B noharo-te.` | A proposed an action to B, then B declined. `pëli` acquires a restricted **propositional offer-to-act** frame; `noharo` is licensed as an intransitive refusal of the immediately preceding offer |
+
+These are **new editorial grammar licenses** for listed action frames, *not* an assertion that every verb or any grammatical-looking quoted fragment works in the same construction. For families that involve goal `-gu` rather than object `-m`, retain that role. The actor in the embedded action remains the requester/offerer; the addressee stays the person who may refuse. The offer form does not assert the proposed action occurred. The refusal construction does not assert that a refusal was respected, or that a prior broader consent was withdrawn. Silence is never accepted as evidence of agreement.
+
+Examples:
+
+- `sen ruwa relomo-m sezhoshi-ho he do ruwa pësënga-tu sharoa-te.` = The host asked the visitor whether the host could borrow the bicycle. **Question, not consent.**
+- `sen yaro mara tikashë-m shëmiwa-ho he do mara shuna-tu sharoa-te, shuna toru «nu.» shiri-te.` = The neighbor said no when the friend asked whether the friend could share the photograph.
+- `sen përoda shiraro-m khunginu do përoda pëpuwo-tu pëli-te nao pëpuwo noharo-te.` = The organizer offered to record the conversation, but the volunteer declined.
+
+The eight source-anchored actor/action pairs are host borrowing a bicycle, friend sharing a photograph, teacher reading a private letter, dancer changing choreography, organizer recording a conversation, medic entering a room, moderator publishing a message, and researcher retaining an audio recording. A private written letter uses the transparent `kunipapa` + `shilë` compound in this new *epistolary letter* reading, rather than silently equating a phonological written character with correspondence. A medic can use the trained-practitioner derivation `guqaki-sharo`; the spelling `guqaki` itself is preserved.
+
+Two scenarios (artist displaying portrait, traveler using a **spare** bed) remain deliberately out of scope because their exact result/object senses have not been defined. **Variants 4 and 5** for all eight adopted scenarios also remain unresolved: silent departure must not confer permission, and withdrawal of previously granted consent requires explicit temporal and reference tracking. Those 26 additional cases are *not* counted as solved.
+
+## VII. Release gate
 
 `python tools/stress89/compose.py` and `python tools/stress89/audit.py` must pass, along with the full tests, syntax-scope counterexamples, existing integrity audit, and frozen source hash checks. Run the full GitHub Action; never manually overwrite the old 8.8 evidence file or release baseline to make candidate counts improve.
 
