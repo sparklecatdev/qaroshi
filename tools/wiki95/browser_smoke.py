@@ -109,8 +109,8 @@ with sync_playwright() as play:
         check("recalled" in page.locator("#practiceProgress").inner_text(),label+": local recall state")
         page.locator("#practiceMode").select_option("phrases")
         page.wait_for_timeout(220)
-        card_text=page.locator("#practiceCard").inner_text()
-        check("Teaching example" in card_text,label+": existing corpus exercises inside Wiki; mode="+page.locator("#practiceMode").input_value()+" card="+repr(card_text[:350]))
+        card_text=page.locator("#practiceCard .practice-eyebrow").text_content() or ""
+        check("Teaching example" in card_text,label+": original corpus card active; mode="+page.locator("#practiceMode").input_value()+" raw="+repr(card_text[:200]))
         check(not external,label+": practice and lookup require no network")
         check(not errors,label+": zero browser script exceptions "+repr(errors[:2]))
         check(not external,label+": no network calls by default "+repr(external[:2]))
