@@ -62,7 +62,10 @@ def check(row:dict,base:dict,canonical:dict,lexical_overlay:dict)->dict:
     warnings=[]
     if row["english"]!=base["english"]:
         blockers.append("Original English prompt changed")
-    if base["feature"]!=row["feature"]:
+    # Historical 8.8–9.1 evidence ledgers do not all retain the original
+    # "feature" column. Use the immutable stress81 feature and the independent
+    # domain+variant matrix, never a guessed or missing legacy field.
+    if "feature" in row and base["feature"]!=row["feature"]:
         blockers.append("Original English transformation label changed")
     if not q:blockers.append("No complete proposed sentence")
     if CASE_MORPH.search(q):blockers.append("Reversed modal-before-tense suffix")
