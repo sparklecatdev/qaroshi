@@ -21,6 +21,15 @@
   // form, not merely a coincidental substring or an unrelated compound.
   const exampleByHeadword = window.QaroshiUsage.sourceIndex(P,wordBy,D.affixes);
   const caseByHeadword = window.QaroshiUsage.sourceIndex(D.semanticCases||[],wordBy,D.affixes);
+  // A separate provenance class: editorial connected dialogue turns are not
+  // original parallel teaching-corpus examples or spontaneous speaker use.
+  const connectedTurns=(D.standard10.dialogues||[]).flatMap(d=>d.turns.map((t,i)=>({
+    ...t,id:d.id,sceneTitle:d.title,turnNumber:i+1,source:d.source,
+    sceneStatus:d.status,sceneKind:d.id.startsWith('original11/')?
+      'Individually scripted editorial scene':'Recombined reference-line scene'
+  })));
+  const dialogueByHeadword=window.QaroshiUsage.sourceIndex(connectedTurns,wordBy,D.affixes);
+
   const phraseBy = new Map(P.map(p => [p.id, p]));
   const chapterBy = new Map(C.map(c => [c.id, c]));
   const $ = (id) => document.getElementById(id);
@@ -473,6 +482,7 @@
     const graph=discovery.related(w.qaroshi),neighbors=graph.neighbors,glossMatches=graph.sameGloss;
     const occurrences=(exampleByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,8);
     const caseOccurrences=(caseByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
+    const dialogueOccurrences=(dialogueByHeadword.get(w.qaroshi.toLowerCase())||[]).slice(0,6);
     const gramLink='#grammar/'+u.chapter;
     const affixByForm=new Map(D.affixes.map(x=>[x.form,x]));
     const suffInfo=x=>affixByForm.get(x)?.meaning||'reference grammar ending';
@@ -559,6 +569,23 @@
           <div class="entry-list">${caseOccurrences.map(x=>x.sentence).map(c=>`<a class="phrase-item" href="#case/${enc(c.id)}"><strong>${esc(c.qaroshi)}</strong><span class="small muted">${esc(c.id)} · ${esc(c.english)}</span></a>`).join('')}</div></details>`:''}
       </section>
 
+      <section id="conversation-context" class="word-conversation-context">
+        <h2>This word in conversation</h2>
+        <p class="muted small">These are <strong>editorially scripted or source-recombined scenes</strong>, not spontaneous speech or independent fluent-speaker attestation. They are shown separately from the original parallel teaching examples.</p>
+        ${dialogueOccurrences.length?`<div class="word-example-list">${dialogueOccurrences.map(({sentence:t,surface,suffixes})=>`
+          <article class="word-example">
+            <div class="word-example-top"><span class="word-example-source">${esc(t.sceneKind)} · Turn ${esc(t.turnNumber)}</span>
+            <a href="#conversation/${enc(t.id)}">Read the scene</a></div>
+            <p class="word-example-qaroshi" lang="x-qaroshi">${window.QaroshiUsage.highlight(t.qaroshi,w.qaroshi,wordBy,D.affixes)}</p>
+            <p class="word-example-english">${esc(t.english)}</p>
+            <p class="word-example-analysis"><strong>Context:</strong> ${esc(t.sceneTitle)} ·
+              <strong>Speaker:</strong> ${esc(t.speaker)} ·
+              <strong>Observed written form:</strong> <code>${esc(surface)}</code>
+              ${suffixes.length?` · endings ${suffixes.map(esc).join(', ')}`:''}</p>
+          </article>`).join('')}</div>`:
+          '<div class="word-example-empty"><strong>No separate editorial conversation occurrence recorded yet.</strong><p>Try the original example collection above, or read complete scenes in the <a href="#conversations">conversation library</a>.</p></div>'}
+      </section>
+
       <section id="family" class="word-family">
         <div class="word-section-title"><div><span class="word-section-kicker">Word formation</span>
           <h2>Word family & components</h2></div>
@@ -611,7 +638,7 @@
       if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
     }));
     setToc([{id:'definition',name:'Meaning'},{id:'usage',name:'How to use it'},{id:'sense-details',name:'Sense distinctions'},
-      {id:'examples',name:'Source examples'},{id:'family',name:'Word family'},
+      {id:'examples',name:'Source examples'},{id:'conversation-context',name:'Conversation contexts'},{id:'family',name:'Word family'},
       {id:'related',name:'Nearby meanings'},{id:'pronunciation',name:'Pronunciation'},
       {id:'lexical-details',name:'Sources'}]);
   }
