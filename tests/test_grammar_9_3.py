@@ -93,6 +93,33 @@ class TypedGrammar93(unittest.TestCase):
         self.assertEqual(self.g.semantic_view(inferred)["evidential"],"ye")
         self.assertNotEqual(self.g.render(reported),self.g.render(assertive))
 
+    def test_all_resonances_may_mark_polar_questions(self):
+        a=Atom("mi","tika",patient="mara",tense="te")
+        for register in sorted(self.g.resonances):
+            s=Sentence(a,resonance=register,mood="polar")
+            surface=self.g.render(s)
+            self.assertTrue(surface.endswith(" he?"))
+            self.assertEqual(self.g.parse(surface),s)
+        # The word-final he is a question marker; initial hë remains
+        # an opening resonance and cannot substitute for it.
+        with self.assertRaises(GrammarError):
+            self.g.parse("hë mi mara-m tika-te.")
+
+    def test_source_goal_location_and_comitative_are_typed_not_interchangeable(self):
+        traveling=Atom("mi","gura",goal="naro",source="naro",location="naro",tense="te")
+        q=self.g.render(Sentence(traveling))
+        self.assertIn("naro-gu",q)
+        self.assertIn("naro-de",q)
+        self.assertIn("naro-lo",q)
+        self.assertEqual(self.g.parse(q).proposition,traveling)
+        playing=Atom("mara","rawo",location="naro",comitative="ti")
+        self.assertEqual(self.g.parse(self.g.render(Sentence(playing))).proposition,playing)
+        for bad in (Atom("mi","gura",source="kima"),
+                    Atom("mara","rawo",comitative="kima"),
+                    Atom("mara","rawo",goal="naro")):
+            with self.assertRaises(GrammarError):
+                self.g.render(Sentence(bad))
+
     def test_unseen_clausal_event_compositions_without_fixed_family_ids(self):
         a=Atom("mi","tika",patient="mara",tense="te")
         b=Atom("ti","këmë",patient="kima",tense="te")
@@ -125,7 +152,6 @@ class TypedGrammar93(unittest.TestCase):
             "sen mi mara-m tika-ru-te.",
             "sen mi mara-m xyz-te.",
             "mi mara-m tika-te.",
-            "sen mi mara-m tika-te he?",
             "sen mi mara-m tika-te-do.",
             "sen mi mara-m tika-te hu ye.",
             "sen mi mara-m tika-te do yano mi-tu shiri-te si.",
