@@ -15,32 +15,11 @@
   const discovery = window.QaroshiDiscovery.createIndex(W);
   const domainBy = new Map();
   W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
-  // A sentence mentions a headword only when it contains that token (or an
-  // inflected form with a hyphen), never because a short spelling is a substring.
-  const exampleByHeadword = new Map();
-  P.forEach(p=>{
-    const forms=new Set((p.qaroshi.toLowerCase().match(/[a-zë]+(?:-[a-zë]+)*/g)||[]).map(t=>{
-      if(wordBy.has(t))return t;
-      const base=t.split('-')[0];return wordBy.has(base)?base:t;
-    }));
-    forms.forEach(f=>{
-      if(!wordBy.has(f))return;
-      if(!exampleByHeadword.has(f))exampleByHeadword.set(f,[]);
-      exampleByHeadword.get(f).push(p);
-    });
-  });
-  // Editorial semantic cases are linked only when an exact canonical token
-  // or known inflected base occurs. They are NOT independent comprehension data.
-  const caseByHeadword = new Map();
-  (D.semanticCases||[]).forEach(c=>{
-    const words=new Set((String(c.qaroshi).toLowerCase().match(/[a-zë]+(?:-[a-zë]+)*/g)||[])
-      .map(t=>wordBy.has(t)?t:(wordBy.has(t.split('-')[0])?t.split('-')[0]:null))
-      .filter(Boolean));
-    for(const form of words){
-      if(!caseByHeadword.has(form))caseByHeadword.set(form,[]);
-      caseByHeadword.get(form).push(c);
-    }
-  });
+  // Live, morphology-aware indexes. A sentence is linked to a word only if
+  // it actually contains the complete headword or a source-licensed suffix
+  // form, not merely a coincidental substring or an unrelated compound.
+  const exampleByHeadword = window.QaroshiUsage.sourceIndex(P,wordBy,D.affixes);
+  const caseByHeadword = window.QaroshiUsage.sourceIndex(D.semanticCases||[],wordBy,D.affixes);
   const phraseBy = new Map(P.map(p => [p.id, p]));
   const chapterBy = new Map(C.map(c => [c.id, c]));
   const $ = (id) => document.getElementById(id);
