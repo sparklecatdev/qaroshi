@@ -3,7 +3,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 const root=path.resolve(__dirname,'../..');
 const window={QaroshiUsage:{resolveToken:(token,words)=>{
  const form=token.toLowerCase();return words.has(form)?{headword:form,suffixes:[]}:null;
-}};
+}}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'web/wiki_standard10.js'),'utf8'),{window});
 const datum={
  words:[{id:'Q1',qaroshi:'mara',english:'friend',pos:'n'},{id:'Q2',qaroshi:'goro',english:'fly',pos:'v'}],
