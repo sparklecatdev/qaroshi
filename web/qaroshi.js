@@ -37,12 +37,12 @@
   const esc = (t) => String(t ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const count = n => Number(n).toLocaleString('en-US');
   const form = (r) => r === 'n' ? 'noun' : r === 'v' ? 'verb' : r === 'adj' ? 'adjective' : r === 'adv' ? 'adverb' : r === 'pron' ? 'pronoun' : r === 'conj' ? 'conjunction' : r === 'det' ? 'determiner' : r === 'part' ? 'particle' : r === 'post' ? 'postposition' : r;
-  const state = {dquery:'',pquery:'',limit:70,plimit:60,pos:'',domain:''};
+  const state = {dquery:'',pquery:'',limit:60,plimit:60,pos:'',domain:''};
   let firstNavigation = true;
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', learn:'Learning library', dictionary:'Dictionary', grammar:'Grammar', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
@@ -145,45 +145,44 @@
     const el=document.createElement('div');el.className='toast';el.setAttribute('role','status');el.textContent=message;
     document.body.appendChild(el);setTimeout(()=>el.remove(),2800);
   }
+
+  // Prioritize the most common tasks; full historical links remain reachable.
   function navMarkup(){
-    const a=(link,title)=>`<a class="navlink" data-page-link href="#${link}">${esc(title)}</a>`;
-    const groups=Object.entries(bookMark).map(([key,r])=>{
-      const items=C.filter(ch=>ch.number>=r[0]&&ch.number<=r[1]);
-      return `<details class="chapter-group" data-range="${key}" ${key==='introductory'?'open':''}>
-        <summary>${esc(r[0]+'–'+r[1])} · ${esc(key)}</summary><div class="nested">
-        ${items.map(c=>a('grammar/'+c.id, c.number+'. '+c.title)).join('')}
-        </div></details>`;
+    const a=(link,label)=>`<a class="navlink" data-page-link href="#${link}">${esc(label)}</a>`;
+    const chapterLinks=Object.entries(bookMark).map(([key,r])=>{
+      const chapters=C.filter(c=>c.number>=r[0]&&c.number<=r[1]);
+      return `<details class="chapter-group" data-range="${key}"><summary>${r[0]}–${r[1]} · ${esc(key)}</summary>
+        <div class="nested">${chapters.map(ch=>a('grammar/'+ch.id,ch.number+'. '+ch.title)).join('')}</div></details>`;
     }).join('');
-    const featured=Object.entries(D.domains).sort((x,y)=>y[1]-x[1]).slice(0,7);
-    return `<div class="side-group"><div class="side-heading">Explore</div>
-      ${a('home','Home')}<a class="navlink" href="explore.html">Explore all tools · current 23</a><a class="navlink" href="Qaroshi_21_23_Translation_Immersion_Academy.html">Translation & immersion</a><a class="navlink" href="Qaroshi_20_Speech_Studio.html">Spoken language</a><a class="navlink" href="Qaroshi_18_19_Living_Language_Studio.html">Conversation & roots</a>${a('assistant','AI assistant')}${a('learn','Learn Qaroshi')}<a class="navlink" href="Qaroshi_Academy.html">✧ Qaroshi Academy</a><a class="navlink" href="Qaroshi_17_Everyday_Communicator.html">Everyday communicator</a><a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Semantic workbench</a>${a('dictionary','Dictionary')}${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}${a('latin','Latin A–Z')}</div>
-      <div class="side-group"><div class="side-heading">More tools</div>
-      <details class="chapter-group"><summary>Corpus and research tools</summary><div class="nested">
-        <a class="navlink" href="Qaroshi_15_Expanded_Corpus_Library.html">Expanded corpus library</a>
-        <a class="navlink" href="Qaroshi_15_Corpus_Library.html">Editorial corpus library</a>
-        <a class="navlink" href="Qaroshi_16_Semantic_Atlas.html">Semantic atlas</a>
-        <a class="navlink" href="Qaroshi_16_1_Root_Reform_Studio.html">Root reform studio</a>
-        <a class="navlink" href="Qaroshi_16_2_Root_Standardization_Studio.html">Root standardization studio</a>
-        <a class="navlink" href="Qaroshi_12_13_Language_Studio.html">Language studio</a>
-        <a class="navlink" href="Qaroshi_Completion_Workbench.html">Completion workbench</a>
-        <a class="navlink" href="Qaroshi_Fluency_11.html">Fluency 11</a>
-        <a class="navlink" href="Qaroshi_Fluency_Lab.html">Fluency lab</a>
-        <a class="navlink" href="Qaroshi_Studio.html">Qaroshi studio</a>
+    return `<div class="side-group"><div class="side-heading">Get started</div>
+      ${a('home','Overview')}${a('dictionary','Dictionary')}
+      ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('cases','Meaning & examples')}
+      </div><div class="side-group"><div class="side-heading">Reference</div>
+      ${a('standard','Current grammar · 9.2')}${a('grammar','90 grammar chapters')}
+      ${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}
+      <details class="chapter-group"><summary>Grammar chapter index</summary><div class="nested">${chapterLinks}</div></details>
+      </div><div class="side-group"><details class="chapter-group">
+        <summary>Lessons, guides & pronunciation</summary><div class="nested">
+        ${a('guide/getting_started','Start here')}${a('guide/graded_course','Guided course')}
+        ${a('guide/sentence_atlas','Annotated sentence atlas')}${a('guide/workbook','Practice workbook')}
+        ${a('latin','Latin pronunciation')}${a('guide/pronunciation','Pronunciation & IPA')}
+        ${a('guide/translation','Translation guide')}${a('guide/lexicography','Dictionary conventions')}
+        ${a('guide/phonology','Writing system')}
+        <a class="navlink" href="Qaroshi_Academy.html">Foundations Academy</a>
+        </div></details></div><div class="side-group">
+      <details class="chapter-group"><summary>Specialist tools & archives</summary><div class="nested">
+        <a class="navlink" href="explore.html">All apps and past releases</a>
+        <a class="navlink" href="Qaroshi_21_23_Translation_Immersion_Academy.html">Translation & immersion</a>
+        <a class="navlink" href="Qaroshi_20_Speech_Studio.html">Spoken-language studio</a>
+        <a class="navlink" href="Qaroshi_18_19_Living_Language_Studio.html">Conversation & roots</a>
+        <a class="navlink" href="Qaroshi_17_Everyday_Communicator.html">Everyday communicator</a>
+        <a class="navlink" href="Qaroshi_14_Semantic_Workbench.html">Historical semantic workbench</a>
+        ${a('assistant','Optional AI assistant')}
+        ${a('about','About & limitations')}
       </div></details></div>
-      <div class="side-group"><div class="side-heading">Learn Qaroshi</div>
-      ${a('learn','Learning library')}
-      ${a('guide/getting_started','Start here')}
-      ${a('guide/graded_course','Guided course · 16 lessons')}
-      ${a('guide/sentence_atlas','Annotated sentence atlas')}
-      ${a('guide/workbook','Practice and answer keys')}
-      <details class="chapter-group"><summary>Deep topic guides · 16</summary><div class="nested">
-        ${STUDY.filter(x => !['graded_course','sentence_atlas','workbook'].includes(x.id)).map(x=>a('guide/'+x.id,x.title)).join('')}
-      </div></details></div>
-      <div class="side-group"><div class="side-heading">Grammar</div>${a('grammar','All grammar chapters')}${groups}</div>
-      <div class="side-group"><div class="side-heading">Popular topics</div>
-      ${featured.map(([d])=>a('dictionary?domain='+enc(d),d)).join('')}${a('categories','View all topics')}</div>
-      <div class="side-group"><div class="side-heading">Reference</div>${a('guide/translation','Translation guide')}${a('guide/living','Living speech, profanity & intimacy')}${a('guide/lexicography','Dictionary conventions')}${a('guide/phonology','Writing system')}${a('guide/pronunciation','Pronunciation & IPA')}${a('latin','Latin alphabet guide')}${a('guide/release','Reference notes')}${a('guide/roadmap','Coverage & future work')}${a('about','About Qaroshi')}</div>
-      <div class="side-divider"></div><div class="sidebar-footer">Canonical reference 7.0<br><strong>Learning tools through 23</strong></div>`;
+      <div class="side-divider"></div><div class="sidebar-footer">
+      Current editorial grammar <strong>9.2</strong><br>Grammar tools <strong>9.3</strong><br>
+      Meaning cases <strong>9.4 proposals</strong></div>`;
   }
   sidebar.innerHTML=navMarkup();
   function routeInfo(){
@@ -233,34 +232,30 @@
       return `<span class="glyph-punct">${esc(t.v)}</span>`;
     }).join('')}</div>`;
   }
+
   function renderHome(){
     main.innerHTML=`<article class="readable">
       <section class="home-hero" aria-label="Qaroshi introduction">
         <div class="hero-glyphs" aria-hidden="true"><img src="${G['q']}" alt=""><img src="${G['a']}" alt=""><img src="${G['r']}" alt=""></div>
-        <div class="eyebrow">QAROSHI LANGUAGE REFERENCE · STANDARD 7.0</div>
+        <div class="eyebrow">QAROSHI · CURRENT EDITORIAL REFERENCE 9.2–9.4</div>
         <h1>Qaroshi<span class="hero-dot">.</span></h1>
-        <p class="lead">A complete, browsable home for Qaroshi. Look up words, explore the grammar, practice pronunciation, or write using the original 26-glyph script.</p>
-        <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${count(P.length)}</b> examples</span><span><b>${C.length}</b> grammar chapters</span><span><b>26</b> native letters</span></div>
+        <p class="lead">Look up a word, learn a rule or build a sentence. The new grammar workshop and meaning library work right in your browser.</p>
+        <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${C.length}</b> grammar chapters</span><span><b>25</b> reviewed grammar verbs</span><span><b>500</b> editorial meaning cases</span></div>
       </section>
-      <div class="release-direction"><div class="eyebrow">Find the right tool</div><h2>Choose your next step</h2><p>The dictionary is the stable reference. For practical use, take the source-backed reading course, try pronunciation, or explore conversation. <a href="explore.html">Browse every edition and historical archive</a>.</p></div>
       <div class="quick-grid">
-        <a class="quick-card" href="Qaroshi_21_23_Translation_Immersion_Academy.html"><span class="arrow">›</span><strong>Translate & read · 21–23</strong><small>Source-linked lookups, editorial readings and learning checks</small></a>
-        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Dictionary</strong><small>Explore the 30,000 canonical words and related examples</small></a>
-        <a class="quick-card" href="Qaroshi_20_Speech_Studio.html"><span class="arrow">›</span><strong>Speak & listen · 20</strong><small>Phonetic drills and private recording tools</small></a>
-        <a class="quick-card" href="Qaroshi_18_19_Living_Language_Studio.html"><span class="arrow">›</span><strong>Conversation & roots · 18–19</strong><small>Contextual exchanges, meanings and documented word building</small></a>
-        <a class="quick-card" href="Qaroshi_17_Everyday_Communicator.html"><span class="arrow">›</span><strong>Everyday phrases · 17</strong><small>Greetings, practical situations and a guided sentence builder</small></a>
-        <a class="quick-card learning-quick" href="Qaroshi_Academy.html"><span class="arrow">›</span><strong>Foundation lessons</strong><small>Sixteen guided lessons, study guides and games</small></a>
-        <a class="quick-card" href="#grammar"><span class="arrow">›</span><strong>Grammar & writing</strong><small>All 90 grammar chapters, resonance markers and script</small></a>
-        <a class="quick-card" href="explore.html"><span class="arrow">›</span><strong>All tools & history</strong><small>Current apps first; research editions kept organized</small></a>
-      </div><h2 id="fundamental">A sentence has a resonance</h2><p>Every complete Qaroshi sentence begins with a <a href="#grammar/02">written resonance marker</a>. The marker is mandatory even in casual text messages, and it expresses the speaker's stance without changing the sentence's literal words.</p>
-      <div class="quote"><strong class="roman">më ti lësha.</strong><span class="ipa-small">${esc(ipaText('më ti lësha.'))}</span><span class="translation">You are cute. (Warm Hum: affection)</span></div>
-      <div class="quote"><strong class="roman">qor mi ti-m daru-yu.</strong><span class="ipa-small">${esc(ipaText('qor mi ti-m daru-yu.'))}</span><span class="translation">I will protect you. (Deep Resonance: a serious promise)</span></div>
-      <h2 id="original-writing">Written in its native alphabet</h2>
-      ${glyphHTML('më ti lësha.',{large:true})}
-      <p class="small muted">Each letter is drawn from the original Nardoragon glyph artwork. The text is not a font, so the script converter assembles the original glyph images directly.</p>
-      <h2 id="reference">One unified reference</h2><p>The dictionary, examples, grammar and native script are now presented together as a single standard. Each entry has its own definition page, and all ${C.length} grammar chapters can be read from the sidebar.</p>
-      <div class="foot">Canonical reference 7.0 · <a href="explore.html">Current teaching tools through 23</a> · <a href="#guide/release">Historical reference notes</a></div></article>`;
-    setToc([{id:'fundamental',name:'Written resonance'},{id:'original-writing',name:'Original alphabet'},{id:'reference',name:'Unified reference'}]);
+        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Find a word</strong><small>English meaning, Qaroshi spelling and pronunciation</small></a>
+        <a class="quick-card" href="#workshop"><span class="arrow">›</span><strong>Build or inspect a sentence</strong><small>Try verbs, cases, tense, negation and questions</small></a>
+        <a class="quick-card" href="#learn"><span class="arrow">›</span><strong>Start learning</strong><small>Guided lessons, examples and practice</small></a>
+        <a class="quick-card" href="#standard"><span class="arrow">›</span><strong>Read the current grammar</strong><small>90 chapters plus recent source-linked rules</small></a>
+        <a class="quick-card" href="#categories"><span class="arrow">›</span><strong>Browse subjects</strong><small>Grouped topics instead of hundreds of links</small></a>
+        <a class="quick-card" href="#cases"><span class="arrow">›</span><strong>Explore meaning cases</strong><small>500 proposed sentences with transparent review status</small></a>
+      </div>
+      <div class="note"><strong>Reference status:</strong> the 8.0 grammar remains the inherited normative core; later rules include source-bound editorial decisions. The interactive grammar covers a reviewed subset, and the 500 proposed translations lack independent reader validation.</div>
+      <h2 id="fundamental">Start with a sentence</h2>
+      <p>Qaroshi opens independent sentences with a resonance marker, keeps roles explicit, and puts predicates near the end. Explore <a href="#grammar/02">resonance</a>, <a href="#grammar/06">case roles</a> or the <a href="#workshop">sentence workshop</a>.</p>
+      <div class="quote"><strong class="roman">qor mi ti-m daru-yu.</strong><span class="ipa-small">${esc(ipaText('qor mi ti-m daru-yu.'))}</span><span class="translation">I will protect you. A source-documented example of tense and case.</span></div>
+      <div class="foot"><a href="explore.html">Specialist apps and archives</a> · <a href="#about">About the reference</a></div></article>`;
+    setToc([{id:'fundamental',name:'Start with a sentence'}]);
   }
   let assistantIndex;
   function assistantSources(query){
