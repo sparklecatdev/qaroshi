@@ -146,7 +146,7 @@
         <div class="nested">${chapters.map(ch=>a('grammar/'+ch.id,ch.number+'. '+ch.title)).join('')}</div></details>`;
     }).join('');
     return `<div class="side-group"><div class="side-heading">Get started</div>
-      ${a('home','Overview')}${a('dictionary','Dictionary')}
+      ${a('home','Overview')}${a('dictionary','Dictionary & word guides')}
       ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('practice','Practice words & phrases')}${a('cases','Meaning & examples')}
       </div><div class="side-group"><div class="side-heading">Reference</div>
       ${a('standard','Current grammar · 9.2')}${a('grammar','90 grammar chapters')}
@@ -173,7 +173,7 @@
         ${a('about','About & limitations')}
       </div></details></div>
       <div class="side-divider"></div><div class="sidebar-footer">
-      Current editorial grammar <strong>9.2</strong><br>Grammar tools <strong>9.3</strong><br>
+      Wiki experience <strong>9.7 · word guides</strong><br>Current editorial grammar <strong>9.2</strong><br>Grammar tools <strong>9.3</strong><br>
       Meaning cases <strong>9.4 proposals</strong></div>`;
   }
   sidebar.innerHTML=navMarkup();
@@ -236,7 +236,7 @@
         <div class="statsline"><span><b>${count(W.length)}</b> words</span><span><b>${C.length}</b> grammar chapters</span><span><b>25</b> reviewed grammar verbs</span><span><b>500</b> editorial meaning cases</span></div>
       </section>
       <div class="quick-grid">
-        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Find a word</strong><small>English meaning, Qaroshi spelling and pronunciation</small></a>
+        <a class="quick-card" href="#dictionary"><span class="arrow">›</span><strong>Understand a word</strong><small>Source meaning, how to use it, real examples and word families</small></a>
         <a class="quick-card" href="#workshop"><span class="arrow">›</span><strong>Build or inspect a sentence</strong><small>Try verbs, cases, tense, negation and questions</small></a>
         <a class="quick-card" href="#learn"><span class="arrow">›</span><strong>Start learning</strong><small>Guided lessons, examples and practice</small></a>
         <a class="quick-card" href="#standard"><span class="arrow">›</span><strong>Read the current grammar</strong><small>90 chapters plus recent source-linked rules</small></a>
