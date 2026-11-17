@@ -95,5 +95,7 @@ jobs:
           retention-days: 30
       - name: Inspect remaining 9.0 challenges
         run: python tools/stress91/diagnose_missing.py
+      - name: Probe canonical roots needed for remaining clauses
+        run: python tools/stress91/probe_lexicon.py
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q
