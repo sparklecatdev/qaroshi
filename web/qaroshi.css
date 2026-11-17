@@ -303,3 +303,43 @@ html{color-scheme:light}html[data-theme=dark]{color-scheme:dark}.theme-select{he
   .topic-group>summary span{white-space:normal}
   .lab-output{padding:13px}
 }
+
+
+/* Wiki 9.6: ranked dictionary and integrated learning. */
+.dictionary-searchbar{display:flex;gap:10px;align-items:center;margin:18px 0 9px}
+.dictionary-searchbar .search{width:100%;height:48px;font-size:.98rem;flex:1;min-width:0}
+.dictionary-searchbar button{min-width:68px}
+.dictionary-filters{border:1px solid var(--border);border-radius:10px;background:var(--canvas);margin:10px 0 13px}
+.dictionary-filters>summary{padding:10px 14px;cursor:pointer;font-size:.85rem;font-weight:630;color:var(--muted)}
+.dictionary-filters>summary:hover{color:var(--text)}
+.dictionary-filters .controls{padding:0 14px 15px;gap:8px;align-items:center}
+.dictionary-filters .controls label{color:var(--muted);font-size:.8rem}
+.dictionary-filters .controls select{min-width:0;flex:1 1 160px;max-width:100%}
+.word-family-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:12px 0}
+.word-family-links a{display:block;padding:9px 11px;border:1px solid var(--border);border-radius:8px;background:var(--panel);text-decoration:none;overflow-wrap:anywhere}
+.word-family-links a:hover{background:var(--hover);border-color:var(--accent-border)}
+.word-family-links strong{display:block;font:.87rem/1.5 ui-monospace,monospace;color:var(--link)}
+.word-family-links small{display:block;font-size:.77rem;line-height:1.4;color:var(--muted)}
+.practice-studio .article-header{margin-bottom:16px}
+.practice-settings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 15px;margin:20px 0 23px}
+.practice-settings .lab-field select{height:43px}
+.practice-settings>button{align-self:end;min-height:43px}
+.practice-progress{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.85rem;padding:8px 0;margin-bottom:7px}
+.practice-card{background:var(--canvas);border:1px solid var(--accent-border);border-radius:14px;padding:27px 24px;min-height:220px}
+.practice-eyebrow{display:block;text-transform:uppercase;color:var(--muted);font-size:.7rem;letter-spacing:.09em;font-weight:700}
+.practice-prompt{margin:24px 0;line-height:1.5;font-size:clamp(1.25rem,2.4vw,1.75rem);font-weight:700;overflow-wrap:anywhere}
+.practice-answer{border-top:1px solid var(--border);padding-top:15px;margin-top:12px}
+.practice-answer-label{color:var(--muted);font-size:.76rem;text-transform:uppercase;letter-spacing:.07em}
+.practice-answer strong{display:block;font-size:1.1rem;line-height:1.6;margin:6px 0;overflow-wrap:anywhere}
+.practice-reference{display:inline-block;font-size:.83rem;margin-top:7px}
+.practice-placeholder{color:var(--muted);font-size:.83rem}
+.practice-actions{display:flex;justify-content:flex-end;gap:10px;margin:14px 0}
+.practice-actions button{min-width:128px}
+.practice-finish strong{font-size:1.2rem}
+.practice-finish p{font-size:.9rem}
+@media(max-width:650px){
+  .word-family-links,.practice-settings{grid-template-columns:1fr}
+  .practice-card{padding:19px 15px;min-height:185px}
+  .practice-actions button{min-width:0;flex:1}
+  .dictionary-filters .controls{display:grid;grid-template-columns:1fr}
+}
