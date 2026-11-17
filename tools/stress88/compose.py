@@ -97,16 +97,18 @@ def write_csv(path:Path, things):
         out.writeheader()
         out.writerows(things)
 
-def verb_sentence(actor,patient,verb,variant):
-    """Only 8.8 licensed V1 active senses, no passive/causative inference."""
+def verb_sentence(actor,patient,verb,variant,patient_surface=None,theme=None):
+    """Only the listed 8.8 senses; special plant-watering has true dative/theme roles."""
+    args=(f"{actor} {patient}-tu {theme}-m" if theme else
+          f"{actor} {patient_surface or patient}-m")
     if variant == 1:
-        return f"sen {actor} {patient}-m {verb}-te."
+        return f"sen {args} {verb}-te."
     if variant == 2:
-        return f"sen {actor} {patient}-m nu {verb}-te."
+        return f"sen {args} nu {verb}-te."
     if variant == 3:
-        return f"hë {actor} {patient}-m {verb}-te he?"
+        return f"hë {args} {verb}-te he?"
     if variant == 4:
-        return f"sen {actor} {patient}-m {verb}-te do yano mi-tu shiri-te."
+        return f"sen {args} {verb}-te do yano mi-tu shiri-te."
     raise ValueError("Unsupported daily variant")
 
 def valency_sentence(f,variant):
@@ -128,7 +130,7 @@ def run():
     senses=json.loads((ROOT/"data/standard_8/sense_extension_8_8.json").read_text(encoding="utf8"))
     old={x["id"]:x for x in original}
     assert len(original)==500 and len(challenges)==500 and len(old)==500
-    assert len(frames)==5 and len(senses)==3
+    assert len(frames)==9 and len(senses)==5
     families={x["family"]:x for x in frames}
     extension={x["family"]:x for x in senses}
     old_yes=sum(bool(x["qaroshi_draft"]) for x in original)
@@ -147,17 +149,15 @@ def run():
         # with explicitly licensed fixed participant/object senses.
         if domain=="daily" and fam in extension and variant<=4:
             f=extension[fam]
-            candidate=verb_sentence(f["actor"],f["patient"],f["verb"],variant)
-            if fam==10:
-                # "transport ticket" narrows unspecified English "ticket".
-                # Preserve the mismatch, do not fill a supposedly solved cell.
-                competing=candidate
-                caveat="Contextual travel-ticket paraphrase ONLY; adds ticket-type entailment absent in English."
-            else:
-                proposal=candidate
-                method="new_8_8_editorial_full_composition_not_independently_validated"
-                witness=" | ".join([f["actor_id"],f["verb_id"],f["patient_id"],f["id"]])
-                caveat=f["boundary"]
+            candidate=verb_sentence(f["actor"],f["patient"],f["verb"],variant,
+                                    patient_surface=f.get("patient_surface"),
+                                    theme=f.get("theme"))
+            proposal=candidate
+            method="new_8_8_editorial_full_composition_not_independently_validated"
+            witness=" | ".join(str(v) for v in (f.get("actor_id"), f.get("actor_base_id"),
+                                f.get("verb_id"),f.get("patient_id"), f.get("theme_id"), f["id"])
+                                if v)
+            caveat=f["boundary"]
         if domain=="quantifier_logic" and fam==1 and variant==5:
             assert not proposal
             proposal="sen dëna qaro ngëshi nëna haro."
@@ -178,7 +178,7 @@ def run():
             if expected:
                 proposal=expected
                 method="8_8_specific_actor_patient_voice_license_unverified"
-                witness=" | ".join([f["root_id"],f["actor_id"],f["patient_id"],f["id"]]+([f["tool_id"]] if variant==3 else []))
+                witness=" | ".join(str(v) for v in (f.get("root_id"),f.get("actor_id"),f.get("actor_base_id"),f.get("patient_id"),f["id"],f.get("tool_id") if variant==3 else None) if v)
                 caveat=f["boundary"]
         if not proposal and not competing: caveat="No full licensed composition documented; do not fill by dropping semantic roles."
         queue.append({"id":id_,"domain":domain,"family":fam,"variant":variant,
@@ -204,8 +204,8 @@ def run():
         "human_verified":0,
         "source_preservation":"all frozen earlier files unchanged",
         "new_voice_frame_licenses":len(frames),
-        "narrow_new_everyday_senses":2,
-        "contextual_travel_ticket_paraphrase_not_promoted":4,
+        "new_documented_everyday_sense_families":len(senses),
+        "new_ticket_credential_sense_requires_editorial_adoption":True,
         "source_report_templates_narrowed":3,
         "candidate_status_counts":dict(sorted(counts.items())),
         "language_complete":False,
