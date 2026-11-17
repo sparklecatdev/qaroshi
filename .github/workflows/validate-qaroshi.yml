@@ -20,6 +20,7 @@ jobs:
           node --check web/wiki_practice.js
           node --check web/wiki_usage.js
           node --check web/wiki_standard10.js
+          node --check web/wiki_editorial_review.js
           node --check web/qaroshi.js
           node tests/standard10/ui.cjs
           node tests/wiki95/grammar_browser.cjs
@@ -41,12 +42,17 @@ jobs:
           retention-days: 30
       - name: Prepare 80-item separate blind-reader experiment files
         run: python tools/standard10/trial.py --build --out data/standard10/review_pack
+      - name: Build no-English-key offline first-pass reader field kit
+        run: |
+          python tools/standard10/reader_html.py --reader data/standard10/review_pack/learner_blind_items.csv --out data/standard10/review_pack/learner_experiment.html
+          python -m unittest tests.test_standard_10_1 -q
       - name: Upload Qaroshi-only learner stimuli with no answer key
         uses: actions/upload-artifact@v4
         with:
           name: qaroshi-10-human-study-learner-only
           path: |
             data/standard10/review_pack/learner_blind_items.csv
+            data/standard10/review_pack/learner_experiment.html
             data/standard10/review_pack/empty_response_and_adjudication.csv
             data/standard10/review_pack/PROTOCOL.md
             data/standard10/review_pack/manifest.json
