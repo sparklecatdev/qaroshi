@@ -1,0 +1,80 @@
+{
+  "counterfactuals": [
+    {
+      "id": "CF89-01",
+      "daily_family": 1,
+      "english": "If the cook had washed the bowl, the guest would have used it.",
+      "qaroshi": "sen wënu nënugo gëla-m shëmiroli-te, dëra gëla-m pënari-te qinë.",
+      "antecedent": "nënugo gëla-m shëmiroli-te",
+      "consequent": "dëra gëla-m pënari-te",
+      "antecedent_nonactual": true,
+      "consequent_asserted_actual": false,
+      "anaphoric_identity": "gëla in consequent is the same bowl as gëla in antecedent",
+      "source_ids": [
+        "Q003030",
+        "Q001433",
+        "Q004493",
+        "Q000939",
+        "Q003450"
+      ],
+      "limit": "A contrary-to-fact wash condition does not entail that the bowl was actually washed or used."
+    },
+    {
+      "id": "CF89-02",
+      "daily_family": 2,
+      "english": "If the neighbor had closed the gate, the dog would have stayed inside.",
+      "qaroshi": "sen wënu shuna tëzhoza-m shëliroa-te, zemobo këna-lo nëra-te qinë.",
+      "antecedent": "shuna tëzhoza-m shëliroa-te",
+      "consequent": "zemobo këna-lo nëra-te",
+      "antecedent_nonactual": true,
+      "consequent_asserted_actual": false,
+      "source_ids": [
+        "Q004455",
+        "Q005196",
+        "Q004467",
+        "Q006122",
+        "Q001981"
+      ],
+      "limit": "Inside is a deictically understood interior; this does not entail the dog was originally outdoors or a human actually shut the gate."
+    }
+  ],
+  "additional_voice": {
+    "id": "V89-08",
+    "voice_family": 8,
+    "actor": "tëdiru-sharo",
+    "actor_base": "tëdiru",
+    "actor_base_id": "Q004949",
+    "patient": "nama",
+    "patient_id": "Q002329",
+    "verb": "tëdiru",
+    "verb_id": "Q004949",
+    "scope": "specialist in assembling wooden furniture, used in this narrowly defined carpenter role; table is a kind of furniture",
+    "instrument": null,
+    "source_ids": [
+      "Q004949",
+      "Q002329"
+    ],
+    "limit": "The exact carpenter role is a new contextual occupational sense; the source verb originally means assemble furniture. No generic tool is implied.",
+    "candidates": {
+      "1": "sen tëdiru-sharo nama-m tëdiru-te.",
+      "2": "sen nama tëdiru-sharo-za tëdiru-li-te.",
+      "4": "sen tëdiru-sharo nama-m nu tëdiru-te.",
+      "5": "hë nama tëdiru-sharo-za tëdiru-li-te he?"
+    }
+  },
+  "additional_instruments": [
+    {
+      "id": "INST89-09",
+      "voice_family": 9,
+      "actor": "rezhago",
+      "patient": "yarowe",
+      "verb": "shëmiroli",
+      "instrument": "qoheku",
+      "instrument_id": "Q5001222",
+      "source_old_sense": "garden hose",
+      "new_sense": "water hose used for cleaning a vehicle, not necessarily used in a garden",
+      "qaroshi": "sen rezhago yarowe-m qoheku-shi shëmiroli-te.",
+      "limit": "Physical hose as instrument only; no success of wash is inferred. The historic garden-hose meaning remains."
+    }
+  ]
+}

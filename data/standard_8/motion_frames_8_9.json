@@ -1,0 +1,73 @@
+[
+  {
+    "id": "TM89-01",
+    "family": 1,
+    "actor": "rikanga",
+    "actor_id": "Q3L9FDD818E9DF6",
+    "object": "kimaro",
+    "object_id": "Q001961",
+    "event_verb": "lurezhu",
+    "event_verb_id": "Q002153",
+    "related_actor": "tarowa",
+    "related_actor_id": "Q004921",
+    "related_verb": "qumoki",
+    "related_verb_id": "Q5001714",
+    "boundary_actor": "lushënga",
+    "boundary_actor_id": "Q002187",
+    "boundary_verb": "wuzhagi",
+    "boundary_verb_id": "Q005492",
+    "semantic_decision": "New generic courier sense of rikanga beyond inter-roost; inspect-structure V1 with passive bridge patient; inchoative storm ending.",
+    "scope_limits": "The after/before/while/question readings must retain separate courier and bridge/storm referents. Negative-until remains uncounted because subsequent crossing isn't explicitly asserted.",
+    "candidates": {
+      "1": "sen ana rikanga kimaro-m lurezhu-te, tarowa qumoki-li-te.",
+      "2": "sen ëna lushënga wuzhagi-te, rikanga kimaro-m lurezhu-te.",
+      "3": "sen yaro tarowa qumoki-li-te, rikanga kimaro-m lurezhu-te.",
+      "5": "hë ëna tarowa qumoki-li-te, rikanga kimaro-m lurezhu-te he?"
+    }
+  },
+  {
+    "id": "TM89-02",
+    "family": 2,
+    "actor": "reyëzho",
+    "actor_id": "Q004094",
+    "object": "repaba",
+    "object_id": "Q004012",
+    "event_verb": "reqopu",
+    "event_verb_id": "Q004020",
+    "boundary_actor": "shëraza",
+    "boundary_actor_id": "Q004605",
+    "boundary_verb": "lukhoshu",
+    "boundary_verb_id": "Q002076",
+    "semantic_decision": "Narrow vehicle-boarding sense applies to ferry; inchoative dissipation of fog with fog as sole subject.",
+    "scope_limits": "Bell-sounding variants remain uncounted without an independently grounded bell and ringing frame; negative-until not automatically treated as eventual boarding.",
+    "candidates": {
+      "2": "sen ëna shëraza lukhoshu-te, reyëzho-ri repaba-m reqopu-te."
+    }
+  },
+  {
+    "id": "TM89-07",
+    "family": 7,
+    "actor": "pësënga",
+    "actor_id": "Q003496",
+    "object": "deneka",
+    "object_id": "Q000559",
+    "event_verb": "shënawë",
+    "event_verb_id": "Q004531",
+    "related_actor": "raro",
+    "related_actor_id": "Q003866",
+    "related_verb": "rëliwa",
+    "related_verb_id": "Q004143",
+    "boundary_actor": "deyega",
+    "boundary_actor_id": "Q000709",
+    "boundary_verb": "wërawë",
+    "boundary_verb_id": "Q005532",
+    "semantic_decision": "New leisure-tourist reading of pësënga in museum context; museum-goal enter V0, inchoative door-opening V0 and exhibition-begin V0.",
+    "scope_limits": "Tourists are explicitly leisure visitors in the new sense, not simply any guests. Temporal overlap does not entail door-caused entrance. The until case remains uncounted.",
+    "candidates": {
+      "1": "sen ana pësënga-ri deneka-gu shënawë-te, raro-ri rëliwa-te.",
+      "2": "sen ëna deyega wërawë-te, pësënga-ri deneka-gu shënawë-te.",
+      "3": "sen yaro raro-ri rëliwa-te, pësënga-ri deneka-gu shënawë-te.",
+      "5": "hë ëna raro-ri rëliwa-te, pësënga-ri deneka-gu shënawë-te he?"
+    }
+  }
+]

@@ -34,5 +34,31 @@ jobs:
             data/stress88/case_evidence_500.csv
             data/stress88/summary.json
           retention-days: 30
+      - name: Build 8.9 full-item semantic compositions
+        run: python tools/stress89/compose.py
+      - name: Audit inherited 135 candidates and generate blind review
+        run: python tools/stress89/audit.py
+      - name: Upload 8.9 composition evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-89-composition-500
+          path: |
+            data/stress89/case_evidence_500.csv
+            data/stress89/composition_summary.json
+            data/stress89/all_candidate_form_audit_500.csv
+            data/stress89/audit_summary.json
+          retention-days: 30
+      - name: Upload blind prompts separately from reviewer answer key
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-89-blind-prompts-135
+          path: data/stress89/blind_qaroshi_prompts_135.csv
+          retention-days: 30
+      - name: Upload separate review answer key
+        uses: actions/upload-artifact@v4
+        with:
+          name: qaroshi-89-reviewer-key-135
+          path: data/stress89/separate_answer_key_135.csv
+          retention-days: 30
       - name: Test reference and grammar
         run: python -m unittest discover -s tests -q

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "NA89-01",
+    "family": 1,
+    "alternative": "the backup failed",
+    "event_clause": "khuzuha zhimabu-te",
+    "source_ids": [
+      "Q001946",
+      "Q006392"
+    ],
+    "lexical_decision": "A backup can fail at its intended backup task; zhimabu gains a narrowly licensed intransitive failure sense for backups.",
+    "boundary": "The speaker does not assert backup failure and does not assert its negation."
+  },
+  {
+    "id": "NA89-02",
+    "family": 2,
+    "alternative": "the meeting was canceled",
+    "event_clause": "kheriniyu wusëngu-li-te",
+    "source_ids": [
+      "Q60000697",
+      "Q005470"
+    ],
+    "lexical_decision": "Meeting is an event patient of cancel; passive -li may omit the actor for this licensed sense.",
+    "boundary": "Not asserting cancellation is not claiming the meeting actually occurred."
+  },
+  {
+    "id": "NA89-03",
+    "family": 3,
+    "alternative": "someone entered the room",
+    "event_clause": "yano naroaro-gu shënawë-te",
+    "source_ids": [
+      "Q004531"
+    ],
+    "lexical_decision": "Source yano is indefinite some person; existing motion shënawë permits goal -gu, with room noun naroaro.",
+    "boundary": "Declining to claim entry is not a denial of entry, and source person remains unidentified."
+  },
+  {
+    "id": "NA89-04",
+    "family": 4,
+    "alternative": "the telescope moved",
+    "event_clause": "suzaqo gura-te",
+    "source_ids": [
+      "Q004870"
+    ],
+    "lexical_decision": "Narrow new inanimate-relocation V0 sense of gura for a telescope, distinct from an animate travel-to-destination frame.",
+    "boundary": "No distance, cause, destination, human agent or successful repositioning is inferred."
+  },
+  {
+    "id": "NA89-05",
+    "family": 5,
+    "alternative": "the child recognized the face",
+    "event_clause": "taru meri-m këroli-te",
+    "source_ids": [
+      "Q004922",
+      "Q002283",
+      "Q001998"
+    ],
+    "lexical_decision": "Recognize visually perceived face by identity, separate from the voice-recognition reading in EV89-05.",
+    "boundary": "The matrix negates the assertion, not the child's perceptual recognition."
+  },
+  {
+    "id": "NA89-06",
+    "family": 6,
+    "alternative": "the scientist changed the hypothesis",
+    "event_clause": "përuyo zoshongo-m shëruwawe-te",
+    "source_ids": [
+      "Q003483",
+      "Q006749",
+      "Q004626"
+    ],
+    "lexical_decision": "Existing change/alter root gains a narrowly licensed research-hypothesis proposition-patient sense.",
+    "boundary": "Not claiming a hypothesis change is not evidence it remained unchanged."
+  },
+  {
+    "id": "NA89-08",
+    "family": 8,
+    "alternative": "the bridge was repaired",
+    "event_clause": "tarowa rëgë-li-te",
+    "source_ids": [
+      "Q004921",
+      "Q004135"
+    ],
+    "lexical_decision": "Existing repair root gains a bridge-structure passive frame with omitted agent.",
+    "boundary": "Not claiming repair is neither proof of existing damage nor proof that the bridge is safe."
+  }
+]

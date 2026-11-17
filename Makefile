@@ -1,4 +1,4 @@
-.PHONY: build test standard8 stress82 stress83 stress84 stress88
+.PHONY: build test standard8 stress82 stress83 stress84 stress89 stress88
 standard8:
 	python tools/standard_8/build_standard.py
 stress82: standard8
@@ -7,6 +7,9 @@ stress83: stress82
 	python tools/stress83/complete.py
 stress84: stress83
 	python tools/stress84/build_readiness.py
+stress89: stress84
+	python tools/stress89/compose.py
+	python tools/stress89/audit.py
 stress88: stress84
 	python tools/stress88/compose.py
 build: standard8
