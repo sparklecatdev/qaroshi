@@ -41,7 +41,7 @@ def main():
         "clean":"v", "brush":"n", "archivist":"n", "copy":"v",
         "carpenter":"n", "secure":"v", "colored tiles":"n", "roller":"n",
         "reference device":"n", "wooden pegs":"n", "hose":"n",
-        "steel lock":"n", "courier":"n", "cross":"v", "board":"v",
+        "steel lock":"n", "garden":"n", "grow":"v", "bake":"v", "merchant":"n", "shop":"n", "woodwork":"v", "burned":"adj", "burning":"adj", "scorch":"v", "courier":"n", "cross":"v", "board":"v",
         "climber":"n", "reach":"v", "leave":"v", "pass":"v",
         "tourists":"n", "hikers":"n", "rescue team":"n", "missing":"adj","key":"n",
     }
