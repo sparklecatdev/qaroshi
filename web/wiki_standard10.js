@@ -58,7 +58,7 @@
           '<p><strong>Unreviewed candidate line:</strong> <code>'+E(draft.candidate_qaroshi)+'</code></p>'+
           '<p>'+E(draft.candidate_english)+'</p>'+
           '<p class="muted small">Research-only draft, explicitly not source-attested conversation, independently verified translation, conventional synonym or approved polysemy.</p>'+
-          '<small>'+E(draft.sense_id)+' · '+E(draft.source)+'</small></details>':'')+
+          '<small>'+E(draft.sense_id)+' · '+E(draft.source)+' · '+E(draft.status)+'</small></details>':'')+
         '<p class="muted small">Coverage is editorial and evidence-graded, never a claim of independently observed human usage.</p></section>';
     }
     function dialogueIndex(host){
