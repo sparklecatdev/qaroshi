@@ -35,7 +35,7 @@ This phase changes the **language standard**, not the website: see the [28–34 
 
 ## Standard 8.8 · More semantic productivity (editorial)
 
-The **[8.8 meaning and grammar amendment](docs/standard_8/AMENDMENT_8_8_SEMANTIC_PRODUCTIVITY.md)** defines five narrowly interpreted everyday sense/role families, nine precise passive/actor/instrument licensing sets, a source-to-recipient frame for “I was told that P,” and a fully articulated noun-focus-plus-present-time construction. It adds **39** new full editorial proposals to the existing adversarial set and audits the semantic requirements of **all 500** challenging English sentences. Earlier lexical spellings and frozen reference sources are unchanged.
+The **[8.8 meaning and grammar amendment](docs/standard_8/AMENDMENT_8_8_SEMANTIC_PRODUCTIVITY.md)** and **[two-event temporal scope clarification](docs/standard_8/AMENDMENT_8_8_TEMPORAL_SCOPE.md)** defines five narrowly interpreted everyday sense/role families, nine precise passive/actor/instrument licensing sets, a source-to-recipient frame for “I was told that P,” and a fully articulated noun-focus-plus-present-time construction. It adds **39** new full editorial proposals to the existing adversarial set and audits the semantic requirements of **all 500** challenging English sentences. Earlier lexical spellings and frozen reference sources are unchanged.
 
 Run `make stress88` to regenerate the honest 500-case ledger. This is not complete translation: the resulting **135 candidate strings are unverified**, **365 cases remain without a full candidate**, and independent comprehension results remain **zero**. Contextually narrowed alternatives are recorded but never counted as exact translations.
 
