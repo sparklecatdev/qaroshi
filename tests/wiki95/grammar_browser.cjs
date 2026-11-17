@@ -56,7 +56,7 @@ const invalid=[
   'sen mi mara-tu kima-m pëli-ki-te.','sen mi kima-m pëli-te.',
   'sen mi kima-m mara-tu pëli-te.','sen kima ti-m tika-te.',
   'sen mi kima-m shëma-te.','sen mi mara-m tika-te-te.',
-  'sen mi mara-m tika-li-te.','sen mi mara-m tika-te he?',
+  'sen mi mara-m tika-li-te',
   'sen mi mara-m tika-te do yano mi-tu shiri-te ye.',
   'sen mi mara-m tika-yu-te.','sen mi mara-m mara-m tika-te.',
   'sen mi mara-m nope-te.','mi mara-m tika-te.'
@@ -65,6 +65,7 @@ for(const q of invalid){assert.throws(()=>grammar.parse(q),undefined,'Should rej
 assert.throws(()=>grammar.render({resonance:'sen',mood:'statement',
   proposition:grammar.atom({actor:'mi',verb:'pëli',patient:'mara',recipient:'kima'})}));
 assert.equal(grammar.parse('hë mi mara-m tika-te.').mood,'statement');checks++;
+assert.equal(grammar.parse('sen mi mara-m tika-te he?').mood,'polar');checks++;
 assert.equal(grammar.parse('hë mi mara-m tika-te he?').mood,'polar');checks++;
 for(const extra of [
   grammar.atom({actor:'mi',verb:'gura',goal:'naro',source:'naro',location:'naro',tense:'te'}),
