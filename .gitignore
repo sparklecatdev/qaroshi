@@ -15,3 +15,7 @@ Qaroshi_Quality_Explore_*.png
 /data/stress82/
 # Generated Qaroshi 8.3 evidence outputs
 /data/stress83/
+
+# Standard 10 reviewer protocol: keep generated keys and completed human data out of public source control.
+data/standard10/review_pack/
+data/standard10/private_*/
