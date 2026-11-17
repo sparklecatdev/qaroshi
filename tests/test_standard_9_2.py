@@ -9,7 +9,8 @@ from collections import Counter
 from pathlib import Path
 
 from tools.stress92.build_grammar import render as render_grammar
-from tools.stress92.heldout import build as build_heldout, rows as csvrows, OUT, load
+from tools.stress92.heldout import build as build_heldout, OUT, load
+from tools.stress91.compose import rows as csvrows
 from tools.stress92.parse_temporal import parse, parse_not_until_two_sentences, Undecodable
 
 ROOT=Path(__file__).resolve().parents[1]
