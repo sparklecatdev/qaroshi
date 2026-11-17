@@ -69,10 +69,18 @@ class Audit91(unittest.TestCase):
         before=sum(bool(x["qaroshi_full_candidate"]) for x in self.old.values())
         self.assertEqual(before,318)
         new={x["id"]:x for x in self.ledger}
+        corrections={
+            "QS81-0105","QS81-0110","QS81-0115","QS81-0120",
+            "QS81-0125","QS81-0135","QS81-0140","QS81-0150"}
         for id_,item in self.old.items():
             if item["qaroshi_full_candidate"]:
-                self.assertEqual(new[id_]["qaroshi_full_candidate"],
-                                 item["qaroshi_full_candidate"])
+                source=item["qaroshi_full_candidate"]
+                if id_ in corrections:
+                    self.assertEqual(new[id_]["qaroshi_full_candidate"],
+                                     source.replace("-ki-te","-te-ki",1))
+                else:
+                    self.assertEqual(new[id_]["qaroshi_full_candidate"],source)
+                self.assertEqual(new[id_]["prior_9_0_candidate"],source)
         self.assertEqual(sum(x["draft_origin"]=="9.1" for x in self.review),182)
         self.assertEqual(sum(x["draft_origin"]=="9.0_or_earlier" for x in self.review),318)
 
