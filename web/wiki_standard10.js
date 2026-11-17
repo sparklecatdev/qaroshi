@@ -191,6 +191,9 @@
         '<pre class="code"><code>python tools/standard10/trial.py --build --out trial-export</code></pre>'+
         '<p>The generated bundle separates <code>learner_blind_items.csv</code> from <code>facilitator_english_key.csv</code>. This separation is procedural, not cryptographic secrecy. A filled form can be manually adjudicated and scored only after real responses are provided:</p>'+
         '<pre class="code"><code>python tools/standard10/trial.py --score filled_responses.csv --out evaluation.json</code></pre>'+
+        '<p><strong>Offline reader field kit:</strong> <a href="https://github.com/sparklecatdev/qaroshi/actions" target="_blank" rel="noopener">download the learner-only CI artifact</a>, open its <code>learner_experiment.html</code> locally, and send only the Qaroshi-only file to consenting readers. Their first-pass answers export to private CSV for a separate adjudicator. The page embeds no English answer key, has no networking or persistent storage, and cannot establish reader independence.</p>'+
+        '<pre class="code"><code>python tools/standard10/reader_html.py --reader trial-export/learner_blind_items.csv --out trial-export/learner_experiment.html</code></pre>'+
+        '<p><a href="#editorial">Open the priority lexical review desk</a> to record source-grounded definition gaps and editor proposals, without auto-approving a sense.</p>'+
         '<p>See the <a href="https://github.com/sparklecatdev/qaroshi/blob/main/tools/standard10/trial.py" target="_blank" rel="noopener">complete open trial script</a> and its generated PROTOCOL.md. Scores describe human-supplied judgments; the script cannot authenticate participants or certify idiomaticity.</p>'+
         '<h2>Evidence inventory</h2>'+
         '<dl class="case-roles"><div><dt>Words in core dictionary</dt><dd>'+n(m.canonical_words||0)+'</dd></div>'+
