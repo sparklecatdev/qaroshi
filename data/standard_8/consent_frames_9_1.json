@@ -1,0 +1,47 @@
+[
+  {
+    "id": "SC91-06",
+    "family": 6,
+    "actor": "pëkhëba",
+    "actor_id": "Q003417",
+    "other": "pëkuyo",
+    "other_id": "Q003425",
+    "action": "dewepa-m shëwarono",
+    "action_ids": [
+      "Q000694",
+      "X91-024"
+    ],
+    "boundary": "Portrait is visibly exhibited to the customer; no public posting, copying or selling is entailed.",
+    "licensed_variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "human_attested": false
+  },
+  {
+    "id": "SC91-09",
+    "family": 9,
+    "actor": "rewunu-mi",
+    "actor_id": "X91-004",
+    "other": "pëpeto",
+    "other_id": "Q003463",
+    "action": "gëmawa yëruwa-m pënari",
+    "action_ids": [
+      "Q001438",
+      "X91-025",
+      "Q003450"
+    ],
+    "boundary": "Spare bed denotes a reserved extra bed; the traveler, rather than the companion, would use it. Consent is separate from practical availability.",
+    "licensed_variants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "human_attested": false
+  }
+]
