@@ -29,7 +29,7 @@
       "actor": "khëluyonë",
       "actor_id": "Q60000187",
       "verb": "tika",
-      "verb_id": "Q004439",
+      "verb_id": "Q004927",
       "patient": "khimë",
       "patient_id": "Q001632",
       "source_ids": [
@@ -145,7 +145,7 @@
       "source_ids": [
         "Q000091",
         "Q60000049",
-        "Q004439"
+        "Q004927"
       ],
       "lexical_decision": "Sensor perception means detect movement through instrument; does not imply a human visually saw anything",
       "boundary": "Declined claim does not negate detection nor prove a false sensor.",
