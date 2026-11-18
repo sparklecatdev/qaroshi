@@ -5,7 +5,7 @@ const E = x => String(x == null ? '' : x).replace(/[&<>"']/g, c => ({
   '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
 }[c]));
 const F = x => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const link = s => '<a href="#word/'+encodeURIComponent(s)+'">'+E(s)+'</a>';
+const link = s => s==='nëgëra' ? '<a href="#standard" title="Adopted post-7.0 determiner; see current grammar">'+E(s)+'</a>' : '<a href="#word/'+encodeURIComponent(s)+'">'+E(s)+'</a>';
 function create(data){
   const src=data.standard11||{};
   const pairs=src.contrasts||[], rules=src.conversation_rules||[];

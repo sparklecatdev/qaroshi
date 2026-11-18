@@ -634,6 +634,7 @@
         ${editorialPriority?`<p class="muted small">Priority lexical review item #${esc(editorialPriority.rank)}. This is an editorial queue, not a certification of the definition.</p><a class="button" href="#editorial?word=${enc(w.qaroshi)}">Inspect documented sense evidence or propose corrections</a>`:''}
         <div class="word-bottom-nav"><a class="button" href="#dictionary">Back to dictionary</a>
           <a class="button" href="#practice?word=${enc(w.qaroshi)}">Practice this word</a>
+          <a class="button" href="#meaning?word=${enc(w.qaroshi)}">Compare its meaning</a>
           <a class="button" href="#guide/dictionary_compounding">Dictionary conventions</a></div>
       </section>
     </article>`;
