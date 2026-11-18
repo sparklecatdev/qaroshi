@@ -59,7 +59,7 @@ def assemble():
                     "status": "historical controlled bilingual teaching reference, not speaker-attested"}
     guide_map = {item["source_id"]: item for item in guides}
     task_map = {item["source_id"]: item for item in tasks}
-    if len(guide_map) != 30 or len(task_map) != 12:
+    if len(guide_map) != 30 or len(task_map) != 20:
         raise ValueError("Duplicate review item")
     if set(guide_map) != {p["id"] for p in pairs} or not set(task_map) <= {r["id"] for r in rules}:
         raise ValueError("Editorial item has no exact source ID")
