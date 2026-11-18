@@ -13,7 +13,7 @@ function create(source){
   const byVerb=new Map();
   for(const row of source){
     if(byVerb.has(row.lemma)||row.human_attested!==false||
-       row.review_status!=='bounded_source_exemplar_not_general_frame'||
+       row['review_status']!=='bounded_source_exemplar_not_general_frame'||
        !/^sen mi [a-zë]+-m [a-zë]+(?:-se)?\.$/.test(row.source_sentence))
       throw new Error('Source-only verb registry failed integrity checks');
     byVerb.set(row.lemma,row);
