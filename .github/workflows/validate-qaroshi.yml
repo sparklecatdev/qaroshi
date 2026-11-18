@@ -22,6 +22,8 @@ jobs:
           node --check web/wiki_standard10.js
           node --check web/wiki_editorial_review.js
           node --check web/wiki_standard11.js
+          node --check web/wiki_source_frames.js
+          node tests/sourceframes/ui.cjs
           node tests/standard11/ui.cjs
           node --check web/qaroshi.js
           node tests/standard10/ui.cjs
@@ -34,6 +36,10 @@ jobs:
         run: |
           python -m tools.standard11.assemble
           python -m unittest tests.test_standard_11 -q
+      - name: Verify 97 exact source-exemplar grammar extensions
+        run: |
+          python -m tools.grammar93.source_exemplars
+          python -m unittest tests.test_source_exemplars -q
       - name: Build site
         run: make build
       - name: Report missing original example and sense evidence for 1000 prioritized words
