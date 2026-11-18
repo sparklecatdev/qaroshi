@@ -51,6 +51,7 @@ sys.path.insert(0,str(ROOT))
 from tools.semantic94.complete import build as build_semantic_94
 from tools.standard10.resources import assemble as assemble_standard10
 from tools.standard11.assemble import assemble as assemble_standard11
+from tools.grammar93.source_exemplars import SourceExemplarGrammar
 build_semantic_94()
 semantic_rows=readcsv(ROOT/'data/stress94/source_semantic_requirements_500.csv')
 assert len(semantic_rows)==500
@@ -105,7 +106,7 @@ metadata={'words':public_words,'phrases':public_sentences,'chapters':chapters,'g
           'grammaticalParticles':json.loads((ROOT/'data/grammatical_particles.json').read_text(encoding='utf-8')),
           'affixes':json.loads((ROOT/'data/affixes.json').read_text(encoding='utf-8')),
           'grammarLicenses':licenses,'grammarFrames':frames,
-          'semanticCases':semantic_cases,'standard10':assemble_standard10(),'standard11':assemble_standard11(),'currentGrammarIntro':current_grammar_intro,
+          'semanticCases':semantic_cases,'standard10':assemble_standard10(),'standard11':assemble_standard11(),'sourceFrameExamples':SourceExemplarGrammar().evidence_rows(),'currentGrammarIntro':current_grammar_intro,
           'grammarAddenda':grammar_addenda,
           'counts':{'dictionary':len(words),'phrasebook':len(sentences),'grammar':len(chapters),'letters':len(letters)}}
 blob=json.dumps(metadata,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e')
@@ -118,6 +119,7 @@ usage_js=(ROOT/'web/wiki_usage.js').read_text(encoding='utf-8')
 std10_js=(ROOT/'web/wiki_standard10.js').read_text(encoding='utf-8')
 review_js=(ROOT/'web/wiki_editorial_review.js').read_text(encoding='utf-8')
 std11_js=(ROOT/'web/wiki_standard11.js').read_text(encoding='utf-8')
+sourceframe_js=(ROOT/'web/wiki_source_frames.js').read_text(encoding='utf-8')
 page=f'''<!doctype html>
 <html lang="en" data-theme="light"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -134,7 +136,7 @@ page=f'''<!doctype html>
 <main class="content" id="mainContent" tabindex="-1"><article><h1>Qaroshi</h1><p>Loading the reference…</p></article></main>
 <nav class="right-rail" aria-label="On this page" id="pageToc"></nav></div>
 <noscript><p style="padding:2rem">This wiki requires JavaScript for navigation and search. The source documents are available in the repository.</p></noscript>
-<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{std10_js}</script><script>{review_js}</script><script>{std11_js}</script><script>{js}</script>
+<script type="application/json" id="wiki-data">{blob}</script><script>{grammar_js}</script><script>{lab_js}</script><script>{discovery_js}</script><script>{practice_js}</script><script>{usage_js}</script><script>{std10_js}</script><script>{review_js}</script><script>{std11_js}</script><script>{sourceframe_js}</script><script>{js}</script>
 </body></html>'''
 for filename in ('index.html', 'Qaroshi_Wiki.html'):
  (ROOT/filename).write_text(page,encoding='utf-8')

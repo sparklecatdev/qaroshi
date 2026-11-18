@@ -14,6 +14,7 @@ import json
 import sys
 from dataclasses import asdict
 from tools.grammar93.engine import Atom,Link,Sentence,Grammar,GrammarError
+from tools.grammar93.source_exemplars import SourceExemplarGrammar
 
 
 def atom_or_link(obj:dict):
@@ -66,14 +67,18 @@ def main(argv:list[str]|None=None)->int:
     parser=argparse.ArgumentParser(description="Parse/render restricted typed Qaroshi 9.3 grammar")
     parser.add_argument("action",choices=("parse","render"))
     parser.add_argument("content",help="Qaroshi sentence (parse) or JSON AST (render)")
+    parser.add_argument("--source-exemplars",action="store_true",
+        help="Opt in to 97 narrow, source-recorded verb/object pairs; not general reviewed frames")
     args=parser.parse_args(argv)
-    g=Grammar()
+    g=SourceExemplarGrammar() if args.source_exemplars else Grammar()
+    scope=("25 reviewed plus 97 exact 8.7 source pairings; editorial morphology, no human meaning validation"
+           if args.source_exemplars else "25-reviewed-frame typed sublanguage, not general translation")
     try:
         if args.action=="parse":
             s=g.parse(args.content)
             result={"accepted":True,"ast":to_dict(s),
                     "structural_semantics":g.semantic_view(s),
-                    "scope":"25-reviewed-frame typed sublanguage, not general translation"}
+                    "scope":scope}
         else:
             s=from_dict(json.loads(args.content))
             result={"accepted":True,"qaroshi":g.render(s),
