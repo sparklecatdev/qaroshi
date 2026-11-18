@@ -5,7 +5,7 @@
 ## Implemented work
 
 - Thirty new case-specific interpretive explanations tied one-for-one to the thirty existing 28–34 semantic boundaries. Each includes a comprehension question and a forbidden inference. Existing source status is displayed separately from new unvalidated teaching commentary.
-- Twelve new situational conversation exercises tied to the existing twenty usage rules. They distinguish ambiguity, self-repair, hearing-repair, short replies, topic change, reported evidence, and consent.
+- Twenty new situational conversation exercises tied to the existing twenty usage rules. They distinguish ambiguity, self-repair, hearing-repair, short replies, topic change, reported evidence, and consent.
 - An offline interactive Wiki Meaning workshop (route #meaning). Learners can search both teaching collections, open canonical word pages, compare meanings, and reveal the editorial answer after attempting the exercise.
 - Build-time source provenance checks and regressions. No original spellings, corpus lines, glyphs or older contributors' work are rewritten.
 

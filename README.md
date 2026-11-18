@@ -6,7 +6,7 @@
 
 ## Standard 11.0 editorial meaning and conversation workshop
 
-The [offline Wiki meaning workshop](index.html#meaning) now exposes **30 documented lexical meaning contrasts** with 30 newly written editorial explanations and **20 sourced conversation-use rules** with 12 new situational interpretation exercises. It clarifies what sentences do *not* entail, including romantic versus caring language, understanding versus seeing, pronoun scope, report versus eyewitness knowledge, and silence versus consent. This is a source-traced **learning pilot**, not 1,000 newly reviewed words, expanded verb licensing, independent human comprehension, or a new normative language revision. See [limitations and reproducibility](docs/standard_11/README.md).
+The [offline Wiki meaning workshop](index.html#meaning) now exposes **30 documented lexical meaning contrasts** with 30 newly written editorial explanations and **20 sourced conversation-use rules** with 20 new situational interpretation exercises. It clarifies what sentences do *not* entail, including romantic versus caring language, understanding versus seeing, pronoun scope, report versus eyewitness knowledge, and silence versus consent. This is a source-traced **learning pilot**, not 1,000 newly reviewed words, expanded verb licensing, independent human comprehension, or a new normative language revision. See [limitations and reproducibility](docs/standard_11/README.md).
 
 ## Start here
 

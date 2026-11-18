@@ -27,7 +27,7 @@ def assemble():
     rules = readjson("data/v28_34/conversational_usage_rules.json")
     guides = readjson("data/standard_11/contrast_guides.json")
     tasks = readjson("data/standard_11/dialogue_challenges.json")
-    if len(pairs) != 30 or len(rules) != 20 or len(guides) != 30 or len(tasks) != 12:
+    if len(pairs) != 30 or len(rules) != 20 or len(guides) != 30 or len(tasks) != 20:
         raise ValueError("Missing standard source or editorial exercises")
     guide_map = {item["source_id"]: item for item in guides}
     task_map = {item["source_id"]: item for item in tasks}
@@ -57,7 +57,7 @@ def assemble():
                                    "training": exercise})
     return {"edition": "11.0 editorial pilot", "contrasts": contrasts, "conversation_rules": conversation_rules,
             "metrics": {"source_contrasts": 30, "new_editorial_explanations": 30,
-                        "source_conversational_rules": 20, "new_situational_challenges": 12,
+                        "source_conversational_rules": 20, "new_situational_challenges": 20,
                         "independent_reader_results": 0, "new_canonical_words": 0,
                         "new_normative_senses": 0, "new_normative_grammar": 0}}
 

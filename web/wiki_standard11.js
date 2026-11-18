@@ -37,7 +37,7 @@ function create(data){
     host.innerHTML='<article class="readable std11-workshop">'+
       '<div class="article-header"><div class="article-kicker">Qaroshi / Language · Editorial Standard 11 pilot</div>'+
       '<h1>Understand what a sentence really means</h1>'+
-      '<p class="article-sub">30 meaning contrasts, 20 conversation rules and 12 situational repair questions, grounded in existing Qaroshi sources.</p></div>'+
+      '<p class="article-sub">30 meaning contrasts, 20 conversation rules and 20 situational repair questions, grounded in existing Qaroshi sources.</p></div>'+
       '<div class="note"><strong>Check the meaning, not just the words.</strong> These are source-derived teaching contrasts and new editorial explanations. None are independently approved reader outcomes, new dictionary senses or new grammatical licenses. Reveal answers only after trying.</div>'+
       '<div class="controls">'+
       '<label for="std11Kind">Explore</label><select class="field select" id="std11Kind"><option value="all">All material</option><option value="meaning">Meaning contrasts</option><option value="conversation">Conversation & repair</option></select>'+

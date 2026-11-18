@@ -15,7 +15,7 @@ class Standard11Tests(unittest.TestCase):
     def test_full_source_coverage(self):
         self.assertEqual(len(self.data["contrasts"]),30)
         self.assertEqual(len(self.data["conversation_rules"]),20)
-        self.assertEqual(sum(bool(r["training"]) for r in self.data["conversation_rules"]),12)
+        self.assertEqual(sum(bool(r["training"]) for r in self.data["conversation_rules"]),20)
         self.assertEqual(self.data["metrics"]["independent_reader_results"],0)
         self.assertEqual(self.data["metrics"]["new_normative_grammar"],0)
 
