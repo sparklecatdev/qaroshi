@@ -21,6 +21,8 @@ jobs:
           node --check web/wiki_usage.js
           node --check web/wiki_standard10.js
           node --check web/wiki_editorial_review.js
+          node --check web/wiki_standard11.js
+          node tests/standard11/ui.cjs
           node --check web/qaroshi.js
           node tests/standard10/ui.cjs
           node tests/wiki95/grammar_browser.cjs
@@ -28,6 +30,10 @@ jobs:
           node tests/wiki97/usage_guides.cjs
       - name: Audit source-grounded Standard 10 sense and conversation inventory
         run: python tools/standard10/resources.py --summary
+      - name: Check Standard 11 meaning/conversation provenance
+        run: |
+          python -m tools.standard11.assemble
+          python -m unittest tests.test_standard_11 -q
       - name: Build site
         run: make build
       - name: Report missing original example and sense evidence for 1000 prioritized words
