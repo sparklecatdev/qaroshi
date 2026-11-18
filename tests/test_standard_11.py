@@ -10,6 +10,7 @@ class Standard11Tests(unittest.TestCase):
     def setUpClass(cls):
         cls.data=assemble()
         cls.words={w["qaroshi"]:w for w in readcsv("data/lexicon.csv")}
+        cls.words["nëgëra"]={"id":"Q28D001"}
 
     def test_full_source_coverage(self):
         self.assertEqual(len(self.data["contrasts"]),30)

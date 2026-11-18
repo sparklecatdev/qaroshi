@@ -16,6 +16,13 @@ def assemble():
     words = readcsv("data/lexicon.csv")
     by_form = {word["qaroshi"]: word for word in words}
     assert len(words) == len(by_form) == 30000, "Historical dictionary has changed"
+    # The one adopted post-7.0 determiner is intentionally not in the frozen 30k.
+    overlays = readjson("data/v28_34/adopted_function_words.json")
+    if len(overlays) != 1 or overlays[0]["lemma"] != "nëgëra" or overlays[0]["source_id"] != "Q28D001":
+        raise ValueError("Unexpected post-7.0 lexicon overlay")
+    if overlays[0]["lemma"] in by_form:
+        raise ValueError("Overlay must not replace a historical dictionary word")
+    by_form[overlays[0]["lemma"]] = {"id": overlays[0]["source_id"]}
     pairs = readcsv("data/v28_34/meaning_boundaries.csv")
     rules = readjson("data/v28_34/conversational_usage_rules.json")
     guides = readjson("data/standard_11/contrast_guides.json")
