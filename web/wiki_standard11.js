@@ -16,6 +16,13 @@ function create(data){
       '<p><b>'+E(x.left_gloss)+'</b> / '+E(x.right_gloss)+'</p>'+
       '<p class="muted small">Existing source distinction: '+E(x.semantic_boundary)+'</p>'+
       '<p><strong>Think first:</strong> '+E(x.learner_question)+'</p>'+
+
+      '<details><summary>Show exact historical teaching examples (not native attestation)</summary>'+
+      [['left',x.left_example],['right',x.right_example]].map(([which,ex])=>ex?
+        '<p><b>'+E(which)+' · source '+E(ex.source_id)+':</b> <a href="#phrase/'+encodeURIComponent(ex.source_id)+'"><code>'+E(ex.qaroshi)+'</code></a>'+
+        '<span class="muted small"> · '+E(ex.english)+' · matched '+E(ex.matched_form)+'</span></p>':
+        '<p class="muted small">'+E(which)+': no exact example in the original 4,383-line corpus; no sentence invented.</p>').join('')+
+      '</details>'+
       '<details><summary>Reveal editorial explanation and false inference</summary>'+
       '<p>'+E(x.explanation)+'</p><p><b>Do not infer:</b> '+E(x.forbidden_inference)+'</p></details>'+
       '<p class="muted small">Original boundary: '+E(x.source_status)+

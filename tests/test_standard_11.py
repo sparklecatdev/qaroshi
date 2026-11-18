@@ -32,6 +32,22 @@ class Standard11Tests(unittest.TestCase):
             self.assertEqual(row["status"],"editorial_explanation_not_independently_validated")
             self.assertTrue(row["learner_question"].endswith("?"))
 
+    def test_exact_existing_sentence_examples_and_explicit_gaps(self):
+        source={row["id"]:row for row in readcsv("corpus/parallel_sentences.csv")}
+        examples=[]
+        for pair in self.data["contrasts"]:
+            for field in ("left_example","right_example"):
+                example=pair[field]
+                if example is None:
+                    continue
+                examples.append(example)
+                p=source[example["source_id"]]
+                self.assertEqual(example["qaroshi"],p["qaroshi"])
+                self.assertEqual(example["english"],p["english"])
+                self.assertIn(example["matched_form"],p["qaroshi"].lower())
+                self.assertIn("not speaker-attested",example["status"])
+        self.assertGreater(len(examples),10)
+
     def test_conversation_training_never_claims_external_evidence(self):
         for row in self.data["conversation_rules"]:
             self.assertEqual(row["source"],"data/v28_34/conversational_usage_rules.json")
