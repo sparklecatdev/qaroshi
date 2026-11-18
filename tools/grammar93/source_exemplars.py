@@ -50,7 +50,7 @@ class SourceExemplarGrammar(Grammar):
                 or lex[patient]["id"] != r["attested_object_dictionary_id"]
                 or not source
                 or source["qaroshi"] != r["source_sentence"]
-                or source["qaroshi"] != f"sen mi {patient}-m {verb}."):
+                or source["qaroshi"] != f"sen mi {patient}-m {verb}" + ("-se." if verb == "shëroli" else ".")):
                 raise GrammarError("Source exemplar must match exact canonical verb, object, and corpus line: " + id_)
             seen_ids.add(id_)
             self.source_frames[verb] = r
@@ -90,7 +90,8 @@ class SourceExemplarGrammar(Grammar):
     def validate_atom(self, a: Atom) -> None:
         super().validate_atom(a)
         if a.verb in self.source_frames:
-            if a.aspect or a.modal:
+            original_aspect = (a.verb == "shëroli" and a.aspect == "se" and not a.tense)
+            if (a.aspect and not original_aspect) or a.modal:
                 raise GrammarError(
                     "8.7 exemplar does not license extra aspect/modality; "
                     "only unmarked, past or future plus negation and speech-act scope")

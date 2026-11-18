@@ -20,7 +20,7 @@ The Standard 9.3 parser is intentionally limited to 25 source-reviewed verb fram
 - `ti` or `sa` subjects for the 97 new verb frames. Existing examples only specify `mi`; do not silently infer generalized actor selection from an English gloss.
 - Any patient not recorded for that particular verb, even if the object seems semantically plausible in English.
 - An absent object, extra recipient/source/location, or an unsourced valency alternation.
-- Modals, aspects, voice/passive/causative, noun derivation or unrestricted relative clauses for those 97 verbs. Their sense-specific admissibility must be reviewed separately.
+- Modals, novel aspect stacking (except the one documented original `shëroli-se` source form), voice/passive/causative, noun derivation or unrestricted relative clauses for those 97 verbs. Their sense-specific admissibility must be reviewed separately.
 - General natural-language translation, independently fluent meaning, or real speaker acceptance. `human_observed` remains false.
 
 ## Use
