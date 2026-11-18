@@ -14,6 +14,7 @@
   const fold = s => String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const discovery = window.QaroshiDiscovery.createIndex(W);
   const ST10 = window.Qaroshi10.create(D);
+  const ST11 = window.Qaroshi11.create(D);
   const EDITORIAL=window.QaroshiEditorial.create(D);
   const domainBy = new Map();
   W.forEach(w=>{if(!domainBy.has(w.domain))domainBy.set(w.domain,[]);domainBy.get(w.domain).push(w)});
@@ -44,7 +45,7 @@
   let lastRoute = '';
   let lastScroll = 0;
   const STATIC = {
-    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', conversations:'Conversations', conversation:'Conversation', drills:'Controlled drills', validation:'Independent comprehension', editorial:'Editorial review desk', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
+    home:'Overview', assistant:'AI assistant', learn:'Learning library', practice:'Practice studio', conversations:'Conversations', conversation:'Conversation', drills:'Controlled drills', validation:'Independent comprehension', editorial:'Editorial review desk', meaning:'Meaning workshop', dictionary:'Dictionary', grammar:'Grammar', standard:'Current standard', workshop:'Sentence workshop', cases:'Semantic cases', case:'Semantic case', categories:'Topics', phrases:'Phrasebook', script:'Native script', latin:'Latin A–Z pronunciation', about:'About the reference'
   };
   const bookMark = {
     introductory:[1,20], expanded:[21,35], nuanced:[36,50], advanced:[51,70], extended:[71,90]
@@ -158,14 +159,14 @@
     }).join('');
     return `<div class="side-group"><div class="side-heading">Get started</div>
       ${a('home','Overview')}${a('dictionary','Dictionary & word guides')}
-      ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('practice','Practice words & phrases')}${a('cases','Meaning & examples')}
+      ${a('workshop','Write & inspect sentences')}${a('learn','Learn Qaroshi')}${a('practice','Practice words & phrases')}${a('cases','Meaning & examples')}${a('meaning','Meaning workshop · nuance')}
       </div><div class="side-group"><div class="side-heading">Reference</div>
       ${a('standard','Current grammar · 9.2')}${a('grammar','90 grammar chapters')}
       ${a('categories','Browse topics')}${a('phrases','Phrasebook')}${a('script','Native script')}
       <details class="chapter-group"><summary>Conversations & research</summary><div class="nested">
         ${a('conversations','Read conversations')}${a('drills','Controlled sentence drills')}
         ${a('validation','Independent comprehension testing')}
-        ${a('editorial','Review priority word senses')}
+        ${a('editorial','Review priority word senses')}${a('meaning','Meaning and conversation workshop')}
       </div></details>
       <details class="chapter-group"><summary>Grammar chapter index</summary><div class="nested">${chapterLinks}</div></details>
       </div><div class="side-group"><details class="chapter-group">
@@ -259,6 +260,7 @@
         <a class="quick-card" href="#categories"><span class="arrow">›</span><strong>Browse subjects</strong><small>Grouped topics instead of hundreds of links</small></a>
         <a class="quick-card" href="#practice"><span class="arrow">›</span><strong>Practice Qaroshi</strong><small>Private word and sentence recall cards from the source corpus</small></a>
       </div>
+      <div class="note"><strong>New meaning practice:</strong> <a href="#meaning">Explore 30 documented meaning contrasts and 20 conversational rules</a>, with source-backed exercises and revealable explanations. New commentary is editorial, not externally ratified.</div>
       <div class="note"><strong>Learn language in context:</strong> Read <a href="#conversations">connected Qaroshi conversations</a>, open <a href="#drills">1,500+ controlled sentence drills</a>, or inspect <a href="#validation">the independent-comprehension protocol</a>. Editorial translations are visible as teaching aids, not human-attested evidence.</div>
       <div class="note"><strong>Reference status:</strong> the 8.0 grammar remains the inherited normative core; later rules include source-bound editorial decisions. The interactive grammar covers a reviewed subset, and the 500 proposed translations lack independent reader validation.</div>
       <h2 id="fundamental">Start with a sentence</h2>
@@ -632,6 +634,7 @@
         ${editorialPriority?`<p class="muted small">Priority lexical review item #${esc(editorialPriority.rank)}. This is an editorial queue, not a certification of the definition.</p><a class="button" href="#editorial?word=${enc(w.qaroshi)}">Inspect documented sense evidence or propose corrections</a>`:''}
         <div class="word-bottom-nav"><a class="button" href="#dictionary">Back to dictionary</a>
           <a class="button" href="#practice?word=${enc(w.qaroshi)}">Practice this word</a>
+          <a class="button" href="#meaning?word=${enc(w.qaroshi)}">Compare its meaning</a>
           <a class="button" href="#guide/dictionary_compounding">Dictionary conventions</a></div>
       </section>
     </article>`;
@@ -680,6 +683,10 @@
       <div class="foot">For historical source files, see the linked <a href="https://github.com/sparklecatdev/qaroshi/tree/main/docs/standard_8" target="_blank" rel="noopener">GitHub language reference</a>. The current Wiki tools run offline.</div>
     </article>`;
     setToc([{id:'standardIntroduction',name:'Current decisions'},{id:'standardAddenda',name:'Amendments'}]);
+  }
+  function renderMeaning(route){
+    ST11.mount(main,{word:route?.query?.get('word')||''});
+    setToc([]);
   }
   function renderWorkshop(route){
     window.QaroshiWikiLab.mountGrammar(main,D,{verb:route?.query?.get('verb')||''});
@@ -885,6 +892,7 @@
       case 'home':renderHome();break;
       case 'assistant':renderAssistant();break;
       case 'workshop':renderWorkshop(route);break;
+      case 'meaning':renderMeaning(route);break;
       case 'cases':renderCaseLibrary('');break;
       case 'case':renderCaseLibrary(route.id);break;
       case 'standard':renderCurrentStandard();break;

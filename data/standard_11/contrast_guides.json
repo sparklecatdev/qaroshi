@@ -1,0 +1,212 @@
+[
+  {
+    "source_id": "S28-001",
+    "explanation": "Deep care does not assert romance.",
+    "learner_question": "Does replacing nashi with mali change the asserted relationship?",
+    "forbidden_inference": "Never infer romantic consent from nashi or a tender resonance.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-002",
+    "explanation": "Care and kinship specify different facets of a bond.",
+    "learner_question": "Would this sentence entail family membership?",
+    "forbidden_inference": "Do not classify a cherished friend automatically as kin.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-003",
+    "explanation": "Romantic and family affection are distinct lexical assertions.",
+    "learner_question": "What relationship is stated explicitly?",
+    "forbidden_inference": "Do not use mali and lani as stylistic synonyms.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-004",
+    "explanation": "Noticing a fact is different from knowing its meaning.",
+    "learner_question": "Can seeing a message prove understanding?",
+    "forbidden_inference": "Do not upgrade perception into knowledge.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-005",
+    "explanation": "Decoding writing does not guarantee understanding.",
+    "learner_question": "Has the reader interpreted the written content?",
+    "forbidden_inference": "Do not infer comprehension from reading alone.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-006",
+    "explanation": "Travel does not imply airborne travel.",
+    "learner_question": "Which mode of movement is overtly asserted?",
+    "forbidden_inference": "Do not conflate flight and movement to a destination.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-007",
+    "explanation": "Continuing to remain somewhere is not necessarily resting.",
+    "learner_question": "Could this sentence be true if the speaker keeps working?",
+    "forbidden_inference": "Do not infer rest from staying.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-008",
+    "explanation": "A transfer has distinct actor, item and recipient roles.",
+    "learner_question": "Does the sentence merely assert ownership or the giving of an object?",
+    "forbidden_inference": "Do not infer a completed transfer from possession.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-009",
+    "explanation": "Drinking liquid and eating food select different kinds of objects.",
+    "learner_question": "What kind of patient does the verb license?",
+    "forbidden_inference": "Do not extend ordinary food ingestion to liquids by English gloss alone.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-010",
+    "explanation": "A request for information is a distinct speech act from speech in general.",
+    "learner_question": "Does the addressee owe an answer to the question?",
+    "forbidden_inference": "Do not treat every utterance as a question.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-011",
+    "explanation": "Politeness and deferential acceptability are not automatically interchangeable.",
+    "learner_question": "Which form frames the request as dependent on acceptability?",
+    "forbidden_inference": "Courtesy alone never establishes assent.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-012",
+    "explanation": "Direct sensory evidence differs from hearing another person's claim.",
+    "learner_question": "Whose observation is actually reported?",
+    "forbidden_inference": "Do not turn reported information into eyewitness evidence.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-013",
+    "explanation": "Reported and inferred claims differ in their information sources.",
+    "learner_question": "Was the information heard from someone or derived from evidence?",
+    "forbidden_inference": "Do not convert inference into a witnessed report.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-014",
+    "explanation": "Universal quantification requires every member in the selected domain.",
+    "learner_question": "May the proposition allow a member not to have the property?",
+    "forbidden_inference": "Some does not establish all.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-015",
+    "explanation": "Not all requires a counterexample, not a positive instance.",
+    "learner_question": "Could the sentence be true when nobody satisfies the predicate?",
+    "forbidden_inference": "Do not translate not all as some do and some do not.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-016",
+    "explanation": "Only excludes alternatives while even marks surprising inclusion.",
+    "learner_question": "Does the utterance exclude others or highlight an unexpected member?",
+    "forbidden_inference": "Surprise does not imply exclusivity.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-017",
+    "explanation": "Still asserts continuity; not yet denies a prospective event's realization.",
+    "learner_question": "Has the target event already started or happened?",
+    "forbidden_inference": "Do not exchange an ongoing state for an unmet expectation.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-018",
+    "explanation": "No longer depends on a previous state that stopped; not yet does not.",
+    "learner_question": "Was the state formerly realized?",
+    "forbidden_inference": "Do not erase past realization.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-019",
+    "explanation": "Open conditions and contrary-to-fact conditions differ in actuality.",
+    "learner_question": "Does the speaker assume the antecedent is false?",
+    "forbidden_inference": "Do not imply a hypothetical event happened.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-020",
+    "explanation": "Even if is concessive; unless sets an exception condition.",
+    "learner_question": "Is the result maintained even with the condition true?",
+    "forbidden_inference": "Do not equate concessive and exceptive scope.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-021",
+    "explanation": "Solemn versus neutral resonance changes stance, not truth conditions.",
+    "learner_question": "Does changing resonance change the clause's factual roles?",
+    "forbidden_inference": "Do not infer a binding promise from solemnity alone.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-022",
+    "explanation": "Warm and playful resonances frame delivery in different ways.",
+    "learner_question": "Could identical lexical content be said tenderly or excitedly?",
+    "forbidden_inference": "Warmth alone does not encode romance or consent.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-023",
+    "explanation": "Inclusive we includes the listener; exclusive we does not.",
+    "learner_question": "Is the addressee part of the subject group?",
+    "forbidden_inference": "Do not use one pronoun when the other group was intended.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-024",
+    "explanation": "Singular and plural you identify different addressee sets.",
+    "learner_question": "How many people are addressed?",
+    "forbidden_inference": "Do not treat person-number distinctions as mere style.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-025",
+    "explanation": "Except excludes a member; only restricts alternatives.",
+    "learner_question": "What does the focused phrase include or exclude?",
+    "forbidden_inference": "Do not reverse set membership.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-026",
+    "explanation": "None and all are incompatible on a nonempty domain.",
+    "learner_question": "Could both claims be true of this nonempty set?",
+    "forbidden_inference": "Do not silently assume an empty contextual domain.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-027",
+    "explanation": "Collective group properties need not hold for each individual.",
+    "learner_question": "Is the claim about the group or all its members?",
+    "forbidden_inference": "Do not distribute collective predication.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-028",
+    "explanation": "Contrastive focus can select a participant without excluding others.",
+    "learner_question": "Could another participant also satisfy the predicate?",
+    "forbidden_inference": "Emphasis does not equal exclusivity.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-029",
+    "explanation": "Adverbial exclusivity and a focus particle have different grammatical slots.",
+    "learner_question": "Which constituent does the operator modify?",
+    "forbidden_inference": "Do not exchange grammatical categories because the English gloss matches.",
+    "status": "editorial_explanation_not_independently_validated"
+  },
+  {
+    "source_id": "S28-030",
+    "explanation": "Focused even and discourse-level surprising also have different scopes.",
+    "learner_question": "Is a particular constituent or the addition of an event unexpected?",
+    "forbidden_inference": "Do not erase the focused constituent.",
+    "status": "editorial_explanation_not_independently_validated"
+  }
+]

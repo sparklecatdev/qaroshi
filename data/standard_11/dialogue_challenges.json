@@ -1,0 +1,142 @@
+[
+  {
+    "source_id": "D31-01",
+    "scenario": "Two written independent assertions follow each other.",
+    "question": "Must both have a resonance?",
+    "editorial_answer": "Yes. Each independent sentence needs its own initial resonance.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-02",
+    "scenario": "Someone answers a question using only nu.",
+    "question": "Is this automatically an ungrammatical complete sentence?",
+    "editorial_answer": "No. It can be a contextual fragment; full sentences follow the written resonance rule.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-03",
+    "scenario": "A subject is omitted after two different people have been mentioned.",
+    "question": "Can the listener know exactly who acted?",
+    "editorial_answer": "No. Restore an explicit participant when unique recovery fails.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-04",
+    "scenario": "You realize your own earlier assertion was false.",
+    "question": "Is hearing-repair wording sufficient?",
+    "editorial_answer": "No. A self-correction should identify the newly intended proposition.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-05",
+    "scenario": "You mishear another person's statement.",
+    "question": "Have you retracted their claim?",
+    "editorial_answer": "No. Hearing repair and retracting a proposition are separate acts.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-06",
+    "scenario": "Someone asks permission and hears no answer.",
+    "question": "Does silence grant permission?",
+    "editorial_answer": "No. Lack of an answer is not assent.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-07",
+    "scenario": "You switch subjects mid-conversation.",
+    "question": "Can the topic cue replace resonance?",
+    "editorial_answer": "No. Keep the resonance at the start of the new independent sentence.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-08",
+    "scenario": "A friendly invitation should be clearly optional.",
+    "question": "Can warmth alone signal an easy refusal?",
+    "editorial_answer": "No. Use the source's voluntary-request language rather than relying on resonance.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-09",
+    "scenario": "You repeat news you did not witness yourself.",
+    "question": "Is the direct-witness marker acceptable?",
+    "editorial_answer": "No. Reported information must not become firsthand observation.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-10",
+    "scenario": "You restate a message in your own words.",
+    "question": "Is that an exact quotation?",
+    "editorial_answer": "No. Paraphrase and verbatim quotation have different scopes.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-11",
+    "scenario": "Two people could be the referent of sa.",
+    "question": "Should the reader choose one arbitrarily?",
+    "editorial_answer": "No. Repeat an unambiguous noun or name.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-12",
+    "scenario": "An affectionate request is declined.",
+    "question": "Does warmth override refusal?",
+    "editorial_answer": "No. Intended delivery is separate from consent.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-13",
+    "scenario": "A speaker replies with a short noun label instead of a complete clause.",
+    "question": "Is the lack of resonance a grammatical error?",
+    "editorial_answer": "No. Contextual labels may be fragments, but a full independently finite clause must carry resonance.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-14",
+    "scenario": "A speaker corrects their previous sentence and later cites the old wording.",
+    "question": "Should the original wording still be treated as their current claim?",
+    "editorial_answer": "No. Preserve the historical utterance as superseded and make the corrected proposition explicit.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-15",
+    "scenario": "Someone says they intend to protect a friend tomorrow.",
+    "question": "Does this necessarily mean they are obliged to do so?",
+    "editorial_answer": "No. Future intention, promise and obligation are different commitments and need their own lexical or modal evidence.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-16",
+    "scenario": "A speaker switches from neutral discussion to excited delivery.",
+    "question": "May the excited resonance appear in the middle of the existing complete sentence?",
+    "editorial_answer": "No. End the old independent sentence and open the new one with its resonance marker.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-17",
+    "scenario": "Someone replies nu after a long question containing multiple propositions.",
+    "question": "Which of the propositions have they rejected?",
+    "editorial_answer": "The short negative response alone may be underspecified; use an explicit finite negative statement or a clarification.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-18",
+    "scenario": "A speaker says that they are uncertain about another person's condition.",
+    "question": "Can the audience conclude the person is actually unwell?",
+    "editorial_answer": "No. Uncertainty and lack of evidence neither prove the affirmative nor its negation.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-19",
+    "scenario": "A group tells the listener that they will speak Qaroshi.",
+    "question": "Must the listener be included in the group?",
+    "editorial_answer": "Only naru includes the addressee. Muru explicitly excludes them from the we-group.",
+    "status": "editorial_training_not_blind_validation"
+  },
+  {
+    "source_id": "D31-20",
+    "scenario": "A character asks a theatrical question while signaling that no reply is expected.",
+    "question": "Should the listener answer as though it were an ordinary information request?",
+    "editorial_answer": "No. The documented rhetorical frame has different discourse force despite question punctuation.",
+    "status": "editorial_training_not_blind_validation"
+  }
+]

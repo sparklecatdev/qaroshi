@@ -4,6 +4,10 @@
 
 **[Current consolidated 9.2 editorial grammar](docs/standard_9_2/grammar.md)** · **[9.2 validation and productivity report](docs/standard_9_2/VALIDATION_AND_PRODUCTIVITY.md)** · **[Preserved 8.0 core grammar](docs/standard_8/grammar.md)** · **[Historical 8.0 guide](README_STANDARD_8.md)** · **[Explore teaching tools](explore.html)** · **[Interactive Wiki, current editorial grammar 9.2–9.4](index.html)** · **[Evidence and archive policy](docs/maintenance/QUALITY_AND_ARCHIVE_POLICY.md)**
 
+## Standard 11.0 editorial meaning and conversation workshop
+
+The [offline Wiki meaning workshop](index.html#meaning) now exposes **30 documented lexical meaning contrasts** with 30 newly written editorial explanations and **20 sourced conversation-use rules** with 20 new situational interpretation exercises. It clarifies what sentences do *not* entail, including romantic versus caring language, understanding versus seeing, pronoun scope, report versus eyewitness knowledge, and silence versus consent. This is a source-traced **learning pilot**, not 1,000 newly reviewed words, expanded verb licensing, independent human comprehension, or a new normative language revision. See [limitations and reproducibility](docs/standard_11/README.md).
+
 ## Start here
 
 The **current single-entry editorial writing reference is Standard 9.2**: [the complete consolidated grammar](docs/standard_9_2/grammar.md), containing the original 90-chapter Standard 8.0 normative core and all documented 8.1–9.1 amendments. **Standard 8.0 remains the inherited normative baseline**; newer source/sense-specific additions are explicitly labeled editorial, not independently attested. The dictionary contains **30,001 editioned lexical entries**, with precise passive agency `-za` and quantifier scope using `nëgëra`. The original Unified Standard Reference 7.0 baseline remains frozen at **30,000 historical entries, 4,383 controlled bilingual examples, 16 obligatory written resonance markers, and 26 glyphs**. Teaching-tool releases run separately through release 23. This language revision does not claim recorded independent speaker use.
