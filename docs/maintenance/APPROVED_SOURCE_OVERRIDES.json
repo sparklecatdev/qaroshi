@@ -3,5 +3,10 @@
     "historical_sha256": "f68d7b0c8c9fe54fbe24e5cb0eb25d051f89c81e616b7e650ee9db5fbd52a157",
     "approved_git_blob_sha1": "ff2c90d7b8abed2d4890b9f3858ca90dbfefd1ab",
     "reason": "The 2026-11-16 shared-theme customization updated the 21-23 UI template after the historical release. Keep the original release manifest immutable and verify the exact current Git object. Generated release artifacts have not been retroactively certified as matching the historic template."
+  },
+  "tools/v21_23/restore_artifacts.py": {
+    "historical_sha256": "2a3731a58465e070317b8c6eeb9a77258cd9a1b5e2c9a1afaa935e9a7530e91b",
+    "approved_git_blob_sha1": "9cab5b96da39afaf372081b80f23f39e5feb7c72",
+    "reason": "Validate the packaged HTML and check for local HTML edits before writing precomputed data. The historical release manifest and packaged assets retain their original checksums."
   }
 }

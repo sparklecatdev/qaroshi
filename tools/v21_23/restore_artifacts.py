@@ -29,6 +29,24 @@ def restore(force: bool = False) -> Path:
     if len(expected_html) != 64:
         raise ValueError('Missing or malformed site checksum')
 
+    body_to_write = None
+    if COMPRESSED.exists():
+        compressed = COMPRESSED.read_bytes()
+        if _sha(compressed) != meta['files'][COMPRESSED.name]:
+            raise ValueError('Compressed HTML checksum mismatch')
+        body = bz2.decompress(compressed)
+        if _sha(body) != expected_html:
+            raise ValueError('Restored site HTML checksum mismatch')
+        if not body[:120].lstrip().lower().startswith(b'<!doctype html>'):
+            raise ValueError('Restored site is not a standalone HTML page')
+        existing = SITE.read_bytes() if SITE.exists() else None
+        if existing is not None and existing != body and not force:
+            raise FileExistsError('Local HTML differs. Refusing overwrite without --force')
+        if existing != body:
+            body_to_write = body
+    elif not SITE.exists() or _sha(SITE.read_bytes()) != expected_html:
+        raise FileNotFoundError('Neither verified packed site nor matching standalone HTML exists')
+
     if ARCHIVE.exists():
         packed = ARCHIVE.read_bytes()
         if _sha(packed) != meta['files'][ARCHIVE.name]:
@@ -59,21 +77,8 @@ def restore(force: bool = False) -> Path:
                     path.parent.mkdir(parents=True, exist_ok=True)
                     path.write_bytes(z.read(item))
 
-    if COMPRESSED.exists():
-        compressed = COMPRESSED.read_bytes()
-        if _sha(compressed) != meta['files'][COMPRESSED.name]:
-            raise ValueError('Compressed HTML checksum mismatch')
-        body = bz2.decompress(compressed)
-        if _sha(body) != expected_html:
-            raise ValueError('Restored site HTML checksum mismatch')
-        if not body[:120].lstrip().lower().startswith(b'<!doctype html>'):
-            raise ValueError('Restored site is not a standalone HTML page')
-        if SITE.exists() and SITE.read_bytes() != body and not force:
-            raise FileExistsError('Local HTML differs. Refusing overwrite without --force')
-        if not SITE.exists() or SITE.read_bytes() != body:
-            SITE.write_bytes(body)
-    elif not SITE.exists() or _sha(SITE.read_bytes()) != expected_html:
-        raise FileNotFoundError('Neither verified packed site nor matching standalone HTML exists')
+    if body_to_write is not None:
+        SITE.write_bytes(body_to_write)
     return SITE
 
 

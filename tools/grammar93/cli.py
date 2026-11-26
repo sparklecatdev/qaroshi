@@ -83,7 +83,7 @@ def main(argv:list[str]|None=None)->int:
             s=from_dict(json.loads(args.content))
             result={"accepted":True,"qaroshi":g.render(s),
                     "structural_semantics":g.semantic_view(s),
-                    "scope":"25-reviewed-frame typed sublanguage, not general translation"}
+                    "scope":scope}
     except (GrammarError,ValueError,TypeError) as err:
         print(json.dumps({"accepted":False,"reason":str(err)},ensure_ascii=False))
         return 2

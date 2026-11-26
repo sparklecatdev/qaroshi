@@ -55,6 +55,18 @@ class SiteMaintenanceTests(unittest.TestCase):
             self.assertFalse((p/'tests').exists())
             self.assertFalse(any(p.glob('*.zip')))
 
+    def test_publishing_refuses_to_erase_custom_output(self):
+        import sys
+        sys.path.insert(0,str(ROOT/'tools'/'maintenance'))
+        from build_pages import publish
+        with tempfile.TemporaryDirectory() as t:
+            output = Path(t)
+            source = output/'local-notes.txt'
+            source.write_text('keep this', encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'must be empty'):
+                publish(output)
+            self.assertEqual(source.read_text(encoding='utf-8'), 'keep this')
+
     def test_restorer_checks_integrity_and_no_silent_overwrite(self):
         path=ROOT/'tools/v21_23/restore_artifacts.py'
         spec=importlib.util.spec_from_file_location('qaroshi_restorer_test',path)
@@ -77,7 +89,14 @@ class SiteMaintenanceTests(unittest.TestCase):
             self.assertEqual((temp/'data/v21/probe.json').read_text(),'contributor edit')
             mod.restore(force=True)
             self.assertEqual((temp/'data/v21/probe.json').read_bytes(),original)
+            data_path = temp/'data/v21/probe.json'
+            data_path.unlink()
+            mod.SITE.write_bytes(b'local HTML edits')
+            with self.assertRaisesRegex(FileExistsError, 'Local HTML differs'):
+                mod.restore()
+            self.assertFalse(data_path.exists())
             compressed.write_bytes(b'corrupt compressed input')
             with self.assertRaises(ValueError):mod.restore()
+            self.assertFalse(data_path.exists())
 
 if __name__=='__main__':unittest.main()

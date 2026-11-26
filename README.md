@@ -54,8 +54,7 @@ For the full procedures, evidence classes and commands, see [Standard 10 documen
     python tools/standard10/resources.py --summary
     python tools/standard10/trial.py --build --out data/standard10/review_pack
     node tests/standard10/ui.cjs
-    python -m unittest discover -s tests -q
-    make build
+    make test
 
 ## Standard 10.1 · Human-study field kit and source-led editorial review
 

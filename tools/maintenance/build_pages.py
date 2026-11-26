@@ -101,21 +101,44 @@ def stage(destination: Path):
             'excludes_raw_data':True,'latest_site_sha256':hashlib.sha256(raw[RELEASES[-1][0]]).hexdigest()}
 
 
+def publish(destination: Path):
+    if destination.is_symlink():
+        raise ValueError('Pages output must not be a symlink')
+    destination = destination.resolve()
+    if destination == ROOT:
+        raise ValueError('Choose a dedicated output directory for the Pages artifact')
+    default_output = destination == SITE
+    if destination.exists():
+        if not destination.is_dir():
+            raise ValueError('Pages output must be a directory')
+        if not default_output and any(destination.iterdir()):
+            raise ValueError('Custom Pages output directory must be empty')
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='qaroshi-pages-', dir=destination.parent) as temp:
+        staged = Path(temp)/'site'
+        stats = stage(staged)
+        previous = Path(temp)/'previous'
+        if default_output and destination.exists():
+            destination.replace(previous)
+        try:
+            staged.replace(destination)
+        except OSError:
+            if previous.exists():
+                previous.replace(destination)
+            raise
+    return stats
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check',action='store_true',help='Build in a temporary directory to verify without changing _site')
-    parser.add_argument('--output',type=Path,default=SITE)
+    parser.add_argument('--output',type=Path,default=SITE,help='Output directory (custom paths must be empty)')
     args=parser.parse_args()
     if args.check:
         with tempfile.TemporaryDirectory(prefix='qaroshi-pages-check-') as t:
             stats=stage(Path(t))
     else:
-        if args.output.resolve() == ROOT.resolve():
-            raise ValueError('Cannot stage into project root')
-        # Remove only the isolated generated _site folder, never source directories.
-        if args.output.exists():
-            shutil.rmtree(args.output)
-        stats=stage(args.output)
+        stats=publish(args.output)
     print(json.dumps(stats,indent=2))
 
 if __name__=='__main__':main()

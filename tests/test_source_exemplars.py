@@ -1,4 +1,7 @@
 """Opt-in 8.7 exemplar grammar: positive/negative, exact source, AST scope."""
+import json
+import subprocess
+import sys
 import unittest
 from dataclasses import replace
 from tools.grammar93.engine import Atom, Link, Sentence, Grammar, GrammarError
@@ -92,6 +95,14 @@ class ExemplarGrammarTests(unittest.TestCase):
         with self.assertRaises(GrammarError):
             Grammar().render(s)
         self.assertEqual(self.g.parse(self.g.render(s)),s)
+        for action, content in (("render", json.dumps(to_dict(s))),
+                                ("parse", self.g.render(s))):
+            with self.subTest(action=action):
+                result = subprocess.run(
+                    [sys.executable, "-m", "tools.grammar93.cli", "--source-exemplars", action, content],
+                    capture_output=True, text=True, check=True,
+                )
+                self.assertIn("97 exact 8.7 source pairings", json.loads(result.stdout)["scope"])
 
 
 if __name__=="__main__":

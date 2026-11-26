@@ -11,7 +11,7 @@ from __future__ import annotations
 import csv
 import json
 from pathlib import Path
-from tools.grammar93.engine import Atom, Grammar, GrammarError, Link, Sentence
+from tools.grammar93.engine import Atom, Grammar, GrammarError, Sentence
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = "data/standard_8/valency_overlay_8_7.json"
@@ -47,9 +47,11 @@ class SourceExemplarGrammar(Grammar):
                 or not r["semantic_boundary"].strip()
                 or verb not in lex or patient not in lex
                 or lex[verb]["id"] != r["dictionary_id"]
+                or lex[verb]["english"] != r["dictionary_gloss"]
                 or lex[patient]["id"] != r["attested_object_dictionary_id"]
                 or not source
                 or source["qaroshi"] != r["source_sentence"]
+                or source["english"] != r["source_translation"]
                 or source["qaroshi"] != f"sen mi {patient}-m {verb}" + ("-se." if verb == "shëroli" else ".")):
                 raise GrammarError("Source exemplar must match exact canonical verb, object, and corpus line: " + id_)
             seen_ids.add(id_)

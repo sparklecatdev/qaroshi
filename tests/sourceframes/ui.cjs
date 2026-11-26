@@ -21,6 +21,8 @@ for(const invalid of [
   ()=>app.compose('not-in-source'),
   ()=>app.compose('testverbaa',{tense:'ki'}),
   ()=>app.compose('testverbaa',{resonance:'unrecognized'}),
+  ()=>app.compose('testverbaa',{negative:'true'}),
+  ()=>app.compose('testverbaa',{question:1}),
 ])assert.throws(invalid);
 assert.match(app.renderCard(sample[0],{}),/Original controlled example/);
 assert.match(app.renderCard(sample[0],{tense:'yu'}),/EDITORIAL SYNTHETIC FORM/);
@@ -29,4 +31,7 @@ const html=app.renderCard(injected,{});
 assert(!html.includes('<img src='));
 assert(html.includes('&lt;img'));
 assert.throws(()=>context.window.QaroshiSourceFrames.create(sample.slice(1)));
+assert.throws(()=>context.window.QaroshiSourceFrames.create([
+  {...sample[0],patient:'othernoun'},...sample.slice(1),
+]),/integrity checks/);
 console.log('sourceframe UI: exact source validation, safe composition, provenance and escaping passed');

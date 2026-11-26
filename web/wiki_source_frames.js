@@ -12,19 +12,19 @@ function create(source){
     throw new Error('Exact 97-source edition is unavailable');
   const byVerb=new Map();
   for(const row of source){
-    if(byVerb.has(row.lemma)||row.human_attested!==false||
+    if(!row||byVerb.has(row.lemma)||row.human_attested!==false||
        row['review_status']!=='bounded_source_exemplar_not_general_frame'||
-       !/^sen mi [a-zë]+-m [a-zë]+(?:-se)?\.$/.test(row.source_sentence))
+       typeof row.patient!=='string'||typeof row.lemma!=='string'||
+       !/^[a-zë]+$/.test(row.patient)||!/^[a-zë]+$/.test(row.lemma)||
+       row.source_sentence!=='sen mi '+row.patient+'-m '+row.lemma+
+         (row.lemma==='shëroli'?'-se.':'.'))
       throw new Error('Source-only verb registry failed integrity checks');
     byVerb.set(row.lemma,row);
   }
   const allowedResonance=new Set(['sen','hë','më','zha']);
-  function compose(lemma,options={}){
+  function compose(lemma,{tense='',resonance='sen',negative=false,question=false}={}){
     const r=byVerb.get(lemma);
     if(!r)throw new Error('Unknown exact verb-object pairing');
-    const tense=options.tense||'';
-    const resonance=options.resonance||'sen';
-    const negative=options.negative===true,question=options.question===true;
     if(!['','te','yu'].includes(tense)||!allowedResonance.has(resonance)||
        typeof negative!=='boolean'||typeof question!=='boolean')
       throw new Error('Requested variation is outside evidence-gated syntax');
